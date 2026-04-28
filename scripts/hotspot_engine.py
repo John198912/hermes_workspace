@@ -33,13 +33,21 @@ from urllib.parse import urlparse
 # ============================================================
 # 配置
 # ============================================================
+# 带日期的报告文件名
+_today = datetime.now().strftime("%Y-%m-%d")
 DATA_DIR = os.path.expanduser("~/hermes_workspace/reports/hotspot")
 DAILY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_daily.json")
 WEEKLY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_weekly.json")
-DAILY_REPORT_FILE = os.path.join(DATA_DIR, "report_daily.md")
-WEEKLY_REPORT_FILE = os.path.join(DATA_DIR, "report_weekly.md")
-DAILY_DATA_FILE = os.path.join(DATA_DIR, "hotspot_daily.json")
-WEEKLY_DATA_FILE = os.path.join(DATA_DIR, "hotspot_weekly.json")
+DAILY_REPORT_FILE = os.path.join(DATA_DIR, f"report_daily_{_today}.md")
+WEEKLY_REPORT_FILE = os.path.join(DATA_DIR, f"report_weekly_{_today}.md")
+# 最新报告软链接（方便cron读取，始终指向最新的）
+DAILY_REPORT_LATEST = os.path.join(DATA_DIR, "report_daily.md")
+WEEKLY_REPORT_LATEST = os.path.join(DATA_DIR, "report_weekly.md")
+DAILY_DATA_FILE = os.path.join(DATA_DIR, f"hotspot_daily_{_today}.json")
+WEEKLY_DATA_FILE = os.path.join(DATA_DIR, f"hotspot_weekly_{_today}.json")
+# 最新JSON软链接
+DAILY_DATA_LATEST = os.path.join(DATA_DIR, "hotspot_daily.json")
+WEEKLY_DATA_LATEST = os.path.join(DATA_DIR, "hotspot_weekly.json")
 
 # 指纹过期：每日指纹保留7天，每周指纹保留30天
 FINGERPRINT_DAILY_TTL_DAYS = 7
@@ -1031,13 +1039,23 @@ if __name__ == "__main__":
         dedup_stats
     )
     
-    # 写入报告文件
+    # 写入带日期的报告文件
     report_file_path = DAILY_REPORT_FILE if mode == "daily" else WEEKLY_REPORT_FILE
+    latest_link = DAILY_REPORT_LATEST if mode == "daily" else WEEKLY_REPORT_LATEST
     with open(report_file_path, "w") as f:
         f.write(report)
+    # 更新软链接（指向最新）
+    if os.path.exists(latest_link) or os.path.islink(latest_link):
+        os.remove(latest_link)
+    os.symlink(os.path.basename(report_file_path), latest_link)
     
-    # 导出 JSON 数据（供 LLM 分析用）
+    # 导出 JSON 数据（带日期）
     json_file = export_collected_json(results, mode)
+    # 更新 JSON 软链接
+    latest_json = DAILY_DATA_LATEST if mode == "daily" else WEEKLY_DATA_LATEST
+    if os.path.exists(latest_json) or os.path.islink(latest_json):
+        os.remove(latest_json)
+    os.symlink(os.path.basename(json_file), latest_json)
     print(f"[hotspot_engine] 原始数据已导出：{json_file}（{len(results)} 条）")
     
     # 保存本次报告的所有指纹（供下一次预检）
