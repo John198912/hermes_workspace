@@ -1192,16 +1192,16 @@
   "1a10dbe430a91fa4db8342565b14594d": {
     "title": "Building solo is lonely... anyone actually found an accountability partner that works?",
     "source": "Reddit r/Entrepreneur",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:23.928450",
-    "last_seen": "2026-04-29T00:36:23.928450"
+    "last_seen": "2026-04-29T02:19:11.107417"
   },
   "a8b0a30cba447ff1be1b7145f3fb745e": {
     "title": "What jobs are mostly affected by AI according to a Microsoft study?",
     "source": "Reddit r/singularity",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:28.622629",
-    "last_seen": "2026-04-29T00:36:28.622629"
+    "last_seen": "2026-04-29T02:19:15.218028"
   },
   "de563cb9351ae30d158bb917878dad12": {
     "title": "The One Substrate Failure Behind Every AI System in 2026",
@@ -1213,9 +1213,9 @@
   "2811720ca91973e164cf5590a91ad265": {
     "title": "Podcast on teaching AI empathy using brain signals",
     "source": "Reddit r/artificial",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:30.498865",
-    "last_seen": "2026-04-29T00:36:30.498865"
+    "last_seen": "2026-04-29T02:19:17.441672"
   },
   "7b6feca4dab367fe2bfb3989a6215755": {
     "title": "OpenAI Partners With MediaTek, Qualcomm on AI Agent Phone",
@@ -1234,23 +1234,23 @@
   "9e29c719f5b27891407ed7e4186fc373": {
     "title": "Fast experiment on T4 GPU. Self play training on Dark Hex (Colab notebook) [P]",
     "source": "Reddit r/MachineLearning",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:32.803984",
-    "last_seen": "2026-04-29T00:36:32.803984"
+    "last_seen": "2026-04-29T02:19:19.992666"
   },
   "9c8ff5cdacd10417f0d00514af4e9967": {
     "title": "Dynamic batching for Encoder-Decoder MT training or generation when long sequence caps the batch size [P]",
     "source": "Reddit r/MachineLearning",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:32.810984",
-    "last_seen": "2026-04-29T00:36:32.810984"
+    "last_seen": "2026-04-29T02:19:19.996683"
   },
   "7ec7c6985c76300c5e26ca476e99f653": {
     "title": "IJCAI-ECAI'26: Chairingtool PaperStatus first changed to Rejected and now again to Submitted. [D]",
     "source": "Reddit r/MachineLearning",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:32.815193",
-    "last_seen": "2026-04-29T00:36:32.815193"
+    "last_seen": "2026-04-29T02:19:20.000721"
   },
   "05acb23da1513f2178cf9afff22fea4e": {
     "title": "The loss curve said tie. The judges said otherwise. Seeking replication for an early LLM training result [R]",
@@ -1262,9 +1262,9 @@
   "9cdfe05ba2ddb6661547390c19141ca1": {
     "title": "Anthropic Joins the Blender Development Fund as Corporate Patron",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:36.537786",
-    "last_seen": "2026-04-29T00:36:36.537786"
+    "last_seen": "2026-04-29T02:19:41.843338"
   },
   "0a1ce20ec60ee0aa8c8d3bba5b1145c3": {
     "title": "AI uncovers 38 vulnerabilities in largest open source medical record software",
@@ -1276,16 +1276,16 @@
   "833af7bfa5d402f5c1eceb1f6aa957ff": {
     "title": "Google and Pentagon reportedly agree on deal for 'any lawful' use of AI",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:43.256895",
-    "last_seen": "2026-04-29T00:36:43.256895"
+    "last_seen": "2026-04-29T02:19:33.765970"
   },
   "f224ca71d5883604b39cdb9fb3665463": {
     "title": "Show HN: Live Sun and Moon Dashboard with NASA Footage",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:45.084740",
-    "last_seen": "2026-04-29T00:36:45.084740"
+    "last_seen": "2026-04-29T02:19:27.770531"
   },
   "cb68c2bafb26d972d065a74fb4af8995": {
     "title": "Phone is about to stop being yours",
@@ -1297,9 +1297,9 @@
   "7dce95257eb79a69d9052c048ca2f452": {
     "title": "Deep under Antarctic ice, a long-predicted cosmic whisper breaks through",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:47.666197",
-    "last_seen": "2026-04-29T00:36:47.666197"
+    "last_seen": "2026-04-29T02:19:37.137476"
   },
   "cca7798002fc8ddbe84208c1f1a49544": {
     "title": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
@@ -1311,16 +1311,16 @@
   "5c08b31eff3974e7b6f0cd8bf4fe336d": {
     "title": "FCC Funding Application Notes Paramount Will Be 49.5% Foreign-Owned Post-Merger",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:50.719167",
-    "last_seen": "2026-04-29T00:36:50.719167"
+    "last_seen": "2026-04-29T02:19:34.778490"
   },
   "a6f8c4a4932d30dbbbb1c4027a58bf02": {
     "title": "GitHub Actions is the weakest link",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:51.759828",
-    "last_seen": "2026-04-29T00:36:51.759828"
+    "last_seen": "2026-04-29T02:19:38.047223"
   },
   "0ca364e339ead8dfd1b9afc46efa3ccb": {
     "title": "UAE Leaves OPEC and OPEC+",
@@ -1332,9 +1332,9 @@
   "117751964498f478330fd8dedb914848": {
     "title": "GitHub Copilot code review will start consuming GitHub Actions minutes",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:56.253562",
-    "last_seen": "2026-04-29T00:36:56.253562"
+    "last_seen": "2026-04-29T02:19:35.729788"
   },
   "f91d96a0d14e639b8288347c3864322f": {
     "title": "I Spent My Sabbatical Building a Power Meter for Sledgehammers",
@@ -1346,9 +1346,9 @@
   "36a3436a086fd46161c26fc55d7d8754": {
     "title": "PyWry: Cross-Platform Rendering Engine in Python",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:59.076489",
-    "last_seen": "2026-04-29T00:36:59.076489"
+    "last_seen": "2026-04-29T02:19:42.768874"
   },
   "d53055266930fa52295d96f8e1811733": {
     "title": "UAE to leave OPEC in blow to oil cartel",
@@ -1360,51 +1360,51 @@
   "3713321fd4a9330ea0c500a760e7d048": {
     "title": "微信朋友圈悄悄更新了",
     "source": "百度热搜",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:37:05.112860",
-    "last_seen": "2026-04-29T00:37:05.112860"
+    "last_seen": "2026-04-29T02:19:42.936192"
   },
   "f7e2ebb702da61cc43b2b686c1355404": {
     "title": "凤冠冰箱贴一年半销售300万件",
     "source": "百度热搜",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:37:05.118576",
-    "last_seen": "2026-04-29T00:37:05.118576"
+    "last_seen": "2026-04-29T02:19:42.944103"
   },
   "eba546a86fe5423a0cac909997e1043e": {
     "title": "坐飞机又要贵了",
     "source": "百度热搜",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:37:05.125749",
-    "last_seen": "2026-04-29T00:37:05.125749"
+    "last_seen": "2026-04-29T02:19:42.948806"
   },
   "97cd5dd1e9a3c9bd78ee72e692597135": {
     "title": "种蒜大户百亩蒜薹被近千人2天抽完",
     "source": "百度热搜",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:37:05.129458",
-    "last_seen": "2026-04-29T00:37:05.129458"
+    "last_seen": "2026-04-29T02:19:42.952843"
   },
   "b562ae92b89ae8284a85aa874fc7f3d0": {
     "title": "在长痛和短痛之间选择了剧痛",
     "source": "百度热搜",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:37:05.136830",
-    "last_seen": "2026-04-29T00:37:05.136830"
+    "last_seen": "2026-04-29T02:19:42.957901"
   },
   "cca2cef0d5f632b97ef65ea427be8055": {
     "title": "“股王”反复易主 “药茅”默默涨停",
     "source": "百度热搜",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:37:05.149124",
-    "last_seen": "2026-04-29T00:37:05.149124"
+    "last_seen": "2026-04-29T02:19:42.961730"
   },
   "3ac46bb51ce4a880a5307eb67bcf2eb9": {
     "title": "周乐伟主动投案 曾任格力集团董事长",
     "source": "百度热搜",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:37:05.151626",
-    "last_seen": "2026-04-29T00:37:05.151626"
+    "last_seen": "2026-04-29T02:19:42.973564"
   },
   "4c2a154e1c22e5fc881c413fdddfff95": {
     "title": "荣耀三连冠:AI技术推力解析",
@@ -1489,5 +1489,194 @@
     "seen_count": 1,
     "first_seen": "2026-04-29T00:37:06.274785",
     "last_seen": "2026-04-29T00:37:06.274785"
+  },
+  "abdc061a9f20c825a1a632033071256a": {
+    "title": "Google Signs Classified AI Deal With Pentagon Amid Employee Opposition",
+    "source": "Reddit r/singularity",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:15.225961",
+    "last_seen": "2026-04-29T02:19:15.225961"
+  },
+  "1ff22796577a0209b96bf7e8fd5092a2": {
+    "title": "AMDXDNA driver preps hardware scheduler time quantum for Ryzen AI multi-user fairness",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:17.427385",
+    "last_seen": "2026-04-29T02:19:17.427385"
+  },
+  "e16a168561f2d7228519d006c765301a": {
+    "title": "Arc Gate —LLM proxy that hits P=1.00 R=1.00 F1=1.00 on indirect/roleplay prompt injection (beats OpenAI Moderation and L",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:17.432549",
+    "last_seen": "2026-04-29T02:19:17.432549"
+  },
+  "9c2b8a606f41c61a1e949e30aa38cc7f": {
+    "title": "Relational AI, Identity Formation, and the Risk of Narrative Dependency",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:17.436516",
+    "last_seen": "2026-04-29T02:19:17.436516"
+  },
+  "74c9ff9a65b53f3edc15679af1c96c03": {
+    "title": "Visualizing Loss Landscapes of Neural Networks [P]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:19.985209",
+    "last_seen": "2026-04-29T02:19:19.985209"
+  },
+  "86ff0ccf94030e7d95842e7aa3807580": {
+    "title": "AISLE Discovers 38 CVEs in OpenEMR Healthcare Software",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:22.743355",
+    "last_seen": "2026-04-29T02:19:22.743355"
+  },
+  "5c4fca6e0f53dc50caff37b3aa35a94b": {
+    "title": "Laguna XS.2 and M.1",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:25.453697",
+    "last_seen": "2026-04-29T02:19:25.453697"
+  },
+  "3abb8613641b881a42fe733a1d7c223a": {
+    "title": "Claude.ai is unavailable",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:26.895126",
+    "last_seen": "2026-04-29T02:19:26.895126"
+  },
+  "d749fcf7cf7bcfd8ecbe718773529bab": {
+    "title": "Things C++26 define_static_array can't do",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:29.212726",
+    "last_seen": "2026-04-29T02:19:29.212726"
+  },
+  "b40e4fabc681a3cc7904e9949a54420f": {
+    "title": "I have officially retired from Emacs",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:32.638756",
+    "last_seen": "2026-04-29T02:19:32.638756"
+  },
+  "6322f9b9f6ed93ffc59927094afee0f0": {
+    "title": "GitHub RCE Vulnerability: CVE-2026-3854 Breakdown",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:39.912143",
+    "last_seen": "2026-04-29T02:19:39.912143"
+  },
+  "e1ab550a10b3ae96c4a7472988780d7d": {
+    "title": "ASML became the chokepoint for cutting-edge chips",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:40.851365",
+    "last_seen": "2026-04-29T02:19:40.851365"
+  },
+  "ec1a295acac2e71e89bd5d2ce740c526": {
+    "title": "博主打假合成羊肉卷 官方检测为真肉",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:42.966583",
+    "last_seen": "2026-04-29T02:19:42.966583"
+  },
+  "3c53e4e21c77cf9577c33db084d0772c": {
+    "title": "初中生淘到3本毒气战资料初鉴为真",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:42.970198",
+    "last_seen": "2026-04-29T02:19:42.970198"
+  },
+  "11926ed9bf9df3f91d43acb777835398": {
+    "title": "AI开始惦记&ldquo;替你花钱&rdquo;",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.410659",
+    "last_seen": "2026-04-29T02:19:43.410659"
+  },
+  "c1c78a5817ef08af2050d2a32ebcafc3": {
+    "title": "AI开发挑战与应对策略(复盘记录)",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.416741",
+    "last_seen": "2026-04-29T02:19:43.416741"
+  },
+  "c63bfc8960370275ea95c7db08a04679": {
+    "title": "AI进入&ldquo;军工、资本与端侧设备&rdquo;三线扩张",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.423179",
+    "last_seen": "2026-04-29T02:19:43.423179"
+  },
+  "f25627269ce707aa7156646778b2bda5": {
+    "title": "AI 时代,企业最值钱的东西变了",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.427598",
+    "last_seen": "2026-04-29T02:19:43.427598"
+  },
+  "d0337b316ece4ac31753ac15321a393f": {
+    "title": "AI 日报 | 4月28日 &middot; 智联网",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.431824",
+    "last_seen": "2026-04-29T02:19:43.431824"
+  },
+  "ed222cada9123fc0b2f62550ccca4bc7": {
+    "title": "大模型不是巨头的宠物",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.803611",
+    "last_seen": "2026-04-29T02:19:43.803611"
+  },
+  "b27b93a2a4e5f1115bb62c5612a3cd5d": {
+    "title": "大模型训练有多卷?揭开大模型算力之谜 | 钛媒体深度",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.809923",
+    "last_seen": "2026-04-29T02:19:43.809923"
+  },
+  "5497231af9d3e988b915d75461610525": {
+    "title": "盘古负责人出走,华为大模型的下一站在哪",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:43.813689",
+    "last_seen": "2026-04-29T02:19:43.813689"
+  },
+  "583b189ad244af0477544ef9039188a3": {
+    "title": "&ldquo;你的岗位被AI取代了&rdquo;,杭州35岁男子突然收到通知,拒绝大幅降薪后被开除&hellip;&hellip;法院:公司违法,支付2N赔偿金",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:44.084879",
+    "last_seen": "2026-04-29T02:19:44.084879"
+  },
+  "cf2f155ff805d0f54129e1840ba3c34a": {
+    "title": "德国人越来越多地使用人工智能,&ldquo;什么时候能用上我们欧洲自己的AI?&rdquo;",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:44.091856",
+    "last_seen": "2026-04-29T02:19:44.091856"
+  },
+  "f5ad4949f904aec8da44b2d7ea811901": {
+    "title": "AI新模型&ldquo;像素级&rdquo;复刻现实,网友称很震惊,记者实测:假图在各平台遭遇零拦截",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:44.096273",
+    "last_seen": "2026-04-29T02:19:44.096273"
+  },
+  "0a4ddd2a9fef5aeddcab08d723957a23": {
+    "title": "人工智能时代,到底什么才是有用的?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:44.100352",
+    "last_seen": "2026-04-29T02:19:44.100352"
+  },
+  "45bfe61b230e508358d0ebaedb2df4a1": {
+    "title": "693)驾驭人工智能:人工智能开发者与用户之间控制-问责协调理论",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T02:19:44.105304",
+    "last_seen": "2026-04-29T02:19:44.105304"
   }
 }
