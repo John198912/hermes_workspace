@@ -45,6 +45,11 @@ WEEKLY_DATA_FILE = os.path.join(DATA_DIR, "hotspot_weekly.json")
 FINGERPRINT_DAILY_TTL_DAYS = 7
 FINGERPRINT_WEEKLY_TTL_DAYS = 30
 
+# 高质量源（Reddit/HN等）的去重阈值更高——允许重复出现更多次
+HIGH_QUALITY_SOURCES = ["Reddit", "HackerNews"]
+HIGH_QUALITY_EXCLUDE_THRESHOLD = 6  # 高质量源seen_count>=6才排除
+DEFAULT_EXCLUDE_THRESHOLD = 3
+
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
@@ -110,16 +115,23 @@ class FingerprintStore:
             }
         self._save()
     
-    def should_exclude(self, fingerprint: str) -> bool:
+    def should_exclude(self, fingerprint: str, source: str = "") -> bool:
         """
         判断是否应该排除：
-        - seen_count >= 3 且 mode=daily（已在前2次日报中出现过，第3次排除）
-        - seen_count >= 2 且 mode=weekly
+        - 高质量源（Reddit/HN等）：seen_count >= HIGH_QUALITY_EXCLUDE_THRESHOLD
+        - 普通源：seen_count >= DEFAULT_EXCLUDE_THRESHOLD（日报）或 2（周报）
         """
         if fingerprint not in self.fingerprints:
             return False
-        threshold = 3 if self.mode == "daily" else 2
-        return self.fingerprints[fingerprint]["seen_count"] >= threshold
+        record = self.fingerprints[fingerprint]
+        seen = record["seen_count"]
+        if self.mode == "daily":
+            # 判断是否高质量源
+            is_high_quality = any(hq in source for hq in HIGH_QUALITY_SOURCES) if source else False
+            threshold = HIGH_QUALITY_EXCLUDE_THRESHOLD if is_high_quality else DEFAULT_EXCLUDE_THRESHOLD
+            return seen >= threshold
+        else:
+            return seen >= 2
     
     def get_marked_count(self, fingerprint: str) -> int:
         """获取该指纹已被标记的次数"""
@@ -170,12 +182,14 @@ class SourceCollector:
     
     def _add_result(self, title: str, source: str, url: str, snippet: str, 
                     platform: str, tags: list, platform_rating: str = "B",
-                    source_type: str = "web"):
+                    source_type: str = "web",
+                    source_quality: str = "B",  # A=高可信, B=中等, C=噪声多
+                    relevance_hint: str = ""):  # 对赛道的预判，给LLM参考
         """添加采集结果（经过指纹去重后）"""
         fp = FingerprintStore.make_fingerprint(title, source, url)
         
         # 如果指纹已被排除（seen太多遍），跳过
-        if self.fp.should_exclude(fp):
+        if self.fp.should_exclude(fp, source):
             return
         
         # 记录新采集
@@ -183,6 +197,16 @@ class SourceCollector:
         
         # 计算这是第几次出现（用于标记）
         seen_count = self.fp.fingerprints[fp]["seen_count"]
+        
+        # 自动推算relevance_hint（如果没有显式传入）
+        if not relevance_hint:
+            ai_kws = ['ai', 'llm', 'gpt', 'agent', '大模型', '人工智能', 'chatgpt', 'openai', 
+                      '模型', '算法', '自动化', '失业', '裁员', '35岁', '转型', '自由职业',
+                      '副业', '创业', '个人品牌', '知识付费', '超级个体', '一人']
+            title_lower = title.lower()
+            matched = [kw for kw in ai_kws if kw.lower() in title_lower]
+            if matched:
+                relevance_hint = f"命中关键词: {', '.join(matched)}"
         
         self.collected.append({
             "fingerprint": fp,
@@ -193,6 +217,8 @@ class SourceCollector:
             "platform": platform,
             "platform_rating": platform_rating,
             "source_type": source_type,
+            "source_quality": source_quality,  # 新增：源质量分级
+            "relevance_hint": relevance_hint,    # 新增：相关性预判
             "tags": tags,
             "is_repeat": seen_count > 1,
             "repeat_count": seen_count - 1,
@@ -347,7 +373,9 @@ class SourceCollector:
                             snippet=f"播放:{item.get('stat',{}).get('view','?')} 弹幕:{item.get('stat',{}).get('danmaku','?')} | {item.get('owner',{}).get('name','')}",
                             platform="bilibili",
                             tags=["B站热门"],
-                            platform_rating="A"
+                            platform_rating="A",
+                            source_quality="B",
+                            relevance_hint=""
                         )
                     return
             except Exception as e:
@@ -367,57 +395,13 @@ class SourceCollector:
         })
     
     def collect_36kr(self):
-        """36氪科技资讯 — 全量采集"""
-        # 尝试数据API（优先）
-        api_html = self._try_web("https://36kr.com/pp/api/newsflash")
-        if api_html:
-            try:
-                data = json.loads(api_html)
-                items = data.get("data", {}).get("items", [])
-                if items:
-                    for item in items[:20]:
-                        title = item.get("title", "") or item.get("description", "")
-                        if title and len(title) > 5:
-                            self._add_result(
-                                title=title[:80],
-                                source="36氪",
-                                url=item.get("news_url", "https://36kr.com"),
-                                snippet=title[:200],
-                                platform="36kr",
-                                tags=["科技资讯"],
-                                platform_rating="A"
-                            )
-                    return
-            except:
-                pass
-        
-        # fallback: HTML提取
-        html = self._try_web("https://36kr.com/newsflashes")
-        if not html:
-            self.unknown_sources.append({
-                "source": "36氪快讯",
-                "method": "HTTP直连",
-                "status": "失败",
-                "suggestion": "检查36kr.com/newsflashes是否可访问"
-            })
-            return
-        text = self._extract_text(html)
-        count = 0
-        for match in re.finditer(r'"title"\s*:\s*"([^"]+)"', html):
-            title = match.group(1)
-            if count >= 20:
-                break
-            if len(title) > 5:
-                self._add_result(
-                    title=title[:80],
-                    source="36氪",
-                    url="https://36kr.com",
-                    snippet=title[:200],
-                    platform="36kr",
-                    tags=["科技资讯"],
-                    platform_rating="A"
-                )
-                count += 1
+        """36氪 — API不稳定且有老旧数据，暂时禁用，标记为受限源"""
+        self.unknown_sources.append({
+            "source": "36氪快讯",
+            "method": "API",
+            "status": "已禁用 — API不稳定，返回老旧缓存（2020年数据）",
+            "suggestion": "Agent可通过web_search搜索36kr.com获取最新AI资讯"
+        })
     
     def collect_ai_newsletters(self):
         """AI行业周报/newsletter"""
@@ -483,7 +467,9 @@ class SourceCollector:
                         snippet=f"↑{score} | HN热门",
                         platform="hackernews",
                         tags=["海外讨论"],
-                        platform_rating="A"
+                        platform_rating="A",
+                        source_quality="A",  # 高质量技术社区
+                        relevance_hint=""  # 让自动推算
                     )
         except (json.JSONDecodeError, KeyError) as e:
             self.unknown_sources.append({
@@ -494,7 +480,7 @@ class SourceCollector:
             })
     
     def collect_baidu_hot(self):
-        """百度热搜 — 从HTML中提取热搜词条"""
+        """百度热搜 — 只采top30，标记为C类（噪声多）"""
         html = self._try_web("https://top.baidu.com/board?tab=realtime", timeout=10)
         if not html:
             self.unknown_sources.append({
@@ -504,10 +490,20 @@ class SourceCollector:
                 "suggestion": "尝试移动版 m.baidu.com/s?word=热搜榜"
             })
             return
-        # 百度热搜使用 "word" 作为key
+        # 百度热搜使用 "word" 作为key，只取前30条
+        count = 0
         for match in re.finditer(r'"word":"([^"]+)"', html):
             word = match.group(1)
+            if count >= 20:
+                break
             if len(word) > 5 and not word.startswith('百度'):
+                count += 1
+                # 赛道相关关键词预判
+                relevance = ""
+                if any(kw in word.lower() for kw in ['ai', '模型', '裁员', '转型', '创业', '就业', '35',
+                                                      'chatgpt', '人工智能', '技术', '工作', '数字', '科技',
+                                                      '失业', '副业', '自由', '升级', '教育', '创新']):
+                    relevance = f"初步判断可能相关：含赛道关键词"
                 self._add_result(
                     title=word[:80],
                     source="百度热搜",
@@ -515,7 +511,9 @@ class SourceCollector:
                     snippet=f"百度热搜: {word}",
                     platform="baidu",
                     tags=["百度热搜"],
-                    platform_rating="A"
+                    platform_rating="A",
+                    source_quality="C",  # C类——噪声多，让LLM严格筛选
+                    relevance_hint=relevance  # 预判相关性
                 )
     
     def collect_sogou_weixin(self):
@@ -553,7 +551,9 @@ class SourceCollector:
                         snippet=f"微信文章 | 关键词: {kw}",
                         platform="weixin",
                         tags=["国内内容", "微信文章"],
-                        platform_rating="A"
+                        platform_rating="A",
+                        source_quality="B",
+                        relevance_hint=""
                     )
             
             if items_found == 0:
@@ -571,7 +571,9 @@ class SourceCollector:
                             snippet=f"微信文章 | 关键词: {kw}",
                             platform="weixin",
                             tags=["国内内容", "微信文章"],
-                            platform_rating="A"
+                            platform_rating="A",
+                            source_quality="B",
+                            relevance_hint=""
                         )
             
             if items_found == 0 and kw == keywords[0]:
@@ -675,7 +677,9 @@ class SourceCollector:
                             snippet=f"↑{pdata.get('ups',0)} | {pdata.get('num_comments',0)}条评论",
                             platform="reddit",
                             tags=["海外讨论"],
-                            platform_rating="A"
+                            platform_rating="A",
+                            source_quality="A",  # 高质量社区讨论
+                            relevance_hint=""  # 让自动推算
                         )
             except:
                 continue
@@ -745,7 +749,6 @@ class SourceCollector:
     def run_daily_collection(self):
         """执行每日采集（所有信息源，每个源独立try-except防止单源失败阻塞全流程）"""
         collectors = [
-            self.collect_36kr,
             self.collect_reddit_hot,
             self.collect_hackernews,
             self.collect_baidu_hot,
@@ -943,6 +946,8 @@ def export_collected_json(collected: list, mode: str) -> str:
                 "snippet": item.get("snippet", ""),
                 "platform": item.get("platform", ""),
                 "platform_rating": item.get("platform_rating", "B"),
+                "source_quality": item.get("source_quality", "B"),
+                "relevance_hint": item.get("relevance_hint", ""),
                 "tags": item.get("tags", []),
                 "is_repeat": item.get("is_repeat", False),
                 "repeat_count": item.get("repeat_count", 0),
