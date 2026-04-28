@@ -38,6 +38,8 @@ DAILY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_daily.json")
 WEEKLY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_weekly.json")
 DAILY_REPORT_FILE = os.path.join(DATA_DIR, "report_daily.md")
 WEEKLY_REPORT_FILE = os.path.join(DATA_DIR, "report_weekly.md")
+DAILY_DATA_FILE = os.path.join(DATA_DIR, "hotspot_daily.json")
+WEEKLY_DATA_FILE = os.path.join(DATA_DIR, "hotspot_weekly.json")
 
 # 指纹过期：每日指纹保留7天，每周指纹保留30天
 FINGERPRINT_DAILY_TTL_DAYS = 7
@@ -927,6 +929,47 @@ def generate_markdown_report(collected: list, mode: str, unknown_sources: list,
     return "\n".join(lines)
 
 
+def export_collected_json(collected: list, mode: str) -> str:
+    """将采集的原始数据导出为 JSON 文件，供后续 LLM 分析使用"""
+    data = {
+        "mode": mode,
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "total": len(collected),
+        "items": [
+            {
+                "title": item["title"],
+                "source": item["source"],
+                "url": item["url"],
+                "snippet": item.get("snippet", ""),
+                "platform": item.get("platform", ""),
+                "platform_rating": item.get("platform_rating", "B"),
+                "tags": item.get("tags", []),
+                "is_repeat": item.get("is_repeat", False),
+                "repeat_count": item.get("repeat_count", 0),
+                "fingerprint": item.get("fingerprint", ""),
+            }
+            for item in collected
+        ],
+        "stats": {
+            "by_platform": {},
+            "by_rating": {"S": 0, "A": 0, "B": 0},
+        }
+    }
+
+    for item in data["items"]:
+        p = item["platform"]
+        r = item["platform_rating"]
+        data["stats"]["by_platform"][p] = data["stats"]["by_platform"].get(p, 0) + 1
+        if r in data["stats"]["by_rating"]:
+            data["stats"]["by_rating"][r] += 1
+
+    data_file = DAILY_DATA_FILE if mode == "daily" else WEEKLY_DATA_FILE
+    with open(data_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    return data_file
+
+
 # ============================================================
 # 主入口
 # ============================================================
@@ -987,6 +1030,10 @@ if __name__ == "__main__":
     report_file_path = DAILY_REPORT_FILE if mode == "daily" else WEEKLY_REPORT_FILE
     with open(report_file_path, "w") as f:
         f.write(report)
+    
+    # 导出 JSON 数据（供 LLM 分析用）
+    json_file = export_collected_json(results, mode)
+    print(f"[hotspot_engine] 原始数据已导出：{json_file}（{len(results)} 条）")
     
     # 保存本次报告的所有指纹（供下一次预检）
     result_fingerprints = [r["fingerprint"] for r in results]
