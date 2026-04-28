@@ -1,0 +1,688 @@
+{
+  "de28e942d7384d80c0a43355d4ad9b8c": {
+    "title": "Everyone thinks your business idea sucks, stop taking advice from strangers and just start",
+    "source": "Reddit r/Entrepreneur",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:20.990974",
+    "last_seen": "2026-04-29T00:31:55.813540"
+  },
+  "1a10dbe430a91fa4db8342565b14594d": {
+    "title": "Building solo is lonely... anyone actually found an accountability partner that works?",
+    "source": "Reddit r/Entrepreneur",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:20.992442",
+    "last_seen": "2026-04-29T00:31:55.816127"
+  },
+  "ebb259fc39a13f928baca28ceb653672": {
+    "title": "The Adobe  Runway deal quietly changed something for small businesses which nobody's talking about it",
+    "source": "Reddit r/Entrepreneur",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:20.992989",
+    "last_seen": "2026-04-29T00:31:55.817836"
+  },
+  "f896d95fba5b4c3e2b39313184f77e27": {
+    "title": "How are you marketing your solopreneur business?",
+    "source": "Reddit r/solopreneur",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:42.398508",
+    "last_seen": "2026-04-29T00:31:58.721536"
+  },
+  "f5e6f4fe80875e4d6ca49bd2a45201d7": {
+    "title": "To successful solopreneurs (20K+ MRR): How would you start your next product?",
+    "source": "Reddit r/solopreneur",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:42.400140",
+    "last_seen": "2026-04-29T00:31:58.724964"
+  },
+  "214192a606d10028501f24f27fe3eacd": {
+    "title": "I help business owners consistently attract high-quality customers.",
+    "source": "Reddit r/solopreneur",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:42.401231",
+    "last_seen": "2026-04-29T00:31:58.727718"
+  },
+  "cc257e608c7f1ced9a2834d6ccfcd000": {
+    "title": "For solo service businesses, where does admin actually break?",
+    "source": "Reddit r/solopreneur",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:42.401934",
+    "last_seen": "2026-04-29T00:31:58.730265"
+  },
+  "210b2be7d9ec9b17263226a37a539b76": {
+    "title": "Talkie, a 13B LM trained exclusively on pre-1931 data",
+    "source": "Reddit r/singularity",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:55.303726",
+    "last_seen": "2026-04-29T00:32:02.602141"
+  },
+  "4a09c2f67b1f0637b5a44005246bc6ed": {
+    "title": "OpenAI ends its exclusive partnership with Microsoft",
+    "source": "Reddit r/singularity",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:55.306875",
+    "last_seen": "2026-04-29T00:32:02.605830"
+  },
+  "7548559fb4a3da185a9cea835f654af9": {
+    "title": "DeepMind's David Silver just raised $1.1B to build an AI that learns without human data",
+    "source": "Reddit r/singularity",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:55.308178",
+    "last_seen": "2026-04-29T00:32:02.608904"
+  },
+  "a8b0a30cba447ff1be1b7145f3fb745e": {
+    "title": "What jobs are mostly affected by AI according to a Microsoft study?",
+    "source": "Reddit r/singularity",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:50:55.309404",
+    "last_seen": "2026-04-29T00:32:02.610913"
+  },
+  "608622f0e379d8556cdf81b915b1a390": {
+    "title": "A comedian’s strategy for poisoning AI training data",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.103061",
+    "last_seen": "2026-04-29T00:32:06.083075"
+  },
+  "92c9e9ddda528db74aea3a3492b6b296": {
+    "title": "Is it reasonable to force AI companies to produce at least half of their electricity?",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.104397",
+    "last_seen": "2026-04-29T00:32:06.085316"
+  },
+  "3c3a77d6da065fa0b2bca8d8753ff8d1": {
+    "title": "Google signs deal with Pentagon, allowing 'any lawful' use of AI models",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.105193",
+    "last_seen": "2026-04-29T00:32:06.087212"
+  },
+  "ccdd1e2de833d0a441314b0e9069d293": {
+    "title": "What will be the first major catastrophe caused by a rogue AI agent?",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.105710",
+    "last_seen": "2026-04-29T00:32:06.088979"
+  },
+  "aea1c94e92d73b94a93492a02f107269": {
+    "title": "AI in Medicine - PLEASE give me your opinions good and bad for my journalism paper",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.107400",
+    "last_seen": "2026-04-29T00:32:06.091174"
+  },
+  "2811720ca91973e164cf5590a91ad265": {
+    "title": "Podcast on teaching AI empathy using brain signals",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.108386",
+    "last_seen": "2026-04-29T00:32:06.093167"
+  },
+  "7b6feca4dab367fe2bfb3989a6215755": {
+    "title": "OpenAI Partners With MediaTek, Qualcomm on AI Agent Phone",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.109147",
+    "last_seen": "2026-04-29T00:32:06.095244"
+  },
+  "39d8ee7f346036bf39c3248bfabc23a5": {
+    "title": "If AI is about to get 10x smarter, how do we prevent the internet from collapsing under synthetic noise?",
+    "source": "Reddit r/artificial",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:02.109713",
+    "last_seen": "2026-04-29T00:32:06.096580"
+  },
+  "9e29c719f5b27891407ed7e4186fc373": {
+    "title": "Fast experiment on T4 GPU. Self play training on Dark Hex (Colab notebook) [P]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:07.173486",
+    "last_seen": "2026-04-29T00:32:09.971158"
+  },
+  "9c8ff5cdacd10417f0d00514af4e9967": {
+    "title": "Dynamic batching for Encoder-Decoder MT training or generation when long sequence caps the batch size [P]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:07.174919",
+    "last_seen": "2026-04-29T00:32:09.973021"
+  },
+  "7ec7c6985c76300c5e26ca476e99f653": {
+    "title": "IJCAI-ECAI'26: Chairingtool PaperStatus first changed to Rejected and now again to Submitted. [D]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:07.175848",
+    "last_seen": "2026-04-29T00:32:09.975378"
+  },
+  "aa0cea5cbd91db12d2062556c11f1f4a": {
+    "title": "How do you test AI agents in production? The unpredictability is overwhelming.[D]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:07.176575",
+    "last_seen": "2026-04-29T00:32:09.977926"
+  },
+  "05acb23da1513f2178cf9afff22fea4e": {
+    "title": "The loss curve said tie. The judges said otherwise. Seeking replication for an early LLM training result [R]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:07.177530",
+    "last_seen": "2026-04-29T00:32:09.979772"
+  },
+  "883152ce5f3372692094e39257c064e1": {
+    "title": "Localsend: An open-source cross-platform alternative to AirDrop",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-04-28T23:51:12.522209",
+    "last_seen": "2026-04-29T00:32:16.218654"
+  },
+  "d18e94ceb409cd02f207a3fb1e6d44f0": {
+    "title": "Microsoft VibeVoice: Open-Source Frontier Voice AI",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-04-28T23:51:16.235856",
+    "last_seen": "2026-04-29T00:32:21.301073"
+  },
+  "f224ca71d5883604b39cdb9fb3665463": {
+    "title": "Show HN: Live Sun and Moon Dashboard with NASA Footage",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-04-28T23:51:18.652461",
+    "last_seen": "2026-04-29T00:32:25.044632"
+  },
+  "7dce95257eb79a69d9052c048ca2f452": {
+    "title": "Deep under Antarctic ice, a long-predicted cosmic whisper breaks through",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:22.366198",
+    "last_seen": "2026-04-29T00:32:26.481427"
+  },
+  "cca7798002fc8ddbe84208c1f1a49544": {
+    "title": "OpenAI CEO's Identity Verification Company Announced Fake Bruno Mars Partnership",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:27.552532",
+    "last_seen": "2026-04-29T00:32:30.723550"
+  },
+  "64a09bb5e45bf939a416ba8e56aa06db": {
+    "title": "Talkie: a 13B vintage language model from 1930",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:31.672980",
+    "last_seen": "2026-04-29T00:32:34.815205"
+  },
+  "0ca364e339ead8dfd1b9afc46efa3ccb": {
+    "title": "UAE Leaves OPEC and OPEC+",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:35.967415",
+    "last_seen": "2026-04-29T00:32:39.069280"
+  },
+  "f91d96a0d14e639b8288347c3864322f": {
+    "title": "I Spent My Sabbatical Building a Power Meter for Sledgehammers",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:38.930034",
+    "last_seen": "2026-04-29T00:32:45.783042"
+  },
+  "80be4874ddd17ae0b825e1ceb850fbb9": {
+    "title": "Period tracking app has been yapping about your flow to Meta",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:43.170284",
+    "last_seen": "2026-04-29T00:32:48.240978"
+  },
+  "7768b5e5db506f01cfca39818ae2ddce": {
+    "title": "The predictable failure of the QDay Prize",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:51:45.905548",
+    "last_seen": "2026-04-29T00:32:50.728303"
+  },
+  "d53055266930fa52295d96f8e1811733": {
+    "title": "UAE to leave OPEC in blow to oil cartel",
+    "source": "HackerNews",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:51:48.370047",
+    "last_seen": "2026-04-28T23:54:13.378429"
+  },
+  "ad2adf6d6f0b404fcc75040c4699a8ef": {
+    "title": "Is my blue your blue? (2024)",
+    "source": "HackerNews",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:51:51.062352",
+    "last_seen": "2026-04-28T23:54:15.551304"
+  },
+  "32e1a647a5b08cfa7ead077ef7c6c9bd": {
+    "title": "WASM is not quite a stack machine",
+    "source": "HackerNews",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:51:54.783811",
+    "last_seen": "2026-04-28T23:54:17.920943"
+  },
+  "47abfe89fa079dfab51356a0351a0374": {
+    "title": "Voice Modems",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:52:00.967768",
+    "last_seen": "2026-04-29T00:32:53.031103"
+  },
+  "fe1a1b105ccf9443070bd721548031d6": {
+    "title": "The World's Most Complex Machine",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:52:04.774154",
+    "last_seen": "2026-04-29T00:32:54.479414"
+  },
+  "117751964498f478330fd8dedb914848": {
+    "title": "GitHub Copilot code review will start consuming GitHub Actions minutes",
+    "source": "HackerNews",
+    "seen_count": 3,
+    "first_seen": "2026-04-28T23:52:07.257858",
+    "last_seen": "2026-04-29T00:32:47.097901"
+  },
+  "49a908432cef9ada8ab3004a10166b65": {
+    "title": "An Update on GitHub Availability",
+    "source": "HackerNews",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:52:09.891721",
+    "last_seen": "2026-04-28T23:54:31.704305"
+  },
+  "5d3a949683cd281cd1a68856d956651e": {
+    "title": "Pgrx: Build Postgres Extensions with Rust",
+    "source": "HackerNews",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:52:14.284840",
+    "last_seen": "2026-04-28T23:54:34.451208"
+  },
+  "70a112902d9ea65419b1f7916948cdf8": {
+    "title": "前8天：穿越罗布泊无人区  第9天：主角突然换人",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.913742",
+    "last_seen": "2026-04-29T00:32:55.019306"
+  },
+  "3a12348b7d112e16035b2dcf2bfbbdfe": {
+    "title": "震撼世界的72天：巴黎公社为何爆发？又为何失败？【历史调研室71】",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.915537",
+    "last_seen": "2026-04-29T00:32:55.021599"
+  },
+  "7347f1371d058b95977486a1fb65f5ca": {
+    "title": "我被电视剧片头曲“模仿”了却无能为力",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.916986",
+    "last_seen": "2026-04-29T00:32:55.024241"
+  },
+  "e493a9d4f9d2bf1f1c738458f8f05d58": {
+    "title": "为什么中国人对一道菜的最高评价是\"下饭\"?",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.919387",
+    "last_seen": "2026-04-29T00:32:55.027274"
+  },
+  "9e29b26ea3af020f7aaf5fc33a766096": {
+    "title": "深度|| 香火之战，车迟国的教皇实验",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.920496",
+    "last_seen": "2026-04-29T00:32:55.029406"
+  },
+  "86cbbe8e13b8f9ace0407da65fd52678": {
+    "title": "为什么人类需要不断吃盐，而动物们却不用？",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.921705",
+    "last_seen": "2026-04-29T00:32:55.031240"
+  },
+  "cd5bb3ab036e10842658261bf586a007": {
+    "title": "垃圾场上的妙妙屋【日本世博会】",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.922862",
+    "last_seen": "2026-04-29T00:32:55.032973"
+  },
+  "b09e23e06348934e78ff30eca90356e7": {
+    "title": "快递怎么寄能更便宜？#涨知识 #生活小妙招 #寄快递省钱的技巧",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.924024",
+    "last_seen": "2026-04-29T00:32:55.034930"
+  },
+  "0a89e7c0d4b0531736990636e5a5721f": {
+    "title": "现场实验：黄河边硬地变淤泥，看起来安全却暗藏凶险，千万要警惕！",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.925322",
+    "last_seen": "2026-04-29T00:32:55.036395"
+  },
+  "fb7482bc36c50b345cd7647444fc0a9a": {
+    "title": "【罗翔】张三侮辱骨灰到底犯不犯法？法律人为何这么“抠字眼”？",
+    "source": "B站科技区",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:53:34.927138",
+    "last_seen": "2026-04-29T00:32:55.037948"
+  },
+  "8bf18eb8bd00300070ef5c24f1810536": {
+    "title": "GTFOBins",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-28T23:54:35.923810",
+    "last_seen": "2026-04-28T23:54:35.923810"
+  },
+  "db7ab1b2e43546b59f6912e61d096aa8": {
+    "title": "Tiled Words 6 Month Update",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-28T23:54:37.853381",
+    "last_seen": "2026-04-28T23:54:37.853381"
+  },
+  "204d3ff9634dcb22d565be1609691734": {
+    "title": "真正的共产党人就应该堂堂正正",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.016143",
+    "last_seen": "2026-04-29T00:32:54.749400"
+  },
+  "3713321fd4a9330ea0c500a760e7d048": {
+    "title": "微信朋友圈悄悄更新了",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.018271",
+    "last_seen": "2026-04-29T00:32:54.751631"
+  },
+  "f7e2ebb702da61cc43b2b686c1355404": {
+    "title": "凤冠冰箱贴一年半销售300万件",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.019334",
+    "last_seen": "2026-04-29T00:32:54.753474"
+  },
+  "da152bdab44203077eb04386059d583d": {
+    "title": "多地推出沉浸体验游",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.020439",
+    "last_seen": "2026-04-29T00:32:54.755563"
+  },
+  "5b1f63f70df2ae91bf93dbe83a265f5f": {
+    "title": "你给商家的差评 正被明码标价删除",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.021521",
+    "last_seen": "2026-04-29T00:32:54.757247"
+  },
+  "eba546a86fe5423a0cac909997e1043e": {
+    "title": "坐飞机又要贵了",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.022523",
+    "last_seen": "2026-04-29T00:32:54.758748"
+  },
+  "711383ab949326604ad7adbe9bbf814c": {
+    "title": "国产螺丝刀成了老外的梦中情刀",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.023709",
+    "last_seen": "2026-04-29T00:32:54.767906"
+  },
+  "adfe5b169ee21895996b31eb867df7d7": {
+    "title": "赵心童连丢5局3-5落后墨菲",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-28T23:54:38.025119",
+    "last_seen": "2026-04-28T23:54:38.025119"
+  },
+  "b562ae92b89ae8284a85aa874fc7f3d0": {
+    "title": "在长痛和短痛之间选择了剧痛",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.026520",
+    "last_seen": "2026-04-29T00:32:54.765726"
+  },
+  "25538f343e06a78be054ef55ebb0fee1": {
+    "title": "阿联酋宣布将退出欧佩克",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.028057",
+    "last_seen": "2026-04-29T00:32:54.770193"
+  },
+  "9a83162ae94f375de84cb9765fe7c012": {
+    "title": "建议亲人去世一两个月后主动查负债",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.029597",
+    "last_seen": "2026-04-29T00:32:54.763271"
+  },
+  "83ef2c12bb1765f9939f80031521dc9e": {
+    "title": "国资委46号令重新核算养老金不实",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.031365",
+    "last_seen": "2026-04-29T00:32:54.774551"
+  },
+  "14f6834da3bea604091367cf743a43bb": {
+    "title": "中方：美国先把欠费缴清再说话",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.032830",
+    "last_seen": "2026-04-29T00:32:54.779104"
+  },
+  "97cd5dd1e9a3c9bd78ee72e692597135": {
+    "title": "种蒜大户百亩蒜薹被近千人2天抽完",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.034059",
+    "last_seen": "2026-04-29T00:32:54.760216"
+  },
+  "1269971eac861e68b1a788b3e5f94825": {
+    "title": "伊朗警方发现“星链”设备等间谍装备",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.035285",
+    "last_seen": "2026-04-29T00:32:54.780841"
+  },
+  "20ed505f3cbfa72f5a790bddcf42b953": {
+    "title": "羽衣甘蓝涨疯了",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.036743",
+    "last_seen": "2026-04-29T00:32:54.776511"
+  },
+  "f9bf3a5f03997f47fe9e504e2d6a8798": {
+    "title": "溢价15倍！LABUBU冰箱被炒至9万元",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.038179",
+    "last_seen": "2026-04-29T00:32:54.782330"
+  },
+  "bfb46b3d061078b2802622cacc7e9cc6": {
+    "title": "老外在中国被华为笔记本震惊了",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.040272",
+    "last_seen": "2026-04-29T00:32:54.784917"
+  },
+  "35da75440fd094f04d37c970fdfff3b4": {
+    "title": "中国5月1日起对所有非洲建交国零关税",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-28T23:54:38.042008",
+    "last_seen": "2026-04-28T23:54:38.042008"
+  },
+  "32d2ca3b3ae609142f10734c42c8f6b4": {
+    "title": "网红白冰偷逃近千万为何没坐牢",
+    "source": "百度热搜",
+    "seen_count": 2,
+    "first_seen": "2026-04-28T23:54:38.043435",
+    "last_seen": "2026-04-29T00:32:54.783634"
+  },
+  "9cdfe05ba2ddb6661547390c19141ca1": {
+    "title": "Anthropic Joins the Blender Development Fund as Corporate Patron",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:12.668353",
+    "last_seen": "2026-04-29T00:32:12.668353"
+  },
+  "0a1ce20ec60ee0aa8c8d3bba5b1145c3": {
+    "title": "AI uncovers 38 vulnerabilities in largest open source medical record software",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:18.819986",
+    "last_seen": "2026-04-29T00:32:18.819986"
+  },
+  "833af7bfa5d402f5c1eceb1f6aa957ff": {
+    "title": "Google and Pentagon reportedly agree on deal for 'any lawful' use of AI",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:23.253749",
+    "last_seen": "2026-04-29T00:32:23.253749"
+  },
+  "cb68c2bafb26d972d065a74fb4af8995": {
+    "title": "Phone is about to stop being yours",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:28.964694",
+    "last_seen": "2026-04-29T00:32:28.964694"
+  },
+  "5c08b31eff3974e7b6f0cd8bf4fe336d": {
+    "title": "FCC Funding Application Notes Paramount Will Be 49.5% Foreign-Owned Post-Merger",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:33.197065",
+    "last_seen": "2026-04-29T00:32:33.197065"
+  },
+  "a6f8c4a4932d30dbbbb1c4027a58bf02": {
+    "title": "GitHub Actions is the weakest link",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:36.575691",
+    "last_seen": "2026-04-29T00:32:36.575691"
+  },
+  "36a3436a086fd46161c26fc55d7d8754": {
+    "title": "PyWry: Cross-Platform Rendering Engine in Python",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:41.555797",
+    "last_seen": "2026-04-29T00:32:41.555797"
+  },
+  "cca2cef0d5f632b97ef65ea427be8055": {
+    "title": "“股王”反复易主 “药茅”默默涨停",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:54.786203",
+    "last_seen": "2026-04-29T00:32:54.786203"
+  },
+  "3ac46bb51ce4a880a5307eb67bcf2eb9": {
+    "title": "周乐伟主动投案 曾任格力集团董事长",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:54.787497",
+    "last_seen": "2026-04-29T00:32:54.787497"
+  },
+  "7ddd061ed11509cf8a26126058b08f85": {
+    "title": "AI入「地」,云鲸向海",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.274668",
+    "last_seen": "2026-04-29T00:32:55.274668"
+  },
+  "fd195cb7a8b86a473cdbbf72a5ac28ca": {
+    "title": "AI理财哪家强?实测:垂类AI&ldquo;财商&rdquo;更高",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.278510",
+    "last_seen": "2026-04-29T00:32:55.278510"
+  },
+  "f29be0d4b7014eb5a571083e4960af17": {
+    "title": "AI元年的职场:&ldquo;狼&rdquo;来了,然后呢?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.280864",
+    "last_seen": "2026-04-29T00:32:55.280864"
+  },
+  "2442a19a1e1eb2b1224d317e7e5afbfa": {
+    "title": "AI原生应用哄哄模拟器爆火,24小时吸引60万用户|产品观察",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.282884",
+    "last_seen": "2026-04-29T00:32:55.282884"
+  },
+  "b33dbc45af7774779bc36c69094b2422": {
+    "title": "亚马逊AI工具使用指南",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.284791",
+    "last_seen": "2026-04-29T00:32:55.284791"
+  },
+  "7978f284ef13ce6774af078cfac80f8b": {
+    "title": "大模型该去二级市场要钱了",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.703856",
+    "last_seen": "2026-04-29T00:32:55.703856"
+  },
+  "4e4e8965cc602c488f2aeb1710cb803d": {
+    "title": "大模型第一股首份成绩单出炉",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.709517",
+    "last_seen": "2026-04-29T00:32:55.709517"
+  },
+  "3e090030eae8d18518de4e26a73ebf03": {
+    "title": "大模型第一股交卷:3000亿市值和三个关键变量",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.712685",
+    "last_seen": "2026-04-29T00:32:55.712685"
+  },
+  "2d29cf96edcc3867a1dacedb21cef06e": {
+    "title": "国产大模型,连续一个月霸榜",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.714403",
+    "last_seen": "2026-04-29T00:32:55.714403"
+  },
+  "9fa53ce69119d610db4d6c4b6bf4a220": {
+    "title": "&ldquo;龙虾&rdquo;出现后,大模型时代的共识被推翻了",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.716261",
+    "last_seen": "2026-04-29T00:32:55.716261"
+  },
+  "21e5b6beb9c8c36a15ec3a305be60c50": {
+    "title": "利空突袭!AI巨头,深夜大跌!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.988702",
+    "last_seen": "2026-04-29T00:32:55.988702"
+  },
+  "9574bbcc70b14044f1d26030ab21ddb6": {
+    "title": "王飞跃:人工智能场景化应用现状与趋势",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.991065",
+    "last_seen": "2026-04-29T00:32:55.991065"
+  },
+  "da817f372d1dc9e331c01d4c1cfb77be": {
+    "title": "中国依法叫停Manus收购案:AI关键技术外流风险引关注",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.994418",
+    "last_seen": "2026-04-29T00:32:55.994418"
+  },
+  "1164708a9fafb0c96f27617155b73db0": {
+    "title": "工信部:开展&ldquo;人工智能+软件&rdquo;专项行动,培育模型即服务、智能体即服务等新业态",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.997338",
+    "last_seen": "2026-04-29T00:32:55.997338"
+  },
+  "cb5470006298dc3ec61a30af79bb9ce9": {
+    "title": "很多搞AI转型的公司,都活不过今年",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T00:32:55.999171",
+    "last_seen": "2026-04-29T00:32:55.999171"
+  }
+}

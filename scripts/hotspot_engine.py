@@ -33,7 +33,7 @@ from urllib.parse import urlparse
 # ============================================================
 # 配置
 # ============================================================
-DATA_DIR = os.path.expanduser("~/.hermes/cron/output/hotspot")
+DATA_DIR = os.path.expanduser("~/hermes_workspace/reports/hotspot")
 DAILY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_daily.json")
 WEEKLY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_weekly.json")
 DAILY_REPORT_FILE = os.path.join(DATA_DIR, "report_daily.md")
