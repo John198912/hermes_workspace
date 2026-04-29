@@ -1,202 +1,494 @@
-# 🔥 AI×超级个体 热点采集报告（每日）
-> 报告生成时间：2026-04-29 10:09
-> 分析方法：Hermes Agent · LLM 分析 · SOUL 框架赋能 · 三关审核
-> 分析焦点：AI 转型 · 超级个体 · 主体性建构 · 认知升级
-> 本期说明：增量更新（基于 08:34 首次报告 + 10:04 二次采集）
+# 🔥 AI×超级个体 热点采集报告 (每日)
+> 报告生成时间：2026-04-29 23:56
+> 采集方式：自动调度 · `hotspot_engine.py`
+> 信息源数量：9个
+> 采集条目数：85条
+> 去重统计：采集前排除 -17 条 · 已标记重复 8 条 · 已排除 4 条
 
 ---
+## 📊 各平台热点总览
 
-## 📋 新增热点清单（自上次报告以来新增/更新的内容）
+### 🟡 百度热搜
 
-| 优先级 | 标题 | 平台 | 概览 | 与赛道的关联度 | 建议内容方向 |
-|--------|------|------|------|---------------|-------------|
-| P0 | Sam Altman：Abundant Intelligence — 每周建造1GW AI基础设施 | blog.samaltman.com | Sam Altman 发表最新博客，提出每周建造1GW AI基础设施工厂的愿景，将AI称为"基本人权" | 高 | AI转型/超级个体 |
-| P0 | Microsoft VibeVoice — 开源前沿语音AI（↑320 HN） | HN ↑320 | 微软开源VibeVoice，包含ASR和TTS模型，支持50+语言、长音频转录 | 高 | AI转型/工具实战 |
-| P0 | Claude系统提示词bug导致用户资金浪费和agent瘫痪 | HN ↑94 / GitHub Issue | Claude Code的系统提示词bug回归，导致每次Read操作都触发恶意软件提醒，subagent拒绝工作 | 高 | AI转型/工具实战 |
-| P1 | Before GitHub — Armin Ronacher谈开源基础设施沉浮 | HN ↑272 / lucumr.pocoo.org | Flask框架作者回忆开源基础设施从自建到GitHub再到去中心化的历程 | 中-高 | 超级个体/认知升级 |
-| P1 | We Decreased Our LLM Costs with Opus — 智能路由架构 | HN ↑25 / Mendral | 用Haiku做三层分级，Opus只处理20%的复杂问题，总成本反而低于Sonnet | 高 | AI转型/工具实战 |
-| P1 | 你在驯化AI，AI也在反向驯化你 | 搜狗微信 | 关于AI与人双向驯化的哲学讨论（来源受限，无法读原文） | 中 | 哲学社会/认知升级 |
-| P1 | 大模型想落地，先让大家用得起 | 搜狗微信 | 大模型成本与商业化的思考（来源受限，无法读原文） | 中 | AI转型/商业逻辑 |
-| P2 | AI伴侣崛起 | 搜狗微信 | AI伴侣类产品的发展趋势 | 低-中 | 哲学社会/情绪共鸣 |
-| P2 | The Day AI Stopped Being a Tab — Claude Inside Your Software | Reddit r/artificial ↑4 | Claude从聊天界面嵌入到软件的深度整合 | 中 | AI转型/工具实战 |
+- **中央政治局举行第二十五次集体学习**
+  - 百度热搜: 中央政治局举行第二十五次集体学习
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
 
-> 排序逻辑：P0=必追（赛道直接相关+多平台共振），P1=可追（相关但需要角度切入），P2=参考（边缘相关但趋势信号）
+- **比利时副首相：恭喜中国 叹为观止**
+  - 百度热搜: 比利时副首相：恭喜中国 叹为观止
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **身份证照片千万不要直接发**
+  - 百度热搜: 身份证照片千万不要直接发
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **五一档新片预售火热**
+  - 百度热搜: 五一档新片预售火热
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **“电脑涨得比黄金还猛”**
+  - 百度热搜: “电脑涨得比黄金还猛”
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **缅北电诈分子找到新据点**
+  - 百度热搜: 缅北电诈分子找到新据点
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **中国军号：日本出兵都是作死**
+  - 百度热搜: 中国军号：日本出兵都是作死
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **减肥吃全麦面包的人天塌了**
+  - 百度热搜: 减肥吃全麦面包的人天塌了
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **榴莲价格大降**
+  - 百度热搜: 榴莲价格大降
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **96岁奶奶10年还2077万 最新回应**
+  - 百度热搜: 96岁奶奶10年还2077万 最新回应
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **赵心童vs墨菲**
+  - 百度热搜: 赵心童vs墨菲
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **“深圳灵活就业社保被停保”不实**
+  - 百度热搜: “深圳灵活就业社保被停保”不实
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **内塔尼亚胡的麻烦有多大**
+  - 百度热搜: 内塔尼亚胡的麻烦有多大
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **伊朗：将以前所未有的军事行动回应美**
+  - 百度热搜: 伊朗：将以前所未有的军事行动回应美
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **胖东来回应249元奢侈品毛巾**
+  - 百度热搜: 胖东来回应249元奢侈品毛巾
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **96年女生远洋货轮当大副 月入6.8万**
+  - 百度热搜: 96年女生远洋货轮当大副 月入6.8万
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **博主用给跪了表情包11年后被索赔1万**
+  - 百度热搜: 博主用给跪了表情包11年后被索赔1万
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **男子拆鸟窝遭喜鹊叼垃圾封窗报复**
+  - 百度热搜: 男子拆鸟窝遭喜鹊叼垃圾封窗报复
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **王毅：不能任由谁拳头硬谁说了算**
+  - 百度热搜: 王毅：不能任由谁拳头硬谁说了算
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **中央考核组暗访贵州 揭纸面安全乱象**
+  - 百度热搜: 中央考核组暗访贵州 揭纸面安全乱象
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+### 🟡 HackerNews
+
+- **Zed is 1.0**
+  - ↑371 | HN热门
+  - 📎 https://zed.dev/blog/zed-1-0
+  - 🏷️ 海外讨论
+
+- **Tangled – We need a federation of forges**
+  - ↑223 | HN热门
+  - 📎 https://blog.tangled.org/federation/
+  - 🏷️ 海外讨论
+
+- **Why AI companies want you to be afraid of them**
+  - ↑50 | HN热门
+  - 📎 https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them
+  - 🏷️ 海外讨论
+
+- **Soft launch of open-source code platform for government**
+  - ↑390 | HN热门
+  - 📎 https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform/
+  - 🏷️ 海外讨论
+
+- **Improving ICU handovers by learning from Scuderia Ferrari F1 team**
+  - ↑29 | HN热门
+  - 📎 https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari
+  - 🏷️ 海外讨论
+
+- **GitHub – DOS 1.0: Transcription of Tim Paterson's DOS Printouts**
+  - ↑56 | HN热门
+  - 📎 https://github.com/DOS-History/Paterson-Listings
+  - 🏷️ 海外讨论
+
+- **Mistral Medium 3.5**
+  - ↑62 | HN热门
+  - 📎 https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5
+  - 🏷️ 海外讨论
+
+- **Bugs Rust won't catch**
+  - ↑491 | HN热门
+  - 📎 https://corrode.dev/blog/bugs-rust-wont-catch/
+  - 🏷️ 海外讨论
+
+- **Letting AI play my game – building an agentic test harness to help play-testing**
+  - ↑63 | HN热门
+  - 📎 https://blog.jeffschomay.com/letting-ai-play-my-game
+  - 🏷️ 海外讨论
+
+- **Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker**
+  - ↑35 | HN热门
+  - 📎 https://github.com/electricant/adblock-rust-manager
+  - 🏷️ 海外讨论
+
+- **I built ten custom subagents to tame a 500K-line Clojure codebase**
+  - ↑8 | HN热门
+  - 📎 https://www.metabase.com/blog/ten-custom-subagents
+  - 🏷️ 海外讨论
+
+- **Before GitHub** [🔄 第3次出现]
+  - ↑585 | HN热门
+  - 📎 https://lucumr.pocoo.org/2026/4/28/before-github/
+  - 🏷️ 海外讨论
+
+- **How ChatGPT serves ads**
+  - ↑438 | HN热门
+  - 📎 https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/
+  - 🏷️ 海外讨论
+
+- **U.S. war in Iran has cost $25B so far, says Pentagon official**
+  - ↑12 | HN热门
+  - 📎 https://www.reuters.com/world/middle-east/us-war-iran-has-cost-25-billion-so-far-says-pentagon-official-2026-04-29/
+  - 🏷️ 海外讨论
+
+- **Show HN: Rocky – Rust SQL engine with branches, replay, column lineage**
+  - ↑99 | HN热门
+  - 📎 https://github.com/rocky-data/rocky
+  - 🏷️ 海外讨论
+
+- **Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU**
+  - ↑208 | HN热门
+  - 📎 https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md
+  - 🏷️ 海外讨论
+
+- **Show HN: Rip.so – a graveyard for dead internet things**
+  - ↑139 | HN热门
+  - 📎 https://rip.so
+  - 🏷️ 海外讨论
+
+- **HardenedBSD Is Now Officially on Radicle**
+  - ↑130 | HN热门
+  - 📎 https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle
+  - 🏷️ 海外讨论
+
+### 🟡 搜狗微信
+
+- **AI元年的职场:&ldquo;狼&rdquo;来了,然后呢?** [🔄 第2次出现]
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9lOB_gwVJ7W_okovwSSIGRfzwqy6PkxuHIJuSrXZ0jXTY_9fxDuoyZo-T-2NcrbhJt8wj-BmGidgqSMOkMay0B7dssUnwz4s2YJTY8C5APDB3WnWg5KVlHlQp3hjAkXGObqJn10ZTX2JabJrw4ZXXXeLRtgE1QH7pK9osBJEAgjGFW6cwuUnkdA..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **AI原生应用哄哄模拟器爆火,24小时吸引60万用户|产品观察** [🔄 第2次出现]
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9zMtopOfIbsXPM51Q4TZQG_4_DDiVNfXRfdv0jM9luU-MKEl0HEhUgJsAFBxO3fpwr_fDSK08PNl96yjC4J9wJ-hVyrGpNXe_fgyesI2j9XekYGE2IHA3CUlNdJcvdBRWNX7No9PZDaoL_k22LcL6Wy3VjK4QADPXlcO8oowg-Kk89kyxDwoXvg..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **AI应用概念股全梳理**
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9fPLwtmruxRRAQcVjjYi1DaRLHrXt9YEGYyPlUM922STNDMc3_VuNYV-sLhHnXd-MHTSOUfJazI_nj9Xy50QI7r4Rbut9HJV_7xat5VqxKARFc7ECwBKRvbV0D6YkoyrUJTKBjWWcoRCtZ6ebm5hzPZsi2neUzFKW2C-uu8Bqx_WFW6cwuUnkdA..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **AI企业培训在线接单~**
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9n1A8Z-Th8ssL3qI7yq1OlDZH88ROp0zpH56USPII2iW26bUF34TrxEscm8qQBM4CPJJ0tuCpj3drxvfJxIFtXuCZPCDBobUfdDeaakcx9ecao0cz5UZEXmu0VAgyy9o-uOKES_IYf-kVf2ckTUjNPKp6RlUelgEDgsCQaX_3rhg5eBgmN3LoYQ..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **【活动预告】五一遛娃首选|新华书店AI科技嘉年华,AI萌宠+机器狗等你来玩!**
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9XSKtpV8qezD7v9cETNBrYHsqx50OFOCGPlteKyWbW1Nv1orHUPNZdGHgXGRQ0kSi19tHk0SBfrI-snZPjxiCU4jzWQWpH8Qfr0nD0aPK_M2kWiTCkEQITEU8XRn92KHE44N1xeXvTwlv6aDilDQYbMCRlFV5XHREUdTL60grqyI89kyxDwoXvg..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **&ldquo;龙虾&rdquo;出现后,大模型时代的共识被推翻了** [🔄 第2次出现]
+  - 微信文章 | 关键词: 大模型
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd97Q2zLKjeHE6mOykoFf1RaPZ9PbO9WMYUrMWFeVw6f8vZGc4LcUsUUhjUiDAO72QPwEPQtBPA-tS--9o3D_sBZyUDNXmswXG13WCmWK-F-rq2HNlpUb-1-yJBDR_XZpMaY4BwUhYRr-vEmSnMnqAQjrox4Lz01rZtKpHuLOLJW_ROJBjQH7pCxQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28E4E3391103AB364E481ED52A753E9E4EFA3F0169F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **大模型第一股交卷:3000亿市值和三个关键变量** [🔄 第3次出现]
+  - 微信文章 | 关键词: 大模型
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9bLAnxry5tKuTjKLfh9Ce0dQ-9Fgpt1Mc5Vt3Gz6LQ4XOR4iEv9yyN78-0TpLXsoGBhxGwVQ84ok1Rm7smYwYHmVSrgUP8m3cDJPsAcAmyf1Oh3dhfu-BoSkAIr3dlkIiZ7fTTHNFtjbweM2ppXhAd12ZJzCNmCYmqL2PeuiSPRe54z_tGSZTqA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28E4E3391103AB364E481ED52A753E9E4EFA3F0169F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **大模型卷到＂几分钱＂时代,机器人开始抢人类的班**
+  - 微信文章 | 关键词: 大模型
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9W9e7NyXQYINi47EMAn6f9D2Z8pM5XLy88Qjl_5y5he3-CcZZ8WHljvivgHYXU-qj5774EcyWkL4myaHGsBWUP9Fn02YHDM2KT37EshWegyeqyKLx-AQqZqVEB2g1CkFxHBOwU7IagGU52KxnMDWwEea-PydXHWfKiG6nkJiqB1DRtmyIGw2VAg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28E4E3391103AB364E481ED52A753E9E4EFA3F0169F22A2F
+  - 🏷️ 国内内容, 微信文章
+
+- **中国AI炸场!DeepSeek-V4发布即爆火,硅谷坐不住了**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9GZPAzEOEH7tUZ0xAYgIRbi2_4UQ9veEJ7CMdnJniBTgKiyQDKI5M1JU8ZHXu1gLMgw00Joizo17LvUijtFTnZDDlPmVhS1xXQSfrbOM-vfA5mkjism-Y46wHuSuQg4KgTU6TsAR4u1JCUk1rfZ-vz3CQrtDBH0w0zdBxmBknZugGX_iHL9MadA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30
+  - 🏷️ 国内内容, 微信文章
+
+- **智能军备竞赛:美、俄、以、法军事AI发展比较**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd96Ny_l1qT42fihmnRfBWms1WuIAmn4DyZ9rOJGguMivgPvzZS7y4eRTBmzCtKrXowg6Vpedtqx0yCOeCM2C7QVamKyNYIRAQz8xmDbLsxWx_wT1_YBbHGZwY835CwXjNYAt3zyIeik7fX2nKVt483hxocaUNRUyXEc0PkFX4RvllhWLv6O878UA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30
+  - 🏷️ 国内内容, 微信文章
+
+- **从恐惧到希望,一位经济学家对人工智能的认知转变**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9sjEOcQSwPTLavHyH2D09YwtY2JBKZB7I__Y5xnCXkY6CPtPgriDUeZSbScZ7uuiBxYXJIAwxAOese2WebGir9jYzDu4Wzj489fMUzz_-YmVBsrQ_hgLuguoQ46lzuXJN-9Y4XqFwFCXYvXCI4YuGgmMhxlB6rPP6qA_arNcnmuHI3OTRHYU2og..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30
+  - 🏷️ 国内内容, 微信文章
+
+- **国家官宣新专业「商业人工智能」:不是学写代码,是学一套赢在AI时代的管理操作系统**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9OH6dINS4Uo8wl3GtLMWbee2rW0dk963awGqBCbg7wUrkSKFQKxAQYX1uuYusnHVwsVHRryFcQlj4JXuQMrXN13SVBsVCjfv7ufRNdvRepSFhYTzhq3yshud5a-jeQl8v5Unie5hOt8q04086ccrftW7-N-L70p2zMkQbugvdaaPuL0unUdKkuw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30
+  - 🏷️ 国内内容, 微信文章
+
+- **大摩:中国人工智能与美国的差距和发展路径**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9LR0SxqKVoy3Ifoo0R5eApW7twhhteE_4liSDEMKXaec0qkHYRrh0m0sslZLErkYskUQ4JMQ8vwVaz9WoCkQ9OrAZC_g-hBDT3VlhTZWFdJCEgY3SfHhSi0NTwZBuGDlqTwr91vibRxZlXisppp6a2KJT46N4JPZ9AwYg6lSitywY-UZGbO56rA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30
+  - 🏷️ 国内内容, 微信文章
+
+### 🟡 B站全站热门
+
+- **现代修仙，没钱纯靠自律【自律狠人】【第一季超长电影版】**
+  - 播放:9221224 弹幕:4286 | 圆桌动漫
+  - 📎 https://www.bilibili.com/video/BV1B8ZJYTEPg
+  - 🏷️ B站热门
+
+- **【大鸣王潮1566】死告者**
+  - 播放:1615790 弹幕:8972 | 寞桀緣才
+  - 📎 https://www.bilibili.com/video/BV1UbZ8YmEP8
+  - 🏷️ B站热门
+
+- **《穷鬼的上下两千年》第一集：老夫，秦国白起**
+  - 播放:1266537 弹幕:1483 | 吃顾楠的豆饭
+  - 📎 https://www.bilibili.com/video/BV1mSZkYQEGf
+  - 🏷️ B站热门
+
+- **“把怪兽叫来，我让你把怪兽叫来！”**
+  - 播放:4039772 弹幕:2148 | 思瑞弟
+  - 📎 https://www.bilibili.com/video/BV1q2ZtYtExy
+  - 🏷️ B站热门
+
+- **以前光顾着看陀螺了！一个角色为啥比动画还火？**
+  - 播放:2972063 弹幕:5862 | The梁某人
+  - 📎 https://www.bilibili.com/video/BV1dEfKYcENK
+  - 🏷️ B站热门
+
+- **林宇同居16集 林宇要打苏清雪打屁屁了**
+  - 播放:3862683 弹幕:537 | 王权神算
+  - 📎 https://www.bilibili.com/video/BV1YTZvYMECW
+  - 🏷️ B站热门
+
+- **【Mujica/完结纪念Mad】心灵感应 :-sakiko**
+  - 播放:780819 弹幕:348 | 法國香菜
+  - 📎 https://www.bilibili.com/video/BV1U7ZxYzEkC
+  - 🏷️ B站热门
+
+- **墨墨尊瞳**
+  - 播放:7229116 弹幕:602 | 严小墨哦
+  - 📎 https://www.bilibili.com/video/BV1G1ofYiENJ
+  - 🏷️ B站热门
+
+- **火柴人大乱斗即将来袭:独属于我们ab圈的2d横版格斗**
+  - 播放:3718700 弹幕:805 | 井上鲸
+  - 📎 https://www.bilibili.com/video/BV1rUZeYnEDg
+  - 🏷️ B站热门
+
+- **人怎么能犯这么大的蠢**
+  - 播放:2940968 弹幕:263 | 鬼鬼_onioni
+  - 📎 https://www.bilibili.com/video/BV1YcZYYeE7Y
+  - 🏷️ B站热门
+
+### 🟡 Reddit
+
+- **I made €2,700 building an AI system for a law firm and now I get €1,300/month to maintain it**
+  - ↑72 | 49条评论
+  - 📎 https://reddit.com/r/Entrepreneur/comments/1syubll/i_made_2700_building_an_ai_system_for_a_law_firm/
+  - 🏷️ 海外讨论
+
+- **How do I ensure ChatGPT, Grok and Gemini is citing my business over my competitors?**
+  - ↑18 | 17条评论
+  - 📎 https://reddit.com/r/Entrepreneur/comments/1syvcn5/how_do_i_ensure_chatgpt_grok_and_gemini_is_citing/
+  - 🏷️ 海外讨论
+
+- **What actually improved your conversion rate in a service business, not leads?**
+  - ↑4 | 21条评论
+  - 📎 https://reddit.com/r/Entrepreneur/comments/1syvryu/what_actually_improved_your_conversion_rate_in_a/
+  - 🏷️ 海外讨论
+
+- **Containing the tasks from sprawling**
+  - ↑2 | 2条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1sz0ypf/containing_the_tasks_from_sprawling/
+  - 🏷️ 海外讨论
+
+- **Solopreneurs 5+ years in: what 'boring' habits saved your business in year 2-3?**
+  - ↑3 | 1条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1sysgh6/solopreneurs_5_years_in_what_boring_habits_saved/
+  - 🏷️ 海外讨论
+
+- **AI Chief of Staff for day to day tasks**
+  - ↑1 | 0条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1syzsi1/ai_chief_of_staff_for_day_to_day_tasks/
+  - 🏷️ 海外讨论
+
+- **The traditional Software Training model is dying. I have the lead-gen engine for what comes next seeking a strategic par**
+  - ↑2 | 0条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1syr603/the_traditional_software_training_model_is_dying/
+  - 🏷️ 海外讨论
+
+- **OpenAI's Sebastien Bubeck: [LLM] models are able to surpass humans [researchers] and ask [research] questions**
+  - ↑214 | 47条评论
+  - 📎 https://reddit.com/r/singularity/comments/1sys1nd/openais_sebastien_bubeck_llm_models_are_able_to/
+  - 🏷️ 海外讨论
+
+- **An IBM training manual from 1979.** [🔄 第3次出现]
+  - ↑623 | 49条评论
+  - 📎 https://reddit.com/r/singularity/comments/1syh22p/an_ibm_training_manual_from_1979/
+  - 🏷️ 海外讨论
+
+- **The MIT-IBM Computing Research Lab launches to shape the future of AI and quantum computing**
+  - ↑19 | 0条评论
+  - 📎 https://reddit.com/r/singularity/comments/1syx0s6/the_mitibm_computing_research_lab_launches_to/
+  - 🏷️ 海外讨论
+
+- **Sketch to HTML works now**
+  - ↑93 | 27条评论
+  - 📎 https://reddit.com/r/singularity/comments/1syngeg/sketch_to_html_works_now/
+  - 🏷️ 海外讨论
+
+- **Collecting training data for handling packages with a RobotEra L7**
+  - ↑36 | 11条评论
+  - 📎 https://reddit.com/r/singularity/comments/1sys7u1/collecting_training_data_for_handling_packages/
+  - 🏷️ 海外讨论
+
+- **‘The cost of compute is far beyond the costs of the employees’: Nvidia exec says right now AI is more expensive than pay**
+  - ↑250 | 80条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syp2jz/the_cost_of_compute_is_far_beyond_the_costs_of/
+  - 🏷️ 海外讨论
+
+- **Google just released Deep Research Max — an autonomous research agent that writes expert-grade reports on its own**
+  - ↑27 | 9条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syxef3/google_just_released_deep_research_max_an/
+  - 🏷️ 海外讨论
+
+- **is it weird to rant to AI?**
+  - ↑12 | 22条评论
+  - 📎 https://reddit.com/r/artificial/comments/1sytzb2/is_it_weird_to_rant_to_ai/
+  - 🏷️ 海外讨论
+
+- **87% Cost Savings &amp; Sub-3s Latency: I built a "Warm-Cache" harness for persistent Claude agents.**
+  - ↑4 | 5条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syw5al/87_cost_savings_sub3s_latency_i_built_a_warmcache/
+  - 🏷️ 海外讨论
+
+- **As a beginner how did you learn about how to use Ai**
+  - ↑2 | 1条评论
+  - 📎 https://reddit.com/r/artificial/comments/1sz2k0u/as_a_beginner_how_did_you_learn_about_how_to_use/
+  - 🏷️ 海外讨论
+
+- **Snapchat moves ads into chats with AI agents designed to feel like conversation**
+  - ↑16 | 4条评论
+  - 📎 https://reddit.com/r/artificial/comments/1synpjx/snapchat_moves_ads_into_chats_with_ai_agents/
+  - 🏷️ 海外讨论
+
+- **A wonderful example of AI stupidity and greed.**
+  - ↑0 | 0条评论
+  - 📎 https://reddit.com/r/artificial/comments/1sz2d2a/a_wonderful_example_of_ai_stupidity_and_greed/
+  - 🏷️ 海外讨论
+
+- **SEO or AEO? How to actually get cited by AI (without losing your mind)**
+  - ↑1 | 0条评论
+  - 📎 https://reddit.com/r/artificial/comments/1sz2avx/seo_or_aeo_how_to_actually_get_cited_by_ai/
+  - 🏷️ 海外讨论
+
+- **Do AI tools reduce friction at the cost of deeper thinking?**
+  - ↑8 | 13条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syo8ct/do_ai_tools_reduce_friction_at_the_cost_of_deeper/
+  - 🏷️ 海外讨论
+
+- **Visualizing Loss Landscapes of Neural Networks [P]** [🔄 第4次出现]
+  - ↑119 | 10条评论
+  - 📎 https://reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/
+  - 🏷️ 海外讨论
+
+- **IJCAI-ECAI 2026: Decision Notification and ChairingTool Status Thread [D]** [🔄 第2次出现]
+  - ↑18 | 20条评论
+  - 📎 https://reddit.com/r/MachineLearning/comments/1syl769/ijcaiecai_2026_decision_notification_and/
+  - 🏷️ 海外讨论
+
+- **Am I crazy to think that the UAI authors are confusing the discussion deadline with the rebuttal deadline ? [D]**
+  - ↑2 | 7条评论
+  - 📎 https://reddit.com/r/MachineLearning/comments/1syx7n6/am_i_crazy_to_think_that_the_uai_authors_are/
+  - 🏷️ 海外讨论
 
 ---
+## 👤 重点人物观点追踪
 
-## 👤 关键人物观点追踪（新发现）
-
-### Sam Altman — Abundant Intelligence
-- **核心观点**：AI使用量正以惊人的速度增长。Sam提出愿景——建造"每周1GW"的AI基础设施工厂，认为AI将像"基本人权"一样被看待。
-- **引文/来源**：
-  > "Access to AI will be a fundamental driver of the economy, and maybe eventually something we consider a fundamental human right."
-  > "We want to create a factory that can produce a gigawatt of new AI infrastructure every week."
-- **对卷哥的价值**：这不仅是技术新闻，而是一篇关于"AI不再稀有"的宣言。从"稀缺智能"到"丰裕智能"的范式转换，是超级个体思考自己定位的关键时机。
-- **建议内容角度**：「AI即将像水电气一样充裕——超级个体应该如何提前布局？」
-- **来源**：https://blog.samaltman.com/abundant-intelligence
-
-### Armin Ronacher (Flask作者) — Before GitHub
-- **核心观点**：GitHub的衰退不仅让作者感到失望，更引发了对开源基础设施本质的反思。GitHub之前的开源世界是"自建基础设施"的时代，依赖是有成本的，信任是建立的。
-- **引文/来源**：
-  > "I do not look at it as just the folks at Microsoft making product decisions I dislike. GitHub was part of the social infrastructure of Open Source for a very long time."
-- **对卷哥的价值**：对超级个体的启示——你的基础设施（无论是代码托管、内容平台还是社群）都不应该完全绑定在单一平台上。
-- **建议内容角度**：「从GitHub的衰退学习：超级个体的平台依赖风险」
-- **来源**：https://lucumr.pocoo.org/2026/4/28/before-github/
+> 本期未获取到有效观点（部分海外源受限，见下方附录）
 
 ---
+## 📈 本期热点标签分布
 
-## 🔍 深度分析（新增Top 5）
-
-### 1. Sam Altman的"丰裕智能"宣言：AI基础设施的核聚变时刻
-- **热点来源**：blog.samaltman.com（2026-04-28/29发布）
-- **为什么值得深挖**：这篇博客不是普通的产品更新，而是一个AI产业根本假设的声明。Sam明确提出"每周1GW"基础设施的生产目标——这是目前任何公司都没做到的量级。更有价值的是他从"使用权"角度重新定义AI——把它放进"基本人权"框架。这触动了受众的深层焦虑：如果AI真的成为像水电一样的基础设施，那么"人与AI的关系"将从根本上改变。超级个体在这个新范式中的位置是什么？
-- **SOUL 框架关联**：
-  - **叙事学**：宏大愿景叙事——从"AI是工具"到"AI是权力"
-  - **心理学**：未来安全感——"当AI不再是稀缺资源，我的价值在哪里？"
-  - **人类学**：从"分离"到"融合"——AI从独立工具变为基础设施层
-  - **产品策略**：可做「AI基础设施化的10个影响」系列——教育、工作、创业、创作各维度
-- **叙事建议**：以"Sam Altman说AI将像自来水一样便宜"为钩子，开篇引发认知失调
-- **内容价值**：帮助受众理解AI产业的根本范式转变，提前调整自己的策略定位
-
-### 2. Microsoft VibeVoice：开源语音AI的里程碑
-- **热点来源**：HN ↑320 / GitHub（2026-04-28发布）
-- **为什么值得深挖**：微软开源VibeVoice语音AI，包含ASR（语音转文字）和TTS（文字转语音）两大模型。技术亮点：①支持50+语言的多语言ASR；②60分钟长音频一次性处理；③结构化转录（谁说的+什么时候说的+说了什么）；④流式TTS支持实时语音生成。对超级个体而言，这直接降低了语音内容制作的入门门槛——播客、课程、有声内容的AI化正在加速。
-- **SOUL 框架关联**：
-  - **叙事学**：开源的故事——微软从封闭到开放的转变
-  - **心理学**：能力幻觉——"现在我也能做AI语音产品了"
-  - **人类学**：内容创作的民主化——语音不再是专业工作室的专利
-  - **产品策略**：可做「用VibeVoice + Claude搭建AI语音助手」实操教程
-- **叙事建议**：「微软开源了一个能听懂50种语言的AI，你的下一个副业可能就是语音产品」
-- **内容价值**：为超级个体提供具体的AI工具应用路径
-
-### 3. Claude系统提示词bug回归：AI工具可靠性的警示
-- **热点来源**：HN ↑94 / GitHub Issue #49363（2026-04-28 23:59 UTC）
-- **为什么值得深挖**：Claude Code的一个系统提示词bug在修复后再次回归。每次Read操作都触发"malware reminder"（恶意软件提醒），导致subagent拒绝工作并消耗API费用。对重度使用Claude Code的超级个体来说，这是一个真实的生产力杀手。更重要的是它揭示了一个更深层的问题：AI工具的可靠性还没有达到"基础设施"级别。
-- **SOUL 框架关联**：
-  - **叙事学**：打脸叙事——"AI工具还不够可靠"
-  - **心理学**：信任危机——当AI工具开始'罢工'，你该信任谁
-  - **人类学**：早期采用者的代价
-  - **产品策略**：可做「AI Agent可靠性的真实评估」——超级个体需要备选方案
-- **叙事建议**：「我用Claude Code写了半天代码，结果它在帮我浪费钱」
-- **内容价值**：帮助受众客观评估AI工具的可靠性，避免单一依赖
-
-### 4. We Decreased Our LLM Costs with Opus — 智能Agent路由架构
-- **热点来源**：HN ↑25 / Mendral（2026-04-29 00:57 UTC）
-- **为什么值得深挖**：一个真实的AI成本优化案例。核心模式：用Haiku（廉价模型）做三层分级路由，80%的简单问题被拦截，只有20%的复杂问题交给Opus处理。最终结果是"用Opus比用Sonnet还便宜"。这个"triager pattern"对超级个体有直接参考价值——如果你在用AI处理工作流，如何设计"让便宜模型做决定，贵模型做判断"的架构。
-- **SOUL 框架关联**：
-  - **叙事学**：逆向思维——"越贵的越好"是错的
-  - **心理学**：认知重构——不要只关注模型能力，要关注任务分配
-  - **人类学**：效率阶段——从"用AI"到"用好AI"
-  - **产品策略**：可做「超级个体的AI成本优化指南」——分级路由、上下文压缩、自定义Agent
-- **叙事建议**：「我用上了最强的AI模型，账单反而降了」
-- **内容价值**：提供可落地的AI成本优化方法论
-
-### 5. Before GitHub：开源基础设施的平台化反思
-- **热点来源**：HN ↑272 / Armin Ronacher（2026-04-28 21:17 UTC）
-- **为什么值得深挖**：Flask作者Armin Ronacher（轻量级Python Web框架创始人）的长文。核心论点是：GitHub曾是不可或缺的"开源社会基础设施"，但今天它正在衰退——不是因为微软做了糟糕的产品决策，而是因为"依赖"这个概念本身被扭曲了。在GitHub之前，开源项目需要自建基础设施（Trac/SVN/邮件列表），依赖是有成本的。GitHub让一切变得无摩擦，但也让依赖变得随意。对超级个体的启示非常直接：你的内容生意建立在哪个"GitHub"上？微信/抖音/小红书的无摩擦发布带来了流量，但你真的拥有和控制你的"开源项目"吗？
-- **SOUL 框架关联**：
-  - **叙事学**：怀旧叙事——"我怀念那个需要自己搭建服务器的时代"
-  - **心理学**：损失厌恶——"我们失去的是对'依赖'的尊重"
-  - **人类学**：从自建到平台再到反思——基础设施的辩证演进
-  - **产品策略**：可做「超级个体的平台独立策略」——内容创作的"去GitHub化"
-- **叙事建议**：「在GitHub之前，开源意味着你得自己管服务器——我们失去的不仅是便利」
-- **内容价值**：帮助超级个体审视自己的平台依赖结构
+  海外讨论: ████████████████████ 42
+  百度热搜: ████████████████████ 20
+  国内内容: █████████████ 13
+  微信文章: █████████████ 13
+  B站热门: ██████████ 10
 
 ---
+## ⚠️ 附录：受限信息源及获取建议
 
-## 💡 选题建议（新增Top 3，含执行路径）
+以下信息源本次无法通过HTTP直连获取，需要替代方案：
 
-### 选题一：AI像自来水一样便宜——Sam Altman的"丰裕智能"对超级个体的意义
-- **切入角度**：从Sam Altman最新博客出发，推演AI基础设施化对独立创作者和一人企业的5个影响
-- **内容形式**：深度图文（小红书）+ 口播（抖音60-90秒）
-- **目标受众**：转型者（关心AI长期趋势）+ 探索者（想理解AI产业方向）
-- **预期共鸣点**：「如果AI像水电气一样便宜，我到底该做什么？」
-- **执行步骤**：
-  1. 精读"Abundant Intelligence"全文，提取3个关键论点（AI是基本人权、1GW/周工厂、10GW可治愈癌症）
-  2. 制作"AI基础设施化的5个影响"信息卡片（教育/创作/创业/就业/社会）
-  3. 录制抖音脚本，以"Sam Altman说了一句可能改变你未来10年的话"为开头
-  4. 发布后引导讨论"如果AI真的免费，你会用它做什么？"
-- **建议发布平台**：小红书（深度首发）→ 抖音（情绪钩子版）
-
-### 选题二：超级个体的AI成本优化——从"用最贵的模型"到"让对的人做对的事"
-- **切入角度**：从Mendral的真实案例出发，教超级个体如何用智能路由架构降低AI使用成本
-- **内容形式**：B站深度视频（10-15分钟）+ 小红书工具清单图文
-- **目标受众**：转型者（正在用AI做产品/服务）+ 探索者（技术背景的AI使用者）
-- **预期共鸣点**：「我每个月花在AI API上的钱，80%可能都是浪费的」
-- **执行步骤**：
-  1. 研究Mendral的"triager pattern"：Haiku路由→语义搜索识别→Opus深度分析
-  2. 制作「超级个体AI成本优化清单」：分级路由、上下文压缩、缓存策略
-  3. 用Claude Code复现一个简化版的三级路由系统（演示用）
-  4. 录制B站视频，展示优化前后的API账单对比
-  5. 配套小红书图文：给出3种不同预算级别的AI成本优化方案
-- **建议发布平台**：B站（深度首发）→ 小红书（工具清单）
-
-### 选题三：从GitHub的衰退到小红书/抖音——超级个体的平台依赖风险
-- **切入角度**：以Armin Ronacher的"Before GitHub"和Mitchell Hashimoto的"Ghostty离开GitHub"为引子，讨论超级个体的平台依赖风险
-- **内容形式**：口播（抖音90秒）+ 小红书深度图文
-- **目标受众**：转型者（正在或准备做内容创业）+ 觉醒者（关心数字主权）
-- **预期共鸣点**：「我把所有内容都发在小红书上，但小红书明天改算法了我怎么办？」
-- **执行步骤**：
-  1. 整理"Before GitHub"和"Ghostty Leaving GitHub"的核心论据
-  2. 罗列超级个体常见的平台依赖（抖音/微信/小红书/知乎/B站）
-  3. 提出"3-3-3去风险策略"：3个内容平台×3个变现渠道×3个工具栈
-  4. 录制脚本："为什么GitHub的衰退给每个内容创作者敲响了警钟"
-  5. 发布后发投票"你最依赖哪个内容平台？"收集受众数据
-- **建议发布平台**：抖音（情绪钩子首发）→ 小红书（策略落地）
+| 信息源 | 失败原因 | 建议替代方案 |
+|--------|---------|-------------|
+| 微博热搜(API) | 失败 - 反爬限制 | 通过tophub微博子页面获取（已在collect_tophub中覆盖） |
+| 抖音热榜 | tophub JS渲染 + 抖音反爬 | 使用巨量算数(trends.oceanengine.com)热度趋势；或手机端热榜截图 |
+| 知乎热榜 | 无法访问（反爬限制） | 使用知乎API zhuanlan.zhihu.com/api/posts?或通过聚合工具 |
+| 即刻App热门 | 即刻移动版页面结构无法解析 | 方案1: RSSHub rsshub.app/jike/popular；方案2: 即刻开放平台API；方案3: 使用第三 |
+| tophub.today 科技热榜 (https://tophub.today/c/tech) | JS渲染页面，无法直接获取 | 使用Headless浏览器(Playwright/Puppeteer)；或改用平台自有API/热榜 |
 
 ---
+## 💡 对卷哥的选题建议
 
-## 💔 受众痛点库（新增）
+基于本次采集，以下方向值得追：
 
-### 痛点六：「AI工具越来越贵，我到底该用哪个模型？有没有省钱的方法？」
-- **原始用户表达**：「We upgraded to a frontier model and our costs went down — here's how」+ 「Claude system prompt bug wastes user money」
-- **来源平台**：HN + GitHub Issue
-- **情绪强度**：高（涉及真金白银的支出）
-- **匹配标签**：[AI] + [工具技能] + [商业逻辑]
-- **建议内容方向**：超级个体AI成本优化系列——分级路由、模型选型、上下文管理
+1. **I made €2,700 building an AI system for a law firm and now I get €1,300/month to maintain it** — 来源：Reddit r/Entrepreneur
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
 
-### 痛点七：「AI工具还不够稳定，我该把核心工作流交给它吗？」
-- **原始用户表达**：「Claude Code bug regression — malware reminder on every Read still causes subagent refusals」
-- **来源平台**：GitHub Issue #49363
-- **情绪强度**：中-高（生产力受损 + 信任危机）
-- **匹配标签**：[AI] + [工具技能] + [情绪共鸣]
-- **建议内容方向**：AI工具的可靠性评估 + 备选方案清单
+2. **How do I ensure ChatGPT, Grok and Gemini is citing my business over my competitors?** — 来源：Reddit r/Entrepreneur
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
 
-### 痛点八：「AI即将像水电气一样便宜/普及——我该焦虑还是兴奋？」
-- **原始用户表达**：「Access to AI will be a fundamental driver of the economy... maybe a fundamental human right」
-- **来源平台**：Sam Altman博客
-- **情绪强度**：中（存在主义焦虑 + 愿景兴奋）
-- **匹配标签**：[AI] + [哲学社会] + [认知成长]
-- **建议内容方向**：AI"丰裕时代"的个人定位——做什么、学什么、信什么
+3. **What actually improved your conversion rate in a service business, not leads?** — 来源：Reddit r/Entrepreneur
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
+
+4. **Containing the tasks from sprawling** — 来源：Reddit r/solopreneur
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
+
+5. **Solopreneurs 5+ years in: what 'boring' habits saved your business in year 2-3?** — 来源：Reddit r/solopreneur
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
 
 ---
-
-## ⚙️ 执行路径报告
-
-### 本期采集统计
-- **信息源数量**：7个（手动6人博客 + Python脚本多源）
-- **采集条目数**：68条（Python脚本）+ 6人博客手动检查
-- **三关审核通过（新增）**：9条（P0: 3条, P1: 4条, P2: 2条）
-- **与上次报告重叠**：上期20条中的18条仍然有效，新增9条
-- **受限源**：微博热搜、抖音热榜、知乎热榜（反爬）、搜狗微信（验证码）
-
-### 关键人物博客状态
-| 人物 | 最新内容 | 时效 |
-|------|---------|------|
-| Sam Altman | 新发"Abundant Intelligence"（AI基础设施愿景） | ✅ 24h内 |
-| Naval | "A Return to Code"（无精准日期，列表中最新） | ⚠️ 无日期 |
-| Karpathy | 个人主页无新博客更新 | ❌ 无更新 |
-| Paul Graham | 无新essay | ❌ 无更新 |
-| Benedict Evans | "How will OpenAI compete?"（最近文章） | ⚠️ 2周内 |
-| Ethan Mollick | Substack需JS渲染，无法直接抓取 | ❌ 未获取 |
-| Anthropic News | Claude Opus 4.7（4/16）、Claude Design（4/17） | ⚠️ 已超24h |
-
-### 本期关键发现
-- **结构性信号#1**：Sam Altman的"Abundant Intelligence"定义了AI从"稀缺"到"丰裕"的范式转换
-- **结构性信号#2**：Claude系统提示词bug回归说明AI工具可靠性仍需时间——对超级个体意味着"不要all in单一工具"
-- **工具趋势信号#3**：Microsoft VibeVoice开源——语音AI的民主化，超级个体可直接使用的开源工具
-- **平台风险信号#4**："Before GitHub" + "Ghostty离开GitHub"构成连续叙事——开源社区对平台化的集体反思
-
----
-
-*报告由 Hermes Agent 结合 SOUL 框架自动生成 · 2026-04-29 10:09*
+*报告由 Hermes Agent 自动生成 · 2026-04-29 23:56*

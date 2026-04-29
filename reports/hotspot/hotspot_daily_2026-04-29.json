@@ -1,285 +1,13 @@
 {
   "mode": "daily",
-  "generated_at": "2026-04-29 10:06:26",
-  "total": 68,
+  "generated_at": "2026-04-29 23:56:32",
+  "total": 85,
   "items": [
     {
-      "title": "Everyone thinks your business idea sucks, stop taking advice from strangers and just start",
+      "title": "I made €2,700 building an AI system for a law firm and now I get €1,300/month to maintain it",
       "source": "Reddit r/Entrepreneur",
-      "url": "https://reddit.com/r/Entrepreneur/comments/1sxqj9i/everyone_thinks_your_business_idea_sucks_stop/",
-      "snippet": "↑131 | 120条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "de28e942d7384d80c0a43355d4ad9b8c"
-    },
-    {
-      "title": "Building solo is lonely... anyone actually found an accountability partner that works?",
-      "source": "Reddit r/Entrepreneur",
-      "url": "https://reddit.com/r/Entrepreneur/comments/1sy4hna/building_solo_is_lonely_anyone_actually_found_an/",
-      "snippet": "↑13 | 37条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "1a10dbe430a91fa4db8342565b14594d"
-    },
-    {
-      "title": "How are you marketing your solopreneur business?",
-      "source": "Reddit r/solopreneur",
-      "url": "https://reddit.com/r/Solopreneur/comments/1sxlbwe/how_are_you_marketing_your_solopreneur_business/",
-      "snippet": "↑20 | 81条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "f896d95fba5b4c3e2b39313184f77e27"
-    },
-    {
-      "title": "To successful solopreneurs (20K+ MRR): How would you start your next product?",
-      "source": "Reddit r/solopreneur",
-      "url": "https://reddit.com/r/Solopreneur/comments/1sx2de6/to_successful_solopreneurs_20k_mrr_how_would_you/",
-      "snippet": "↑24 | 13条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "f5e6f4fe80875e4d6ca49bd2a45201d7"
-    },
-    {
-      "title": "I help business owners consistently attract high-quality customers.",
-      "source": "Reddit r/solopreneur",
-      "url": "https://reddit.com/r/Solopreneur/comments/1sxeork/i_help_business_owners_consistently_attract/",
-      "snippet": "↑2 | 4条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "214192a606d10028501f24f27fe3eacd"
-    },
-    {
-      "title": "For solo service businesses, where does admin actually break?",
-      "source": "Reddit r/solopreneur",
-      "url": "https://reddit.com/r/Solopreneur/comments/1sxhyf0/for_solo_service_businesses_where_does_admin/",
-      "snippet": "↑1 | 10条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "cc257e608c7f1ced9a2834d6ccfcd000"
-    },
-    {
-      "title": "An IBM training manual from 1979.",
-      "source": "Reddit r/singularity",
-      "url": "https://reddit.com/r/singularity/comments/1syh22p/an_ibm_training_manual_from_1979/",
-      "snippet": "↑109 | 13条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "4828af044b5251345ed7e930c914eef6"
-    },
-    {
-      "title": "Talkie, a 13B LM trained exclusively on pre-1931 data",
-      "source": "Reddit r/singularity",
-      "url": "https://reddit.com/r/singularity/comments/1sxp4ha/talkie_a_13b_lm_trained_exclusively_on_pre1931/",
-      "snippet": "↑2121 | 332条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "210b2be7d9ec9b17263226a37a539b76"
-    },
-    {
-      "title": "OpenAI ends its exclusive partnership with Microsoft",
-      "source": "Reddit r/singularity",
-      "url": "https://reddit.com/r/singularity/comments/1sxynbi/openai_ends_its_exclusive_partnership_with/",
-      "snippet": "↑291 | 56条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai, openai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "4a09c2f67b1f0637b5a44005246bc6ed"
-    },
-    {
-      "title": "What jobs are mostly affected by AI according to a Microsoft study?",
-      "source": "Reddit r/singularity",
-      "url": "https://reddit.com/r/singularity/comments/1sy19vn/what_jobs_are_mostly_affected_by_ai_according_to/",
-      "snippet": "↑168 | 148条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "a8b0a30cba447ff1be1b7145f3fb745e"
-    },
-    {
-      "title": "DeepMind's David Silver just raised $1.1B to build an AI that learns without human data",
-      "source": "Reddit r/singularity",
-      "url": "https://reddit.com/r/singularity/comments/1sxtuo0/deepminds_david_silver_just_raised_11b_to_build/",
-      "snippet": "↑530 | 91条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "7548559fb4a3da185a9cea835f654af9"
-    },
-    {
-      "title": "Caltech researchers claim radical compression of high-fidelity AI models",
-      "source": "Reddit r/singularity",
-      "url": "https://reddit.com/r/singularity/comments/1sy85tn/caltech_researchers_claim_radical_compression_of/",
-      "snippet": "↑69 | 4条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "13a5b4cb27168c31175c377fe5870629"
-    },
-    {
-      "title": "Do you \"cross-examine\" AI models to find the best tool for a specific task?",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1syhktp/do_you_crossexamine_ai_models_to_find_the_best/",
-      "snippet": "↑6 | 11条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "26cf9026c21dc7a99a908f64ad0fbc7f"
-    },
-    {
-      "title": "A comedian’s strategy for poisoning AI training data",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1sx7sjl/a_comedians_strategy_for_poisoning_ai_training/",
-      "snippet": "↑1177 | 126条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "608622f0e379d8556cdf81b915b1a390"
-    },
-    {
-      "title": "Is it reasonable to force AI companies to produce at least half of their electricity?",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1sxtui9/is_it_reasonable_to_force_ai_companies_to_produce/",
-      "snippet": "↑63 | 108条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "92c9e9ddda528db74aea3a3492b6b296"
-    },
-    {
-      "title": "The Day AI Stopped Being a Tab You Switch To — Claude Is Now Inside Your Software",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1syeyc6/the_day_ai_stopped_being_a_tab_you_switch_to/",
-      "snippet": "↑4 | 1条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "4f44a864c02e31e33d7978e0d4ea78ed"
-    },
-    {
-      "title": "What will be the first major catastrophe caused by a rogue AI agent?",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1sy4n8u/what_will_be_the_first_major_catastrophe_caused/",
-      "snippet": "↑11 | 45条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai, agent",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 4,
-      "fingerprint": "ccdd1e2de833d0a441314b0e9069d293"
-    },
-    {
-      "title": "Is AI the ultimate case of the cat getting out of the bag too soon?",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1syjsc3/is_ai_the_ultimate_case_of_the_cat_getting_out_of/",
-      "snippet": "↑3 | 32条评论",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1syubll/i_made_2700_building_an_ai_system_for_a_law_firm/",
+      "snippet": "↑72 | 49条评论",
       "platform": "reddit",
       "platform_rating": "A",
       "source_quality": "A",
@@ -289,45 +17,29 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "fe044ebc3bb62eacc90bc9d0cce211c5"
+      "fingerprint": "45f3ff0349cb408752d28288c9983aab"
     },
     {
-      "title": "Google signs deal with Pentagon, allowing 'any lawful' use of AI models",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1sxzwg8/google_signs_deal_with_pentagon_allowing_any/",
-      "snippet": "↑18 | 11条评论",
+      "title": "How do I ensure ChatGPT, Grok and Gemini is citing my business over my competitors?",
+      "source": "Reddit r/Entrepreneur",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1syvcn5/how_do_i_ensure_chatgpt_grok_and_gemini_is_citing/",
+      "snippet": "↑18 | 17条评论",
       "platform": "reddit",
       "platform_rating": "A",
       "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
+      "relevance_hint": "命中关键词: gpt, chatgpt",
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "3c3a77d6da065fa0b2bca8d8753ff8d1"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "d1de2bbd67e31bc3cc34715541e34ccc"
     },
     {
-      "title": "The Landing: Portable Payload for AI Systems",
-      "source": "Reddit r/artificial",
-      "url": "https://reddit.com/r/artificial/comments/1syfjdw/the_landing_portable_payload_for_ai_systems/",
-      "snippet": "↑2 | 1条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "7c864f52e72e540e76b6513585797d2f"
-    },
-    {
-      "title": "Visualizing Loss Landscapes of Neural Networks [P]",
-      "source": "Reddit r/MachineLearning",
-      "url": "https://reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/",
-      "snippet": "↑82 | 7条评论",
+      "title": "What actually improved your conversion rate in a service business, not leads?",
+      "source": "Reddit r/Entrepreneur",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1syvryu/what_actually_improved_your_conversion_rate_in_a/",
+      "snippet": "↑4 | 21条评论",
       "platform": "reddit",
       "platform_rating": "A",
       "source_quality": "A",
@@ -335,31 +47,15 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 2,
-      "fingerprint": "74c9ff9a65b53f3edc15679af1c96c03"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "63fecec552dac536a8fbc11b8b18985d"
     },
     {
-      "title": "What is the scientific value of administering the standard Rorschach test to LLMs when the training data is almost certa",
-      "source": "Reddit r/MachineLearning",
-      "url": "https://reddit.com/r/MachineLearning/comments/1syc6ee/what_is_the_scientific_value_of_administering_the/",
-      "snippet": "↑18 | 5条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai, llm",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "c40421d1b5086721bfa36ac78445a68a"
-    },
-    {
-      "title": "IJCAI-ECAI 2026: Decision Notification and ChairingTool Status Thread [D]",
-      "source": "Reddit r/MachineLearning",
-      "url": "https://reddit.com/r/MachineLearning/comments/1syl769/ijcaiecai_2026_decision_notification_and/",
-      "snippet": "↑3 | 0条评论",
+      "title": "Containing the tasks from sprawling",
+      "source": "Reddit r/solopreneur",
+      "url": "https://reddit.com/r/Solopreneur/comments/1sz0ypf/containing_the_tasks_from_sprawling/",
+      "snippet": "↑2 | 2条评论",
       "platform": "reddit",
       "platform_rating": "A",
       "source_quality": "A",
@@ -369,13 +65,29 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "2f4aec7865e64a1950a5696559f52893"
+      "fingerprint": "e80d4885b8891d284b2b5e4a1ef9987c"
     },
     {
-      "title": "Dynamic batching for Encoder-Decoder MT training or generation when long sequence caps the batch size [P]",
-      "source": "Reddit r/MachineLearning",
-      "url": "https://reddit.com/r/MachineLearning/comments/1sy01uz/dynamic_batching_for_encoderdecoder_mt_training/",
-      "snippet": "↑6 | 1条评论",
+      "title": "Solopreneurs 5+ years in: what 'boring' habits saved your business in year 2-3?",
+      "source": "Reddit r/solopreneur",
+      "url": "https://reddit.com/r/Solopreneur/comments/1sysgh6/solopreneurs_5_years_in_what_boring_habits_saved/",
+      "snippet": "↑3 | 1条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "7e9a10a59cc0453d0c4c369961ef0b81"
+    },
+    {
+      "title": "AI Chief of Staff for day to day tasks",
+      "source": "Reddit r/solopreneur",
+      "url": "https://reddit.com/r/Solopreneur/comments/1syzsi1/ai_chief_of_staff_for_day_to_day_tasks/",
+      "snippet": "↑1 | 0条评论",
       "platform": "reddit",
       "platform_rating": "A",
       "source_quality": "A",
@@ -383,30 +95,14 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "9c8ff5cdacd10417f0d00514af4e9967"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "a31e94b912eefabd9724d8d45cb51e3b"
     },
     {
-      "title": "IJCAI-ECAI'26: Chairingtool PaperStatus first changed to Rejected and now again to Submitted. [D]",
-      "source": "Reddit r/MachineLearning",
-      "url": "https://reddit.com/r/MachineLearning/comments/1sy0lp8/ijcaiecai26_chairingtool_paperstatus_first/",
-      "snippet": "↑5 | 19条评论",
-      "platform": "reddit",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "7ec7c6985c76300c5e26ca476e99f653"
-    },
-    {
-      "title": "Fast experiment on T4 GPU. Self play training on Dark Hex (Colab notebook) [P]",
-      "source": "Reddit r/MachineLearning",
-      "url": "https://reddit.com/r/MachineLearning/comments/1sy3c93/fast_experiment_on_t4_gpu_self_play_training_on/",
+      "title": "The traditional Software Training model is dying. I have the lead-gen engine for what comes next seeking a strategic par",
+      "source": "Reddit r/solopreneur",
+      "url": "https://reddit.com/r/Solopreneur/comments/1syr603/the_traditional_software_training_model_is_dying/",
       "snippet": "↑2 | 0条评论",
       "platform": "reddit",
       "platform_rating": "A",
@@ -415,16 +111,240 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 5,
-      "fingerprint": "9e29c719f5b27891407ed7e4186fc373"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "db191e4e6d859f381ba696d48445a3a7"
     },
     {
-      "title": "Ghostty is leaving GitHub",
-      "source": "HackerNews",
-      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
-      "snippet": "↑1706 | HN热门",
-      "platform": "hackernews",
+      "title": "OpenAI's Sebastien Bubeck: [LLM] models are able to surpass humans [researchers] and ask [research] questions",
+      "source": "Reddit r/singularity",
+      "url": "https://reddit.com/r/singularity/comments/1sys1nd/openais_sebastien_bubeck_llm_models_are_able_to/",
+      "snippet": "↑214 | 47条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai, llm, openai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "25201805cd48ff15df3841f6ed1eb0a3"
+    },
+    {
+      "title": "An IBM training manual from 1979.",
+      "source": "Reddit r/singularity",
+      "url": "https://reddit.com/r/singularity/comments/1syh22p/an_ibm_training_manual_from_1979/",
+      "snippet": "↑623 | 49条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 2,
+      "fingerprint": "4828af044b5251345ed7e930c914eef6"
+    },
+    {
+      "title": "The MIT-IBM Computing Research Lab launches to shape the future of AI and quantum computing",
+      "source": "Reddit r/singularity",
+      "url": "https://reddit.com/r/singularity/comments/1syx0s6/the_mitibm_computing_research_lab_launches_to/",
+      "snippet": "↑19 | 0条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "fbc17318b9dd1b92be7f43121deecec3"
+    },
+    {
+      "title": "Sketch to HTML works now",
+      "source": "Reddit r/singularity",
+      "url": "https://reddit.com/r/singularity/comments/1syngeg/sketch_to_html_works_now/",
+      "snippet": "↑93 | 27条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "6dece7c1619d5ac420bb223112ce1327"
+    },
+    {
+      "title": "Collecting training data for handling packages with a RobotEra L7",
+      "source": "Reddit r/singularity",
+      "url": "https://reddit.com/r/singularity/comments/1sys7u1/collecting_training_data_for_handling_packages/",
+      "snippet": "↑36 | 11条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "bd19f5366d06fba2e75fbfb5c3ae8ac8"
+    },
+    {
+      "title": "‘The cost of compute is far beyond the costs of the employees’: Nvidia exec says right now AI is more expensive than pay",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1syp2jz/the_cost_of_compute_is_far_beyond_the_costs_of/",
+      "snippet": "↑250 | 80条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "1871db3004f03f791b6a23d0c4d5c6d9"
+    },
+    {
+      "title": "Google just released Deep Research Max — an autonomous research agent that writes expert-grade reports on its own",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1syxef3/google_just_released_deep_research_max_an/",
+      "snippet": "↑27 | 9条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: agent",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "a84181685ea7388260935b783d51eeaa"
+    },
+    {
+      "title": "is it weird to rant to AI?",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1sytzb2/is_it_weird_to_rant_to_ai/",
+      "snippet": "↑12 | 22条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "c64f2784c4c76857276c7bc217fffe64"
+    },
+    {
+      "title": "87% Cost Savings &amp; Sub-3s Latency: I built a \"Warm-Cache\" harness for persistent Claude agents.",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1syw5al/87_cost_savings_sub3s_latency_i_built_a_warmcache/",
+      "snippet": "↑4 | 5条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: agent",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "e8af56c0d179efe4c97e98d07b61f703"
+    },
+    {
+      "title": "As a beginner how did you learn about how to use Ai",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1sz2k0u/as_a_beginner_how_did_you_learn_about_how_to_use/",
+      "snippet": "↑2 | 1条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "7590a24156da8e4099bba5fa282a2d39"
+    },
+    {
+      "title": "Snapchat moves ads into chats with AI agents designed to feel like conversation",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1synpjx/snapchat_moves_ads_into_chats_with_ai_agents/",
+      "snippet": "↑16 | 4条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai, agent",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "8c03382c7a3e48ee1785d610df59bc0b"
+    },
+    {
+      "title": "A wonderful example of AI stupidity and greed.",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1sz2d2a/a_wonderful_example_of_ai_stupidity_and_greed/",
+      "snippet": "↑0 | 0条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "de4863fce03a9cd04610ca706df30aae"
+    },
+    {
+      "title": "SEO or AEO? How to actually get cited by AI (without losing your mind)",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1sz2avx/seo_or_aeo_how_to_actually_get_cited_by_ai/",
+      "snippet": "↑1 | 0条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "d4ff92f882c18680d901ac686d9441a2"
+    },
+    {
+      "title": "Do AI tools reduce friction at the cost of deeper thinking?",
+      "source": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1syo8ct/do_ai_tools_reduce_friction_at_the_cost_of_deeper/",
+      "snippet": "↑8 | 13条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "ba3c5ab895c8609ce3451bfb1ed21b8c"
+    },
+    {
+      "title": "Visualizing Loss Landscapes of Neural Networks [P]",
+      "source": "Reddit r/MachineLearning",
+      "url": "https://reddit.com/r/MachineLearning/comments/1sy7f5r/visualizing_loss_landscapes_of_neural_networks_p/",
+      "snippet": "↑119 | 10条评论",
+      "platform": "reddit",
       "platform_rating": "A",
       "source_quality": "A",
       "relevance_hint": "",
@@ -432,30 +352,206 @@
         "海外讨论"
       ],
       "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "b2194bee889d78919023e57e9f97ae66"
+      "repeat_count": 3,
+      "fingerprint": "74c9ff9a65b53f3edc15679af1c96c03"
     },
     {
-      "title": "ChatGPT serves ads. Here's the full attribution loop",
-      "source": "HackerNews",
-      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
-      "snippet": "↑140 | HN热门",
-      "platform": "hackernews",
+      "title": "IJCAI-ECAI 2026: Decision Notification and ChairingTool Status Thread [D]",
+      "source": "Reddit r/MachineLearning",
+      "url": "https://reddit.com/r/MachineLearning/comments/1syl769/ijcaiecai_2026_decision_notification_and/",
+      "snippet": "↑18 | 20条评论",
+      "platform": "reddit",
       "platform_rating": "A",
       "source_quality": "A",
-      "relevance_hint": "命中关键词: gpt, chatgpt",
+      "relevance_hint": "命中关键词: ai",
       "tags": [
         "海外讨论"
       ],
       "is_repeat": true,
       "repeat_count": 1,
-      "fingerprint": "0b849cdc48fbcfb21a3bd6be9f1afa27"
+      "fingerprint": "2f4aec7865e64a1950a5696559f52893"
     },
     {
-      "title": "Claude system prompt bug wastes user money and bricks managed agents",
+      "title": "Am I crazy to think that the UAI authors are confusing the discussion deadline with the rebuttal deadline ? [D]",
+      "source": "Reddit r/MachineLearning",
+      "url": "https://reddit.com/r/MachineLearning/comments/1syx7n6/am_i_crazy_to_think_that_the_uai_authors_are/",
+      "snippet": "↑2 | 7条评论",
+      "platform": "reddit",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "031ae5fed7e9cfbc7f360ecbdb731ea6"
+    },
+    {
+      "title": "Zed is 1.0",
       "source": "HackerNews",
-      "url": "https://github.com/anthropics/claude-code/issues/49363",
-      "snippet": "↑91 | HN热门",
+      "url": "https://zed.dev/blog/zed-1-0",
+      "snippet": "↑371 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "20b59a4e67e4c42dfb5599d7e20370a8"
+    },
+    {
+      "title": "Tangled – We need a federation of forges",
+      "source": "HackerNews",
+      "url": "https://blog.tangled.org/federation/",
+      "snippet": "↑223 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "0aca4b1e3988fc6b0e6f0b1b2ee3fa07"
+    },
+    {
+      "title": "Why AI companies want you to be afraid of them",
+      "source": "HackerNews",
+      "url": "https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them",
+      "snippet": "↑50 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "260d78d665e1ea8717c4965d58e89ac3"
+    },
+    {
+      "title": "Soft launch of open-source code platform for government",
+      "source": "HackerNews",
+      "url": "https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform/",
+      "snippet": "↑390 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "dcafeaceb8294314ce3d9f57ab357d48"
+    },
+    {
+      "title": "Improving ICU handovers by learning from Scuderia Ferrari F1 team",
+      "source": "HackerNews",
+      "url": "https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari",
+      "snippet": "↑29 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "22d42855935ca67ab2cf732028b74424"
+    },
+    {
+      "title": "GitHub – DOS 1.0: Transcription of Tim Paterson's DOS Printouts",
+      "source": "HackerNews",
+      "url": "https://github.com/DOS-History/Paterson-Listings",
+      "snippet": "↑56 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "631cbd56e3c9bd7679ff2f3d431ce875"
+    },
+    {
+      "title": "Mistral Medium 3.5",
+      "source": "HackerNews",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "snippet": "↑62 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "35f934bede93fc68f46bec886f78ff48"
+    },
+    {
+      "title": "Bugs Rust won't catch",
+      "source": "HackerNews",
+      "url": "https://corrode.dev/blog/bugs-rust-wont-catch/",
+      "snippet": "↑491 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "f3f74761bc7c23e6af9eae7eaf7f144e"
+    },
+    {
+      "title": "Letting AI play my game – building an agentic test harness to help play-testing",
+      "source": "HackerNews",
+      "url": "https://blog.jeffschomay.com/letting-ai-play-my-game",
+      "snippet": "↑63 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai, agent",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "ece0cf842d10a47ce15fd9b62c7756c3"
+    },
+    {
+      "title": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
+      "source": "HackerNews",
+      "url": "https://github.com/electricant/adblock-rust-manager",
+      "snippet": "↑35 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "9adfeab6de3f141ef7f3c1afc179b606"
+    },
+    {
+      "title": "I built ten custom subagents to tame a 500K-line Clojure codebase",
+      "source": "HackerNews",
+      "url": "https://www.metabase.com/blog/ten-custom-subagents",
+      "snippet": "↑8 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -463,15 +559,15 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "d9f3d0050c17dd983eaeb29057056a33"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "baac42b15a655d3147a21260e62b5d79"
     },
     {
       "title": "Before GitHub",
       "source": "HackerNews",
       "url": "https://lucumr.pocoo.org/2026/4/28/before-github/",
-      "snippet": "↑269 | HN热门",
+      "snippet": "↑585 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -480,238 +576,30 @@
         "海外讨论"
       ],
       "is_repeat": true,
-      "repeat_count": 1,
+      "repeat_count": 2,
       "fingerprint": "67d259676bab85af915ec3892978c9d9"
     },
     {
-      "title": "We decreased our LLM costs with Opus",
+      "title": "How ChatGPT serves ads",
       "source": "HackerNews",
-      "url": "https://www.mendral.com/blog/frontier-model-lower-costs",
-      "snippet": "↑24 | HN热门",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "snippet": "↑438 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
-      "relevance_hint": "命中关键词: llm",
+      "relevance_hint": "命中关键词: gpt, chatgpt",
       "tags": [
         "海外讨论"
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "4da6c78d14a904d1ac0a40d009c1be60"
+      "fingerprint": "a9a40260c62df4f5f141786b7ac804fe"
     },
     {
-      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "title": "U.S. war in Iran has cost $25B so far, says Pentagon official",
       "source": "HackerNews",
-      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
-      "snippet": "↑182 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai, openai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "87eb907b24bfeac6ee74209e54b405c9"
-    },
-    {
-      "title": "Claude for Creative Work",
-      "source": "HackerNews",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "snippet": "↑46 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "7c677c926fa109c8da96f8d9b5d65699"
-    },
-    {
-      "title": "I won a championship that doesn't exist",
-      "source": "HackerNews",
-      "url": "https://ron.stoner.com/How_I_Won_a_Championship_That_Doesnt_Exist/",
-      "snippet": "↑82 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "3f34312418b1d2238585e4f35956b8fb"
-    },
-    {
-      "title": "Intel Arc Pro B70 Review",
-      "source": "HackerNews",
-      "url": "https://www.pugetsystems.com/labs/articles/intel-arc-pro-b70-review/",
-      "snippet": "↑113 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "430f7712871c0f9b9651528b12cc183f"
-    },
-    {
-      "title": "Carrot Disclosure: Forgejo",
-      "source": "HackerNews",
-      "url": "https://dustri.org/b/carrot-disclosure-forgejo.html",
-      "snippet": "↑100 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "fd24427a418a97d7a561b669af2b831e"
-    },
-    {
-      "title": "Behavioral timescale synaptic plasticity rewires the brain after an experience",
-      "source": "HackerNews",
-      "url": "https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424/",
-      "snippet": "↑58 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "93f159907149a7a6cdef77692dd162b6"
-    },
-    {
-      "title": "GitHub RCE Vulnerability: CVE-2026-3854 Breakdown",
-      "source": "HackerNews",
-      "url": "https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854",
-      "snippet": "↑248 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 2,
-      "fingerprint": "6322f9b9f6ed93ffc59927094afee0f0"
-    },
-    {
-      "title": "CJIT: C, Just in Time",
-      "source": "HackerNews",
-      "url": "https://dyne.org/cjit/",
-      "snippet": "↑88 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "4cbf356843d18b0d583e92cd59f95401"
-    },
-    {
-      "title": "Your phone is about to stop being yours",
-      "source": "HackerNews",
-      "url": "https://keepandroidopen.org/en/",
-      "snippet": "↑989 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "1278f522934c6bd1818f65ceca0ebea4"
-    },
-    {
-      "title": "Who owns the code Claude Code wrote?",
-      "source": "HackerNews",
-      "url": "https://legallayer.substack.com/p/who-owns-the-claude-code-wrote",
-      "snippet": "↑258 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 2,
-      "fingerprint": "e7d937f12fdae025cca5db50982b45a2"
-    },
-    {
-      "title": "Warp is now open-source",
-      "source": "HackerNews",
-      "url": "https://www.warp.dev/blog/warp-is-now-open-source",
-      "snippet": "↑162 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "588a5e6169411e0c97338eb147920549"
-    },
-    {
-      "title": "I have officially retired from Emacs",
-      "source": "HackerNews",
-      "url": "https://nullprogram.com/blog/2026/04/26/",
-      "snippet": "↑180 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": true,
-      "repeat_count": 2,
-      "fingerprint": "b40e4fabc681a3cc7904e9949a54420f"
-    },
-    {
-      "title": "VibeVoice: Open-source frontier voice AI",
-      "source": "HackerNews",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "snippet": "↑320 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "fingerprint": "bba668e4b60a536beae9f9d3d70606f7"
-    },
-    {
-      "title": "UAE to leave OPEC",
-      "source": "HackerNews",
-      "url": "https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d",
-      "snippet": "↑346 | HN热门",
+      "url": "https://www.reuters.com/world/middle-east/us-war-iran-has-cost-25-billion-so-far-says-pentagon-official-2026-04-29/",
+      "snippet": "↑12 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -721,77 +609,77 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "03f96201164efcdca8a65e30830a4b88"
+      "fingerprint": "89cdbe3c7cca1bf5c24a2b2a9eb43571"
     },
     {
-      "title": "初中生淘到3本毒气战资料初鉴为真",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 初中生淘到3本毒气战资料初鉴为真",
-      "platform": "baidu",
+      "title": "Show HN: Rocky – Rust SQL engine with branches, replay, column lineage",
+      "source": "HackerNews",
+      "url": "https://github.com/rocky-data/rocky",
+      "snippet": "↑99 | HN热门",
+      "platform": "hackernews",
       "platform_rating": "A",
-      "source_quality": "C",
+      "source_quality": "A",
       "relevance_hint": "",
       "tags": [
-        "百度热搜"
+        "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "3c53e4e21c77cf9577c33db084d0772c"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "843a4f3b67474c2bdda21c770638efc1"
     },
     {
-      "title": "博主打假合成羊肉卷 官方检测为真肉",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 博主打假合成羊肉卷 官方检测为真肉",
-      "platform": "baidu",
+      "title": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
+      "source": "HackerNews",
+      "url": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
+      "snippet": "↑208 | HN热门",
+      "platform": "hackernews",
       "platform_rating": "A",
-      "source_quality": "C",
+      "source_quality": "A",
       "relevance_hint": "",
       "tags": [
-        "百度热搜"
+        "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "ec1a295acac2e71e89bd5d2ce740c526"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "308c133a103d0b93cbed4657d8273edf"
     },
     {
-      "title": "李斌回应一用户预订20台乐道L80",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 李斌回应一用户预订20台乐道L80",
-      "platform": "baidu",
+      "title": "Show HN: Rip.so – a graveyard for dead internet things",
+      "source": "HackerNews",
+      "url": "https://rip.so",
+      "snippet": "↑139 | HN热门",
+      "platform": "hackernews",
       "platform_rating": "A",
-      "source_quality": "C",
+      "source_quality": "A",
       "relevance_hint": "",
       "tags": [
-        "百度热搜"
+        "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "d3de36c081a0ac829443ae4ca48c3d74"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "42f120b8a9f92e1082614b0ad963dae7"
     },
     {
-      "title": "罗翔曾给湖南卫视投简历",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 罗翔曾给湖南卫视投简历",
-      "platform": "baidu",
+      "title": "HardenedBSD Is Now Officially on Radicle",
+      "source": "HackerNews",
+      "url": "https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle",
+      "snippet": "↑130 | HN热门",
+      "platform": "hackernews",
       "platform_rating": "A",
-      "source_quality": "C",
+      "source_quality": "A",
       "relevance_hint": "",
       "tags": [
-        "百度热搜"
+        "海外讨论"
       ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "6cb65d3d39a4c7a6c41c2174ebf1a996"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "9133ee4f7a825c4d77c7653f4f55b638"
     },
     {
-      "title": "中央政治局会议提出六张网",
+      "title": "中央政治局举行第二十五次集体学习",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 中央政治局会议提出六张网",
+      "snippet": "百度热搜: 中央政治局举行第二十五次集体学习",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -801,13 +689,13 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "e69d6c2832cf8b2428e44a961c9c78b3"
+      "fingerprint": "5229a74058a69f23a755b971dd36b75b"
     },
     {
-      "title": "遭田永明强奸追杀女子发声",
+      "title": "比利时副首相：恭喜中国 叹为观止",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 遭田永明强奸追杀女子发声",
+      "snippet": "百度热搜: 比利时副首相：恭喜中国 叹为观止",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -817,13 +705,13 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "2d9d4d12f7bc0ea7d8eff64d9bdb639f"
+      "fingerprint": "d0c64622311b1882b59f1ffb4058e848"
     },
     {
-      "title": "31省份一季度GDP排名生变",
+      "title": "身份证照片千万不要直接发",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 31省份一季度GDP排名生变",
+      "snippet": "百度热搜: 身份证照片千万不要直接发",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -833,13 +721,13 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "6d33e67c0a30d9a0ca9f638d58e2dd86"
+      "fingerprint": "8fcc3606a573f3da1a11274997ef4fd7"
     },
     {
-      "title": "女子莫名当上5家公司老板 官方核查",
+      "title": "五一档新片预售火热",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 女子莫名当上5家公司老板 官方核查",
+      "snippet": "百度热搜: 五一档新片预售火热",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -849,13 +737,13 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "a020aaac11cba5b92d4efe52e6eaa7e2"
+      "fingerprint": "a0647b8d3ad703536708c5e1ce7ad982"
     },
     {
-      "title": "央视曝光医保卡变“购物卡”",
+      "title": "“电脑涨得比黄金还猛”",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 央视曝光医保卡变“购物卡”",
+      "snippet": "百度热搜: “电脑涨得比黄金还猛”",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -865,13 +753,13 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "7e53fc2eebe422b2b991aac1aa02428b"
+      "fingerprint": "899c8364fd5970a1d26b0166ab7bab29"
     },
     {
-      "title": "阿联酋为何退出石油输出国组织",
+      "title": "缅北电诈分子找到新据点",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 阿联酋为何退出石油输出国组织",
+      "snippet": "百度热搜: 缅北电诈分子找到新据点",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -879,14 +767,398 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "971b49cee101d2f3e1f303abcb453288"
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "37bf338e73f9db3d8ee9072e717aa0ba"
     },
     {
-      "title": "AI燃擎,全员竞技!卫华集团首届&ldquo;AI全能应用挑战赛&rdquo;火热开启!",
+      "title": "中国军号：日本出兵都是作死",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 中国军号：日本出兵都是作死",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "4ac5fb7418dc4097c1ec910277f156c9"
+    },
+    {
+      "title": "减肥吃全麦面包的人天塌了",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 减肥吃全麦面包的人天塌了",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "178f10e4583915455cbf1c9dcaac4972"
+    },
+    {
+      "title": "榴莲价格大降",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 榴莲价格大降",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "afb234218750292eb4abc7910bc50e95"
+    },
+    {
+      "title": "96岁奶奶10年还2077万 最新回应",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 96岁奶奶10年还2077万 最新回应",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "c548ff22fec2d3e0a4e9d0a20c80063a"
+    },
+    {
+      "title": "赵心童vs墨菲",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 赵心童vs墨菲",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "006df857e69d7b630b0d9426fcd59842"
+    },
+    {
+      "title": "“深圳灵活就业社保被停保”不实",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: “深圳灵活就业社保被停保”不实",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "初步判断可能相关：含赛道关键词",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "53952c60d46d1e8de7d3b4e68ae6d93f"
+    },
+    {
+      "title": "内塔尼亚胡的麻烦有多大",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 内塔尼亚胡的麻烦有多大",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "81d50b04f4b0f63d5942f3cc0acfa8fa"
+    },
+    {
+      "title": "伊朗：将以前所未有的军事行动回应美",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 伊朗：将以前所未有的军事行动回应美",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "d3c713429ef2c465e87529c570bee1ce"
+    },
+    {
+      "title": "胖东来回应249元奢侈品毛巾",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 胖东来回应249元奢侈品毛巾",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "cada245c51534deeebbb132a12228808"
+    },
+    {
+      "title": "96年女生远洋货轮当大副 月入6.8万",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 96年女生远洋货轮当大副 月入6.8万",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "ed480bf7f7b0eba3351c3a759fc7bf6b"
+    },
+    {
+      "title": "博主用给跪了表情包11年后被索赔1万",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 博主用给跪了表情包11年后被索赔1万",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "8b91fb83244704230ccbcc8f9398e694"
+    },
+    {
+      "title": "男子拆鸟窝遭喜鹊叼垃圾封窗报复",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 男子拆鸟窝遭喜鹊叼垃圾封窗报复",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "b2b230273169c407fffe4ffde5a1c8e6"
+    },
+    {
+      "title": "王毅：不能任由谁拳头硬谁说了算",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 王毅：不能任由谁拳头硬谁说了算",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "b3813dde95d7d96f6bcb70ba2eb5a79f"
+    },
+    {
+      "title": "中央考核组暗访贵州 揭纸面安全乱象",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 中央考核组暗访贵州 揭纸面安全乱象",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "49689fb1bec8ed0b615392e16ebc1615"
+    },
+    {
+      "title": "现代修仙，没钱纯靠自律【自律狠人】【第一季超长电影版】",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1B8ZJYTEPg",
+      "snippet": "播放:9221224 弹幕:4286 | 圆桌动漫",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "18932bc3da40248e05a9c53327df3e62"
+    },
+    {
+      "title": "【大鸣王潮1566】死告者",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1UbZ8YmEP8",
+      "snippet": "播放:1615790 弹幕:8972 | 寞桀緣才",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "f5e46432c4f9f1a37dd858ef5d5fc0a5"
+    },
+    {
+      "title": "《穷鬼的上下两千年》第一集：老夫，秦国白起",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1mSZkYQEGf",
+      "snippet": "播放:1266537 弹幕:1483 | 吃顾楠的豆饭",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "71346ea52b36343ff1d9a71ee384da34"
+    },
+    {
+      "title": "“把怪兽叫来，我让你把怪兽叫来！”",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1q2ZtYtExy",
+      "snippet": "播放:4039772 弹幕:2148 | 思瑞弟",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "1b4d44c8a51d11559c50dacaa5b3fe37"
+    },
+    {
+      "title": "以前光顾着看陀螺了！一个角色为啥比动画还火？",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1dEfKYcENK",
+      "snippet": "播放:2972063 弹幕:5862 | The梁某人",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "313346919290b4fd71447151245aec2a"
+    },
+    {
+      "title": "林宇同居16集 林宇要打苏清雪打屁屁了",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1YTZvYMECW",
+      "snippet": "播放:3862683 弹幕:537 | 王权神算",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "44ecd52598fc6e8d9d97d3685a1a7c5e"
+    },
+    {
+      "title": "【Mujica/完结纪念Mad】心灵感应 :-sakiko",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1U7ZxYzEkC",
+      "snippet": "播放:780819 弹幕:348 | 法國香菜",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "0b45d64574e560bbe0133d5eb0baed88"
+    },
+    {
+      "title": "墨墨尊瞳",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1G1ofYiENJ",
+      "snippet": "播放:7229116 弹幕:602 | 严小墨哦",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "dbbc852521e0479aa8b638a12ea79bba"
+    },
+    {
+      "title": "火柴人大乱斗即将来袭:独属于我们ab圈的2d横版格斗",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1rUZeYnEDg",
+      "snippet": "播放:3718700 弹幕:805 | 井上鲸",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "92db8a2a076356e6ba5908849e87da95"
+    },
+    {
+      "title": "人怎么能犯这么大的蠢",
+      "source": "B站全站热门",
+      "url": "https://www.bilibili.com/video/BV1YcZYYeE7Y",
+      "snippet": "播放:2940968 弹幕:263 | 鬼鬼_onioni",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "fbc81370b3813620f9f76510ff4d837c"
+    },
+    {
+      "title": "AI元年的职场:&ldquo;狼&rdquo;来了,然后呢?",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd9kviUYr7zygoOw46NL0wAKEe95bCmkDe366yRLYWNWAdZxeX6DKrwXqH_JN77UpopXsW5CqkugVfreIiJYBrWGAVIip4O658njf3ol69ZNi0lXELpKv8OC4j4X5Z9tGBtEvu9TnM6dL6kQyn6TMfIhmcUvJm3UCxlpx3DZi0QzCYC2Qmj7RgGwQ..&amp;type=2&amp;query=AI&amp;token=24B72B273F2D861A636433ECA81B49AA63A6EBED69F167A0",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9lOB_gwVJ7W_okovwSSIGRfzwqy6PkxuHIJuSrXZ0jXTY_9fxDuoyZo-T-2NcrbhJt8wj-BmGidgqSMOkMay0B7dssUnwz4s2YJTY8C5APDB3WnWg5KVlHlQp3hjAkXGObqJn10ZTX2JabJrw4ZXXXeLRtgE1QH7pK9osBJEAgjGFW6cwuUnkdA..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -898,12 +1170,29 @@
       ],
       "is_repeat": true,
       "repeat_count": 1,
-      "fingerprint": "dd8e604247d77e2c1003921a235ebeb7"
+      "fingerprint": "f29be0d4b7014eb5a571083e4960af17"
     },
     {
-      "title": "关于ai 的骗局",
+      "title": "AI原生应用哄哄模拟器爆火,24小时吸引60万用户|产品观察",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd9GgDowgQjsgufTkQS8jy8pG8bdx-1RN4HSv1J7cJlpI_YzChVpiAU6b-5NBCsdtJsIfFQdRG4F1CmVbtWVoCat-mL6yyGVYs14BgJPxqRw7PJhfxKsQenUUfx3mlA7ltJUm0foCmzLVeTO2YtT81uvJ50uF2b3Pi9EVbJ-FB8u7DS-e4Yz84xMA..&amp;type=2&amp;query=AI&amp;token=24B72B273F2D861A636433ECA81B49AA63A6EBED69F167A0",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9zMtopOfIbsXPM51Q4TZQG_4_DDiVNfXRfdv0jM9luU-MKEl0HEhUgJsAFBxO3fpwr_fDSK08PNl96yjC4J9wJ-hVyrGpNXe_fgyesI2j9XekYGE2IHA3CUlNdJcvdBRWNX7No9PZDaoL_k22LcL6Wy3VjK4QADPXlcO8oowg-Kk89kyxDwoXvg..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "fingerprint": "2442a19a1e1eb2b1224d317e7e5afbfa"
+    },
+    {
+      "title": "AI应用概念股全梳理",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9fPLwtmruxRRAQcVjjYi1DaRLHrXt9YEGYyPlUM922STNDMc3_VuNYV-sLhHnXd-MHTSOUfJazI_nj9Xy50QI7r4Rbut9HJV_7xat5VqxKARFc7ECwBKRvbV0D6YkoyrUJTKBjWWcoRCtZ6ebm5hzPZsi2neUzFKW2C-uu8Bqx_WFW6cwuUnkdA..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -915,12 +1204,12 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "27f7bfecf13bb45ffa0ad45462d63606"
+      "fingerprint": "a0217f226c4c145fdf03ebcd59eaf23c"
     },
     {
-      "title": "以AI为翼  赋能课堂&mdash;&mdash;莱芜区凤城街道中心小学&ldquo;AI赋能教学&rdquo;主题微论文评选活动圆满落幕",
+      "title": "AI企业培训在线接单~",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd9f-wijkz0rD7-8shqo7Zorf9digy7K9ihP0Sr1_h4lFYnaOMal1P7K6ev02C1NFXVf6NS_eOE7TZ5KaEgpzmoYpDvz3fnUgupj0jsp6BqZqY73mY574HU4ywf54YI8sjcN9MHho0AuAtjQRIre2DQcqeeXnQAICVfVqJ35ePrIlXRtmyIGw2VAg..&amp;type=2&amp;query=AI&amp;token=24B72B273F2D861A636433ECA81B49AA63A6EBED69F167A0",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9n1A8Z-Th8ssL3qI7yq1OlDZH88ROp0zpH56USPII2iW26bUF34TrxEscm8qQBM4CPJJ0tuCpj3drxvfJxIFtXuCZPCDBobUfdDeaakcx9ecao0cz5UZEXmu0VAgyy9o-uOKES_IYf-kVf2ckTUjNPKp6RlUelgEDgsCQaX_3rhg5eBgmN3LoYQ..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -932,12 +1221,12 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "0fa758de72331d80228712a45fa97fd2"
+      "fingerprint": "521409f872e1ea193ec316ac2d6b72d8"
     },
     {
-      "title": "AI伴侣崛起",
+      "title": "【活动预告】五一遛娃首选|新华书店AI科技嘉年华,AI萌宠+机器狗等你来玩!",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd9ENNYDzw5Wew5Zj-gymJoO25RQLuPsLtvOZBTxb9qOmbXDhspkcYtyFS0kwYJbMGdjCCFBt1fLVjPJlnWAYCa-A9khKWWHWpaY9H0yzuVBNHzbLojosLUelhsr6YEF-8-plz5-KKYtr1DVdylCpSiqfYOFIi1InF_fUsodBxzy0ACn9lOoZLP2Q..&amp;type=2&amp;query=AI&amp;token=24B72B273F2D861A636433ECA81B49AA63A6EBED69F167A0",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gCrKV_jnKnnH8_NVT0j4TOFqXa8Fplpd9XSKtpV8qezD7v9cETNBrYHsqx50OFOCGPlteKyWbW1Nv1orHUPNZdGHgXGRQ0kSi19tHk0SBfrI-snZPjxiCU4jzWQWpH8Qfr0nD0aPK_M2kWiTCkEQITEU8XRn92KHE44N1xeXvTwlv6aDilDQYbMCRlFV5XHREUdTL60grqyI89kyxDwoXvg..&amp;type=2&amp;query=AI&amp;token=28E4E1474755FE631C1A4B807F28B16C1C5C0C5E69F22A2F",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -949,29 +1238,12 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "88738ab6dce53e289549f3fd3251fbfb"
+      "fingerprint": "e9e2b84b7fb7c1db6f47bccddb44fbac"
     },
     {
-      "title": "AI资讯快报 4.29",
+      "title": "&ldquo;龙虾&rdquo;出现后,大模型时代的共识被推翻了",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd9xU2DOcsFexIJq73Ri-h7wDIgLTdyhuO4LxDh0c29xNsTDkBsU-lP_xFykH68NbWOWtWKqRYluhTpota81NAL6hGE0LEogeJgTza2xDy0n7XQm9r7r7F9tz5HMqoLMfNNIsIJ8rucF5n5opKdZjUDtflrBsNVBGWKiLcWygiQeCoC2Qmj7RgGwQ..&amp;type=2&amp;query=AI&amp;token=24B72B273F2D861A636433ECA81B49AA63A6EBED69F167A0",
-      "snippet": "微信文章 | 关键词: AI",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "fingerprint": "83099d1065782aa50ff45b509d2bbcb7"
-    },
-    {
-      "title": "大模型训练有多卷?揭开大模型算力之谜 | 钛媒体深度",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd92etc2FSqFT_F5zE05LfznHwyj9jtizpCxYtf_fV7dtzLf1ccNTTZVF8T-W9dhYu9Oc4T8MyTgoXoH8tvbdxSblEQ3TQgz8QeNRnXQg3G8xK9YbVos_4Ou9SthO3lumBNaZArGuYUH3GlChIj1Va9HCMBDKppIvB9WhLcDgkGxQsCYioxHkzTmA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=24B72C83BAA8009EE5E3B5692D988136E690D19669F167A0",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd97Q2zLKjeHE6mOykoFf1RaPZ9PbO9WMYUrMWFeVw6f8vZGc4LcUsUUhjUiDAO72QPwEPQtBPA-tS--9o3D_sBZyUDNXmswXG13WCmWK-F-rq2HNlpUb-1-yJBDR_XZpMaY4BwUhYRr-vEmSnMnqAQjrox4Lz01rZtKpHuLOLJW_ROJBjQH7pCxQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28E4E3391103AB364E481ED52A753E9E4EFA3F0169F22A2F",
       "snippet": "微信文章 | 关键词: 大模型",
       "platform": "weixin",
       "platform_rating": "A",
@@ -983,12 +1255,29 @@
       ],
       "is_repeat": true,
       "repeat_count": 1,
-      "fingerprint": "b27b93a2a4e5f1115bb62c5612a3cd5d"
+      "fingerprint": "9fa53ce69119d610db4d6c4b6bf4a220"
     },
     {
-      "title": "大模型想落地,先让大家用得起",
+      "title": "大模型第一股交卷:3000亿市值和三个关键变量",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd9Ascizzv9QcSz7zLoJoW5yTT92uZy6p_wd8imuz4_SK1iMjzpkBpMGo0NPI42uvgYeHxPp_Eje4H9M04lxx73w21zfJWgHhFazxg2FbpHypf_5DlqLQ-ED7wq5rG-wkEVNdw87ES7uDc_kOfNldjEKm7HFZkASaEwZkz61ju7xXMSYTqT4eyLmA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=24B72C83BAA8009EE5E3B5692D988136E690D19669F167A0",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9bLAnxry5tKuTjKLfh9Ce0dQ-9Fgpt1Mc5Vt3Gz6LQ4XOR4iEv9yyN78-0TpLXsoGBhxGwVQ84ok1Rm7smYwYHmVSrgUP8m3cDJPsAcAmyf1Oh3dhfu-BoSkAIr3dlkIiZ7fTTHNFtjbweM2ppXhAd12ZJzCNmCYmqL2PeuiSPRe54z_tGSZTqA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28E4E3391103AB364E481ED52A753E9E4EFA3F0169F22A2F",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": true,
+      "repeat_count": 2,
+      "fingerprint": "3e090030eae8d18518de4e26a73ebf03"
+    },
+    {
+      "title": "大模型卷到＂几分钱＂时代,机器人开始抢人类的班",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9W9e7NyXQYINi47EMAn6f9D2Z8pM5XLy88Qjl_5y5he3-CcZZ8WHljvivgHYXU-qj5774EcyWkL4myaHGsBWUP9Fn02YHDM2KT37EshWegyeqyKLx-AQqZqVEB2g1CkFxHBOwU7IagGU52KxnMDWwEea-PydXHWfKiG6nkJiqB1DRtmyIGw2VAg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28E4E3391103AB364E481ED52A753E9E4EFA3F0169F22A2F",
       "snippet": "微信文章 | 关键词: 大模型",
       "platform": "weixin",
       "platform_rating": "A",
@@ -1000,29 +1289,12 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "b24e32e9f07445fecbd5b09425998451"
+      "fingerprint": "f6ee535c7790ee3b791c8fe5f1016b81"
     },
     {
-      "title": "盘古负责人出走,华为大模型的下一站在哪",
+      "title": "中国AI炸场!DeepSeek-V4发布即爆火,硅谷坐不住了",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_g-4e_Top2tM9Bj1EVClPQP1qXa8Fplpd9PrlKf3KKvZYfae2dhu7CUDGIR1xgQ7oY_WNwgarBoIPZw_AhJNtI5ToPJPAJ9qMa8jxPV41Daa5Ku0MFgrWanMgksrjInMvtxnbkhHv7_IG7k8N065kjk3japI-jPS6LntODuFBGC4jTCGS0c4bRd7Qs0NjP26Og_--wgb8KdhRhlgeRt7bSzA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=24B72C83BAA8009EE5E3B5692D988136E690D19669F167A0",
-      "snippet": "微信文章 | 关键词: 大模型",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: 大模型, 模型",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "5497231af9d3e988b915d75461610525"
-    },
-    {
-      "title": "你在驯化AI,AI也在反向驯化你",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gdt7VqIwa6xBBj1EVClPQP1qXa8Fplpd9JHsbgVirM5jHOLQDPkfGF34yXSXNI6rArJ5G7vq9_xb64nH5jptY7_CJBB_6zEXemxCgqLfJspaOkNYCn2hUfLwwvs8QjMnDGRDYxKpIb84H2R-kO51UoOfzCZQ2QCfAxcs6mg7v1mabFrB9I9tljg8NCtz3CfzzVN4Gr_cN72lAe0f8bRARvQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=24B72E76FBE942D0A8AEF828632BBD70A8FE1E9469F167A1",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9GZPAzEOEH7tUZ0xAYgIRbi2_4UQ9veEJ7CMdnJniBTgKiyQDKI5M1JU8ZHXu1gLMgw00Joizo17LvUijtFTnZDDlPmVhS1xXQSfrbOM-vfA5mkjism-Y46wHuSuQg4KgTU6TsAR4u1JCUk1rfZ-vz3CQrtDBH0w0zdBxmBknZugGX_iHL9MadA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
@@ -1034,12 +1306,12 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "9af4eeeb314d3ff9d2b4c2be29494fdc"
+      "fingerprint": "2e40c85dd3490d75d3bece488a32f5fe"
     },
     {
-      "title": "21社论丨推动中国AI产业全链条协同发展",
+      "title": "智能军备竞赛:美、俄、以、法军事AI发展比较",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gdt7VqIwa6xBBj1EVClPQP1qXa8Fplpd9vDqd4kLl5ReYxVkYm-x1uoTzMkiW8so5gMNOI6_riDxj61oJ0OzKbUNxQRgsnaxdoP2FkBVGXM3BBUvzrPnBwbMMJQOUxRYhhzmVPjItqA-1Ue_opu2VuR_HL4vBAVdWShda-UzyyOYfnz0k7wcOkh70DKfjyUAO3YNWeHBjELhQL0Hr9Gyd3Q..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=24B72E76FBE942D0A8AEF828632BBD70A8FE1E9469F167A1",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd96Ny_l1qT42fihmnRfBWms1WuIAmn4DyZ9rOJGguMivgPvzZS7y4eRTBmzCtKrXowg6Vpedtqx0yCOeCM2C7QVamKyNYIRAQz8xmDbLsxWx_wT1_YBbHGZwY835CwXjNYAt3zyIeik7fX2nKVt483hxocaUNRUyXEc0PkFX4RvllhWLv6O878UA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
@@ -1051,70 +1323,71 @@
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "7249738a361b46c06fad69b5e0e1c841"
+      "fingerprint": "11dc93d8428ae0838923c8970183b870"
     },
     {
-      "title": "全球酒店业 AI 应用全景:普及加速但价值待释,战略与人才成破局关键&mdash;&mdash;2026 酒店业人工智能与自动化应用报告核心解读(40页PPT报",
+      "title": "从恐惧到希望,一位经济学家对人工智能的认知转变",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gdt7VqIwa6xBBj1EVClPQP1qXa8Fplpd9dU7xvA-8P4h90QofvCg0AsSWClgnjtgUS6KGU6rDuOdYtD_mIp-sxSEs-m-Q4gDt999-WS3Xs4kIbWlbDGSBOK4-71LAY0T0fGDWae4s79IazN9ZVy1KrpMg_1_0K34DlHaPjFUKjnP0SbPBJA9bqrkpDQj9nQoFmr0O4FkudhJ5Nu7CnoSqqg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=24B72E76FBE942D0A8AEF828632BBD70A8FE1E9469F167A1",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9sjEOcQSwPTLavHyH2D09YwtY2JBKZB7I__Y5xnCXkY6CPtPgriDUeZSbScZ7uuiBxYXJIAwxAOese2WebGir9jYzDu4Wzj489fMUzz_-YmVBsrQ_hgLuguoQ46lzuXJN-9Y4XqFwFCXYvXCI4YuGgmMhxlB6rPP6qA_arNcnmuHI3OTRHYU2og..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
       "source_quality": "B",
-      "relevance_hint": "命中关键词: ai, 人工智能, 自动化",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": true,
-      "repeat_count": 1,
-      "fingerprint": "888dab09e3d76d7fce79d439f774a382"
-    },
-    {
-      "title": "&ldquo;你的岗位被AI取代了&rdquo;,杭州35岁男子收到通知,懵了!法院判决:公司违法,支付2N赔偿金",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gdt7VqIwa6xBBj1EVClPQP1qXa8Fplpd991PJXRKhl_OM_lSfptn1FFs55XTOMCSD3Jgte7V0LmDl1zDrAm1lzYSQ3LLluL_xGWrsk43FnkJO7CET5uvk-tSP0Lb-buGzRWgVYJKc1TH4DGVCWsqeHvnKrto0OkgfLhho1eolC2IENXlCzk9i1Z3ZQ-MF4wIbjfauMW5vTw9j32-j2KiwUw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=24B72E76FBE942D0A8AEF828632BBD70A8FE1E9469F167A1",
-      "snippet": "微信文章 | 关键词: 人工智能",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai, 35岁",
+      "relevance_hint": "命中关键词: 人工智能",
       "tags": [
         "国内内容",
         "微信文章"
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "91806f41e12035d5f37733aeaddecc9f"
+      "fingerprint": "4863d1e1d53252dd9526287f235871ee"
     },
     {
-      "title": "大华股份AI一周新闻汇总(2026/4/22&ndash;2026/4/28):端侧智能体加速落地,AIoT正在从设备交付走向行业复制",
+      "title": "国家官宣新专业「商业人工智能」:不是学写代码,是学一套赢在AI时代的管理操作系统",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gdt7VqIwa6xBBj1EVClPQP1qXa8Fplpd9WDnaHdefIbFv6jZBqDx6rWSFJWmBF8CzeSEVAbGH9rximy_FY6ThCv3leZctgMXQe1ykOk4p6kNxIT0BO0zKEGdXfd4wluTa4ZihhTOSDiDIY38Q4vi7es2FT3enEZw0nQCxih5wdMjWEMWc7ptruXJr-JoDh3PA7atzOt6uA_Gq3X8EKMKOIA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=24B72E76FBE942D0A8AEF828632BBD70A8FE1E9469F167A1",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9OH6dINS4Uo8wl3GtLMWbee2rW0dk963awGqBCbg7wUrkSKFQKxAQYX1uuYusnHVwsVHRryFcQlj4JXuQMrXN13SVBsVCjfv7ufRNdvRepSFhYTzhq3yshud5a-jeQl8v5Unie5hOt8q04086ccrftW7-N-L70p2zMkQbugvdaaPuL0unUdKkuw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
       "source_quality": "B",
-      "relevance_hint": "命中关键词: ai",
+      "relevance_hint": "命中关键词: ai, 人工智能",
       "tags": [
         "国内内容",
         "微信文章"
       ],
       "is_repeat": false,
       "repeat_count": 0,
-      "fingerprint": "b7d112c806a7cdb8ce7dd66ee211ee8b"
+      "fingerprint": "8cd7ebe3272aec1e9c5f993bd1ce7c64"
+    },
+    {
+      "title": "大摩:中国人工智能与美国的差距和发展路径",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gIK3TZA14auH8_NVT0j4TOFqXa8Fplpd9LR0SxqKVoy3Ifoo0R5eApW7twhhteE_4liSDEMKXaec0qkHYRrh0m0sslZLErkYskUQ4JMQ8vwVaz9WoCkQ9OrAZC_g-hBDT3VlhTZWFdJCEgY3SfHhSi0NTwZBuGDlqTwr91vibRxZlXisppp6a2KJT46N4JPZ9AwYg6lSitywY-UZGbO56rA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28E4E4694556FC60191F48837C26B5E81922AC8769F22A30",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "fingerprint": "946e3bb238fcaab4dac0eb9c20850205"
     }
   ],
   "stats": {
     "by_platform": {
-      "reddit": 26,
-      "hackernews": 19,
-      "baidu": 10,
+      "reddit": 24,
+      "hackernews": 18,
+      "baidu": 20,
+      "bilibili": 10,
       "weixin": 13
     },
     "by_rating": {
       "S": 0,
-      "A": 68,
+      "A": 85,
       "B": 0
     }
   }
