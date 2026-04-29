@@ -1227,9 +1227,9 @@
   "ccdd1e2de833d0a441314b0e9069d293": {
     "title": "What will be the first major catastrophe caused by a rogue AI agent?",
     "source": "Reddit r/artificial",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T00:36:30.505312",
-    "last_seen": "2026-04-29T00:36:30.505312"
+    "last_seen": "2026-04-29T10:59:47.007702"
   },
   "9e29c719f5b27891407ed7e4186fc373": {
     "title": "Fast experiment on T4 GPU. Self play training on Dark Hex (Colab notebook) [P]",
@@ -1521,9 +1521,9 @@
   "74c9ff9a65b53f3edc15679af1c96c03": {
     "title": "Visualizing Loss Landscapes of Neural Networks [P]",
     "source": "Reddit r/MachineLearning",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T02:19:19.985209",
-    "last_seen": "2026-04-29T02:19:19.985209"
+    "last_seen": "2026-04-29T10:59:49.327783"
   },
   "86ff0ccf94030e7d95842e7aa3807580": {
     "title": "AISLE Discovers 38 CVEs in OpenEMR Healthcare Software",
@@ -1556,16 +1556,16 @@
   "b40e4fabc681a3cc7904e9949a54420f": {
     "title": "I have officially retired from Emacs",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T02:19:32.638756",
-    "last_seen": "2026-04-29T02:19:32.638756"
+    "last_seen": "2026-04-29T11:00:08.490788"
   },
   "6322f9b9f6ed93ffc59927094afee0f0": {
     "title": "GitHub RCE Vulnerability: CVE-2026-3854 Breakdown",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T02:19:39.912143",
-    "last_seen": "2026-04-29T02:19:39.912143"
+    "last_seen": "2026-04-29T10:59:59.407471"
   },
   "e1ab550a10b3ae96c4a7472988780d7d": {
     "title": "ASML became the chokepoint for cutting-edge chips",
@@ -1678,5 +1678,383 @@
     "seen_count": 1,
     "first_seen": "2026-04-29T02:19:44.105304",
     "last_seen": "2026-04-29T02:19:44.105304"
+  },
+  "bd9675d3b476fcd8b74bf27e8496412e": {
+    "title": "Say I have an idea for a webapp product that I believe would be a no-brainer for a specific group of companies to offer.",
+    "source": "Reddit r/Entrepreneur",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:40.663952",
+    "last_seen": "2026-04-29T10:59:40.663952"
+  },
+  "4828af044b5251345ed7e930c914eef6": {
+    "title": "An IBM training manual from 1979.",
+    "source": "Reddit r/singularity",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:45.520006",
+    "last_seen": "2026-04-29T10:59:45.520006"
+  },
+  "13a5b4cb27168c31175c377fe5870629": {
+    "title": "Caltech researchers claim radical compression of high-fidelity AI models",
+    "source": "Reddit r/singularity",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:45.524975",
+    "last_seen": "2026-04-29T10:59:45.524975"
+  },
+  "26cf9026c21dc7a99a908f64ad0fbc7f": {
+    "title": "Do you \"cross-examine\" AI models to find the best tool for a specific task?",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:46.996539",
+    "last_seen": "2026-04-29T10:59:46.996539"
+  },
+  "4f44a864c02e31e33d7978e0d4ea78ed": {
+    "title": "The Day AI Stopped Being a Tab You Switch To — Claude Is Now Inside Your Software",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:47.003591",
+    "last_seen": "2026-04-29T10:59:47.003591"
+  },
+  "fe044ebc3bb62eacc90bc9d0cce211c5": {
+    "title": "Is AI the ultimate case of the cat getting out of the bag too soon?",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:47.010958",
+    "last_seen": "2026-04-29T10:59:47.010958"
+  },
+  "7c864f52e72e540e76b6513585797d2f": {
+    "title": "The Landing: Portable Payload for AI Systems",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:47.014528",
+    "last_seen": "2026-04-29T10:59:47.014528"
+  },
+  "c40421d1b5086721bfa36ac78445a68a": {
+    "title": "What is the scientific value of administering the standard Rorschach test to LLMs when the training data is almost certa",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:49.335266",
+    "last_seen": "2026-04-29T10:59:49.335266"
+  },
+  "2f4aec7865e64a1950a5696559f52893": {
+    "title": "IJCAI-ECAI 2026: Decision Notification and ChairingTool Status Thread [D]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:49.340746",
+    "last_seen": "2026-04-29T10:59:49.340746"
+  },
+  "b2194bee889d78919023e57e9f97ae66": {
+    "title": "Ghostty is leaving GitHub",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:51.994405",
+    "last_seen": "2026-04-29T10:59:51.994405"
+  },
+  "a9a40260c62df4f5f141786b7ac804fe": {
+    "title": "How ChatGPT serves ads",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:53.203254",
+    "last_seen": "2026-04-29T10:59:53.203254"
+  },
+  "67d259676bab85af915ec3892978c9d9": {
+    "title": "Before GitHub",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:53.790132",
+    "last_seen": "2026-04-29T10:59:53.790132"
+  },
+  "87eb907b24bfeac6ee74209e54b405c9": {
+    "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:54.385965",
+    "last_seen": "2026-04-29T10:59:54.385965"
+  },
+  "4da6c78d14a904d1ac0a40d009c1be60": {
+    "title": "We decreased our LLM costs with Opus",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:54.984112",
+    "last_seen": "2026-04-29T10:59:54.984112"
+  },
+  "3f34312418b1d2238585e4f35956b8fb": {
+    "title": "I won a championship that doesn't exist",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:55.842343",
+    "last_seen": "2026-04-29T10:59:55.842343"
+  },
+  "430f7712871c0f9b9651528b12cc183f": {
+    "title": "Intel Arc Pro B70 Review",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:57.114672",
+    "last_seen": "2026-04-29T10:59:57.114672"
+  },
+  "93f159907149a7a6cdef77692dd162b6": {
+    "title": "Behavioral timescale synaptic plasticity rewires the brain after an experience",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T10:59:58.586741",
+    "last_seen": "2026-04-29T10:59:58.586741"
+  },
+  "4295203806bd5b57a4771cc77ada166b": {
+    "title": "Apple CMF (Color-Matching Functions) 2026",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:00.003227",
+    "last_seen": "2026-04-29T11:00:00.003227"
+  },
+  "308c133a103d0b93cbed4657d8273edf": {
+    "title": "Show HN: Auto-Architecture: Karpathy's Loop, Pointed at a CPU",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:00.618844",
+    "last_seen": "2026-04-29T11:00:00.618844"
+  },
+  "1278f522934c6bd1818f65ceca0ebea4": {
+    "title": "Your phone is about to stop being yours",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:01.440094",
+    "last_seen": "2026-04-29T11:00:01.440094"
+  },
+  "4cbf356843d18b0d583e92cd59f95401": {
+    "title": "CJIT: C, Just in Time",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:02.134888",
+    "last_seen": "2026-04-29T11:00:02.134888"
+  },
+  "588a5e6169411e0c97338eb147920549": {
+    "title": "Warp is now open-source",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:03.897708",
+    "last_seen": "2026-04-29T11:00:03.897708"
+  },
+  "7c677c926fa109c8da96f8d9b5d65699": {
+    "title": "Claude for Creative Work",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:04.999832",
+    "last_seen": "2026-04-29T11:00:04.999832"
+  },
+  "72a94de92b08d78daa1250e140ebc731": {
+    "title": "Nonlinearity Affects a Pendulum",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:05.920720",
+    "last_seen": "2026-04-29T11:00:05.920720"
+  },
+  "5403736f952080994301921e3fffafa8": {
+    "title": "学会通过网络走群众路线",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.663980",
+    "last_seen": "2026-04-29T11:00:08.663980"
+  },
+  "a6b60b849a64182f1d49493dcf407654": {
+    "title": "日本广岛爆炸事故现场画面",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.670949",
+    "last_seen": "2026-04-29T11:00:08.670949"
+  },
+  "a1538376153a3d9cab94d6425e428f8c": {
+    "title": "多个电商平台已下架毒品前体",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.674218",
+    "last_seen": "2026-04-29T11:00:08.674218"
+  },
+  "b6a48ac3cc66314d00aff3f022232fd8": {
+    "title": "下一步经济工作怎么干",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.677345",
+    "last_seen": "2026-04-29T11:00:08.677345"
+  },
+  "8552ad82fe928633e677cb19d29afc69": {
+    "title": "1.5米内比耶拍照能完全提取指纹",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.681296",
+    "last_seen": "2026-04-29T11:00:08.681296"
+  },
+  "7e53fc2eebe422b2b991aac1aa02428b": {
+    "title": "央视曝光医保卡变“购物卡”",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.685156",
+    "last_seen": "2026-04-29T11:00:08.685156"
+  },
+  "49335e40b2cd7964f53fcffeb1423dea": {
+    "title": "《变形计》农村主人公丽姐逆袭",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.689110",
+    "last_seen": "2026-04-29T11:00:08.689110"
+  },
+  "a020aaac11cba5b92d4efe52e6eaa7e2": {
+    "title": "女子莫名当上5家公司老板 官方核查",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.692422",
+    "last_seen": "2026-04-29T11:00:08.692422"
+  },
+  "33357a95a4f2e579e53da41081b764ed": {
+    "title": "岗位被AI替代怎么办？杭州发布指引",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.695363",
+    "last_seen": "2026-04-29T11:00:08.695363"
+  },
+  "67215654d63002bfc69ef5e310bb5731": {
+    "title": "广西自治区政府原主席蓝天立被公诉",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.698138",
+    "last_seen": "2026-04-29T11:00:08.698138"
+  },
+  "a24b0ce0cf4bc1a76d7fbb91d401d8b3": {
+    "title": "公司回应将摄像头伪装成烟感设备",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.700638",
+    "last_seen": "2026-04-29T11:00:08.700638"
+  },
+  "2d9d4d12f7bc0ea7d8eff64d9bdb639f": {
+    "title": "遭田永明强奸追杀女子发声",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.702926",
+    "last_seen": "2026-04-29T11:00:08.702926"
+  },
+  "c273cd86badf2994ff84ae7ace9860da": {
+    "title": "东方甄选初代核心主播已全员离开",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.705172",
+    "last_seen": "2026-04-29T11:00:08.705172"
+  },
+  "971b49cee101d2f3e1f303abcb453288": {
+    "title": "阿联酋为何退出石油输出国组织",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.707833",
+    "last_seen": "2026-04-29T11:00:08.707833"
+  },
+  "ebe37815c4a316a56666e7c72e80a234": {
+    "title": "一个探店博主为何能偷税近千万",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.709905",
+    "last_seen": "2026-04-29T11:00:08.709905"
+  },
+  "2bd577a8fb7977b478166032d55c47b9": {
+    "title": "美伊“不战不谈”还要僵多久",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.711899",
+    "last_seen": "2026-04-29T11:00:08.711899"
+  },
+  "4aee7c4e4ced1995228ca5e5788301b7": {
+    "title": "别碰别踩 发现这种蚂蚁请立即上报",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:08.713871",
+    "last_seen": "2026-04-29T11:00:08.713871"
+  },
+  "97c9f4aac8b692bd62304cc624d16f6d": {
+    "title": "AI短剧承制,欢迎打扰",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:09.386071",
+    "last_seen": "2026-04-29T11:00:09.386071"
+  },
+  "feea9a228c04fe4473f4ebcafe79bf15": {
+    "title": "Ai时代的教育,不能短视!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:09.390955",
+    "last_seen": "2026-04-29T11:00:09.390955"
+  },
+  "0202daf54f3a8641e7f3885ec5f37805": {
+    "title": "【战略签约】AI赋能&ldquo;潮汕药膳&rdquo;!我司携手汕头市中医药传承研究院共探智慧中医新未来",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:09.394389",
+    "last_seen": "2026-04-29T11:00:09.394389"
+  },
+  "1a4c27688a67f45ee0e49840eb066c55": {
+    "title": "AI生成内容版权归谁?普通创作者必看!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:09.399855",
+    "last_seen": "2026-04-29T11:00:09.399855"
+  },
+  "938804d198f38ce06ed1c2f3b73a5379": {
+    "title": "智启未来・AI 赋能:行管系召开生成式 AI 融入教学探索会",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:09.403983",
+    "last_seen": "2026-04-29T11:00:09.403983"
+  },
+  "8adb5bc4ba741f25ef210a8175d01f28": {
+    "title": "大模型的＂保质期＂比牛奶还短",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:09.793672",
+    "last_seen": "2026-04-29T11:00:09.793672"
+  },
+  "4403ed93638f5aa5779035c25eb5da37": {
+    "title": "大模型传播观察之三十二丨大模型语境下用户的多平台使用行为研究",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:09.798084",
+    "last_seen": "2026-04-29T11:00:09.798084"
+  },
+  "2e8231c7d87883374c3f977c42caa01e": {
+    "title": "OpenAI自研手机计划曝光:2028年量产!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:10.024888",
+    "last_seen": "2026-04-29T11:00:10.024888"
+  },
+  "4ac306c34b14dc181bbbb34f60d602a6": {
+    "title": "昨夜今晨 | 全线加码AI!多层政策连环落地,算力、具身智能或迎来爆发周期!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:10.030688",
+    "last_seen": "2026-04-29T11:00:10.030688"
+  },
+  "9770afd84f3f0c70568c4aa859bfd729": {
+    "title": "人工智能对管理学理论的冲击与颠覆",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:10.037508",
+    "last_seen": "2026-04-29T11:00:10.037508"
+  },
+  "cab7343d8ecba5c6aceeafa1acda62c2": {
+    "title": "组织人工智能采纳:研究述评与展望(下)",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:10.041920",
+    "last_seen": "2026-04-29T11:00:10.041920"
+  },
+  "b3c405e5d184dcfef5960e351a2a679b": {
+    "title": "分享|关于开展济南市人工智能应用服务商征集工作的通知",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:10.045666",
+    "last_seen": "2026-04-29T11:00:10.045666"
+  },
+  "a7d1063dca6e99c77bceaba3f67b2291": {
+    "title": "Interconnects AI",
+    "source": "Interconnects",
+    "seen_count": 1,
+    "first_seen": "2026-04-29T11:00:34.784875",
+    "last_seen": "2026-04-29T11:00:34.784875"
   }
 }
