@@ -1,298 +1,413 @@
-# 🔥 AI×超级个体 热点采集报告（每周）
-> 报告生成时间：2026-04-29 23:58
-> 采集方式：Hermes Agent · 关键人物博客手动检查 + MCP Brave Search + Python 脚本 + 深度补采
-> 分析方法：Hermes Agent · LLM 分析 · SOUL 框架赋能
-> 分析焦点：AI 转型 · 超级个体 · 主体性建构 · 认知升级
-> 本期策略方向：Sam Altman 密集更新（Sora 2 / Gentle Singularity / Abundant Intelligence）+ AI Agent 商业化 + AGI 时间线修正 + 一人企业 AI 赋能
+# 🔥 AI×超级个体 热点采集报告 (每周)
+> 报告生成时间：2026-04-30 00:01
+> 采集方式：自动调度 · `hotspot_engine.py`
+> 信息源数量：8个
+> 采集条目数：68条
+> 去重统计：采集前排除 -43 条 · 已标记重复 54 条 · 已排除 0 条
 
 ---
+## 📊 各平台热点总览
 
-## 📋 本期热点清单（Top 16 优先排序）
+### 🟡 百度热搜
 
-| 优先级 | 标题（原文） | 中文摘要 | 平台 | 概览 | 与赛道的关联度 | 建议内容方向 |
-|--------|-------------|---------|------|------|---------------|-------------|
-| P0 | The Gentle Singularity（温柔的奇点） | Sam Altman 最新长文：人类已越过事件视界，起飞已经开始。AI 正在接近数字超级智能，2026 是 AI Agent 之年，2027 是物理机器人之年 | Sam Altman 博客 | OpenAI CEO 发布最系统的 AGI 时间线预测——智力与能源将成为丰富资源，人类适应速度远超想象 | 高 | AI转型/认知升级 |
-| P0 | Abundant Intelligence（丰裕智能） | Sam Altman 宣布 OpenAI 目标建设每周 1GW 的 AI 基础设施工厂，认为 AI 使用权可能成为基本人权 | Sam Altman 博客 | 基础设施投资信号——AI 能力扩展需要巨大能源和算力投入，OpenAI 计划新融资模式 | 高 | AI转型/商业逻辑 |
-| P0 | Sora 2（Sora 第二代） | Sam Altman 发布全新 Sora 应用/Sora 2 模型，定位为"ChatGPT 的创造力时刻"，强调用户满意度核心指标 | Sam Altman 博客 | AI 视频生成进入社交化阶段，但 Altman 坦诚担忧成瘾性和"RL 优化的垃圾内容流" | 高 | AI转型/工具实战 |
-| P0 | 'The cost of compute is far beyond the costs of employees': Nvidia exec says right now AI is more expensive than paying humans | Nvidia 高管称目前 AI 算力成本远高于人力成本 | Reddit r/artificial（↑250，80条评论） | 当前的 AI 替代叙事存在成本悖论——不是 AI 太便宜不值得用人，而是 AI 太贵不值得替代人 | 高 | AI转型/商业逻辑 |
-| P0 | OpenAI's Sebastien Bubeck: LLM models are able to surpass human researchers and ask research questions | OpenAI 研究员 Bubeck 称 LLM 已能超越人类研究者，提出研究问题 | Reddit r/singularity（↑214，47条评论） | 来自 OpenAI 内部的前沿判断——模型不仅在能力上超越，在提出研究问题这一原创性活动上也开始超越 | 高 | AI转型/认知升级 |
-| P0 | Why AI companies want you to be afraid of them | BBC 深度报道：AI 公司为何希望你害怕它们？Claude Mythos 被指过度渲染威胁以转移对现实危害的关注 | BBC Future（HN ↑50） | 批判视角——Anthropic 宣称新模型 Cyber 能力过强而限制发布，但批评者认为这是"恐惧营销"以回避当下的实际损害 | 高 | 哲学社会/情绪共鸣 |
-| P0 | How ChatGPT serves ads — here's the full attribution loop | ChatGPT 广告系统的完整技术拆解——SSE 流中注入广告单元 + Fernet 加密追踪 | HN ↑438 | 对 ChatGPT 商业模式全面广告化的技术揭秘，涉及用户隐私和平台转型 | 高 | 商业逻辑/工具技能 |
-| P1 | Mistral Medium 3.5 + Remote Agents in Vibe | Mistral 发布 128B 旗舰模型 Medium 3.5，开源权重，支持远程异步编程 Agent | HN ↑62 | 开源 AI 重要发布——128B 密集模型，SWE-Bench 77.6%，可自托管在 4 块 GPU 上 | 中 | 工具技能/AI转型 |
-| P1 | I made €2,700 building an AI system for a law firm and now I get €1,300/month to maintain it | Reddit 创业者分享为律所开发 AI 系统赚 2700 欧元，月维护收入 1300 欧 | Reddit r/Entrepreneur（↑72，49条评论） | 真实 AI 副业案例——小团队通过细分化法律服务 AI 实现可持续收入 | 高 | 超级个体/工具实战 |
-| P1 | Google just released Deep Research Max — autonomous research agent | Google 发布 Deep Research Max 自主研究 Agent，可独立撰写专家级报告 | Reddit r/artificial（↑27） | AI Agent 能力升级的重要产品发布 | 中 | AI转型/工具技能 |
-| P1 | Sketch to HTML works now | AI 从草图直接生成 HTML 代码已可用 | Reddit r/singularity（↑93，27条评论） | No-code 工具能力突破 | 中 | 工具技能 |
-| P1 | One-Person $1.8B Company: Why Solo Founders Are Winning in 2026 | 单人公司 18 亿美元估值：为什么独立创始人在 2026 年获胜 | WorkfxAI 博客（MCP Brave Search） | 29.8M 独立创业者贡献 1.7 万亿美元经济，2026 年 36% 新创业公司为单人创始人 | 高 | 超级个体/商业逻辑 |
-| P1 | AI Futures Project Revises AGI Timeline to 2029-2032 | AI 未来项目将 AGI 时间线修正至 2029-2032 年 | Observer（MCP Brave Search） | 重要信号——原 AI 2027 预测的团队自我评估认为进度只到预期的 2/3 | 中 | AI转型/认知升级 |
-| P1 | Solopreneurs 5+ years in: what 'boring' habits saved your business in year 2-3? | 5 年以上的独立创业者分享：什么"无聊"习惯在第 2-3 年拯救了你的生意 | Reddit r/solopreneur | 真实经验沉淀——创业持久战中的反常识智慧 | 高 | 超级个体/认知成长 |
-| P2 | Snapchat moves ads into chats with AI agents designed to feel like conversation | Snapchat 将广告植入与 AI Agent 的聊天对话中 | Reddit r/artificial | AI 商业化新趋势——对话式广告的兴起 | 中 | 商业逻辑 |
-| P2 | Do AI tools reduce friction at the cost of deeper thinking? | AI 工具在减少摩擦的同时是否牺牲了深度思考？ | Reddit r/artificial（↑8，13条评论） | 核心认知问题——AI 便利性与独立思考的权衡 | 中 | 哲学社会/认知成长 |
+- **中央政治局举行第二十五次集体学习** [🔄 第2次出现]
+  - 百度热搜: 中央政治局举行第二十五次集体学习
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
 
-> 排序逻辑：P0=必追（赛道直接相关+多平台共振），P1=可追（相关但需要角度切入），P2=参考（边缘相关但趋势信号）
+- **比利时副首相：恭喜中国 叹为观止** [🔄 第2次出现]
+  - 百度热搜: 比利时副首相：恭喜中国 叹为观止
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **身份证照片千万不要直接发** [🔄 第2次出现]
+  - 百度热搜: 身份证照片千万不要直接发
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **五一档新片预售火热** [🔄 第2次出现]
+  - 百度热搜: 五一档新片预售火热
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **“电脑涨得比黄金还猛”** [🔄 第2次出现]
+  - 百度热搜: “电脑涨得比黄金还猛”
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **缅北电诈分子找到新据点** [🔄 第2次出现]
+  - 百度热搜: 缅北电诈分子找到新据点
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **中国军号：日本出兵都是作死** [🔄 第2次出现]
+  - 百度热搜: 中国军号：日本出兵都是作死
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **减肥吃全麦面包的人天塌了** [🔄 第2次出现]
+  - 百度热搜: 减肥吃全麦面包的人天塌了
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **榴莲价格大降** [🔄 第2次出现]
+  - 百度热搜: 榴莲价格大降
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **96岁奶奶10年还2077万 最新回应** [🔄 第2次出现]
+  - 百度热搜: 96岁奶奶10年还2077万 最新回应
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **胖东来回应249元奢侈品毛巾** [🔄 第2次出现]
+  - 百度热搜: 胖东来回应249元奢侈品毛巾
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **“深圳灵活就业社保被停保”不实** [🔄 第2次出现]
+  - 百度热搜: “深圳灵活就业社保被停保”不实
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **内塔尼亚胡的麻烦有多大** [🔄 第2次出现]
+  - 百度热搜: 内塔尼亚胡的麻烦有多大
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **伊朗：将以前所未有的军事行动回应美** [🔄 第2次出现]
+  - 百度热搜: 伊朗：将以前所未有的军事行动回应美
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **96年女生远洋货轮当大副 月入6.8万** [🔄 第2次出现]
+  - 百度热搜: 96年女生远洋货轮当大副 月入6.8万
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **博主用给跪了表情包11年后被索赔1万** [🔄 第2次出现]
+  - 百度热搜: 博主用给跪了表情包11年后被索赔1万
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **男子拆鸟窝遭喜鹊叼垃圾封窗报复** [🔄 第2次出现]
+  - 百度热搜: 男子拆鸟窝遭喜鹊叼垃圾封窗报复
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **王毅：不能任由谁拳头硬谁说了算** [🔄 第2次出现]
+  - 百度热搜: 王毅：不能任由谁拳头硬谁说了算
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **中央考核组暗访贵州 揭纸面安全乱象** [🔄 第2次出现]
+  - 百度热搜: 中央考核组暗访贵州 揭纸面安全乱象
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+- **医院门口有人专门盯上“废胶片”**
+  - 百度热搜: 医院门口有人专门盯上“废胶片”
+  - 📎 https://top.baidu.com/board?tab=realtime
+  - 🏷️ 百度热搜
+
+### 🟡 HackerNews
+
+- **Zed is 1.0** [🔄 第2次出现]
+  - ↑393 | HN热门
+  - 📎 https://zed.dev/blog/zed-1-0
+  - 🏷️ 海外讨论
+
+- **Tangled – We need a federation of forges** [🔄 第2次出现]
+  - ↑228 | HN热门
+  - 📎 https://blog.tangled.org/federation/
+  - 🏷️ 海外讨论
+
+- **Why AI companies want you to be afraid of them** [🔄 第2次出现]
+  - ↑56 | HN热门
+  - 📎 https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them
+  - 🏷️ 海外讨论
+
+- **Soft launch of open-source code platform for government** [🔄 第2次出现]
+  - ↑390 | HN热门
+  - 📎 https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform/
+  - 🏷️ 海外讨论
+
+- **Improving ICU handovers by learning from Scuderia Ferrari F1 team**
+  - ↑29 | HN热门
+  - 📎 https://healthmanagement.org/c/icu/IssueArticle/improving-handovers-by-learning-from-scuderia-ferrari
+  - 🏷️ 海外讨论
+
+- **GitHub – DOS 1.0: Transcription of Tim Paterson's DOS Printouts** [🔄 第2次出现]
+  - ↑56 | HN热门
+  - 📎 https://github.com/DOS-History/Paterson-Listings
+  - 🏷️ 海外讨论
+
+- **Mistral Medium 3.5** [🔄 第2次出现]
+  - ↑66 | HN热门
+  - 📎 https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5
+  - 🏷️ 海外讨论
+
+- **Bugs Rust won't catch** [🔄 第2次出现]
+  - ↑493 | HN热门
+  - 📎 https://corrode.dev/blog/bugs-rust-wont-catch/
+  - 🏷️ 海外讨论
+
+- **Letting AI play my game – building an agentic test harness to help play-testing** [🔄 第2次出现]
+  - ↑63 | HN热门
+  - 📎 https://blog.jeffschomay.com/letting-ai-play-my-game
+  - 🏷️ 海外讨论
+
+- **U.S. war in Iran has cost $25B so far, says Pentagon official**
+  - ↑20 | HN热门
+  - 📎 https://www.reuters.com/world/middle-east/us-war-iran-has-cost-25-billion-so-far-says-pentagon-official-2026-04-29/
+  - 🏷️ 海外讨论
+
+- **Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker** [🔄 第2次出现]
+  - ↑36 | HN热门
+  - 📎 https://github.com/electricant/adblock-rust-manager
+  - 🏷️ 海外讨论
+
+- **I built ten custom subagents to tame a 500K-line Clojure codebase**
+  - ↑11 | HN热门
+  - 📎 https://www.metabase.com/blog/ten-custom-subagents
+  - 🏷️ 海外讨论
+
+- **Show HN: Rocky – Rust SQL engine with branches, replay, column lineage** [🔄 第2次出现]
+  - ↑99 | HN热门
+  - 📎 https://github.com/rocky-data/rocky
+  - 🏷️ 海外讨论
+
+- **Show HN: Rip.so – a graveyard for dead internet things** [🔄 第2次出现]
+  - ↑140 | HN热门
+  - 📎 https://rip.so
+  - 🏷️ 海外讨论
+
+- **HardenedBSD Is Now Officially on Radicle** [🔄 第2次出现]
+  - ↑131 | HN热门
+  - 📎 https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle
+  - 🏷️ 海外讨论
+
+### 🟡 搜狗微信
+
+- **AI元年的职场:&ldquo;狼&rdquo;来了,然后呢?**
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gTgIHrYr6DVv8_NVT0j4TOFqXa8Fplpd9lOB_gwVJ7W_okovwSSIGRfzwqy6PkxuHIJuSrXZ0jXTY_9fxDuoyZo-T-2NcrbhJt8wj-BmGidgqSMOkMay0B3CSmPznbokwlX3y-oGbXuYMk8g3mMOaffG1hiRddlyob2TEFyeOV_me5M8uaK3q0LA1DNqaQw5GeoRS0Q4b9BMCYioxHkzTmA..&amp;type=2&amp;query=AI&amp;token=28EA00D68D9E34A9D0D7804AA2F80A38D10EB5B269F22B19
+  - 🏷️ 国内内容, 微信文章
+
+- **AI原生应用哄哄模拟器爆火,24小时吸引60万用户|产品观察**
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gTgIHrYr6DVv8_NVT0j4TOFqXa8Fplpd9zMtopOfIbsXPM51Q4TZQG_4_DDiVNfXRfdv0jM9luU-MKEl0HEhUgJsAFBxO3fpwr_fDSK08PNl96yjC4J9wJ14X9Q95EDTVQUDREk8RTS8EYvmWb-SU6sDgfF6ZxmHZVgu6lNikwUKc48gE-ZWvM0byrC-TvMuls9yVkGaccn5Ae0f8bRARvQ..&amp;type=2&amp;query=AI&amp;token=28EA00D68D9E34A9D0D7804AA2F80A38D10EB5B269F22B19
+  - 🏷️ 国内内容, 微信文章
+
+- **AI应用概念股全梳理** [🔄 第2次出现]
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gTgIHrYr6DVv8_NVT0j4TOFqXa8Fplpd9fPLwtmruxRRAQcVjjYi1DaRLHrXt9YEGYyPlUM922STNDMc3_VuNYV-sLhHnXd-MHTSOUfJazI_nj9Xy50QI7luukcLqHS-jCj9TAnMqQtgEt8dt1kWVfW1KMBvLdApMB-J4yMt7Lnk9eiprHsTVrE91G-n09c1H5W5Qh2PvDifuL0unUdKkuw..&amp;type=2&amp;query=AI&amp;token=28EA00D68D9E34A9D0D7804AA2F80A38D10EB5B269F22B19
+  - 🏷️ 国内内容, 微信文章
+
+- **AI企业培训在线接单~** [🔄 第2次出现]
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gTgIHrYr6DVv8_NVT0j4TOFqXa8Fplpd9n1A8Z-Th8ssL3qI7yq1OlDZH88ROp0zpH56USPII2iW26bUF34TrxEscm8qQBM4CPJJ0tuCpj3drxvfJxIFtXjam7KwdFiJevKQvlmI5aov2uy53iB9sTJz-R_AuAbsG7g7cMyDi2v_5KEB0X0sqcW7_s7QEf0KXUy-qVrv167VCy6umSSPEsg..&amp;type=2&amp;query=AI&amp;token=28EA00D68D9E34A9D0D7804AA2F80A38D10EB5B269F22B19
+  - 🏷️ 国内内容, 微信文章
+
+- **【活动预告】五一遛娃首选|新华书店AI科技嘉年华,AI萌宠+机器狗等你来玩!**
+  - 微信文章 | 关键词: AI
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gTgIHrYr6DVv8_NVT0j4TOFqXa8Fplpd9XSKtpV8qezD7v9cETNBrYHsqx50OFOCGPlteKyWbW1Nv1orHUPNZdGHgXGRQ0kSi19tHk0SBfrI-snZPjxiCUyICHXmlphQ1SH4xl-LoOv6YywnEh46WIq3Da0d7gzCllMd68F0_gneDzetQOZs75hnmjIQRgEKERLJhp-k5k1yq3X8EKMKOIA..&amp;type=2&amp;query=AI&amp;token=28EA00D68D9E34A9D0D7804AA2F80A38D10EB5B269F22B19
+  - 🏷️ 国内内容, 微信文章
+
+- **大模型+知识库+Agent,为什么360先走出了大模型商业化?|氪金&middot;行业观察**
+  - 微信文章 | 关键词: 大模型
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gZeCnfSiT5gb8_NVT0j4TOFqXa8Fplpd9zMtopOfIbsXPM51Q4TZQG_4_DDiVNfXRfdv0jM9luU-MKEl0HEhUgN9mvVUTmM3CIhqA25Pev9i-I4YW0jTzBjkbcytBuVLYMNe6o7BAdlh7JfU8mkS_TmjrOVVfFQsNhyLzxRQbD9qJYlvy8t45Hh9hTMB1B0woq3UvYiBhSZ_y08OLTBhW0A..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28EA02A61705AE334A4C1AD039668A9B4BDBF1D669F22B1A
+  - 🏷️ 国内内容, 微信文章
+
+- **大模型想落地,先让大家用得起**
+  - 微信文章 | 关键词: 大模型
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gZeCnfSiT5gb8_NVT0j4TOFqXa8Fplpd97Q2zLKjeHE6mOykoFf1RaPZ9PbO9WMYUrMWFeVw6f8vZGc4LcUsUUpt43jfgCgxqRHaTEvqrLdwpM6lx0HXwIFfps4PSV8BF3Vb_Xx2lBUDYKCjCPzZEGc9TY31SCJcGz4zskLff3Kc3jPoNWo9M20mMinaOgZvTuYJvGgRsmDle0WC6Sbi7DA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=28EA02A61705AE334A4C1AD039668A9B4BDBF1D669F22B1A
+  - 🏷️ 国内内容, 微信文章
+
+- **美国这份关于AI的最新报告,耐人寻味!**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gZeCnfSiT5gb8_NVT0j4TOFqXa8Fplpd9PWBYJxwliEIKVJvnBeItsukLvfBELSVCpi5tnFTUWJEcaDB24QusY_tkohxSJUAAhv52cnkmntMvlgvJ4dTSTk45KxUBLd3eMt7MNsgcagOIEnBd-mW79xKU80uIvkCIiczUD4BxUkA7mMf-U7m5q4fmJdbBQfZpVY9v3OHytTzzAjcIGepUqA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28EA05057062C9542D2A7DB65F1E6FD42DEE0BE569F22B1A
+  - 🏷️ 国内内容, 微信文章
+
+- **万亿规模起飞!2026广东省＂人工智能+＂系列专题对接会在深圳举行,力推&ldquo;智联千行,赋能百业政策举措,定调科技产业重磅信号 !**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gZeCnfSiT5gb8_NVT0j4TOFqXa8Fplpd9_wrVrBcAG8NaLLppk1sNirhNP4is0ULP_qtwxlB-LWBOEaml6VSGjEVyFgA8XmmBF_Lb0EDwsQTKUTMxl1Fvy9a54CK-kRV6-qUlmviOiLAPaC7oaFeLN_aNXljDCb81Az_-yGG7OFDFinMxpOgMT2OfDdwdZmmMpQMwJJ9cA4EHpHkoPMgL3A..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28EA05057062C9542D2A7DB65F1E6FD42DEE0BE569F22B1A
+  - 🏷️ 国内内容, 微信文章
+
+- **智擎未来,奖学领航 | 计算机与人工智能学院国奖宣讲活动圆满结束**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gZeCnfSiT5gb8_NVT0j4TOFqXa8Fplpd9t1aXmAOTh4kBq5WynIo0ujRkG5zcmUrtXKkzO1TtxJxqFX-3PTu7MVsqIdv2r73gzfzO76DOgxmz5VmjFBbsve_G61UnrxTjfOHb88DOtdsIjHTWvXVpxJ5HcPDBFx8akUKMr9XPKmFqNJhzxmziHfO6R5EPX9n2tP46mVZaHBf6zvkPgoArRQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28EA05057062C9542D2A7DB65F1E6FD42DEE0BE569F22B1A
+  - 🏷️ 国内内容, 微信文章
+
+- **国家官宣新专业「商业人工智能」:不是学写代码,是学一套赢在AI时代的管理操作系统** [🔄 第2次出现]
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gZeCnfSiT5gb8_NVT0j4TOFqXa8Fplpd9OH6dINS4Uo8wl3GtLMWbee2rW0dk963awGqBCbg7wUrkSKFQKxAQYX1uuYusnHVwsVHRryFcQlj4JXuQMrXN18Ge35H42AZcMWsCFaqY_DTAGMAkYBURMf7NseauyUH3CI1_UnaRPyiCiX1uOWSEBhAgwUhi0aZSa7aLcEXdIMUHpHkoPMgL3A..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28EA05057062C9542D2A7DB65F1E6FD42DEE0BE569F22B1A
+  - 🏷️ 国内内容, 微信文章
+
+- **顶顶通AICC系统(AI大模型呼叫中心)功能表**
+  - 微信文章 | 关键词: 人工智能
+  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1--sCvZzZ_gZeCnfSiT5gb8_NVT0j4TOFqXa8Fplpd9RO12UvRS8ebwq39t15I4Rg5mnn-zbIha1CgKcrJFNajsx3L-nI2KsHrpQpI53UWNevfVbpkP6Lx2V8Vb7RnqIXJIoW2Q6K4KB-uB7RR-fsHwdbzaEfdb9MocQQkqWkvLJVJU3TXiOGGoRJSLaJIxZk7dWVWvp8hudbL_InJCQk16VKrzu_4XKA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=28EA05057062C9542D2A7DB65F1E6FD42DEE0BE569F22B1A
+  - 🏷️ 国内内容, 微信文章
+
+### 🟡 Reddit
+
+- **I made €2,700 building an AI system for a law firm and now I get €1,300/month to maintain it** [🔄 第2次出现]
+  - ↑74 | 49条评论
+  - 📎 https://reddit.com/r/Entrepreneur/comments/1syubll/i_made_2700_building_an_ai_system_for_a_law_firm/
+  - 🏷️ 海外讨论
+
+- **How do I ensure ChatGPT, Grok and Gemini is citing my business over my competitors?** [🔄 第2次出现]
+  - ↑18 | 17条评论
+  - 📎 https://reddit.com/r/Entrepreneur/comments/1syvcn5/how_do_i_ensure_chatgpt_grok_and_gemini_is_citing/
+  - 🏷️ 海外讨论
+
+- **What actually improved your conversion rate in a service business, not leads?** [🔄 第2次出现]
+  - ↑4 | 21条评论
+  - 📎 https://reddit.com/r/Entrepreneur/comments/1syvryu/what_actually_improved_your_conversion_rate_in_a/
+  - 🏷️ 海外讨论
+
+- **Containing the tasks from sprawling** [🔄 第2次出现]
+  - ↑2 | 2条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1sz0ypf/containing_the_tasks_from_sprawling/
+  - 🏷️ 海外讨论
+
+- **Solopreneurs 5+ years in: what 'boring' habits saved your business in year 2-3?** [🔄 第2次出现]
+  - ↑3 | 1条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1sysgh6/solopreneurs_5_years_in_what_boring_habits_saved/
+  - 🏷️ 海外讨论
+
+- **AI Chief of Staff for day to day tasks** [🔄 第2次出现]
+  - ↑1 | 0条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1syzsi1/ai_chief_of_staff_for_day_to_day_tasks/
+  - 🏷️ 海外讨论
+
+- **The traditional Software Training model is dying. I have the lead-gen engine for what comes next seeking a strategic par** [🔄 第2次出现]
+  - ↑2 | 0条评论
+  - 📎 https://reddit.com/r/Solopreneur/comments/1syr603/the_traditional_software_training_model_is_dying/
+  - 🏷️ 海外讨论
+
+- **OpenAI's Sebastien Bubeck: [LLM] models are able to surpass humans [researchers] and ask [research] questions** [🔄 第2次出现]
+  - ↑220 | 48条评论
+  - 📎 https://reddit.com/r/singularity/comments/1sys1nd/openais_sebastien_bubeck_llm_models_are_able_to/
+  - 🏷️ 海外讨论
+
+- **The MIT-IBM Computing Research Lab launches to shape the future of AI and quantum computing** [🔄 第2次出现]
+  - ↑20 | 0条评论
+  - 📎 https://reddit.com/r/singularity/comments/1syx0s6/the_mitibm_computing_research_lab_launches_to/
+  - 🏷️ 海外讨论
+
+- **Sketch to HTML works now** [🔄 第2次出现]
+  - ↑89 | 27条评论
+  - 📎 https://reddit.com/r/singularity/comments/1syngeg/sketch_to_html_works_now/
+  - 🏷️ 海外讨论
+
+- **Collecting training data for handling packages with a RobotEra L7** [🔄 第2次出现]
+  - ↑35 | 11条评论
+  - 📎 https://reddit.com/r/singularity/comments/1sys7u1/collecting_training_data_for_handling_packages/
+  - 🏷️ 海外讨论
+
+- **‘The cost of compute is far beyond the costs of the employees’: Nvidia exec says right now AI is more expensive than pay** [🔄 第2次出现]
+  - ↑259 | 80条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syp2jz/the_cost_of_compute_is_far_beyond_the_costs_of/
+  - 🏷️ 海外讨论
+
+- **Google just released Deep Research Max — an autonomous research agent that writes expert-grade reports on its own** [🔄 第2次出现]
+  - ↑27 | 10条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syxef3/google_just_released_deep_research_max_an/
+  - 🏷️ 海外讨论
+
+- **is it weird to rant to AI?** [🔄 第2次出现]
+  - ↑12 | 22条评论
+  - 📎 https://reddit.com/r/artificial/comments/1sytzb2/is_it_weird_to_rant_to_ai/
+  - 🏷️ 海外讨论
+
+- **87% Cost Savings &amp; Sub-3s Latency: I built a "Warm-Cache" harness for persistent Claude agents.** [🔄 第2次出现]
+  - ↑5 | 5条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syw5al/87_cost_savings_sub3s_latency_i_built_a_warmcache/
+  - 🏷️ 海外讨论
+
+- **As a beginner how did you learn about how to use Ai** [🔄 第2次出现]
+  - ↑2 | 1条评论
+  - 📎 https://reddit.com/r/artificial/comments/1sz2k0u/as_a_beginner_how_did_you_learn_about_how_to_use/
+  - 🏷️ 海外讨论
+
+- **Snapchat moves ads into chats with AI agents designed to feel like conversation** [🔄 第2次出现]
+  - ↑15 | 4条评论
+  - 📎 https://reddit.com/r/artificial/comments/1synpjx/snapchat_moves_ads_into_chats_with_ai_agents/
+  - 🏷️ 海外讨论
+
+- **Run, learn and test Agentic AI on your browser, for free and no setup!**
+  - ↑2 | 1条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syzh75/run_learn_and_test_agentic_ai_on_your_browser_for/
+  - 🏷️ 海外讨论
+
+- **SEO or AEO? How to actually get cited by AI (without losing your mind)** [🔄 第2次出现]
+  - ↑1 | 0条评论
+  - 📎 https://reddit.com/r/artificial/comments/1sz2avx/seo_or_aeo_how_to_actually_get_cited_by_ai/
+  - 🏷️ 海外讨论
+
+- **Do AI tools reduce friction at the cost of deeper thinking?** [🔄 第2次出现]
+  - ↑7 | 13条评论
+  - 📎 https://reddit.com/r/artificial/comments/1syo8ct/do_ai_tools_reduce_friction_at_the_cost_of_deeper/
+  - 🏷️ 海外讨论
+
+- **Am I crazy to think that the UAI authors are confusing the discussion deadline with the rebuttal deadline ? [D]** [🔄 第2次出现]
+  - ↑2 | 7条评论
+  - 📎 https://reddit.com/r/MachineLearning/comments/1syx7n6/am_i_crazy_to_think_that_the_uai_authors_are/
+  - 🏷️ 海外讨论
 
 ---
+## 👤 重点人物观点追踪
 
-## 👤 关键人物观点追踪
-
-### Sam Altman（OpenAI CEO）
-
-- **最新发布**：4 月 28-29 日连发 5 篇博客，创近年最密集更新记录
-- **核心观点**：
-  1. **The Gentle Singularity（温柔的奇点）**："人类已越过事件视界，起飞已经开始。AI 在 2025 年已能完成真正的认知工作，2026 年将出现能发现新颖洞察的系统，2027 年可能出现能在现实世界做任务的机器人。到 2030 年代，智力和能源将成为极度丰裕的资源——只要治理得当，我们可以拥有任何东西。"
-  2. **Abundant Intelligence（丰裕智能）**："AI 的使用增长惊人。随着 AI 变得更聪明，AI 使用权将成为经济的根本驱动力，甚至可能成为一项基本人权。OpenAI 计划建设每周 1GW 的新 AI 基础设施工厂。"
-  3. **Sora 2**："这是'ChatGPT 的创造力时刻'。创造力可能即将经历寒武纪大爆发。但我们也很担忧——社交媒体已有负面影响，AI 视频可能变得极具成瘾性。我们的核心指标是：用户回顾过去 6 个月，应该感觉生活因使用 Sora 变得更好。"
-  4. **Three Observations（三个观察）**：
-     - AI 模型智能 ≈ 所用资源的对数
-     - AI 使用成本每 12 个月下降约 10 倍（GPT-4 到 GPT-4o 降了 150 倍）
-     - 智能线性增长的社会经济价值是超指数的
-- **引文/来源**：
-  > "We are past the event horizon; the takeoff has started."
-  > "The cost to use a given level of AI falls about 10x every 12 months."
-  > "In a decade, perhaps everyone on earth will be capable of accomplishing more than the most impactful person can today."
-- **对卷哥的价值**：这是目前你能找到的最顶层的 AI 发展叙事。Altman 的"温柔的奇点"是对抗 AI 焦虑的有力反叙事——不否认 AGI 的到来，但强调过程是渐进、可适应的，人类已经在自然接受它。
-- **建议内容角度**：
-  1. 拆解"三个观察"中的经济学框架，做"为什么 AI 没有消灭你的工作但会在未来 5 年彻底改变你赚钱的方式"深度内容
-  2. "Sora 2 的焦虑悖论"——Altman 一边担心成瘾性一边发布产品，这面镜子照出了我们所有内容创作者的矛盾
-  3. "丰裕智能"的哲学延伸——当 AI 使用权成为人权，你的核心能力是什么？
-
-### Naval Ravikant
-
-- **最新内容**：博客最新文章 "A Return to Code"（回归编程）——Naval 倡导在 AI 时代重新回归编程本质
-- **对卷哥的价值**：Naval 的"AI 是心灵的摩托车"隐喻与 Altman 的"温柔的奇点"形成哲学对照
-- **建议角度**：结合 Naval 对一人企业的哲学体系 + Altman 的 AI 基础设施规划，做"AI 时代超级个体的双重策略：拥抱工具但回归本质"
-
-### Paul Graham
-
-- **最新内容**：近期文章 "Good Writing"（好写作）、"What to Do"（做什么）、"The Shape of the Essay Field"（论说文体领域的形态）
-- **对卷哥的价值**：PG 持续聚焦写作本质和深度思考——在 AI 生成内容泛滥的时代，"Good Writing" 和 "What to Do" 提供了稀缺的价值方向
-- **建议角度**："当 AI 可以写出 90 分的文章时，只有真正的写作者才能写出 95 分"——内容创作者在 AI 时代的核心竞争力
+> 本期未获取到有效观点（部分海外源受限，见下方附录）
 
 ---
+## 📈 本期热点标签分布
 
-## 🔍 深度分析（Top 10）
-
-### 1. Sam Altman「温柔的奇点」：人类已越过事件视界
-- **热点来源**：Sam Altman 博客，2026 年 4 月最新发布
-- **为什么值得深挖**：这是目前最权威的 AGI 时间线声明。Altman 断言人类已越过"事件视界"——这触动了受众最深层的存在焦虑：我是最后一代还觉得自己掌控生活的人吗？同时，他的叙事框架是"温柔的"而非"毁灭性的"，这本身就是一个认知重构机会。
-- **SOUL 框架关联**：
-  - **叙事学视角**：Altman 的"2017→2025→2030s"三段式本身就是完美的故事弧线——从"没人关心 AI"到"ChatGPT 改变一切"到"智力和能源的丰裕时代"。钩子是"你已经在经历这件事，只是你没意识到"。
-  - **心理学视角**：触达受众的**存在主义焦虑**（"我的工作/意义在哪？"）和**认知失调**（"AI 很可怕，但我每天在用"）。Altman 的输出恰好提供了"整合"这种失调的框架。
-  - **人类学视角**：受众正处于**阈限阶段**——旧的"打工-升职-退休"叙事已失效，新的"AI 时代主体性"叙事尚未完全建立。Altman 的"每个人都可能超越今天最有影响力的人"是对阈限焦虑的终极回应。
-  - **产品策略视角**：可转化为系列内容"温柔的奇点"5 集——每集拆解 Altman 的一个论点，连接到一个具体行动（如"你的能力价值在于你如何与 AI 协作，而非与之竞争"）。
-- **叙事建议**：反常识钩子："你先别害怕 AGI——你真正应该害怕的是你对它的恐惧本身。"
-- **内容价值**：给出一个经过 AI 行业最核心玩家验证的未来框架，让受众从"被动焦虑"转向"主动准备"。
-
-### 2. Nvidia 高管的成本悖论：AI 比人贵
-- **热点来源**：Reddit r/artificial，↑250，80 条评论
-- **为什么值得深挖**：这是对"AI 马上替代所有人"叙事的最有力反驳。Nvidia 高管说："目前 AI 算力成本远高于人力成本。"这个来自 AI 硬件最大卖家的反常识声明，完美触达了受众的**确认偏误保护机制**——"看，AI 没有传得那么厉害"。
-- **SOUL 框架关联**：
-  - **心理学视角**：触达"认知失调"——受众面对"AI 要替代我"的焦虑和"但我还没被替代"的现实之间的矛盾。这个观点提供了整合两者的认知框架。
-  - **产品策略视角**：可转化为内容"AI 替代的经济学真相：不是不能，而是太贵"，分析哪些工作会因为成本下降先被替代（推理序列）。
-- **叙事建议**：90 秒短视频——"一个卖 AI 芯片的人告诉你：现在 AI 比人贵。这是什么意思？"
-- **内容价值**：为受众提供理性分析工具，区分短期噪音和长期趋势。
-
-### 3. ChatGPT 广告系统的技术揭秘
-- **热点来源**：HN ↑438，buchodi.com
-- **为什么值得深挖**：OpenAI 从一个"非营利研究实验室"转型为广告驱动平台，这个过程是 AI 商业化的微观案例。438 个赞表明技术社区对此高度关注。
-- **SOUL 框架关联**：
-  - **叙事学视角**：故事的钩子是"你以为是和 AI 对话，其实 AI 在向你推销"。这是平台从工具到媒体的转型叙事。
-  - **产品策略视角**：内容方向——"当你的 AI 助手开始卖东西给你，你需要什么样的新心智模型来保护自己的注意力？"
-- **内容价值**：帮助受众训练对 AI 商业化趋势的敏感性——不付费的产品你才是产品。
-
-### 4. OpenAI Bubeck：LLM 已能超越人类研究者
-- **热点来源**：Reddit r/singularity，↑214
-- **为什么值得深挖**：这不是随便什么人说的，这是 OpenAI 研究员的内部判断。214 个赞 + 47 条评论表明这是社区高度关注的核心话题。
-- **SOUL 框架关联**：
-  - **人类学视角**：受众处于**阈限中期**——旧的"我是写代码的，AI 是工具"的自我认同正在瓦解，新的"我如何在 AI 之上创造价值"的认同尚在建立。
-  - **叙事建议**：内容角度——"当 AI 可以提问，你的新超能力是什么？" 强化"问题比答案更有价值的时代"叙事。
-- **内容价值**：框架性认知——在 AI 能做答案的时代，提出好问题是人类的终极优势。
-
-### 5. BBC：AI 公司为何希望你害怕它们
-- **热点来源**：BBC Future（HN ↑50）
-- **为什么值得深挖**：这是对 AI 行业"恐惧营销"策略的系统性批判。Anthropic 限制发布 Claude Mythos 并宣称其 Cyber 能力过于危险，BBC 认为这是转移注意力的策略。
-- **SOUL 框架关联**：
-  - **心理学视角**：触达受众的**投射防御机制**——将 AI 恐惧投射到"超级智能"上，以避免面对已经发生的现实变化（AI 已经在取代某些工作）。
-  - **产品策略视角**：内容方向——"AI 公司希望你恐慌的 3 个理由（和你不应该恐慌的 1 个理由）"——帮助受众建立对 AI 叙事的批判性思维。
-- **内容价值**：元认知工具——教受众识别"恐惧营销"，建立对 AI 发展节奏的理性预期。
-
-### 6. 单人公司 18 亿美元估值：独立创始人在 2026 年获胜
-- **热点来源**：WorkfxAI 博客（MCP Brave Search）
-- **为什么值得深挖**：数据支撑强烈——29.8M 独立创业者贡献 1.7 万亿经济，2026 年 36% 新创业公司为单人创始人。这是对"超级个体"赛道最好的宏观叙事背书。
-- **SOUL 框架关联**：
-  - **叙事学视角**：故事结构——从"硅谷旧公式：融大钱、招快人、烧现金"到"新公式：保持精简、快速行动、用 AI 替代人力"。这既是商业变迁史，也是个人解放叙事。
-  - **产品策略视角**：可做系列"AI 赋能单人公司的 10 个真实案例"——把宏观数据变成可操作的路径。
-- **内容价值**：为受众提供"做超级个体不是幻想"的事实支撑和心理许可。
-
-### 7. Mistral Medium 3.5：开源 128B 模型的突破
-- **热点来源**：Mistral AI 博客（HN ↑62）
-- **为什么值得深挖**：128B 密集模型，开源权重（修改 MIT 许可），可自托管在 4 块 GPU 上。SWE-Bench 77.6%。这是"开源追赶闭源"的关键信号。
-- **SOUL 框架关联**：
-  - **产品策略视角**：内容——"Mistral 新模型意味着什么：AI 不再是大公司的专利"——与"超级个体"主题完美匹配。
-- **内容价值**：降低受众对 AI 工具的"大公司依赖"认知偏见。
-
-### 8. AI Futures Project 将 AGI 时间线修正至 2029-2032
-- **热点来源**：Observer（MCP Brave Search）
-- **为什么值得深挖**：原 AI 2027 预测团队的最新自我评估——进度只到预期的 2/3。这是"相信/不相信 AGI 快速发展"两派的核心论据。
-- **SOUL 框架关联**：
-  - **心理学视角**：触达**确定性需求**——受众想知道"AGI 什么时候来"来规划自己的转型路径。这个修正提供了一个新的锚点。
-  - **产品策略视角**：内容——"AGI 时间线讨论对你个人转型意味着什么（以及为什么答案比时间点更重要）"
-- **内容价值**：帮助受众建立"规划以 5 年为期"而非"看着日历等候 AGI"的主动心态。
-
-### 9. AI 副业实况：做一套律所 AI 系统，€2700 开发 + €1300/月维护
-- **热点来源**：Reddit r/Entrepreneur，↑72，49 条评论
-- **为什么值得深挖**：这是一个极度具体的 AI 副业案例——有收入、有交付、有持续性。49 条评论证明了社区的高度兴趣。
-- **SOUL 框架关联**：
-  - **叙事学视角**：这是"从零到一"的标准英雄叙事——一个普通人利用 AI 为特定行业（律所）解决了问题，创造了可持续的收入流。
-  - **产品策略视角**：可直接转化为内容"AIGC 副业的第一桶金：如何为你的领域构建一个 AI 系统"，给出类似框架。
-- **内容价值**：给受众看到一个可复制的 AI 副业路径，减少"不知道从哪开始"的启动障碍。
-
-### 10. Solopreneur 的 5 年经验：无聊的习惯拯救了生意
-- **热点来源**：Reddit r/solopreneur
-- **为什么值得深挖**：在一周的热点中，这是唯一一条来自"过来了的人"的持久战智慧。"无聊的习惯"这个表达本身就是高情绪价值内容种子。
-- **SOUL 框架关联**：
-  - **人类学视角**：受众在转型期最需要的不是"方法论"而是"持续性的证据"——这条内容提供了"5 年后你还活着"的希望。
-  - **叙事建议**：内容——"我在独立创业第 2-3 年差点放弃，是这 3 个无聊习惯救了我"，用真实故事取代"成功学"。
-- **内容价值**：创业持久战的心法——不是"怎么做大"，而是"怎么活下来"。
+  海外讨论: ████████████████████ 36
+  百度热搜: ████████████████████ 20
+  国内内容: ████████████ 12
+  微信文章: ████████████ 12
 
 ---
+## ⚠️ 附录：受限信息源及获取建议
 
-## 💡 选题建议（Top 5，含执行路径）
+以下信息源本次无法通过HTTP直连获取，需要替代方案：
 
-### 选题一：「温柔的奇点」系列：5 集深度解读 Sam Altman 的 AGI 预言
-- **切入角度**：不是翻译 Altman 的博客，而是"一个转型中的内容创作者如何理解 Altman 的话，并为自己找到定位"
-- **内容形式**：B 站中深度视频（10-15 分钟/集，共 5 集）→ 可拆切成抖音短版
-- **目标受众**：转型者（Marcus）+ 探索者（Lily）
-- **预期共鸣点**：「原来不是我一个人觉得焦虑——Altman 说他也很焦虑」
-- **执行步骤**：
-  1. 提炼 5 篇博客的核心论点，按叙事弧线排列（历史→现状→预测→基础设施→哲学）
-  2. 确定每集的反常识钩子和情绪弧线（如第 1 集开篇："我最害怕的不是 AI 比我聪明，而是它比我便宜"）
-  3. 每集结尾必须有一个"所以呢"的行动建议（如本期最直接的行为改变）
-  4. 拍摄时使用 Altman 原文 quote 作为视觉锚点
-  5. 发布后剪辑 30-60 秒短版到抖音/视频号，引导到 B 站长视频
-- **建议发布平台**：B 站（主）+ 抖音/视频号（短版）+ 小红书（图文笔记+金句摘录）
-
-### 选题二：「AI 比人贵」——破解 AI 替代叙事的经济学真相
-- **切入角度**：用 Nvidia 高管的原话作为反常识钩子，拆解 AI 替代的真实经济学
-- **内容形式**：抖音/小红书 90 秒口播
-- **目标受众**：觉醒者（35 岁危机核心人群）
-- **预期共鸣点**：「原来不是 AI 太强，是我太便宜」
-- **执行步骤**：
-  1. 开篇：Nvidia 高管原话 + 数据支撑（250 个 Reddit 赞 + 80 条评论证明这是热门话题）
-  2. 解释"算力 vs 人力"的成本对比框架
-  3. 指出关键趋势：成本每 12 个月降 10 倍（引用 Altman 的 Three Observations）
-  4. 给出个人行动建议：在未来 12-24 个月窗口期应该做什么（学习 AI 工具、寻找 AI 增强工作）
-  5. 结尾钩子：下期预告"哪些工作会最先被替代？"
-- **建议发布平台**：抖音（主）+ 小红书（图文版本）
-
-### 选题三：AI 副业第一步——做一套行业专用 AI 系统
-- **切入角度**：从 Reddit €2700 案例出发，给出可复制的框架
-- **内容形式**：B 站 10 分钟教程 + 小红书步骤图
-- **目标受众**：转型者（Marcus，有技术背景或愿意学习）
-- **预期共鸣点**：「原来不用做通用大模型，只要做个行业小工具就能赚钱」
-- **执行步骤**：
-  1. 开篇用案例 hook：一个开发者给律所做的 AI 系统赚 2700 欧 + 每月 1300 欧维护费
-  2. 给出"发现-构建-交付-维护"四步框架
-  3. 发现：如何找到你的行业的"待办事项"（用 Altman 的"成本下降 10 倍"框架）
-  4. 构建：用现有 API（OpenAI/Mistral）+ 行业特定数据的组合策略
-  5. 交付：定价策略和持续维护模式（订阅 vs 一次性）
-  6. 结尾：Call to Action——本周可以做的一件事
-- **建议发布平台**：B 站 + 小红书
-
-### 选题四：AI 恐惧营销拆解——为什么 AI 公司希望你恐慌
-- **切入角度**：从 BBC 文章出发，教受众建立对 AI 叙事的批判性思维
-- **内容形式**：5 分钟 B 站/小红书视频
-- **目标受众**：觉醒者（对 AI 又爱又怕的人群）
-- **预期共鸣点**：「原来我被焦虑营销了」
-- **执行步骤**：
-  1. 开篇钩子："Anthropic 说新模型太危险不能发布——你信吗？"
-  2. 引述 BBC 文章中 Shannon Vallor 教授的批判：把 AI 描绘成"超自然的危险"让我们感到无力
-  3. 补充 Altman 的观点：GPT-2 的恐惧后来被证明是"misplaced"
-  4. 给出"AI 消息判定框架"：作者动机 + 利益关联 + 具体证据
-  5. 结尾：用批判性思维阅读 AI 新闻的具体步骤
-- **建议发布平台**：抖音/视频号 + 小红书图文
-
-### 选题五：ChatGPT 广告化——你的 AI 助手正在向你推销
-- **切入角度**：技术揭秘视角 → 哲学思考视角
-- **内容形式**：深度文章（公众号/小红书长文）+ B 站深度视频
-- **目标受众**：探索者（Lily/Z 世代）+ 转型者
-- **预期共鸣点**：「我以为 AI 是我的助手，其实我是 AI 的产品」
-- **执行步骤**：
-  1. 用 HN 438 赞的技术文章开头：ChatGPT 的 SSE 流中注入广告
-  2. 解释"不付费的产品你才是产品"的经典框架在新场景的应用
-  3. 扩展讨论：AI 时代的注意力经济学变化
-  4. 给出"AI 时代保护注意力的 3 个策略"
-  5. 收束：回到"超级个体"主题——能够控制自己注意力的人才是真正的自由人
-- **建议发布平台**：公众号/知乎（主）+ 小红书（图文摘录）+ B 站（深度版）
+| 信息源 | 失败原因 | 建议替代方案 |
+|--------|---------|-------------|
+| B站热门 | 所有rid均失败 | 检查B站API可用性 |
+| 微博热搜(API) | 失败 - 反爬限制 | 通过tophub微博子页面获取（已在collect_tophub中覆盖） |
+| 抖音热榜 | tophub JS渲染 + 抖音反爬 | 使用巨量算数(trends.oceanengine.com)热度趋势；或手机端热榜截图 |
+| 知乎热榜 | 无法访问（反爬限制） | 使用知乎API zhuanlan.zhihu.com/api/posts?或通过聚合工具 |
+| 即刻App热门 | 无法获取（即刻严格反爬 + RSSHub可能不可用） | 方案1: 在本地部署RSSHub实例；方案2: 手动浏览即刻'一觉醒来'系列话题；方案3: 使用即刻开放平台API |
+| tophub.today 科技热榜 (https://tophub.today/c/tech) | JS渲染页面，无法直接获取 | 使用Headless浏览器(Playwright/Puppeteer)；或改用平台自有API/热榜 |
+| YouTube AI热门 | Youtube限制访问 | 使用yt-dlp获取热门视频列表；或使用YouTube Data API v3 |
+| Import AI | 无法访问 https://importai.substack.com/ | 检查网络连接；或从RSS获取（如存在） |
+| The Batch | 无法访问 https://www.deeplearning.ai/the-bat | 检查网络连接；或从RSS获取（如存在） |
+| Interconnects | 无法访问 https://interconnects.ai/ | 检查网络连接；或从RSS获取（如存在） |
+| Paul Graham | 无法访问 http://paulgraham.com/articles.html | 检查网络连接 |
+| Benedict Evans | 无法访问 https://www.ben-evans.com/ | 检查网络连接 |
 
 ---
+## 💡 对卷哥的选题建议
 
-## 💔 受众痛点库
+基于本次采集，以下方向值得追：
 
-### 痛点一：「我不知道 AI 发展到底多快到什么程度，每天看到的信息都矛盾」
-- **原始用户表达**：「今天看到说 AI 要替代我了，明天看到说 AI 还不行，到底该信谁」
-- **来源平台**：综合（这是 AI 焦虑核心人群的普遍状态）
-- **情绪强度**：高
-- **匹配标签**：AI转型/情绪共鸣
-- **建议内容方向**：「温柔的奇点」系列——用最权威的来源（Altman）作为锚点，建立对 AI 发展节奏的稳定认知框架
-- **本周信号**：Altman 的 5 篇博客 + AI Futures 修正时间线 + BBC 的恐惧营销分析——三者同时出现，具有对比价值
+1. **Run, learn and test Agentic AI on your browser, for free and no setup!** — 来源：Reddit r/artificial
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
 
-### 痛点二：「我想做 AI 副业/一人企业，但不知道从哪开始」
-- **原始用户表达**：「看了很多 AI 工具推荐，但不知道怎么变现」
-- **来源平台**：Reddit（多位创业者分享）+ 微信文章
-- **情绪强度**：中
-- **匹配标签**：超级个体/工具技能
-- **建议内容方向**：「AI 副业第一步」系列——从具体案例出发给框架
-- **本周信号**：€2700 律所 AI 案例 + 单人公司 18 亿估值报告 + 5 年 solopreneur 经验帖
+2. **Improving ICU handovers by learning from Scuderia Ferrari F1 team** — 来源：HackerNews
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
 
-### 痛点三：「AI 太昂贵/太复杂，我一个人用不起」
-- **原始用户表达**：「AI 工具都是大公司的玩具，我们小人物用不上」
-- **来源平台**：Nvidia 成本讨论（Reddit 250 赞，80 条评论）
-- **情绪强度**：中
-- **匹配标签**：工具技能/商业逻辑
-- **建议内容方向**：「AI 成本真相」内容——打破两个迷思（AI 替代人 / AI 太贵），给出精确的"什么场景下 AI 有价值"
-- **本周信号**：Nvidia 成本悖论 + DeepSeek V4 $0.14 价格信号 + Mistral 开源 128B 模型
+3. **U.S. war in Iran has cost $25B so far, says Pentagon official** — 来源：HackerNews
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
 
-### 痛点四：「我在 AI 时代的价值是什么？」
-- **原始用户表达**：「如果 AI 什么都能做，我存在的意义是什么」
-- **来源平台**：Reddit r/artificial（"Do AI tools reduce friction at the cost of deeper thinking?" 讨论）+ 多个平台情绪共鸣
-- **情绪强度**：高
-- **匹配标签**：哲学社会/认知成长
-- **建议内容方向**：「在 AI 时代，你的新超能力」系列——从 Bubeck 的"AI 能提问"出发，延伸到"人类提问能力的新价值"
-- **本周信号**：Bubeck 的声明 + BBC 恐惧营销分析 + Naval 的"回归编程"
+4. **I built ten custom subagents to tame a 500K-line Clojure codebase** — 来源：HackerNews
+   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
 
-### 痛点五：「ChatGPT/其他 AI 平台在不知不觉中改变，我不知道该不该继续信任」
-- **原始用户表达**：「ChatGPT 现在开始给我推广告了，这还安全吗」
-- **来源平台**：HN（438 赞文章）+ Reddit
-- **情绪强度**：中
-- **匹配标签**：商业逻辑/工具技能
-- **建议内容方向**：「AI 平台商业化对你的实际影响」——从广告技术拆解出发做透明化分析
-- **本周信号**：ChatGPT 广告系统揭秘 + Snapchat AI Agent 广告
+5. **医院门口有人专门盯上“废胶片”** — 来源：百度热搜
+   建议切入角度：结合[超级个体/AI转型]框架 + 百度热搜
 
 ---
-
-## ⚙️ 执行路径报告
-
-### 本期采集统计
-- **信息源数量**：12 个（关键人物博客 3 + MCP Brave Search 1 + Python 脚本 Reddit/HN/WeChat/B站 4 + Newsletter/Substack 2 + 补充深度采集 2）
-- **采集条目数**：Python 脚本 85 条 + MCP Brave 24 条 + 关键人物博客 5 篇原文 + 深度补采 6 篇
-- **三关审核通过**：16 条（P0=6, P1=8, P2=2）
-- **受限源**：Reddit JSON API 限流，Karpathy karpathy.ai SSL 错误，importai Substack JS 渲染，Benedict Evans newsletter 只有框架页
-
-### 受限源及替代建议
-| 信息源 | 原因 | 替代方案 |
-|--------|------|---------|
-| Reddit JSON API | 限流返回 HTML | 使用 Python 脚本的 pyreddit 方式（已通过 script 获得到标题/得分数据），深度补采受限 |
-| Karpathy karpathy.ai | SSL 连接错误（exit 35） | 通过 X/Twitter @karpathy 查看最新推文 |
-| importai.substack.com | Substack JS 渲染 | 通过 RSS feed 或 email 订阅直接获取 |
-| ben-evans.com | 最新文章需在 newsletter 付费订阅页 | 关注其在 X/Twitter 的 @benedictevans |
-| Sam Altman 博客日期 | Posthaven 无明确发布日期 | 通过博客列表顺序和内容中线索推断（Sora update #1 是最新） |
-
-### 上期选题建议的反馈
-| 上期选题（4 月 29 日报告） | 是否执行 | 效果/原因 |
-|---------------------------|---------|-----------|
-| I analyzed 3 A2A approaches | 未在输出内容中看到 | 无追踪数据 |
-| Built ML model predicts UFC fights | 未执行 | 与赛道匹配度低 |
-
----
-
-*报告由 Hermes Agent 结合 SOUL 框架自动生成 · 2026-04-29 23:58*
+*报告由 Hermes Agent 自动生成 · 2026-04-30 00:01*

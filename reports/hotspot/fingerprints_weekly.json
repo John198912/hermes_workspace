@@ -2725,9 +2725,9 @@
   "f6ee535c7790ee3b791c8fe5f1016b81": {
     "title": "大模型卷到＂几分钱＂时代,机器人开始抢人类的班",
     "source": "搜狗微信",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T23:54:07.957307",
-    "last_seen": "2026-04-29T23:54:07.957307"
+    "last_seen": "2026-04-30T00:40:11.621544"
   },
   "2e40c85dd3490d75d3bece488a32f5fe": {
     "title": "中国AI炸场!DeepSeek-V4发布即爆火,硅谷坐不住了",
@@ -2739,16 +2739,16 @@
   "11dc93d8428ae0838923c8970183b870": {
     "title": "智能军备竞赛:美、俄、以、法军事AI发展比较",
     "source": "搜狗微信",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T23:54:08.231240",
-    "last_seen": "2026-04-29T23:54:08.231240"
+    "last_seen": "2026-04-30T00:40:12.071649"
   },
   "4863d1e1d53252dd9526287f235871ee": {
     "title": "从恐惧到希望,一位经济学家对人工智能的认知转变",
     "source": "搜狗微信",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T23:54:08.239784",
-    "last_seen": "2026-04-29T23:54:08.239784"
+    "last_seen": "2026-04-30T00:40:12.076215"
   },
   "8cd7ebe3272aec1e9c5f993bd1ce7c64": {
     "title": "国家官宣新专业「商业人工智能」:不是学写代码,是学一套赢在AI时代的管理操作系统",
@@ -2767,16 +2767,16 @@
   "3e31ad49419992508cb5c4b399f24b23": {
     "title": "Run, learn and test Agentic AI on your browser, for free and no setup!",
     "source": "Reddit r/artificial",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T23:59:41.683911",
-    "last_seen": "2026-04-29T23:59:41.683911"
+    "last_seen": "2026-04-30T00:39:35.640268"
   },
   "22d42855935ca67ab2cf732028b74424": {
     "title": "Improving ICU handovers by learning from Scuderia Ferrari F1 team",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T23:59:59.265207",
-    "last_seen": "2026-04-29T23:59:59.265207"
+    "last_seen": "2026-04-30T00:39:54.606083"
   },
   "89cdbe3c7cca1bf5c24a2b2a9eb43571": {
     "title": "U.S. war in Iran has cost $25B so far, says Pentagon official",
@@ -2861,5 +2861,117 @@
     "seen_count": 1,
     "first_seen": "2026-04-30T00:00:26.404050",
     "last_seen": "2026-04-30T00:00:26.404050"
+  },
+  "78baa7c96cb44e4489af773d88bb0044": {
+    "title": "Figure AI hits 24x production scale, producing 1 robot per hour, teases its fleet",
+    "source": "Reddit r/singularity",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:39:33.369298",
+    "last_seen": "2026-04-30T00:39:33.369298"
+  },
+  "6879938cdd399e53f219974d3182a34b": {
+    "title": "Linux's sched_ext sees a bunch of bug fixes following increased AI code review",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:39:35.646738",
+    "last_seen": "2026-04-30T00:39:35.646738"
+  },
+  "19ad426a019bf15ae43d400ca7c1ca7b": {
+    "title": "Zed 1.0",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:39:40.370504",
+    "last_seen": "2026-04-30T00:39:40.370504"
+  },
+  "3c8d4c8af9d9bc23bb3efbf5f6f53858": {
+    "title": "Online age verification is the hill to die on",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:39:49.692421",
+    "last_seen": "2026-04-30T00:39:49.692421"
+  },
+  "2b0c3df2ecfdcbb91d03b5d62314fb06": {
+    "title": "Linux 7.0 Broke PostgreSQL: The Preemption Regression Explained",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:39:50.869033",
+    "last_seen": "2026-04-30T00:39:50.869033"
+  },
+  "6a3617dc16971d7cbbc9a271034ca2b2": {
+    "title": "An open-source stethoscope that costs between $2.5 and $5 to produce",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:01.464681",
+    "last_seen": "2026-04-30T00:40:01.464681"
+  },
+  "e47f97d621e336b1edbba7b8ac72b8b3": {
+    "title": "Making AI chatbots friendly leads to mistakes and support of conspiracy theories",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:06.760551",
+    "last_seen": "2026-04-30T00:40:06.760551"
+  },
+  "719eeac1f4061480c191712e1b46c3a3": {
+    "title": "赵心童不敌墨菲 止步世锦赛8强",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:10.573932",
+    "last_seen": "2026-04-30T00:40:10.573932"
+  },
+  "68cdda4e5a0144035947c1c3aa8a3d25": {
+    "title": "AI 协作中的能力误判",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:11.030454",
+    "last_seen": "2026-04-30T00:40:11.030454"
+  },
+  "34e7fa100e427afba2902ba60e1e49f7": {
+    "title": "AI芯片变革,重塑上游产业",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:11.040512",
+    "last_seen": "2026-04-30T00:40:11.040512"
+  },
+  "fb33ee1d2e592058173f397d6da1c9fd": {
+    "title": "AI 行业大咖免费公开课|码农转型AI 捷径 硅谷科技公司内推面试",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:11.049520",
+    "last_seen": "2026-04-30T00:40:11.049520"
+  },
+  "705334b6c0044d7a96bef7f24371424c": {
+    "title": "华尔街透视:埃森哲微软AI里程碑",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:11.055753",
+    "last_seen": "2026-04-30T00:40:11.055753"
+  },
+  "ddf812374d149674e4cfe2e6b7f03358": {
+    "title": "AI赋能&middot;共创未来|北航贵州校友会AI主题研讨会圆满举行,人工智能创新基地正式授牌成立!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:11.060932",
+    "last_seen": "2026-04-30T00:40:11.060932"
+  },
+  "10cfd08b4deedd1616de03365847ae18": {
+    "title": "中国移动举办人工智能生态大会",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:12.052678",
+    "last_seen": "2026-04-30T00:40:12.052678"
+  },
+  "365ee26129c9e53a11ff93364bb75839": {
+    "title": "广电总局将人工智能发展列为重点工作",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:12.060431",
+    "last_seen": "2026-04-30T00:40:12.060431"
+  },
+  "98740d8dfcd42c3f6917bba12205d28a": {
+    "title": "华为联合客户发布广州人工智能融合赋能中心、武汉全球城市治理数字化转型样板点等系列成果&mdash;&mdash;数字中国AI CITY分论坛成功举办",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-04-30T00:40:12.066590",
+    "last_seen": "2026-04-30T00:40:12.066590"
   }
 }
