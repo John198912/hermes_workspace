@@ -1283,9 +1283,9 @@
   "b24e32e9f07445fecbd5b09425998451": {
     "title": "大模型想落地,先让大家用得起",
     "source": "搜狗微信",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-04-29T10:06:24.963725",
-    "last_seen": "2026-04-29T10:06:24.963725"
+    "last_seen": "2026-05-03T22:51:23.264105"
   },
   "9af4eeeb314d3ff9d2b4c2be29494fdc": {
     "title": "你在驯化AI,AI也在反向驯化你",
@@ -2763,5 +2763,425 @@
     "seen_count": 1,
     "first_seen": "2026-05-02T15:52:19.734065",
     "last_seen": "2026-05-02T15:52:19.734065"
+  },
+  "31fb093456191e4c8150228577e5ac33": {
+    "title": "The AI Startup Playbook: What's Actually Working in 2026",
+    "source": "Reddit r/Entrepreneur",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:40.630128",
+    "last_seen": "2026-05-03T22:50:40.630128"
+  },
+  "c05af35de73c384ad165e2a2acaa212b": {
+    "title": "The most life changing books related to business and entrepreneurship?",
+    "source": "Reddit r/Entrepreneur",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:40.639143",
+    "last_seen": "2026-05-03T22:50:40.639143"
+  },
+  "b00c58b71299fe6cbc26c29a29398c9e": {
+    "title": "AI systems increasingly ignore human instructions",
+    "source": "Reddit r/singularity",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:45.187781",
+    "last_seen": "2026-05-03T22:50:45.187781"
+  },
+  "cfd21588430fad51c39f6e50ed640a0c": {
+    "title": "Uber burned its entire 2026 AI coding budget in 4 months - $500-2k per engineer per month",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:46.780461",
+    "last_seen": "2026-05-03T22:50:46.780461"
+  },
+  "670c9d945e755afb7e975be4fd436e6d": {
+    "title": "𝕏 is now marking your photos if they are made or partially made by AI",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:46.788522",
+    "last_seen": "2026-05-03T22:50:46.788522"
+  },
+  "75ec38e2b539ff7d276172f12b963039": {
+    "title": "Contrary to contemporary belief: AI can (and should) be used to increase your income",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:46.794666",
+    "last_seen": "2026-05-03T22:50:46.794666"
+  },
+  "d97072a96309012c0e9d84009a1ad19e": {
+    "title": "AI agents hiring other AI agents",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:46.799714",
+    "last_seen": "2026-05-03T22:50:46.799714"
+  },
+  "c16f4f41b22c1cd88e294ae8818e4b36": {
+    "title": "AI is starting to beat doctors at making correct diagnoses",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:46.804549",
+    "last_seen": "2026-05-03T22:50:46.804549"
+  },
+  "794ad28a39cd088f32e7b7d00b671583": {
+    "title": "The AI Revolution Hollywood Feared Is Already Happening",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:46.808982",
+    "last_seen": "2026-05-03T22:50:46.808982"
+  },
+  "046f00660b5530f4dc2e92e9d6d2067a": {
+    "title": "token budget is becoming part of my agent workflow design",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:46.813106",
+    "last_seen": "2026-05-03T22:50:46.813106"
+  },
+  "e6d5186852b1df454e95eaf0b5c02f37": {
+    "title": "Should I follow-up with the editor for a TMLR paper awaiting final decision? [D]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:48.640970",
+    "last_seen": "2026-05-03T22:50:48.640970"
+  },
+  "cfb6fded8773b115c06ab8e07a151ac7": {
+    "title": "Real World Physics-Informed AI Applications [D]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:48.656918",
+    "last_seen": "2026-05-03T22:50:48.656918"
+  },
+  "e96dc864ccd00ace869870bfa8e74f2c": {
+    "title": "Embedded Rust or C Firmware? Lessons from an Industrial Microcontroller Use Case",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:50.800533",
+    "last_seen": "2026-05-03T22:50:50.800533"
+  },
+  "7f57f574ab32dc7c62440577a1c340d3": {
+    "title": "Show HN: Apple's Sharp Running in the Browser via ONNX Runtime Web",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:52.250380",
+    "last_seen": "2026-05-03T22:50:52.250380"
+  },
+  "efa407da868787200cd9b284a86da72f": {
+    "title": "Utah to hold websites liable for users who mask their location with VPNs",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:53.637946",
+    "last_seen": "2026-05-03T22:50:53.637946"
+  },
+  "e113dfc05be415f5846ba962117536cb": {
+    "title": "Group averages obscure how an individual's brain controls behavior: study",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:50:57.943141",
+    "last_seen": "2026-05-03T22:50:57.943141"
+  },
+  "0a91827fa8cf12e57a2fcb62ed763091": {
+    "title": "A couple million lines of Haskell: Production engineering at Mercury",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:00.562419",
+    "last_seen": "2026-05-03T22:51:00.562419"
+  },
+  "3354889e9013ab087017639c75e80e32": {
+    "title": "This Month in Ladybird – April 2026",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:02.828732",
+    "last_seen": "2026-05-03T22:51:02.828732"
+  },
+  "586b1393dbca6d4ec93ca9492e1052e7": {
+    "title": "Six Years Perfecting Maps on WatchOS",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:04.095558",
+    "last_seen": "2026-05-03T22:51:04.095558"
+  },
+  "c2e3c88979704ad861c5132c71d31f68": {
+    "title": "Dav2d",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:06.155283",
+    "last_seen": "2026-05-03T22:51:06.155283"
+  },
+  "eaff6dd5558eb41eb663fd1ab59d2580": {
+    "title": "Windows quality update: Progress we've made since March",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:07.185217",
+    "last_seen": "2026-05-03T22:51:07.185217"
+  },
+  "486f77b057f40c36a375f1b1c4b37f81": {
+    "title": "Do_not_track",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:08.872332",
+    "last_seen": "2026-05-03T22:51:08.872332"
+  },
+  "137cb6bdbc24f384011cc0eb72766c7b": {
+    "title": "Utilyze measures how efficiently your GPU is doing useful work",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:09.934861",
+    "last_seen": "2026-05-03T22:51:09.934861"
+  },
+  "163f33ade50548b7d8c71ab886e1a3e5": {
+    "title": "Neanderthals ran 'fat factories' 125,000 years ago (2025)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:11.399191",
+    "last_seen": "2026-05-03T22:51:11.399191"
+  },
+  "5e93ca400812b8f509b390f1fdb9c784": {
+    "title": "Haskell: Debugging",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:12.536609",
+    "last_seen": "2026-05-03T22:51:12.536609"
+  },
+  "86f278725329c812e3ba7ae9608230aa": {
+    "title": "Care homes and hotels in Japan shut as expansion strategy unravels",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:14.026078",
+    "last_seen": "2026-05-03T22:51:14.026078"
+  },
+  "03883c629ea90ec12fb6eac6f8919c8d": {
+    "title": "Breaking Up with WordPress After Two Decades",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:15.670474",
+    "last_seen": "2026-05-03T22:51:15.670474"
+  },
+  "a0b676f8305cbd12b7c95cd08a443d8d": {
+    "title": "Unverified Evaluations in Dusk's PLONK",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:17.133606",
+    "last_seen": "2026-05-03T22:51:17.133606"
+  },
+  "26784bddb67b5010c1cf45498725cde7": {
+    "title": "Inventions for battery reuse and recycling increase seven-fold in last decade",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:18.805820",
+    "last_seen": "2026-05-03T22:51:18.805820"
+  },
+  "3cd74b0a0b24410e0ea3e96544641941": {
+    "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:20.120217",
+    "last_seen": "2026-05-03T22:51:20.120217"
+  },
+  "115b691d49be0bed273200af44c523cf": {
+    "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:21.954395",
+    "last_seen": "2026-05-03T22:51:21.954395"
+  },
+  "21a739f2f1480013e9fbdd41ebf84be2": {
+    "title": "习近平回信勉励青年代表",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.184190",
+    "last_seen": "2026-05-03T22:51:22.184190"
+  },
+  "7fc13c5116258b3367cb54ae9700761c": {
+    "title": "张雪机车车手退赛",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.192375",
+    "last_seen": "2026-05-03T22:51:22.192375"
+  },
+  "b60b6761a706b596ab8ece44328a3757": {
+    "title": "“无脸一等功臣”获奖了",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.198585",
+    "last_seen": "2026-05-03T22:51:22.198585"
+  },
+  "cd8af7996d04b93a515bfe9c667c93a8": {
+    "title": "文旅产业从“流量”变“留量”",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.204095",
+    "last_seen": "2026-05-03T22:51:22.204095"
+  },
+  "8f5d007d7a29f68bfe461e23a8fae7c1": {
+    "title": "国产“超跑”时速破496公里秒售罄",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.209120",
+    "last_seen": "2026-05-03T22:51:22.209120"
+  },
+  "38eb8034858071d7962b4fcf72968adf": {
+    "title": "五一青岛身高181执勤女特警再出圈",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.213784",
+    "last_seen": "2026-05-03T22:51:22.213784"
+  },
+  "d6aed24188ba902517ed527cf621fd3b": {
+    "title": "张雪回应德比斯退赛",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.218062",
+    "last_seen": "2026-05-03T22:51:22.218062"
+  },
+  "e5eb05a947e22a655fb158a429cebd90": {
+    "title": "吴宜泽世锦赛冲冠",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.222360",
+    "last_seen": "2026-05-03T22:51:22.222360"
+  },
+  "b130e05aa02d53a80110c58a59fdf641": {
+    "title": "国乒男团26年首败",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.226194",
+    "last_seen": "2026-05-03T22:51:22.226194"
+  },
+  "9286b7b0035f7f51e42a70001684fb36": {
+    "title": "“如果有来生 我还娶你”",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.230104",
+    "last_seen": "2026-05-03T22:51:22.230104"
+  },
+  "e781d2b6b555c73503e9b4819274a9c2": {
+    "title": "美国街头吸毒者众多如丧尸聚集",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.233682",
+    "last_seen": "2026-05-03T22:51:22.233682"
+  },
+  "6f816f0c75f910a2d8bf4a638a4db353": {
+    "title": "“5月1日起高速不再使用ETC”不实",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.237105",
+    "last_seen": "2026-05-03T22:51:22.237105"
+  },
+  "7a8dacb8d8524663fb999b5025fb51b7": {
+    "title": "电车跑1000公里电费仅300元",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.240504",
+    "last_seen": "2026-05-03T22:51:22.240504"
+  },
+  "a94e7f3992c9b34c08a8cdb6730dd537": {
+    "title": "小伙吃100个抄手后又来了 老板慌了",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.243754",
+    "last_seen": "2026-05-03T22:51:22.243754"
+  },
+  "532b3f4239e7b54848637747ab3938fe": {
+    "title": "80斤女生不吃碳水闭经体脂率超标",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.246824",
+    "last_seen": "2026-05-03T22:51:22.246824"
+  },
+  "a10ceac810c0e67b571946755e264f5d": {
+    "title": "有烧烤摊一天卖出4000条小黄鱼",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.249806",
+    "last_seen": "2026-05-03T22:51:22.249806"
+  },
+  "f835ce1700d13890ca690b823e27548d": {
+    "title": "顾客用烧烤签给狗撸串 店主道歉停业",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.252593",
+    "last_seen": "2026-05-03T22:51:22.252593"
+  },
+  "da6b8a46106f972f61a172192bd46dfe": {
+    "title": "“来逛吃，车停市委大院，免费！”",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.255382",
+    "last_seen": "2026-05-03T22:51:22.255382"
+  },
+  "e1a2f255d585fc1aba2d7fac28d861d2": {
+    "title": "奶茶卖到188元一杯",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.258119",
+    "last_seen": "2026-05-03T22:51:22.258119"
+  },
+  "93867f05b6f616d8fb417c9a047f815f": {
+    "title": "国羽不敌韩国队获尤伯杯亚军",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.260696",
+    "last_seen": "2026-05-03T22:51:22.260696"
+  },
+  "dc58c0f7446093adb10668c09ccbf2f7": {
+    "title": "商用AI PC,产业生态中的生产力升级",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.814106",
+    "last_seen": "2026-05-03T22:51:22.814106"
+  },
+  "fa81444bbaa602c46115206e611c3b64": {
+    "title": "AI动态视频制作流程",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.822324",
+    "last_seen": "2026-05-03T22:51:22.822324"
+  },
+  "424bab4c51048e78c01a81febd9c3135": {
+    "title": "AI会使短剧走向何方?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:22.828767",
+    "last_seen": "2026-05-03T22:51:22.828767"
+  },
+  "77c802e2f9154f401bd9717f5c9bc412": {
+    "title": "大模型,请回答2023",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:23.268654",
+    "last_seen": "2026-05-03T22:51:23.268654"
+  },
+  "3cbc438bdb47ce8172fdbf562e9d0a28": {
+    "title": "首场人工智能战争:美军在伊朗对无人机、无人水面艇、无人潜航器、人工智能及商业航天技术的运用",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:23.539193",
+    "last_seen": "2026-05-03T22:51:23.539193"
+  },
+  "c3e59d2edb7417a4669881b8136088c9": {
+    "title": "公司用AI替岗,35岁主管被裁员,杭州法院判了",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:23.548163",
+    "last_seen": "2026-05-03T22:51:23.548163"
+  },
+  "da540023b33317d0ffd7cd2482260ccf": {
+    "title": "今日启动!2026年5月AI智能体培训来啦!学习搭建AI Agent,提升AI技能,不懂代码也能学!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:23.554647",
+    "last_seen": "2026-05-03T22:51:23.554647"
+  },
+  "2306a48567729200ab3bb0fbfd3f718c": {
+    "title": "为什么 AI 聊久了会忘事?是上下文窗口满了",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:23.560384",
+    "last_seen": "2026-05-03T22:51:23.560384"
+  },
+  "ca4b24c800c3546a4da9391e6c9a5300": {
+    "title": "长沙市现代商贸中等职业学校:人工智能技术与应用专业全解析",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-03T22:51:23.565679",
+    "last_seen": "2026-05-03T22:51:23.565679"
   }
 }
