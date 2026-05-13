@@ -83,489 +83,6 @@
     "first_seen": "2026-05-03T22:51:23.268654",
     "last_seen": "2026-05-12T08:08:01.995310"
   },
-  "6166d6997f6dc2ba8d3b3e430b8703a0": {
-    "title": "Lessons learned from using AI in call centers?",
-    "source": "Reddit r/Entrepreneur",
-    "seen_count": 2,
-    "first_seen": "2026-05-05T08:02:40.576731",
-    "last_seen": "2026-05-06T08:02:13.055215"
-  },
-  "d12cc5b645f62572f32908e41c1da3b4": {
-    "title": "Everyone talks about ChatGPT, but Claude blew me away. What are some other hidden AI gems every entrepreneur should know",
-    "source": "Reddit r/Entrepreneur",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:13.028311",
-    "last_seen": "2026-05-06T08:02:13.028311"
-  },
-  "59a2a5a3e650115d2202c2fff870f417": {
-    "title": "If you have your own business and made over 200k last or will this year, what do you do?",
-    "source": "Reddit r/Entrepreneur",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:13.036306",
-    "last_seen": "2026-05-06T08:02:13.036306"
-  },
-  "9509ec743ca20ccb0c3cd7a64bc6cc2d": {
-    "title": "How I'm generating 6 - 13 b2b calls per day with paid ads",
-    "source": "Reddit r/Entrepreneur",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:13.045260",
-    "last_seen": "2026-05-06T08:02:13.045260"
-  },
-  "b760ee6405738a701133f8f37be800f3": {
-    "title": "I've been running a media network and made 2.14M last year using a hybrid AI architecture",
-    "source": "Reddit r/solopreneur",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:14.747354",
-    "last_seen": "2026-05-06T08:02:14.747354"
-  },
-  "88c82782c88f7a36e97bb0bcb3d78c9e": {
-    "title": "What building Nuno AI taught me about solo-founder workflows",
-    "source": "Reddit r/solopreneur",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:14.760923",
-    "last_seen": "2026-05-06T08:02:14.760923"
-  },
-  "499455d024fb65d2fb9a4d3dcbcfd8e1": {
-    "title": "Hyundai Reportedly Demanding ‘Tens of Thousands’ of Boston Dynamics Robots ASAP",
-    "source": "Reddit r/singularity",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:16.089720",
-    "last_seen": "2026-05-06T08:02:16.089720"
-  },
-  "1316382b452fe0e5be5dbd4a5b01f03a": {
-    "title": "CAISI [Center for AI Standards and Innovation] Signs Agreements Regarding Frontier AI National Security Testing With Goo",
-    "source": "Reddit r/singularity",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:16.104480",
-    "last_seen": "2026-05-06T08:02:16.104480"
-  },
-  "870f92419e9acf5a600eba49f1164c3f": {
-    "title": "Why can AI replace entry level software engineers, lawyers and financial analysts. But why do people think it’s so diffi",
-    "source": "Reddit r/singularity",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:16.114418",
-    "last_seen": "2026-05-06T08:02:16.114418"
-  },
-  "d3a4e5c42e9897ef55ebd38dd79b8945": {
-    "title": "Pennsylvania sues AI company, saying its chatbots illegally hold themselves out as licensed doctors",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.560215",
-    "last_seen": "2026-05-06T08:02:17.560215"
-  },
-  "7b6e72c468e52ce76c0d805011d44038": {
-    "title": "Meta Hit With Massive Lawsuit—Publishers Say AI Was Trained on “Stolen” Books",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.577057",
-    "last_seen": "2026-05-06T08:02:17.577057"
-  },
-  "d071dc8dc220df8b342c3dd119bc4e8a": {
-    "title": "Uber Shares What Happens When 1.500 AI Agents Hit Production",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.586631",
-    "last_seen": "2026-05-06T08:02:17.586631"
-  },
-  "e685356423d64e1fbbcd9ae835c0718f": {
-    "title": "OpenAI will produce as many as 30 million 'AI agent' phones early next year, says industry analyst",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.593923",
-    "last_seen": "2026-05-06T08:02:17.593923"
-  },
-  "f26450114d7c305d089de0e778c243d1": {
-    "title": "Anthropic just published new alignment research that could fix \"alignment faking\" in AI agents here's what it actually m",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.600291",
-    "last_seen": "2026-05-06T08:02:17.600291"
-  },
-  "b1f56dff82b41a0e9764f5fbd92b61b2": {
-    "title": "Made a tool that builds its own training data and improves each cycle by learning from what it got wrong",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.605835",
-    "last_seen": "2026-05-06T08:02:17.605835"
-  },
-  "c97c36c1871ac6543e342f775d17d6c9": {
-    "title": "Check out “AM I?” free documentary on AI consciousness",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.610962",
-    "last_seen": "2026-05-06T08:02:17.610962"
-  },
-  "c2aa072065863f6215fd8e8d03b9c1d2": {
-    "title": "Why no one is talking about Google Colab which is almost free for basic work in daily life?",
-    "source": "Reddit r/artificial",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:17.615802",
-    "last_seen": "2026-05-06T08:02:17.615802"
-  },
-  "44fb0fd67ee39a7047d568a6f7e1a2f2": {
-    "title": "Production AI very different from the demos [D]",
-    "source": "Reddit r/MachineLearning",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:19.062039",
-    "last_seen": "2026-05-06T08:02:19.062039"
-  },
-  "5ce8409b4617e8018fb888f622b79483": {
-    "title": "Competition - League of Robot Runners 2026: Multi-robot coordination under uncertainty [N]",
-    "source": "Reddit r/MachineLearning",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:19.076555",
-    "last_seen": "2026-05-06T08:02:19.076555"
-  },
-  "4d69ffcb0f4de0eb2158a8984bd7d04a": {
-    "title": "Visual graph classification for blockchain security: Experiences fine-tuning Qwen2-VL on AMD MI300X [D]",
-    "source": "Reddit r/MachineLearning",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:19.085329",
-    "last_seen": "2026-05-06T08:02:19.085329"
-  },
-  "181e43ab7243434ec919dba6bb5a83d7": {
-    "title": ".de TLD offline due to DNSSEC?",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:20.759632",
-    "last_seen": "2026-05-06T08:02:20.759632"
-  },
-  "42d645fd45fbe902ed9438271902b859": {
-    "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:22.133243",
-    "last_seen": "2026-05-06T08:02:22.133243"
-  },
-  "212b1dd58263005dcae8e7816f7db133": {
-    "title": "Write some software, give it away for free",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:23.517806",
-    "last_seen": "2026-05-06T08:02:23.517806"
-  },
-  "096106c9c51efaad51683712219c2a79": {
-    "title": "Computer Use is 45x more expensive than structured APIs",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:24.395227",
-    "last_seen": "2026-05-06T08:02:24.395227"
-  },
-  "4acd4932a20963305d3fb8779781f2af": {
-    "title": "Three Inverse Laws of AI",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:26.884173",
-    "last_seen": "2026-05-06T08:02:26.884173"
-  },
-  "2e1871e9c1300bf34971f4ee0e195314": {
-    "title": "Why most product tours get skipped",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:27.689313",
-    "last_seen": "2026-05-06T08:02:27.689313"
-  },
-  "8af368812a62c0cf7918f7d1ae8b00f7": {
-    "title": "EEVblog: The 555 Timer is 55 years old [video]",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:28.770038",
-    "last_seen": "2026-05-06T08:02:28.770038"
-  },
-  "220a4e297ddf2349db96fc22e3bab16e": {
-    "title": "NPR finds \"no sign\" of Polymarket at its Panama HQ address",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:30.129213",
-    "last_seen": "2026-05-06T08:02:30.129213"
-  },
-  "1de905000dfe97741f413a7ab13b5630": {
-    "title": "Show HN: Explore color palettes inspired by 3000 master painter artworks",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:31.547446",
-    "last_seen": "2026-05-06T08:02:31.547446"
-  },
-  "989234cf5e3faef87e6c42e724484602": {
-    "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:32.907750",
-    "last_seen": "2026-05-06T08:02:32.907750"
-  },
-  "dc004524c2e863adc68279597439480b": {
-    "title": "Agents for financial services and insurance",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:34.273941",
-    "last_seen": "2026-05-06T08:02:34.273941"
-  },
-  "2d4a0decb31ae6c0427ec60b0f414ed3": {
-    "title": "I completed 100 Days of Java over 5 years and mapped the journey as a graph",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:35.642442",
-    "last_seen": "2026-05-06T08:02:35.642442"
-  },
-  "b6984a438ac1d9af0d426307c272a767": {
-    "title": "Zuckerberg 'personally authorized' Meta's copyright infringement, publishers say",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:37.743122",
-    "last_seen": "2026-05-06T08:02:37.743122"
-  },
-  "c9dc770b832a1b4703f7bf6e13907953": {
-    "title": "Show HN: Airbyte Agents – context for agents across multiple data sources",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:39.212963",
-    "last_seen": "2026-05-06T08:02:39.212963"
-  },
-  "1d4f1f1a2acc64a1ada83c0125b87e27": {
-    "title": "Urban Birds Are Rising Earlier Because of Traffic Noise (2013)",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:40.601236",
-    "last_seen": "2026-05-06T08:02:40.601236"
-  },
-  "802ea8f55772aa51742efc13b9db7b9f": {
-    "title": "California farmers to destroy 420k peach trees following Del Monte bankruptcy",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:41.466616",
-    "last_seen": "2026-05-06T08:02:41.466616"
-  },
-  "a1627bf84aeffe40f7721c4ab65a30e8": {
-    "title": "I'm scared about biological computing",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:42.432550",
-    "last_seen": "2026-05-06T08:02:42.432550"
-  },
-  "b9cfa750e8c9325ff83f64bd2070c55b": {
-    "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:43.240518",
-    "last_seen": "2026-05-06T08:02:43.240518"
-  },
-  "b36e53cf131797b57c757d793edb0f3f": {
-    "title": "Today I've made the difficult decision to reduce the size of Coinbase by ~14%",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:44.095980",
-    "last_seen": "2026-05-06T08:02:44.095980"
-  },
-  "9d7a94e69ae55b873318f7fc159609f5": {
-    "title": "总书记对青年学子的殷切期待",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.667391",
-    "last_seen": "2026-05-06T08:02:45.667391"
-  },
-  "20b9b364ad1db5b8f26f0eb74c473d68": {
-    "title": "目瑙纵歌全网爆火 播放突破20亿次",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.685461",
-    "last_seen": "2026-05-06T08:02:45.685461"
-  },
-  "ab12c2a270ffa6582bd4f1843ffbb6df": {
-    "title": "年轻人开始报“兴趣班”旅行",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.696591",
-    "last_seen": "2026-05-06T08:02:45.696591"
-  },
-  "a71614974e289f9fe847fbb178624b72": {
-    "title": "小长假里看中国",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.706867",
-    "last_seen": "2026-05-06T08:02:45.706867"
-  },
-  "f20f40e5d139911bfd653bee578b89ca": {
-    "title": "高速上一车辆主副驾疑似全在睡觉",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.714479",
-    "last_seen": "2026-05-06T08:02:45.714479"
-  },
-  "ef0a6fd706a69c2201f84b652eb79470": {
-    "title": "大西洋邮轮之旅因病毒变噩梦",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.721034",
-    "last_seen": "2026-05-06T08:02:45.721034"
-  },
-  "641eb1ce021e30ab77f1b25ea7bdf4ef": {
-    "title": "湖南烟花爆竹企业全面停产整顿",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.726423",
-    "last_seen": "2026-05-06T08:02:45.726423"
-  },
-  "fa15877cb3c1803b4f210c73ce05d22c": {
-    "title": "再上33天班又要放假了",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.731488",
-    "last_seen": "2026-05-06T08:02:45.731488"
-  },
-  "b00d6962cf027ecc886e73b95bb74b8b": {
-    "title": "演员许鹏退圈后在夜市摆摊卖橙汁",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.736237",
-    "last_seen": "2026-05-06T08:02:45.736237"
-  },
-  "9b714c8e34fa6fbac842edc1bdc3c41e": {
-    "title": "女乞丐NPC被游客们投喂零食走红",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.740754",
-    "last_seen": "2026-05-06T08:02:45.740754"
-  },
-  "b8e71693194e7970323ab112b55a1c0c": {
-    "title": "阿森纳时隔20年重返欧冠决赛",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.744883",
-    "last_seen": "2026-05-06T08:02:45.744883"
-  },
-  "de9464d470aae815b5e6048877f7acf0": {
-    "title": "网传“驻马店突发火情”系谣言",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.748940",
-    "last_seen": "2026-05-06T08:02:45.748940"
-  },
-  "86c942edb70321a8c1bd9c2152fb9de9": {
-    "title": "套现约455亿 李嘉诚又卖了",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.752816",
-    "last_seen": "2026-05-06T08:02:45.752816"
-  },
-  "2b108fd0834155ab458effbb2f105e21": {
-    "title": "四川悬崖秋千事故景区系网红打卡地",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.756430",
-    "last_seen": "2026-05-06T08:02:45.756430"
-  },
-  "d839e062857c27e54eb8a885f9baa630": {
-    "title": "女子剪开床垫发现一把剪刀",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.760532",
-    "last_seen": "2026-05-06T08:02:45.760532"
-  },
-  "01493446fb0cc12ef8652a931f532962": {
-    "title": "联合国欢迎俄乌分别宣布单方面停火",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.763736",
-    "last_seen": "2026-05-06T08:02:45.763736"
-  },
-  "6e5b0f1b3c3142bf490b7140580fc52f": {
-    "title": "史上最严控烟来了 哪座城市烟味最淡",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.766699",
-    "last_seen": "2026-05-06T08:02:45.766699"
-  },
-  "fb6642b2afd452361dcd1657a1b70ef3": {
-    "title": "沉浸式陪伴观影暗藏色情服务",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.769627",
-    "last_seen": "2026-05-06T08:02:45.769627"
-  },
-  "cf1ccd3b2b3c1c128e4c78bd2f28f259": {
-    "title": "机场提示禁止携带越王勾践剑登机",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.772690",
-    "last_seen": "2026-05-06T08:02:45.772690"
-  },
-  "3bbff89e20c18ceffad23ebe44f4257d": {
-    "title": "上海一女子200多元买刮刮乐中100万",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:45.775820",
-    "last_seen": "2026-05-06T08:02:45.775820"
-  },
-  "1aedb31fbf73626a78591420dfdc01c9": {
-    "title": "AI时代的思考保卫战",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.326670",
-    "last_seen": "2026-05-06T08:02:46.326670"
-  },
-  "287fb3c1896d58e969331eec9a35d74b": {
-    "title": "AI 资讯日报 &middot; 2026 年 5 月 5 日",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.344958",
-    "last_seen": "2026-05-06T08:02:46.344958"
-  },
-  "f0ce12e2c2d0363b000d69d70432673c": {
-    "title": "AI 如何赋能智库研究?不是写报告,而是重构研究流程",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.355951",
-    "last_seen": "2026-05-06T08:02:46.355951"
-  },
-  "df56f9bc671780d26746a4ce3acb883a": {
-    "title": "AI时代下人类该如何自处",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.363912",
-    "last_seen": "2026-05-06T08:02:46.363912"
-  },
-  "68ccb699377dc19c3111fbbd3ea91326": {
-    "title": "Ai编程:旧时代终结,人人编程时代到来.",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.370605",
-    "last_seen": "2026-05-06T08:02:46.370605"
-  },
-  "4bfac8b87ebd5ff27a8b7dec957606fe": {
-    "title": "大模型到底是怎么读懂一句话的?从 Transformer 看懂上下文理解",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.654896",
-    "last_seen": "2026-05-06T08:02:46.654896"
-  },
-  "f5aa69c973edadfb92ce7c9fc78eedf8": {
-    "title": "大模型动态「2026-05-05」",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.666433",
-    "last_seen": "2026-05-06T08:02:46.666433"
-  },
-  "722032015cfd0173a8234846b711b8c4": {
-    "title": "大模型LLM是什么?",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.678104",
-    "last_seen": "2026-05-06T08:02:46.678104"
-  },
-  "f1a2fb5b7b1ce6114a5b64d92f0c7143": {
-    "title": "大模型时代的深度思考 Day3:权衡的艺术&mdash;&mdash;性能、成本、可靠性的三角博弈",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.687573",
-    "last_seen": "2026-05-06T08:02:46.687573"
-  },
-  "a5254183b895a878063d2490aceb209b": {
-    "title": "大模型推理革命:一次吐出十个词,AI 终于学会&ldquo;连珠炮&rdquo;了!",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-05-06T08:02:46.695591",
-    "last_seen": "2026-05-06T08:02:46.695591"
-  },
   "48cec79b50356efff14c355f09de18ee": {
     "title": "考官是AI,作弊的也是AI:一场无声的技术攻防战",
     "source": "搜狗微信",
@@ -2879,9 +2396,9 @@
   "f0a0c8ae70958e0f59ccc79820f985d5": {
     "title": "What’s the biggest \"before vs after AI\" difference in your company?",
     "source": "Reddit r/Entrepreneur",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-05-12T08:07:30.227738",
-    "last_seen": "2026-05-12T08:07:30.227738"
+    "last_seen": "2026-05-13T08:02:48.862674"
   },
   "2e6a06995970a4a55a09fe1ff5563356": {
     "title": "Does anyone track what happens to paid clicks that land on a Google Business Profile?",
@@ -2893,9 +2410,9 @@
   "03e1119b8753b26c1fda04def7c0b9a0": {
     "title": "How to Build a Pitch Deck That Actually Gets Investor Attention: What 590 Reddit Comments Reveal About What Works",
     "source": "Reddit r/Entrepreneur",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-05-12T08:07:30.248086",
-    "last_seen": "2026-05-12T08:07:30.248086"
+    "last_seen": "2026-05-13T08:02:48.854668"
   },
   "823c885108b02df9579deb7597f2c274": {
     "title": "Midcareer professional (40s) wondering if I'm crazy for considering a service business",
@@ -2907,9 +2424,9 @@
   "550b1393d9de4dfe1fdbfd8be79da97a": {
     "title": "Been tracking my emotions for 15 days and it's changing how I work (as a solopreneur)",
     "source": "Reddit r/solopreneur",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-05-12T08:07:31.912936",
-    "last_seen": "2026-05-12T08:07:31.912936"
+    "last_seen": "2026-05-13T08:02:51.492853"
   },
   "17e7f8fd70cc25a7f51097b435aa49d8": {
     "title": "Mark Zuckerberg ‘Personally Authorized and Actively Encouraged’ Meta’s Massive Copyright Infringement to Train AI System",
@@ -2942,9 +2459,9 @@
   "769b93b2e7056707e1f61ddada0028f3": {
     "title": "The rise of ‘Stacey face’: How AI enhancements are warping our beauty standards",
     "source": "Reddit r/artificial",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-05-12T08:07:34.921253",
-    "last_seen": "2026-05-12T08:07:34.921253"
+    "last_seen": "2026-05-13T08:02:55.195228"
   },
   "25888922946955bfe284e8f7286bf1d5": {
     "title": "Cybercriminals Are Making Powerful Hacking Tools With AI, Google Warns",
@@ -3456,5 +2973,453 @@
     "seen_count": 1,
     "first_seen": "2026-05-12T08:08:02.289522",
     "last_seen": "2026-05-12T08:08:02.289522"
+  },
+  "e8e1aafefa19d05ee0b9fd7607d5167a": {
+    "title": "Is it easier to build a business right now or is that just what twitter wants us to believe",
+    "source": "Reddit r/Entrepreneur",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:48.841391",
+    "last_seen": "2026-05-13T08:02:48.841391"
+  },
+  "af199210609d72d67f19a840d42960b5": {
+    "title": "Gemini api showing agentic gemini models",
+    "source": "Reddit r/singularity",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:53.365048",
+    "last_seen": "2026-05-13T08:02:53.365048"
+  },
+  "bfe110da179b4b77a7ce15e21cd73091": {
+    "title": "I made an agentic \"Daily Brief\" for my kids with a receipt printer",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:55.151029",
+    "last_seen": "2026-05-13T08:02:55.151029"
+  },
+  "0e27629a6400dd30f6d7d4310b23b189": {
+    "title": "My god there is an enormous crash just waiting to happen",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:55.167159",
+    "last_seen": "2026-05-13T08:02:55.167159"
+  },
+  "4b649bc9c4c23835da6bcf29c3255d9c": {
+    "title": "Google detects hackers using AI-generated code to bypass 2FA with zero-day vulnerability",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:55.176830",
+    "last_seen": "2026-05-13T08:02:55.176830"
+  },
+  "3b3029399f438c0f03994a6d934ef8ba": {
+    "title": "AI May Reshape Institutions More Than It Replaces Jobs",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:55.183942",
+    "last_seen": "2026-05-13T08:02:55.183942"
+  },
+  "a90f22ab29438b6df8c962e456cc4161": {
+    "title": "The AI labs whose models are eroding democratic trust are the same labs now embedding themselves in government.",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:55.190174",
+    "last_seen": "2026-05-13T08:02:55.190174"
+  },
+  "3ffb79394619730a46e78fcc27fd0b0f": {
+    "title": "Will AI turn us all into hipsters and artisans?",
+    "source": "Reddit r/artificial",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:55.200001",
+    "last_seen": "2026-05-13T08:02:55.200001"
+  },
+  "8cd73a04002d2c9c18bfbfe1d7835dc4": {
+    "title": "TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N]",
+    "source": "Reddit r/MachineLearning",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:56.833312",
+    "last_seen": "2026-05-13T08:02:56.833312"
+  },
+  "b21d10a3f20b7bb2350941088c62d3c3": {
+    "title": "Kraftwerk's radical 1976 track",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:02:59.714993",
+    "last_seen": "2026-05-13T08:02:59.714993"
+  },
+  "a4a645fab7b1a900902993573015435f": {
+    "title": "Googlebook",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:03.689000",
+    "last_seen": "2026-05-13T08:03:03.689000"
+  },
+  "f25228111efb26a3da7ee664460b8215": {
+    "title": "Restore full BambuNetwork support for Bambu Lab printers",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:05.458431",
+    "last_seen": "2026-05-13T08:03:05.458431"
+  },
+  "e8328d44bd9c26d1cef4745f12e7ec56": {
+    "title": "How to make your text look futuristic (2016)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:06.397120",
+    "last_seen": "2026-05-13T08:03:06.397120"
+  },
+  "75cb6d7487a2dd6bc692ecd945112c1b": {
+    "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:07.202176",
+    "last_seen": "2026-05-13T08:03:07.202176"
+  },
+  "a1320dccdd54477833d8e433b7e92deb": {
+    "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:08.164788",
+    "last_seen": "2026-05-13T08:03:08.164788"
+  },
+  "9c2995982fed3b953cc311905a205dfe": {
+    "title": "Why senior developers fail to communicate their expertise",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:09.552016",
+    "last_seen": "2026-05-13T08:03:09.552016"
+  },
+  "a73800e4724e0cb2169659d339c66b35": {
+    "title": "Quack: The DuckDB Client-Server Protocol",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:11.067398",
+    "last_seen": "2026-05-13T08:03:11.067398"
+  },
+  "3fdedd94eb4184e2a2a9270b28665fb6": {
+    "title": "Rendering the Sky, Sunsets, and Planets",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:12.626213",
+    "last_seen": "2026-05-13T08:03:12.626213"
+  },
+  "fe2e6e45326b248ffef0ce6a59e2177c": {
+    "title": "Reimagining the mouse pointer for the AI era",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:14.157202",
+    "last_seen": "2026-05-13T08:03:14.157202"
+  },
+  "7562fdc89429cadabb34dff93d747f23": {
+    "title": "Lanzaboote – NixOS Secure Boot",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:15.592893",
+    "last_seen": "2026-05-13T08:03:15.592893"
+  },
+  "58a0988301b0874cc00f0855516ebd5b": {
+    "title": "The Future of Obsidian Plugins",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:16.512594",
+    "last_seen": "2026-05-13T08:03:16.512594"
+  },
+  "2a653312b243db886af308d61c48f9c9": {
+    "title": "Learning Software Architecture",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:17.309748",
+    "last_seen": "2026-05-13T08:03:17.309748"
+  },
+  "0d39b1b26aa00cda8bde5ec9607db336": {
+    "title": "Bambu Lab is abusing the open source social contract",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:18.420299",
+    "last_seen": "2026-05-13T08:03:18.420299"
+  },
+  "ca954c245fc8e7296f213950d14c73a2": {
+    "title": "Beyond Semantic Similarity",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:19.892530",
+    "last_seen": "2026-05-13T08:03:19.892530"
+  },
+  "651b0eac778e75d26bf1e5f36a444a78": {
+    "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:20.915602",
+    "last_seen": "2026-05-13T08:03:20.915602"
+  },
+  "b79075af72bd7d7c4711dc3efb161073": {
+    "title": "Dead.Letter (CVE-2026-45185) – How XBOW found an unauthenticated RCE on Exim",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:23.744211",
+    "last_seen": "2026-05-13T08:03:23.744211"
+  },
+  "ef3924f85c14c9f990b1ee60b2902ebb": {
+    "title": "Riding the D in Los Angeles: city hopes new subway stations will be game changer",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:25.421657",
+    "last_seen": "2026-05-13T08:03:25.421657"
+  },
+  "784b32d336baa74041ebbfdddb8b422d": {
+    "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:26.961657",
+    "last_seen": "2026-05-13T08:03:26.961657"
+  },
+  "c4b5a90e1d78ee78ec7fff1aef6c1773": {
+    "title": "When life gives you lemons, write better error messages",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:27.983240",
+    "last_seen": "2026-05-13T08:03:27.983240"
+  },
+  "5002dfe20144ee49845e1e9b5f8920fa": {
+    "title": "习近平同塔吉克斯坦总统拉赫蒙会谈",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.176730",
+    "last_seen": "2026-05-13T08:03:28.176730"
+  },
+  "f962863a9707b532374488e85646e25b": {
+    "title": "“超级心脏”爆单 订单已排到2028年",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.189504",
+    "last_seen": "2026-05-13T08:03:28.189504"
+  },
+  "12f9f8e2068edaba23875a7c66da10a1": {
+    "title": "武汉蒜鸟告了“蒜鸟”：损失超亿元",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.198485",
+    "last_seen": "2026-05-13T08:03:28.198485"
+  },
+  "629c53d319c9c597e33b0687bdbdc488": {
+    "title": "这场“安全公开课”够硬核",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.205161",
+    "last_seen": "2026-05-13T08:03:28.205161"
+  },
+  "13c7a6663659e76c362664dc67a4eddf": {
+    "title": "天安门广场挂起中塔两国国旗",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.211493",
+    "last_seen": "2026-05-13T08:03:28.211493"
+  },
+  "aaf524d43669af4082a641ea7e9b4aa4": {
+    "title": "地震失去双腿女子唱歌谋生圈粉百万",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.216906",
+    "last_seen": "2026-05-13T08:03:28.216906"
+  },
+  "09c3e4e235e3df3cf8105e682f18aa71": {
+    "title": "网警依法打击“湖北人造大米”谣言",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.221919",
+    "last_seen": "2026-05-13T08:03:28.221919"
+  },
+  "740b13b3d9efd11b9875f968f1f14263": {
+    "title": "4月汽车销量前十名仅剩1款油车",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.226140",
+    "last_seen": "2026-05-13T08:03:28.226140"
+  },
+  "f2840afdd839a4cc4bd9d976ea016105": {
+    "title": "大雾、暴雨、沙尘暴三预警齐发",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.230137",
+    "last_seen": "2026-05-13T08:03:28.230137"
+  },
+  "388b3be3ffd2f897186901e4cb6348e7": {
+    "title": "宝宝头上有九个头旋",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.233928",
+    "last_seen": "2026-05-13T08:03:28.233928"
+  },
+  "1433907cb45ff49d82df8a43fb9981c5": {
+    "title": "不少车主感叹：停车位缩水了",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.237765",
+    "last_seen": "2026-05-13T08:03:28.237765"
+  },
+  "581f32878d4cbd1088e41a75511a7951": {
+    "title": "男子偷空调顺手一拿让案值翻10倍",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.241323",
+    "last_seen": "2026-05-13T08:03:28.241323"
+  },
+  "26a7bfc5c529c14fa790f0b7757d550b": {
+    "title": "小沈阳因减肥10天挂2次急诊",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.244846",
+    "last_seen": "2026-05-13T08:03:28.244846"
+  },
+  "bb3b540bb607d46a53b06700d6c8df33": {
+    "title": "巴基斯坦外长：感谢中方",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.248083",
+    "last_seen": "2026-05-13T08:03:28.248083"
+  },
+  "c6c9aa293f3649f73710957bcd132ee4": {
+    "title": "降噪耳机受害者出现",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.251342",
+    "last_seen": "2026-05-13T08:03:28.251342"
+  },
+  "77a61059eaaccc45999da4da5ed0f513": {
+    "title": "继母和继子亲哥争夺继子监护权被驳",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.254500",
+    "last_seen": "2026-05-13T08:03:28.254500"
+  },
+  "e8657f21f3aa6ffcd9881fbc35ffffce": {
+    "title": "京沪高铁“涨价”背后有何考量",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.257480",
+    "last_seen": "2026-05-13T08:03:28.257480"
+  },
+  "186474a70e64b6c7839ad2c3d6156f21": {
+    "title": "13岁女孩花光父亲18万积蓄买画稿",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.260249",
+    "last_seen": "2026-05-13T08:03:28.260249"
+  },
+  "7087486d609fd4bb74b9e803dcc3e292": {
+    "title": "独身男子离世存款被转走 民政局回应",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.262958",
+    "last_seen": "2026-05-13T08:03:28.262958"
+  },
+  "6104edbf3cf2a8747aaf5f547abfe9b9": {
+    "title": "当地回应偷拍裙底男生已拟录公务员",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.265553",
+    "last_seen": "2026-05-13T08:03:28.265553"
+  },
+  "a7751cd4ebde32782af16f7298d161cb": {
+    "title": "AI是什么?什么是AI?普通人怎么抓住AI的风口呢?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.782830",
+    "last_seen": "2026-05-13T08:03:28.782830"
+  },
+  "caed62e67540c5b0dfb46b198db4d0b9": {
+    "title": "AI时代,我把自己的角色重新定义了一遍作者",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.797311",
+    "last_seen": "2026-05-13T08:03:28.797311"
+  },
+  "b7b9e24d7778f32028c6a1662bcf8072": {
+    "title": "AI时代,创业不要再拼规模:读懂《小而精》,小公司才是未来赢家",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.807800",
+    "last_seen": "2026-05-13T08:03:28.807800"
+  },
+  "555a5111ad4836699c94675eb44b9374": {
+    "title": "AI眼镜行业未来可期&mdash;&mdash;让智能融入视觉",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.814837",
+    "last_seen": "2026-05-13T08:03:28.814837"
+  },
+  "598c42cb645cc397f18819d0d3302e55": {
+    "title": "AI产业链压力山大",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:28.820916",
+    "last_seen": "2026-05-13T08:03:28.820916"
+  },
+  "3f954c707975963242a9464451e3e21a": {
+    "title": "大模型备案,高新区再+1!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.094067",
+    "last_seen": "2026-05-13T08:03:29.094067"
+  },
+  "ab4e52a9597085d961c54dbd7567419c": {
+    "title": "大模型 | 大模型-FastAPI-SQLAlchemy",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.109337",
+    "last_seen": "2026-05-13T08:03:29.109337"
+  },
+  "4bfac8b87ebd5ff27a8b7dec957606fe": {
+    "title": "大模型到底是怎么读懂一句话的?从 Transformer 看懂上下文理解",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.118470",
+    "last_seen": "2026-05-13T08:03:29.118470"
+  },
+  "cb46da9fc3f2da8a5eb885f0dffa6db9": {
+    "title": "大模型新的赛道出现了,Thinking Machines强势回归",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.125412",
+    "last_seen": "2026-05-13T08:03:29.125412"
+  },
+  "aff755c3099ab1dcedec909530ded367": {
+    "title": "大模型其实偷偷学了＂语法＂这一维:一个线性探针,把概率和语法掰开了",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.131094",
+    "last_seen": "2026-05-13T08:03:29.131094"
+  },
+  "23240b916145a2d2a2f4095012d5d1ea": {
+    "title": "大会成果:《人工智能教育杭州倡议》发布 | 大会快报⑪",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.409064",
+    "last_seen": "2026-05-13T08:03:29.409064"
+  },
+  "de4d32875cb74cceead19c1389464bbd": {
+    "title": "谷歌深夜炸场!给50年没变的鼠标装上AI大脑,指一下AI就秒懂,改写电脑交互",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.424332",
+    "last_seen": "2026-05-13T08:03:29.424332"
+  },
+  "d93aeca79f00d59a33323dce372240a8": {
+    "title": "破壁与共生:深度解读《关于促进人工智能与能源双向赋能的行动方案》",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.433674",
+    "last_seen": "2026-05-13T08:03:29.433674"
+  },
+  "fa9d0d334b1612f625c3223142ff475e": {
+    "title": "当＂专家＂变成＂指挥家＂:AI时代,你的同事真的准备好了吗?&mdash;&mdash;从知识垄断到智能协同,一场关于人类尊严的职场革命",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.441626",
+    "last_seen": "2026-05-13T08:03:29.441626"
+  },
+  "128a6e772c871453dcaa70de331d0d19": {
+    "title": "AI这么火,现在到底该怎么买?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-13T08:03:29.448011",
+    "last_seen": "2026-05-13T08:03:29.448011"
   }
 }
