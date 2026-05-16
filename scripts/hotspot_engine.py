@@ -55,8 +55,9 @@ FINGERPRINT_WEEKLY_TTL_DAYS = 30
 
 # 高质量源（Reddit/HN等）的去重阈值更高——允许重复出现更多次
 HIGH_QUALITY_SOURCES = ["Reddit", "HackerNews"]
-HIGH_QUALITY_EXCLUDE_THRESHOLD = 6  # 高质量源seen_count>=6才排除
-DEFAULT_EXCLUDE_THRESHOLD = 3
+HIGH_QUALITY_EXCLUDE_THRESHOLD = 4  # 高质量源seen_count>=4才排除
+DEFAULT_EXCLUDE_THRESHOLD = 2  # 普通源seen_count>=2即排除（降低阈值，减少跨日期重复）
+MAX_DAILY_ITEMS = 80  # 防止采集条目爆炸
 
 os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -178,10 +179,12 @@ class SourceCollector:
     
     def __init__(self, fingerprint_store: FingerprintStore, report_fingerprints: set = None):
         self.fp = fingerprint_store
-        # report_fingerprints: 上一次报告中的所有指纹，用于采集前预检
+        # report_fingerprints: 完整指纹库 key set，用于跨日期去重
         self.report_fingerprints = report_fingerprints or set()
         self.collected = []  # [{title, source, url, snippet, platform, tag, ...}]
         self.unknown_sources = []  # 无法获取的信息源，输出建议
+        self.excluded_count = 0  # 被 should_exclude 排除的条目计数
+        self.capped_count = 0  # 被 MAX_DAILY_ITEMS 上限截断的条目计数
     
     def _is_duplicate_of_prev_report(self, title: str, source: str, url: str = "") -> bool:
         """采集前预检：如果指纹在上一次报告中已存在，跳过（省资源）"""
@@ -198,6 +201,12 @@ class SourceCollector:
         
         # 如果指纹已被排除（seen太多遍），跳过
         if self.fp.should_exclude(fp, source):
+            self.excluded_count += 1
+            return
+
+        # 条目数上限保护（采集中途截断）
+        if len(self.collected) >= MAX_DAILY_ITEMS:
+            self.capped_count += 1
             return
         
         # 记录新采集
@@ -216,6 +225,11 @@ class SourceCollector:
             if matched:
                 relevance_hint = f"命中关键词: {', '.join(matched)}"
         
+        # 热点生命周期追踪
+        # seen_count=1: 首次出现(new), seen_count=2: 跨日期重复(rising)
+        # seen_count>=3: 已被 should_exclude 排除，不可达（阈值=2）
+        lifecycle_stage = "rising" if seen_count >= 2 else "new"
+
         self.collected.append({
             "fingerprint": fp,
             "title": title,
@@ -225,11 +239,13 @@ class SourceCollector:
             "platform": platform,
             "platform_rating": platform_rating,
             "source_type": source_type,
-            "source_quality": source_quality,  # 新增：源质量分级
-            "relevance_hint": relevance_hint,    # 新增：相关性预判
+            "source_quality": source_quality,
+            "relevance_hint": relevance_hint,
             "tags": tags,
             "is_repeat": seen_count > 1,
             "repeat_count": seen_count - 1,
+            "lifecycle_stage": lifecycle_stage,
+            "first_seen": self.fp.fingerprints.get(fp, {}).get("first_seen", ""),
             "collected_at": datetime.now().isoformat()
         })
     
@@ -755,7 +771,16 @@ class SourceCollector:
         return self.unknown_sources
     
     def run_daily_collection(self):
-        """执行每日采集（所有信息源，每个源独立try-except防止单源失败阻塞全流程）"""
+        """执行每日采集（每个源独立try-except防止单源失败阻塞全流程）
+
+        已移除的采集器：
+        - collect_jike_hot: 即刻无公开API，成功率0%
+        - collect_douyin_hot: 抖音JS渲染+反爬，成功率0%
+        - collect_tophub: tophub JS渲染，成功率0%
+        保留但成功率低的采集器：
+        - collect_sogou_weixin: 成功率~20%，但成功时质量B级
+        - collect_weibo_hot: 反爬严重，成功率~15%
+        """
         collectors = [
             self.collect_reddit_hot,
             self.collect_hackernews,
@@ -763,14 +788,15 @@ class SourceCollector:
             self.collect_bilibili_hot,
             self.collect_sogou_weixin,
             self.collect_weibo_hot,
-            self.collect_douyin_hot,
             self.collect_zhihu_hot,
-            self.collect_jike_hot,
-            self.collect_tophub,
         ]
         for collector in collectors:
             try:
                 collector()
+                # 条目数保护：超过上限则停止
+                if len(self.collected) >= MAX_DAILY_ITEMS:
+                    print(f"[hotspot_engine] 已达采集上限 {MAX_DAILY_ITEMS} 条，停止")
+                    break
             except Exception as e:
                 print(f"[hotspot_engine] ⚠️ 采集器 {collector.__name__} 失败: {e}")
         return self.collected
@@ -778,6 +804,7 @@ class SourceCollector:
     def run_weekly_collection(self):
         """执行每周采集（宽幅扫描）"""
         self.run_daily_collection()
+        # 如果日报采集已达上限，周报追加采集中途也会被 _add_result 截断
         weekly_collectors = [
             self.collect_youtube_trends,
             self.collect_ai_newsletters,
@@ -785,6 +812,9 @@ class SourceCollector:
         ]
         for collector in weekly_collectors:
             try:
+                if len(self.collected) >= MAX_DAILY_ITEMS:
+                    print(f"[hotspot_engine] 已达采集上限 {MAX_DAILY_ITEMS} 条，跳过周报追加采集")
+                    break
                 collector()
             except Exception as e:
                 print(f"[hotspot_engine] ⚠️ 周采集器 {collector.__name__} 失败: {e}")
@@ -807,9 +837,10 @@ def generate_markdown_report(collected: list, mode: str, unknown_sources: list,
     lines.append(f"> 信息源数量：{len(set(item['source'] for item in collected))}个")
     lines.append(f"> 采集条目数：{len(collected)}条")
     if dedup_stats:
-        lines.append(f"> 去重统计：采集前排除 {dedup_stats.get('pre_excluded', 0)} 条 · " 
-                     f"已标记重复 {dedup_stats.get('marked_repeats', 0)} 条 · "
-                     f"已排除 {dedup_stats.get('excluded_stale', 0)} 条")
+        lines.append(f"> 去重统计：排除 {dedup_stats.get('excluded_by_dedup', 0)} 条 · "
+                     f"跨日期重复 {dedup_stats.get('marked_repeats', 0)} 条 · "
+                     f"热度上升中 {dedup_stats.get('rising_items', 0)} 条 · "
+                     f"指纹库总计 {dedup_stats.get('total_fingerprints', 0)} 条")
     lines.append("")
     
     # ---- 按平台分类 ----
@@ -817,9 +848,9 @@ def generate_markdown_report(collected: list, mode: str, unknown_sources: list,
     lines.append("## 📊 各平台热点总览")
     lines.append("")
     
-    platforms_order = ["百度热搜", "HackerNews", "36氪", "搜狗微信", "即刻App", "即刻热门(RSSHub)",
-                       "tophub.today", "微博热搜", "抖音热榜", "B站科技区", "B站全站热门",
-                       "知乎热榜", "Reddit", "newsletter", "blog", "YouTube AI热门",
+    platforms_order = ["百度热搜", "HackerNews", "搜狗微信", "微博热搜",
+                       "B站科技区", "B站全站热门", "知乎热榜",
+                       "Reddit", "newsletter", "blog", "YouTube AI热门",
                        "Sam Altman博客", "Paul Graham", "Naval", "Benedict Evans",
                        "Import AI", "The Batch", "Interconnects", "One Useful Thing",
                        "Simon Willison"]
@@ -959,6 +990,8 @@ def export_collected_json(collected: list, mode: str) -> str:
                 "tags": item.get("tags", []),
                 "is_repeat": item.get("is_repeat", False),
                 "repeat_count": item.get("repeat_count", 0),
+                "lifecycle_stage": item.get("lifecycle_stage", "new"),
+                "first_seen": item.get("first_seen", ""),
                 "fingerprint": item.get("fingerprint", ""),
             }
             for item in collected
@@ -1002,10 +1035,21 @@ if __name__ == "__main__":
         print(f"[hotspot_engine] 清理了 {expired} 条过期指纹")
     
     # 读取上一次报告的指纹（用于采集前预检）
-    report_file = DAILY_REPORT_FILE if mode == "daily" else WEEKLY_REPORT_FILE
+    # 策略：读取完整指纹库(近7天所有指纹)，而非仅上一次报告的指纹
     prev_fingerprints = set()
+    # 优先从完整指纹库加载（跨日期去重）
+    if os.path.exists(DAILY_FINGERPRINT_FILE if mode == "daily" else WEEKLY_FINGERPRINT_FILE):
+        try:
+            fingerprint_file = DAILY_FINGERPRINT_FILE if mode == "daily" else WEEKLY_FINGERPRINT_FILE
+            with open(fingerprint_file, "r") as f:
+                all_fingerprints = json.load(f)
+                prev_fingerprints = set(all_fingerprints.keys())
+            print(f"[hotspot_engine] 加载了 {len(prev_fingerprints)} 条完整指纹库用于跨日期去重")
+        except:
+            pass
+    # 降级：如果完整库不可用，尝试上一次报告的指纹快照
     prev_report_dir = os.path.join(DATA_DIR, f"prev_{mode}_fingerprints.json")
-    if os.path.exists(prev_report_dir):
+    if not prev_fingerprints and os.path.exists(prev_report_dir):
         try:
             with open(prev_report_dir, "r") as f:
                 prev_fingerprints = set(json.load(f))
@@ -1026,10 +1070,11 @@ if __name__ == "__main__":
     
     # 统计去重信息
     dedup_stats = {
-        "pre_excluded": len(prev_fingerprints) - len(results) if prev_fingerprints else 0,
-        "marked_repeats": sum(1 for r in results if r.get("is_repeat")),
-        "excluded_stale": sum(1 for r in results if r.get("repeat_count", 0) >= 2),
         "total_fingerprints": len(fp_store.fingerprints),
+        "excluded_by_dedup": collector.excluded_count,  # 被 should_exclude 排除的条目
+        "capped_by_limit": collector.capped_count,       # 被条目上限截断的条目
+        "marked_repeats": sum(1 for r in results if r.get("is_repeat")),  # 已标记为重复
+        "rising_items": sum(1 for r in results if r.get("lifecycle_stage") == "rising"),  # 跨日期热度上升中
     }
     
     # 生成报告
@@ -1058,10 +1103,12 @@ if __name__ == "__main__":
     os.symlink(os.path.basename(json_file), latest_json)
     print(f"[hotspot_engine] 原始数据已导出：{json_file}（{len(results)} 条）")
     
-    # 保存本次报告的所有指纹（供下一次预检）
-    result_fingerprints = [r["fingerprint"] for r in results]
+    # 保存完整指纹库快照（供下一次预检降级使用）
+    # 主去重现在依赖完整指纹库(fingerprints_daily.json)，此文件仅作备份
+    all_fingerprint_keys = list(fp_store.fingerprints.keys())
     with open(prev_report_dir, "w") as f:
-        json.dump(result_fingerprints, f)
+        json.dump(all_fingerprint_keys, f)
+    print(f"[hotspot_engine] 指纹库快照已保存：{len(all_fingerprint_keys)} 条（含跨日期累计）")
     
     print(f"[hotspot_engine] 报告已生成：{report_file_path}")
     print(f"[hotspot_engine] 完成！")
