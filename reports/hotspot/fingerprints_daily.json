@@ -4093,5 +4093,376 @@
     "seen_count": 1,
     "first_seen": "2026-05-21T08:03:41.945922",
     "last_seen": "2026-05-21T08:03:41.945922"
+  },
+  "b4e739b108c71e0d4fbd02b9fee9f497": {
+    "title": "Using Kagi Search with Low Vision",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:02:59.786449",
+    "last_seen": "2026-05-22T08:02:59.786449"
+  },
+  "f31f32fe18c290b7601ae276f266a1a7": {
+    "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:00.533262",
+    "last_seen": "2026-05-22T08:03:00.533262"
+  },
+  "dc9bc4e388006fc05d729eb4344ff21f": {
+    "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:01.281260",
+    "last_seen": "2026-05-22T08:03:01.281260"
+  },
+  "05c6cd9a6f7b27444f5d001edf40262f": {
+    "title": "We're testing new ad formats in Search and expanding our Direct Offers pilot",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:02.029771",
+    "last_seen": "2026-05-22T08:03:02.029771"
+  },
+  "f27211213cb1ec75115a126fb0d08a66": {
+    "title": "Was my $48K GPU server worth it?",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:02.773196",
+    "last_seen": "2026-05-22T08:03:02.773196"
+  },
+  "8153f50c0e2ae8686e3d3a860cfbe5d9": {
+    "title": "Uv is fantastic, but its package management UX is a mess",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:03.524491",
+    "last_seen": "2026-05-22T08:03:03.524491"
+  },
+  "f00a2dd9f048d4d2dcc08ae25094e144": {
+    "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:04.272473",
+    "last_seen": "2026-05-22T08:03:04.272473"
+  },
+  "7bc3f60784e37e19f96f3e1586243558": {
+    "title": "Spotify will start reserving concert tickets for fans",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:05.013131",
+    "last_seen": "2026-05-22T08:03:05.013131"
+  },
+  "3fcdd87e1c07e0eeb55622e0a4b6786a": {
+    "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:05.769326",
+    "last_seen": "2026-05-22T08:03:05.769326"
+  },
+  "5a658e06a593c1d4a678bc44d10df49e": {
+    "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:06.552373",
+    "last_seen": "2026-05-22T08:03:06.552373"
+  },
+  "bf6015c2c9e9f96c5329001324d276bb": {
+    "title": "AI is killing the cheap smartphone",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:07.292244",
+    "last_seen": "2026-05-22T08:03:07.292244"
+  },
+  "5749785f19c867b8500730f39247786d": {
+    "title": "Python 3.15: features that didn't make the headlines",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:08.047246",
+    "last_seen": "2026-05-22T08:03:08.047246"
+  },
+  "99f8c3ce1254bb2035ee9fb48c88dae5": {
+    "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:08.785628",
+    "last_seen": "2026-05-22T08:03:08.785628"
+  },
+  "479db917f3000b5d6af1731d1345023d": {
+    "title": "Tell HN: I'm tired of AI-generated answers",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:09.517286",
+    "last_seen": "2026-05-22T08:03:09.517286"
+  },
+  "462cde7da7ed92b2436b71ff1e285551": {
+    "title": "Lost Images from the 1945 Trinity Nuclear Test Restored",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:10.248722",
+    "last_seen": "2026-05-22T08:03:10.248722"
+  },
+  "1ebb1ae694b9454f3e88b7937699b82b": {
+    "title": "Flipper One – we need your help",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:10.980391",
+    "last_seen": "2026-05-22T08:03:10.980391"
+  },
+  "085b6d59dad23550d1a142d7412cb7eb": {
+    "title": "Mycorrhizal Fungi, Nature's Key to Plant Survival and Success",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:11.736988",
+    "last_seen": "2026-05-22T08:03:11.736988"
+  },
+  "2c3226a0324a92899c0f7e75218b80a5": {
+    "title": "BBEdit 16",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:12.469100",
+    "last_seen": "2026-05-22T08:03:12.469100"
+  },
+  "90e398af48d486e9b9ad85b9deee078a": {
+    "title": "老友再会！中俄元首北京会晤",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.363544",
+    "last_seen": "2026-05-22T08:03:13.363544"
+  },
+  "7fd1afd6cfddab23188b613d1681c6bd": {
+    "title": "雷军强烈建议大家现在就换手机",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.379061",
+    "last_seen": "2026-05-22T08:03:13.379061"
+  },
+  "7b50c86bc25082ea03a92d41537193d4": {
+    "title": "“省的油钱 全贴进修车费了”",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.390084",
+    "last_seen": "2026-05-22T08:03:13.390084"
+  },
+  "deb4dc9af680275719ddef4c168b142d": {
+    "title": "2026文化强国建设高峰论坛在深圳开幕",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.398643",
+    "last_seen": "2026-05-22T08:03:13.398643"
+  },
+  "0017b8be449ffaedd43b8e7afd923593": {
+    "title": "今年暴雨为啥这么早这么猛",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.405777",
+    "last_seen": "2026-05-22T08:03:13.405777"
+  },
+  "b9e96d8c867434c67c938a5cb715a141": {
+    "title": "投了一家公司 合肥赚了一个合肥",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.412416",
+    "last_seen": "2026-05-22T08:03:13.412416"
+  },
+  "c00dacc08de157f2dbf0b03fba39358f": {
+    "title": "净网：拍到“野生华南虎”系谣言",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.417943",
+    "last_seen": "2026-05-22T08:03:13.417943"
+  },
+  "a51b64ce76f5d77ad58cc6b4ef0ff9a9": {
+    "title": "C罗夺得沙特联赛冠军",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.423300",
+    "last_seen": "2026-05-22T08:03:13.423300"
+  },
+  "fe9610df3c430a9a01f7c0d897fefdf6": {
+    "title": "睡觉时出现这4种表现可能是疾病信号",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.428099",
+    "last_seen": "2026-05-22T08:03:13.428099"
+  },
+  "efccc0c6387f80af7630eb9ec90f6d72": {
+    "title": "小米YU7 GT正式发布 售价38.99万元",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.432682",
+    "last_seen": "2026-05-22T08:03:13.432682"
+  },
+  "26aa9b5750492d924ed351683fb42677": {
+    "title": "今天缅怀袁隆平、吴孟超两位院士",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.436886",
+    "last_seen": "2026-05-22T08:03:13.436886"
+  },
+  "862f11c68bc0950beb47d3900d409317": {
+    "title": "美新墨西哥州三人接触不明物质死亡",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.440994",
+    "last_seen": "2026-05-22T08:03:13.440994"
+  },
+  "6f234788ed3d6a2161b4adefa53b95ef": {
+    "title": "建议少用一次性纸杯盛热水",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.444780",
+    "last_seen": "2026-05-22T08:03:13.444780"
+  },
+  "0bf6c1a92b70dadf8b7261415b241dd9": {
+    "title": "孙杨让张豆豆给他道歉",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.448396",
+    "last_seen": "2026-05-22T08:03:13.448396"
+  },
+  "e1e4abeed34811742ff338f88fe41054": {
+    "title": "11省区市有大到暴雨 局地有大暴雨",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.451750",
+    "last_seen": "2026-05-22T08:03:13.451750"
+  },
+  "4653393e5918628149088ffa6de34305": {
+    "title": "雷军：再次挑战特斯拉Model Y销量",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.455121",
+    "last_seen": "2026-05-22T08:03:13.455121"
+  },
+  "cdef1a3644ab38d23df7fa674ef78cd4": {
+    "title": "郑丽文拍桌怒骂赖清德半小时",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.459015",
+    "last_seen": "2026-05-22T08:03:13.459015"
+  },
+  "011d022ca33f75541cce19e914ce4d28": {
+    "title": "金秀贤案件反转",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.462124",
+    "last_seen": "2026-05-22T08:03:13.462124"
+  },
+  "afbbe8d8992d2afe451aad69dbcb0381": {
+    "title": "孕妇江边失联 丈夫崩溃：我们感情很好",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.465092",
+    "last_seen": "2026-05-22T08:03:13.465092"
+  },
+  "8d01a699531872a9d3c5800696655d49": {
+    "title": "小米发布首款耳夹式耳机 首销价799元",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.468073",
+    "last_seen": "2026-05-22T08:03:13.468073"
+  },
+  "87ccfa8aa29d6c0666fc4664255d779e": {
+    "title": "AI,异常信号",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.982844",
+    "last_seen": "2026-05-22T08:03:13.982844"
+  },
+  "807f84cefeb0be883fc284312c31cce2": {
+    "title": "AI赋能OPC(一人公司)持续增长",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:13.998976",
+    "last_seen": "2026-05-22T08:03:13.998976"
+  },
+  "a2e32c18de77c2c0a5aa5b2366124525": {
+    "title": "AI时代,哪些公司能成为 穿越周期的价值投资目标",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.009783",
+    "last_seen": "2026-05-22T08:03:14.009783"
+  },
+  "ad668a73a6eddec8e9c9c7f451f023e8": {
+    "title": "&ldquo;AI+绿色能源&rdquo;融合创新发展高层次交流会成功举办",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.018602",
+    "last_seen": "2026-05-22T08:03:14.018602"
+  },
+  "3130f6fd2302e5dadd6e62d7d67f461d": {
+    "title": "AI时代的新尺子,丈量巨头之路",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.025906",
+    "last_seen": "2026-05-22T08:03:14.025906"
+  },
+  "dd9f944131985ba0384b5807852f5ee9": {
+    "title": "大模型狂飙的尽头,这家国产 GPU 厂商要把算力放在客厅",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.395648",
+    "last_seen": "2026-05-22T08:03:14.395648"
+  },
+  "53fe470028e6e80ec55d6904ced6bd53": {
+    "title": "大模型估值过高?瑞银:AI变现天花板远高于移动互联网",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.407494",
+    "last_seen": "2026-05-22T08:03:14.407494"
+  },
+  "13b5bebaa1a554342aca2052bd70a61b": {
+    "title": "大模型智能体＂上车＂:从四川到河北,高速运营的AI大脑正在成型",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.419077",
+    "last_seen": "2026-05-22T08:03:14.419077"
+  },
+  "d4a6fac3702aadb98ab1c5c918782f52": {
+    "title": "大模型周榜:谁在涨,谁在跌 #05/21",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.429065",
+    "last_seen": "2026-05-22T08:03:14.429065"
+  },
+  "4293e6bfac31b3a129eb515135634bcb": {
+    "title": "大模型动态「2026-05-21」",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.436810",
+    "last_seen": "2026-05-22T08:03:14.436810"
+  },
+  "01146a9f96e83e2b3d33f7f492f58e80": {
+    "title": "透视底牌:顶级基金如何利用代理型AI收割超额收益?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.745770",
+    "last_seen": "2026-05-22T08:03:14.745770"
+  },
+  "3e36b10387dd2612711b51a3e96f3a67": {
+    "title": "政商学界精英齐聚,共探AI赋能金融新范式&mdash;&mdash;凤凰湾区财经论坛・金融峰会开幕在即",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.761750",
+    "last_seen": "2026-05-22T08:03:14.761750"
+  },
+  "d17507396ff5b5169fa3975c7ad20cd2": {
+    "title": "杭州&middot;余杭丨首届人工智能高质量发展大会报名开启!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.773938",
+    "last_seen": "2026-05-22T08:03:14.773938"
+  },
+  "8d312603eba14d692585895d172bbdde": {
+    "title": "超300万元订单放送!衢州首个AI+综合类创新创业OPC社区启航",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.783055",
+    "last_seen": "2026-05-22T08:03:14.783055"
+  },
+  "337e51ec068a449a2e993ef2ae94b533": {
+    "title": "AI时代,我们到底需要怎样的教育?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-05-22T08:03:14.790456",
+    "last_seen": "2026-05-22T08:03:14.790456"
   }
 }

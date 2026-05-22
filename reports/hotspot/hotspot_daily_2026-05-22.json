@@ -1,0 +1,988 @@
+{
+  "mode": "daily",
+  "generated_at": "2026-05-22 08:03:15",
+  "total": 53,
+  "items": [
+    {
+      "title": "Using Kagi Search with Low Vision",
+      "source": "HackerNews",
+      "url": "https://veroniiiica.com/using-kagi-search-with-low-vision/",
+      "snippet": "↑99 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:02:59.786449",
+      "fingerprint": "b4e739b108c71e0d4fbd02b9fee9f497"
+    },
+    {
+      "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+      "source": "HackerNews",
+      "url": "https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/",
+      "snippet": "↑139 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:00.533262",
+      "fingerprint": "f31f32fe18c290b7601ae276f266a1a7"
+    },
+    {
+      "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
+      "source": "HackerNews",
+      "url": "https://freenet.org/",
+      "snippet": "↑173 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:01.281260",
+      "fingerprint": "dc9bc4e388006fc05d729eb4344ff21f"
+    },
+    {
+      "title": "We're testing new ad formats in Search and expanding our Direct Offers pilot",
+      "source": "HackerNews",
+      "url": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads/",
+      "snippet": "↑556 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:02.029771",
+      "fingerprint": "05c6cd9a6f7b27444f5d001edf40262f"
+    },
+    {
+      "title": "Was my $48K GPU server worth it?",
+      "source": "HackerNews",
+      "url": "https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/",
+      "snippet": "↑242 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:02.773196",
+      "fingerprint": "f27211213cb1ec75115a126fb0d08a66"
+    },
+    {
+      "title": "Uv is fantastic, but its package management UX is a mess",
+      "source": "HackerNews",
+      "url": "https://www.loopwerk.io/articles/2026/uv-ux-mess/",
+      "snippet": "↑38 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:03.524491",
+      "fingerprint": "8153f50c0e2ae8686e3d3a860cfbe5d9"
+    },
+    {
+      "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
+      "source": "HackerNews",
+      "url": "https://blog.simbastack.com/indexed-a-year-of-video-locally/",
+      "snippet": "↑271 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:04.272473",
+      "fingerprint": "f00a2dd9f048d4d2dcc08ae25094e144"
+    },
+    {
+      "title": "Spotify will start reserving concert tickets for fans",
+      "source": "HackerNews",
+      "url": "https://www.hollywoodreporter.com/music/music-industry-news/spotify-will-start-reserving-concert-tickets-for-superfans-1236603106/",
+      "snippet": "↑87 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:05.013131",
+      "fingerprint": "7bc3f60784e37e19f96f3e1586243558"
+    },
+    {
+      "title": "Seattle Shield, an intelligence-sharing network operated by the Seattle police",
+      "source": "HackerNews",
+      "url": "https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/",
+      "snippet": "↑396 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:05.769326",
+      "fingerprint": "3fcdd87e1c07e0eeb55622e0a4b6786a"
+    },
+    {
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "source": "HackerNews",
+      "url": "https://www.runtm.com/",
+      "snippet": "↑60 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: agent",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:06.552373",
+      "fingerprint": "5a658e06a593c1d4a678bc44d10df49e"
+    },
+    {
+      "title": "AI is killing the cheap smartphone",
+      "source": "HackerNews",
+      "url": "https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone",
+      "snippet": "↑12 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:07.292244",
+      "fingerprint": "bf6015c2c9e9f96c5329001324d276bb"
+    },
+    {
+      "title": "Python 3.15: features that didn't make the headlines",
+      "source": "HackerNews",
+      "url": "https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html",
+      "snippet": "↑321 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:08.047246",
+      "fingerprint": "5749785f19c867b8500730f39247786d"
+    },
+    {
+      "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
+      "source": "HackerNews",
+      "url": "https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/",
+      "snippet": "↑234 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:08.785628",
+      "fingerprint": "99f8c3ce1254bb2035ee9fb48c88dae5"
+    },
+    {
+      "title": "Tell HN: I'm tired of AI-generated answers",
+      "source": "HackerNews",
+      "url": "https://news.ycombinator.com/item?id=48230104",
+      "snippet": "↑21 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:09.517286",
+      "fingerprint": "479db917f3000b5d6af1731d1345023d"
+    },
+    {
+      "title": "Lost Images from the 1945 Trinity Nuclear Test Restored",
+      "source": "HackerNews",
+      "url": "https://spectrum.ieee.org/trinity-nuclear-test",
+      "snippet": "↑270 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:10.248722",
+      "fingerprint": "462cde7da7ed92b2436b71ff1e285551"
+    },
+    {
+      "title": "Flipper One – we need your help",
+      "source": "HackerNews",
+      "url": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+      "snippet": "↑1020 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:10.980391",
+      "fingerprint": "1ebb1ae694b9454f3e88b7937699b82b"
+    },
+    {
+      "title": "Mycorrhizal Fungi, Nature's Key to Plant Survival and Success",
+      "source": "HackerNews",
+      "url": "https://pacifichorticulture.org/articles/mycorrhizal-fungi-natures-key-to-plant-survival-and-success/",
+      "snippet": "↑17 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:11.736988",
+      "fingerprint": "085b6d59dad23550d1a142d7412cb7eb"
+    },
+    {
+      "title": "BBEdit 16",
+      "source": "HackerNews",
+      "url": "https://www.barebones.com/products/bbedit/bbedit16.html",
+      "snippet": "↑252 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:12.469100",
+      "fingerprint": "2c3226a0324a92899c0f7e75218b80a5"
+    },
+    {
+      "title": "老友再会！中俄元首北京会晤",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 老友再会！中俄元首北京会晤",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.363544",
+      "fingerprint": "90e398af48d486e9b9ad85b9deee078a"
+    },
+    {
+      "title": "雷军强烈建议大家现在就换手机",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 雷军强烈建议大家现在就换手机",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.379061",
+      "fingerprint": "7fd1afd6cfddab23188b613d1681c6bd"
+    },
+    {
+      "title": "“省的油钱 全贴进修车费了”",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: “省的油钱 全贴进修车费了”",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.390084",
+      "fingerprint": "7b50c86bc25082ea03a92d41537193d4"
+    },
+    {
+      "title": "2026文化强国建设高峰论坛在深圳开幕",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 2026文化强国建设高峰论坛在深圳开幕",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.398643",
+      "fingerprint": "deb4dc9af680275719ddef4c168b142d"
+    },
+    {
+      "title": "今年暴雨为啥这么早这么猛",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 今年暴雨为啥这么早这么猛",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.405777",
+      "fingerprint": "0017b8be449ffaedd43b8e7afd923593"
+    },
+    {
+      "title": "投了一家公司 合肥赚了一个合肥",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 投了一家公司 合肥赚了一个合肥",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.412416",
+      "fingerprint": "b9e96d8c867434c67c938a5cb715a141"
+    },
+    {
+      "title": "净网：拍到“野生华南虎”系谣言",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 净网：拍到“野生华南虎”系谣言",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.417943",
+      "fingerprint": "c00dacc08de157f2dbf0b03fba39358f"
+    },
+    {
+      "title": "C罗夺得沙特联赛冠军",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: C罗夺得沙特联赛冠军",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.423300",
+      "fingerprint": "a51b64ce76f5d77ad58cc6b4ef0ff9a9"
+    },
+    {
+      "title": "睡觉时出现这4种表现可能是疾病信号",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 睡觉时出现这4种表现可能是疾病信号",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.428099",
+      "fingerprint": "fe9610df3c430a9a01f7c0d897fefdf6"
+    },
+    {
+      "title": "小米YU7 GT正式发布 售价38.99万元",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 小米YU7 GT正式发布 售价38.99万元",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.432682",
+      "fingerprint": "efccc0c6387f80af7630eb9ec90f6d72"
+    },
+    {
+      "title": "今天缅怀袁隆平、吴孟超两位院士",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 今天缅怀袁隆平、吴孟超两位院士",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.436886",
+      "fingerprint": "26aa9b5750492d924ed351683fb42677"
+    },
+    {
+      "title": "美新墨西哥州三人接触不明物质死亡",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 美新墨西哥州三人接触不明物质死亡",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.440994",
+      "fingerprint": "862f11c68bc0950beb47d3900d409317"
+    },
+    {
+      "title": "建议少用一次性纸杯盛热水",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 建议少用一次性纸杯盛热水",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.444780",
+      "fingerprint": "6f234788ed3d6a2161b4adefa53b95ef"
+    },
+    {
+      "title": "孙杨让张豆豆给他道歉",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 孙杨让张豆豆给他道歉",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.448396",
+      "fingerprint": "0bf6c1a92b70dadf8b7261415b241dd9"
+    },
+    {
+      "title": "11省区市有大到暴雨 局地有大暴雨",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 11省区市有大到暴雨 局地有大暴雨",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.451750",
+      "fingerprint": "e1e4abeed34811742ff338f88fe41054"
+    },
+    {
+      "title": "雷军：再次挑战特斯拉Model Y销量",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 雷军：再次挑战特斯拉Model Y销量",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.455121",
+      "fingerprint": "4653393e5918628149088ffa6de34305"
+    },
+    {
+      "title": "郑丽文拍桌怒骂赖清德半小时",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 郑丽文拍桌怒骂赖清德半小时",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.459015",
+      "fingerprint": "cdef1a3644ab38d23df7fa674ef78cd4"
+    },
+    {
+      "title": "金秀贤案件反转",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 金秀贤案件反转",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.462124",
+      "fingerprint": "011d022ca33f75541cce19e914ce4d28"
+    },
+    {
+      "title": "孕妇江边失联 丈夫崩溃：我们感情很好",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 孕妇江边失联 丈夫崩溃：我们感情很好",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.465092",
+      "fingerprint": "afbbe8d8992d2afe451aad69dbcb0381"
+    },
+    {
+      "title": "小米发布首款耳夹式耳机 首销价799元",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 小米发布首款耳夹式耳机 首销价799元",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.468073",
+      "fingerprint": "8d01a699531872a9d3c5800696655d49"
+    },
+    {
+      "title": "AI,异常信号",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLSUXwmuv_oZQrIiwhEAdx0lqXa8Fplpd9ClZt7eXFGLLyJj1tJ5LLnkXJHlkSPful3LykATongpaq4zhjXLO34tN2g6cdTo0CadBlCEJJMnyqCeLR9qaH6UzkqrmI2KZhzTGOkzYDwX3keT_rLsGFS-qsLz_9buPvwatJDMyzbkmLNIOlBnP-v4FoG1faNcCvVDknuDDoU2-fxjh3za6jWA..&amp;type=2&amp;query=AI&amp;token=D0F196BB4B1FB4295257030E931E1242529089926A0F9D41",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.982844",
+      "fingerprint": "87ccfa8aa29d6c0666fc4664255d779e"
+    },
+    {
+      "title": "AI赋能OPC(一人公司)持续增长",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLSUXwmuv_oZQrIiwhEAdx0lqXa8Fplpd91WzgmHeYDoKWHEH6key3ckxvCCpAdUUVWrts-SWybgr989FirgTAKuu2IpCI-ovf4E7uCtKXixHLLCDQh_Hm3O7u2NI__TAzfNbmc-1qxLlRWAApfoPZLl0mIg0mkTLzvdKWa2SIi8MTue363V5JIYwVi184bgKPJGOX43DknqtOJBjQH7pCxQ..&amp;type=2&amp;query=AI&amp;token=D0F196BB4B1FB4295257030E931E1242529089926A0F9D41",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 一人",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:13.998976",
+      "fingerprint": "807f84cefeb0be883fc284312c31cce2"
+    },
+    {
+      "title": "AI时代,哪些公司能成为 穿越周期的价值投资目标",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLSUXwmuv_oZQrIiwhEAdx0lqXa8Fplpd99n5n4zvWLLFS1o3eP6ca7O2R7qfPz-PbovKvwaZeU1UMOEtjxpE9tg8KHHcn2vPYeqqRC_EGPG-wE4ryAITqp1lKJaOkO4Dfr6WJkhy2Q2_Xi4aDj_D79194MGHIpSbGqJFluvo03zixV36d-Tjt3hezC_rRaETFKQ1A8kJTmDtflztgI7RZ1g..&amp;type=2&amp;query=AI&amp;token=D0F196BB4B1FB4295257030E931E1242529089926A0F9D41",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.009783",
+      "fingerprint": "a2e32c18de77c2c0a5aa5b2366124525"
+    },
+    {
+      "title": "&ldquo;AI+绿色能源&rdquo;融合创新发展高层次交流会成功举办",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLSUXwmuv_oZQrIiwhEAdx0lqXa8Fplpd9Cm4Q5EOZ1J08mDR89MoE3V2uzGXP9q9ISVOdBEOc0QWzzbWdJuBRpVjJgJlGRG4JsnYF8KfYaYGZ90NQHtKjgB6-7cPj3TW_S36qJDordpsH2hpgYAIcI35T2kIKSTtUzbW2D9quuf23_QR2QhgmY53bhK85mhPOT_wWbogimJU89kyxDwoXvg..&amp;type=2&amp;query=AI&amp;token=D0F196BB4B1FB4295257030E931E1242529089926A0F9D41",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.018602",
+      "fingerprint": "ad668a73a6eddec8e9c9c7f451f023e8"
+    },
+    {
+      "title": "AI时代的新尺子,丈量巨头之路",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLSUXwmuv_oZQrIiwhEAdx0lqXa8Fplpd9hSRZ0eG_nbe2d0HIBXVq3ih_Up3IM25prblAOQahX9OH21eQ5X9I6NCAtGD12Acb-por_SWGdd6S7xco1l9IbzGZ2b2YMe2kDaJqT2BLrNngWxgTlcESakvRKhoAZtbXRZNF1jCPtHgxCh3t4c6MwuBr0z8moEoSnv6tfIIqjSZS6t2rFt2rnA..&amp;type=2&amp;query=AI&amp;token=D0F196BB4B1FB4295257030E931E1242529089926A0F9D41",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.025906",
+      "fingerprint": "3130f6fd2302e5dadd6e62d7d67f461d"
+    },
+    {
+      "title": "大模型狂飙的尽头,这家国产 GPU 厂商要把算力放在客厅",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9S98VwhcPeH2s9BrEbQirJYkukqYBUGUY2E3ghB_IHo4Ssjd-_0vW964sDlXwGN2tgGmVIP9IK0HB64A435qXHxuuljWiXDh64n8zuPlBbwlI_dKZaJGaQ10LOc8evY3v6vAiKckgk1hvqF0daasYHPHQi_4F_MpQJJIsGNiPxAwHpHkoPMgL3A..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D0F1984B84D278E49C9ACFC05DCF10249D0AA2D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.395648",
+      "fingerprint": "dd9f944131985ba0384b5807852f5ee9"
+    },
+    {
+      "title": "大模型估值过高?瑞银:AI变现天花板远高于移动互联网",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9sgI61q07d-zfzdnOYuDMbPztbnhwa0CxtFMgbZ_Rgr2_U1908TYL4EX3LuxeBgSvFL1Nm0KkpNMXWBdqMF8j4Bf1mADrwkgJapynyJY63ALKymdbofsTUaEe24cEVrSDBABQQmQQ3XtTQIa2Jr8RKJx0hRcoCQ_mpkIRNRuWaOl5LU3lqtPw9g..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D0F1984B84D278E49C9ACFC05DCF10249D0AA2D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.407494",
+      "fingerprint": "53fe470028e6e80ec55d6904ced6bd53"
+    },
+    {
+      "title": "大模型智能体＂上车＂:从四川到河北,高速运营的AI大脑正在成型",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd94tm1DIyorA4lpmk_WE2cS_lLUlDQmdBp8-LWtZB2zNwZAIyJVDUTDozMrOcHvlSi-2jvPh8hL2VNDh2-Q_GrHm7-JJ3gs6a7OYRAHKjUV5VMXpQ5yW5Q6HWR0SX2ristAC4ykNc3w3S4CHJfQaumFs5F8kw23IXAdrQDzG2Sf5CjotuuiAmOIg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D0F1984B84D278E49C9ACFC05DCF10249D0AA2D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.419077",
+      "fingerprint": "13b5bebaa1a554342aca2052bd70a61b"
+    },
+    {
+      "title": "大模型周榜:谁在涨,谁在跌 #05/21",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9_7Uh7Y6lnGAuBoyXJweADKfYd8hitNw06afyDQ4KiJGnMDC1L4hEar3rQLLJskQw3VmEiM6Mj7iVFvhDL3gCLfX2vI8lDO75wZwrn76zF6axX7Gf8iLxdnY3EvvOlwla0CGBmSpiyFZA9kImus_uhNPPCOZUstJypKOnNBQ9T4RAe0f8bRARvQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D0F1984B84D278E49C9ACFC05DCF10249D0AA2D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.429065",
+      "fingerprint": "d4a6fac3702aadb98ab1c5c918782f52"
+    },
+    {
+      "title": "大模型动态「2026-05-21」",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd95vXfJu_hzKH9DBqYuNBE8IfZBs8OPDGqfvZ4lE4Hz9VRQvVPEqWla5ObXlskS8jMtegahyPvsNffLz2UdvrwzQsfBh0KH1u3IJL3B4dEKrJmJ5WAGz2v8LWt1oZiAhBll_bGY1XE6KEC-553aSy6r520B1eL8I0zPPp54Klv5zkCn9lOoZLP2Q..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D0F1984B84D278E49C9ACFC05DCF10249D0AA2D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.436810",
+      "fingerprint": "4293e6bfac31b3a129eb515135634bcb"
+    },
+    {
+      "title": "透视底牌:顶级基金如何利用代理型AI收割超额收益?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9MYM-tGWj57XMYalSD0ijyZkqqUXeQQPPJiqJUacZ78X2BtknXBlbcqPCikMSUZfIad45IiuyVtAxLGLV4vu7QhmJ6wwwFZEsK6NKy9PtCAe0EiUJeJSAvBV4N2Xd_5W71FT16F6En9zHhPEdYfqJr2CgnNYP3XxGltb2GNneI_3vzHZXxeLdyg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D0F19ACE0C5BF36E1513474AD74CCF15168E31D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.745770",
+      "fingerprint": "01146a9f96e83e2b3d33f7f492f58e80"
+    },
+    {
+      "title": "政商学界精英齐聚,共探AI赋能金融新范式&mdash;&mdash;凤凰湾区财经论坛・金融峰会开幕在即",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9o5tCeyo3bgxbOaacSBghCd0RtAsGI1hWkRSVFlfWD18pgZEwa6cBOfJHZHpvtYUieimus94lkyROHKMsaaQ5cEHvR4zRvKkS4JsCfop3o4dbez1Nhsyf0tWAmjNfTUdkCoF71f-R0YnC_SKTacIpkVVCAfPQLn8YRv63BkWOjjbvzHZXxeLdyg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D0F19ACE0C5BF36E1513474AD74CCF15168E31D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.761750",
+      "fingerprint": "3e36b10387dd2612711b51a3e96f3a67"
+    },
+    {
+      "title": "杭州&middot;余杭丨首届人工智能高质量发展大会报名开启!",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9xLPC2ORSo-SVD2dn6qH456bfVZEMiD3VcbJRkTD7rz5M-ecWwp4FsMVlxGIerMPtMwzks-rC2wCYCLaMehigZamr3oRnVgMJE8QjW4SgYzrREB8lkw6OWloRcBcQG2DdTDlo6zfvxgcX948oCXNDtWBd2-BGIYv77yWgv46blNmjotuuiAmOIg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D0F19ACE0C5BF36E1513474AD74CCF15168E31D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.773938",
+      "fingerprint": "d17507396ff5b5169fa3975c7ad20cd2"
+    },
+    {
+      "title": "超300万元订单放送!衢州首个AI+综合类创新创业OPC社区启航",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9kbL-aHtDNnK40Izf8leComToRZaDRNIdUY5JooY3InvDOQsJ8VeqAFOX4866M2EBJujN8C_iYCSToaYnejKGvc7GJmLw0HoYYqfsjPfMrVBKdg21mklxxQjpW5yhU5W5DEaF4eJqeE-cbcdLnC46Uax8lu5kBN0kkMf_LTkvIyxflztgI7RZ1g..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D0F19ACE0C5BF36E1513474AD74CCF15168E31D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 创业",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.783055",
+      "fingerprint": "8d312603eba14d692585895d172bbdde"
+    },
+    {
+      "title": "AI时代,我们到底需要怎样的教育?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5YKKUMi67pLHfoEiv6_UHQrIiwhEAdx0lqXa8Fplpd9o5tCeyo3bgxbOaacSBghCd0RtAsGI1hWkRSVFlfWD18pgZEwa6cBOalMQsvkNMBSeCIufhws_X3BxB_NXb-F9V998mK23c75KvUaPH2XbNNFoDjpDCHpP5J9ozUkxfsh-qTJsd9fkh4Qgf6W8ksYXtg6iWtNRAE3FbwDB-irbILuL0unUdKkuw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D0F19ACE0C5BF36E1513474AD74CCF15168E31D06A0F9D42",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-05-22T08:03:14.790456",
+      "fingerprint": "337e51ec068a449a2e993ef2ae94b533"
+    }
+  ],
+  "stats": {
+    "by_platform": {
+      "hackernews": 18,
+      "baidu": 20,
+      "weixin": 15
+    },
+    "by_rating": {
+      "S": 0,
+      "A": 53,
+      "B": 0
+    }
+  }
+}
