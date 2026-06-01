@@ -1,69 +1,61 @@
-# 🔄 Pending Review — Knowledge Sync Suggestions
+# _pending_review.md — 知识同步待审查条目
 
-> 生成时间：2026-05-25 周报
-> 审查规则：人工审查后可合并到正式 reference 文件。>30天未处理的条目自动标记 [EXPIRED]。
-
----
-
-## key_persons.md
-
-### 建议新增
-| 人物 | 建议理由 | 首次出现周 | 状态 |
-|------|---------|----------|------|
-| Benedict Evans 升级为周度必检 | 5/18+5/24连续两周产出高价值内容，直接命中SOUL赛道 | 2026-W20 | PENDING |
-| Cloudflare CEO Matthew Prince | 本周公开"替代标准"发言，CEO级AI叙事新人物。Fortune/WSJ多源报道 | 2026-W21 | PENDING |
-
-### 建议观察（暂不新增）
-| 人物 | 理由 |
-|------|------|
-| Jack Clark (Anthropic) | 已在key_persons关注列表（通过Anthropic Research）。本周Glasswing更新为Anthropic产出 |
+> 以下变更建议由每周热点采集周报自动生成，需人工审查后合并到正式 reference 文件。
+> > 30天的 pending 条目自动标记 `[EXPIRED]` 归档。
 
 ---
 
-## platforms.md
+## 2026-06-01 周报
 
-### 建议新增
-| 来源 | 评级建议 | 理由 | 引用次数 | 状态 |
-|------|---------|------|---------|------|
-| selfemployed.com | B | 1次高质量一人企业+Agentics报道（P0级内容首发源之一） | 1 (本周) | PENDING |
-| blog.mean.ceo | B | 1次欧洲视角一人企业深度分析（36.3% solo-founded数据首发） | 1 (本周) | PENDING |
+### key_persons.md
+- **[新增/升级]** Naval Ravikant 升级为**周度必检人物**（连续三周高价值产出，本周四部曲是迄今为止最完整的"一人企业"世界观建构。来源：nav.al Podcast 5/27-29）
+- **[新增/升级]** Ethan Mollick 升级为身份叙事核心来源（"Choosing to Stay Human" + "cognitive surrender"概念的创造者。来源：oneusefulthing.org 5/26）
+- **[新增关注]** Derek Thompson（The Atlantic专栏作家，"The Great AI Cost Panic of 2026"命名者，AI经济学叙事关键人物。来源：derekthompson.org 5/28）
+- **[新增关注]** Ben/Polsia案例（$6M+ ARR零员工一人企业——建议作为长期追踪案例。来源：henrythe9th.substack.com）
 
-### 建议降级（连续4周无引用检查）
-无。所有现有源本周仍有引用。
+### platforms.md
+- **[新增来源]** `henrythe9th.substack.com` — 1次P0级一人企业深度案例（Polsia $6M+ ARR），采访质量极高
+- **[新增来源]** `solobusinesshub.com` — 1次12个百万美元一人公司案例合集
+- **[新增来源]** `derekthompson.org` — Derek Thompson个人Substack，"AI成本大恐慌"命名源
+- **[新增来源]** `kanbanzone.com` — 1次十亿美元一人企业深度分析
+- **[标记降级]** `futurism.com` — 本周"99 Percent of CEOs"报道（偏情绪化，来源重叠，建议B级）
 
----
+### keywords.md
+- **[新增关键词]** "tokenmaxxing" / "token刷量" — Amazon暴露的企业AI使用表演行为（本周首次出现）
+- **[新增关键词]** "cognitive surrender" / "认知投降" — Mollick命名概念，AI时代个体身份的关键威胁
+- **[新增关键词]** "ring of power" / "魔戒效应" — Altman命名，AGI控制权的动力学隐喻
+- **[新增关键词]** "agency loss" / "能动性丧失" — The Atlantic核心概念，AI偷走"作者身份"
+- **[新增关键词]** "AI sticker shock" / "AI账单震撼" — Axios命名，企业AI成本的突然觉醒
+- **[标记过气]** "具身智能"（最后高频出现于2026.2-3月，已超过3个月）
 
-## keywords.md
+### tags.md
+- **[新增子标签]** 🎭 「叙事控制权」— W-06主题确认此方向有独立追踪价值（"谁定义AI的意义"）
+- **[新增子标签]** 💰 「AI成本经济学」— W-05持续升级，从边缘关注转为核心标签
 
-### 建议新增
-| 关键词 | 类型 | 本周频次 | 理由 | 状态 |
-|--------|------|---------|------|------|
-| "Freelance Agentics" / "自由职业Agent学" | 海外/超级个体 | ≥5次 | 被3+独立源同时使用的新命名概念 | PENDING |
-| "Autonomous Builder" / "自主构建者" | 海外/超级个体 | ≥3次 | 本周浮现的新身份标签 | PENDING |
-| "工具主权" / "Tool Sovereignty" | 双向 | ≥3次 | 微软封杀Claude Code催生的新概念 | PENDING |
-
-### 建议标记过气（3个月未出现检查）
-- 本期无标记
-
----
-
-## tags.md
-
-### 建议新增子标签
-| 标签 | 理由 | 状态 |
-|------|------|------|
-| 🏴 「围墙花园/工具主权」 | 微软封杀Claude Code事件确认此主题有独立追踪价值。与[工具技能]标签区分：前者关注"选什么工具"，本标签关注"工具厂商的控制权博弈" | PENDING |
+### data_quality_notes.md
+- **[Jina新行为]** `henrythe9th.substack.com` — 高质量Markdown提取，文章主体+引用均保留
+- **[AI HOT发现]** 本周188条中文AI资讯中仅2条直接匹配SOUL赛道——确认aihot的核心价值在于全景监测(volume signal+交叉验证)而非直接选题。与海外源互补模式已稳定
 
 ---
 
-## data_quality_notes.md
+## 2026-05-25 周报（上期）
 
-### 建议新增Jina Reader行为记录
-| 站点 | 行为 | 备注 |
-|------|------|------|
-| anthropic.com/research | ⭐⭐⭐⭐⭐ 完美提取 | 日期格式"May 22, 2026"全文保留。研究类博客内页提取质量高 |
-| ben-evans.com 首页 | ⭐⭐⭐ 精简版（1174 bytes） | 仅含2篇最新文章+标题+日期。信息密度高但内容量少。如需深度分析需点进内页 |
+### key_persons.md
+- **[新增关注]** Benedict Evans 升级为周度必检人物（两周连续产出高价值内容，状态：✅ 本周继续产出）
+- **[新增关注]** Cloudflare CEO Matthew Prince（本周公开"替代标准"发言，CEO级AI叙事新人物，状态：待观察）
 
----
+### platforms.md
+- **[新增来源]** `selfemployed.com` — 高质量一人企业+Agentics报道
+- **[新增来源]** `mean.ceo` — 欧洲视角一人企业深度分析
 
-> 以上条目待人工审查后合并。>30天（即2026-06-24前）未处理的条目自动标记 [EXPIRED]。
+### keywords.md
+- **[新增关键词]** "Freelance Agentics" / "自由职业Agent学" — 本周被3+源同时使用的命名概念
+- **[新增关键词]** "Autonomous Builder" / "自主构建者" — 浮现的新身份标签
+- **[新增关键词]** "工具主权" / "Tool Sovereignty" — 微软封杀Claude Code催生的新概念
+
+### tags.md
+- **[新增子标签]** 🏴 「围墙花园/工具主权」— 微软封杀Claude Code事件确认此主题有独立追踪价值
+
+### data_quality_notes.md
+- **[Jina新行为]** Anthropic Research（anthropic.com/research）通过Jina完美提取
+- **[Jina新行为]** Benedict Evans首页（ben-evans.com）通过Jina返回精简版（1174 bytes）
