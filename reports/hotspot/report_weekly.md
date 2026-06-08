@@ -1,1 +1,1 @@
-report_weekly_2026-06-01.md
+report_weekly_2026-06-08.md
