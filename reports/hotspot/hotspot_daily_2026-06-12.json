@@ -1,0 +1,1024 @@
+{
+  "mode": "daily",
+  "generated_at": "2026-06-12 08:05:35",
+  "total": 55,
+  "items": [
+    {
+      "title": "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public",
+      "source": "HackerNews",
+      "url": "https://fablepool.com",
+      "snippet": "↑169 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:13.566782",
+      "fingerprint": "4de6385f2eabb7359e92769553029850"
+    },
+    {
+      "title": "Show HN: Homebrew 6.0.0",
+      "source": "HackerNews",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "snippet": "↑914 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:14.569357",
+      "fingerprint": "b5c8846f8edf84510d098ffe2c234585"
+    },
+    {
+      "title": "If you are asking for human attention, demonstrate human effort",
+      "source": "HackerNews",
+      "url": "https://tombedor.dev/human-attention-and-human-effort/",
+      "snippet": "↑134 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:15.634905",
+      "fingerprint": "6d64c77a1a7edbc6d8079a0d3413e1b5"
+    },
+    {
+      "title": "MiMo Code is now released and open-source",
+      "source": "HackerNews",
+      "url": "https://mimo.xiaomi.com/mimocode",
+      "snippet": "↑407 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:16.652749",
+      "fingerprint": "67a39ce1620466ebcd4bbc97eb2b91ac"
+    },
+    {
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "source": "HackerNews",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "snippet": "↑257 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:17.686798",
+      "fingerprint": "d10486c2271bd3ec6b114b9946483730"
+    },
+    {
+      "title": "Petition to Withdraw Canada's Bill C-22",
+      "source": "HackerNews",
+      "url": "https://www.ourcommons.ca/petitions/en/Petition/Sign/e-7416",
+      "snippet": "↑328 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:18.672135",
+      "fingerprint": "9d24ecbc35fdf9842f75e3e738807f70"
+    },
+    {
+      "title": "Emacs appearances in pop culture",
+      "source": "HackerNews",
+      "url": "https://ianyepan.github.io/posts/emacs-in-pop-culture/",
+      "snippet": "↑232 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:19.646470",
+      "fingerprint": "f183595f868630af691527ff2e16fc47"
+    },
+    {
+      "title": "The RCE that AMD wouldn't fix",
+      "source": "HackerNews",
+      "url": "https://mrbruh.com/amd2/",
+      "snippet": "↑209 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:20.651757",
+      "fingerprint": "dc207575e724f3c9e17c1c04987efe66"
+    },
+    {
+      "title": "Ear Training Practice",
+      "source": "HackerNews",
+      "url": "https://tonedear.com/",
+      "snippet": "↑131 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:21.655349",
+      "fingerprint": "7b31c0e0b4ce7a1eb7da4ccfd2181b60"
+    },
+    {
+      "title": "Show HN: Boo – Screen-style terminal multiplexer built on libghostty",
+      "source": "HackerNews",
+      "url": "https://github.com/coder/boo",
+      "snippet": "↑36 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:22.661845",
+      "fingerprint": "f32f9e79c23c1e19b4ecc12c95c504f3"
+    },
+    {
+      "title": "macOS 27 Beta breaks the ability to boot Asahi Linux",
+      "source": "HackerNews",
+      "url": "https://www.phoronix.com/news/macOS-27-Beta-Breaks-Asahi",
+      "snippet": "↑214 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:23.655030",
+      "fingerprint": "daa5511d74727917d95fae03efb23812"
+    },
+    {
+      "title": "Shall we play a game? My AI nuclear simulation",
+      "source": "HackerNews",
+      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "snippet": "↑175 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:24.714689",
+      "fingerprint": "c0cea92c2450fbba922e90e96d22aa14"
+    },
+    {
+      "title": "Why I'm Forced to Say Farewell: Google Management Has Lost Its Moral Compass",
+      "source": "HackerNews",
+      "url": "https://www.mayrhofer.eu.org/post/leaving-google/",
+      "snippet": "↑199 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:25.742195",
+      "fingerprint": "fb449e522ca916749a96b095170ba6bb"
+    },
+    {
+      "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
+      "source": "HackerNews",
+      "url": "https://www.tomshardware.com/video-games/handheld-gaming/developer-gets-half-life-running-at-30-fps-on-a-2007-nokia-n95",
+      "snippet": "↑202 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:26.829538",
+      "fingerprint": "ec28acc76c089d5a656ceaf9c9184558"
+    },
+    {
+      "title": "Waymo Premier",
+      "source": "HackerNews",
+      "url": "https://waymo.com/blog/2026/06/waymo-premier/",
+      "snippet": "↑142 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:27.853948",
+      "fingerprint": "9244b02e9931414e3dd82ecd36e4f58d"
+    },
+    {
+      "title": "FPS.cob: A first person shooter in COBOL",
+      "source": "HackerNews",
+      "url": "https://github.com/icitry/FPS.cob",
+      "snippet": "↑97 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:28.813603",
+      "fingerprint": "1604766cded219b0a5a34f36fe847dff"
+    },
+    {
+      "title": "Apple didn't revolutionize power supplies; new transistors did (2012)",
+      "source": "HackerNews",
+      "url": "https://www.righto.com/2012/02/apple-didnt-revolutionize-power.html",
+      "snippet": "↑68 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:29.779289",
+      "fingerprint": "e673c6e6aeb8adab7bfbf5592ad1c394"
+    },
+    {
+      "title": "Software is made between commits",
+      "source": "HackerNews",
+      "url": "https://zed.dev/blog/introducing-deltadb",
+      "snippet": "↑186 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:30.724674",
+      "fingerprint": "9dfc52edb33a4673e53d8cef29ae6f05"
+    },
+    {
+      "title": "Lines of code got a better publicist",
+      "source": "HackerNews",
+      "url": "https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/",
+      "snippet": "↑343 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:31.816953",
+      "fingerprint": "01d1cccbf32d96208f3bb490ceae8a45"
+    },
+    {
+      "title": "Gram Newton-Schulz: A Fast, Hardware-Aware Newton-Schulz Algorithm for Muon",
+      "source": "HackerNews",
+      "url": "https://tridao.me/blog/2026/gram-newton-schulz/",
+      "snippet": "↑16 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:32.906123",
+      "fingerprint": "10a11a7448e73a47bc475f305ba584b2"
+    },
+    {
+      "title": "友谊牢不可破",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 友谊牢不可破",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.334370",
+      "fingerprint": "a63b26933fe0a03dba4683c9eef13397"
+    },
+    {
+      "title": "世界杯揭幕战：墨西哥2比0胜南非",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 世界杯揭幕战：墨西哥2比0胜南非",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.340646",
+      "fingerprint": "7522186390a2ab43f22959f19cd44dec"
+    },
+    {
+      "title": "世界杯开幕式“大半夜吓我一跳”",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 世界杯开幕式“大半夜吓我一跳”",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.346181",
+      "fingerprint": "7f7237bc77c2f3110b4f347e426eecdd"
+    },
+    {
+      "title": "高考报志愿 考生最关心的都在这里",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 高考报志愿 考生最关心的都在这里",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.352509",
+      "fingerprint": "0ec2ebdfb81e160f82102320fa88f926"
+    },
+    {
+      "title": "世界杯中国队首发：LABUBU和马宁 ​",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 世界杯中国队首发：LABUBU和马宁 ​",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.357257",
+      "fingerprint": "7b0f64361f91e17a4b995e19a79e2eb7"
+    },
+    {
+      "title": "墨西哥破世界杯96年魔咒",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 墨西哥破世界杯96年魔咒",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.360497",
+      "fingerprint": "da033cba01f1f4346722e21318d14fb1"
+    },
+    {
+      "title": "特朗普称取消对伊猛烈打击 伊朗回应",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 特朗普称取消对伊猛烈打击 伊朗回应",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.362838",
+      "fingerprint": "f8a7fa567d9b8474f2ea87efcd782945"
+    },
+    {
+      "title": "全世界都看得目瞪口呆",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 全世界都看得目瞪口呆",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.365184",
+      "fingerprint": "52b2377d98440d46c809e2f243f0b100"
+    },
+    {
+      "title": "世界杯红牌比进球多",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 世界杯红牌比进球多",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.367842",
+      "fingerprint": "987ab102c8963950283340f97544c9ea"
+    },
+    {
+      "title": "美加墨世界杯首球",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 美加墨世界杯首球",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.370310",
+      "fingerprint": "c85be49654b966754e63d0817eaaca37"
+    },
+    {
+      "title": "夏奇拉开幕式献唱燃爆全场",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 夏奇拉开幕式献唱燃爆全场",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.372602",
+      "fingerprint": "e19dc8aa4346a1a5db7c136ecb31a1f3"
+    },
+    {
+      "title": "新疆一校车载20名小学生坠河不实",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 新疆一校车载20名小学生坠河不实",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.374976",
+      "fingerprint": "897d586fd9985a8ce540918389f7efe1"
+    },
+    {
+      "title": "伊朗：使用12枚导弹摧毁美军大量战机",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 伊朗：使用12枚导弹摧毁美军大量战机",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.377282",
+      "fingerprint": "feb511bf0f6e2a73406dbe32317ffc6a"
+    },
+    {
+      "title": "武契奇：我计划很快辞职",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 武契奇：我计划很快辞职",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.379645",
+      "fingerprint": "db30592eed11c5b54d6ff01ae6ced04e"
+    },
+    {
+      "title": "记者卧底偷拍群：超5万人围观隐私直播",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 记者卧底偷拍群：超5万人围观隐私直播",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.382208",
+      "fingerprint": "daa9dfa65b2d6b2308568f63b1db9ce0"
+    },
+    {
+      "title": "赵丽娜在世界杯开幕式偶遇大张伟",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 赵丽娜在世界杯开幕式偶遇大张伟",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.385184",
+      "fingerprint": "6fb1f4d997cdaec2b3f54468fdf4a3c4"
+    },
+    {
+      "title": "女子点外卖备注牛蛙不要烧收到活蛙",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 女子点外卖备注牛蛙不要烧收到活蛙",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.387929",
+      "fingerprint": "1d7ce574f2dc6c35a446eda871b9af34"
+    },
+    {
+      "title": "LABUBU都去世界杯了",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: LABUBU都去世界杯了",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.391833",
+      "fingerprint": "b949eb1d27179abad2150c010cc67248"
+    },
+    {
+      "title": "超模女球迷爆火后出镜 自证不是AI",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 超模女球迷爆火后出镜 自证不是AI",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "初步判断可能相关：含赛道关键词",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.395638",
+      "fingerprint": "fd8b7a838e88cd3b152810b8e0efd461"
+    },
+    {
+      "title": "小区保安长期匿名骚扰业主母女",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 小区保安长期匿名骚扰业主母女",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:33.398455",
+      "fingerprint": "9d1ae8eaa2edaf29b31df2a6c64add34"
+    },
+    {
+      "title": "【AI高质量教学】从&ldquo;写教案&rdquo;到&ldquo;做设计&rdquo;:AI如何掀起一场静悄悄的备课革命?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9HbKsA_NP3Fb4ci-rMqqefuM9alzQXoGzcUU5cSLxEWwpIGBwCUPzHcRLGcdc5rVbj4RegnB1JO8AfLZ_cJu38_6BDe0wzJjWfxzjpILsck62XgeAH_b8CTBUmME5yueQOm3UJScNvJexOHweAipNsc94Bi3JfH6PraN67o9fc5k89kyxDwoXvg..&amp;type=2&amp;query=AI&amp;token=72F5D0320BB8108DF6F0A2F6CAA0F72DF6AF4EC36A2B4D4E",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.040746",
+      "fingerprint": "0272d5550b901f8968abfe9686b673f8"
+    },
+    {
+      "title": "AI漫剧手搓指引(创作链路8个核心步骤)【无废话】",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9rKnc44ikfBG4FmLZd3cMgV7M4Qvi982lnai1WWPNM-yCMC1Q67lEi4_NeqBieDAf56cTilg8rpKc-y8XKRYMoqx0Xz-uI-YqTdOd5UdGJUU14vq_bUAyUSycPXelImeG172F6Q1sa482SWGY3zkJ_WZrRo202DOA7srt8Iwb8cfI3OTRHYU2og..&amp;type=2&amp;query=AI&amp;token=72F5D0320BB8108DF6F0A2F6CAA0F72DF6AF4EC36A2B4D4E",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.051269",
+      "fingerprint": "5d356543b31a329f84a005cf0e123b90"
+    },
+    {
+      "title": "AI原生电网①:AI原生电网本体论:为什么下一代电网智能化必须先定义&ldquo;电网世界&rdquo;?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd91upMq5sySENDDNp0Us0Qi3S3ZVejMubqhm2YDqRdVWPE1ZxZVcNv3K5xgmrJJpO2K_2R6X3KpbJPTwEIcvnOlPhGV61vY-loMLsOCBzSrtPzR8X_K58uH2fLWq2CcFnSzo0dT8qGx3f45t1agkCJIlnLPMVQC9zobuUHqHrKBaifxjh3za6jWA..&amp;type=2&amp;query=AI&amp;token=72F5D0320BB8108DF6F0A2F6CAA0F72DF6AF4EC36A2B4D4E",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.059159",
+      "fingerprint": "48d5409663c73df381207727bea81879"
+    },
+    {
+      "title": "AI时代人的价值在哪?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9-rHIjkw3qADK3mZew7AwlJhI6yzVQHO3zPiD9hA-AXiK4AAq_MeL9CbFAnmdLzTuOkQabuBN_4i0i1wpB-KExcf-1FaVrJ5uyt-KVErbAcDWVqObkl00XO_QAk_h1u9cLHpK12eCBXl7jILzS7wp1PBLNzBvwOsQ0GA1Y-ASrxV5Nu7CnoSqqg..&amp;type=2&amp;query=AI&amp;token=72F5D0320BB8108DF6F0A2F6CAA0F72DF6AF4EC36A2B4D4E",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.064780",
+      "fingerprint": "2b0609c979b9ec947a707552f300480d"
+    },
+    {
+      "title": "AI的终点是电力吗",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd95WPgySSBCRD43XAbhr2laAl7IYn3OxRWNFIgsloAcP0WwneGAtNQx9CkUJ4Wte3UvlajTYeo8mkFsZuWUu5T39YI53GsmU0vfJBxukSKMAUK_YyPniwHBoJ4OHZzsIRReoTYM8ZZhbkGZ4jAYLyJ1FoazXoJj-Fh43bBCF3879Wq3X8EKMKOIA..&amp;type=2&amp;query=AI&amp;token=72F5D0320BB8108DF6F0A2F6CAA0F72DF6AF4EC36A2B4D4E",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.068459",
+      "fingerprint": "45a34f657cef2a1089d64e22b1070453"
+    },
+    {
+      "title": "大模型只会看不会听?Meta 在 CVPR 2026 放大招:EgoAVU 让 AI 真正&ldquo;边看边听&rdquo;,性能暴涨 113%!",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9vLlLnXQNkmMYWJnpza4kynUEIpH10tQ5PoYP3BKINZSbqvGVKjhsYfpUTJbFKAIlK547abYzrnYZa1DncW3KUfOZTg4WngGQmBxfUjlRGoJ_kPEKtzcizXqA9n6ZYIn_c6RnnBuGkMfIgR9MJVG9UzsYjrqm6vtsRMIcdwqf7ogYJSSFPgfogQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=72F5D1C1F342E8740C0A580E3057B7BD0D71A1A56A2B4D4E",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.442662",
+      "fingerprint": "fa1e59d44ede2c89018c7b5a72475974"
+    },
+    {
+      "title": "大模型正在吞噬我的软件工程职业,我不知何去何从",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9D1JIVHBnWp3_Nw_wfMAPcUOd4nmHJlVPiMbbf-_60Imf9qJxw4cH4bZxEC1YERUJVnMnn_TUBMMIWIXOfC524vlmsZtuq6Hqa56Pz1DhdRWiyKKwR7el0s4Cx9T6UDlNRD8100fMBPi1it_PIKE_Os95NIaTWmOk3A8nU9IjuZ9hlgeRt7bSzA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=72F5D1C1F342E8740C0A580E3057B7BD0D71A1A56A2B4D4E",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.452477",
+      "fingerprint": "6c3cbf4324dc73608226d98140b08ffb"
+    },
+    {
+      "title": "大模型落地AIoT总翻车?轻量化技术拆解,让终端设备也能跑通高阶智能",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9eTMRFMUe2qXBsPGxgjlymuF5EJCXEmKLaKaE_4udqH8BhnUNe95kaAV5aPgTb49VLykFoWtXd2fuKK0V7vvKquxZ4qQpIExzsaODSbSVvbJA9SlSJwkZM_9SlB1Ma938kE89oik2aw0Hxb828Bx5JvDJ0CAvul8f0v2UhvOQmYGfxjh3za6jWA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=72F5D1C1F342E8740C0A580E3057B7BD0D71A1A56A2B4D4E",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.459084",
+      "fingerprint": "c0428b9db112365946aacabbd45c1a44"
+    },
+    {
+      "title": "大模型合规备案指导交流会圆满召开",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9p6yGYjI3FDSOhmFeQHr-da279vWsmJJ29CAQNixF_o2DlCiWh0qMofvX0nIWHT2_sqT0lqysXPXkMB6Mg_AnJ2WVL8IsRHVpUwnuvfT0n48Wa55_uMyIy--Jn8uIGbvVseque7kAGW-XMKFSClDLG9AGkfFJv1IzO9TdEYxN_6iE8RsmObDbtQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=72F5D1C1F342E8740C0A580E3057B7BD0D71A1A56A2B4D4E",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.467023",
+      "fingerprint": "2bcd8974f0e8021cc03dff3b74ec219e"
+    },
+    {
+      "title": "大模型泛化能力,看完这篇秒懂",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9jB6-AKeMkpMppcN3ktoHl5cVwZY7aSS26gd5MxgI0J9OM2u9cW4JNqzTfjPbyF-aTEwVMt-ni9aB9G2iUBliG7hloJgUWdYJJlemrPszkEKFxyqkfyFpsAOYx0_jtZlekY3rPyzKb76AvSZarFxreQ93E69BiKmG8Ij8TjQ0j7nwdVqCwyPdzA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=72F5D1C1F342E8740C0A580E3057B7BD0D71A1A56A2B4D4E",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.473366",
+      "fingerprint": "5254ac7754d16f9165b18a868e5d7e96"
+    },
+    {
+      "title": "AI赋能叠加政策加持 6G商业化路径日益清晰",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9ZWRqnFd0AxZJF8jBRQuxUktZy3XnmtaJE-BGdvJjkjw3TLnOplvNMwfO6PDIz8ownitq0mT1QzhlmZ-UCUCPnBOpVT8i_HCqvDE0crv2ud3N9eVyVncY-fg0b51w2s7i5sIzSBj-xbvlmRPzDlqQzo8n9MuSXzkY&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=72F5D37AAF1FB429515704536D3147C85186FCE36A2B4D4E",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.809619",
+      "fingerprint": "bbaa4bdc5870c7ff8cf409e296bff376"
+    },
+    {
+      "title": "投资多智能体AI安全研究",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9GMt5OnKxbZ1PHGzNiSVz2lVBnpf_aEckHSRioNOCwOZ0efCtNccauj7aFNudtXnr8OuYKbOmC5vaRVtGaH0mbSOoNj8BYgC7DrrxnQxaFY_xbpCvknV_-1AyERadnMu0BCUJAk2VYYCVVH-BR3vhzEhoS_Cl8mYyA3UFQYtOyh-fxjh3za6jWA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=72F5D37AAF1FB429515704536D3147C85186FCE36A2B4D4E",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.831442",
+      "fingerprint": "625f13e589b566d381e9df946ea28453"
+    },
+    {
+      "title": "AI办案,靠谱吗?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd95BWtH9dITH4xDbcVyunspjAkbYlR8ECc868pd7rg6bFVQTxllM1X0uMHFdSmz-NmUssar3SrBJ9CQVwFN6C2k5FxL1UxwenUFUM7UxRiUpr9HjdeBjiDn_UFUH6CzAyyIQNo1JA8dWz0hX6_aj3cCr4eRetwFqi3MN4h4leuMBTyPfCoem7FzA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=72F5D37AAF1FB429515704536D3147C85186FCE36A2B4D4E",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.840207",
+      "fingerprint": "e33a0c909b7b45361678566a9a96f960"
+    },
+    {
+      "title": "人工智能与比较优势",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9w-36RzXnnf6zKX_DDjNXohn9n_-EU_aaPPwOC3omEHybHtz4_EFIiKE4eKPW7plzuFBuyiCgkEpWqdXXmwkFPt8InFOcyZsf-14WjpBpxlMDhgVtMzh7SYn6dYT0lLA6iq9TOgcJq7DlhitD3u-GdhPwtctHxUTMZ5YFCMyj4TzvzHZXxeLdyg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=72F5D37AAF1FB429515704536D3147C85186FCE36A2B4D4E",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.845944",
+      "fingerprint": "e9435cb2355f9d264b2201109e9e78b0"
+    },
+    {
+      "title": "国家发展改革委:全面实施&ldquo;人工智能+&rdquo;行动",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSw70ElB--5aahvMmhnJMBFDUY0HjYIsFFVqXa8Fplpd9OXwaQck_xPq-Xnplh4Cozi99zsatyjI-PHZzRCXLMvjBHYwdnXO8XSux3BPsGsWCXwhhWI3o-KdSMJonONLQhrjpkjVEjtrYIqJimXkjHoRZ3R_Npk04ftTnrIBDg294cP0L41e3iJylMpSzeanVWM_RPCkCt_UdvhsHBnJy7tPdrgozfSg6bw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=72F5D37AAF1FB429515704536D3147C85186FCE36A2B4D4E",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-12T08:05:34.849862",
+      "fingerprint": "ccb822a4d1945d39c7e1347b83e42cf3"
+    }
+  ],
+  "stats": {
+    "by_platform": {
+      "hackernews": 20,
+      "baidu": 20,
+      "weixin": 15
+    },
+    "by_rating": {
+      "S": 0,
+      "A": 55,
+      "B": 0
+    }
+  }
+}
