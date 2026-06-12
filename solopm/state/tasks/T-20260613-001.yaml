@@ -1,0 +1,18 @@
+tid: T-20260613-001
+title: 撰写 SOUL 第一篇内容脚本
+project: P-aigc
+status: Doing
+priority: P1
+blocked: false
+due_date: '2026-06-15'
+effort: M
+context: '@deep'
+exec_mode: human
+this_week: true
+desc: ''
+acceptance: []
+outputs: []
+log:
+- ts: '2026-06-13T05:38:35.723373'
+  event: created
+  by: cli

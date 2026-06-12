@@ -1,0 +1,276 @@
+alert_triggered: false
+budget: 6000
+endpoints: {}
+log:
+- endpoint: POST /bitable/v1/apps
+  latency_ms: 462
+  success: false
+  timestamp: '2026-06-12T20:43:38Z'
+- endpoint: POST /bitable/v1/apps
+  latency_ms: 493
+  success: false
+  timestamp: '2026-06-12T20:43:39Z'
+- endpoint: POST /bitable/v1/apps
+  latency_ms: 504
+  success: false
+  timestamp: '2026-06-12T20:43:40Z'
+- endpoint: POST /bitable/v1/apps
+  latency_ms: 2930
+  success: true
+  timestamp: '2026-06-12T20:53:57Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 433
+  success: false
+  timestamp: '2026-06-12T20:53:57Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 371
+  success: false
+  timestamp: '2026-06-12T20:53:58Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 422
+  success: false
+  timestamp: '2026-06-12T20:53:59Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 2948
+  success: true
+  timestamp: '2026-06-12T20:54:33Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 2634
+  success: true
+  timestamp: '2026-06-12T20:54:40Z'
+- endpoint: DELETE /bitable/v1/apps/AtInb8...yn6g/tables/tblmNgsJv2EyMNEW
+  latency_ms: 453
+  success: false
+  timestamp: '2026-06-12T20:54:49Z'
+- endpoint: DELETE /bitable/v1/apps/AtInb8...yn6g/tables/tblmNgsJv2EyMNEW
+  latency_ms: 505
+  success: false
+  timestamp: '2026-06-12T20:54:50Z'
+- endpoint: DELETE /bitable/v1/apps/AtInb8...yn6g/tables/tblmNgsJv2EyMNEW
+  latency_ms: 503
+  success: false
+  timestamp: '2026-06-12T20:54:51Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 713
+  success: false
+  timestamp: '2026-06-12T20:54:58Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 705
+  success: false
+  timestamp: '2026-06-12T20:54:59Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 719
+  success: false
+  timestamp: '2026-06-12T20:55:01Z'
+- endpoint: GET /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 557
+  success: true
+  timestamp: '2026-06-12T20:55:07Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblBtNgaweUh1aZL
+  latency_ms: 488
+  success: false
+  timestamp: '2026-06-12T20:55:13Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblBtNgaweUh1aZL
+  latency_ms: 462
+  success: false
+  timestamp: '2026-06-12T20:55:14Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblBtNgaweUh1aZL
+  latency_ms: 462
+  success: false
+  timestamp: '2026-06-12T20:55:16Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblGvk5sWAMHSyi7
+  latency_ms: 493
+  success: false
+  timestamp: '2026-06-12T20:55:16Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblGvk5sWAMHSyi7
+  latency_ms: 478
+  success: false
+  timestamp: '2026-06-12T20:55:17Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblGvk5sWAMHSyi7
+  latency_ms: 487
+  success: false
+  timestamp: '2026-06-12T20:55:19Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblmNgsJv2EyMNEW
+  latency_ms: 489
+  success: false
+  timestamp: '2026-06-12T20:55:19Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblmNgsJv2EyMNEW
+  latency_ms: 500
+  success: false
+  timestamp: '2026-06-12T20:55:20Z'
+- endpoint: DELETE /bitable/v1/apps/***/tables/tblmNgsJv2EyMNEW
+  latency_ms: 491
+  success: false
+  timestamp: '2026-06-12T20:55:22Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 447
+  success: false
+  timestamp: '2026-06-12T20:55:22Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 478
+  success: false
+  timestamp: '2026-06-12T20:55:23Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 450
+  success: false
+  timestamp: '2026-06-12T20:55:25Z'
+- endpoint: GET /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 514
+  success: true
+  timestamp: '2026-06-12T20:55:31Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 735
+  success: false
+  timestamp: '2026-06-12T20:55:32Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 665
+  success: false
+  timestamp: '2026-06-12T20:55:33Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 682
+  success: false
+  timestamp: '2026-06-12T20:55:35Z'
+- endpoint: GET /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblBtNgaweUh1aZL/fields
+  latency_ms: 633
+  success: true
+  timestamp: '2026-06-12T20:55:43Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 616
+  success: false
+  timestamp: '2026-06-12T20:55:44Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 651
+  success: false
+  timestamp: '2026-06-12T20:55:45Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 673
+  success: false
+  timestamp: '2026-06-12T20:55:46Z'
+- endpoint: POST /bitable/v1/apps/AtInb8...yn6g/tables
+  latency_ms: 467
+  success: false
+  timestamp: '2026-06-12T20:55:56Z'
+- endpoint: POST /bitable/v1/apps/AtInb8...yn6g/tables
+  latency_ms: 457
+  success: false
+  timestamp: '2026-06-12T20:55:57Z'
+- endpoint: POST /bitable/v1/apps/AtInb8...yn6g/tables
+  latency_ms: 467
+  success: false
+  timestamp: '2026-06-12T20:55:58Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 2720
+  success: true
+  timestamp: '2026-06-12T20:56:10Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 462
+  success: false
+  timestamp: '2026-06-12T20:56:16Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 486
+  success: false
+  timestamp: '2026-06-12T20:56:17Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 467
+  success: false
+  timestamp: '2026-06-12T20:56:19Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 2692
+  success: true
+  timestamp: '2026-06-12T20:56:30Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblCxLY2dlGSU6fV/fields
+  latency_ms: 743
+  success: false
+  timestamp: '2026-06-12T20:56:31Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblCxLY2dlGSU6fV/fields
+  latency_ms: 705
+  success: false
+  timestamp: '2026-06-12T20:56:33Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblCxLY2dlGSU6fV/fields
+  latency_ms: 736
+  success: false
+  timestamp: '2026-06-12T20:56:34Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 468
+  success: false
+  timestamp: '2026-06-12T20:56:40Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 511
+  success: false
+  timestamp: '2026-06-12T20:56:41Z'
+- endpoint: POST /bitable/v1/apps/***/tables
+  latency_ms: 515
+  success: false
+  timestamp: '2026-06-12T20:56:43Z'
+- endpoint: POST /bitable/v1/apps/AtInb8...yn6g/tables
+  latency_ms: 498
+  success: false
+  timestamp: '2026-06-12T20:59:48Z'
+- endpoint: POST /bitable/v1/apps/AtInb8...yn6g/tables
+  latency_ms: 468
+  success: false
+  timestamp: '2026-06-12T20:59:49Z'
+- endpoint: POST /bitable/v1/apps/AtInb8...yn6g/tables
+  latency_ms: 512
+  success: false
+  timestamp: '2026-06-12T20:59:51Z'
+- endpoint: POST /bitable/v1/apps//tables
+  latency_ms: 343
+  success: false
+  timestamp: '2026-06-12T21:00:09Z'
+- endpoint: POST /bitable/v1/apps//tables
+  latency_ms: 318
+  success: false
+  timestamp: '2026-06-12T21:00:09Z'
+- endpoint: POST /bitable/v1/apps//tables
+  latency_ms: 339
+  success: false
+  timestamp: '2026-06-12T21:00:11Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables
+  latency_ms: 2929
+  success: true
+  timestamp: '2026-06-12T21:00:29Z'
+- endpoint: DELETE /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblmNgsJv2EyMNEW
+  latency_ms: 1008
+  success: true
+  timestamp: '2026-06-12T21:00:30Z'
+- endpoint: DELETE /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblb2E0TpGNs9MtR
+  latency_ms: 982
+  success: true
+  timestamp: '2026-06-12T21:00:31Z'
+- endpoint: DELETE /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblGvk5sWAMHSyi7
+  latency_ms: 944
+  success: true
+  timestamp: '2026-06-12T21:00:32Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblBtNgaweUh1aZL/views
+  latency_ms: 1143
+  success: true
+  timestamp: '2026-06-12T21:00:33Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblBtNgaweUh1aZL/views
+  latency_ms: 1175
+  success: true
+  timestamp: '2026-06-12T21:00:34Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblBtNgaweUh1aZL/views
+  latency_ms: 1174
+  success: true
+  timestamp: '2026-06-12T21:00:35Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblBtNgaweUh1aZL/views
+  latency_ms: 1182
+  success: true
+  timestamp: '2026-06-12T21:00:37Z'
+- endpoint: POST /bitable/v1/apps/AtInb8idNaYujwsdXZBcoDCyn6g/tables/tblBtNgaweUh1aZL/views
+  latency_ms: 1206
+  success: true
+  timestamp: '2026-06-12T21:00:38Z'
+models:
+  deepseek-v4-flash:
+    tokens_in: 0
+    tokens_out: 0
+  deepseek-v4-pro:
+    tokens_in: 0
+    tokens_out: 0
+  minimax-m3:
+    tokens_in: 0
+    tokens_out: 0
+month: 2026-06
+used: 0

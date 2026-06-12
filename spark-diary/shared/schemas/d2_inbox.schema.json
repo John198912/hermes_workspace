@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d2_inbox",
+  "title": "D2 收件箱消息 Schema",
+  "type": "object",
+  "required": ["message_id", "type", "content", "timestamp"],
+  "properties": {
+    "message_id": {"type": "string", "description": "飞书消息唯一 ID，用于幂等去重"},
+    "type": {"type": "string", "enum": ["text", "voice", "image", "link", "file"]},
+    "content": {"type": "string"},
+    "raw": {"type": "object", "description": "飞书原始事件 payload"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "media_key": {"type": "string", "description": "图片/语音/文件的 media key"},
+    "media_url": {"type": "string"},
+    "processed": {"type": "boolean", "default": false}
+  }
+}

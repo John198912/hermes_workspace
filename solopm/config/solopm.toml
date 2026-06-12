@@ -1,0 +1,46 @@
+# SoloPM 配置
+# 飞书凭证从环境变量读取，此处配置业务参数
+
+[feishu]
+app_id = "${FEISHU_APP_ID}"
+app_secret = "${FEISHU_APP_SECRET}"
+
+# Bitable App (人工在飞书创建后回填 app_token)
+[bitable]
+app_token = "Z3jhbiU3EaihBzsBEdWcfNYgn4d"
+app_name = "SoloPM 中枢"
+
+[bitable.tables]
+projects = { table_name = "Projects", table_id = "tbl2gN6gNSkSFI6O" }
+tasks = { table_name = "Tasks", table_id = "tbld13yjM9gPgMCc" }
+inbox = { table_name = "Inbox", table_id = "tbleGlh40gVFBr3G" }
+events = { table_name = "Events", table_id = "tbllyt329tPU0p4i" }
+
+[notification]
+# 群自定义 Webhook (MVP)
+webhook_url = ""
+webhook_secret = ""
+
+# 飞书用户 open_id（用于 DM 通知）
+user_open_id = ""
+
+[budget]
+monthly_limit = 10000
+warn_pct = 0.80   # >80% 降级只读+告警
+critical_pct = 0.95  # >95% 全面只读
+
+[sync]
+# 同步频率（由 cron 控制，此处仅记录）
+pull_cron = "0 8,13,22 * * *"
+push_cron = "0 13,22 * * *"
+
+[limits]
+wip_limit = 3       # Doing 同时最多 3 个
+archive_days = 30   # Done 超过此天数归档
+
+[projects]
+# 项目映射
+P-quant = { name = "QuantSolo 量化系统 v4.0", repo = "~/repos/quantsolo", para = "Project" }
+P-aigc = { name = "AIGC 短视频创作", repo = "", para = "Project" }
+P-thesis = { name = "虚拟世界论文 v5", repo = "", para = "Project" }
+A-ops = { name = "运营与生活事务", repo = "", para = "Area" }

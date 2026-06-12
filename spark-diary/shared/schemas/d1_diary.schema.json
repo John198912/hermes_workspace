@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d1_diary",
+  "title": "D1 系统配置 Schema",
+  "type": "object",
+  "required": ["system", "feishu", "schedules", "quota", "review", "models"],
+  "properties": {
+    "system": {
+      "type": "object",
+      "required": ["user_open_id", "timezone"],
+      "properties": {
+        "user_open_id": {"type": "string"},
+        "timezone": {"type": "string"}
+      }
+    },
+    "feishu": {
+      "type": "object",
+      "required": ["app_id", "app_secret", "base_app_token"],
+      "properties": {
+        "app_id": {"type": "string"},
+        "app_secret": {"type": "string"},
+        "base_app_token": {"type": "string"},
+        "table_ids": {
+          "type": "object",
+          "properties": {
+            "ideas": {"type": "string"},
+            "sprouts": {"type": "string"},
+            "materials": {"type": "string"}
+          }
+        },
+        "doc_folder_token": {"type": "string"}
+      }
+    },
+    "schedules": {
+      "type": "object",
+      "properties": {
+        "curator": {"type": "string"},
+        "recall": {"type": "string"},
+        "germinator": {"type": "string"}
+      }
+    },
+    "quota": {
+      "type": "object",
+      "properties": {
+        "monthly_budget": {"type": "integer"},
+        "alert_threshold": {"type": "number"}
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "default_half_life_days": {"type": "integer"},
+        "max_half_life_days": {"type": "integer"},
+        "daily_count": {"type": "integer"},
+        "bonus_count": {"type": "integer"}
+      }
+    },
+    "models": {
+      "type": "object",
+      "properties": {
+        "light": {"type": "string"},
+        "heavy": {"type": "string"},
+        "vision": {"type": "string"}
+      }
+    }
+  }
+}

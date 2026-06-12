@@ -1,0 +1,50 @@
+# Bitable 表结构定义（pm-init 据此建表）
+# 字段类型: 1=文本 2=数字 3=单选 4=多选 5=日期 7=复选框 15=超链接 21=双向关联 1001=创建时间 1002=更新时间
+
+tables:
+  Projects:
+    name: Projects
+    fields:
+      - { field_name: "name", type: 1, description: "项目名（主字段）" }
+      - { field_name: "pid", type: 1, description: "稳定 ID，如 P-quant" }
+      - { field_name: "para", type: 3, description: "PARA 分类" }
+      - { field_name: "status", type: 3, description: "项目状态" }
+      - { field_name: "health", type: 3, description: "健康度" }
+      - { field_name: "outcome", type: 1, description: "完成标准" }
+      - { field_name: "deadline", type: 5, description: "目标完成日" }
+      - { field_name: "progress", type: 2, description: "进度 0-100" }
+      - { field_name: "doc_url", type: 15, description: "项目文档链接" }
+      - { field_name: "tasks", type: 21, description: "→ Tasks 表双向关联" }
+
+  Tasks:
+    name: Tasks
+    fields:
+      - { field_name: "title", type: 1, description: "任务标题" }
+      - { field_name: "tid", type: 1, description: "稳定 ID" }
+      - { field_name: "status", type: 3, description: "任务状态" }
+      - { field_name: "priority", type: 3, description: "优先级" }
+      - { field_name: "blocked", type: 7, description: "阻塞标记" }
+      - { field_name: "project", type: 21, description: "→ Projects 表" }
+      - { field_name: "due_date", type: 5, description: "截止日" }
+      - { field_name: "effort", type: 3, description: "工作量" }
+      - { field_name: "context", type: 3, description: "工作上下文" }
+      - { field_name: "exec_mode", type: 3, description: "执行模式" }
+      - { field_name: "this_week", type: 7, description: "本周聚焦" }
+      - { field_name: "card_path", type: 1, description: "任务卡路径" }
+      - { field_name: "done_at", type: 5, description: "完成时间" }
+
+  Inbox:
+    name: Inbox
+    fields:
+      - { field_name: "raw", type: 1, description: "原始想法" }
+      - { field_name: "source", type: 3, description: "来源" }
+      - { field_name: "triaged", type: 7, description: "已分拣" }
+      - { field_name: "created_at", type: 1001, description: "创建时间" }
+
+  Events:
+    name: Events
+    fields:
+      - { field_name: "ts", type: 5, description: "时间戳" }
+      - { field_name: "kind", type: 3, description: "事件类型" }
+      - { field_name: "ref", type: 1, description: "关联 tid/pid" }
+      - { field_name: "detail", type: 1, description: "JSON 摘要" }

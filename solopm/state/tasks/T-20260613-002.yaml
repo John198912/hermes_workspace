@@ -1,0 +1,18 @@
+tid: T-20260613-002
+title: QuantSolo 风控状态机熔断分支
+project: P-quant
+status: Doing
+priority: P0
+blocked: false
+due_date: '2026-06-17'
+effort: M
+context: '@deep'
+exec_mode: human
+this_week: true
+desc: ''
+acceptance: []
+outputs: []
+log:
+- ts: '2026-06-13T05:38:35.724658'
+  event: created
+  by: cli

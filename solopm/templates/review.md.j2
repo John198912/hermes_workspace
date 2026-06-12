@@ -1,0 +1,46 @@
+# 周回顾 · {{ week_label }} (W{{ week_num }})
+
+## 📊 本周统计
+- 完成任务: {{ done_count }}
+- 创建任务: {{ created_count }}
+- Doing 峰值: {{ doing_peak }}
+- 阻塞天数: {{ blocked_days }}
+
+## 🏗️ 项目健康度
+{% for p in projects %}
+### {{ p.name }} ({{ p.pid }})
+- 状态: {{ p.status }}
+- 健康: {{ p.health_emoji }} {{ p.health }}
+{% if p.health == "AtRisk" or p.health == "OffTrack" %}
+- ⚠️ 风险: {{ p.risk_reason }}
+{% endif %}
+- 进度: {{ p.progress }}%
+- 本周完成任务: {{ p.done_this_week }}
+{% endfor %}
+
+## 📥 Inbox 分拣
+- 未分拣: {{ untriaged_count }}
+{% if untriaged_count > 0 %}
+- 建议: 每日 22:10 自动分拣，或手动 `/pm-triage`
+{% endif %}
+
+## 🔜 下周计划
+{% if next_week_tasks %}
+{% for t in next_week_tasks %}
+- [{{ t.priority }}] {{ t.tid }}: {{ t.title }} ({{ t.status }})
+{% endfor %}
+{% else %}
+建议从 Todo 池中选择 3-5 个任务标记为 this_week。
+{% endif %}
+
+## 💡 改进建议
+{% if suggestions %}
+{% for s in suggestions %}
+- {{ s }}
+{% endfor %}
+{% else %}
+暂无特殊建议。系统运行正常。
+{% endif %}
+
+---
+生成时间: {{ now }}

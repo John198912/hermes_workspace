@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d10_tags",
+  "title": "D10 标签字典 Schema",
+  "type": "object",
+  "required": ["type_tags", "topic_tags"],
+  "properties": {
+    "type_tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1
+    },
+    "topic_tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "pending_cleanup": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

@@ -1,0 +1,18 @@
+tid: T-20260613-003
+title: 论文第三章文献综述补充
+project: P-thesis
+status: Todo
+priority: P2
+blocked: false
+due_date: '2026-06-20'
+effort: M
+context: '@deep'
+exec_mode: human
+this_week: false
+desc: ''
+acceptance: []
+outputs: []
+log:
+- ts: '2026-06-13T05:38:35.725464'
+  event: created
+  by: cli

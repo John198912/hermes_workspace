@@ -1,0 +1,57 @@
+# {{ date }} · 今日聚焦
+
+## 📅 今日到期
+{% if due_tasks %}
+{% for t in due_tasks %}
+- [{{ t.priority }}] {{ t.tid }}: {{ t.title }} {% if t.blocked %}🚫阻塞{% endif %}
+{% endfor %}
+{% else %}
+今日无硬性截止任务。✨
+{% endif %}
+
+## 🔄 Doing ({{ doing_count }}/{{ wip_limit }})
+{% if doing_tasks %}
+{% for t in doing_tasks %}
+- [{{ t.priority }}] {{ t.tid }}: {{ t.title }} {% if t.blocked %}🚫阻塞{% endif %}
+{% endfor %}
+{% else %}
+无进行中任务。
+{% endif %}
+{% if wip_warning %}
+⚠️ **WIP 超限**: 当前 Doing {{ doing_count }} 个，超过上限 {{ wip_limit }}
+{% endif %}
+
+## 🚫 阻塞项
+{% if blocked_tasks %}
+{% for t in blocked_tasks %}
+- {{ t.tid }}: {{ t.title }} | 优先级 {{ t.priority }}
+{% endfor %}
+{% else %}
+无阻塞项。
+{% endif %}
+
+## ⭐ 本周聚焦
+{% if this_week_tasks %}
+{% for t in this_week_tasks %}
+- [{{ t.priority }}] {{ t.tid }}: {{ t.title }} ({{ t.status }})
+{% endfor %}
+{% else %}
+未设置本周聚焦任务。建议在周回顾时勾选 3-5 个。
+{% endif %}
+
+## ✅ 今日完成
+{% if done_today %}
+{% for t in done_today %}
+- {{ t.tid }}: {{ t.title }}
+{% endfor %}
+{% else %}
+今日暂无完成记录。
+{% endif %}
+
+{% if inbox_count > 0 %}
+## 📥 Inbox 积压: {{ inbox_count }} 条
+需要尽快分拣。使用 `/pm-triage` 或在 Bitable Inbox 表中操作。
+{% endif %}
+
+---
+生成时间: {{ now }}

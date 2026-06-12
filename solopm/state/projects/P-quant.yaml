@@ -1,0 +1,14 @@
+# 项目: QuantSolo 量化交易系统 v4.0
+pid: P-quant
+name: QuantSolo 量化交易系统 v4.0
+para: Project
+status: Active
+health: OnTrack
+outcome: "策略回测通过率>90%，实盘模拟稳定运行30天"
+deadline: "2026-08-01"
+progress: 0
+doc_url: ""
+milestones:
+  - { title: "风控状态机完成", due: "2026-06-20" }
+  - { title: "回测框架就绪", due: "2026-07-01" }
+  - { title: "实盘模拟上线", due: "2026-07-15" }

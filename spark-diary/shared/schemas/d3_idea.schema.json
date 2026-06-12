@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d3_idea",
+  "title": "D3 灵感卡 Schema",
+  "type": "object",
+  "required": ["id", "created_at", "date", "type_tags", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^IDEA-\\d{8}-\\d{2}$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "date": {"type": "string", "format": "date"},
+    "title": {"type": "string", "maxLength": 20},
+    "type_tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "topic_tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "maxItems": 3
+    },
+    "status": {
+      "type": "string",
+      "enum": ["S0_SPARK", "S1_CAPTURED", "S2_DIALOGED", "S3_CURATED", "S4_SPROUTED", "S5_ARCHIVED"]
+    },
+    "source": {
+      "type": "string",
+      "enum": ["feishu_text", "feishu_voice", "feishu_image", "feishu_link", "manual"]
+    },
+    "quality": {
+      "type": "string",
+      "enum": ["normal", "fragment", "gem"]
+    },
+    "dialog_sessions": {"type": "integer", "default": 0},
+    "review": {
+      "type": "object",
+      "properties": {
+        "weight": {"type": "number"},
+        "half_life_days": {"type": "integer"},
+        "last_pushed": {"type": ["string", "null"]},
+        "push_count": {"type": "integer"}
+      }
+    },
+    "feishu": {
+      "type": "object",
+      "properties": {
+        "record_id": {"type": "string"}
+      }
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "material": {"type": "string"},
+        "sprouts": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

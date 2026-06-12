@@ -1,0 +1,28 @@
+feishu:
+  app_id: cli_a96f36308d7b1bef
+  app_secret: qbc32wDke3vU3DpQfaz3yb12kK81wtac
+  base_app_token: AtInb8idNaYujwsdXZBcoDCyn6g
+  doc_folder_token: ''
+  table_ids:
+    ideas: tblBtNgaweUh1aZL
+    materials: tblBtmKRLwZm2yzf
+    sprouts: tblCxLY2dlGSU6fV
+models:
+  heavy: deepseek-v4-pro
+  light: deepseek-v4-flash
+  vision: minimax-m3
+quota:
+  alert_threshold: 0.8
+  monthly_budget: 6000
+review:
+  bonus_count: 1
+  daily_count: 3
+  default_half_life_days: 7
+  max_half_life_days: 90
+schedules:
+  curator: 30 21 * * *
+  germinator: 0 20 * * 0
+  recall: 30 8 * * *
+system:
+  timezone: Asia/Shanghai
+  user_open_id: ''

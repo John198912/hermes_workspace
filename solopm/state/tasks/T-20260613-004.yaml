@@ -1,0 +1,18 @@
+tid: T-20260613-004
+title: 更新飞书应用权限配置
+project: A-ops
+status: Todo
+priority: P2
+blocked: false
+due_date: '2026-06-14'
+effort: M
+context: '@deep'
+exec_mode: human
+this_week: false
+desc: ''
+acceptance: []
+outputs: []
+log:
+- ts: '2026-06-13T05:38:35.727466'
+  event: created
+  by: cli

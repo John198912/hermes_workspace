@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "d7_sprout",
+  "title": "D7 发芽报告 Schema",
+  "type": "object",
+  "required": ["id", "date", "type"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^SPROUT-\\d{8}-(W\\d{2}|I\\d{2})$"},
+    "date": {"type": "string", "format": "date"},
+    "type": {
+      "type": "string",
+      "enum": ["single", "weekly", "manual"]
+    },
+    "seeds": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "种子灵感 ID 列表"
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_a": {"type": "string"},
+          "source_b": {"type": "string"},
+          "abstract_level": {"type": "string", "description": "在什么抽象层面上关联"},
+          "novelty_score": {"type": "number"},
+          "relevance_score": {"type": "number"}
+        }
+      }
+    },
+    "aha_points": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 3,
+      "maxItems": 5
+    },
+    "golden_quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "quote": {"type": "string"},
+          "source_idea": {"type": "string"},
+          "why_lit": {"type": "string"}
+        }
+      }
+    },
+    "action_items": {
+      "type": "array",
+      "items": {"type": "string"},
+      "maxItems": 3
+    },
+    "open_question": {"type": "string"},
+    "feedback": {
+      "type": "string",
+      "enum": ["有启发", "一般", "没用", ""]
+    }
+  }
+}

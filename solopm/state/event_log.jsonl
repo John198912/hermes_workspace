@@ -1,0 +1,4 @@
+{"ts": "2026-06-13T05:38:35.724441", "kind": "created", "ref": "T-20260613-001", "detail": "status=Doing project=P-aigc", "by": "cli"}
+{"ts": "2026-06-13T05:38:35.725338", "kind": "created", "ref": "T-20260613-002", "detail": "status=Doing project=P-quant", "by": "cli"}
+{"ts": "2026-06-13T05:38:35.726479", "kind": "created", "ref": "T-20260613-003", "detail": "status=Todo project=P-thesis", "by": "cli"}
+{"ts": "2026-06-13T05:38:35.729215", "kind": "created", "ref": "T-20260613-004", "detail": "status=Todo project=A-ops", "by": "cli"}

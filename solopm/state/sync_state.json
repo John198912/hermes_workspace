@@ -1,0 +1,13 @@
+{
+  "app_token": "Z3jhbiU3EaihBzsBEdWcfNYgn4d",
+  "table_ids": {
+    "Projects": "tbl2gN6gNSkSFI6O",
+    "Tasks": "tbld13yjM9gPgMCc",
+    "Inbox": "tbleGlh40gVFBr3G",
+    "Events": "tbllyt329tPU0p4i"
+  },
+  "last_pull": null,
+  "last_push": null,
+  "record_map": {},
+  "field_hashes": {}
+}
