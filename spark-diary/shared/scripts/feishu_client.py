@@ -99,6 +99,18 @@ class FeishuAPI:
         return self._req("PATCH", f"/docx/v1/documents/{doc_id}/blocks/{doc_id}",
                          json={"blocks": blocks, "revision": revision})
 
+    def create_children_blocks(self, doc_id, block_id, children, index=-1):
+        """Create children blocks under a parent block.
+        children: list of {block_type, text/content/...}
+        index: insertion position (-1 for append to end)
+        """
+        body = {"children": children}
+        if index >= 0:
+            body["index"] = index
+        return self._req("POST",
+                         f"/docx/v1/documents/{doc_id}/blocks/{block_id}/children",
+                         json=body)
+
     # ── 消息 ──
     def send_message(self, receive_id_type, receive_id, msg_type, content):
         return self._req("POST", "/im/v1/messages", params={
