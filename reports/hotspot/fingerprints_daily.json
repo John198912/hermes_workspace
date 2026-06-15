@@ -1,207 +1,4 @@
 {
-  "35e7f5edcadff7d5d04dd67bcfbca7e6": {
-    "title": "一个大模型,一群工程师的2300天",
-    "source": "搜狗微信",
-    "seen_count": 2,
-    "first_seen": "2026-06-04T08:09:16.687923",
-    "last_seen": "2026-06-07T08:08:22.403510"
-  },
-  "6874fd69c411aa1a5a4b2a01145fe2de": {
-    "title": "Moving beyond fork() + exec()",
-    "source": "HackerNews",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:05:55.893296",
-    "last_seen": "2026-06-07T08:08:06.170726"
-  },
-  "4171c626e6f5484318e8802b7da593b0": {
-    "title": "Benchmarks in Leipzig",
-    "source": "HackerNews",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:05:56.744501",
-    "last_seen": "2026-06-07T08:08:18.546379"
-  },
-  "8b1837054709f55a894afdbdb2da3419": {
-    "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
-    "source": "HackerNews",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:05:57.718619",
-    "last_seen": "2026-06-07T08:08:08.703473"
-  },
-  "aae21b88635ebfd6112033a7671253c5": {
-    "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
-    "source": "HackerNews",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:01.803456",
-    "last_seen": "2026-06-07T08:08:13.583582"
-  },
-  "e0c6632d5a5e117ad2a07252fbbff994": {
-    "title": "The new bibliomaniacs",
-    "source": "HackerNews",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:05.033350",
-    "last_seen": "2026-06-07T08:08:20.267064"
-  },
-  "e1b1e9d1c41d716ce193ff51be96360c": {
-    "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
-    "source": "HackerNews",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:12.129066",
-    "last_seen": "2026-06-07T08:08:21.128619"
-  },
-  "442f0f33048a5033d1c0c86a8ab25cd1": {
-    "title": "中老友好 大道同行",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.899181",
-    "last_seen": "2026-06-07T08:08:21.366131"
-  },
-  "1dc316f927f32e72729c9067ec4fb161": {
-    "title": "公积金新政有望唤醒十万亿沉睡资金",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.904025",
-    "last_seen": "2026-06-07T08:08:21.405987"
-  },
-  "cc5c53d5162f17ca3abd78e33cc1c6bd": {
-    "title": "这名考生高考每科可增加30%作答时间",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.909003",
-    "last_seen": "2026-06-07T08:08:21.426591"
-  },
-  "a8619ef92165ce2fb6a4c1ccdb15a1b4": {
-    "title": "高考期间全国天气地图请收好",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.914068",
-    "last_seen": "2026-06-07T08:08:21.386709"
-  },
-  "0f5b7da8c8e0099ee3c615b344d84e5a": {
-    "title": "挪威沉船发现大量青花瓷：所有人沸腾",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.918427",
-    "last_seen": "2026-06-07T08:08:21.402827"
-  },
-  "f920587c2ea6f8bcf53ffb26986f4ddb": {
-    "title": "养殖海鲜是用药喂大的？谣言别信",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.931497",
-    "last_seen": "2026-06-07T08:08:21.414412"
-  },
-  "df80a184c06861a2e3e537f316703701": {
-    "title": "海来阿木黑脸",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.933035",
-    "last_seen": "2026-06-07T08:08:21.428683"
-  },
-  "b72e7ef0b0324438eaa22aad3c6160bc": {
-    "title": "谢娜宣布启动个人巡演 首站在北京",
-    "source": "百度热搜",
-    "seen_count": 2,
-    "first_seen": "2026-06-07T00:06:16.944978",
-    "last_seen": "2026-06-07T08:08:21.421913"
-  },
-  "d4102407d3592d33c3754f05353d9e4b": {
-    "title": "Ntsc-rs – open-source video emulation of analog TV and VHS artifacts",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:04.483651",
-    "last_seen": "2026-06-07T08:08:04.483651"
-  },
-  "a713a666da91afb0d398caa3166e7f49": {
-    "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:05.330822",
-    "last_seen": "2026-06-07T08:08:05.330822"
-  },
-  "f4536194b8a0ddc72daa489760f11c9b": {
-    "title": "Zeroserve: A zero-config web server you can script with eBPF",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:07.007184",
-    "last_seen": "2026-06-07T08:08:07.007184"
-  },
-  "57bf71aeececb14dae9b39ee8d3d58ee": {
-    "title": "DoD Officially Drops 180 Faiths from Military's Recognized Religion List",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:07.854894",
-    "last_seen": "2026-06-07T08:08:07.854894"
-  },
-  "a4e0393234757cafb6c3ddb861c9b71b": {
-    "title": "Sem: New primitive for code understanding – not LSPs, but entities on top of Git",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:09.480839",
-    "last_seen": "2026-06-07T08:08:09.480839"
-  },
-  "96f6bd1bd24d2b8d2ef79a43b576dda0": {
-    "title": "You Can Run",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:11.141787",
-    "last_seen": "2026-06-07T08:08:11.141787"
-  },
-  "ff50ed24f909b5b05f4cbc1c50c21c99": {
-    "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet?",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:11.949864",
-    "last_seen": "2026-06-07T08:08:11.949864"
-  },
-  "6dadc29c2fe2ab7601f6b262be1b5dea": {
-    "title": "New U.S. college grads now have higher unemployment than the average worker",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:12.734936",
-    "last_seen": "2026-06-07T08:08:12.734936"
-  },
-  "34ea55755e6a304a9553f6e5311ca45b": {
-    "title": "PyTorch Custom Operation",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:14.421148",
-    "last_seen": "2026-06-07T08:08:14.421148"
-  },
-  "1b95bdefa913638cc7b05fbe73ec17e9": {
-    "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:15.260217",
-    "last_seen": "2026-06-07T08:08:15.260217"
-  },
-  "a2d616ada5b02666e7115552fa8f42e0": {
-    "title": "Home alone: Remote work, isolation, and mental health",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:16.103561",
-    "last_seen": "2026-06-07T08:08:16.103561"
-  },
-  "e8c5ac1b8ff1110a11f5efaa39089645": {
-    "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:16.915199",
-    "last_seen": "2026-06-07T08:08:16.915199"
-  },
-  "33ca419492db4f4285df96d188af7168": {
-    "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:17.748272",
-    "last_seen": "2026-06-07T08:08:17.748272"
-  },
-  "b4e9494c8c13846b8cfcd5c0d04d0191": {
-    "title": "Unicode Fonts and Tools for X11",
-    "source": "HackerNews",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:19.391719",
-    "last_seen": "2026-06-07T08:08:19.391719"
-  },
   "8b8aa2a6daca6906b73f36a160360282": {
     "title": "2026高考",
     "source": "百度热搜",
@@ -209,159 +6,12 @@
     "first_seen": "2026-06-07T08:08:21.375927",
     "last_seen": "2026-06-08T08:12:32.419066"
   },
-  "a3f69de65c53ca7474fbb168f1d7f024": {
-    "title": "直击高考首日现场",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.382061",
-    "last_seen": "2026-06-07T08:08:21.382061"
-  },
-  "9731b79549bfed6ef1b1102b8635cd1b": {
-    "title": "巡视组现场要求：把手机拿出来我看看",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.391840",
-    "last_seen": "2026-06-07T08:08:21.391840"
-  },
-  "0ac7a97c6bc83352a330b2358db944e6": {
-    "title": "光明冰砖联名香皂被当成雪糕误食",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.395791",
-    "last_seen": "2026-06-07T08:08:21.395791"
-  },
-  "2a2b84f5d65975dd35a061890a37589f": {
-    "title": "祝每一位高考生圆梦今夏",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.399582",
-    "last_seen": "2026-06-07T08:08:21.399582"
-  },
-  "b68b606908c44b15f9cc2197f55d6d11": {
-    "title": "一地惊现“巨型老鼠”：外来入侵物种",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.409093",
-    "last_seen": "2026-06-07T08:08:21.409093"
-  },
-  "4046d61e0da361a5de8dfe9a824dbfb4": {
-    "title": "“我喊了一嗓子没想到来这么多人”",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.411751",
-    "last_seen": "2026-06-07T08:08:21.411751"
-  },
-  "f4309c0f2ffef94a3f2a545582cefaf3": {
-    "title": "美以伊战争爆发百天",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.417086",
-    "last_seen": "2026-06-07T08:08:21.417086"
-  },
-  "88d6b63b75d1070e9afe6b3f94f7a8a3": {
-    "title": "本月起你的工资或将多一笔钱",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.419515",
-    "last_seen": "2026-06-07T08:08:21.419515"
-  },
-  "af19557d02e3578c434dc0a8560bd0f1": {
-    "title": "记者直击高考试卷押送全程",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.424381",
-    "last_seen": "2026-06-07T08:08:21.424381"
-  },
-  "33ed4a13198c977f8e79322741ddf235": {
-    "title": "暴雨黄色预警：四川广东等地大到暴雨",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.430746",
-    "last_seen": "2026-06-07T08:08:21.430746"
-  },
-  "f78d21dde8e192418beb62bb6d3da3d4": {
-    "title": "“卡拉永远OK 高考只有一回”",
-    "source": "百度热搜",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:21.432857",
-    "last_seen": "2026-06-07T08:08:21.432857"
-  },
-  "270dc826801ff3b701714709948c8b54": {
-    "title": "AI小技能~豆包批改作业",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.004442",
-    "last_seen": "2026-06-07T08:08:22.004442"
-  },
-  "f3931a827eb7207dd531b1fe99639b2a": {
-    "title": "AI+农业:下一个改变农民命运的风口,正在悄悄到来",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.015144",
-    "last_seen": "2026-06-07T08:08:22.015144"
-  },
-  "6ea68390b6bb1509f1bf0ccd6a432e1a": {
-    "title": "AI智能体为何无法纳入个人信息保护法的责任框架?",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.021878",
-    "last_seen": "2026-06-07T08:08:22.021878"
-  },
-  "df476017f1a750dfbffbbe5e168a592d": {
-    "title": "【张大春AI分身】重磅上线!AI不是代替你的大脑,而是让你学会思考,把大春老师带在身边,专属大健康的AI系统",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.027629",
-    "last_seen": "2026-06-07T08:08:22.027629"
-  },
   "003224774d23029bd0bf9dcbb1a1ef2f": {
     "title": "大模型炼丹指南:信则灵,不信则妄",
     "source": "搜狗微信",
     "seen_count": 2,
     "first_seen": "2026-06-07T08:08:22.387000",
     "last_seen": "2026-06-08T08:12:33.272592"
-  },
-  "e8ebd49540919b5133d63a791ffdb6fe": {
-    "title": "阿里进入大模型时代",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.397433",
-    "last_seen": "2026-06-07T08:08:22.397433"
-  },
-  "6c704b28077a88b3628ff2f7e137f526": {
-    "title": "知情人士:美国政府考虑入股AI企业",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.676798",
-    "last_seen": "2026-06-07T08:08:22.676798"
-  },
-  "abcba0b3fc19f7ab0b06addb79d69092": {
-    "title": "AI最危险的不是替代你,而是悄悄吃掉你的脑子",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.682239",
-    "last_seen": "2026-06-07T08:08:22.682239"
-  },
-  "2d0656d966525dc5a950a65a90b0a8ff": {
-    "title": "AI黑客降临",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.686814",
-    "last_seen": "2026-06-07T08:08:22.686814"
-  },
-  "90476c6d209a63bd7388fa11c9b6bc2e": {
-    "title": "人工智能新闻速递",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.691834",
-    "last_seen": "2026-06-07T08:08:22.691834"
-  },
-  "bd00ec692a1db8198e008e44f26db6d8": {
-    "title": "AI安全员|实验评价与持续改进",
-    "source": "搜狗微信",
-    "seen_count": 1,
-    "first_seen": "2026-06-07T08:08:22.698045",
-    "last_seen": "2026-06-07T08:08:22.698045"
   },
   "dc4e3a8c383970490ac0e45f4dee607a": {
     "title": "Building from zero after addiction, prison, and a felony",
@@ -2459,72 +2109,72 @@
   "70a112902d9ea65419b1f7916948cdf8": {
     "title": "前8天：穿越罗布泊无人区  第9天：主角突然换人",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.474197",
-    "last_seen": "2026-06-13T08:08:43.474197"
+    "last_seen": "2026-06-15T08:11:07.527113"
   },
   "3a12348b7d112e16035b2dcf2bfbbdfe": {
     "title": "震撼世界的72天：巴黎公社为何爆发？又为何失败？【历史调研室71】",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.483048",
-    "last_seen": "2026-06-13T08:08:43.483048"
+    "last_seen": "2026-06-15T08:11:07.533504"
   },
   "7347f1371d058b95977486a1fb65f5ca": {
     "title": "我被电视剧片头曲“模仿”了却无能为力",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.490227",
-    "last_seen": "2026-06-13T08:08:43.490227"
+    "last_seen": "2026-06-15T08:11:07.539040"
   },
   "e493a9d4f9d2bf1f1c738458f8f05d58": {
     "title": "为什么中国人对一道菜的最高评价是\"下饭\"?",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.496020",
-    "last_seen": "2026-06-13T08:08:43.496020"
+    "last_seen": "2026-06-15T08:11:07.543896"
   },
   "9e29b26ea3af020f7aaf5fc33a766096": {
     "title": "深度|| 香火之战，车迟国的教皇实验",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.501207",
-    "last_seen": "2026-06-13T08:08:43.501207"
+    "last_seen": "2026-06-15T08:11:07.548649"
   },
   "86cbbe8e13b8f9ace0407da65fd52678": {
     "title": "为什么人类需要不断吃盐，而动物们却不用？",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.505826",
-    "last_seen": "2026-06-13T08:08:43.505826"
+    "last_seen": "2026-06-15T08:11:07.552848"
   },
   "cd5bb3ab036e10842658261bf586a007": {
     "title": "垃圾场上的妙妙屋【日本世博会】",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.510094",
-    "last_seen": "2026-06-13T08:08:43.510094"
+    "last_seen": "2026-06-15T08:11:07.557014"
   },
   "b09e23e06348934e78ff30eca90356e7": {
     "title": "快递怎么寄能更便宜？#涨知识 #生活小妙招 #寄快递省钱的技巧",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.514074",
-    "last_seen": "2026-06-13T08:08:43.514074"
+    "last_seen": "2026-06-15T08:11:07.560609"
   },
   "0a89e7c0d4b0531736990636e5a5721f": {
     "title": "现场实验：黄河边硬地变淤泥，看起来安全却暗藏凶险，千万要警惕！",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.517805",
-    "last_seen": "2026-06-13T08:08:43.517805"
+    "last_seen": "2026-06-15T08:11:07.564258"
   },
   "fb7482bc36c50b345cd7647444fc0a9a": {
     "title": "【罗翔】张三侮辱骨灰到底犯不犯法？法律人为何这么“抠字眼”？",
     "source": "B站科技区",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-13T08:08:43.521313",
-    "last_seen": "2026-06-13T08:08:43.521313"
+    "last_seen": "2026-06-15T08:11:07.567902"
   },
   "b49a04a00681af2bcf22a2fb58fd9337": {
     "title": "Ai 2026软件安装教程",
@@ -2949,9 +2599,9 @@
   "b24e32e9f07445fecbd5b09425998451": {
     "title": "大模型想落地,先让大家用得起",
     "source": "搜狗微信",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-14T08:05:39.867809",
-    "last_seen": "2026-06-14T08:05:39.867809"
+    "last_seen": "2026-06-15T08:11:08.329065"
   },
   "4bfadd4ad8aca280058583f7ce1fb7b3": {
     "title": "大模型,开源干不掉闭源",
@@ -2994,5 +2644,362 @@
     "seen_count": 1,
     "first_seen": "2026-06-14T08:05:40.261483",
     "last_seen": "2026-06-14T08:05:40.261483"
+  },
+  "fee1085d52c2aeb07359846a46dde7c7": {
+    "title": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:38.282445",
+    "last_seen": "2026-06-15T08:10:38.282445"
+  },
+  "2dd59dcfa1683ce7b6970adf7f2a27f0": {
+    "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:39.839548",
+    "last_seen": "2026-06-15T08:10:39.839548"
+  },
+  "714355d1f195f19c36e46aeab05eae9c": {
+    "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:41.325377",
+    "last_seen": "2026-06-15T08:10:41.325377"
+  },
+  "1b2cc8128bb34085064dcb656ff5075d": {
+    "title": "What even is food authenticity? Why we guard carbonara, and flatten chicken rice",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:42.801188",
+    "last_seen": "2026-06-15T08:10:42.801188"
+  },
+  "795759e677a63e79c11ced6d1477cd93": {
+    "title": "Firewood Splitting Simulator",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:44.329599",
+    "last_seen": "2026-06-15T08:10:44.329599"
+  },
+  "e75742f7ba853b290aed1098291a5228": {
+    "title": "Chopped, Stored, Secured – The Story of the Hash Function",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:45.813647",
+    "last_seen": "2026-06-15T08:10:45.813647"
+  },
+  "b8a5cfc96787ef0626a75a96196fcd97": {
+    "title": "Chaosnet (1981)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:47.304462",
+    "last_seen": "2026-06-15T08:10:47.304462"
+  },
+  "d4ee58987b40b079595bd7c2b79b9f4c": {
+    "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:48.777478",
+    "last_seen": "2026-06-15T08:10:48.777478"
+  },
+  "66390be0c0d219e45ad1a1220f1bcdae": {
+    "title": "Ask HN: What are you working on? (June 2026)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:50.269488",
+    "last_seen": "2026-06-15T08:10:50.269488"
+  },
+  "b26916eccf2dc1d305a2c3aa5f9b038e": {
+    "title": "Segmented type appreciation corner (2018)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:51.856956",
+    "last_seen": "2026-06-15T08:10:51.856956"
+  },
+  "80158e74b21188790fe2aa1826cd5025": {
+    "title": "Did Anthropic ask for this?",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:53.348437",
+    "last_seen": "2026-06-15T08:10:53.348437"
+  },
+  "ef340ad3d8039e7e516bc61ba54eb691": {
+    "title": "Formal methods and the future of programming",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:54.914194",
+    "last_seen": "2026-06-15T08:10:54.914194"
+  },
+  "34313a93beaed63bdfbedcb70eb5dc73": {
+    "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:56.504332",
+    "last_seen": "2026-06-15T08:10:56.504332"
+  },
+  "fb252990708b4b879c9abb8140adda83": {
+    "title": "Perlisisms (1982)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:57.990062",
+    "last_seen": "2026-06-15T08:10:57.990062"
+  },
+  "00ac2380b83c23497213d27cc5995c3a": {
+    "title": "TorchCodec 0.14: HDR Video Decoding for CPU and CUDA, and Fast Wav Decoder",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:10:59.466006",
+    "last_seen": "2026-06-15T08:10:59.466006"
+  },
+  "ddc380ee49db1597ba5dc19fc0a7bf93": {
+    "title": "Lisp's Influence on Ruby",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:00.945167",
+    "last_seen": "2026-06-15T08:11:00.945167"
+  },
+  "bf5e42401ac2b790b3009b3e33b80c59": {
+    "title": "AI is code – and can't be prompted into being smarter",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:03.910289",
+    "last_seen": "2026-06-15T08:11:03.910289"
+  },
+  "16e3cc247bd10f3aac9ab4ce7d6f25ac": {
+    "title": "The only scalable delete in Postgres is DROP TABLE",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:05.402008",
+    "last_seen": "2026-06-15T08:11:05.402008"
+  },
+  "b235f5f4273ecc78cf103c82da06bee9": {
+    "title": "Stanford grads walk out on Google CEO Sundar Pichai speech",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:06.902928",
+    "last_seen": "2026-06-15T08:11:06.902928"
+  },
+  "af8ffe4444d59ea9ef312e21a8fdeca4": {
+    "title": "看见时间里的中国",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.170236",
+    "last_seen": "2026-06-15T08:11:07.170236"
+  },
+  "cff969103202adde9dad66eeea929218": {
+    "title": "美伊达成和平协议",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.177512",
+    "last_seen": "2026-06-15T08:11:07.177512"
+  },
+  "7bff526ca9e6ad7504cee8f740612320": {
+    "title": "荷兰2比2日本",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.183500",
+    "last_seen": "2026-06-15T08:11:07.183500"
+  },
+  "5f6510ce0261d4ba42e4ccb5e5baf1ae": {
+    "title": "地下管网焕新 你的城市将迎哪些改变",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.188526",
+    "last_seen": "2026-06-15T08:11:07.188526"
+  },
+  "1ec92cfc691e6519fe82b74b287c3b1d": {
+    "title": "美伊确认达成协议 国际油价显著下跌",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.193303",
+    "last_seen": "2026-06-15T08:11:07.193303"
+  },
+  "4670de50dafea0f1713aca2cad1b0ed1": {
+    "title": "日本89分钟绝平荷兰",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.197762",
+    "last_seen": "2026-06-15T08:11:07.197762"
+  },
+  "b000b0739a5aa07e2fa2985eac76533a": {
+    "title": "网民编造涉食品安全谣言被拘",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.202186",
+    "last_seen": "2026-06-15T08:11:07.202186"
+  },
+  "61024207a3d6a2fd613313df475bd802": {
+    "title": "霍尔木兹海峡将开放",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.206365",
+    "last_seen": "2026-06-15T08:11:07.206365"
+  },
+  "11bf8fbd4051a3dc07c65cbaff12ff44": {
+    "title": "德国7-1大胜库拉索",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.209973",
+    "last_seen": "2026-06-15T08:11:07.209973"
+  },
+  "9114f1ba7b17a67bc43fd944bd256188": {
+    "title": "国乒单打全军覆没",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.213525",
+    "last_seen": "2026-06-15T08:11:07.213525"
+  },
+  "5f42ba8e21f5b90910a702c9c50a8090": {
+    "title": "“老破小”突然成了抢手货",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.216955",
+    "last_seen": "2026-06-15T08:11:07.216955"
+  },
+  "fe72264b215d352cfe6358bce8530952": {
+    "title": "女子体重112公斤体内肿瘤达52公斤",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.220119",
+    "last_seen": "2026-06-15T08:11:07.220119"
+  },
+  "be610761b9572cc311eec187e7dc441f": {
+    "title": "爸爸嫌弃爷爷做饭难吃被6岁闺女说哭",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.223270",
+    "last_seen": "2026-06-15T08:11:07.223270"
+  },
+  "14a784faf50efbc2d0e93439960b6e67": {
+    "title": "德国主帅回应7比1库拉索",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.226412",
+    "last_seen": "2026-06-15T08:11:07.226412"
+  },
+  "2c7f2b19d20128d08ae4f98fd78ffb20": {
+    "title": "男子去世欠49万房贷父母放弃继承",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.229225",
+    "last_seen": "2026-06-15T08:11:07.229225"
+  },
+  "ac068dac790074b24d2e38ccd8f39250": {
+    "title": "世界杯：科特迪瓦vs厄瓜多尔",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.232090",
+    "last_seen": "2026-06-15T08:11:07.232090"
+  },
+  "1a2112818ebb01383144ea960ad76cb9": {
+    "title": "78岁库拉索主帅哭了",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.234899",
+    "last_seen": "2026-06-15T08:11:07.234899"
+  },
+  "f8034ce212d54445e23dab488fecaa04": {
+    "title": "“你以为的抓拍 不过是我的公开”",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.237501",
+    "last_seen": "2026-06-15T08:11:07.237501"
+  },
+  "7da86815dc6a4d5c4aaf01411e66c4b2": {
+    "title": "孩子小成累赘？《新华字典》：听劝已改",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.240184",
+    "last_seen": "2026-06-15T08:11:07.240184"
+  },
+  "acf5ec421ae24c8a1d9bcd1234cc56ae": {
+    "title": "游客夜爬泰山登顶发现还能看世界杯",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.242691",
+    "last_seen": "2026-06-15T08:11:07.242691"
+  },
+  "428285fcbe7d6e73eaf2af718c7b249a": {
+    "title": "《物理AI概念股》",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.907125",
+    "last_seen": "2026-06-15T08:11:07.907125"
+  },
+  "f269235e95e1cbcddbbcd986fd0658fc": {
+    "title": "AI视频生成爆发:豆包、即梦AI们卷到哪一步了",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.914312",
+    "last_seen": "2026-06-15T08:11:07.914312"
+  },
+  "473eb2b22b37444941de5b0e34e51ed3": {
+    "title": "比利时 VS 埃及 AI 数据推演",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.920207",
+    "last_seen": "2026-06-15T08:11:07.920207"
+  },
+  "2d6eafa3ce1fd11b7a409e1f02ecfc30": {
+    "title": "微科盟智能科研平台&mdash;＂微科盟AI＂重磅上线!科研综述、实验方案设计、期刊查询&hellip;一个AI全搞定!",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.925171",
+    "last_seen": "2026-06-15T08:11:07.925171"
+  },
+  "5254cb980d85f8c1f54af08e72863b43": {
+    "title": "AI微信+AI支付宝:国民级AI应用&nbsp;&ldquo;双子星&rdquo;&nbsp;来了?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:07.930044",
+    "last_seen": "2026-06-15T08:11:07.930044"
+  },
+  "35e7f5edcadff7d5d04dd67bcfbca7e6": {
+    "title": "一个大模型,一群工程师的2300天",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:08.314402",
+    "last_seen": "2026-06-15T08:11:08.314402"
+  },
+  "6e5d7873bdd4a637efdb6c045799524e": {
+    "title": "大模型+知识库+Agent,为什么360先走出了大模型商业化?|氪金&middot;行业观察",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:08.322688",
+    "last_seen": "2026-06-15T08:11:08.322688"
+  },
+  "28922d98354d7dd71145f100f46b48d2": {
+    "title": "AI硬件里谁被错杀?&mdash;&mdash;11只硬件ETF*TOP50标的的共识与定价透视(纯基于AI自用自研)",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:08.567570",
+    "last_seen": "2026-06-15T08:11:08.567570"
+  },
+  "5283f044858f2d0baf1fbf96da256afa": {
+    "title": "昆明人工智能工程技术人员职业技能等级证书哪家强",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:08.576142",
+    "last_seen": "2026-06-15T08:11:08.576142"
+  },
+  "a37dbcd7f5eb10ff0c0f17d999807713": {
+    "title": "今日AI快报",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:08.582622",
+    "last_seen": "2026-06-15T08:11:08.582622"
+  },
+  "97d5b0201ffa8824c04465cbcdd1f32a": {
+    "title": "向人工智能学习",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:08.587788",
+    "last_seen": "2026-06-15T08:11:08.587788"
+  },
+  "76b72e641778b4a47242ff36cad6cdf9": {
+    "title": "合作:人工智能(附加视频)",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-06-15T08:11:08.592767",
+    "last_seen": "2026-06-15T08:11:08.592767"
   }
 }
