@@ -25,4 +25,4 @@ schedules:
   recall: 30 8 * * *
 system:
   timezone: Asia/Shanghai
-  user_open_id: ''
+  user_open_id: 'ou_6b33e28a7e87d071a7fa55c4b2c00ef2'

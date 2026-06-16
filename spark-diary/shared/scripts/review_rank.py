@@ -134,6 +134,8 @@ def _parse_date(date_str: Optional[str]) -> date:
         return date.today()
     if isinstance(date_str, datetime):
         return date_str.date()
+    if isinstance(date_str, date):
+        return date_str
     # 尝试多种格式
     for fmt in ["%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"]:
         try:

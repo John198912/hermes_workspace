@@ -1,11 +1,11 @@
-# 区域: 运营与生活事务
 pid: A-ops
 name: 运营与生活事务
 para: Area
 status: Active
-health: OnTrack
-outcome: ""
-deadline: ""
+health: OffTrack
+outcome: ''
+deadline: ''
 progress: 0
-doc_url: ""
+doc_url: ''
 milestones: []
+updated_at: '2026-06-15T09:09:29.899857'
