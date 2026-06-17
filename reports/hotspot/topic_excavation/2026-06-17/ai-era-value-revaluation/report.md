@@ -60,7 +60,22 @@
 | 运营亏损（Operating Loss） | **$209.2亿** | FT审计文件 | 独立口径：营收 - 运营总成本，不等于GAAP净亏损 |
 | 调整后亏损（剔除一次性项目） | **~$80亿** | FT知情人士 | 剔除$415.5亿一次性费用后，真实"烧钱"规模 |
 
-> ⚠️ **重要校准——原报告逻辑修正**: 原文 "GAAP净亏损$385.3亿含~$415.5亿非现金费用" 存在逻辑矛盾（**含项不能大于总量**）。正确关系链为：毛净亏损$603.5亿 → 其中约$415.5亿为一次性非现金重组费用（非营利转营利触发的权益重估）→ 扣除$178.7亿非控股权益损失 → 归属公司GAAP净亏损$385.3亿。**$415.5亿是一部分（一次性费用），$603.5亿是整体（含所有费用），两者不是包含关系而是子集关系。** 运营亏损$209.2亿是独立于GAAP的计算口径。
+> ⚠️ **重要校准——原报告逻辑修正与正确关系链**:
+> 
+> 原文 "GAAP净亏损$385.3亿含~$415.5亿非现金费用" 存在逻辑矛盾（**含项不能大于总量**）。正确拆解如下：
+> 
+> ```
+> 毛净亏损（含所有权益方）            $603.5亿 ─── Gizmodo 报道
+>   ├── 非现金重组费用（一次性）      ~$415.5亿  ← 非营利→营利转换触发权益重估
+>   │   └── 其中非控股权益调整         $17.87亿
+>   ├── 非控股权益损失                 $178.7亿  ← 少数股东/合作伙伴亏损份额
+>   └── 归属公司GAAP净亏损            $385.3亿  ← OpenAI Inc.股东净亏损
+> 
+> 运营亏损（独立口径）                $209.2亿  ← 营收 - 运营总成本（FT审计）
+> 调整后真实亏损                       ~$80亿  ← 剔除全部一次性费用后
+> ```
+> 
+> **关键认知**：`$415.5亿`是一次性费用（属于$603.5亿的一部分），`$603.5亿`是整体（含一次性+经常性）。两者是**子集关系**，不是包含关系。运营亏损$209.2亿是独立于GAAP的计算口径，反映日常经营层面。$172亿流向微软（其中$105.9亿为研发成本）是理解OpenAI成本结构的关键背景——该公司实质上是微软最大的"被捆绑供应商"。
 
 **核心财务数据**:
 - 营收: $37亿(2024) → **$130.7亿(2025)**，增长**250%**
@@ -297,18 +312,19 @@
 |---|---------|-----|------|--------|
 | 1 | Anthropic: Agentic Coding and Persistent Returns to Expertise | https://www.anthropic.com/research/claude-code-expertise | 一手研究论文 | **100%** Jina 28KB + LLM Context全文段落 |
 | 2 | Fortune: OpenAI Financials Leaked | https://fortune.com/2026/06/16/openai-financials-leaked-losses-revenue-profit/ | 权威媒体 | **80%** LLM Context（付费墙后，关键数据已多源验证） |
-| 3 | Let's Data Science: OpenAI Reports Rapid Revenue Growth | https://letsdatascience.com/news/openai-reports-rapid-revenue-growth-larger-losses-3db37681 | 数据分析 | **90%** 三重亏损详细拆解 + 来源标注 |
-| 4 | Yahoo Finance: OpenAI Financials Leaked Ahead Of IPO | https://finance.yahoo.com/markets/stocks/articles/openai-financials-leaked-ahead-ipo-063804219.html | 财经媒体 | **85%** 含Anthropic/SpaceX对比 |
-| 5 | Adobe News: 2026 Creators' Toolkit Report | https://news.adobe.com/news/2026/06/creators-toolkit-report-2026 | 一手官方发布 | **100%** LLM Context完整段落 |
-| 6 | 9to5Mac: Adobe Survey Analysis | https://9to5mac.com/2026/06/16/adobe-survey-ai-is-helping-creators-grow-but-not-without-tradeoffs/ | 科技媒体 | **90%** 含数据要点 + 审慎提示 |
-| 7 | AppleInsider: Adobe AI Creator Survey Excludes Traditional Creatives | https://appleinsider.com/articles/26/06/16/adobes-glowing-ai-survey-leaves-out-most-of-the-creative-industry | 科技媒体 | **80%** 方法学质疑（重要对立视角） |
-| 8 | Tim Ferriss: Has AI Already Killed How-To Nonfiction? | https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/ | 一手博客 | **100%** LLM Context完整章节 |
-| 9 | Digg/X: Community Reactions to Tim Ferriss Post | https://digg.com/tech/yhry51ub | 社区讨论 | **70%** 多角度评论 |
-| 10 | Lycore: Future-Proof Career Skills AI Cannot Automate | https://www.lycore.com/blog/future-proof-career-skills-ai/ | 行业分析 | **95%** 系统思维+领域专业框架 |
-| 11 | PwC Global AI Jobs Barometer (via Let's Data Science) | 二次引用 | 行业研究 | **75%** 56%工资溢价数据 |
-| 12 | Upwork: In-Demand Skills 2026 | https://investors.upwork.com/... | 一手行业报告 | **85%** AI技能需求+109% YoY |
-| 13 | VentureBeat: Anthropic Beat OpenAI in Business AI Adoption | https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead | 科技媒体 | **85%** Ramp数据+Uber成本案例 |
-| 14 | TechCrunch/CNBC/Axios: Anthropic Market Share Coverage | 多个URL | 综合财经/科技媒体 | **80%** 多源交叉验证 |
+| 3 | Gizmodo: OpenAI Financial Leak Analysis | 二次引用 (via Ars Technica/Benzinga) | 科技媒体 | **85%** 三重亏损拆解原始来源（含$603.5亿毛净亏损/$415.5亿非现金费用/$17.87亿NCI调整数据） |
+| 4 | Let's Data Science: OpenAI Reports Rapid Revenue Growth | https://letsdatascience.com/news/openai-reports-rapid-revenue-growth-larger-losses-3db37681 | 数据分析 | **90%** 三重亏损详细拆解 + 来源标注 |
+| 5 | Yahoo Finance: OpenAI Financials Leaked Ahead Of IPO | https://finance.yahoo.com/markets/stocks/articles/openai-financials-leaked-ahead-ipo-063804219.html | 财经媒体 | **85%** 含Anthropic/SpaceX对比 |
+| 6 | Adobe News: 2026 Creators' Toolkit Report | https://news.adobe.com/news/2026/06/creators-toolkit-report-2026 | 一手官方发布 | **100%** LLM Context完整段落 |
+| 7 | 9to5Mac: Adobe Survey Analysis | https://9to5mac.com/2026/06/16/adobe-survey-ai-is-helping-creators-grow-but-not-without-tradeoffs/ | 科技媒体 | **90%** 含数据要点 + 审慎提示 |
+| 8 | AppleInsider: Adobe AI Creator Survey Excludes Traditional Creatives | https://appleinsider.com/articles/26/06/16/adobes-glowing-ai-survey-leaves-out-most-of-the-creative-industry | 科技媒体 | **80%** 方法学质疑（重要对立视角） |
+| 9 | Tim Ferriss: Has AI Already Killed How-To Nonfiction? | https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/ | 一手博客 | **100%** LLM Context完整章节 |
+| 10 | Digg/X: Community Reactions to Tim Ferriss Post | https://digg.com/tech/yhry51ub | 社区讨论 | **70%** 多角度评论 |
+| 11 | Lycore: Future-Proof Career Skills AI Cannot Automate | https://www.lycore.com/blog/future-proof-career-skills-ai/ | 行业分析 | **95%** 系统思维+领域专业框架 |
+| 12 | PwC Global AI Jobs Barometer (via Let's Data Science) | 二次引用 | 行业研究 | **75%** 56%工资溢价数据 |
+| 13 | Upwork: In-Demand Skills 2026 | https://investors.upwork.com/... | 一手行业报告 | **85%** AI技能需求+109% YoY |
+| 14 | VentureBeat: Anthropic Beat OpenAI in Business AI Adoption | https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead | 科技媒体 | **85%** Ramp数据+Uber成本案例 |
+| 15 | TechCrunch/CNBC/Axios: Anthropic Market Share Coverage | 多个URL | 综合财经/科技媒体 | **80%** 多源交叉验证 |
 
 ---
 
