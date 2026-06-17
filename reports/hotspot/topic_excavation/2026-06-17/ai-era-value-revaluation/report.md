@@ -16,6 +16,7 @@
   - 🔗 https://www.anthropic.com/research/claude-code-expertise
 - **发布时间**: 2026年6月16日
 - **数据规模**: ~40万次 Claude Code 会话 × 23.5万用户 × 7个月 (2025.10 - 2026.04)
+- **⚠️ 注意——两份不同报告**: 本文引用的经济学论文「Agentic Coding and Persistent Returns to Expertise」(Zoe Hitzig et al., 2026-06-16) 与 Anthropic 早先于2026年初发布的「2026 Agentic Coding Trends Report」（产品侧报告，PDF版本）是**两份不同文件**。后者聚焦开发者委派行为（delegation gap），指出开发者在60%的工作中使用AI但仅完全委派0–20%的任务。两篇各有侧重，引用时应区分，避免数据混用。
 
 | 维度 | 核心数据 | 趋势方向 |
 |------|---------|---------|
@@ -32,6 +33,14 @@
 — ⚠️ 研究团队明确承认：这是**当前快照**，而非永久规律。如果AI开始提供判断力，专家的优势会缩小。
 
 **额外口径**: 论文被引用为 "hitzig2026agentic"，作者含 Zoe Hitzig, Maxim Massenkoff, Eva Lyubich, Ryan Heller, Peter McCrory。致谢清单包含 Anton Korinek（知名AI经济学家）。
+
+**外部交叉验证**:
+- **Gigazine 独立确认**: 「管理者编程成功率略高于软件工程师」已被 Gigazine 独立报道确认，原文表述为"coding background appears to be less important for programming success than before"
+- **Reddit 社区讨论**: Reddit 已对该论文进行逐页讨论（18页报告全文），整体评价为「比预期的营销内容更有实质内容」
+- **数据对齐提示**: 「专家12次动作/指令 → 3200字 vs 新手5次 → 600字」属于文章内部量化总结，原论文数据框架成立，但具体数字需与 Anthropic 原始附录对齐（报告标注此为"最优先补充动作"）
+
+**🆕 委派缺口（Delegation Gap）—— 另一关键发现**: 
+即便专业知识很重要，大多数用户仍**显著低估AI的能力边界**，仅将0–20%的任务完全委派给AI。这实际上支撑了「判断力决定AI杠杆效应大小」的论点——不仅仅是「你有没有判断力」，还有「你是否敢于充分授权」。**人机协作的天花板，不在AI的能力，在人的委派意愿。**
 
 ---
 
