@@ -78,7 +78,7 @@ def pull_from_bitable(app_token: str, table_id: str, ss: dict) -> dict:
             break
 
         data = resp.get("data", {})
-        for item in data.get("items", []):
+        for item in data.get("items") or []:
             record_id = item.get("record_id")
             fields = item.get("fields", {})
             tid = fields.get("tid")
