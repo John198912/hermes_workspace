@@ -1,13 +1,67 @@
 {
   "mode": "daily",
-  "generated_at": "2026-06-21 02:05:26",
-  "total": 50,
+  "generated_at": "2026-06-21 08:06:01",
+  "total": 55,
   "items": [
+    {
+      "title": "Pre-2022 Books",
+      "source": "HackerNews",
+      "url": "https://notes.lorenzogravina.com/musings/pre-2022-books",
+      "snippet": "↑107 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:44.969908",
+      "fingerprint": "b0dabf2988adc01d1284e6c4c245d299"
+    },
+    {
+      "title": "Not just books: renting a sewing machine from the library can improve democracy",
+      "source": "HackerNews",
+      "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "snippet": "↑45 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:45.721957",
+      "fingerprint": "261f9988e4a9127cb4def023efe15294"
+    },
+    {
+      "title": "Epoll vs. Io_uring in Linux",
+      "source": "HackerNews",
+      "url": "https://sibexi.co/posts/epoll-vs-io_uring/",
+      "snippet": "↑24 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:46.470257",
+      "fingerprint": "22902e65d11896befafb98e2997496c2"
+    },
     {
       "title": "SMPTE Makes Its Standards Freely Accessible",
       "source": "HackerNews",
       "url": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
-      "snippet": "↑47 | HN热门",
+      "snippet": "↑214 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -15,17 +69,17 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-06-21T02:05:01.316279",
       "fingerprint": "bf23c04199e87570613a07eb1640d97b"
     },
     {
-      "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+      "title": "Show HN: TownSquare, a tiny presence layer for websites",
       "source": "HackerNews",
-      "url": "https://www.lispm.net/apps/uhf-x11/",
-      "snippet": "↑27 | HN热门",
+      "url": "https://townsquare.cauenapier.com/",
+      "snippet": "↑14 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -36,14 +90,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:02.527412",
-      "fingerprint": "c78c239982a3bbc76dbef6bed78be609"
+      "first_seen": "2026-06-21T08:05:47.995472",
+      "fingerprint": "0097515d26d8edcb3186a8b905cb894e"
     },
     {
-      "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+      "title": "Alice is impatient",
       "source": "HackerNews",
-      "url": "https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html",
-      "snippet": "↑82 | HN热门",
+      "url": "https://brooker.co.za/blog/2026/06/19/waiting.html",
+      "snippet": "↑39 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -54,176 +108,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:03.735458",
-      "fingerprint": "222a6af18c60828d1f65f4e4050f6924"
+      "first_seen": "2026-06-21T08:05:48.741376",
+      "fingerprint": "f1f442e917b8231e9d1bb86d53fab9cb"
     },
     {
-      "title": "CSSQuake",
+      "title": "Slow breathing modulates brain function and risk behavior",
       "source": "HackerNews",
-      "url": "https://cssquake.com/",
-      "snippet": "↑342 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:04.959859",
-      "fingerprint": "58401d3d4309ecd9ed8d48762069a7e7"
-    },
-    {
-      "title": "Ember, a native iOS Hacker News reader I built around accessibility",
-      "source": "HackerNews",
-      "url": "https://github.com/DatanoiseTV/ember-hackernews",
-      "snippet": "↑26 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:06.175677",
-      "fingerprint": "9d29430a649a50b2bcb7051800fda8eb"
-    },
-    {
-      "title": "Show HN: StartupWiki – A Free Alternative to Crunchbase",
-      "source": "HackerNews",
-      "url": "https://startupwiki.tech/",
-      "snippet": "↑26 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:07.484783",
-      "fingerprint": "980e9e5f24be2f7fc40ce89e76665297"
-    },
-    {
-      "title": "S‑CURVES a field guide to technology adoption · 1825–2026",
-      "source": "HackerNews",
-      "url": "https://escurves.com/",
-      "snippet": "↑9 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:08.762969",
-      "fingerprint": "73a57c5d001a6b65a0dc11441788e999"
-    },
-    {
-      "title": "Show HN: Microcrad – Micrograd Reimplemented in C",
-      "source": "HackerNews",
-      "url": "https://github.com/oraziorillo/microcrad",
-      "snippet": "↑25 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:09.972665",
-      "fingerprint": "7fccf2424051a7a3d54b551626357c83"
-    },
-    {
-      "title": "Vacation With An Artist – Mini-Apprenticeships with Artists in Their Studios",
-      "source": "HackerNews",
-      "url": "https://vawaa.com/",
-      "snippet": "↑22 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:11.161382",
-      "fingerprint": "fea0f7bc0fc92231d021674616b0799d"
-    },
-    {
-      "title": "VPN ban update for UK households as government looks at 'age-gate'",
-      "source": "HackerNews",
-      "url": "https://www.birminghammail.co.uk/news/midlands-news/vpn-ban-update-uk-households-34141063",
-      "snippet": "↑188 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:12.550151",
-      "fingerprint": "5d4aada926906b574d3cca5316c20155"
-    },
-    {
-      "title": "The European Social Stack",
-      "source": "HackerNews",
-      "url": "https://european.social",
-      "snippet": "↑89 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:13.753646",
-      "fingerprint": "ad0bb049958e3da652c388b6f297a1a6"
-    },
-    {
-      "title": "Temporary Cloudflare Accounts for AI Agents",
-      "source": "HackerNews",
-      "url": "https://blog.cloudflare.com/temporary-accounts/",
-      "snippet": "↑69 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai, agent",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:14.960444",
-      "fingerprint": "409e208dfb757dcd290a08a079d05813"
-    },
-    {
-      "title": "Bootimus – A Self-Contained PXE and HTTP Boot Server",
-      "source": "HackerNews",
-      "url": "https://bootimus.com",
-      "snippet": "↑78 | HN热门",
+      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "snippet": "↑13 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -234,14 +126,68 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:16.176792",
-      "fingerprint": "31168ef057ee33d623332ae1e905011d"
+      "first_seen": "2026-06-21T08:05:49.598761",
+      "fingerprint": "b0d06ec00a3b6dcebd3aaa7f5e3fa5f9"
     },
     {
-      "title": "Where to Find the Colors Your Screen Can't Show You",
+      "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
       "source": "HackerNews",
-      "url": "https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/",
-      "snippet": "↑354 | HN热门",
+      "url": "https://www.lispm.net/apps/uhf-x11/",
+      "snippet": "↑147 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:02.527412",
+      "fingerprint": "c78c239982a3bbc76dbef6bed78be609"
+    },
+    {
+      "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+      "source": "HackerNews",
+      "url": "https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html",
+      "snippet": "↑187 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:03.735458",
+      "fingerprint": "222a6af18c60828d1f65f4e4050f6924"
+    },
+    {
+      "title": "Semiconductor Lifeline Keeps Fighter Jets in the Air",
+      "source": "HackerNews",
+      "url": "https://spectrum.ieee.org/phoenix-semiconductors-legacychips-oems",
+      "snippet": "↑21 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:51.933764",
+      "fingerprint": "c6961ecf4bbd0035c5e02389425bae32"
+    },
+    {
+      "title": "PostgresBench: A Reproducible Benchmark for Postgres Services",
+      "source": "HackerNews",
+      "url": "https://clickhouse.com/blog/postgresbench",
+      "snippet": "↑71 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -252,14 +198,32 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:18.571772",
-      "fingerprint": "21e7c2113a6cc0dca89ee060c9e869cb"
+      "first_seen": "2026-06-21T08:05:52.680828",
+      "fingerprint": "fa1d0849ebfd7b771775cb446a7e7efe"
     },
     {
-      "title": "Web Browsers on PDAS",
+      "title": "CSSQuake",
       "source": "HackerNews",
-      "url": "https://vale.rocks/posts/pda-browsers",
-      "snippet": "↑26 | HN热门",
+      "url": "https://cssquake.com/",
+      "snippet": "↑442 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:04.959859",
+      "fingerprint": "58401d3d4309ecd9ed8d48762069a7e7"
+    },
+    {
+      "title": "Inference cost at scale with napkin math",
+      "source": "HackerNews",
+      "url": "https://injuly.in/blog/napkin-inference-cost/index.html",
+      "snippet": "↑48 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -270,14 +234,32 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:19.777407",
-      "fingerprint": "c88cef10595be33ef7db1fca8f182f7f"
+      "first_seen": "2026-06-21T08:05:54.141652",
+      "fingerprint": "700322c9d9f3ca850dc5699bccef686d"
     },
     {
-      "title": "Mencius (2016)",
+      "title": "Show HN: StartupWiki – A Free Alternative to Crunchbase",
       "source": "HackerNews",
-      "url": "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/265d73a0-6bfa-45df-92ff-4e7d3f8be4b1/content",
-      "snippet": "↑15 | HN热门",
+      "url": "https://startupwiki.tech/",
+      "snippet": "↑142 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:07.484783",
+      "fingerprint": "980e9e5f24be2f7fc40ce89e76665297"
+    },
+    {
+      "title": "The Wholesale Plagiarism of Obscure Sorrows",
+      "source": "HackerNews",
+      "url": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+      "snippet": "↑302 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -288,14 +270,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:21.059579",
-      "fingerprint": "119f6fb7fbd89e7422a5a82425418aba"
+      "first_seen": "2026-06-21T08:05:55.590569",
+      "fingerprint": "d14e7f8ca08fbdab77c2a4e29109ebcb"
     },
     {
-      "title": "From PGP to Mythos: a brief history of export controls that didn't stop anyone",
+      "title": "Unauthorized alert sent to cell phones across Brazil",
       "source": "HackerNews",
-      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
-      "snippet": "↑106 | HN热门",
+      "url": "https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam",
+      "snippet": "↑72 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -306,14 +288,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:22.265420",
-      "fingerprint": "76fe324b540218e8eed479ffd3c0cf63"
+      "first_seen": "2026-06-21T08:05:56.335614",
+      "fingerprint": "f35365b27c4c67987b38cb2c7d730c5c"
     },
     {
-      "title": "I Stored a Website in a Favicon",
+      "title": "The rise of South Korea’s weapons business",
       "source": "HackerNews",
-      "url": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
-      "snippet": "↑260 | HN热门",
+      "url": "https://www.politico.com/news/magazine/2026/06/20/south-korea-weapons-dealer-trump-00959559",
+      "snippet": "↑99 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -324,14 +306,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:23.454468",
-      "fingerprint": "68c181e4194d93b53d9411aa45fff273"
+      "first_seen": "2026-06-21T08:05:57.086660",
+      "fingerprint": "fe73e53c689dc17d413dc003e7598291"
     },
     {
-      "title": "Cargo-Geiger",
+      "title": "Supermarket giant Tesco sues VMware for breach of contract",
       "source": "HackerNews",
-      "url": "https://github.com/geiger-rs/cargo-geiger",
-      "snippet": "↑22 | HN热门",
+      "url": "https://www.theregister.com/software/2025/09/03/supermarket-giant-tesco-sues-vmware-for-breach-of-contract/1420651",
+      "snippet": "↑65 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -342,8 +324,44 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:24.684278",
-      "fingerprint": "7995f2f8f6526a2c6fe8a8e82fda47eb"
+      "first_seen": "2026-06-21T08:05:57.834806",
+      "fingerprint": "827e15e95f60122bcb55369bd34d1cdf"
+    },
+    {
+      "title": "Turns Out, There Is a Cabal of Elite Crazies Trying to Control the World",
+      "source": "HackerNews",
+      "url": "https://www.esquire.com/news-politics/politics/a71619211/peter-thiel-dialog-club-wired-report/",
+      "snippet": "↑114 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:58.587790",
+      "fingerprint": "69ef5b67c39aa615c484977ab3021047"
+    },
+    {
+      "title": "Whole cross-sectional human ultrasound tomography",
+      "source": "HackerNews",
+      "url": "https://www.nature.com/articles/s41551-026-01660-4",
+      "snippet": "↑5 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:59.335103",
+      "fingerprint": "41b8ff19a25e2897b78de8225f8ef7ee"
     },
     {
       "title": "重温总书记吟诵过的屈原名句",
@@ -357,17 +375,17 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-06-21T02:05:24.971807",
       "fingerprint": "93be47df9f331aa6479b04ee217c2dfa"
     },
     {
-      "title": "世界杯：荷兰vs瑞典",
+      "title": "翁达夫梅开二度 德国2-1绝杀科特迪瓦",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 世界杯：荷兰vs瑞典",
+      "snippet": "百度热搜: 翁达夫梅开二度 德国2-1绝杀科特迪瓦",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -378,14 +396,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:24.976460",
-      "fingerprint": "c80b6eddafabe83eb0c38c44c7b64ca3"
+      "first_seen": "2026-06-21T08:05:59.657389",
+      "fingerprint": "a51aa02065680d09b00e2117d7b19b36"
     },
     {
-      "title": "演员张颂文救人被认定系见义勇为",
+      "title": "“处长”变“科长”是降级还是正名",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 演员张颂文救人被认定系见义勇为",
+      "snippet": "百度热搜: “处长”变“科长”是降级还是正名",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -396,8 +414,8 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:24.980429",
-      "fingerprint": "ba8e45de8177e7fa5a0642c28b565284"
+      "first_seen": "2026-06-21T08:05:59.664133",
+      "fingerprint": "03b98f9ddef385dc70b02e4c159ee3f1"
     },
     {
       "title": "多元体验助力服务消费提质升级",
@@ -411,227 +429,11 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-06-21T02:05:24.983983",
       "fingerprint": "e677b35b883d25cb77897b29fd364b12"
-    },
-    {
-      "title": "央视披露：日本为“备战台海”囤弹药",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 央视披露：日本为“备战台海”囤弹药",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:24.987853",
-      "fingerprint": "121d04c16aa6c8d44cc98c1680d49b6a"
-    },
-    {
-      "title": "哈兰德代言头绳爆火 每根42元",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 哈兰德代言头绳爆火 每根42元",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:24.991369",
-      "fingerprint": "fe8d023567f7680b92dfde7f4090680f"
-    },
-    {
-      "title": "伊朗军方宣布关闭霍尔木兹海峡",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 伊朗军方宣布关闭霍尔木兹海峡",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:24.994855",
-      "fingerprint": "f92af7fc81084e2a2cd80d72306282d7"
-    },
-    {
-      "title": "曝土耳其主帅蒙特拉将下课",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 曝土耳其主帅蒙特拉将下课",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:24.998306",
-      "fingerprint": "90d7a31fe1e2b41f22f91bac84c8a671"
-    },
-    {
-      "title": "中国最贵药物降价140万元",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 中国最贵药物降价140万元",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.001299",
-      "fingerprint": "08c150c0d6f79af1f1f62c71d24c316b"
-    },
-    {
-      "title": "张颂文获金爵奖影帝",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 张颂文获金爵奖影帝",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.004322",
-      "fingerprint": "fd166ac39f6278bd0e98eb4a2bce17f2"
-    },
-    {
-      "title": "张凯丽向庄法道歉",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 张凯丽向庄法道歉",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.007311",
-      "fingerprint": "241ecfb8941727e71a3b9ca7a34b1ac3"
-    },
-    {
-      "title": "端午只能说安康是自媒体杜撰",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 端午只能说安康是自媒体杜撰",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.009997",
-      "fingerprint": "fa0517387c89e790589ab1b4ca138b78"
-    },
-    {
-      "title": "李小冉婚纱造型美得好夸张",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 李小冉婚纱造型美得好夸张",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.012611",
-      "fingerprint": "92ccae99aee2c62551ad4ea65042416e"
-    },
-    {
-      "title": "马宁将主哨 中国足球迎历史性一刻",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 马宁将主哨 中国足球迎历史性一刻",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.015408",
-      "fingerprint": "c61cfe1f2de14c44019a0054b247227b"
-    },
-    {
-      "title": "女生被男友突然分手患心碎综合征",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 女生被男友突然分手患心碎综合征",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.018013",
-      "fingerprint": "87e5917f7bd5c7838306baee91dd117e"
-    },
-    {
-      "title": "吃粽子也有最佳时间",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 吃粽子也有最佳时间",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.020338",
-      "fingerprint": "7e3cf034cac3ee43c6db415df470e2d1"
     },
     {
       "title": "日本游客为免票全文背诵《岳阳楼记》",
@@ -645,17 +447,53 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-06-21T02:05:25.022701",
       "fingerprint": "d19a4a1a42a09305f23d4a03fd446350"
     },
     {
-      "title": "巴拉圭前锋成“普法先锋”",
+      "title": "中国最贵药物降价140万元",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 巴拉圭前锋成“普法先锋”",
+      "snippet": "百度热搜: 中国最贵药物降价140万元",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:25.001299",
+      "fingerprint": "08c150c0d6f79af1f1f62c71d24c316b"
+    },
+    {
+      "title": "伊朗军方宣布关闭霍尔木兹海峡",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 伊朗军方宣布关闭霍尔木兹海峡",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:24.994855",
+      "fingerprint": "f92af7fc81084e2a2cd80d72306282d7"
+    },
+    {
+      "title": "人间盛夏至 农耕皆可期",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 人间盛夏至 农耕皆可期",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -666,14 +504,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.025194",
-      "fingerprint": "0d7d6ac98e7c7b42a387ef729464b55a"
+      "first_seen": "2026-06-21T08:05:59.686479",
+      "fingerprint": "7e5c7b665368fd3db1e0b1afb4ad421a"
     },
     {
-      "title": "两对夫妻拍照 三人被卷进海里",
+      "title": "爸爸的“我爱你”都藏在行动里",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 两对夫妻拍照 三人被卷进海里",
+      "snippet": "百度热搜: 爸爸的“我爱你”都藏在行动里",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -684,14 +522,32 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.027654",
-      "fingerprint": "233b537920618b6899b9f5ef0dce0573"
+      "first_seen": "2026-06-21T08:05:59.689935",
+      "fingerprint": "9329a8ade61780f71b882375cb0ae3a8"
     },
     {
-      "title": "鹿晗现身全国游泳冠军赛",
+      "title": "央视披露：日本为“备战台海”囤弹药",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 鹿晗现身全国游泳冠军赛",
+      "snippet": "百度热搜: 央视披露：日本为“备战台海”囤弹药",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:24.987853",
+      "fingerprint": "121d04c16aa6c8d44cc98c1680d49b6a"
+    },
+    {
+      "title": "三名中国足球裁判将同场亮相",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 三名中国足球裁判将同场亮相",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -702,32 +558,194 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.029808",
-      "fingerprint": "3c607ebc8dd2ed930d1bcf54c5cf2bcf"
+      "first_seen": "2026-06-21T08:05:59.696077",
+      "fingerprint": "2d2d763be9dcd2f10bc2e38f701c478c"
     },
     {
-      "title": "AI商业洞察丨重庆出台新型能源算力枢纽方案;商汤携手香港科技园打造4万P国产算力基建;曹操出行发布RoboX战略全面向AI转型",
+      "title": "女子用AI写3000字股市谣言被罚",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 女子用AI写3000字股市谣言被罚",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "初步判断可能相关：含赛道关键词",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:59.699003",
+      "fingerprint": "31be66b0302cf24a3bd6246f7dc6722d"
+    },
+    {
+      "title": "荷兰5-1大胜瑞典",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 荷兰5-1大胜瑞典",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:59.701876",
+      "fingerprint": "baf96b85091c419323405b2d57b319bb"
+    },
+    {
+      "title": "演员张颂文救人被认定系见义勇为",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 演员张颂文救人被认定系见义勇为",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:24.980429",
+      "fingerprint": "ba8e45de8177e7fa5a0642c28b565284"
+    },
+    {
+      "title": "女生被男友突然分手患心碎综合征",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 女生被男友突然分手患心碎综合征",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:25.018013",
+      "fingerprint": "87e5917f7bd5c7838306baee91dd117e"
+    },
+    {
+      "title": "伊朗代表团抵达瑞士 万斯将出席谈判",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 伊朗代表团抵达瑞士 万斯将出席谈判",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:59.709568",
+      "fingerprint": "86b264ab91d2be3794ae0214a5077608"
+    },
+    {
+      "title": "假酒案发酵 警方应如何回应公众关切",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 假酒案发酵 警方应如何回应公众关切",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:59.711811",
+      "fingerprint": "8f0c2af421665062660f8ab3e4bfac0f"
+    },
+    {
+      "title": "“这一天 想你的时间最长”",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: “这一天 想你的时间最长”",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:59.714083",
+      "fingerprint": "7897d9271b22759548eb2448acf9271c"
+    },
+    {
+      "title": "张凯丽向庄法道歉",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 张凯丽向庄法道歉",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-21T02:05:25.007311",
+      "fingerprint": "241ecfb8941727e71a3b9ca7a34b1ac3"
+    },
+    {
+      "title": "国乒连续两站0冠",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 国乒连续两站0冠",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:05:59.718636",
+      "fingerprint": "824644a18f1efa756c09a1cc3c907114"
+    },
+    {
+      "title": "AI已经学会了性别歧视,&ldquo;重男轻女,爱白欺黑&rdquo;",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbECylVRhT4FMNl-3MsDGB8lqXa8Fplpd9RYyuRBSzxm00vXgThdbU49k3rZ6t_3wxJa-ZjArfrTfcKrTGP8q2SShKXINlgUCqqYupcTORrVLayxrAHWvybyumRZrnQ_-5AkIdOW8NyAoOEDy0Uf4-M4ilN6VEGXA1FWuOExORWhvJxUNFozrSHP_k5dRVJxLlksan297HDxhOJBjQH7pCxQ..&amp;type=2&amp;query=AI&amp;token=B030E9A847A07E06696C3DDA29988B426A1EC4EF6A36D665",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9Xx2NvOdAC4rA1QYEqfRZ9mUr5wUBcYEjM1CoecKtrBhDz06WHwaYS6dejq3z-Oudg0BMKFJN3S8En5a7O5AHMrHEMqtrqZlxkjwujh74COL0_21tmpBM_emNoAKT5GbC8IJJMNZ7WCpkSsahboSh6rg5b2EKx13mZtjSZaeLlObvzHZXxeLdyg..&amp;type=2&amp;query=AI&amp;token=B24CCBF432EA377020194B986A55199820D269D66A372AE8",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
       "source_quality": "B",
-      "relevance_hint": "命中关键词: ai, 转型",
+      "relevance_hint": "命中关键词: ai",
       "tags": [
         "国内内容",
         "微信文章"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.659655",
-      "fingerprint": "b1d7def3375c6b97eb234daeb80d8e45"
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-19T23:40:37.265051",
+      "fingerprint": "0693088596757d73127b487a699b4caf"
     },
     {
-      "title": "AI泡沫的观察与思考",
+      "title": "AI-powered home design website offers free tokens",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbECylVRhT4FMNl-3MsDGB8lqXa8Fplpd90DNU8GeIQ_UNU5D7OiE0V8SET_iqeIsO7XL68RInti9ND4f0umFgXTVTVnzVHbGggHhKSErkiu3cP0szYKkrUmvzsXgNl3AsqNZdKE4QNgjwAR9NmBjaR-UbQIZaIL17cje2UO26Gdd5afKyhov9Q5hFuOiYHJmD1adiKGXFIDA89kyxDwoXvg..&amp;type=2&amp;query=AI&amp;token=B030E9A847A07E06696C3DDA29988B426A1EC4EF6A36D665",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9Y4I5DyX6LmWmIf3yGX-raWxioQqMtE7C2PGNAhjkfSD0pufxjs6OA0AhfIcGdT9TSkKI4kaVr80ZG83KQLJVpPSz_E4zPQvUWAOp43i-aLKfBkom4PEcwWtb_-sw9-FdMZFv5dvKtwH8P7kb5ADAxjQXIHYbxitGAYhfTqTu3ceAFV_3u-a3OQ..&amp;type=2&amp;query=AI&amp;token=B24CCBF432EA377020194B986A55199820D269D66A372AE8",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -740,13 +758,13 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.664421",
-      "fingerprint": "b9cb11c838cf3a4b2b7c973c3ce42867"
+      "first_seen": "2026-06-21T08:06:00.325487",
+      "fingerprint": "89f48555595c4140fa060178189e13a5"
     },
     {
-      "title": "AI进千家万店,谁替消费者举盾?",
+      "title": "AI 日报|6月21日",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbECylVRhT4FMNl-3MsDGB8lqXa8Fplpd9vMM6OszbPgWfT2jngNSo7j1Hzz0C4H7lzRCdVQVBvt2G2sk7WbCRaCIUlveByS9wfx25QRPVkz84aETKUTikLQwSjMP43Uk1tJAy5vpyy4kbrQ60cfBI6Gt9cQIAc3YgOu_u5DXccyds2trZBPNDdQB-W_Yq4XBOO1dxmVEovnX2CsG6-xMgzQ..&amp;type=2&amp;query=AI&amp;token=B030E9A847A07E06696C3DDA29988B426A1EC4EF6A36D665",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9sR7SjPBnqgKXWHOyc3dxMfpCUrEdrY-6ary4WIzHBQ6ViyQ7Q8IwdH2buBQp_JyiYDdUeaswyzrCT-HKB1yhTSy0yf-m8KP3nJ625O0uh683Eisq99bkzgq4yDxDnY7965YxdIEkG0KYaMmQ_sOxOyAOsE7ZvqQ4GsQW2ZqPdPkCYioxHkzTmA..&amp;type=2&amp;query=AI&amp;token=B24CCBF432EA377020194B986A55199820D269D66A372AE8",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -759,32 +777,13 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.667803",
-      "fingerprint": "0e5dbe4a66159b717f7c3f4ee0cf0511"
+      "first_seen": "2026-06-21T08:06:00.332384",
+      "fingerprint": "d567cd926e8b5144240eee772ec9cae0"
     },
     {
-      "title": "AI短剧狂飙三个月,横店群演先失业了",
+      "title": "AI设计图每日放送(第832日)",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbECylVRhT4FMNl-3MsDGB8lqXa8Fplpd934oYs9nIoPUUfrzcfD-_70FBNZOI0GMICyO8bcIeRyQyc4qa3YPotw_SocPtpmtli2kZbMvlmcgD9s7NS9N1nOuRBLLPtvPQnBex24jnEXTAMx7cDeR7KXDYOI75JAfOL_C9fM7eWt-0VUSUl9pMqmgMVjBGhHVsI5ywS4Pkqblr1dbZWbKUeQ..&amp;type=2&amp;query=AI&amp;token=B030E9A847A07E06696C3DDA29988B426A1EC4EF6A36D665",
-      "snippet": "微信文章 | 关键词: AI",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai, 失业",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.672236",
-      "fingerprint": "462bcd05fdc28ced075644eb630fe269"
-    },
-    {
-      "title": "AI硬件高潮后的&ldquo;高低切换&rdquo;,谁是下一个爆发点?",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbECylVRhT4FMNl-3MsDGB8lqXa8Fplpd9OPq4ed0oi5McqfOgGjjvacAWHKFFtP6lez_ihoi7HfRE2_epsWjKLF1-jWSuhW4eVtVsKt-LpQke-Nr7St0Lwo7nTNwMLD7isl30rY0w5uBjipuLitTIJJ78nM3LUGBbXv2WCwbEFH3vQkvfQYJnPon2u68P4wYEukDsyN2Y1XBFkDr8IT4KYw..&amp;type=2&amp;query=AI&amp;token=B030E9A847A07E06696C3DDA29988B426A1EC4EF6A36D665",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9WQnr6U1ONPAgIkY0VkxbPGuYozpxh38cADbrm-vezxAKwoAdpvDEXBGHNqArtpa46THjBZOP1c-DYchTfZms7AAv0yS6Wmb4MFAdxkzBxWTP1aQvINxiVDXwbv7WWasGB9gkrQFGkapt97RwLnJOlYi720dyZ6BVKC5wRsvBFTCjotuuiAmOIg..&amp;type=2&amp;query=AI&amp;token=B24CCBF432EA377020194B986A55199820D269D66A372AE8",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -797,13 +796,51 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:25.675468",
-      "fingerprint": "d4a10c6594e8e70fa68fca8d4cb2323f"
+      "first_seen": "2026-06-21T08:06:00.337956",
+      "fingerprint": "4477b1b04b118252d916fab2ece96166"
     },
     {
-      "title": "大模型训练有多卷?揭开大模型算力之谜 | 钛媒体深度",
+      "title": "AI 领域法律研究系列之122:AI写出来的合同越长越像&mdash;&mdash;乔治城研究给法律人的警示",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbD2PMl3quJPANl-3MsDGB8lqXa8Fplpd9qQgKTJ6uUJ0-bbDwGGoYYY5Ew1Jm9MRPbwsKWOu4WSX7WI4FAusWPPH7VA_OgwWDOOVuH9HuooWRTNDCpWeWYdmK7PZWgPsRJuPeZXlXuGVqfyx1nNKzLflaBcLpcRYelslo9OIrw35RuZKMFyipRlCHMA9Mo_SI2BjpHVPVPw6q3X8EKMKOIA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B030EB46C225F89FF0F6BB5CAF06C350F07B1CF66A36D666",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9ux-AsChLv7sJn5b3BsG1mh6JN1jKTWU5ZCtMqUl8lIYPEYnheMgYwCkgeOI5jZAItICrMGaAlAnRhRfQ8_QlbojyIjohFXtTYdSFr8m1EV_5ApAAMLU2vvKXOC1y4tV_xmy3ehAyBV96farkrZm4Ael4hxldG8tvSRqcUtyY990CYioxHkzTmA..&amp;type=2&amp;query=AI&amp;token=B24CCBF432EA377020194B986A55199820D269D66A372AE8",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:06:00.343448",
+      "fingerprint": "304999adb2b371f383da264e346076a7"
+    },
+    {
+      "title": "大模型的＂大脑＂揭秘:Transformer架构是如何让AI变聪明的?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9h73JP3RJNaOVmZXxSqkM3rXLF3KRXyzrZxEfVQXYZ_Q1MrRtQPqjbxO3s8P87S1OmXnE42cX-8GQaZu9Qf5FNAo5_ehfkQv6XRrLNi1g8br0_awq96f7ihMoznL4EJ1-gKZP_cveEGWoOgKhmQL1fc194RcVpidEY60BnSJQ_SF6VKrzu_4XKA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B24CCE39B3548AF29E98CA26D4E4316D9EE6CF476A372AE8",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:06:00.715164",
+      "fingerprint": "746076fab31506da289b4fd1d8fbb4dd"
+    },
+    {
+      "title": "大模型烧钱真相:算力占65%,电费占算力30%,钱都花哪了?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9rmLoheNAcY7F_MUHJliZlE7PAJENzAEnQ9-dkT6bc0whNzMHamADZJNNyy1c0N4pwNJL02TgOJHxb3CXErTE7IL7uNckd2fJhAmHp9C7rqtsU21Pj-LnYHfRwJbf6LMKkpHA5YaWOIj3zcpswZP1xhKCxY36uvzalarstZyMndnI3OTRHYU2og..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B24CCE39B3548AF29E98CA26D4E4316D9EE6CF476A372AE8",
       "snippet": "微信文章 | 关键词: 大模型",
       "platform": "weixin",
       "platform_rating": "A",
@@ -816,13 +853,70 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:26.126155",
-      "fingerprint": "b27b93a2a4e5f1115bb62c5612a3cd5d"
+      "first_seen": "2026-06-21T08:06:00.725336",
+      "fingerprint": "49700b1d3ffee14775a4f878b96380ea"
     },
     {
-      "title": "AI时代,我们如何选专业?即使今年不高考,这篇文章也值得一看",
+      "title": "【大模型应用开发从零做起】第18篇:微调模型部署实战&mdash;&mdash;把专属模型接入微信/API,真正用起来",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbD2PMl3quJPANl-3MsDGB8lqXa8Fplpd93mJpUB1mz-dTvbRSmUFfgPJpe5azCao_MRWa8Iz6q_WjGyNUcWUnrDIniKT7E9k4MPi-W82SFXC9vevJeXdCRD-z99o6uZLVffuqnRWtqShKAPvKa203cMROZ45s45bXBqxwkLLAQRmEvhg9Zyk1o6CBhbY9NnSes82ww00Y-3Ff_71bqkOtiw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B030EE1CB85F82F99590C125D5688CD59603155A6A36D666",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9q_Be8hcirIRqFg82EJLdhV8ts0JqbbckN2gnQ3iI0ufK3tvqkCFbbEWxzE-wZzAeMhcHmlsQLX5364fgRCzJjcs5C1E5RwTZ7RxGZ4lXPj-QryShLjsjmotW7EXyow0TGiGyPoIbs8oTHKPTIjabNzf-G-H9zJrg6UPUkOC7sTj1AfaFW2DefQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B24CCE39B3548AF29E98CA26D4E4316D9EE6CF476A372AE8",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:06:00.732572",
+      "fingerprint": "9b382c85a74748d9e9e3a3c060fdac81"
+    },
+    {
+      "title": "大模型本身已经不那么刺激了,真正热闹的地方挪到了两个方向",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9wjNZxK4OIW5wOYKHHj0NlblIUNVYw056YVdjWMQCGe2FhPGDBcLu7462qijKdIbRwSPcPpDDYmzZ3ZG-zJWCLfQDIBRdpI3JWxzFMlyKipSlHyeo1BSCYwvb05ROkECzqCwxbvqwXW0S-DhX-tq5qoanu101QDEGoq9e8Yjig75e0WC6Sbi7DA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B24CCE39B3548AF29E98CA26D4E4316D9EE6CF476A372AE8",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:06:00.737851",
+      "fingerprint": "e2a9de2dc15197e53c52923184ed1309"
+    },
+    {
+      "title": "大模型工程化经典著作《机器学习工程实战》免费pdf分享",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZsADNqy68Kp81OceR_KeIZVqXa8Fplpd9G7zBWNhwdCZiBZ44ciOHekLC1eQmipb3_hqPG4C4dxksgG2iB3deDqABKRaPL-FqkR3qCoRTxixEK2TlzcDYgVRt2sYFm88-z_og16JxdwKvKf2u3isWYWpVea0Z-U5yeG6G7xv8vmlB96byt9EmA9rAWvSZa5cFjA3rMBwFjpm54z_tGSZTqA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B24CCE39B3548AF29E98CA26D4E4316D9EE6CF476A372AE8",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:06:00.743367",
+      "fingerprint": "b497e6ad3e07306ab23c10b2285a2dad"
+    },
+    {
+      "title": "微信AI助手灰度上线,诺贝尔化学奖得主加入Anthropic,英特尔携手联电攻坚3nm工艺,挪威小学生将被禁用AI,这就是今天的其他大新闻!",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ_UTRcojn5Jg1OceR_KeIZVqXa8Fplpd94n4aEkViCoztzB7XqFEiaKKRQACqYGnP0LrUpi7XzymUG8916EZVPPSYxNAGqBuJLGsxHwBRRtcqa-l8ed_9jy-vqGssrnHrMYX61PhggsKU1LO2Ps972f0zNbYMWE80BXABpMIkpR_eiLjPbKa-YK5vtGQoXa9-YjalBFhr_WTS-e4Yz84xMA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B24CD0A18763BDC5A9AFFD11E32919AAAA3BB0676A372AE8",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
@@ -835,13 +929,32 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:26.471773",
-      "fingerprint": "aa7e5ccbcccf49144729831251337383"
+      "first_seen": "2026-06-21T08:06:01.131965",
+      "fingerprint": "52500ed6998150f2bfb139e4260762c2"
+    },
+    {
+      "title": "被AI硬控的韩国,教育正在加速分化",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ_UTRcojn5Jg1OceR_KeIZVqXa8Fplpd9gRKqoNDBczM-cJSgCpdrEMqtrJgaGddTt9AktaLdoYDa8ZgFAEoR3bkbGVoBiElesRkmpgaL7UoYlEV4iUnvDRjEat5cmA8QbITvrU2TmIcTY2AaSa9S5Fol6ZoiJ_wH-Na1NsYCIlgrDs7VoGRdvpLOZtazJfmTGz2gYkrt99WAFV_3u-a3OQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B24CD0A18763BDC5A9AFFD11E32919AAAA3BB0676A372AE8",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-21T08:06:01.142856",
+      "fingerprint": "801fb832a7b057039fa6a0d2c5ff5324"
     },
     {
       "title": "网民拍下人工智能领域某知名公众人物端午假期在合肥私人行程,平台迅速判定涉嫌肖像权侵权,相关内容即刻下架",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbD2PMl3quJPANl-3MsDGB8lqXa8Fplpd9Pi7jzCKEB_8AknBiq19051WZkRam7exj_SG3aH-jgsIt-HEq810tZv2NCcMZmiV80_D9eUSz5RrPCAxGIja9fAkz6N_wEmC-pDNToHw2gj5_O-nu6_y2ofGA1CGVb1hOtfODmuX8RF1zBxcwJvY1Jx5GoWl6IKnbo9N1GAPfI_8YJSSFPgfogQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B030EE1CB85F82F99590C125D5688CD59603155A6A36D666",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ_UTRcojn5Jg1OceR_KeIZVqXa8Fplpd9VCci3KOf0GLJ99LoegIqwwHH3olrzYu0H-JZfmSb6jFenFQROABORcsaWStYv0JyW004-Z0CQZhDH10BjEroqNUdFrJJlApT3RA_hSstEUVG7lo0fq_OQSbohpsJg1BKrsP4zYEiCmkqmM-WAkPr9ziZ1NEwhM1xTDsYmWa72_yFW6cwuUnkdA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B24CD0A18763BDC5A9AFFD11E32919AAAA3BB0676A372AE8",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
@@ -851,16 +964,16 @@
         "国内内容",
         "微信文章"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-06-21T02:05:26.480945",
       "fingerprint": "91f260de3403fd42c9148a65f80a0997"
     },
     {
-      "title": "转 | 新增人工智能专业!广东培正学院2026年普通本科招生计划公布!",
+      "title": "许勤调研人工智能发展并主持召开座谈会",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbD2PMl3quJPANl-3MsDGB8lqXa8Fplpd9L4mCZt2y0dJO2GOlHfNM7XWar6g1rgbh2wOhSZRIvKUlYGJW7IIVBw9weLfl38cv66AfpN0zBexkwnQc-dvHY5-ggMHcksraUaBjIHAjdwnxJ9Vlg1K8sCVioREikF3eaGbjS90lJ6ukSFXypMdDDKWamCuXjgDq0uQ36QViLOOE8RsmObDbtQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B030EE1CB85F82F99590C125D5688CD59603155A6A36D666",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ_UTRcojn5Jg1OceR_KeIZVqXa8Fplpd9MMVtoGH7SXYsAIH4EETwPV9L7tkCwqCefYwh2tG5FNVAwSf-X9R23UmT1jL6evNVLTRezoa_VPDVHk7uhrqvwnmqNjk8KR1x9qxH4QTQ9j8BmaxgL6dT97nwPAGt3wg_47c_ZCglvl6ppfxVgwCiej5_6f1jyEQtFlXpPj1jxP7wdVqCwyPdzA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B24CD0A18763BDC5A9AFFD11E32919AAAA3BB0676A372AE8",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
@@ -873,13 +986,13 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:26.485709",
-      "fingerprint": "94346d0969b93b6e47127a73ec7a2561"
+      "first_seen": "2026-06-21T08:06:01.159011",
+      "fingerprint": "34f3f86780b62011b32100957ca7d2f2"
     },
     {
-      "title": "《Palantir边缘人工智能》手册",
+      "title": "挪威将禁止6到13岁小学生使用生成式人工智能,防止对学习产生负面影响;此前计划禁止16岁以下人群使用社媒",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbD2PMl3quJPANl-3MsDGB8lqXa8Fplpd9Oay3BaI54mkWUjxmid4vlXtzAWOH7K4sh1PG1RYgIfGMh3vucViwrFMmd4JCIoCLeUdp1T_Jv26S1twYzARYjXBgBDPrri5tT04k9v8Hqnl3esli5wJm65XHF1FfC8MXkPCQEvHJByMzyFjceFUOFArYDa5_lK0JBD6htvj2QMiE8RsmObDbtQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B030EE1CB85F82F99590C125D5688CD59603155A6A36D666",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ_UTRcojn5Jg1OceR_KeIZVqXa8Fplpd9VCci3KOf0GLJ99LoegIqwwHH3olrzYu0H-JZfmSb6jFenFQROABORX8eEO8N_duUUGHa1Zka8V-QV6XcwwbGngD-M8mF5SnzOdeDDVksbbePdgQM8MxbQWTL3G1yY_9H778jJnThb_yTV68Hl8yFZTqyePccPcU8-nS7sTN8fVFOJBjQH7pCxQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B24CD0A18763BDC5A9AFFD11E32919AAAA3BB0676A372AE8",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
@@ -892,38 +1005,19 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:26.490276",
-      "fingerprint": "4bff0117517a64a334a0140b135b6c31"
-    },
-    {
-      "title": "当AI贯穿消费到产业,618彻底变了",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS226OF6giAEbD2PMl3quJPANl-3MsDGB8lqXa8Fplpd9eQq4Bb_zG1HKPnmG01xnJ76cLpPVuFFBUnRcvB_EMN1svnucxIGXu7PWYdxemhRRix6BIrxLuQRTReGAyXRxTQ6DC9bOoaNLspeUEh4e6_8dTnk8a3WRfD07G0Ntr37kmlYuAa8zHSGFu_sIoe9LKLBUbNz7YqxEJ7nDA6DlpQC54z_tGSZTqA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B030EE1CB85F82F99590C125D5688CD59603155A6A36D666",
-      "snippet": "微信文章 | 关键词: 人工智能",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-06-21T02:05:26.494323",
-      "fingerprint": "c9dff62c64af6183bb70bb80b0aae068"
+      "first_seen": "2026-06-21T08:06:01.163940",
+      "fingerprint": "ee5159218426fc813d60abcd5ce864b6"
     }
   ],
   "stats": {
     "by_platform": {
-      "hackernews": 19,
+      "hackernews": 20,
       "baidu": 20,
-      "weixin": 11
+      "weixin": 15
     },
     "by_rating": {
       "S": 0,
-      "A": 50,
+      "A": 55,
       "B": 0
     }
   }
