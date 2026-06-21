@@ -1,326 +1,241 @@
 # 🔥 AI×超级个体 热点采集报告 (每日)
-> 报告生成时间：2026-06-21 23:22
-> 采集方式：自动调度 · `hotspot_engine.py`
-> 信息源数量：3个
-> 采集条目数：52条
-> 去重统计：排除 13 条 · 跨日期重复 3 条 · 热度上升中 3 条 · 指纹库总计 352 条
+> 报告生成时间：2026-06-21 CST（周日）· 08:00
+> 分析方法：Hermes Agent · LLM 分析 · SOUL 框架赋能
+> 分析焦点：AI 转型 · 超级个体 · 主体性建构 · 认知升级
+> 🆕 本期重点：**G7 AI监管峰会：Altman/Hassabis/Amodei三国领导人同台 / Coursera AI课程每3秒一人报名 / 关键博客连续第7天全静默 / 周末数据量偏低（AI HOT仅7条）**
+
+> ⚠️ 关键博客：连续第7天全静默——Fable 5发布后的消化期进入第2周。这不是"没新闻"，是作者们在深度思考、外围故事在持续发酵。周边活跃程度：🟡活跃。
 
 ---
-## 📊 各平台热点总览
 
-### 🟡 百度热搜
+## 📋 本期热点清单（Top 8 优先排序）
 
-- **纸短情长 照映初心**
-  - 百度热搜: 纸短情长 照映初心
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
+| 优先级 | 标题（原文） | 中文摘要 | 平台 | 概览 | 与赛道的关联度 | 建议内容方向 |
+|--------|-------------|---------|------|------|---------------|-------------|
+| P0 | G7 AI Summit: Macron Urges US to Share Cutting-Edge AI — Altman, Hassabis, Amodei Meet World Leaders（G7 AI监管峰会：马克龙敦促美国分享尖端AI，Altman/Hassabis/Amodei与各国领导人会面） | 法国总统马克龙在G7工作午餐上召集OpenAI Sam Altman、Google DeepMind Demis Hassabis、Anthropic Dario Amodei三位AI领袖，主题为"确保AI安全、快速、有效部署"。马克龙当记者面"强硬恳请"美国不要将尖端AI据为己有——直接回应Fable 5出口管制。 | SecurityWeek/Tavily/Ynetnews（多源交叉） | Fable 5涟漪持续扩大：从华盛顿到巴黎，从五角大楼到G7——AI模型的全球封禁已成为地缘政治博弈的核心筹码。对受众的核心信号：**你依赖的平台，正被你不认识的人在你不了解的桌子上决定命运。** | 高 | AI转型/认知成长 |
+| P0 | Coursera CEO: Someone Enrolls in an AI Course Every 3 Seconds（Coursera CEO：每3秒就有一人报名AI课程） | Coursera CEO Greg Hart公开表示全球AI技能需求呈爆炸式增长——平台上每3秒就有一个新用户报名AI课程。公司正在将AI工具嵌入学习流程，并推动"验证评估+能力证明"机制来弥合AI技能鸿沟。 | CNBC TV18/Brave News | AI技能焦虑已从"话题"进化为"全民行为"。每3秒一人=每天28,800人=每年1000万人。对超级个体赛道：**不是"要不要学AI"，是"学慢了就会被正在学的人替代"。** | 极高 | 认知升级/教育方法 |
+| P1 | The AI Income Stack: How Smart Solopreneurs Combine 3 Revenue Streams（AI收入堆栈：聪明的超级个体如何组合3条收入流） | 2026年六位数收入的超级个体不是更努力——他们构建了一种AI使之成为可能的特定分层收入模型。三条收入流（数字产品+服务+被动收入）由AI Agent协同运转，单人即可实现过去需要团队的收入结构。 | Substack (BizWhat)/Brave News | 继续上周W-01"AI Agent即员工"叙事——从工具到架构的升级。不是"哪个AI工具好用"，而是"如何用AI设计收入系统"。 | 高 | 超级个体/商业逻辑 |
+| P1 | French President's AI Plea + Anthropic Model Ban Enters Geopolitical Phase（马克龙AI恳求+Anthropic模型禁令进入地缘政治阶段） | WSJ报道AI市场的狂热正撞上政治现实——Anthropic的IPO前景不仅取决于投资者，还取决于选票。以色列安全专家称Fable 5禁令是"战术性动作而非战略性"。Ynetnews称此举将AI竞赛变成"地缘政治测试"。 | WSJ/Ynetnews/Tavily（三源交叉） | Fable 5故事从"模型被封"→"安全争议"→"地缘政治筹码"三阶段演进。对受众：这不是AI技术新闻——这是**全球权力结构重组的实况直播**。 | 中 | 认知成长/哲学社会 |
+| P1 | Agentic AI: The Next Layer Beyond Nvidia — Application Layer Takes Center Stage（Agentic AI：超越Nvidia的下一层——应用层走向舞台中央） | Forbes分析AI投资周期的第二章：从GPU/基础设施（Nvidia）转向应用层。Morgan Stanley分析师描述硅谷格局"一夜之间每家公司都变成了Agentic公司"。关键问题：应用层能否产生足够收入来证明基础设施投资的合理性？ | Forbes/Brave News | 对超级个体的直接信号：**基础设施层已经建好了，现在轮到应用层——也就是你。** 不是买铲子的人赚钱，是拿铲子挖金子的人赚钱。 | 高 | 商业逻辑/AI转型 |
+| P2 | India's Creator Economy Built for the AI Era of 2026（印度的创作者经济为2026 AI时代而生） | NJF Holdings创始人Nicole Junkermann分析印度为何是AI创作者经济的天然沃土：庞大年轻人口+数字基础设施+英语优势+低成本AI工具普及。印度创作者正用AI工具跳过传统职业阶梯。 | Times of India/Brave News | 全球化视角下的超级个体运动。中国和印度都在经历"AI赋能个体"的结构性变革——**这不是硅谷现象，是全球现象。** | 中 | 海外视角/超级个体 |
+| P2 | State of Solopreneurship 2026: 153 Founders Reveal Revenue, Channels & AI Usage（2026超级个体状态报告：153位创始人披露收入、渠道与AI使用） | Adriana Tica调研153位一人企业/创始人驱动型企业，发布数据驱动的行业基准报告：平均收入区间、最高收入产品类型（服务vs数字产品vs会员）、变现速度、增长渠道选择。不含品牌商单创作者偏见。 | adrianatica.com/Brave News | 数据驱动的赛道基准。对受众：**不只是"有人成功了"——是有数据告诉你成功的路径分布。** 适合做"赛道数据可视化"内容。 | 中 | 商业逻辑/超级个体 |
+| P2 | 微软双向转售GPT与DeepSeek：全球最大AI中间商（Microsoft as the world's largest AI broker: reselling both GPT and DeepSeek） | 微软同时转售OpenAI GPT和DeepSeek模型，成为全球最大的AI模型中间商。这种"双向代理"策略让微软在AI价值链中占据独特位置——不生产最先进的模型，但控制着通往企业客户的管道。 | aihot（X: 阿易AI Notes） | 平台依赖风险的新案例：**你通过微软用GPT，微软也通过同一管道卖DeepSeek。你的AI供应商的中立性为零。** | 中 | 商业逻辑/认知成长 |
 
-- **塔克拉玛干沙漠边缘地带现洪水**
-  - 百度热搜: 塔克拉玛干沙漠边缘地带现洪水
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **卖茶直播间27位茶农20个是演员**
-  - 百度热搜: 卖茶直播间27位茶农20个是演员
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **梅雨季来了 请查收你的应对攻略**
-  - 百度热搜: 梅雨季来了 请查收你的应对攻略
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **53岁脑死亡男子接受猪肝猪双肾移植**
-  - 百度热搜: 53岁脑死亡男子接受猪肝猪双肾移植
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **滴露的“有毒广告”不能下架就完了**
-  - 百度热搜: 滴露的“有毒广告”不能下架就完了
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **男子煮粽子时狗狗狂叫 30秒后惊呆**
-  - 百度热搜: 男子煮粽子时狗狗狂叫 30秒后惊呆
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **中国男篮91-81击败澳大利亚**
-  - 百度热搜: 中国男篮91-81击败澳大利亚
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **多预警齐发！大暴雨特大暴雨来了**
-  - 百度热搜: 多预警齐发！大暴雨特大暴雨来了
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **伊朗谈判代表团拒绝与美方合影**
-  - 百度热搜: 伊朗谈判代表团拒绝与美方合影
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **日薪180元实习生弄丢客户6.5万手表**
-  - 百度热搜: 日薪180元实习生弄丢客户6.5万手表
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **“职业本科无法考研”不实**
-  - 百度热搜: “职业本科无法考研”不实
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **纸尿裤事件记者发布公开信**
-  - 百度热搜: 纸尿裤事件记者发布公开信
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **裁掉5万人 救得了当年“神车”吗**
-  - 百度热搜: 裁掉5万人 救得了当年“神车”吗
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **世界杯32强已出3席**
-  - 百度热搜: 世界杯32强已出3席
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **刘强东：不能想着“捞一把”就走**
-  - 百度热搜: 刘强东：不能想着“捞一把”就走
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **端午过后市场上的粽子库存如何处理**
-  - 百度热搜: 端午过后市场上的粽子库存如何处理
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **世界杯官方发土味喜报祝贺中国裁判**
-  - 百度热搜: 世界杯官方发土味喜报祝贺中国裁判
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **张本美和0-3惨败出局**
-  - 百度热搜: 张本美和0-3惨败出局
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-- **马宁称给C罗黄牌没有任何压力**
-  - 百度热搜: 马宁称给C罗黄牌没有任何压力
-  - 📎 https://top.baidu.com/board?tab=realtime
-  - 🏷️ 百度热搜
-
-### 🟡 HackerNews
-
-- **Beyond All Reason (Free Total Annihilation Inspired RTS)**
-  - ↑195 | HN热门
-  - 📎 https://www.beyondallreason.info
-  - 🏷️ 海外讨论
-
-- **Who Owns Your ATProto Identity? Hint: It's Probably Not You**
-  - ↑47 | HN热门
-  - 📎 https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you
-  - 🏷️ 海外讨论
-
-- **The case against geometric algebra (2024)**
-  - ↑87 | HN热门
-  - 📎 https://alexkritchevsky.com/2024/02/28/geometric-algebra.html
-  - 🏷️ 海外讨论
-
-- **Commodore Made a Digital Detox Phone That Isn't Dumb**
-  - ↑19 | HN热门
-  - 📎 https://www.wired.me/story/commodore-made-a-digital-detox-phone-that-isnt-dumb
-  - 🏷️ 海外讨论
-
-- **David Ahl's Basic Computer Games Ported to C**
-  - ↑32 | HN热门
-  - 📎 https://github.com/proteanthread/bcg
-  - 🏷️ 海外讨论
-
-- **A 3D voxel game engine written in APL**
-  - ↑100 | HN热门
-  - 📎 https://github.com/namgyaaal/avoxelgame
-  - 🏷️ 海外讨论
-
-- **Google Hits 50% IPv6**
-  - ↑280 | HN热门
-  - 📎 https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/
-  - 🏷️ 海外讨论
-
-- **Two Qwen3 models on one DGX Spark: the residency math**
-  - ↑28 | HN热门
-  - 📎 https://www.devashish.me/p/two-qwen3-models-on-one-dgx-spark
-  - 🏷️ 海外讨论
-
-- **Loupe – A iOS app that raises awareness about what native apps can see**
-  - ↑409 | HN热门
-  - 📎 https://github.com/mysk-research/loupe
-  - 🏷️ 海外讨论
-
-- **Running MicroVMs in Proxmox VE, the Easy Way**
-  - ↑136 | HN热门
-  - 📎 https://taoofmac.com/space/blog/2026/06/18/1845
-  - 🏷️ 海外讨论
-
-- **Renting a sewing machine from the library**
-  - ↑285 | HN热门
-  - 📎 https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland
-  - 🏷️ 海外讨论
-
-- **Slow breathing modulates brain function and risk behavior** [🔄 第2次出现]
-  - ↑290 | HN热门
-  - 📎 https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9
-  - 🏷️ 海外讨论
-
-- **Zigzag Decoding with AVX-512**
-  - ↑104 | HN热门
-  - 📎 https://zeux.io/2026/06/17/zigzag-decoding-avx512/
-  - 🏷️ 海外讨论
-
-- **Epoll vs. io_uring in Linux** [🔄 第2次出现]
-  - ↑209 | HN热门
-  - 📎 https://sibexi.co/posts/epoll-vs-io_uring/
-  - 🏷️ 海外讨论
-
-- **Smashing the NIMBYs created modern capitalism**
-  - ↑12 | HN热门
-  - 📎 https://worksinprogress.co/issue/how-abolishing-the-stakeholder-state-caused-the-industrial-revolution/
-  - 🏷️ 海外讨论
-
-- **A tale of two path separators**
-  - ↑47 | HN热门
-  - 📎 https://alexwlchan.net/2021/slashes/
-  - 🏷️ 海外讨论
-
-- **Developers don't understand CORS (2019)**
-  - ↑273 | HN热门
-  - 📎 https://fosterelli.co/developers-dont-understand-cors
-  - 🏷️ 海外讨论
-
-- **Windows UI evolution: Clicking an unassociated file**
-  - ↑98 | HN热门
-  - 📎 https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html
-  - 🏷️ 海外讨论
-
-- **Rare medieval bookmark exceeds expectations at auction**
-  - ↑26 | HN热门
-  - 📎 https://www.thehistoryblog.com/archives/76314
-  - 🏷️ 海外讨论
-
-- **15-minute at-home Lyme disease tick test**
-  - ↑164 | HN热门
-  - 📎 https://www.bostonglobe.com/2026/06/17/business/lyme-disease-tick-test/
-  - 🏷️ 海外讨论
-
-### 🟡 搜狗微信
-
-- **AI入「地」,云鲸向海**
-  - 微信文章 | 关键词: AI
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9T1gh0zUtBl6rHhL1svUidJo6o7nqESuWizkCJulkHo04Mp8qu9RK9qdPGF6P2iD4ktn07M9gskhH_VbFjj0fVPV4D70VEt6ZTANCu5F77fhvEmj4sK7o-NfqGWOWanNoVAP7jKdJhvkw8wOzmHmziD0OOOAas4__IVrBeOk2KKkGX_iHL9MadA..&amp;type=2&amp;query=AI&amp;token=B75242826F89542C434417865A6903AB435F7BF06A3801B6
-  - 🏷️ 国内内容, 微信文章
-
-- **AI距离我们的生活有多远?**
-  - 微信文章 | 关键词: AI
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9FdFgV6P0YgxSzPFL3qmfYIubaw8DDuaFWdR3lbYvXf8f6NalvsOg20-VDrF-Ko9xfBqDmYhexwgN7ohqDVBen9QL_v2edF9hO0KvCG8-LriTr6lkwBLNdUtSBvgMNzy0LAfiYgljNHKDapQZQyJwyxyUhgLouVHCAZYPlaK--lOrCDCayYmfpA..&amp;type=2&amp;query=AI&amp;token=B75242826F89542C434417865A6903AB435F7BF06A3801B6
-  - 🏷️ 国内内容, 微信文章
-
-- **AI+医疗,竟然是这样落地的**
-  - 微信文章 | 关键词: AI
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd96Sl6egTxYkj6TpbK_wp3NhCv-gsVC4OA4vp-7rLIhDcUlG17cWWuM1YnLonJ3M0CHAffP8wNJW7W4QaEwPEVjHQQqJvlYa6islpkjGsekpzPgG1uA1GRLbcp-LcuwydZZAqJg9WaZOBtDUM1-rujrvF39ofbvw9OZkQTNTvjbjyFW6cwuUnkdA..&amp;type=2&amp;query=AI&amp;token=B75242826F89542C434417865A6903AB435F7BF06A3801B6
-  - 🏷️ 国内内容, 微信文章
-
-- **AI大模型进手机,不该只画饼**
-  - 微信文章 | 关键词: AI
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9T1gh0zUtBl6rHhL1svUidJo6o7nqESuWizkCJulkHo04Mp8qu9RK9gXJxDy3Ns-X4u3f60GwNjmf4yyDbTfYRKmtSSo6_8nFFLBLzlrqnrBXD1YuNrYgxRqGNlGzZnGXbBQTGtsTRQWk8b7XAkQqNJPeoqlEcwJUBLwH1T3xhzVr1dbZWbKUeQ..&amp;type=2&amp;query=AI&amp;token=B75242826F89542C434417865A6903AB435F7BF06A3801B6
-  - 🏷️ 国内内容, 微信文章
-
-- **大模型不是巨头的宠物**
-  - 微信文章 | 关键词: 大模型
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd96Sl6egTxYkj6TpbK_wp3NhCv-gsVC4OA4vp-7rLIhDcUlG17cWWuM2MTPxM4ANns6orOeqfMYY85Lt7Ydzn2IKmmDSLVZaZHwPYe6zmC4NDyzZvKg4eEbs7SMGmEk9frln2Zml3cpFFi3LI_Hja1izY0saT2AS9aqQeUvU6WS3b6zvkPgoArRQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B752454E8E69B5CDA2A5F767BB938DFAA387C6FC6A3801B7
-  - 🏷️ 国内内容, 微信文章
-
-- **大模型训练有多卷?揭开大模型算力之谜 | 钛媒体深度** [🔄 第2次出现]
-  - 微信文章 | 关键词: 大模型
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9gXHJ0xN391OzeeN7_yiXLfz7DF9cTB6QXTv5gvG33EM7r7xA4baGlNel6a3NOf4n955X9BtXuWleQDM8QOjtdlVMfL7-d8udrYODJrO3-pTuxnV0_AL_Hd7XrN0Fjgxh1babZZ5wV5d-WjfhuseLhoiJ36VFse9tiWVvUhxb7yxCy6umSSPEsg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B752454E8E69B5CDA2A5F767BB938DFAA387C6FC6A3801B7
-  - 🏷️ 国内内容, 微信文章
-
-- **5.4万亿!英伟达成AI最大地主,大模型巨头沦为算力佃农**
-  - 微信文章 | 关键词: 大模型
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9qxfrp4L7nckHHQNgxm4nYtEt7RwGaYMkzoARXG5QqBvJcaqvEThwQbWxNdHSQj3rgrIvbXGXUtnC76J_qKTd-TsGWlgfMl06JTJlaRrsUCgA1bGLjoepzB_5DanOkzSQFVDLOAZje_ky3YnIVABoQ8FIhuRtP9Mb52UmRtZfm7QHpHkoPMgL3A..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=B752454E8E69B5CDA2A5F767BB938DFAA387C6FC6A3801B7
-  - 🏷️ 国内内容, 微信文章
-
-- **撕裂的A股,站在AI浪潮的十字路口**
-  - 微信文章 | 关键词: 人工智能
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9rNDYcU1pLMohgQueBuHbWLQ3hajlROXgJgMqcFKwo_ImgO8BzheqZOwbSTPa0u1lw1XqWiABNSjXe8KkekyhE8Lbq20ryzq22Tb7PQ38vdHxghn7FLjtanjdSGojQ6XMlUoEQQ1LajU3vR8kWAuSLoHMkjCVz1DZIFEZspMXLDyq3X8EKMKOIA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B75247B421C11C630C0A58C9143CE60C0CB49F0B6A3801B7
-  - 🏷️ 国内内容, 微信文章
-
-- **吴倩遇到中年危机,无戏可拍,去读人工智能融合的硕士,坦言给母校捐款100万**
-  - 微信文章 | 关键词: 人工智能
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9JmCPNfMmfQYUZXEq086m1xxTLoHKczIIxckXi4nZ0ZQ_tauvhpK3tFW8HRkbS5Y3tqkL9CKdcBvF2sQ5c_uViIBGV8HLP_7YkxljkJlRXFYssuL8-dNC-5O463WpxpQ1rJz3VsLUuwZgmKGagdTnwXeHAXtkk2qCn1bJYGwyu2tf_71bqkOtiw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B75247B421C11C630C0A58C9143CE60C0CB49F0B6A3801B7
-  - 🏷️ 国内内容, 微信文章
-
-- **中医人工智能论文推送**
-  - 微信文章 | 关键词: 人工智能
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9defTLxyKA6ssC-PdwnmGJdGnoMUlrUuw_zPPnCDiqABTSVFgGxK8pJ7dl5zoAehMLR4DLP8tqL3ZiCxh1TSXJvk5m_jQ5NrnIym2qz5gB2YcV4QnlqK_LI8Fx3X85zJ8uvO81j7sfN6mpTSkYHtav1PapDC8H9nQexLBUVyLCG8tPujwwRB2Pw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B75247B421C11C630C0A58C9143CE60C0CB49F0B6A3801B7
-  - 🏷️ 国内内容, 微信文章
-
-- **人工智能技术应用(专本贯通)**
-  - 微信文章 | 关键词: 人工智能
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd9eHCxgZaG0OaKD82PankohOFU6RsmZxXZjD2XJxAx8yk74XxIAKCJ4U0oVzlUTU2C-qWv93GI-B82wXiq85uUoKIWTbAWgw0YZC6wj_ric2fv9w-fIPtILkFWGUTGg0ve-rk-6cLI-bDifE_64zLNmewAuuGAiRy34HCFhE7UmDkYJSSFPgfogQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B75247B421C11C630C0A58C9143CE60C0CB49F0B6A3801B7
-  - 🏷️ 国内内容, 微信文章
-
-- **银行业AI加速狂奔,首份人工智能安全开发应用指导意见拧紧&ldquo;安全阀&rdquo;**
-  - 微信文章 | 关键词: 人工智能
-  - 📎 https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-3Gvnu31hEZ2vMNZN41PrUWnD1hTGqTd1qXa8Fplpd92Buc2PK15T2LKrRLHFg92U6iw2XaJbN8BY_R0kEF-JuIYd7BPF0hWS1zk_GQpiQV33uLXw9Up-ZxSB6au76cPes4BrWNGmo9cGAwsqKQinH2lBOMF3G1mux_-xbxkwSiuGUfjT-fox89z5MjAJRyOTkxeg4uhGd1wD9yYJp5jvfFcvUoAZZH7Q..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=B75247B421C11C630C0A58C9143CE60C0CB49F0B6A3801B7
-  - 🏷️ 国内内容, 微信文章
+> 排序逻辑：P0=必追（赛道直接相关+多平台共振），P1=可追（相关但需要角度切入），P2=参考（边缘相关但趋势信号）
+> ⚠️ 本期为周末+博客全静默第7天，P0条目仅2条。数据量正常偏低（周末模式）。
 
 ---
-## 👤 重点人物观点追踪
 
-> 本期未获取到有效观点（部分海外源受限，见下方附录）
+## 🇨🇳 今日中国AI圈动态（via aihot · 日报专属）
 
----
-## 📈 本期热点标签分布
+> 以下为 aihot.virxact.com 今日精选的中国 AI 行业动态。
+> 标记说明：🔴 P0（直接选题）| 🟡 P1（间接相关）| ⚪ P2（行业背景）
 
-  海外讨论: ████████████████████ 20
-  百度热搜: ████████████████████ 20
-  国内内容: ████████████ 12
-  微信文章: ████████████ 12
+### 🔴 直接选题（P0）
+*本期无P0条目。*
 
----
-## ⚠️ 附录：受限信息源及获取建议
+### 🟡 行业动态（P1-P2）
+- 🟡 [tip] 开源教程《Deep Agents 实战》发布 —— X：邵猛 (2026-06-20)
+- 🟡 [tip] OpenRouter vs Portkey：你的团队该选哪个LLM网关？ —— OpenRouter RSS (2026-06-19)
+- 🟡 [tip] baoyu-design Skill迭代：修复导出样式，支持AI配图导出PPTX —— X：宝玉 (2026-06-19)
+- ⚪ [industry] 微软双向转售GPT与DeepSeek成全球最大AI中间商 —— X：阿易AI Notes (2026-06-20)
+- ⚪ [ai-products] NVIDIA SpatialClaw：免训练空间推理框架 —— MarkTechPost (2026-06-19)
+- ⚪ [industry] Figure机器人数首超人类员工 —— X：Rohan Paul (2026-06-19)
+- ⚪ [industry] JAWBONE Act：打击政府施压平台压制合法网络言论法案 —— HN (2026-06-19)
 
-以下信息源本次无法通过HTTP直连获取，需要替代方案：
-
-| 信息源 | 失败原因 | 建议替代方案 |
-|--------|---------|-------------|
-| Reddit r/Entrepreneur | 无法获取 | Reddit API限制；尝试old.reddit.com或使用缓存的RSS |
-| Reddit r/solopreneur | 无法获取 | Reddit API限制；尝试old.reddit.com或使用缓存的RSS |
-| Reddit r/singularity | 无法获取 | Reddit API限制；尝试old.reddit.com或使用缓存的RSS |
-| Reddit r/artificial | 无法获取 | Reddit API限制；尝试old.reddit.com或使用缓存的RSS |
-| Reddit r/MachineLearning | 无法获取 | Reddit API限制；尝试old.reddit.com或使用缓存的RSS |
-| 微博热搜(API) | 失败 - 反爬限制 | 通过tophub微博子页面获取（已在collect_tophub中覆盖） |
-| 知乎热榜 | 无法访问（反爬限制） | 使用知乎API zhuanlan.zhihu.com/api/posts?或通过聚合工具 |
+> 📊 今日 aihot 统计：共 7 条 | P0: 0 条 | P1: 3 条 | P2: 4 条
+> 🆚 与海外源交叉验证：[交叉验证] 1 条（微软AI中间商）| [aihot独家] 6 条
+> ⚠️ 周末数据量偏低（工作日通常30-40条），属正常现象。
 
 ---
-## 💡 对卷哥的选题建议
 
-基于本次采集，以下方向值得追：
+## 👤 关键人物观点追踪
 
-1. **Beyond All Reason (Free Total Annihilation Inspired RTS)** — 来源：HackerNews
-   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
+> ⚠️ **连续第7天全静默**（自6月15日Fable 5发布后）。所有8位关键人物博客均无新内容。
+> 这不是"采集失败"——Jina Reader全部成功提取（文件大小1KB-60KB正常范围）。
+> 这是Fable 5发布后第2周的深度消化期。作者们在思考、在写作、在等待尘埃落定。
+> 周边活跃程度：🟡活跃（G7峰会、Coursera数据、AI工具/超级个体内容持续产出）。
 
-2. **Who Owns Your ATProto Identity? Hint: It's Probably Not You** — 来源：HackerNews
-   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
+### 🆕 博客静默期间的关键信号推断
 
-3. **The case against geometric algebra (2024)** — 来源：HackerNews
-   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
+**Sam Altman** — 参加G7工作午餐（6月18日，周三），与马克龙、Hassabis、Amodei同台。这是Altman在Fable 5事件后首次出现在多边外交场合。信号：OpenAI没有回避与美国AI政策"不同调"的国际对话。
 
-4. **Commodore Made a Digital Detox Phone That Isn't Dumb** — 来源：HackerNews
-   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
+**Dario Amodei** — 同台出席G7。Anthropic同时在华盛顿（谈判恢复模型）和巴黎（回应国际压力）两线作战。首尔办公室刚开业，韩国市场按计划推进。
 
-5. **David Ahl's Basic Computer Games Ported to C** — 来源：HackerNews
-   建议切入角度：结合[超级个体/AI转型]框架 + 海外讨论
+**Demis Hassabis** — 同台出席G7。Google DeepMind在AI治理对话中保持存在但不处于风暴中心。
+
+**Ethan Mollick** — 最新文章仍为6月9日"What it feels like to work with Mythos"和6月4日"Co-existence and the end of co-intelligence"。Fable 5后的深度反思可能需要更长时间成文。
+
+**其他博客** — Karpathy（最新4月30日Sequoia Ascent总结）、Naval（最新6月1日工业政策讨论）、Paul Graham、Benedict Evans（最新5月24日AI与工作分析）——均为已知内容，无新发布。
 
 ---
-*报告由 Hermes Agent 自动生成 · 2026-06-21 23:22*
+
+## 🔍 深度分析（Top 3）
+
+### 1. 每3秒一人报名AI课程：技能焦虑的"全民行为化"
+
+- **热点来源**：Coursera CEO Greg Hart / CNBC TV18（2026-06-19）
+- **为什么值得深挖**：
+  这个数据点不是"AI教育市场很大"——这个大家都知道。它的力量在于**把抽象的焦虑具象为一个可感知的数字**。每3秒=每天28,800人=每年超1000万人。受众听到这个数字时的心理路径是：① 震惊（"这么多人？"）→ ② 焦虑（"我是不是慢了？"）→ ③ 行动（"我得赶紧"）。
+- **SOUL 框架关联**：
+  - 控制性理念：**在AI重塑一切的时代，真实稳定的自我是唯一不可被替代的资产。** 但前提是——你得先理解AI。学AI不是为了"成为AI专家"，是为了**保护你的不可替代性**。
+  - 通过仪式阶段：此条最契合「分离阶段」——帮助受众认识到"旧的学习节奏/旧的技能安全感已经失效"。28,800人/天的数据是一记重锤。
+  - 认知重构点：从"AI技能焦虑=我不够好"重构为"AI技能焦虑=你在乎自己的未来——这份在乎本身就是杠杆"。
+- **叙事建议**：
+  - 反常识钩子：「你以为AI焦虑是坏事？每3秒就有一个竞争对手用行动告诉你——焦虑但不行动才是。」
+  - 情绪弧线：震惊（数据）→ 共鸣（"我也焦虑"）→ 赋能（"焦虑是信号，不是缺陷"）→ 行动（具体第一步）
+  - 受众镜像：转型者Marcus——有能力但不知道如何"为自己工作"，把AI学习当成"又一个要学的东西"而不是"转型的杠杆"。
+- **内容价值**：将"AI技能焦虑"从负面情绪重构为正向行动信号。适合作为"AI时代认知升级"系列的开篇。
+- 📊 信息完整度: 80%（CNBC TV18 snippet + Tavily交叉验证）
+
+### 2. G7 AI峰会：当你的AI工具变成地缘政治筹码
+
+- **热点来源**：SecurityWeek / WSJ / Ynetnews / Tavily（多源交叉，2026-06-18~20）
+- **为什么值得深挖**：
+  Fable 5封禁事件的三阶段演进已完成：① 模型被封（6月13日）→ ② 安全争议+出口管制（6月14-17日）→ ③ 地缘政治筹码（6月18日G7峰会）。马克龙当记者面"强硬恳请"美国不要独占AI——这不是技术讨论，这是外交喊话。
+
+  对超级个体受众的核心洞察：**你依赖的平台（Claude/GPT/Gemini），正在被你不认识的人、在你看不到的桌子上、用你听不懂的语言决定命运。** 分散化不是口号，是生存策略。
+- **SOUL 框架关联**：
+  - 控制性理念：AI时代唯一不可被替代的资产=真实的自我。但如果你把"自我"建立在单一AI平台上——那个平台可以一夜之间消失。
+  - 通过仪式阶段：阈限阶段——受众正处于"不上不下"的迷茫期。Fable 5的故事告诉他们：迷茫是合理的，因为这个行业本身就在迷茫。
+  - 认知重构点：从"AI工具让我更有能力"重构为"AI工具依赖=新的脆弱性——能力必须建立在工具之外的东西上"。
+- **叙事建议**：
+  - 反常识钩子：「世界上最先进的AI模型因为一个韩国电信公司和白宫的一通电话就全球下线了——而你还在纠结用Claude还是GPT？」
+  - 情绪弧线：荒谬感（"因为韩国电信？"）→ 恐惧（"这也太随机了"）→ 觉醒（"分散化不是可选项"）
+  - 受众镜像：觉醒者Alex——知道"不想要什么"但不清楚"想要什么"。Fable 5的故事帮他看清：**想要的是不被单一平台绑架的自由。**
+- **内容价值**：Fable 5系列的第4篇（继模型被封/安全争议/三线后涟漪之后）——从地缘政治视角完成故事的"全景叙事闭环"。
+- 📊 信息完整度: 80%（Tavily answer + Brave News多源交叉）
+
+### 3. AI收入堆栈：从"用AI工具"到"用AI设计收入系统"
+
+- **热点来源**：BizWhat Substack / Brave News（2026-06-19）
+- **为什么值得深挖**：
+  这是上周W-01"AI Agent即员工"叙事的自然升级。从"有一个AI Agent帮你做事"→"有三个AI Agent协同运转三条收入流"。这不是量的增加，是**质的跃迁**——从工具思维到系统思维。
+
+  三条收入流（数字产品+服务+被动收入）本身不是新概念。新的是：**AI让一个人运营三条收入流变得可行。** 过去你需要团队分管产品开发、客户交付、自动化运营——现在一个AI Agent栈覆盖全部。
+- **SOUL 框架关联**：
+  - 控制性理念：真实稳定的自我=不可替代的资产。**但"自我"不只是"你是谁"，还有"你怎么赚钱"。** 如果收入来源是单一且脆弱的，自我也不会稳定。
+  - 通过仪式阶段：融入阶段——帮助受众建立新的稳定身份。"超级个体"不只是"一个人做所有事"，而是"一个人设计一个系统，让AI帮你做所有事。"
+  - 认知重构点：从"我需要更多客户/更多流量"重构为"我需要更聪明的收入结构——AI让结构优化从概念变成操作"。
+- **叙事建议**：
+  - 反常识钩子：「六位数收入的超级个体不是更努力——他们是在你用AI写邮件的时候，用AI设计了一个不依赖任何单一收入来源的系统。」
+  - 情绪弧线：好奇（"什么系统？"）→ 恍然（"原来不是工具的问题"）→ 赋能（"我也可以"）
+  - 受众镜像：转型者Marcus——有能力但不知道如何"为自己工作"。收入堆栈给了他一张可操作的"为自己工作"的地图。
+- **内容价值**：适合作为"超级个体商业架构"系列的实操篇——不是讲"用什么工具"，是讲"怎么设计收入系统"。
+- 📊 信息完整度: 60%（Brave snippet + Substack摘要，原文Jina未提取）
+
+---
+
+## 💡 选题建议（Top 4，含执行路径）
+
+### 选题一：「每3秒就有一人报名AI课程——你在焦虑什么？」
+- **切入角度**：用Coursera的"每3秒一人"数据开场，重构AI技能焦虑——焦虑不是缺陷，是你在乎自己未来的信号。焦虑但不行动才是问题。
+- **内容形式**：口播（抖音60-90s）
+- **目标受众**：转型者Marcus + 探索者Lily
+- **预期共鸣点**：「我不是不努力，我是不知道该学什么——而这本身就是第一步。」
+- **执行步骤**：
+  1. 开场：抛出"每3秒一人"数据，制造震惊
+  2. 共情：命名焦虑——"你不是一个人，全球每天28000人和你一样"
+  3. 重构：焦虑是信号，不是缺陷——"你在乎，所以焦虑"
+  4. 行动：给一个ZPD内的最小步骤——"今天不用报名课程，今天只需要问自己一个问题：我最怕AI替代我的哪个能力？"
+- **建议发布平台**：抖音（破圈）+ 小红书（图文版"AI焦虑自查清单"）
+
+### 选题二：「你用的AI，正在被一群你不认识的人决定命运——Fable 5地缘政治篇」
+- **切入角度**：从G7峰会上马克龙"强硬恳请"美国分享AI切入，完成Fable 5四部曲的最终章：①模型被封 ②安全争议 ③三线后涟漪 ④地缘政治筹码。
+- **内容形式**：深度中长视频（B站10-15min）
+- **目标受众**：觉醒者Alex + 转型者Marcus
+- **预期共鸣点**：「我连用哪个AI都还没想清楚，他们已经在决定我能不能用AI了。」
+- **执行步骤**：
+  1. 回顾Fable 5事件时间线（30秒快速复盘）
+  2. 聚焦G7峰会：三国AI领袖同台，马克龙强硬表态
+  3. SOUL视角：单一平台依赖=新脆弱性
+  4. 行动框架：分散化三步走（模型分散化→工具分散化→收入分散化）
+- **建议发布平台**：B站（深度内容主阵地）
+
+### 选题三：「超级个体的收入系统——不只是用AI，是用AI设计你的赚钱结构」
+- **切入角度**：从AI Income Stack概念出发，讲清楚"用AI工具"和"用AI设计收入系统"的本质区别。三条收入流的AI协同模型。
+- **内容形式**：图文深度笔记（小红书）+ 口播摘录（抖音）
+- **目标受众**：转型者Marcus
+- **预期共鸣点**：「我一直以为是我缺流量，原来是我缺系统。」
+- **执行步骤**：
+  1. 问题导入："为什么你用了一堆AI工具，收入还是不稳定？"
+  2. 框架：三条收入流（数字产品+服务+被动收入）× AI Agent协同
+  3. 案例：参考Aaron Sneed 15 Agent议会（上周报道）
+  4. 实操：给一个最小可行的"两条收入流"起步方案
+- **建议发布平台**：小红书（图文种草型深度）+ 抖音（90s精华版）
+
+### 选题四：「Fable 5禁模事件四部曲：一个素材如何切出四个爆款」
+- **切入角度**：延续上期选题四的方法论方向。展示一个重大事件如何通过不同"叙事棱镜"切出不同内容：①技术角度→模型能力对比 ②安全角度→人类对AI的恐惧 ③商业角度→分散化策略 ④地缘政治角度→全球权力重构。
+- **内容形式**：B站深度视频（8-10min）
+- **目标受众**：内容创作者 + 探索者Lily
+- **预期共鸣点**：「原来我不是缺素材，我是缺切素材的方法。」
+- **执行步骤**：
+  1. 展示Fable 5事件全貌（1分钟时间线）
+  2. 四个叙事棱镜逐一展开（每个2分钟）
+  3. 方法论总结：任何重大事件的四棱镜分析法
+  4. 作业："用这个框架分析你今天看到的第一个AI新闻"
+- **建议发布平台**：B站（品牌深度+方法论IP建立）
+
+---
+
+## 📡 本周线索（Week of Jun 15-21）
+
+> 以下线索供周报汇聚使用。每条线索是一个跨日可能发酵的主题。
+
+| 线索ID | 主题词 | 今日信号 | 简要说明 |
+|--------|--------|---------|---------|
+| W-01 | AI Agent即员工：一人公司团队化叙事爆发 | 🟡中 | 本周密集出现多篇solopreneur+AI Agent内容。今日新增：AI Income Stack三层收入模型。本周末数据量偏低但叙事持续。 |
+| W-02 | Fable 5故事链：从封禁到地缘政治四阶段 | 🔴强 | G7峰会完成第四阶段（地缘政治筹码）。本周四篇日报（6/16-19+6/21）持续追踪，故事已形成完整闭环。 |
+| W-03 | 平台工具链集中化风险 | 🟢弱 | 今日微软"双向转售"GPT+DeepSeek案例延续此主题。OpenAI收购Astral（6/19）仍是本周主线。 |
+| W-04 | AI人才战争 | 🟢弱 | 今日无新增。上周Shazeer跳槽OpenAI（6/19）为主事件。 |
+| W-05 | 关键博客连续静默（Fable 5消化期第2周） | 🟢弱 | 连续第7天全静默（6/15-21）。G7峰会后Altman/Amodei/Hassabis均出席但无博客更新。周边活跃程度：🟡活跃（G7、Coursera等外围事件持续）。 |
+
+_历史线索：W-01 已连续 3 天（6/18-19+6/21）| W-02 已连续 3 天（6/19+6/21, 含6/16-18前序）| W-05 已连续 7 天（6/15-21）_
+
+> ⚠️ 本周缺失6/20（周六）日报。本周线索不完整（缺1天），但仍可汇聚。
+
+---
+
+## 💡 素材深挖提示（日报专属）
+
+> 本期热点中有以下话题适合使用 **hotspot-topic-excavator** 进行深度素材挖掘（6类内容+3类图片→文章大纲）：
+
+| 候选 | 话题 | 种子信号 | 优先级 |
+|------|------|---------|--------|
+| 1 | Fable 5事件四部曲全貌（模型封禁→安全争议→三线涟漪→地缘政治） | 本周6/16-21连续追踪，已形成完整故事闭环。G7峰会为最终章。 | ★★★ |
+| 2 | AI技能焦虑与Coursera"每3秒一人"数据背后的全球AI upskilling浪潮 | 单一强数据点+受众高共鸣+情绪价值高 | ★★★ |
+| 3 | 2026年超级个体AI收入系统（Agent即员工+收入堆栈+三层模型） | 本周密集出现多篇高质量内容，已形成赛道级叙事 | ★★☆ |
+
+> 🔧 使用方法：对卷哥说「用素材深挖采集器分析 [话题名]」即可自动启动，产出完整素材弹药包。
+
+---
+
+## ⚙️ 执行路径报告
+
+### 本期采集统计
+- **信息源数量**：5个（Brave News/Web + Tavily + AI HOT + Jina Reader关键博客 + Python引擎）
+- **采集条目数**：Brave 16条 + Tavily 30条 + AI HOT 7条 + Python 50条（其中AI相关12条）= 原始总量约65条
+- **去重排除**：Python引擎自动去重4条
+- **博客状态**：8人全静默（第7天，Jina Reader全部成功提取）
+- **受限源**：无
+- **Python引擎**：正常完成，50条（AI相关12条，均为搜狗微信/HN低优先级内容；百度热搜为全量噪声已丢弃）
+
+### 受限源及替代建议
+| 信息源 | 原因 | 替代方案 |
+|--------|------|---------|
+| 关键人物博客 | 连续第7天无更新（Fable 5消化期） | AI HOT + Tavily交叉推断博客状态。外围故事（G7/Coursera）已在Brave/Tavily充分覆盖 |
+
+### 上期选题建议的反馈
+> ⚠️ 上期（6/19）选题建议反馈：
+
+| 上期选题 | 是否执行 | 效果/原因 |
+|----------|---------|-----------|
+| 「2026超级个体的AI Agent团队搭建——CEO才是你唯一的工作」 | 待验证 | 素材仍新鲜，本周可继续考虑 |
+| 「OpenAI刚买下你写代码的工具——你的独立开发环境正在消失」 | 待验证 | OpenAI收购Astral在上周持续发酵 |
+| 「Fable 5被禁的真实原因——一个韩国电信公司告诉你的分散化必要性」 | 待验证 | G7峰会为这个故事提供了新的地缘政治维度——可升级为"四部曲完整版" |
+| 「一个素材切出三个爆款——Fable 5教会你的叙事棱镜」 | 待验证 | 本期末尾更新为"四部曲"版，建议升级执行 |
+| 「从VA到AI Agent——2026年超级个体的运营成本降了90%」 | 待验证 | 本期AI Income Stack内容为此选题提供了新素材 |
+
+---
+
+*报告由 Hermes Agent 结合 SOUL 框架自动生成 · 2026-06-21 08:00 CST*
