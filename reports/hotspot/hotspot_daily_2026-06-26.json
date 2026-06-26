@@ -1,0 +1,1168 @@
+{
+  "mode": "daily",
+  "generated_at": "2026-06-26 09:00:19",
+  "total": 63,
+  "items": [
+    {
+      "title": "An entire Herculaneum scroll has been read for the first time",
+      "source": "HackerNews",
+      "url": "https://scrollprize.org/firstscroll",
+      "snippet": "↑937 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:36.989034",
+      "fingerprint": "3b9c495ae6a28f1fba72443fc30f002e"
+    },
+    {
+      "title": "The 'papers, please' era of the internet will decimate your privacy",
+      "source": "HackerNews",
+      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
+      "snippet": "↑339 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:38.186645",
+      "fingerprint": "dd59ac676390b8b43bf3e34ca0cecaa5"
+    },
+    {
+      "title": "Un-0: Generating Images with Coupled Oscillators",
+      "source": "HackerNews",
+      "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+      "snippet": "↑102 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:39.340934",
+      "fingerprint": "be3f94bf28361a0c7958bd76905d63b1"
+    },
+    {
+      "title": "A game where you're an OS and have to manage processes, memory and I/O events",
+      "source": "HackerNews",
+      "url": "https://github.com/plbrault/youre-the-os",
+      "snippet": "↑81 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:40.556670",
+      "fingerprint": "134210ed6361a2607c0941f988243a23"
+    },
+    {
+      "title": "Oxide computer 3D rack guided tour",
+      "source": "HackerNews",
+      "url": "https://explorer.oxide.computer/",
+      "snippet": "↑285 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:41.791590",
+      "fingerprint": "8e9684699e7a3a1234e3ae447b9c6092"
+    },
+    {
+      "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed)",
+      "source": "HackerNews",
+      "url": "https://gchandbook.org/",
+      "snippet": "↑26 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:42.977133",
+      "fingerprint": "886652b9d7a56e70091feed6112a61b5"
+    },
+    {
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "source": "HackerNews",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "snippet": "↑191 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:44.227425",
+      "fingerprint": "a16d28dc396ff700a2e6ad4c9d8ab7b6"
+    },
+    {
+      "title": "IBM debuts sub-1 nanometer chip technology",
+      "source": "HackerNews",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "snippet": "↑255 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:45.582436",
+      "fingerprint": "8ebb9789e31a9febfeb9d6ab6fd9492f"
+    },
+    {
+      "title": "An oral history of Bank Python (2021)",
+      "source": "HackerNews",
+      "url": "https://calpaterson.com/bank-python.html",
+      "snippet": "↑66 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T08:51:47.063653",
+      "fingerprint": "d28dd1a79506a0a9a66bcb76b9e091d0"
+    },
+    {
+      "title": "Migrating from Proxmox to NixOS and Incus",
+      "source": "HackerNews",
+      "url": "https://www.nijho.lt/post/proxmox-to-nixos/",
+      "snippet": "↑42 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:05.274718",
+      "fingerprint": "5693e2177145086d7470992774e5053a"
+    },
+    {
+      "title": "Parallel Parentheses Matching",
+      "source": "HackerNews",
+      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+      "snippet": "↑47 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:06.460393",
+      "fingerprint": "215936419265e2605fff655eebba74ff"
+    },
+    {
+      "title": "Show HN: Chess-Inspired Roguelike",
+      "source": "HackerNews",
+      "url": "https://princechazz.com",
+      "snippet": "↑211 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:07.664996",
+      "fingerprint": "e44b86f390f8562d01f9758b7690ffe4"
+    },
+    {
+      "title": "Zig's new bitCast semantics and LLVM back end improvements",
+      "source": "HackerNews",
+      "url": "https://ziglang.org/devlog/2026/#2026-06-25",
+      "snippet": "↑212 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:09.034693",
+      "fingerprint": "7bd059d5da184223c2d755617abf1608"
+    },
+    {
+      "title": "OS9Map",
+      "source": "HackerNews",
+      "url": "https://yllan.org/software/OS9Map/",
+      "snippet": "↑179 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:10.417907",
+      "fingerprint": "e1b579928f7d39752824ba54a8498811"
+    },
+    {
+      "title": "The Doorman's Fallacy in action",
+      "source": "HackerNews",
+      "url": "https://rozumem.xyz/posts/17",
+      "snippet": "↑47 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:11.627156",
+      "fingerprint": "605dcb620a21fcb85f5d5430b202462b"
+    },
+    {
+      "title": "Apple raises prices of MacBooks, iPads",
+      "source": "HackerNews",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
+      "snippet": "↑619 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:12.837612",
+      "fingerprint": "cf627fa1f1684305ea810541a4138fb8"
+    },
+    {
+      "title": "The last Romans are still around",
+      "source": "HackerNews",
+      "url": "https://signoregalilei.com/2026/06/20/the-last-romans-are-still-around/",
+      "snippet": "↑34 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:14.063630",
+      "fingerprint": "f544bb6923054c96a980f64dceb2560c"
+    },
+    {
+      "title": "What is the mechanical world picture?",
+      "source": "HackerNews",
+      "url": "http://edwardfeser.blogspot.com/2026/06/what-is-mechanical-world-picture.html",
+      "snippet": "↑8 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:15.296215",
+      "fingerprint": "221b73daf0cd70aa160e4f79b2a90f00"
+    },
+    {
+      "title": "The annotated PyTorch training loop",
+      "source": "HackerNews",
+      "url": "https://idlemachines.co.uk/essays/pytorch-training-loop",
+      "snippet": "↑59 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.704361",
+      "fingerprint": "3de138045e3f3afe3e54f5125390821b"
+    },
+    {
+      "title": "总书记田间地头话农桑",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 总书记田间地头话农桑",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.938876",
+      "fingerprint": "dafb214d53a1d798daf4bc8ebe897dae"
+    },
+    {
+      "title": "德国爆冷输球坑苦韩国",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 德国爆冷输球坑苦韩国",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.948086",
+      "fingerprint": "2fb40414a298aa2951669f2f077d133c"
+    },
+    {
+      "title": "海南考生高考794分 称发挥失常",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 海南考生高考794分 称发挥失常",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.957644",
+      "fingerprint": "cbb167679f7e25e37b6b7a13154b5c20"
+    },
+    {
+      "title": "看绿色农业链如何变废为宝",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 看绿色农业链如何变废为宝",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.972547",
+      "fingerprint": "99f887a1b7ebd643410b2d1fb3a49177"
+    },
+    {
+      "title": "DeepSeek大规模招聘：至少扩大一倍",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: DeepSeek大规模招聘：至少扩大一倍",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.994632",
+      "fingerprint": "a454b7f4ecd1b11f751f1c356ba8cee8"
+    },
+    {
+      "title": "世界杯：日本vs瑞典",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 世界杯：日本vs瑞典",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.997353",
+      "fingerprint": "1ff611ef1e3f7cd526b225f07d449293"
+    },
+    {
+      "title": "13岁男孩失联多日被找到：靠喝水存活",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 13岁男孩失联多日被找到：靠喝水存活",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:16.999714",
+      "fingerprint": "a1db7e111a9af5d88c2455fc00e078ad"
+    },
+    {
+      "title": "厄瓜多尔爆冷2比1逆转德国",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 厄瓜多尔爆冷2比1逆转德国",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.001944",
+      "fingerprint": "a7fe7e2136511da864d46a476f516e82"
+    },
+    {
+      "title": "“港剧第一贵妇”苗金凤去世",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: “港剧第一贵妇”苗金凤去世",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.004127",
+      "fingerprint": "89555662b5a42836098acdefb657765d"
+    },
+    {
+      "title": "“吃住行全管、免学费、月发1200元”",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: “吃住行全管、免学费、月发1200元”",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.006456",
+      "fingerprint": "a3fd86eb2328295633b89e149a92e003"
+    },
+    {
+      "title": "两男女欲转账500亿在香港银行被抓",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 两男女欲转账500亿在香港银行被抓",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.021091",
+      "fingerprint": "93cf5960b7efaca1013090c3268968d0"
+    },
+    {
+      "title": "“多人将两女子关铁笼游街”系摆拍",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: “多人将两女子关铁笼游街”系摆拍",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.028768",
+      "fingerprint": "d17ff31ce1dac71703f68627f63e7d1d"
+    },
+    {
+      "title": "派出所和公安局的区别",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 派出所和公安局的区别",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.033559",
+      "fingerprint": "5171f247ec0f147dd61ffe24d2459e22"
+    },
+    {
+      "title": "委内瑞拉百年最强地震致1708死伤",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 委内瑞拉百年最强地震致1708死伤",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.035765",
+      "fingerprint": "2a5254ce56e68ce3f4ffcace99847777"
+    },
+    {
+      "title": "《步步惊心》播出15年后“塌房”",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 《步步惊心》播出15年后“塌房”",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.037815",
+      "fingerprint": "4319171713395c8fe118f44424014896"
+    },
+    {
+      "title": "美光暴涨超15% 苹果重挫6%",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 美光暴涨超15% 苹果重挫6%",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.039886",
+      "fingerprint": "a811134c301bdb1fce1789c579bd9b63"
+    },
+    {
+      "title": "世界杯：突尼斯vs荷兰",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 世界杯：突尼斯vs荷兰",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.041977",
+      "fingerprint": "4f90c03f26ee71a4b2ee98b046590aad"
+    },
+    {
+      "title": "吃菌子中毒出现幻觉后打人要担责吗",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 吃菌子中毒出现幻觉后打人要担责吗",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.044103",
+      "fingerprint": "94c65ba82b8bbbbf61bb7f3afb102b4b"
+    },
+    {
+      "title": "奶奶微信上有77万条未读消息",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 奶奶微信上有77万条未读消息",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.046267",
+      "fingerprint": "6ef6ddac41cb78742ed8842b83713771"
+    },
+    {
+      "title": "长沙一对好友查分：1人屏蔽1人694分",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 长沙一对好友查分：1人屏蔽1人694分",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.048356",
+      "fingerprint": "735d9f1b9e79fc20c7447d63cab1e503"
+    },
+    {
+      "title": "前8天：穿越罗布泊无人区  第9天：主角突然换人",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1soZJYUEKd",
+      "snippet": "播放:5151413 弹幕:21355 | 央视新闻",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.356055",
+      "fingerprint": "70a112902d9ea65419b1f7916948cdf8"
+    },
+    {
+      "title": "震撼世界的72天：巴黎公社为何爆发？又为何失败？【历史调研室71】",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1BtZJYBE4G",
+      "snippet": "播放:3606162 弹幕:25705 | 历史调研室",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.364638",
+      "fingerprint": "3a12348b7d112e16035b2dcf2bfbbdfe"
+    },
+    {
+      "title": "我被电视剧片头曲“模仿”了却无能为力",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1uioXYEE9F",
+      "snippet": "播放:7026182 弹幕:16553 | 孙熙然",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.370580",
+      "fingerprint": "7347f1371d058b95977486a1fb65f5ca"
+    },
+    {
+      "title": "为什么中国人对一道菜的最高评价是\"下饭\"?",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1w6ZEYrEsb",
+      "snippet": "播放:3691000 弹幕:8760 | 赛博食录",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.376292",
+      "fingerprint": "e493a9d4f9d2bf1f1c738458f8f05d58"
+    },
+    {
+      "title": "深度|| 香火之战，车迟国的教皇实验",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1twZ4YzEmv",
+      "snippet": "播放:2546502 弹幕:11338 | 渤海小吏",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.381705",
+      "fingerprint": "9e29b26ea3af020f7aaf5fc33a766096"
+    },
+    {
+      "title": "为什么人类需要不断吃盐，而动物们却不用？",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1wFZ8YBEt4",
+      "snippet": "播放:11612113 弹幕:3150 | 行者道荣",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.386094",
+      "fingerprint": "86cbbe8e13b8f9ace0407da65fd52678"
+    },
+    {
+      "title": "垃圾场上的妙妙屋【日本世博会】",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1EPZEYKEvW",
+      "snippet": "播放:4529908 弹幕:3607 | 队友去质器",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.389840",
+      "fingerprint": "cd5bb3ab036e10842658261bf586a007"
+    },
+    {
+      "title": "快递怎么寄能更便宜？#涨知识 #生活小妙招 #寄快递省钱的技巧",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV17TZEYPEug",
+      "snippet": "播放:1873621 弹幕:869 | 曹老撕测评",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.393539",
+      "fingerprint": "b09e23e06348934e78ff30eca90356e7"
+    },
+    {
+      "title": "现场实验：黄河边硬地变淤泥，看起来安全却暗藏凶险，千万要警惕！",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV19oZ8YbEPy",
+      "snippet": "播放:7301012 弹幕:1323 | 人民日报",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.396996",
+      "fingerprint": "0a89e7c0d4b0531736990636e5a5721f"
+    },
+    {
+      "title": "【罗翔】张三侮辱骨灰到底犯不犯法？法律人为何这么“抠字眼”？",
+      "source": "B站科技区",
+      "url": "https://www.bilibili.com/video/BV1WVfcYFEiX",
+      "snippet": "播放:1459148 弹幕:30342 | 罗翔说刑法",
+      "platform": "bilibili",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "",
+      "tags": [
+        "B站热门"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-06-24T08:03:07.400222",
+      "fingerprint": "fb7482bc36c50b345cd7647444fc0a9a"
+    },
+    {
+      "title": "AI漫剧全流程分享",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LXPPRWAaeCeHw7_PVEj-Zj1qXa8Fplpd9clZ6e6jpZPBO0FqB545dwsFodilqylFO1C-OZ9Qaa7CKx7MVTiXtbnz5_PwDFBm_yaO3s5dCiLxaBJamkVcek1Wu_Vm65r5k-A4OyaLKwUBBSshKxlh8q5uKOqhT_scAmAAdRuAxJuCuSwUNfFEj9aapj7i3ACMExOKbics5fqJS6t2rFt2rnA..&amp;type=2&amp;query=AI&amp;token=D586DDE80A7DD74B3235672E93E66E2B335955526A3DCF21",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.832048",
+      "fingerprint": "0d016bd8d1bab3aa740713300b20f3be"
+    },
+    {
+      "title": "AI 日报|6月26日",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LXPPRWAaeCeHw7_PVEj-Zj1qXa8Fplpd9gMBSdRuwLgXO2xyI4QKf7AhAbN8qJV_dTtVNiIsqNKci3odEeZiCO0EffW3s-P_G6uOA1Nw0nmzMe6GFJkXrQZwwitjQgoF8AB3jPMfg8Ob-GeT7qxmeUMgmwIafHChHqLf7uzUkievcj7I--JUNroe9FSoIyaekIGxiZuEiP8Gq3X8EKMKOIA..&amp;type=2&amp;query=AI&amp;token=D586DDE80A7DD74B3235672E93E66E2B335955526A3DCF21",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.841715",
+      "fingerprint": "fc5b69860b2d569a59568955df58aad9"
+    },
+    {
+      "title": "AI系列即将更新《AI大模型辅助信贷场景的老客风险管理》",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LXPPRWAaeCeHw7_PVEj-Zj1qXa8Fplpd9K5krLP4hCFZ658nQ_QotXquXEL15ldgA38vg6OjyPz9AUHlWx5qbgAKa41R1CaLfLImXUaupV92YZ4WrELCbCCiKE1rHPw9v7yHOYrXC4tsZFL44BuA14IivQKsKKA6-TzT--YxAJw3vIM4jed2S9h3ldLMgIP_XA8RWdoNSRddflztgI7RZ1g..&amp;type=2&amp;query=AI&amp;token=D586DDE80A7DD74B3235672E93E66E2B335955526A3DCF21",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.849411",
+      "fingerprint": "71f207ddce087067dc2f02a3ca2e25ca"
+    },
+    {
+      "title": "14类AI应用乱象,能治!",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LXPPRWAaeCeHw7_PVEj-Zj1qXa8Fplpd9JxX0ujXXxevaAcAGybV8EKVm_CkgxHitYbprw7r74uZ6_jcx7i0qIh-dOwaMJBrSVGwLqcI6FFR3FhGxS_VmxaEZcCcF34JXJtIHBYq02ggIJDvKi4eZI1McyoGusdGiFLSWUPIWWcRmusgfQaEwTcgiG11CIke39vpphVAmMgEGX_iHL9MadA..&amp;type=2&amp;query=AI&amp;token=D586DDE80A7DD74B3235672E93E66E2B335955526A3DCF21",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:17.857175",
+      "fingerprint": "272bff35681d392be30d13bdcb1265dc"
+    },
+    {
+      "title": "大模型上线安全评估怎么做:1M 上下文模型要先做真实上下文模拟",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9kp06fEPjornIMMfRrtBSqQUbPfXR5HVUYdwwgytfyAM1rhYEnEUKEt09vHnSU6AfJLbm1vJvgYORCcxx8o1IcR-eNI9HbLCdzsCkUx9IKAGFrsKhhDJ4MB9BtBkw8njvN0IvHdEv0wNeaBqmtHq1B4mPYJpBVp1lIm2O8OT2xMefxjh3za6jWA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D586DFA6A5D378E49C9BC9803C446A559DF8E5036A3DCF22",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.139630",
+      "fingerprint": "8c4ef1bf2c263439fd7db8badf8dda02"
+    },
+    {
+      "title": "大模型分布式训练并行技术(十)-通信量计算及训练耗时估算",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9-Yd3KyViKTjHhDDI8oFmrYJjMIumP-idxhqIKZCgvcgBQ8Q44fsrnyuc9fOZ_EEgHPRoSu5jcb3TFtyOvEd-1dnJjn6pKbdzSZSHj_p3693bXLVaIXYa22OEYIoo-4z3h6_4dKuKAG2nRISMvRdUJA0BiiXVTaDsmiMvXhpIKkVFkDr8IT4KYw..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D586DFA6A5D378E49C9BC9803C446A559DF8E5036A3DCF22",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.153410",
+      "fingerprint": "05a35754ec223fe100734b6a1dbe58bc"
+    },
+    {
+      "title": "大模型Agent开发:灰度发布与环境隔离",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd90Br7LeDBaZsc1i-4RwBBGlq-SuEVmgHqOsW37g90xTIDIr5UE13r1KCJYUFBN1IefvoxOKHY_dl2DUXAWIzzg1-W_Q-3nM-ixQguM27SYYAssmunVTYFqqytsEXeMVpthz8XQZ_Z1e8qExrwPsgCzcrSRGeFI4VU-IWfapUVr07uL0unUdKkuw..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D586DFA6A5D378E49C9BC9803C446A559DF8E5036A3DCF22",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: agent, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.161797",
+      "fingerprint": "ea1404f7a2b7e90b8fde19f56905ece2"
+    },
+    {
+      "title": "图解大模型推理延迟拆解",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9nNMqjFx5azcrRIc6mtp2-kWJn3om_8VtQ5VDlR-MzuBKINb2mE-oVjtlfqAkE9ipKYBCBWrY1WQlhSB8j9nkUWBJsVGJU2rlekp-8MQ6uZTe9oyikCZIMChi-Urjv3Oe0Hemh1qj3-mbrtjGE47WN1Ds5AoI4TaRUBnhrLyAgWsCYioxHkzTmA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D586DFA6A5D378E49C9BC9803C446A559DF8E5036A3DCF22",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.168716",
+      "fingerprint": "185d57d05d2644775c08ed98cc7ec220"
+    },
+    {
+      "title": "大模型 | 大模型之LangChain-RAG",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9HGQjapHdNjaomsvqLHnffLYz4tiyIvr7ebn5fcz6ha4ExiiDsSjfH_dVMoTsCsyZCuw8-VN_7VHspjgXfnG0sYSEk16uaR83VEtUNPOi3-esZSLEA0LiXs94aDxk98Qdy-eB3Znke_MFOLHL-iTolldNWcrw090kEYyryhJzpZ3vzHZXxeLdyg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=D586DFA6A5D378E49C9BC9803C446A559DF8E5036A3DCF22",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.174967",
+      "fingerprint": "9e93709f3aedbe1e17db471ff1be44c7"
+    },
+    {
+      "title": "全省人工智能和脑机接口产业推进会暨&ldquo;人工智能+万物&rdquo;应用行动动员会在合肥召开 王清宪出席并讲话",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9saI8g9D1JDuZpYf6j7ooHJgSCH8wY5eZPEtQVcyiYLwPAYDJmtdh6qSbvl2i4ME5SQG9K-Se-hYC2Ta64BHiXqvF-nZ2zxH-Nf5Jb8ZYXRD2CMuCXzlEkM2090sw-lfSXSOkgcruF2ZVgJbIlbRCH88fk2UtFI-DzGrxWRUC5aJ5LU3lqtPw9g..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D586E195EE9833AED6D380CB7709CAE6D6F8F9F06A3DCF22",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.516081",
+      "fingerprint": "a2f3ab81a4eb2393ce5f930aa66d28a4"
+    },
+    {
+      "title": "7月31日,南京见!2026&rdquo;人工智能+&rdquo;实战论坛:拒绝虚火,只聊怎么用AI赚钱",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9nRuTTuPebBTzwOIFLTSzlfWOL-uYkR0BEAlBR2UF3SrfcUt0ik6kdyqOkkZ55XjSFNLIhuOcJ7aIpu3s0bkwrbXhv7ksFWmzQx7L32uF2V3-wfcci8rnFD2Y_K40IjrR7uK2hDIu5Qw2DJgEuWe0xgtDgZeMN-T3ijgmNdwijRM6Ebq8fk9diw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D586E195EE9833AED6D380CB7709CAE6D6F8F9F06A3DCF22",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.528341",
+      "fingerprint": "7a021c159226817dc69009dd13849086"
+    },
+    {
+      "title": "孙巍:人工智能时代数字仲裁的新发展 | 当今时代国际仲裁数字化所面临的挑战及应对",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9erOWFcjdBd47dnd4HCIcg0mhOcm6CY8EIDB9JL8L_wJzdzgW36W7O9rLgC0n_I8HPzvGOizNrOXtYsDVTP2wB7zEOWqbsbTvfYeeaRHPH93QIx1hh2CwM9R4w6lswT_VIcWFX0YXjivDvW_xrFunPOZVMy4YYEzpXPXQpzIhCOlCy6umSSPEsg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D586E195EE9833AED6D380CB7709CAE6D6F8F9F06A3DCF22",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.541850",
+      "fingerprint": "3c893a42573dc2e1abffad1c0d9484cc"
+    },
+    {
+      "title": "&ldquo;人工智能+&rdquo;③丨2026全国各地 &ldquo;人工智能 + 城乡建设&rdquo;政策汇总(附官方原文)",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9tRkBmEBm16xb4NRpJJIcszIccKXj4AZAjftyLZavzTXpbt5fwiXVYMBG02HOHzOyodGkEjSAxzN3xrbhtRzIrFBl0ynYT2F73nZ4ZFxbrt1wTg2niW6lnKkRwHRG06MZrznxbrlLg79moXUemO-Euob_CDB-B2G6rlSkAwOv_nufxjh3za6jWA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D586E195EE9833AED6D380CB7709CAE6D6F8F9F06A3DCF22",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.548945",
+      "fingerprint": "c5a5734ec92aef17fca106ae84a91530"
+    },
+    {
+      "title": "人工智能资讯日报2026-6-26",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS4E-pJOPvS6LE4sBeAQFUk7w7_PVEj-Zj1qXa8Fplpd9nxQzy7VKkq4qHH2Qhzfb8MeztWyS1W8yWiitlkjIbFyTxLFA7o7CikKUW5KKwhEt8VENPvwuHjaSFOu36bpxwo1Slw3AlkMnCw0yw5TWQjnGofZw58h2lrn3q0DldyE9s18gZ8XUudMkqBv1avAYAmbYQaeuK1BPxIveQnlorYsGX_iHL9MadA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=D586E195EE9833AED6D380CB7709CAE6D6F8F9F06A3DCF22",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-26T09:00:18.554450",
+      "fingerprint": "ca4b42dd63c2af80d369940d236deb2a"
+    }
+  ],
+  "stats": {
+    "by_platform": {
+      "hackernews": 19,
+      "baidu": 20,
+      "bilibili": 10,
+      "weixin": 14
+    },
+    "by_rating": {
+      "S": 0,
+      "A": 63,
+      "B": 0
+    }
+  }
+}
