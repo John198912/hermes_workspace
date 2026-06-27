@@ -1,0 +1,1006 @@
+{
+  "mode": "daily",
+  "generated_at": "2026-06-27 08:03:24",
+  "total": 54,
+  "items": [
+    {
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "source": "HackerNews",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "snippet": "↑773 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: gpt",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:08.670600",
+      "fingerprint": "91ebd98baf04aa542e9765ced1d5d2e9"
+    },
+    {
+      "title": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
+      "source": "HackerNews",
+      "url": "https://github.com/Tessil/hopscotch-map",
+      "snippet": "↑48 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:09.381282",
+      "fingerprint": "f56d10c0dc61728f1bdbab39920b243a"
+    },
+    {
+      "title": "US allows Anthropic to release Mythos to 'trusted partners'",
+      "source": "HackerNews",
+      "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
+      "snippet": "↑106 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:10.088825",
+      "fingerprint": "82fe51c3ff16cf016a63dc3684a85fa5"
+    },
+    {
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "source": "HackerNews",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "snippet": "↑745 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: gpt",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:10.791821",
+      "fingerprint": "aea59fb41c593719a1c170e8ddb7aa15"
+    },
+    {
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "source": "HackerNews",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "snippet": "↑90 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: llm",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:11.506571",
+      "fingerprint": "7ddf3dbec112215e35221fcfc3344e72"
+    },
+    {
+      "title": "MicroVMs: Run isolated sandboxes with full lifecycle control",
+      "source": "HackerNews",
+      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+      "snippet": "↑237 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:12.207866",
+      "fingerprint": "ace02bfc5f0194aaf962fcdd3949ac6d"
+    },
+    {
+      "title": "We can still stop California's 3D printer surveillance scheme",
+      "source": "HackerNews",
+      "url": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme",
+      "snippet": "↑144 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:12.926040",
+      "fingerprint": "c400095254f58b9f02ca9d7ee7b21412"
+    },
+    {
+      "title": "A Tiny Compiler for Data-Parallel Kernels",
+      "source": "HackerNews",
+      "url": "https://healeycodes.com/a-tiny-compiler-for-data-parallel-kernels",
+      "snippet": "↑11 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:13.658575",
+      "fingerprint": "fee65255a017ad87f3de274af399e023"
+    },
+    {
+      "title": "The \"Bizarre Headgear\" exhibit at the Sam Noble museum",
+      "source": "HackerNews",
+      "url": "https://svpow.com/2026/05/15/the-bizarre-headgear-exhibit-at-the-sam-noble-museum-is-incredible/",
+      "snippet": "↑65 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:14.382367",
+      "fingerprint": "e707b2be7ab846a078ff420b93598a5f"
+    },
+    {
+      "title": "Why does kinetic energy increase quadratically, not linearly, with speed? (2011)",
+      "source": "HackerNews",
+      "url": "https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed",
+      "snippet": "↑9 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:15.094630",
+      "fingerprint": "bb111ae9a7715ac91a368a0f90ddf2fd"
+    },
+    {
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "source": "HackerNews",
+      "url": "https://github.com/workweave/router",
+      "snippet": "↑133 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:15.807449",
+      "fingerprint": "b38565def578753946a7b2e9cab37fc3"
+    },
+    {
+      "title": "What Is a Nomogram and Why Would It Interest Me?",
+      "source": "HackerNews",
+      "url": "https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me",
+      "snippet": "↑71 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:17.187585",
+      "fingerprint": "6a249f24ab0f4c56fee84aac8c66fb4e"
+    },
+    {
+      "title": "Ultrasound imaging of the brain",
+      "source": "HackerNews",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "snippet": "↑222 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:17.892062",
+      "fingerprint": "af9d066360596a737be8926989cabbdc"
+    },
+    {
+      "title": "AI in mathematics is forcing big questions",
+      "source": "HackerNews",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "snippet": "↑9 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:18.616813",
+      "fingerprint": "03096b18522acf9feebad670b528577b"
+    },
+    {
+      "title": "PlayStation Is Deleting 551 Movies from Customers' Accounts",
+      "source": "HackerNews",
+      "url": "https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013",
+      "snippet": "↑125 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:19.332481",
+      "fingerprint": "edf59e6e941e0212a400b37b4f9b0c15"
+    },
+    {
+      "title": "The open source DOCX editor submitted to HN a few weeks ago has been deleted",
+      "source": "HackerNews",
+      "url": "https://news.ycombinator.com/item?id=48692474",
+      "snippet": "↑35 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:20.701003",
+      "fingerprint": "a13a0c6d804d791d225bd039a77482dd"
+    },
+    {
+      "title": "A human postmortem of the 1996 AOL outage",
+      "source": "HackerNews",
+      "url": "https://ngrok.com/blog/aol-was-down-1996",
+      "snippet": "↑29 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:21.418366",
+      "fingerprint": "742465f00f14c5221363f37291492365"
+    },
+    {
+      "title": "Long Wave radio era set to end with Droitwich switch-off",
+      "source": "HackerNews",
+      "url": "https://www.bbc.com/news/articles/c74yn7v7k4qo",
+      "snippet": "↑39 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:22.125190",
+      "fingerprint": "b7c9842e7548e6d136bf3a5f9928f1ab"
+    },
+    {
+      "title": "Gossamer: a Rust-flavoured language with real goroutines and pause-free memory",
+      "source": "HackerNews",
+      "url": "https://gossamer-lang.org/",
+      "snippet": "↑62 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:22.883272",
+      "fingerprint": "58659069d823cc3f33b0292c965d215b"
+    },
+    {
+      "title": "习近平就委内瑞拉强震致慰问电",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 习近平就委内瑞拉强震致慰问电",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.038178",
+      "fingerprint": "867df61fd0d458d8d2054144d8fd0b3c"
+    },
+    {
+      "title": "哈兰德姆巴佩王不见王",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 哈兰德姆巴佩王不见王",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.045716",
+      "fingerprint": "32216a8a951652aff19bdef1085b093f"
+    },
+    {
+      "title": "登贝莱帽子戏法 法国4比1大胜挪威",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 登贝莱帽子戏法 法国4比1大胜挪威",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.051643",
+      "fingerprint": "660c584c219605e637cdd56bd610993e"
+    },
+    {
+      "title": "“国补”继续 第三批资金已下达",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: “国补”继续 第三批资金已下达",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.056629",
+      "fingerprint": "2542a5b2173e14ad1ad8179e4bf3cf4e"
+    },
+    {
+      "title": "韩国排名滑至第7 出线概率跌破5成",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 韩国排名滑至第7 出线概率跌破5成",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.061433",
+      "fingerprint": "72668bef101302eb269dc1a54b7bc73a"
+    },
+    {
+      "title": "杨紫获白玉兰奖最佳女主",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 杨紫获白玉兰奖最佳女主",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.065837",
+      "fingerprint": "4c94951e73e77ef41d29b0a3c4a7ea36"
+    },
+    {
+      "title": "一个大大减轻久坐伤害的动作",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 一个大大减轻久坐伤害的动作",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.070036",
+      "fingerprint": "be115ad8cc042e80d2c0194e7307d9a4"
+    },
+    {
+      "title": "登贝莱32分钟上演帽子戏法",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 登贝莱32分钟上演帽子戏法",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.074024",
+      "fingerprint": "979e1062ade14743f22a4d56e87fcabc"
+    },
+    {
+      "title": "杨紫上台领奖泪流满面 一度说不出话",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 杨紫上台领奖泪流满面 一度说不出话",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.077808",
+      "fingerprint": "00706d2591d4628a72377793ae6547ae"
+    },
+    {
+      "title": "塞内加尔5:0大胜伊拉克",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 塞内加尔5:0大胜伊拉克",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.081465",
+      "fingerprint": "c0f9c38291b16e9f6d3a1c8f39d941ea"
+    },
+    {
+      "title": "食堂阿姨一句叮嘱让全场响起掌声",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 食堂阿姨一句叮嘱让全场响起掌声",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.084885",
+      "fingerprint": "7173a694520317e2b079982f57e1af34"
+    },
+    {
+      "title": "绵阳文旅项目经营惨淡致停运不实",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 绵阳文旅项目经营惨淡致停运不实",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.088062",
+      "fingerprint": "c33ce9ad207599f39a639e890158df6c"
+    },
+    {
+      "title": "手机计步器其实是个隐形地震仪",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 手机计步器其实是个隐形地震仪",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.091360",
+      "fingerprint": "6d005e96229098e991113e270f3c475b"
+    },
+    {
+      "title": "法国三战全胜头名出线",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 法国三战全胜头名出线",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.094352",
+      "fingerprint": "aa3b51f9fd89d2a5c8da0127a769e057"
+    },
+    {
+      "title": "董勇获白玉兰最佳男配角",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 董勇获白玉兰最佳男配角",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.097221",
+      "fingerprint": "3d4ee2181be9250dcd33456b2e45b213"
+    },
+    {
+      "title": "内蒙古13岁女孩遭性侵立案后被撤案",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 内蒙古13岁女孩遭性侵立案后被撤案",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.100078",
+      "fingerprint": "bf42e00cffffeb80b7473413337455b6"
+    },
+    {
+      "title": "乌拉圭vs西班牙",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 乌拉圭vs西班牙",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.102748",
+      "fingerprint": "e8d2776283c68b4c70fffdfd27d42456"
+    },
+    {
+      "title": "委内瑞拉强震死亡人数上升至920人",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 委内瑞拉强震死亡人数上升至920人",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.105354",
+      "fingerprint": "d28d43504e3c3283cba74ae580b955cd"
+    },
+    {
+      "title": "《太平年》获白玉兰奖最佳电视剧",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 《太平年》获白玉兰奖最佳电视剧",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.107991",
+      "fingerprint": "e4f63b3e22b4ffdc3db42888ec851e1b"
+    },
+    {
+      "title": "于和伟获白玉兰最佳男主角奖",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 于和伟获白玉兰最佳男主角奖",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.110536",
+      "fingerprint": "763586a9fe0a565ff06a84c62008bca3"
+    },
+    {
+      "title": "AI、财务、审计、监管,企业人今年绕不开的几个关键词",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5xg2PaDTNNc4flWw2vS4KAVqXa8Fplpd9iliERwiucccry8hS-8U6gVNLytzV-fxlyAJtCibrjpM609_m1sCUl8VpByQALgeQ7z20J4G5Aki4khlmOJcgTLm0-fivXYhEh6Te5ia4eUJtMzIDBqClwZj5ba7VnNYVAnjx38Lhrs7FhX1UjJOeI78XF-Xlhtq7YF6RmOh5SzBe0WC6Sbi7DA..&amp;type=2&amp;query=AI&amp;token=DC62CE42285EF57710165A20FB22BCE81013EDDC6A3F134B",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.764291",
+      "fingerprint": "7456443d0326106cb1a938fccfb8d212"
+    },
+    {
+      "title": "AI来了,机构更贵了,2026高考志愿,我们到底该信谁?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5xg2PaDTNNc4flWw2vS4KAVqXa8Fplpd9kdOBW75-2hyU7aNxGug4cUaZDfqIvi2fYtPZFflCVwdPJEdWi_MgOkQjuIzMlpwGuW0esQzM7ptek23VrJa4sO-CWDomCm82S3gAmE02Zbd1oH3Th6P_d0UMPA5iWCqSEPfwUV32sn4TLDxSIUuNu1YCzyFkeMBKxPMuW8ENVa0HpHkoPMgL3A..&amp;type=2&amp;query=AI&amp;token=DC62CE42285EF57710165A20FB22BCE81013EDDC6A3F134B",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.772068",
+      "fingerprint": "951c155dbee761929c45092e871ad39c"
+    },
+    {
+      "title": "AI时代认知范式的转移",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5xg2PaDTNNc4flWw2vS4KAVqXa8Fplpd96BNOCUE7cYcSgEJgisejdUUNV-p_1TBjfQOcQCtt4iGuNa2Nt50Pl9caafmI6MUopt1rDpaH0gbHsnfsNmD9Gko60g4hu-lUJKqOz0uSO4ukEpgCj8aOC4CJ2CCVDi4lgPlab01MRb37s-7x1BfnBx8mye011-UOinMSFQ3z-Saq3X8EKMKOIA..&amp;type=2&amp;query=AI&amp;token=DC62CE42285EF57710165A20FB22BCE81013EDDC6A3F134B",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.778586",
+      "fingerprint": "e67fec7e510ab592bb0dfbb37e67f2f0"
+    },
+    {
+      "title": "AI时代,有好的歌曲吗?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5xg2PaDTNNc4flWw2vS4KAVqXa8Fplpd9E2xZxwB5bfE2hRUr9zDB75Shp9_Pxv4GF2Wnt476nMqvWykxjVhSazSsQPzIIPTvXVn-hK-nNMdU3CQySbdt5lfnHISWsOCwJ7HWNv5cG-GX4RBalb_MeFoCSJZIqKQnZpLmQqbBDeKA4LUpFg3sSNiXw_-sGXy6fMs7ix6JJrj1AfaFW2DefQ..&amp;type=2&amp;query=AI&amp;token=DC62CE42285EF57710165A20FB22BCE81013EDDC6A3F134B",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.783732",
+      "fingerprint": "d4cb5cbeb85c22cf892e8ea9b58aea3d"
+    },
+    {
+      "title": "AI 让执行变快了,但也更容易让人变成＂任务分发员＂",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5xg2PaDTNNc4flWw2vS4KAVqXa8Fplpd9Dbge0OVWXIb4SkWTxLzlwc__NQFbZ6JDCd_e-V6svBMSEqsINk46M8tEUqOv94XVsvQyDHPWbNixLedQKEpopd6S44xwVFx9s0gpO6ZOMn3Dzc_iI4JcVeM-7J8a-SH9xnUtYWIBC6-6g4of6ufd4VjLygyUpevLPZlEjw9FBoVr1dbZWbKUeQ..&amp;type=2&amp;query=AI&amp;token=DC62CE42285EF57710165A20FB22BCE81013EDDC6A3F134B",
+      "snippet": "微信文章 | 关键词: AI",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:23.788785",
+      "fingerprint": "4c8c557d66ad387f2c4ed6267a243fda"
+    },
+    {
+      "title": "大模型真的＂读完＂了你的问题才开始回答吗?&mdash;&mdash; 一层一层拆开看",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9VnplKQRAADlW7mE6feMFrhFahzQGO1n9TGat07gfPC2036yRXBetm_z53y7vlTW3BWH9hKxoUo5Y0Mu8fWnK8s5hUCwPV676lbMWOSND1YuBc3RMt54jRRvaKcN-9050RM_De6ut8OuJmW5YRf8ctPCKS4r2wE3qmDM_cE3_9BJ535pjGOOjYg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=DC62D01D1069CD50282E7D17D315FF47280EBE986A3F134C",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.078629",
+      "fingerprint": "cefdbe26f803a36f1e7d339e6168528a"
+    },
+    {
+      "title": "大模型助机器人理解模糊指令并聚焦关键细节",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9EpIOH4bEISto09CWJRIJxE7o4UfSjne9q667R4OvjTl1n_QQGyaO_W2G7-GH6pEk3w4zQeZjIdLxirlYoIlc1DNJijC9JKA-idPORmeaG_1kQjen4gKpEyiCKr15H03h1z8QGvP2avFzqsyPn9khqEqj0q_60ojU0v8kO44rDd7f3q8uRDTfkw..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=DC62D01D1069CD50282E7D17D315FF47280EBE986A3F134C",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.086734",
+      "fingerprint": "826e182127d303cb34236d6e3ce29d85"
+    },
+    {
+      "title": "大模型进厂半年:生产效率KPI真的提升了吗?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd94oRsZ773MqkcpMBROY6JxtBuZTZTVjQ6GdSQd3oZILmsNi0p0K_dsLYjwNnw-ft-wzESYkdOeBwY8FXUr1bv1hlaoZ6yHcpoMUgIbKOoX7uC3TVaXcln_0A3cVB6B9baT74q8NxeeBc05MEKZLEB6lVyJ5Yagkptq8-QaVoMOKKq3X8EKMKOIA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=DC62D01D1069CD50282E7D17D315FF47280EBE986A3F134C",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.093047",
+      "fingerprint": "a0f2e7175a99b46d385db22cc448aa25"
+    },
+    {
+      "title": "大模型岗面经 | 训练显存占用计算方法",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd94oCvNLa30wTjLGXMvfvDGRRHp0ZVkZEH_TKhQev-8LoABamnOgN8lvWXAcpxIfviE1JaUjJ1sBfAO0FWSNzZ29CRCzEuzycUhH0lPCzspfkpoOtJANkzJPNu4HLWZzpm1ClmB07ylEynpUehhMm9tPElQYp4n3GPjrzHsoKaD8Re0WC6Sbi7DA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=DC62D01D1069CD50282E7D17D315FF47280EBE986A3F134C",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.098415",
+      "fingerprint": "a2235aacb2bd355bf5c1a865f29ee6e8"
+    },
+    {
+      "title": "大模型做旋转目标检测&mdash;&mdash;自动化标注(二)",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9g__yKn1QlAQqlFR1oL81e7zQHjBMYgul4fkE1Pjv5CFtBYm08bstB-p5u4wUvK4GA7cZb-zsMChq5UrWaqD2H7gfWlvGiNIPUieF3ZkqEZfvx7xVZKgrM6li3RGxpIikD7a8kg1qy0i4XZ5Uh8Wm5BdsyouP7qlTF5pO0_FVMkm00NVofL2iDw..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=DC62D01D1069CD50282E7D17D315FF47280EBE986A3F134C",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型, 自动化",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.103488",
+      "fingerprint": "8f3179bb09ede00ecc6ee73a24cbc4e2"
+    },
+    {
+      "title": "第六届长三角青少年人工智能奥林匹克挑战赛暨&ldquo;模塑申城杯&middot;人工智能+教育&rdquo;竞赛&ldquo;人工智能训练师&rdquo;赛道",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9GDp5cdFOnrfUB_L0A0f9gztdUWlDSX-v_7nON7pxAKbOrH6Jjr1gIp5NCr_aXstmg0O13LIpOr02J87JIDnTF1rVhQAFlfkxcxpL3ZrjxWvxJ-7MazUt456tMSXjQFVtq5WJeNA2nCVC8zbGXHPGzLMW_DKB7Hd9jrm8Jk3kdf3zAjcIGepUqA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=DC62D1EB3047ED70080F5C39FD3EBF7009EF47526A3F134C",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.411009",
+      "fingerprint": "c42c416972c6eca470f6beba9036cc65"
+    },
+    {
+      "title": "新华社权威AI时政资讯智能体&ldquo;新华语典&rdquo;正式上线",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9FHscK7Vfg2nUkcw9VDQs1mGpBakCW5KHE01-_a2K6wn8ZlO0XgTHcU2ugKGF2i5c07kxNxfrzBNZvntUlvdsqRuBS86giFBRRJkwEEnrTJiIAm5zFpdySi6BHIjtQXJN0JEXYpCdQIULNkZb_KVfTllzSXzFJkHzuKV0cPHIHoe00NVofL2iDw..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=DC62D1EB3047ED70080F5C39FD3EBF7009EF47526A3F134C",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.419189",
+      "fingerprint": "81a4a0fc2fb68ca2c2d0bd409a650dac"
+    },
+    {
+      "title": "人脑算力与AI智能的优势与劣势对比研究",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9TJpIqWvg2uVBPAa9lFs1ExQ2CAvCUeWyvrbcmscqJfJAn4-0GucyyS6QMoPbT-hUnitBonKQePmMm7PfXG-_0oXJvKDA4iZMp5tVvokfnE4WUqEdwE8iTOhK-k9w11mQZTdID4d97nB90Fs7YdPlxmkMM37sl3smQtc3AIclBHE5eBgmN3LoYQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=DC62D1EB3047ED70080F5C39FD3EBF7009EF47526A3F134C",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.425491",
+      "fingerprint": "c0a872d774b7f56adaea9a7169f461fe"
+    },
+    {
+      "title": "这4份人工智能幻觉报告,意味着什么?",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9ZE2P7qlUbe5i9nq9mLAWHEb8TJRxNGm9wKOGwTR_HdwvU2RlZ84lOJrVaIef3BU9nynXP3Tf2Oeoa503mQQgUnn9XO8zwAtSs6hnKldVrbPtu4eCPgGIyHsCbr0YY18vZwEQIP5CTSYCJICFj0LdApg3uUIT9-Ol7C-6VC3vmi7S-e4Yz84xMA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=DC62D1EB3047ED70080F5C39FD3EBF7009EF47526A3F134C",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.431181",
+      "fingerprint": "6ef81c0ad97cd83fc534ebb95327237b"
+    },
+    {
+      "title": "人工智能模型组分赛区与总决赛承办场地及资源需求说明",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS1FX0i4gQdd5CFmbq5gKcNAflWw2vS4KAVqXa8Fplpd9mW2aDv_YwHMLtKmm_cRiJBu73eiH_s2AQsgc6bmwPGQr155WiOZjw8LRdKATow2wqppPb3JBJp8t4XenXv2GRRq7Jc8o7vxwp9RCG4DXJ0cqaES0Y1eoRwozuLfLftIsF4uIFhTWxn_hZGJARroeIKZ4wVBsXGYpo4Y_k8KFUL3wdVqCwyPdzA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=DC62D1EB3047ED70080F5C39FD3EBF7009EF47526A3F134C",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 人工智能, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-06-27T08:03:24.436253",
+      "fingerprint": "93961ad956b48e703f82312cc688f634"
+    }
+  ],
+  "stats": {
+    "by_platform": {
+      "hackernews": 19,
+      "baidu": 20,
+      "weixin": 15
+    },
+    "by_rating": {
+      "S": 0,
+      "A": 54,
+      "B": 0
+    }
+  }
+}
