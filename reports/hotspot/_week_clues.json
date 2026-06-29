@@ -1,20 +1,15 @@
 {
-  "week": 26,
+  "week": 27,
   "clues": [
-    {"id": "W-26-01", "topic": "Fable 5 故事链 + AI 国家化", "first_seen": "2026-06-15", "last_signal": "2026-06-28", "days": 14, "strength": "strong"},
-    {"id": "W-26-02", "topic": "AI 工具分散化：从建议到必需", "first_seen": "2026-06-16", "last_signal": "2026-06-28", "days": 13, "strength": "strong"},
-    {"id": "W-26-03", "topic": "AI 技能焦虑→AI 预算清算", "first_seen": "2026-06-16", "last_signal": "2026-06-28", "days": 13, "strength": "strong"},
-    {"id": "W-26-04", "topic": "AI 重构白领：结构性替代的证据", "first_seen": "2026-06-19", "last_signal": "2026-06-28", "days": 9, "strength": "strong"},
-    {"id": "W-26-06", "topic": "AI 行业资本/地缘密集期", "first_seen": "2026-06-15", "last_signal": "2026-06-28", "days": 14, "strength": "strong"},
-    {"id": "W-26-07", "topic": "中国 AI 出海百花齐放窗口", "first_seen": "2026-06-21", "last_signal": "2026-06-28", "days": 7, "strength": "strong"},
-    {"id": "W-26-08", "topic": "超级个体时代的统计学证明", "first_seen": "2026-06-22", "last_signal": "2026-06-28", "days": 6, "strength": "strong"},
-    {"id": "W-26-09", "topic": "AI 工具的隐性成本", "first_seen": "2026-06-22", "last_signal": "2026-06-28", "days": 6, "strength": "medium"},
-    {"id": "W-26-12", "topic": "AI 工具的中立性叙事崩塌", "first_seen": "2026-06-22", "last_signal": "2026-06-28", "days": 6, "strength": "strong"},
-    {"id": "W-26-13", "topic": "AI 预算清算——行业拐点信号", "first_seen": "2026-06-24", "last_signal": "2026-06-28", "days": 4, "strength": "strong"},
-    {"id": "W-26-18", "topic": "AI 版权清算集体行动", "first_seen": "2026-06-27", "last_signal": "2026-06-28", "days": 2, "strength": "medium"},
-    {"id": "W-26-19", "topic": "AI 使用节奏科学", "first_seen": "2026-06-27", "last_signal": "2026-06-28", "days": 2, "strength": "medium"},
-    {"id": "W-26-20", "topic": "AI 出口管制的反效果", "first_seen": "2026-06-28", "last_signal": "2026-06-28", "days": 1, "strength": "strong"},
-    {"id": "W-26-21", "topic": "AI 就业危机制度化", "first_seen": "2026-06-28", "last_signal": "2026-06-28", "days": 1, "strength": "strong"}
+    {"id": "W-27-01", "topic": "AI 国家化：从出口管制到许可制", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
+    {"id": "W-27-02", "topic": "AI 就业危机制度化", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
+    {"id": "W-27-03", "topic": "超级个体时代的统计学证明", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
+    {"id": "W-27-04", "topic": "AI 预算清算：行业拐点", "first_seen": "2026-06-25", "last_signal": "2026-06-29", "days": 5, "strength": "strong"},
+    {"id": "W-27-05", "topic": "中国 AI 出海百花齐放", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
+    {"id": "W-27-06", "topic": "AI 工具中立性叙事崩塌", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
+    {"id": "W-27-07", "topic": "AI 出口管制的反效果", "first_seen": "2026-06-28", "last_signal": "2026-06-29", "days": 2, "strength": "medium"},
+    {"id": "W-27-08", "topic": "AI 版权清算集体行动", "first_seen": "2026-06-27", "last_signal": "2026-06-29", "days": 3, "strength": "medium"},
+    {"id": "W-27-09", "topic": "AI 使用节奏科学", "first_seen": "2026-06-27", "last_signal": "2026-06-29", "days": 3, "strength": "medium"}
   ],
-  "updated": "2026-06-28T08:00:00+08:00"
+  "updated": "2026-06-29T08:00:00+08:00"
 }
