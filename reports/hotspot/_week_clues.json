@@ -1,15 +1,20 @@
 {
   "week": 27,
   "clues": [
-    {"id": "W-27-01", "topic": "AI 国家化：从出口管制到许可制", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
-    {"id": "W-27-02", "topic": "AI 就业危机制度化", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
-    {"id": "W-27-03", "topic": "超级个体时代的统计学证明", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
-    {"id": "W-27-04", "topic": "AI 预算清算：行业拐点", "first_seen": "2026-06-25", "last_signal": "2026-06-29", "days": 5, "strength": "strong"},
-    {"id": "W-27-05", "topic": "中国 AI 出海百花齐放", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
-    {"id": "W-27-06", "topic": "AI 工具中立性叙事崩塌", "first_seen": "2026-06-23", "last_signal": "2026-06-29", "days": 7, "strength": "strong"},
-    {"id": "W-27-07", "topic": "AI 出口管制的反效果", "first_seen": "2026-06-28", "last_signal": "2026-06-29", "days": 2, "strength": "medium"},
-    {"id": "W-27-08", "topic": "AI 版权清算集体行动", "first_seen": "2026-06-27", "last_signal": "2026-06-29", "days": 3, "strength": "medium"},
-    {"id": "W-27-09", "topic": "AI 使用节奏科学", "first_seen": "2026-06-27", "last_signal": "2026-06-29", "days": 3, "strength": "medium"}
+    {"id": "W-27-01", "topic": "AI 裁员制度化——从传闻到年报", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "strong"},
+    {"id": "W-27-02", "topic": "AI 提效神话破灭——数据说 AI 让你更忙", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "strong"},
+    {"id": "W-27-03", "topic": "AI 时代的代际认知分裂", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "strong"},
+    {"id": "W-27-04", "topic": "Fable 5 故事链——AI 主权多极化（跨周延续 W-26-01）", "first_seen": "2026-06-15", "last_signal": "2026-06-29", "days": 15, "strength": "strong"},
+    {"id": "W-27-05", "topic": "超级个体 AI 工具栈成熟", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "strong"},
+    {"id": "W-27-06", "topic": "AI 创业能力边界——AI 替代不了判断力", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "medium"},
+    {"id": "W-27-07", "topic": "夜间自学 AI——恐惧驱动的自我投资", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "strong"}
   ],
-  "updated": "2026-06-29T08:00:00+08:00"
+  "updated": "2026-06-29T08:00:00+08:00",
+  "archived_weeks": {
+    "26": {
+      "clue_count": 14,
+      "archived_at": "2026-06-29",
+      "note": "W-26-04 (Fable 5 故事链) 跨周延续至 W-27-04"
+    }
+  }
 }
