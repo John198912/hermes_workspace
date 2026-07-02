@@ -1892,9 +1892,9 @@
   "ed222cada9123fc0b2f62550ccca4bc7": {
     "title": "大模型不是巨头的宠物",
     "source": "搜狗微信",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-29T08:13:00.013211",
-    "last_seen": "2026-06-29T08:13:00.013211"
+    "last_seen": "2026-07-02T08:03:39.565370"
   },
   "b24e32e9f07445fecbd5b09425998451": {
     "title": "大模型想落地,先让大家用得起",
@@ -1906,9 +1906,9 @@
   "77c802e2f9154f401bd9717f5c9bc412": {
     "title": "大模型,请回答2023",
     "source": "搜狗微信",
-    "seen_count": 1,
+    "seen_count": 2,
     "first_seen": "2026-06-29T08:13:00.031238",
-    "last_seen": "2026-06-29T08:13:00.031238"
+    "last_seen": "2026-07-02T08:03:39.571854"
   },
   "6e5d7873bdd4a637efdb6c045799524e": {
     "title": "大模型+知识库+Agent,为什么360先走出了大模型商业化?|氪金&middot;行业观察",
@@ -2728,5 +2728,369 @@
     "seen_count": 1,
     "first_seen": "2026-07-01T08:03:42.001674",
     "last_seen": "2026-07-01T08:03:42.001674"
+  },
+  "dcd5a67e513689e6f83ccb6f21cca021": {
+    "title": "ZCode – Harness for GLM-5.2",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:18.292852",
+    "last_seen": "2026-07-02T08:03:18.292852"
+  },
+  "d136bba0f2c2c9ae6c340cbe6daeea6d": {
+    "title": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:19.203650",
+    "last_seen": "2026-07-02T08:03:19.203650"
+  },
+  "873bfa48d74f1da0a1578653534170f9": {
+    "title": "For first time, a cell built from scratch grows and divides",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:20.181407",
+    "last_seen": "2026-07-02T08:03:20.181407"
+  },
+  "9716269f6d03fd6b9265957c360f4c26": {
+    "title": "Healthy but Sedentary People Show Early Decline in Cellular Energy Production",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:21.282674",
+    "last_seen": "2026-07-02T08:03:21.282674"
+  },
+  "2ab7bac305d7d1026ab8436e800d35c2": {
+    "title": "What to learn to be a graphics programmer",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:22.121802",
+    "last_seen": "2026-07-02T08:03:22.121802"
+  },
+  "231ea6644fa2ab800aa99993e6d12727": {
+    "title": "Chip Off the Old Block",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:23.033802",
+    "last_seen": "2026-07-02T08:03:23.033802"
+  },
+  "2d6ca1788d45bb38bfd6d4992c55c028": {
+    "title": "Qualcomm Linux 2.0",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:23.998672",
+    "last_seen": "2026-07-02T08:03:23.998672"
+  },
+  "95e5b2b0218d142cd6b4a819c24d8521": {
+    "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:24.901555",
+    "last_seen": "2026-07-02T08:03:24.901555"
+  },
+  "1b2eb03bc4c6506e9a299002fc388ecf": {
+    "title": "FFmpeg 9.1's new AAC encoder",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:25.760716",
+    "last_seen": "2026-07-02T08:03:25.760716"
+  },
+  "a55c092d9bb8cb2927c3ff270ce2c645": {
+    "title": "The Underhanded C Contest",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:26.783267",
+    "last_seen": "2026-07-02T08:03:26.783267"
+  },
+  "62ecb1f7277f4a545f9a455e009001ed": {
+    "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:27.711277",
+    "last_seen": "2026-07-02T08:03:27.711277"
+  },
+  "ef4df181a52a4edad883be80cea215e0": {
+    "title": "Box3D, an open source 3D physics engine",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:29.704567",
+    "last_seen": "2026-07-02T08:03:29.704567"
+  },
+  "1c1ff004992f54ff7c402efd8dde3887": {
+    "title": "Ask HN: Who is hiring? (July 2026)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:30.944008",
+    "last_seen": "2026-07-02T08:03:30.944008"
+  },
+  "5aecc34a81e96d7f342f90fa3fa578c1": {
+    "title": "Internal Combustion Engine (2021)",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:31.949869",
+    "last_seen": "2026-07-02T08:03:31.949869"
+  },
+  "27713e5785d8821ae8bcd9b7ddbd4af1": {
+    "title": "Why jet engines aren't made in China",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:34.333569",
+    "last_seen": "2026-07-02T08:03:34.333569"
+  },
+  "44365dfcca9404db0e19fa7409cb4058": {
+    "title": "Monetization Gateway: Charge for any resource behind Cloudflare via x402",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:35.467757",
+    "last_seen": "2026-07-02T08:03:35.467757"
+  },
+  "17a82858ddf8820ac4daa6d6fd3639b5": {
+    "title": "I Left Harry's All-Night Hamburgers",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:36.330623",
+    "last_seen": "2026-07-02T08:03:36.330623"
+  },
+  "dfb598d705eefaf88d1c2a8c5a4fb5d6": {
+    "title": "Fable 5 Is Back",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:37.222014",
+    "last_seen": "2026-07-02T08:03:37.222014"
+  },
+  "1c5172e7ec9c7a9c07f3f5dc97726211": {
+    "title": "How We Made IPFS Content Publishing 10x Faster",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.348406",
+    "last_seen": "2026-07-02T08:03:38.348406"
+  },
+  "fd80a16b59f33dc5b719cd6ae69fbd62": {
+    "title": "习近平向全体党员致以节日的问候",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.538208",
+    "last_seen": "2026-07-02T08:03:38.538208"
+  },
+  "997841a1f7582751389897265aca3765": {
+    "title": "点球绝杀！比利时3-2逆转塞内加尔",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.543394",
+    "last_seen": "2026-07-02T08:03:38.543394"
+  },
+  "ce9cca998e2a0e31903886d629936ab7": {
+    "title": "比利时吵架不耽误进球",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.548366",
+    "last_seen": "2026-07-02T08:03:38.548366"
+  },
+  "02c54d82d7a65bd4b0edaf08f486c38e": {
+    "title": "初心不改 用一生践行誓言",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.554420",
+    "last_seen": "2026-07-02T08:03:38.554420"
+  },
+  "b395a2251a9da9e9e0465430996e2924": {
+    "title": "法博物馆长：若证实掠夺即刻归还",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.559547",
+    "last_seen": "2026-07-02T08:03:38.559547"
+  },
+  "13d950f924aa7407f51b268fbfd8dbe6": {
+    "title": "英格兰2-1逆转刚果金 晋级16强",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.564502",
+    "last_seen": "2026-07-02T08:03:38.564502"
+  },
+  "988748c34a66c33b95a56d149ab7c0ca": {
+    "title": "世界杯：美国vs波黑",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.568461",
+    "last_seen": "2026-07-02T08:03:38.568461"
+  },
+  "3b32dd267f80944643285c3d57812b18": {
+    "title": "英格兰还得看凯恩",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.572605",
+    "last_seen": "2026-07-02T08:03:38.572605"
+  },
+  "991a8dd61c028571e81f758e0610214f": {
+    "title": "清华大学一本科生被公告退学",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.576916",
+    "last_seen": "2026-07-02T08:03:38.576916"
+  },
+  "2d7430d7a91bc2ef625c3d1d6eec449e": {
+    "title": "微信转账误转他人 法院判了",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.580709",
+    "last_seen": "2026-07-02T08:03:38.580709"
+  },
+  "b695ef516dcf01ee061b09d5b753b18d": {
+    "title": "失联20年女儿归来和外甥女争遗产",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.584367",
+    "last_seen": "2026-07-02T08:03:38.584367"
+  },
+  "4e782af82d489463721f60d94c8aae8c": {
+    "title": "“中考作文阅卷30秒快速打分”不实",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.588024",
+    "last_seen": "2026-07-02T08:03:38.588024"
+  },
+  "e9f98e46be694f1dc26a8c2d7a259980": {
+    "title": "骂中国扣中国人 这位防长终于被制裁",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.591307",
+    "last_seen": "2026-07-02T08:03:38.591307"
+  },
+  "17a098f02be5d0ad5bd4cd99a8d89b77": {
+    "title": "大叔田间休息与蛇四目相对",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.594527",
+    "last_seen": "2026-07-02T08:03:38.594527"
+  },
+  "0844849e5463ef11ebc4f42cdbba3188": {
+    "title": "母鸡俯身把小鸡背在身上",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.597645",
+    "last_seen": "2026-07-02T08:03:38.597645"
+  },
+  "ae9968a81d0bbbca5d49b1e269f24af0": {
+    "title": "重磅！杰伦布朗与保罗乔治互换",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.600626",
+    "last_seen": "2026-07-02T08:03:38.600626"
+  },
+  "81f1c8f38b08fdcd4207acbef732917e": {
+    "title": "中国歌手在英国街头唱《主角》",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.603579",
+    "last_seen": "2026-07-02T08:03:38.603579"
+  },
+  "0889d47bde1f6778937aba012303d527": {
+    "title": "委内瑞拉举行7天全国哀悼",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.606362",
+    "last_seen": "2026-07-02T08:03:38.606362"
+  },
+  "eaa5f462ffe87f783a0080f93d7ba56f": {
+    "title": "比利时队场上内讧",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.609040",
+    "last_seen": "2026-07-02T08:03:38.609040"
+  },
+  "05c20afc87c99de8734ece876907842e": {
+    "title": "越来越多公司证明AI无法替代人工",
+    "source": "百度热搜",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:38.611814",
+    "last_seen": "2026-07-02T08:03:38.611814"
+  },
+  "ce338dc2819c9fb1733a25e80010fcfb": {
+    "title": "AI漫剧,2万元做100集,月入30万是真是假?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.176359",
+    "last_seen": "2026-07-02T08:03:39.176359"
+  },
+  "3e6bba84870232d5205064196da65133": {
+    "title": "AI 产品上线后,最贵的不是模型错误,是证明不了自己尽责",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.184078",
+    "last_seen": "2026-07-02T08:03:39.184078"
+  },
+  "4a40fd0fc9b2f86b69c526ea3978a221": {
+    "title": "AI对财税咨询的冲击:98.7%准确率背后,谁能活下来?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.190315",
+    "last_seen": "2026-07-02T08:03:39.190315"
+  },
+  "ddae7242e8c16004e06eddf00511fb49": {
+    "title": "AI获客下半场:企业拼的不是流量,而是能不能把自己讲清楚",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.195423",
+    "last_seen": "2026-07-02T08:03:39.195423"
+  },
+  "0516ccfe40408464f7efe86c6cc0add8": {
+    "title": "AI短剧产量暴增,社会科学的未来正捏在科学家手中?",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.200532",
+    "last_seen": "2026-07-02T08:03:39.200532"
+  },
+  "003224774d23029bd0bf9dcbb1a1ef2f": {
+    "title": "大模型炼丹指南:信则灵,不信则妄",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.557794",
+    "last_seen": "2026-07-02T08:03:39.557794"
+  },
+  "b27b93a2a4e5f1115bb62c5612a3cd5d": {
+    "title": "大模型训练有多卷?揭开大模型算力之谜 | 钛媒体深度",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.577280",
+    "last_seen": "2026-07-02T08:03:39.577280"
+  },
+  "35e7f5edcadff7d5d04dd67bcfbca7e6": {
+    "title": "一个大模型,一群工程师的2300天",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.582364",
+    "last_seen": "2026-07-02T08:03:39.582364"
+  },
+  "71eab1af69ac8230b098b6e9e7fbecd0": {
+    "title": "今夜,AI硬件股&ldquo;全崩&rdquo;!存储芯片、光通信、半导体集体暴跌",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.925274",
+    "last_seen": "2026-07-02T08:03:39.925274"
+  },
+  "517ea5da44fe880b0b29e9d126357c41": {
+    "title": "东方算芯正式亮相,国家人工智能基金参投,估值超122亿元",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.934574",
+    "last_seen": "2026-07-02T08:03:39.934574"
+  },
+  "9d4d0fb44f86d7577fe9c558bdd204f0": {
+    "title": "上市公司加速推进AI与工业互联网融合",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.941098",
+    "last_seen": "2026-07-02T08:03:39.941098"
+  },
+  "48adc9f1b87961fa19ce61bcc5f9c2b6": {
+    "title": "达瑞电子董事会秘书曾庆邹:把握AI浪潮下消费电子高端化新趋势",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.947136",
+    "last_seen": "2026-07-02T08:03:39.947136"
+  },
+  "33675d40ebb93463dc28400d176cffd7": {
+    "title": "警惕科研中的AI&ldquo;迎合倾向&rdquo;",
+    "source": "搜狗微信",
+    "seen_count": 1,
+    "first_seen": "2026-07-02T08:03:39.952942",
+    "last_seen": "2026-07-02T08:03:39.952942"
   }
 }

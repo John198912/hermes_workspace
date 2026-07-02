@@ -1,20 +1,22 @@
 {
   "week": 27,
   "clues": [
-    {"id": "W-27-01", "topic": "AI 裁员制度化——从传闻到年报再到跨行业扩散", "first_seen": "2026-06-29", "last_signal": "2026-07-01", "days": 3, "strength": "strong"},
-    {"id": "W-27-02", "topic": "AI 繁荣的代价——提效神话破灭的宏观证据", "first_seen": "2026-06-29", "last_signal": "2026-07-01", "days": 3, "strength": "strong"},
+    {"id": "W-27-01", "topic": "AI 裁员制度化——从传闻到反转", "first_seen": "2026-06-29", "last_signal": "2026-07-02", "days": 4, "strength": "strong"},
+    {"id": "W-27-02", "topic": "AI 繁荣的代价——提效神话破灭的宏观证据", "first_seen": "2026-06-29", "last_signal": "2026-07-02", "days": 4, "strength": "strong"},
     {"id": "W-27-03", "topic": "AI 时代的代际认知分裂", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "medium"},
-    {"id": "W-27-04", "topic": "Fable 5 故事链——AI 主权从禁令到解禁的完整周期（跨周延续 W-26-01）", "first_seen": "2026-06-15", "last_signal": "2026-07-01", "days": 17, "strength": "strong"},
-    {"id": "W-27-05", "topic": "超级个体 AI 工具栈成熟——从工具选择到数据护城河", "first_seen": "2026-06-29", "last_signal": "2026-07-01", "days": 3, "strength": "strong"},
+    {"id": "W-27-04", "topic": "Fable 5 故事链——从封禁到解禁的完整周期（跨周延续 W-26-01）", "first_seen": "2026-06-15", "last_signal": "2026-07-02", "days": 18, "strength": "strong"},
+    {"id": "W-27-05", "topic": "超级个体 AI 工具栈成熟——从工具选择到数据护城河", "first_seen": "2026-06-29", "last_signal": "2026-07-02", "days": 4, "strength": "strong"},
     {"id": "W-27-06", "topic": "AI 创业能力边界——AI 替代不了判断力", "first_seen": "2026-06-29", "last_signal": "2026-06-29", "days": 1, "strength": "medium"},
-    {"id": "W-27-07", "topic": "夜间自学 AI——恐惧驱动的自我投资 + 技能生命周期 2-5 年", "first_seen": "2026-06-29", "last_signal": "2026-06-30", "days": 2, "strength": "strong"},
+    {"id": "W-27-07", "topic": "AI 就业的双面叙事——创造与消灭同时发生", "first_seen": "2026-06-29", "last_signal": "2026-07-02", "days": 4, "strength": "strong"},
     {"id": "W-27-08", "topic": "AI 的双面性——Anthropic 安全承诺与军事部署的矛盾", "first_seen": "2026-06-30", "last_signal": "2026-06-30", "days": 1, "strength": "medium"},
-    {"id": "W-27-09", "topic": "中国 AI 模型全球主导——OpenRouter 九周领跑，US 份额 72%→33%", "first_seen": "2026-06-30", "last_signal": "2026-07-01", "days": 2, "strength": "strong"},
-    {"id": "W-27-10", "topic": "中国政策扶持 AI 一人公司——七部门联合发文，超级个体国家战略化", "first_seen": "2026-06-30", "last_signal": "2026-07-01", "days": 2, "strength": "strong"},
-    {"id": "W-27-11", "topic": "Claude Sonnet 5 发布——AI 模型加速迭代，超级个体工具成本持续下降", "first_seen": "2026-07-01", "last_signal": "2026-07-01", "days": 1, "strength": "strong"},
-    {"id": "W-27-12", "topic": "从 Chatbot 到 Agent——AI 使用范式的根本转变（Mollick 新文）", "first_seen": "2026-07-01", "last_signal": "2026-07-01", "days": 1, "strength": "strong"}
+    {"id": "W-27-09", "topic": "中国 AI 模型全球追赶——从模型到生态", "first_seen": "2026-06-30", "last_signal": "2026-07-02", "days": 3, "strength": "strong"},
+    {"id": "W-27-10", "topic": "中国政策扶持 AI 一人公司——七部门联合发文，超级个体国家战略化", "first_seen": "2026-06-30", "last_signal": "2026-07-02", "days": 3, "strength": "strong"},
+    {"id": "W-27-11", "topic": "Claude Sonnet 5 发布——AI 模型加速迭代", "first_seen": "2026-07-01", "last_signal": "2026-07-01", "days": 1, "strength": "strong"},
+    {"id": "W-27-12", "topic": "从 Chatbot 到 Agent——AI 使用范式的根本转变（Mollick 新文）", "first_seen": "2026-07-01", "last_signal": "2026-07-01", "days": 1, "strength": "strong"},
+    {"id": "W-27-13", "topic": "AI 工具的地缘政治化——Fable 5 解禁+隐写术代码", "first_seen": "2026-07-02", "last_signal": "2026-07-02", "days": 1, "strength": "strong"},
+    {"id": "W-27-14", "topic": "AI 成本系统性下降——价格战+开源+算力商品化", "first_seen": "2026-07-02", "last_signal": "2026-07-02", "days": 1, "strength": "medium"}
   ],
-  "updated": "2026-07-01T08:00:00+08:00",
+  "updated": "2026-07-02T08:00:00+08:00",
   "archived_weeks": {
     "26": {
       "clue_count": 14,
