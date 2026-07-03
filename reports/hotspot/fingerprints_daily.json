@@ -2809,9 +2809,9 @@
   "9571c1bcd56da4a86118f5606a506a7e": {
     "title": "Flexible metaprogramming with Rhombus",
     "source": "HackerNews",
-    "seen_count": 1,
+    "seen_count": 4,
     "first_seen": "2026-07-03T08:03:57.864215",
-    "last_seen": "2026-07-03T08:03:57.864215"
+    "last_seen": "2026-07-04T04:11:40.724118"
   },
   "7cecccc55fbcfdf43370a500ed023490": {
     "title": "Show HN: Inkwell – An RSS reader for e-ink devices",
@@ -3099,5 +3099,159 @@
     "seen_count": 1,
     "first_seen": "2026-07-03T08:04:03.134568",
     "last_seen": "2026-07-03T08:04:03.134568"
+  },
+  "cc1bdff7ed5225d5c0de3aed0edd0ade": {
+    "title": "A Cali. farmer is giving away tons of nectarines that he's not allowed to sell",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:42.597942",
+    "last_seen": "2026-07-04T04:12:44.710059"
+  },
+  "91ec11be6a46ec65fc218bfb91fc1863": {
+    "title": "Jamesob's guide to running SOTA LLMs locally",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:43.472196",
+    "last_seen": "2026-07-04T04:12:46.440052"
+  },
+  "8c05a82aff7660c8233a851e4faac061": {
+    "title": "Costco is the anti-Amazon",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:44.323511",
+    "last_seen": "2026-07-04T04:12:45.577238"
+  },
+  "d55f6148e11e6de9ed1f112cf32429d2": {
+    "title": "Factories are just rooms",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:45.171294",
+    "last_seen": "2026-07-04T04:12:47.323415"
+  },
+  "991d467ff77fe03423dab1947023328d": {
+    "title": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:46.011020",
+    "last_seen": "2026-07-04T04:12:49.066940"
+  },
+  "5100ad345e33773320c08f3e673e28d5": {
+    "title": "Hunting a 16-year-old SQLite WAL bug with TLA+",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:46.952553",
+    "last_seen": "2026-07-04T04:12:48.198524"
+  },
+  "c05b377461301999937d1942ca0a2a1f": {
+    "title": "PostgreSQL and the OOM killer: Why we use strict memory overcommit",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:47.807618",
+    "last_seen": "2026-07-04T04:12:51.370190"
+  },
+  "6f22da5cd1d1e3f370e619f3fdd8dfed": {
+    "title": "My dad helped build North America's oat supply chain: Can it be remade?",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:48.665316",
+    "last_seen": "2026-07-04T04:12:52.222521"
+  },
+  "a4d57b2fd1b4fee70f9c14c463dd34d4": {
+    "title": "Instead of banning AI, I made a classroom contract with my students",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:50.414016",
+    "last_seen": "2026-07-04T04:12:53.115887"
+  },
+  "261c658c4ec228aa557f97dea406e5aa": {
+    "title": "Valve open-source the Steam Machine e-ink screen so you can make your own",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:51.284326",
+    "last_seen": "2026-07-04T04:12:53.984554"
+  },
+  "8115b3eabbf5a5c458b91fd74a537bae": {
+    "title": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:52.133463",
+    "last_seen": "2026-07-04T04:12:54.852423"
+  },
+  "08b893fa60fc4a21063c6718d6c9c8a0": {
+    "title": "Half-Baked Product",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:53.088521",
+    "last_seen": "2026-07-04T04:12:55.722929"
+  },
+  "d4fcfe53396bdcc4b291fc817d024c08": {
+    "title": "60% Fable cost cut by converting code to images and having the model OCR it",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:53.948474",
+    "last_seen": "2026-07-04T04:12:56.598251"
+  },
+  "f4409753854d4828be8889fa9d88e2b0": {
+    "title": "The Fall and Rise of Screwworm",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:54.876367",
+    "last_seen": "2026-07-04T04:12:58.356032"
+  },
+  "1de1633da29ac9b6eedb15bb7d08af73": {
+    "title": "Best Simple System for Now (2025)",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:55.698137",
+    "last_seen": "2026-07-04T04:12:57.468188"
+  },
+  "1b79c1bb3f661ed564b6bbcda87fd350": {
+    "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:03:59.905428",
+    "last_seen": "2026-07-04T04:13:00.118769"
+  },
+  "d379c35b7554213022e8b6772bdfe5aa": {
+    "title": "International chess federation sanctions Kramnik",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:04:00.765727",
+    "last_seen": "2026-07-04T04:13:01.870362"
+  },
+  "fa38a9df928c0a95098a10fb39ad960e": {
+    "title": "The Life and Times of Maxis, Part 1: SimEverything",
+    "source": "HackerNews",
+    "seen_count": 4,
+    "first_seen": "2026-07-04T04:04:01.610132",
+    "last_seen": "2026-07-04T04:13:02.744601"
+  },
+  "b57d427b24ecf90050bd7becd98097cd": {
+    "title": "Supersonic flight returning to US after half-century ban",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-04T04:04:02.427646",
+    "last_seen": "2026-07-04T04:04:02.427646"
+  },
+  "5dd97b763ddcc9871a6e80f9b98e3204": {
+    "title": "Test Article About AI",
+    "source": "test.com",
+    "seen_count": 2,
+    "first_seen": "2026-07-04T04:04:02.434320",
+    "last_seen": "2026-07-04T04:04:02.439115"
+  },
+  "f0119e52b28d5c3039e501aaa09ad1b3": {
+    "title": "Holes",
+    "source": "HackerNews",
+    "seen_count": 1,
+    "first_seen": "2026-07-04T04:10:27.342457",
+    "last_seen": "2026-07-04T04:10:27.342457"
+  },
+  "b8f348518e155b57e505d39a9f403c49": {
+    "title": "Show HN: CLI that helps AI agents avoid vulnerable dependencies",
+    "source": "HackerNews",
+    "seen_count": 2,
+    "first_seen": "2026-07-04T04:11:41.911975",
+    "last_seen": "2026-07-04T04:13:00.995948"
   }
 }
