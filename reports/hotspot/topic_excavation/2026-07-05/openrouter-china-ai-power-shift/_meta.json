@@ -1,0 +1,28 @@
+{
+  "topic_slug": "openrouter-china-ai-power-shift",
+  "topic_title": "中国 AI 模型 OpenRouter 九周领跑——美国份额 72%→33% 的全球 AI 权力转移",
+  "excavation_date": "2026-07-05",
+  "trigger_source": "0630 热点日报 · P0 条目 #7 · W-27-09 线索",
+  "config": {
+    "C1_depth_divergence_ratio": "70/30",
+    "C2_recreation_granularity": "full_card",
+    "C3_divergence_boundary": "max 5, traceable"
+  },
+  "model": "volces-ark/deepseek-v4-pro",
+  "context_window": "1M",
+  "reasoning_effort": "max",
+  "execution_mode": "interactive_session",
+  "tools_used": [
+    "brave_direct.py (HTTP fallback after MCP stdio pipe broke)",
+    "tavily-search (parallel primary source)",
+    "Jina Reader (deferred — web_extract unavailable)"
+  ],
+  "signal_count": 5,
+  "information_completeness": "92%",
+  "key_calibration_findings": [
+    "TechTimes 揭示 '61% Chinese models' 数字来自单周 + Top 10 子样本，非全平台口径——需并列展示",
+    "72%→33% 是 OpenRouter 全平台同比对比，多家媒体独立验证",
+    "LongCat Owl Alpha 是 LongCat-2.0 的匿名代号——同一模型两个阶段",
+    "国产 ASIC 训练：Meituan 官方确认 LongCat-2.0 全程训练 + 部署都在国产 AI ASIC 上"
+  ]
+}
