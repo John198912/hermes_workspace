@@ -1,0 +1,18 @@
+tid: T-20260705-001
+title: 研究 Notion vs Bitable 迁移成本
+project: A-ops
+status: Todo
+priority: P2
+blocked: false
+due_date: ''
+effort: S
+context: '@deep'
+exec_mode: human
+this_week: false
+desc: 对比 Notion 和飞书 Bitable 在 SoloPM 工作流下的迁移成本（数据导入/导出、API 集成、学习曲线）
+acceptance: []
+outputs: []
+log:
+- ts: '2026-07-05T22:11:16.022808'
+  event: created
+  by: cli

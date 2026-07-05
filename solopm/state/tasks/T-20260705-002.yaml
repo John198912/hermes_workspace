@@ -1,0 +1,18 @@
+tid: T-20260705-002
+title: 评估周报复用为公众号文章的价值
+project: A-ops
+status: Todo
+priority: P3
+blocked: false
+due_date: ''
+effort: XS
+context: '@quick'
+exec_mode: human
+this_week: false
+desc: 考虑是否把 SoloPM 周报改写为公众号文章，评估：受众重叠度、改写工作量、内容增量价值
+acceptance: []
+outputs: []
+log:
+- ts: '2026-07-05T22:11:19.970220'
+  event: created
+  by: cli
