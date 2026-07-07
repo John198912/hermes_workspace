@@ -93,8 +93,8 @@
       "id": "W-27-12",
       "topic": "从 Chatbot 到 Agent——AI 使用范式的根本转变",
       "first_seen": "2026-07-01",
-      "last_signal": "2026-07-06",
-      "days": 6,
+      "last_signal": "2026-07-07",
+      "days": 7,
       "strength": "strong"
     },
     {
@@ -109,16 +109,16 @@
       "id": "W-27-14",
       "topic": "AI 成本系统性下降——价格战+开源+算力商品化",
       "first_seen": "2026-07-02",
-      "last_signal": "2026-07-06",
-      "days": 5,
+      "last_signal": "2026-07-07",
+      "days": 6,
       "strength": "medium"
     },
     {
       "id": "W-27-15",
       "topic": "大企业的 AI 贫困——个体与组织的 AI 能力倒挂",
       "first_seen": "2026-07-03",
-      "last_signal": "2026-07-06",
-      "days": 4,
+      "last_signal": "2026-07-07",
+      "days": 5,
       "strength": "strong"
     },
     {
@@ -141,16 +141,16 @@
       "id": "W-27-18",
       "topic": "Meta AI 大溃败——AI 公司治理危机（LeCun 自曝+考虑放弃开源+6500程序员转岗）",
       "first_seen": "2026-07-05",
-      "last_signal": "2026-07-06",
-      "days": 2,
+      "last_signal": "2026-07-07",
+      "days": 3,
       "strength": "strong"
     },
     {
       "id": "W-27-19",
       "topic": "中国大模型价格战改写硅谷定价（智谱 GLM-5.2+Uber 烧光预算+中国周调用8周超美国）",
       "first_seen": "2026-07-05",
-      "last_signal": "2026-07-06",
-      "days": 2,
+      "last_signal": "2026-07-07",
+      "days": 3,
       "strength": "strong"
     },
     {
@@ -173,28 +173,60 @@
       "id": "W-27-22",
       "topic": "AI 行业进入「基础设施对外」阶段——巨头从用算力变成卖算力+卖服务（Meta Compute+Microsoft Frontier+四家同跑FDE）",
       "first_seen": "2026-07-06",
-      "last_signal": "2026-07-06",
-      "days": 1,
+      "last_signal": "2026-07-07",
+      "days": 2,
       "strength": "strong"
     },
     {
       "id": "W-27-23",
       "topic": "哲学地基论——NYT 头版证明判断力比技术稀缺（Anthropic/DeepMind 招聘哲学系）",
       "first_seen": "2026-07-06",
-      "last_signal": "2026-07-06",
-      "days": 1,
+      "last_signal": "2026-07-07",
+      "days": 2,
       "strength": "strong"
     },
     {
       "id": "W-27-24",
       "topic": "中国 AI 双线突破——算力国产化+小模型 Agent（美团 LongCat-2.0 5万国产卡+上海AI Lab Agents-A1 35B逼近万亿）",
       "first_seen": "2026-07-06",
-      "last_signal": "2026-07-06",
+      "last_signal": "2026-07-07",
+      "days": 2,
+      "strength": "medium"
+    },
+    {
+      "id": "W-27-25",
+      "topic": "AI 自反性萌芽——Anthropic 7/6 论文证明 Claude 有 J-Space 内心独白",
+      "first_seen": "2026-07-07",
+      "last_signal": "2026-07-07",
+      "days": 1,
+      "strength": "strong"
+    },
+    {
+      "id": "W-27-26",
+      "topic": "AI 圈地运动 2.0——Anthropic 20 年算力长约（$19B 合同收入 + 1.4GW 澳洲）",
+      "first_seen": "2026-07-07",
+      "last_signal": "2026-07-07",
+      "days": 1,
+      "strength": "strong"
+    },
+    {
+      "id": "W-27-27",
+      "topic": "AI 替代第一波——Stanford 数据 22-25 岁初级开发者就业率 -19%",
+      "first_seen": "2026-07-07",
+      "last_signal": "2026-07-07",
+      "days": 1,
+      "strength": "medium"
+    },
+    {
+      "id": "W-27-28",
+      "topic": "AI 行业路线没共识——Karpathy 警告 Agent 是 OpenAI 2010 + Junyang Lin 认错 Hybrid Thinking 错了",
+      "first_seen": "2026-07-07",
+      "last_signal": "2026-07-07",
       "days": 1,
       "strength": "medium"
     }
   ],
-  "updated": "2026-07-06T08:05:00+08:00",
+  "updated": "2026-07-07T08:12:00+08:00",
   "archived_weeks": {
     "26": {
       "clue_count": 14,
