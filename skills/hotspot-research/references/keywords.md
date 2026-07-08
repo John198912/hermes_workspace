@@ -1,30 +1,21 @@
-# Hotspot Research Keywords
+# 关键词体系 (Keywords) — 更新版 v2.0
 
-## Core Keywords (Always Active)
-- AI agent / AI智能体
-- solopreneur / 超级个体 / 一人企业
-- AI转型 / AI transformation
-- personal brand / 个人品牌
-- AGI timeline
+## 1. 国内平台基础关键词
 
-## Chinese Keywords (Domestic Focus)
-- 大模型 / LLM
-- 人工智能 / AI
-- DeepSeek / 文心一言 / 通义千问 / 豆包
-- AI创业 / AI副业
-- 数字游民 / 自由职业
-- AI效率工具
+**【AI技术与产品类】**
+大模型、AI Agent、多模态AI、AI编程、Prompt工程、AI工作流、AI搜索、具身智能、AI+教育、AI+创作、DeepSeek、Kimi、文心一言、通义千问、AI视频生成、AI工具测评、AI副业、AI取代人类、AI时代生存、用AI做副业、ChatGPT使用技巧、人工智能焦虑、AI改变工作、AI裁员、大模型应用、AI创业、物理AI、世界模型、Agent Swarm、智能体集群、氛围编程、vibe coding
 
-## English Keywords (Overseas Focus)
-- LLM agent / autonomous agent
-- AI productivity / AI workflow
-- prompt engineering
-- AI content creation
-- AI coding / vibe coding
-- AI SaaS / AI startup
+**【超级个体/一人公司类】**
+超级个体、一人企业、一人公司、个人品牌、内容创业、知识付费、私域运营、IP打造、自媒体变现、创作者经济、数字游民、副业赚钱、离职创业、自由职业、SOHO、斜杠青年、一人公司年入百万、AI赋能个体、单人成军、轻资产创业
 
-## Platform-Specific Keywords
-- HN: "Show HN" + AI tools, agents, LLM
-- Reddit: r/singularity, r/artificial, r/MachineLearning, r/Entrepreneur, r/Solopreneur
-- WeChat: AI转型, 超级个体, 大模型应用, 个人IP
-- Bilibili: AI教程, 效率工具, 数字生活
+**【职场转型/人生议题类】**
+35岁危机、职场焦虑、躺平、gap year、职业转型、打工人、裁员、降本增效、AI替代人工、996、35岁被裁、内容创业重生、中年转型
+
+**【认知/哲学/成长类】**
+认知升级、底层逻辑、第一性原理、心理模型、元认知、存在主义、意义感、精神自由、反脆弱、长期主义、认知觉醒
+
+**【内容创作方法类】**
+选题策略、爆款公式、流量密码、算法逻辑、涨粉方法、变现路径、内容矩阵、个人IP、粉丝运营、爆款笔记公式
+
+## 2. 海外平台基础关键词
+AI agents, future of work, solopreneur AI, personal brand AI, one-person business, AGI timeline, AI job displacement, AI creativity, prompt engineering, AI side hustle, creator economy AI, digital nomad AI, AI 2026, solo AI business, million dollar solopreneur, AI agent business, vibe coding, agentic AI, AI orchestrator, build with AI no code, AI content creation automation, Zoom Solopreneur 50, business of one, solo founder, AI-powered solopreneur

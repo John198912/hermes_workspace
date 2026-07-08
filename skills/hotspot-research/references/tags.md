@@ -1,48 +1,18 @@
-# Tag System for Content Scoring
+# 内容分类标签体系 (Tags) — 更新版 v2.0
 
-## Master Tags (Primary Dimensions)
+## 1. 主分类标签（必选）
+- 🤖 **[AI]**：与人工智能技术、工具、趋势、影响直接相关
+- 👤 **[超级个体/一人公司]**：与个人品牌、自由职业、一人企业、内容创业直接相关
 
-### [AI] — Artificial Intelligence
-Covers: LLMs, AI agents, machine learning, AI tools, AI coding, AI productivity, AI startups, AI policy/safety
+> ⭐ **优先级规则**：同时具备 [AI] + [超级个体/一人公司] 的双标签内容优先级最高，在分析和报告中优先展示。
 
-### [超级个体] — Super Individual / Solopreneur
-Covers: Personal brand, one-person business, creator economy, independent work, digital nomad, solopreneur, freelancing
-
-### [主体性建构] — Subjectivity & Agency Construction
-Covers: Human autonomy in AI age, cognitive sovereignty, identity transformation, critical thinking, anti-alienation
-
-## Sub Tags (Secondary Dimensions)
-
-### [工具] — Tools & Productivity
-AI tools, workflow automation, productivity systems
-
-### [职场] — Workplace & Career
-Career transformation, AI replacing jobs, new skills
-
-### [情绪] — Emotional & Psychological
-AI anxiety, meaning-seeking, FOMO, burnout
-
-### [创业] — Entrepreneurship
-Startups, business models, funding
-
-### [技术] — Technical Deep Dives
-Papers, architectures, benchmarks, training
-
-### [教育] — Education & Learning
-Learning AI, online education, skill-building
-
-## Scoring Matrix
-
-| Tag Combination | Priority | Meaning |
-|----------------|----------|---------|
-| [AI] + [超级个体] | P0 | Directly relevant — highest value |
-| [AI] + [主体性建构] | P0 | Deep philosophical relevance |
-| [AI] alone | P1 | Needs connection to super-individual |
-| [超级个体] alone | P1 | Needs AI angle |
-| [主体性建构] alone | P1 | Needs AI context |
-| [AI] + [工具] | P1 | Practical value |
-| [AI] + [创业] | P1 | Business application |
-| [AI] + [职场] | P1 | Career impact |
-| [超级个体] + [创业] | P1 | Entrepreneurial angle |
-| Sub-tag alone | P2 | Weak signal, trend reference |
-| No tag match | Discard | Irrelevant to topic |
+## 2. 子分类标签（可多选）
+- 🔧 **[工具技能]**：具体AI工具使用、效率方法、操作教程
+- 📚 **[教育方法]**：学习路径、认知框架、思维模型
+- 💼 **[商业逻辑]**：变现模式、商业策略、创业方法论
+- 🧠 **[哲学社会]**：AI与人类、意义、身份、未来社会的深度思考
+- 📣 **[情绪共鸣]**：焦虑、转型、觉醒等强情绪触发（适合破圈）
+- 🌍 **[海外视角]**：来源于海外平台，可本土化转化
+- 💼 **[职场转型]**：职业危机、裁员、转型路径、新职业
+- ✍️ **[内容创作]**：内容生产方法、爆款公式、创作工具
+- 🧭 **[认知成长]**：底层逻辑、思维升级、个人成长
