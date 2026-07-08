@@ -1,121 +1,13 @@
 {
   "mode": "daily",
-  "generated_at": "2026-07-08 17:28:22",
+  "generated_at": "2026-07-08 17:48:49",
   "total": 65,
   "items": [
-    {
-      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
-      "source": "HackerNews",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "snippet": "↑162 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai, agent",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:03.092826",
-      "fingerprint": "7866f9b1afc7b59959cc4733cdf4b88b"
-    },
-    {
-      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
-      "source": "HackerNews",
-      "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
-      "snippet": "↑186 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:04.018343",
-      "fingerprint": "f4ac10c34834c3fc74e70724dc991c16"
-    },
     {
       "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
       "source": "HackerNews",
       "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-      "snippet": "↑16 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:04.856297",
-      "fingerprint": "cba56d902a705e41efce32ec143d9e84"
-    },
-    {
-      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
-      "source": "HackerNews",
-      "url": "https://kb.cert.org/vuls/id/213560",
-      "snippet": "↑206 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:05.656746",
-      "fingerprint": "15d739ad7ea89f9017bc816e139edc64"
-    },
-    {
-      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
-      "source": "HackerNews",
-      "url": "https://www.digipres.org/the-floppy-guide/",
-      "snippet": "↑71 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:06.567908",
-      "fingerprint": "413e23a9550bd1a63bf066e8038ccf56"
-    },
-    {
-      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
-      "source": "HackerNews",
-      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
-      "snippet": "↑168 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:07.421025",
-      "fingerprint": "da864467693736b80d6eba06a357f2fd"
-    },
-    {
-      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
-      "source": "HackerNews",
-      "url": "https://www.gao.gov/products/gao-26-108193",
-      "snippet": "↑200 | HN热门",
+      "snippet": "↑41 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -125,6 +17,114 @@
       ],
       "is_repeat": true,
       "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:04.856297",
+      "fingerprint": "cba56d902a705e41efce32ec143d9e84"
+    },
+    {
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "source": "HackerNews",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "snippet": "↑173 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai, agent",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:03.092826",
+      "fingerprint": "7866f9b1afc7b59959cc4733cdf4b88b"
+    },
+    {
+      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+      "source": "HackerNews",
+      "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "snippet": "↑192 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:04.018343",
+      "fingerprint": "f4ac10c34834c3fc74e70724dc991c16"
+    },
+    {
+      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
+      "source": "HackerNews",
+      "url": "https://kb.cert.org/vuls/id/213560",
+      "snippet": "↑210 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "命中关键词: ai",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:05.656746",
+      "fingerprint": "15d739ad7ea89f9017bc816e139edc64"
+    },
+    {
+      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
+      "source": "HackerNews",
+      "url": "https://www.digipres.org/the-floppy-guide/",
+      "snippet": "↑75 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:06.567908",
+      "fingerprint": "413e23a9550bd1a63bf066e8038ccf56"
+    },
+    {
+      "title": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+      "source": "HackerNews",
+      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "snippet": "↑174 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:07.421025",
+      "fingerprint": "da864467693736b80d6eba06a357f2fd"
+    },
+    {
+      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+      "source": "HackerNews",
+      "url": "https://www.gao.gov/products/gao-26-108193",
+      "snippet": "↑202 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 2,
       "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T08:02:28.255442",
       "fingerprint": "4c8097538f37f06492c3fb193911ee9b"
@@ -133,7 +133,7 @@
       "title": "Chat Control 1.0 and 2.0 Explained",
       "source": "HackerNews",
       "url": "https://fightchatcontrol.eu/chat-control-overview",
-      "snippet": "↑647 | HN热门",
+      "snippet": "↑652 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -142,16 +142,16 @@
         "海外讨论"
       ],
       "is_repeat": true,
-      "repeat_count": 1,
+      "repeat_count": 2,
       "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T08:02:29.098949",
       "fingerprint": "bbd0e6ec44afb0fb3c547bf1aaca2737"
     },
     {
-      "title": "Canada's only watchmaking school still ticking after 80 years",
+      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
       "source": "HackerNews",
-      "url": "https://www.cbc.ca/news/canada/montreal/canada-s-only-watchmaking-school-9.7254211",
-      "snippet": "↑139 | HN热门",
+      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+      "snippet": "↑408 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -159,17 +159,17 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:10.186992",
-      "fingerprint": "85f69de94fbfa4796f5a413379ed7a37"
+      "is_repeat": true,
+      "repeat_count": 2,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T08:02:25.979505",
+      "fingerprint": "59c30a12a9119cbc32e3b0dde9da265c"
     },
     {
-      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+      "title": "Canada's only watchmaking school still ticking after 80 years",
       "source": "HackerNews",
-      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
-      "snippet": "↑402 | HN热门",
+      "url": "https://www.cbc.ca/news/canada/montreal/canada-s-only-watchmaking-school-9.7254211",
+      "snippet": "↑141 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -180,14 +180,14 @@
       "is_repeat": true,
       "repeat_count": 1,
       "lifecycle_stage": "rising",
-      "first_seen": "2026-07-08T08:02:25.979505",
-      "fingerprint": "59c30a12a9119cbc32e3b0dde9da265c"
+      "first_seen": "2026-07-08T17:28:10.186992",
+      "fingerprint": "85f69de94fbfa4796f5a413379ed7a37"
     },
     {
       "title": "The difference between \"today's task\" and \"accretive work\"",
       "source": "HackerNews",
       "url": "https://pluralistic.net/2026/07/02/canonization/",
-      "snippet": "↑47 | HN热门",
+      "snippet": "↑48 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -195,9 +195,9 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:11.803786",
       "fingerprint": "d2cb179f1850358ed8a20988b8c4b60b"
     },
@@ -205,25 +205,7 @@
       "title": "LineageOS Statistics",
       "source": "HackerNews",
       "url": "https://stats.lineageos.org",
-      "snippet": "↑86 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:12.676490",
-      "fingerprint": "abbbb21f791d65999e08321f35b6a934"
-    },
-    {
-      "title": "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format",
-      "source": "HackerNews",
-      "url": "https://30papers.com/",
-      "snippet": "↑511 | HN热门",
+      "snippet": "↑91 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -233,6 +215,24 @@
       ],
       "is_repeat": true,
       "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:12.676490",
+      "fingerprint": "abbbb21f791d65999e08321f35b6a934"
+    },
+    {
+      "title": "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format",
+      "source": "HackerNews",
+      "url": "https://30papers.com/",
+      "snippet": "↑515 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 2,
       "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T08:02:34.373821",
       "fingerprint": "10208baaaf500831611b519fe465e813"
@@ -241,7 +241,7 @@
       "title": "Home made GPU escalated quickly [video]",
       "source": "HackerNews",
       "url": "https://www.youtube.com/watch?v=qMR3IXF2sWw",
-      "snippet": "↑34 | HN热门",
+      "snippet": "↑35 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -249,17 +249,35 @@
       "tags": [
         "海外讨论"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:14.426074",
       "fingerprint": "7188c93469c5edac7c4141d1470893a1"
+    },
+    {
+      "title": "Herdr: One terminal to rule them all",
+      "source": "HackerNews",
+      "url": "https://herdr.dev/",
+      "snippet": "↑282 | HN热门",
+      "platform": "hackernews",
+      "platform_rating": "A",
+      "source_quality": "A",
+      "relevance_hint": "",
+      "tags": [
+        "海外讨论"
+      ],
+      "is_repeat": true,
+      "repeat_count": 2,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T08:02:32.570750",
+      "fingerprint": "6d422f9d60e5f8ca363b97eebef189c9"
     },
     {
       "title": "Show HN: Davit, a Apple Containers UI",
       "source": "HackerNews",
       "url": "https://davit.app",
-      "snippet": "↑307 | HN热门",
+      "snippet": "↑308 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -268,16 +286,16 @@
         "海外讨论"
       ],
       "is_repeat": true,
-      "repeat_count": 1,
+      "repeat_count": 2,
       "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T08:02:29.888554",
       "fingerprint": "b714babae5c6e4b064702012089c8682"
     },
     {
-      "title": "Herdr: One terminal to rule them all",
+      "title": "Ants: Who looks after the injured in a colony?",
       "source": "HackerNews",
-      "url": "https://herdr.dev/",
-      "snippet": "↑278 | HN热门",
+      "url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/ameisen-kolonie-verletzte-pflegt/",
+      "snippet": "↑11 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -288,24 +306,6 @@
       "is_repeat": true,
       "repeat_count": 1,
       "lifecycle_stage": "rising",
-      "first_seen": "2026-07-08T08:02:32.570750",
-      "fingerprint": "6d422f9d60e5f8ca363b97eebef189c9"
-    },
-    {
-      "title": "Ants: Who looks after the injured in a colony?",
-      "source": "HackerNews",
-      "url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/ameisen-kolonie-verletzte-pflegt/",
-      "snippet": "↑10 | HN热门",
-      "platform": "hackernews",
-      "platform_rating": "A",
-      "source_quality": "A",
-      "relevance_hint": "",
-      "tags": [
-        "海外讨论"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
       "first_seen": "2026-07-08T17:28:16.897016",
       "fingerprint": "bf2ee1101044c96cf5079764fd9ac792"
     },
@@ -313,7 +313,7 @@
       "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
       "source": "HackerNews",
       "url": "https://github.com/rowboatlabs/rowboat",
-      "snippet": "↑158 | HN热门",
+      "snippet": "↑160 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -322,7 +322,7 @@
         "海外讨论"
       ],
       "is_repeat": true,
-      "repeat_count": 1,
+      "repeat_count": 2,
       "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T08:02:36.934564",
       "fingerprint": "f82ef734477c72ce758c44b3dc305e08"
@@ -331,7 +331,7 @@
       "title": "l: A new runtime for k and q",
       "source": "HackerNews",
       "url": "https://lv1.sh/",
-      "snippet": "↑142 | HN热门",
+      "snippet": "↑143 | HN热门",
       "platform": "hackernews",
       "platform_rating": "A",
       "source_quality": "A",
@@ -340,7 +340,7 @@
         "海外讨论"
       ],
       "is_repeat": true,
-      "repeat_count": 1,
+      "repeat_count": 2,
       "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T08:02:35.177395",
       "fingerprint": "3ccd84f4f7a91b76617c4ea8d575e447"
@@ -358,7 +358,7 @@
         "海外讨论"
       ],
       "is_repeat": true,
-      "repeat_count": 1,
+      "repeat_count": 2,
       "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T08:02:36.132720",
       "fingerprint": "370b2f1468a7a3f6e0590e4886a8cf8a"
@@ -375,9 +375,9 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.650488",
       "fingerprint": "472f522a2eea3d2ca5ba1407231088db"
     },
@@ -393,9 +393,9 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.657225",
       "fingerprint": "456e9cbe8aafb47cfcfc81c64a4f3c12"
     },
@@ -411,9 +411,9 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.665125",
       "fingerprint": "2c0caf251dfaddadde505b68243b836a"
     },
@@ -429,9 +429,9 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.672698",
       "fingerprint": "f70f390bf00078ab788480d9284fa28f"
     },
@@ -447,9 +447,9 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.678375",
       "fingerprint": "bcb9fcdfc84ecfd0e4b675abea90294b"
     },
@@ -465,9 +465,9 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.683275",
       "fingerprint": "a4892008deaa17a8dd2291200c219170"
     },
@@ -483,47 +483,11 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.688139",
       "fingerprint": "3153faabf3ff0d9eae1836f0fcb051cf"
-    },
-    {
-      "title": "企业研发制冷马甲 穿上直降8-15℃",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 企业研发制冷马甲 穿上直降8-15℃",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.692764",
-      "fingerprint": "66131943a925aac9e0b25d195a521740"
-    },
-    {
-      "title": "千只瘫痪小猫超65%吃同一品牌猫粮",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 千只瘫痪小猫超65%吃同一品牌猫粮",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.696905",
-      "fingerprint": "f35b65d1458565d682395c811e18a202"
     },
     {
       "title": "加拿大总理“挖角”：把哈兰德借我们",
@@ -537,11 +501,47 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.700783",
       "fingerprint": "4e55799b07da8ef02e5e45ae00d99171"
+    },
+    {
+      "title": "千只瘫痪小猫超65%吃同一品牌猫粮",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 千只瘫痪小猫超65%吃同一品牌猫粮",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:19.696905",
+      "fingerprint": "f35b65d1458565d682395c811e18a202"
+    },
+    {
+      "title": "阿根廷球迷挥以色列国旗挑衅埃及教练",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 阿根廷球迷挥以色列国旗挑衅埃及教练",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:19.714482",
+      "fingerprint": "3e3ba2690fd13f9b932a322d8c5e8faf"
     },
     {
       "title": "女子成植物人15年用坏4部空调",
@@ -555,9 +555,9 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.704397",
       "fingerprint": "debbe94845d07c716e451b13cdbda9a0"
     },
@@ -573,11 +573,29 @@
       "tags": [
         "百度热搜"
       ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:19.707886",
+      "fingerprint": "474b224c2cadc07d0b57fea737a23137"
+    },
+    {
+      "title": "男子送外卖爬上5楼误入一场画展",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 男子送外卖爬上5楼误入一场画展",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.707886",
-      "fingerprint": "474b224c2cadc07d0b57fea737a23137"
+      "first_seen": "2026-07-08T17:48:47.021223",
+      "fingerprint": "e04aa999f281ed7c2fa9997e7fc021e5"
     },
     {
       "title": "特朗普：美伊谅解备忘录“已终结”",
@@ -591,65 +609,11 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.711185",
       "fingerprint": "34682a6f2a98799c4b99d066f205476a"
-    },
-    {
-      "title": "阿根廷球迷挥以色列国旗挑衅埃及教练",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 阿根廷球迷挥以色列国旗挑衅埃及教练",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.714482",
-      "fingerprint": "3e3ba2690fd13f9b932a322d8c5e8faf"
-    },
-    {
-      "title": "河南老君山月薪6万招云海观察员",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 河南老君山月薪6万招云海观察员",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.717403",
-      "fingerprint": "b7db0b6e5cae809469d41b689c65830c"
-    },
-    {
-      "title": "#广西暴雨洪灾互助通道#",
-      "source": "百度热搜",
-      "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: #广西暴雨洪灾互助通道#",
-      "platform": "baidu",
-      "platform_rating": "A",
-      "source_quality": "C",
-      "relevance_hint": "",
-      "tags": [
-        "百度热搜"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.720295",
-      "fingerprint": "ab4f624d81da776d6929b92d910527b4"
     },
     {
       "title": "董宇辉陪同昆凌和孩子们爬长城",
@@ -663,11 +627,47 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.723055",
       "fingerprint": "e74ea38827568ece1a707bf3803535c1"
+    },
+    {
+      "title": "#广西暴雨洪灾互助通道#",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: #广西暴雨洪灾互助通道#",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:19.720295",
+      "fingerprint": "ab4f624d81da776d6929b92d910527b4"
+    },
+    {
+      "title": "河南老君山月薪6万招云海观察员",
+      "source": "百度热搜",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "snippet": "百度热搜: 河南老君山月薪6万招云海观察员",
+      "platform": "baidu",
+      "platform_rating": "A",
+      "source_quality": "C",
+      "relevance_hint": "",
+      "tags": [
+        "百度热搜"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:19.717403",
+      "fingerprint": "b7db0b6e5cae809469d41b689c65830c"
     },
     {
       "title": "74岁“肥猫”郑则仕再回应去世传闻",
@@ -681,17 +681,17 @@
       "tags": [
         "百度热搜"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:19.725807",
       "fingerprint": "12265b04e6dde5a6a8cc709ee4eee09a"
     },
     {
-      "title": "霍启刚痛斥美政客让世界杯失去灵魂",
+      "title": "阿根廷首都发生骚乱 至少19人被捕",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: 霍启刚痛斥美政客让世界杯失去灵魂",
+      "snippet": "百度热搜: 阿根廷首都发生骚乱 至少19人被捕",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -702,14 +702,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.728332",
-      "fingerprint": "a8baaa91b4ef51cf9031d38331e4c3b9"
+      "first_seen": "2026-07-08T17:48:47.037341",
+      "fingerprint": "922aee69197e72612278a1bab38a1625"
     },
     {
-      "title": "“没见过 就以为不会发生”",
+      "title": "一所中学“孤岛”的48小时",
       "source": "百度热搜",
       "url": "https://top.baidu.com/board?tab=realtime",
-      "snippet": "百度热搜: “没见过 就以为不会发生”",
+      "snippet": "百度热搜: 一所中学“孤岛”的48小时",
       "platform": "baidu",
       "platform_rating": "A",
       "source_quality": "C",
@@ -720,14 +720,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:19.730802",
-      "fingerprint": "4e948e9755ae2b87b804bf5cd9c3102b"
+      "first_seen": "2026-07-08T17:48:47.039686",
+      "fingerprint": "8c872eb5c9bcc72ccf135b8226707c47"
     },
     {
       "title": "前8天：穿越罗布泊无人区  第9天：主角突然换人",
       "source": "B站科技区",
       "url": "https://www.bilibili.com/video/BV1soZJYUEKd",
-      "snippet": "播放:5153171 弹幕:21356 | 央视新闻",
+      "snippet": "播放:5153172 弹幕:21356 | 央视新闻",
       "platform": "bilibili",
       "platform_rating": "A",
       "source_quality": "B",
@@ -735,9 +735,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.024044",
       "fingerprint": "70a112902d9ea65419b1f7916948cdf8"
     },
@@ -745,7 +745,7 @@
       "title": "震撼世界的72天：巴黎公社为何爆发？又为何失败？【历史调研室71】",
       "source": "B站科技区",
       "url": "https://www.bilibili.com/video/BV1BtZJYBE4G",
-      "snippet": "播放:3623630 弹幕:25775 | 历史调研室",
+      "snippet": "播放:3623673 弹幕:25775 | 历史调研室",
       "platform": "bilibili",
       "platform_rating": "A",
       "source_quality": "B",
@@ -753,9 +753,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.034181",
       "fingerprint": "3a12348b7d112e16035b2dcf2bfbbdfe"
     },
@@ -763,7 +763,7 @@
       "title": "我被电视剧片头曲“模仿”了却无能为力",
       "source": "B站科技区",
       "url": "https://www.bilibili.com/video/BV1uioXYEE9F",
-      "snippet": "播放:7026890 弹幕:16557 | 孙熙然",
+      "snippet": "播放:7026891 弹幕:16557 | 孙熙然",
       "platform": "bilibili",
       "platform_rating": "A",
       "source_quality": "B",
@@ -771,9 +771,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.040972",
       "fingerprint": "7347f1371d058b95977486a1fb65f5ca"
     },
@@ -781,7 +781,7 @@
       "title": "为什么中国人对一道菜的最高评价是\"下饭\"?",
       "source": "B站科技区",
       "url": "https://www.bilibili.com/video/BV1w6ZEYrEsb",
-      "snippet": "播放:3699196 弹幕:8771 | 赛博食录",
+      "snippet": "播放:3699220 弹幕:8771 | 赛博食录",
       "platform": "bilibili",
       "platform_rating": "A",
       "source_quality": "B",
@@ -789,9 +789,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.047202",
       "fingerprint": "e493a9d4f9d2bf1f1c738458f8f05d58"
     },
@@ -799,7 +799,7 @@
       "title": "深度|| 香火之战，车迟国的教皇实验",
       "source": "B站科技区",
       "url": "https://www.bilibili.com/video/BV1twZ4YzEmv",
-      "snippet": "播放:2561006 弹幕:11379 | 渤海小吏",
+      "snippet": "播放:2561027 弹幕:11379 | 渤海小吏",
       "platform": "bilibili",
       "platform_rating": "A",
       "source_quality": "B",
@@ -807,9 +807,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.052448",
       "fingerprint": "9e29b26ea3af020f7aaf5fc33a766096"
     },
@@ -817,7 +817,7 @@
       "title": "为什么人类需要不断吃盐，而动物们却不用？",
       "source": "B站科技区",
       "url": "https://www.bilibili.com/video/BV1wFZ8YBEt4",
-      "snippet": "播放:11618783 弹幕:3156 | 行者道荣",
+      "snippet": "播放:11618794 弹幕:3156 | 行者道荣",
       "platform": "bilibili",
       "platform_rating": "A",
       "source_quality": "B",
@@ -825,9 +825,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.057205",
       "fingerprint": "86cbbe8e13b8f9ace0407da65fd52678"
     },
@@ -843,9 +843,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.061576",
       "fingerprint": "cd5bb3ab036e10842658261bf586a007"
     },
@@ -861,9 +861,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.065664",
       "fingerprint": "b09e23e06348934e78ff30eca90356e7"
     },
@@ -879,9 +879,9 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.069499",
       "fingerprint": "0a89e7c0d4b0531736990636e5a5721f"
     },
@@ -897,16 +897,16 @@
       "tags": [
         "B站热门"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:20.073087",
       "fingerprint": "fb7482bc36c50b345cd7647444fc0a9a"
     },
     {
-      "title": "AI 夜校,真讲干货,",
+      "title": "AI创作为何平淡无奇",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd9cMt3qfaF3Jn0lvghowzBg-0Gyb57-v0aoRG5zIyUr6Ln0jqtmxyMMart09kNaO5E_3KXJYNk3lAEE7oiitqiY_1aULKenIMPhTtmQy5p04ngNPlu_TcNorJKMNEBRIuXpIP2-gnNmwv7VrtHN08AfyODv9W2ihk6YbWd7Y8mNtb2CsG6-xMgzQ..&amp;type=2&amp;query=AI&amp;token=2A1DC5AD493F94097174276751A102FA727D04896A4E1834",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNEmID6O5JyEC3pj7QU-C8n1qXa8Fplpd9jbScHE_PagyQnZYKYX3kQRK3mWqvbzWt-1VOBY18DqQqpykOcaIgugSqIzpDFl_K0cWLZFxkBCTh8NgKHLGI1namB-DpIfYOYt6rZ19AIUWRBVNpOSoSWEsTyWOVCLRSoIbgInuSVctFaZFjShjb9kkL4kWBABSO5zyq52YtfvUC2Qmj7RgGwQ..&amp;type=2&amp;query=AI&amp;token=2A336A448FF65DCFB8B1EEAED14DD55FB8A46B766A4E1CFF",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -919,13 +919,13 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:20.639592",
-      "fingerprint": "4d26b55caec02b7d7a17cb8e301453b3"
+      "first_seen": "2026-07-08T17:48:47.810059",
+      "fingerprint": "e51f67d10b7782425c2e37a7619229c3"
     },
     {
-      "title": "短剧日榜 | AI真人剧《精神小妹也要修机甲吗》有效播放破亿登顶",
+      "title": "还在熬夜做标书?您的AI提效外挂到账了!",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd9FNgoFllKO80JkqfHsiWeoXcPoZOHPqrod8sux4TVG2bMGuhBeGsD2HTr4rFAiRj6sok2oH1UPTOiH10JIANxTBPyih9BUMGYb2nYQwZRVNxKzrlbL_bWNv2oidaLfz6YeiE4gpGW5QmXwk44XWVcdwSAHVxIeEO7pri_vV3Spj05eBgmN3LoYQ..&amp;type=2&amp;query=AI&amp;token=2A1DC5AD493F94097174276751A102FA727D04896A4E1834",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNEmID6O5JyEC3pj7QU-C8n1qXa8Fplpd9K2BXXpUQ116gRRT1kf-gncsRcygOU01QKhlFZgoToiQGtaD-zzenhX5jU7NEcU_G-0BYMtTiXoULRKCQPr-55KO0B5TNeCvGFbUHXlWNzNu7FC3s7zp-9BG06oUJcwqIaIKedTxugDodvbpO4hdPKcixWxZSgCimEzJtMLgtmxrYl_Q5RRZQjg..&amp;type=2&amp;query=AI&amp;token=2A336A448FF65DCFB8B1EEAED14DD55FB8A46B766A4E1CFF",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -938,18 +938,18 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:20.653827",
-      "fingerprint": "f38c5b5f8ee2d4c7fcd787b6637906ca"
+      "first_seen": "2026-07-08T17:48:47.816635",
+      "fingerprint": "4992ef7a1563fa590bba4fd0c9130573"
     },
     {
-      "title": "AI 智学通暑期营招生!智能学情辅导,助力新学期提升!",
+      "title": "vlog丨有人在AI焦虑,有人在AI成瘾,他们用AI创业",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd9csyQCgwvmTxAznK-GrsBx0dw0p2rYBTxtjnTf669DtdRir5FkWHULfObbCx5QrsmnElBoTvRqEEk52wnXuycl8QEQ_ZwBWU_obje1A72J_aWtVYCOmaCkgWxzckPaHhsiM2y6gh4YXvAHxUn8CtetCoVhwAx_Vt_SVkrPMBh6JdQL0Hr9Gyd3Q..&amp;type=2&amp;query=AI&amp;token=2A1DC5AD493F94097174276751A102FA727D04896A4E1834",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNEmID6O5JyEC3pj7QU-C8n1qXa8Fplpd9V9NzMGfy6UJtLV3kxzTI731LOQXQKqoWaLWdyZs84LtCfMXGvO5vT0Iv0rPsWjUDjgIgcGI9VowrIpmXRLypsjnYzaw0F6bguYbl6_i9uaQ4NG632u-Qm6-63dcq1tTx5B2ekAoS4ue9Q8PnwXri1MM1vTkQwsx1kGELYImdIXXP28temKTOwg..&amp;type=2&amp;query=AI&amp;token=2A336A448FF65DCFB8B1EEAED14DD55FB8A46B766A4E1CFF",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
       "source_quality": "B",
-      "relevance_hint": "命中关键词: ai",
+      "relevance_hint": "命中关键词: ai, 创业",
       "tags": [
         "国内内容",
         "微信文章"
@@ -957,13 +957,13 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:20.661792",
-      "fingerprint": "ca63b6a2d8d091838c03e83490c4130b"
+      "first_seen": "2026-07-08T17:48:47.821688",
+      "fingerprint": "0153e263a5ecc9157f5966c1aa07d80e"
     },
     {
-      "title": "90%试水,仅41%见效,企业级AI卡在哪",
+      "title": "新研究分析AI创作小说为何平淡无奇",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd90ITb4GNoMXfvAQ39j4iaCTn4yLEfhVsZYtXuB9I0ZOpQ_klPfNq0rbVBqGX-vApQ3aev4bR86PAEqqnmzJwbs0p2_0Zpejn2_hH8TXOLUCvZoyYUOUnIKzv1llV-drchmKREETpFl_eV8NGJx-LR11fJJsjcKYw2Sg_eDeoEyERf_71bqkOtiw..&amp;type=2&amp;query=AI&amp;token=2A1DC5AD493F94097174276751A102FA727D04896A4E1834",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNEmID6O5JyEC3pj7QU-C8n1qXa8Fplpd9Tq5GMLwaEov6xE96E5nj-7vr1T9VbdpwviCa9tIbaosGFYiff1ntZxaRElpevZ-c7_5Uc_47HyJ73CNizZ8JtvGu71V7ORpIIr0CyngjkmP-tgmX4aK6YxJl1LJfoOiDfmw8iVsc79_wk5IjNA5t4LMnzaKDKDZzIsezjROgdPpflztgI7RZ1g..&amp;type=2&amp;query=AI&amp;token=2A336A448FF65DCFB8B1EEAED14DD55FB8A46B766A4E1CFF",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -976,13 +976,13 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:20.669351",
-      "fingerprint": "4bfff2a43d9fb822f70c4878c9a630d1"
+      "first_seen": "2026-07-08T17:48:47.826462",
+      "fingerprint": "262d083d5ccf3195ab06ff1fdfb02b5e"
     },
     {
-      "title": "中兴全球首款AI智能体手机将亮相2026WAIC",
+      "title": "上山采到&ldquo;鸡枞菌&rdquo;,用AI识别&ldquo;无毒&rdquo;,一家人食用后全部中毒,9岁男孩生死抢救8天!提醒:不要采、不要吃",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd9nG1_lQEVaUPeXGGyULgKqdGtJeZN3l96VpKfkz1l0XgSuG_GJOJYyiY6qGhBrIvoMB00wlAaA3V7dH4KNZTyTESmLiIlUP-LuD9OQ83IKJ1CybmR1iJBEs38XKV_BsV0kbU10GnPLLFwSMSmMszgA3oxqPxPBvPozkzKKwFayeW54z_tGSZTqA..&amp;type=2&amp;query=AI&amp;token=2A1DC5AD493F94097174276751A102FA727D04896A4E1834",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNEmID6O5JyEC3pj7QU-C8n1qXa8Fplpd9_XxzE6QYkq9GNyiecjG8xW3wlA7BecpFAnHVBrx6kSkXCrA4zqsGcnaVuSXfo4zm5jmLT2eT-SlzFS2OWnNT11FDajk2Gqotc3YF7rgolAkvsGZj5ZjKq2DPY-0wD-gFtSFtIgT3KMeQssysK3FJyhshb4gGk7bJUOKynEJFqZNFH6In5Ei3zg..&amp;type=2&amp;query=AI&amp;token=2A336A448FF65DCFB8B1EEAED14DD55FB8A46B766A4E1CFF",
       "snippet": "微信文章 | 关键词: AI",
       "platform": "weixin",
       "platform_rating": "A",
@@ -995,13 +995,89 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:20.675488",
-      "fingerprint": "f09660f9a3d323bf550f987a07d3b368"
+      "first_seen": "2026-07-08T17:48:47.831731",
+      "fingerprint": "60681583e78106dacb401353b524c5c7"
+    },
+    {
+      "title": "大模型该去二级市场要钱了",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9cl5S4-2WLxnZEm9CUkWdvlyHmpwUPj8IaT0mjt5dUgvBOFly989rQGcUfLv8DBwxz1n-Tcv4unqMOUl1twHuWMPsWcB4d0I11qhlR26PBl-j9BUTQJ75vOsw4Ynx3UHyOV4t20p5XNTpOJIIAfCDkEIzptkVlbhEbA__lbsfwGJ535pjGOOjYg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A336BD82D58F06E151040007F15B2BE161957986A4E1CFF",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-07-08T17:48:48.256104",
+      "fingerprint": "7978f284ef13ce6774af078cfac80f8b"
+    },
+    {
+      "title": "大模型第一股首份成绩单出炉",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9_dXQLKyBWMZ5pGIdn9swpzao_YJOnoz9YfYpmlZzCvVY1cleW8QQR6aSem6lHJ8Skf69gRxXP6rVADQILSgsSzLx50BLJxFP19JXgGRzYcj_WADSafKFo4c4FzxwvyLYj6xYHJXlJZhjaOWM6yZ0qbYoCM1kWDdqIvIhS1sWU05FkDr8IT4KYw..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A336BD82D58F06E151040007F15B2BE161957986A4E1CFF",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-07-08T17:48:48.261965",
+      "fingerprint": "4e4e8965cc602c488f2aeb1710cb803d"
+    },
+    {
+      "title": "特别策划 | 大模型落地应用,让技术变得更有价值",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd90f47JeGqJOqk-o7Iwu9JRp9UObKlXUQCY2EqcYZeA1FNW4QSOmn7WVF1GOHlaM0PCs1POSRllPfb1aoiaoceqRkLWSgW5yo9E07J5qIhPbOuglhqtha2kqr6fUhom8Ds-mKT7QsUA3KBhfOayUy2dqoiFcaWwGtY8Z1H6FdWwU5Cy6umSSPEsg..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A336BD82D58F06E151040007F15B2BE161957986A4E1CFF",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-07-08T17:48:48.268362",
+      "fingerprint": "e6f1c27e90f1b85b4468ea7d93fdc2cd"
+    },
+    {
+      "title": "&ldquo;龙虾&rdquo;出现后,大模型时代的共识被推翻了",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9cl5S4-2WLxnZEm9CUkWdvlyHmpwUPj8IaT0mjt5dUgvBOFly989rQK2fL872E6DUsaVdAf68wygLYETB72GoIWHDySAtTe81NKMN8RUY9NS-_Gufj-ZXykTjOU1QtWWawN9mlRPDXNyD9tCobqrhmAb5gN5TF_2YL2YF_n-1kRBr1dbZWbKUeQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A336BD82D58F06E151040007F15B2BE161957986A4E1CFF",
+      "snippet": "微信文章 | 关键词: 大模型",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: 大模型, 模型",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": false,
+      "repeat_count": 0,
+      "lifecycle_stage": "new",
+      "first_seen": "2026-07-08T17:48:48.273153",
+      "fingerprint": "9fa53ce69119d610db4d6c4b6bf4a220"
     },
     {
       "title": "大模型*AI编程*人形机器人:智能机器人的新范式",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd9w1DbJe3yTi7pXXfcXJKot2iDzdNKriyZDEsUQP3uV7FRYHXFl5axSWwwtZr__U7F6ynhzOyxe9iVNddQPFrVmW4GlmdBcYPVwPN-ZzQn8KUFnNu4FLnptWJvrzhLRz5wmt5KaXg_ZeXTqK0oQdmmMa2QjA4zIkKBg353HTFCSJw5eBgmN3LoYQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A1DC7FB473165077F86D669A0A44DA880BA26DC6A4E1834",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9w1DbJe3yTi7pXXfcXJKot2iDzdNKriyZDEsUQP3uV7FRYHXFl5axSWwwtZr__U7F6ynhzOyxe9iVNddQPFrVmYasZAkfwxaSzQ1upSuuB_kIfACcGbUL62Pi9rNvPX3-KiFCaclmmgslJmM3yyYqVw_2wBxiLt08Ots_qMHs7RoCYioxHkzTmA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A336BD82D58F06E151040007F15B2BE161957986A4E1CFF",
       "snippet": "微信文章 | 关键词: 大模型",
       "platform": "weixin",
       "platform_rating": "A",
@@ -1011,21 +1087,40 @@
         "国内内容",
         "微信文章"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
       "first_seen": "2026-07-08T17:28:21.230761",
       "fingerprint": "674a3310f15d9607dccede32e069bdd9"
     },
     {
-      "title": "大模型的终局,不在云端在芯片",
+      "title": "我国人工智能相关产业今年增速将超30%",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd92IS_FgWq0pY5sb-mcsAxjdqWLIHAZzlqL-rJM1wEKBfGZxp_EGInSe9IYzKPMTevWO1GcsKrh6bDOq3668RnloYaeWJ0i59UjGHu9XcxHQ9VteZe7ul_mo5wS11f_A4FKgFgv6h_jPEct95gZpkM8fObcePL38Ukrw4I6oCJx4oSYTqT4eyLmA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A1DC7FB473165077F86D669A0A44DA880BA26DC6A4E1834",
-      "snippet": "微信文章 | 关键词: 大模型",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9zsDO5W7hFTVA6WiLWh0VdLfYsgWGfxuo7uefMG6W-RFdaJfHzy1JUQgJwmpZNLJ0-1_8m7U5yV7vddvlTS_uALU4kZs7mw1LePpDtWprQfxZ8TxPr1TOWXUNboAETjTEvcXaH1HoQbrbR8xxu4up-n1uq2xfUOcu_2MoeHDv5zR535pjGOOjYg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A336D777302A9344C4D1A5A214B8B5C4C547B5E6A4E1D00",
+      "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
       "source_quality": "B",
-      "relevance_hint": "命中关键词: 大模型, 模型",
+      "relevance_hint": "命中关键词: 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:21.756088",
+      "fingerprint": "830a8cdd141c7177f604bb997d2ab1e9"
+    },
+    {
+      "title": "从AI平台到多智能体课堂:教育变革如何落地?| FCES 2026分论坛",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9hZ-ibYmEcCMNXvGIYP3SHDX2Ai4cBhVLDNVRTY2goRPtVQrCGu_3NKle2C96qFBS31GOaV4xPdtjMoWBw9QjZlyjBGzh2toFRxhg2HYm8_nMOyBR0oM8LaA8sVY9LzaDrRCpQKPl3dyfadHeVgGZDtbdu-1muOQkmCbVLcIJqtc89kyxDwoXvg..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A336D777302A9344C4D1A5A214B8B5C4C547B5E6A4E1D00",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai",
       "tags": [
         "国内内容",
         "微信文章"
@@ -1033,52 +1128,14 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.243305",
-      "fingerprint": "36c3f29f7fa2a6b60e110c1d2215dae4"
+      "first_seen": "2026-07-08T17:48:48.580742",
+      "fingerprint": "b2ee788f3a561ad9f9cd0e4f1cd6ce77"
     },
     {
-      "title": "大模型的前世、今生与未来(N.O. 1)",
+      "title": "关于举办&ldquo;AI大模型辅助教师科研课题申报、研究方法与论文写作发表高级研修班&rdquo;的通知",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd91gUiDnMcehjpLMGOBRc9eCJccLfdBu2q8bFHaaN8xs2Oj5K-uocmY1hAeXtlxYDkS2a6W1b1brDN_-VgqzUblY4iCg14H0emF-RxraUxWGvrLNh6vQeqESq4QiHG51ibltjBxjdD34lfWzancM6OGkztsyZ46DfefFlclsssGCECn9lOoZLP2Q..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A1DC7FB473165077F86D669A0A44DA880BA26DC6A4E1834",
-      "snippet": "微信文章 | 关键词: 大模型",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: 大模型, 模型",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.252652",
-      "fingerprint": "85fbedb2cca98691b1466692d3fd2a20"
-    },
-    {
-      "title": "北京 | 百度大模型商业分析实习生",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd93q9s659jnJqgtcKOrlWEChkThIAO4bzOKJA4GiTu01X1teylHnlzTX2kVbysrLWn_SO0Y_ilpqZeryz3EBdQ9BnfO1FzsfvJaGONpybipF3jwB44ysnox2V7mn07w8-8Z8m2n_QagKUtfM0kug9eUEq09r2V34otJvdc6MMurEECYioxHkzTmA..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A1DC7FB473165077F86D669A0A44DA880BA26DC6A4E1834",
-      "snippet": "微信文章 | 关键词: 大模型",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: 大模型, 模型",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.258573",
-      "fingerprint": "9fd635b0f91d2a46ed91036687845b1f"
-    },
-    {
-      "title": "一图讲清AI大模型RAG检索技术落地实施指南",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNHzU_NPDt-aG3pj7QU-C8n1qXa8Fplpd91HFd7SOJZW1b-tcJikW14nZ6oWZrvy1wLGzGeSCiNE_Cq4fI-f0WCNvlcj0zt4ieYUPcsgP6QthJRcqT5XyE0HhZBt0aBWUSPrW1Y4e4SsDrRJoLC0AeMNTlLcrvoNTHrq0iofXeQ5gfSkenUKuAR3C_DiPcmZqeHnGLfxI7fn2AFV_3u-a3OQ..&amp;type=2&amp;query=%E5%A4%A7%E6%A8%A1%E5%9E%8B&amp;token=2A1DC7FB473165077F86D669A0A44DA880BA26DC6A4E1834",
-      "snippet": "微信文章 | 关键词: 大模型",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd93fHzF7aVnkFspcHqGUP9mI4c3ro06PT4zCNNVcPzwaOExl5Cdikr44BHAskIcxka0oi2kGP7jQvtXeP3IJ3qves7aCpzqZeBtOn0gTvULy0qPkq8IRuu2LeUgyEJaaOOMpxkysrGubFUB92s0lajuJVS2nSlt3VbE_5P5WTfizZAe0f8bRARvQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A336D777302A9344C4D1A5A214B8B5C4C547B5E6A4E1D00",
+      "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
       "source_quality": "B",
@@ -1087,16 +1144,35 @@
         "国内内容",
         "微信文章"
       ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.263053",
-      "fingerprint": "0ab224cc8ad4b2fa5fb27c38430e9613"
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:21.764871",
+      "fingerprint": "923e608ee6346fef483c7bcaf7ed74ce"
     },
     {
-      "title": "我国人工智能相关产业今年增速将超30%",
+      "title": "AI赋能教育,智启未来课堂&mdash;&mdash;广东省人工智能骨干教师教学应用高级研修班在广东实验中学圆满举行",
       "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNG40vMnaHJDO3pj7QU-C8n1qXa8Fplpd9zsDO5W7hFTVA6WiLWh0VdLfYsgWGfxuo7uefMG6W-RFdaJfHzy1JUQgJwmpZNLJ0-1_8m7U5yV7vddvlTS_uAJvnbDonId6vgGUkBHBFCzsAvkLWYejhnRiao5cOk5QoTpu9ScUTju5oJsvu0d04-oGPK838LfDPNt-QlwJgUSZhlgeRt7bSzA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A1DCAEE780EA4394046175761A466F141F6337C6A4E1835",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9-o5nwo0feN2huNRi0IIFJlGIfdpVQDb-e02MuWPnUZjQEuqNwTb7LwjPhZgTVF05biBxJzcj_F28w1dOJ93OKRKoLUHNPgIHclO1Cnbddhb9toPQFbi1hMs5WSdhXC7bquPIDnzUM7S12z5KdTDwlVNo8bVG1RMmjvRRkTAr_zMHpHkoPMgL3A..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A336D777302A9344C4D1A5A214B8B5C4C547B5E6A4E1D00",
+      "snippet": "微信文章 | 关键词: 人工智能",
+      "platform": "weixin",
+      "platform_rating": "A",
+      "source_quality": "B",
+      "relevance_hint": "命中关键词: ai, 人工智能",
+      "tags": [
+        "国内内容",
+        "微信文章"
+      ],
+      "is_repeat": true,
+      "repeat_count": 1,
+      "lifecycle_stage": "rising",
+      "first_seen": "2026-07-08T17:28:21.780856",
+      "fingerprint": "6e8057a1c1f59f33a793bb666e00e2e9"
+    },
+    {
+      "title": "人社部等四部门印发《关于加快推进&ldquo;人工智能+人社&rdquo;应用发展的实施意见》(人社部发〔2026〕40号)",
+      "source": "搜狗微信",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNT-KT1Id0y-K3pj7QU-C8n1qXa8Fplpd9HYEhioEi5qSyrKnZH9wOxXCraR2YAeJtVMbMZL4qtsC6_xswhCh-YECufCcBtpZB4IB_-CBxwmPdTGMbBhQ-MsbmHPJVdH_Zyj5TfQphHDyefu8vmAz5pugVC7VE9bqrNIs4l-P1r-7RwwrXeCYqIN-u6VlPjd3eS6ewGM38SENS6t2rFt2rnA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A336D777302A9344C4D1A5A214B8B5C4C547B5E6A4E1D00",
       "snippet": "微信文章 | 关键词: 人工智能",
       "platform": "weixin",
       "platform_rating": "A",
@@ -1109,84 +1185,8 @@
       "is_repeat": false,
       "repeat_count": 0,
       "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.756088",
-      "fingerprint": "830a8cdd141c7177f604bb997d2ab1e9"
-    },
-    {
-      "title": "关于举办&ldquo;AI大模型辅助教师科研课题申报、研究方法与论文写作发表高级研修班&rdquo;的通知",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNG40vMnaHJDO3pj7QU-C8n1qXa8Fplpd93fHzF7aVnkFspcHqGUP9mI4c3ro06PT4zCNNVcPzwaOExl5Cdikr44BHAskIcxka0oi2kGP7jQvtXeP3IJ3qvYhWfoaQwITyKJDAc2gk_b4DxhZ7vOuI0PSBJvNWFBqxxg1Q0yWUsUugiSdEmfsXAByhs_cktMqRCp_909yUGOFe0WC6Sbi7DA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A1DCAEE780EA4394046175761A466F141F6337C6A4E1835",
-      "snippet": "微信文章 | 关键词: 人工智能",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai, 大模型, 模型",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.764871",
-      "fingerprint": "923e608ee6346fef483c7bcaf7ed74ce"
-    },
-    {
-      "title": "博识广联科技刘红杰:监测站端部署AI智能体是个工程化好出口",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNG40vMnaHJDO3pj7QU-C8n1qXa8Fplpd9CSvfqDHo7oHfLdevjjLqkARHrhx3j5vvyrRSRsS1ExBx3mwUzznOUi2BIvQE7sowajEH51U5VIK0IaGlqeIR86pyAWlK3LVywj7eCZTA_6vSyiJHj_NEeiWR1Z1M2bpMpi5Hoho1DVPnPF2uH5SBbk1lDDHO81L8vSV7EiUCAPj6zvkPgoArRQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A1DCAEE780EA4394046175761A466F141F6337C6A4E1835",
-      "snippet": "微信文章 | 关键词: 人工智能",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.772127",
-      "fingerprint": "adf37e8262f6a5bb683fd4089ea11c2d"
-    },
-    {
-      "title": "AI赋能教育,智启未来课堂&mdash;&mdash;广东省人工智能骨干教师教学应用高级研修班在广东实验中学圆满举行",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNG40vMnaHJDO3pj7QU-C8n1qXa8Fplpd9-o5nwo0feN2huNRi0IIFJlGIfdpVQDb-e02MuWPnUZjQEuqNwTb7LwjPhZgTVF05biBxJzcj_F28w1dOJ93OKVQZopsbj9md5IJFRwt1tZTbOnbuf9h0hiI2OxYOmlcf5XSpGcXO-JXD7r5v-nNYMG4llB9cP6fQu9OI-M5aQmSrCDCayYmfpA..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A1DCAEE780EA4394046175761A466F141F6337C6A4E1835",
-      "snippet": "微信文章 | 关键词: 人工智能",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai, 人工智能",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.780856",
-      "fingerprint": "6e8057a1c1f59f33a793bb666e00e2e9"
-    },
-    {
-      "title": "首位AI演员将出演电影,担任主角,该片将采用&ldquo;混合制作方式&rdquo;;此前其创造者称要将其打造成下个&ldquo;斯嘉丽&rdquo;",
-      "source": "搜狗微信",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNG40vMnaHJDO3pj7QU-C8n1qXa8Fplpd9pQMlZH8h9Em78Vo_VM-Cpw3ERz33enbI-Cu6tfRr2zulVmGttHT54Y1pkZDIm7TvwrNnTBpXe4Q-jZ8tRHZS9kHms5PLvD6mBjCCRwPr-24zEEk9mXnvQi1YylaYYSVYgCYdKWV1i0iXg2vhtp1uqaceABSi-ODTZXFnbR2DZsv1AfaFW2DefQ..&amp;type=2&amp;query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&amp;token=2A1DCAEE780EA4394046175761A466F141F6337C6A4E1835",
-      "snippet": "微信文章 | 关键词: 人工智能",
-      "platform": "weixin",
-      "platform_rating": "A",
-      "source_quality": "B",
-      "relevance_hint": "命中关键词: ai",
-      "tags": [
-        "国内内容",
-        "微信文章"
-      ],
-      "is_repeat": false,
-      "repeat_count": 0,
-      "lifecycle_stage": "new",
-      "first_seen": "2026-07-08T17:28:21.789103",
-      "fingerprint": "f1032f2a9a2d38bb5580d48d466ecbf4"
+      "first_seen": "2026-07-08T17:48:48.593077",
+      "fingerprint": "601f09262d71d74a1b70e3185be1b90b"
     }
   ],
   "stats": {
