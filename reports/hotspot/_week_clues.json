@@ -1,237 +1,69 @@
 {
-  "week": 27,
+  "week": 28,
   "clues": [
     {
-      "id": "W-27-01",
-      "topic": "AI 裁员制度化——从传闻到月度统计数据",
-      "first_seen": "2026-06-29",
-      "last_signal": "2026-07-04",
-      "days": 6,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-02",
-      "topic": "AI 繁荣的代价——提效神话破灭的宏观证据",
-      "first_seen": "2026-06-29",
-      "last_signal": "2026-07-04",
-      "days": 6,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-03",
-      "topic": "AI 时代的代际认知分裂",
-      "first_seen": "2026-06-29",
-      "last_signal": "2026-06-29",
-      "days": 1,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-04",
-      "topic": "Fable 5 故事链——从封禁到解禁的完整周期（跨周延续 W-26-01）",
-      "first_seen": "2026-06-15",
-      "last_signal": "2026-07-05",
-      "days": 21,
-      "strength": "weak"
-    },
-    {
-      "id": "W-27-05",
-      "topic": "超级个体 AI 工具栈成熟——从工具选择到数据护城河",
-      "first_seen": "2026-06-29",
-      "last_signal": "2026-07-04",
-      "days": 6,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-06",
-      "topic": "AI 创业能力边界——AI 替代不了判断力",
-      "first_seen": "2026-06-29",
-      "last_signal": "2026-06-29",
-      "days": 1,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-07",
-      "topic": "AI 就业的双面叙事——创造与消灭同时发生",
-      "first_seen": "2026-06-29",
-      "last_signal": "2026-07-04",
-      "days": 6,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-08",
-      "topic": "AI 的双面性——Anthropic 安全承诺与军事部署的矛盾",
-      "first_seen": "2026-06-30",
-      "last_signal": "2026-06-30",
-      "days": 1,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-09",
-      "topic": "中国 AI 模型全球追赶——从模型到生态",
-      "first_seen": "2026-06-30",
-      "last_signal": "2026-07-06",
-      "days": 6,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-10",
-      "topic": "中国政策扶持 AI 一人公司——超级个体国家战略化",
-      "first_seen": "2026-06-30",
-      "last_signal": "2026-07-04",
-      "days": 5,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-11",
-      "topic": "Claude Sonnet 5 发布——AI 模型加速迭代",
-      "first_seen": "2026-07-01",
-      "last_signal": "2026-07-05",
-      "days": 5,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-12",
-      "topic": "从 Chatbot 到 Agent——AI 使用范式的根本转变",
-      "first_seen": "2026-07-01",
-      "last_signal": "2026-07-07",
-      "days": 7,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-13",
-      "topic": "AI 工具的地缘政治化——从封禁到国有化",
-      "first_seen": "2026-07-02",
-      "last_signal": "2026-07-04",
-      "days": 3,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-14",
-      "topic": "AI 成本系统性下降——价格战+开源+算力商品化",
-      "first_seen": "2026-07-02",
-      "last_signal": "2026-07-07",
-      "days": 6,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-15",
-      "topic": "大企业的 AI 贫困——个体与组织的 AI 能力倒挂",
-      "first_seen": "2026-07-03",
-      "last_signal": "2026-07-07",
-      "days": 5,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-16",
-      "topic": "AI 安全新威胁——Anthropic 6 月系列研究预言 JADEPUFFER",
-      "first_seen": "2026-07-04",
-      "last_signal": "2026-07-05",
-      "days": 3,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-17",
-      "topic": "视频生成进入实时交互时代",
-      "first_seen": "2026-07-04",
-      "last_signal": "2026-07-04",
-      "days": 1,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-18",
-      "topic": "Meta AI 大溃败——AI 公司治理危机（LeCun 自曝+考虑放弃开源+6500程序员转岗）",
-      "first_seen": "2026-07-05",
-      "last_signal": "2026-07-07",
-      "days": 3,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-19",
-      "topic": "中国大模型价格战改写硅谷定价（智谱 GLM-5.2+Uber 烧光预算+中国周调用8周超美国）",
-      "first_seen": "2026-07-05",
-      "last_signal": "2026-07-07",
-      "days": 3,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-20",
-      "topic": "AI 一人公司国家战略化——政策红利窗口（工信部7部门+最高1000万+1600万家）",
-      "first_seen": "2026-07-05",
-      "last_signal": "2026-07-05",
+      "id": "W-28-01",
+      "topic": "AI Agent日常化——从开发者工具到大众工具（跨周延续W-27-12）",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-08",
       "days": 1,
       "strength": "strong"
     },
     {
-      "id": "W-27-21",
-      "topic": "一人公司失败案例——AI 不是创业充分条件（36氪深度跟踪4个失败案例）",
-      "first_seen": "2026-07-05",
-      "last_signal": "2026-07-06",
-      "days": 2,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-22",
-      "topic": "AI 行业进入「基础设施对外」阶段——巨头从用算力变成卖算力+卖服务（Meta Compute+Microsoft Frontier+四家同跑FDE）",
-      "first_seen": "2026-07-06",
-      "last_signal": "2026-07-07",
-      "days": 2,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-23",
-      "topic": "哲学地基论——NYT 头版证明判断力比技术稀缺（Anthropic/DeepMind 招聘哲学系）",
-      "first_seen": "2026-07-06",
-      "last_signal": "2026-07-07",
-      "days": 2,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-24",
-      "topic": "中国 AI 双线突破——算力国产化+小模型 Agent（美团 LongCat-2.0 5万国产卡+上海AI Lab Agents-A1 35B逼近万亿）",
-      "first_seen": "2026-07-06",
-      "last_signal": "2026-07-07",
-      "days": 2,
-      "strength": "medium"
-    },
-    {
-      "id": "W-27-25",
-      "topic": "AI 自反性萌芽——Anthropic 7/6 论文证明 Claude 有 J-Space 内心独白",
-      "first_seen": "2026-07-07",
-      "last_signal": "2026-07-07",
+      "id": "W-28-02",
+      "topic": "智能成本系统性归零——个体杠杆无限放大（跨周延续W-27-14）",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-08",
       "days": 1,
       "strength": "strong"
     },
     {
-      "id": "W-27-26",
-      "topic": "AI 圈地运动 2.0——Anthropic 20 年算力长约（$19B 合同收入 + 1.4GW 澳洲）",
-      "first_seen": "2026-07-07",
-      "last_signal": "2026-07-07",
-      "days": 1,
-      "strength": "strong"
-    },
-    {
-      "id": "W-27-27",
-      "topic": "AI 替代第一波——Stanford 数据 22-25 岁初级开发者就业率 -19%",
-      "first_seen": "2026-07-07",
-      "last_signal": "2026-07-07",
+      "id": "W-28-03",
+      "topic": "AI生产力'量vs质'辩论——YC CEO 37K行代码神话被拆穿",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-08",
       "days": 1,
       "strength": "medium"
     },
     {
-      "id": "W-27-28",
-      "topic": "AI 行业路线没共识——Karpathy 警告 Agent 是 OpenAI 2010 + Junyang Lin 认错 Hybrid Thinking 错了",
-      "first_seen": "2026-07-07",
-      "last_signal": "2026-07-07",
+      "id": "W-28-04",
+      "topic": "中国AI'筑墙'——模型出口管制+开放权重供给收缩",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-08",
+      "days": 1,
+      "strength": "strong"
+    },
+    {
+      "id": "W-28-05",
+      "topic": "Agent基础设施成熟——异步执行+可配置性（跨周延续W-27-12）",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-08",
+      "days": 1,
+      "strength": "medium"
+    },
+    {
+      "id": "W-28-06",
+      "topic": "开源Agent生态崛起——Rowboat+本地化趋势",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-08",
+      "days": 1,
+      "strength": "medium"
+    },
+    {
+      "id": "W-28-07",
+      "topic": "AI军事化不可逆——自主武器首次大规模实战部署",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-08",
       "days": 1,
       "strength": "medium"
     }
   ],
-  "updated": "2026-07-07T08:12:00+08:00",
+  "updated": "2026-07-08T08:06:00+08:00",
   "archived_weeks": {
-    "26": {
-      "clue_count": 14,
-      "archived_at": "2026-06-29",
-      "note": "W-26-04 (Fable 5 故事链) 跨周延续至 W-27-04"
+    "27": {
+      "clue_count": 28,
+      "archived_at": "2026-07-08",
+      "note": "Week 27完整归档，跨周延续：W-27-12(Agent范式)→W-28-01，W-27-14(AI成本)→W-28-02"
     }
   }
 }
