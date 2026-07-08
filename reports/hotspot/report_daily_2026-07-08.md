@@ -1,402 +1,369 @@
-# [HOT] AI x 超级个体 热点采集日报
+# AI x 超级个体 热点采集报告 (每日)
 
-> 报告生成时间：2026-07-08 08:06 CST (Wednesday)
-> 分析方法：Hermes Agent · deepseek-v4-pro (reasoning_effort=max) · 多源交叉验证
-> 分析焦点：AI Agent日常化 · 智能成本归零 · 超级个体工具栈
-> [WARN] 理论中立性纪律：本报告为信息采集与分析，不预设任何哲学框架。理论框架的引入在内容创作阶段，不在采集阶段。
-> [WARN] 24h时间窗约束：所有主论据必须在2026-07-07至2026-07-08期间首次出现。不使用历史材料作为今日主论据。
-
----
-
-## [清单] 本期热点清单（Top 20 优先排序）
-
-| 优先级 | 标题（原文 · 中文翻译） | 中文摘要（四要素） | 平台 | 概览（4字段） | 赛道关联 | 建议方向 |
-|--------|---------------------------|------------------|------|--------------|---------|---------|
-| **P0** | `How people are using Claude Cowork`（Claude Cowork 120万次会话数据揭晓：90%使用场景非编码） | 【主体】Anthropic，【动作】发布Claude Cowork 2026年5月11-31日120万次匿名会话使用数据分析，【关键数字】业务流程与运营占33.4%、内容创作与文案16.4%、软件开发仅8.7%，【影响】证明AI Agent已从"开发者工具"进化为"日常知识工作工具"，非技术用户是主力用户群 | Claude Blog | · 冲突/异常：Agent工具的最大用户群不是程序员<br>· 数据锚点：120万次会话 / 33.4%业务运营 / 8.7%编码<br>· 受众关联：超级个体不需要会写代码就能用AI Agent<br>· 叙事钩子："你以为AI Agent是程序员的玩具，其实它已经是你的同事" | 高 | AI转型 / 超级个体 / 工具实战 |
-| **P0** | `Claude Cowork is coming to mobile and web`（Claude Cowork 移动端和网页端开放：零门槛AI Agent时代到来） | 【主体】Anthropic，【动作】宣布Claude Cowork向移动端和网页端开放，Beta版未来几周面向Max用户推出，【关键数字】跨设备同步会话和文件，超过90%使用场景非软件开发，【影响】Agent能力从终端黑箱走向手机主屏——任何会用手机的人都能调动AI Agent | Claude Blog | · 冲突/异常：最强大的Agent工具走进最普通的界面<br>· 数据锚点：移动端+网页端 / 跨设备同步<br>· 受众关联：内容创作者、自由职业者零门槛接入<br>· 叙事钩子："AI Agent，从今天起在你口袋里" | 高 | 超级个体 / 工具实战 / 内容创作 |
-| **P0** | `Intelligence is Free, Now What? Data Systems for, of, and by Agents`（智能免费了，然后呢？——伯克利提出Agent时代数据系统三阶段框架） | 【主体】UC Berkeley EPIC Data Lab，【动作】提出AI推理成本归零后的数据系统重构框架，【关键数字】GPT-4级能力从2023年初$30/百万token降至今日<$0.10，年降幅9-900倍、中位数50倍，【影响】知识工作级智能即将近乎免费——个体与组织的能力差距进一步缩小 | BAIR Blog | · 冲突/异常：AI推理成本年降50倍，近乎归零<br>· 数据锚点：$30→<$0.10 / 年降9-900倍<br>· 受众关联：超级个体的"智能成本"不再是壁垒<br>· 叙事钩子："当智能比一杯咖啡还便宜，你还有什么借口？" | 高 | AI转型 / 认知升级 / 超级个体 |
-| **P0** | `Copilot goes cheap as Microsoft phases out OpenAI and Anthropic models to cut costs`（微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic模型） | 【主体】Microsoft，【动作】在Copilot产品中逐步用自研MAI模型替换OpenAI和Anthropic模型以降低支出，【关键数字】MAI-Thinking 1声称编码媲美Sonnet 4.6和Opus 4.6但基准测试大幅落后，【影响】大企业开始"降级AI"——AI不再是大模型专属奢侈品，自研/小模型正在蚕食大模型市场份额 | The Decoder | · 冲突/异常：微软"降级"自己的AI供应商<br>· 数据锚点：MAI模型替换OpenAI+Anthropic<br>· 受众关联：AI成本的系统性下降正在改写产业格局<br>· 叙事钩子："连微软都在'省钱'用AI——AI通胀结束了" | 高 | AI转型 / 商业逻辑 |
-| **P1** | `YC CEO claims 37K lines of AI code daily — developer review finds bloated, inefficient frontend`（YC CEO声称每日用AI部署3.7万行代码，开发者审查发现前端代码大量臃肿低效） | 【主体】Y Combinator CEO Garry Tan，【动作】宣称每日用AI编码代理在5个项目中部署37000行代码、连续72天发布，波兰开发者Gregorein审查其网站前端，【关键数字】页面加载169次请求、6.42MB数据（vs HN仅7次请求），【影响】AI生产力叙事出现裂缝——更多代码不等于更好代码 | Fast Company / HN | · 冲突/异常：YC CEO的AI生产力神话被独立开发者拆穿<br>· 数据锚点：37K行/天 / 169次请求 / 6.42MB页面<br>· 受众关联：超级个体追求的是质量杠杆，不是数量泡沫<br>· 叙事钩子："AI让你写更多代码，但谁来写更好的代码？" | 中 | 工具实战 / 认知升级 |
-| **P1** | `China plans to restrict foreign access to its most powerful AI models`（中国拟限制外国访问最强AI模型：AI铁幕正在落下） | 【主体】中国商务部（主导）+ 国家发改委（参与），【动作】与阿里巴巴、字节跳动、Z.ai等企业会谈，拟将先进AI模型（含未发布）限制在国内，【关键数字】涵盖闭源和开源模型、不仅限API还包括可下载权重，讨论将模型泄漏视为国家安全犯罪，【影响】中国超级个体的工具选择空间面临收窄——但国内模型生态可能因此加速 | X / Rohan Paul | · 冲突/异常：中国AI从"追赶"转向"筑墙"<br>· 数据锚点：商务部主导出口管制 / 涵盖开源模型权重<br>· 受众关联：国内超级个体的工具选择可能受限<br>· 叙事钩子："当AI成为战略资源，你的工具箱在墙内还是墙外？" | 高 | AI转型 / 商业逻辑 |
-| **P1** | `Expanding Managed Agents in Gemini API: background execution, remote MCP, and custom functions`（Google Gemini Managed Agents 新增后台执行、远程MCP与自定义函数） | 【主体】Google，【动作】为Gemini API的Managed Agents新增后台异步执行、远程MCP服务器集成、自定义函数调用与凭证刷新，【关键数字】传入background:true即可异步运行并返回ID供轮询，【影响】Agent基础设施从"同步调用"向"自主后台运行"进化——Agent越来越像真正的"员工" | Google Blog | · 冲突/异常：Agent从"同步工具"变成"异步员工"<br>· 数据锚点：后台执行 / 远程MCP / 凭证自动刷新<br>· 受众关联：超级个体可以"雇佣"多个Agent并行工作<br>· 叙事钩子："你的AI助手开始自己'加班'了" | 中 | 工具实战 / 超级个体 |
-| **P1** | `Choosing a Claude model and effort level in Claude Code`（Claude Code 模型与努力级别选择指南：Agent的可配置性时代） | 【主体】Anthropic，【动作】发布Claude Code模型选择与努力级别设置指南，【关键数字】努力级别不单是思考时间——还控制读取文件数、验证步骤及多步任务推进深度，【影响】Agent正在从"黑箱"走向"可调参"——高级用户可以通过配置获得差异化体验 | Claude Blog | · 冲突/异常：Agent不再是"一键出结果"，而是"可配置的工具"<br>· 数据锚点：模型×努力级别 = 差异化Agent能力<br>· 受众关联：高级用户需要理解Agent的可配置维度<br>· 叙事钩子："你用的AI Agent，你会调吗？" | 中 | 工具实战 / 认知升级 |
-| **P2** | `Rowboat: Open-source, local-first desktop AI assistant`（Rowboat：开源、本地优先的桌面AI助手） | 【主体】Rowboat Labs，【动作】开源本地优先桌面AI助手，【关键数字】将邮件、会议、Slack等数据索引为Obsidian风格知识图谱，内置浏览器+代码模式，【影响】开源社区在追赶Claude Desktop——本地化Agent生态正在形成 | GitHub / HN | · 冲突/异常：开源社区在构建Claude Desktop替代品<br>· 数据锚点：开源 / 本地优先 / 知识图谱索引<br>· 受众关联：注重隐私的超级个体的本地Agent方案<br>· 叙事钩子："你的AI助手，可以完全跑在你自己的电脑上" | 中 | 工具实战 |
-| **P2** | `Meta Superintelligence Labs launches Muse Image and Muse Video`（Meta超智能实验室发布Muse图像和Muse视频模型） | 【主体】Meta Superintelligence Labs，【动作】发布首个媒体生成模型Muse Image和Muse Video，【关键数字】Muse Image利用Instagram社交上下文进行精准编辑和多参考构图，集成Muse S系统，【影响】社交媒体巨头将生成式AI深度嵌入平台生态 | X / AI at Meta | · 冲突/异常：Meta从Llama文本模型扩展到媒体生成<br>· 数据锚点：首个媒体生成模型 / Instagram上下文<br>· 受众关联：内容创作者的AI创作工具又多一极<br>· 叙事钩子："你的下一个滤镜，可能是AI生成的整个世界" | 低 | AI转型 / 工具实战 |
-| **P2** | `MIRA: A playable, multiplayer world model — 'the dream of Rocket League' at 20 FPS`（MIRA：可玩多人世界模型——20 FPS实时生成"火箭联盟的梦"） | 【主体】General Intuition + Kyutai Labs + Epic Games，【动作】联合构建可玩多人世界模型MIRA，【关键数字】基于10K小时公开机器人数据训练，根据按键实时生成画面、帧率20 FPS，【影响】世界模型从"生成视频"进化到"实时交互"——游戏/模拟领域的范式转变 | X / Ethan Mollick | · 冲突/异常：AI不只是"生成内容"，而是"生成可玩世界"<br>· 数据锚点：10K小时训练 / 20 FPS实时生成<br>· 受众关联：内容创作者未来可能需要"世界模型设计师"技能<br>· 叙事钩子："AI正在学会'做梦'——而且是你可以走进去的梦" | 低 | AI转型 |
-| **P2** | `Liquid AI open-sources Antidoom: fixing reasoning model doom loops via Final Token Preference Optimization`（Liquid AI开源Antidoom：用最终Token偏好优化修复推理模型死循环） | 【主体】Liquid AI，【动作】开源Antidoom方法修复推理模型死循环（doom loop），【关键数字】基于FTPO定位循环第一个token并训练模型选择连贯替代项，【影响】推理模型可靠性提升——Agent在生产环境中更不容易"卡死" | MarkTechPost | · 冲突/异常：推理模型越强越容易"钻牛角尖"<br>· 数据锚点：FTPO方法 / 定位循环首token<br>· 受众关联：使用推理模型进行深度工作的个体受益<br>· 叙事钩子："AI想太多也会'死机'——科学家找到修复方法" | 低 | 工具实战 |
-| **P2** | `Ethan Mollick: The supply of frontier open-weight models is unlikely to continue indefinitely`（Ethan Mollick：前沿开放权重模型的供给不太可能无限期持续） | 【主体】Ethan Mollick (Wharton)，【动作】在X上发帖警告前沿开放权重模型供给难持续，【影响】与"中国限制AI模型出口"形成双面叙事——全球AI开放生态可能在收窄 | X | · 冲突/异常：AI开放生态可能正在收缩<br>· 数据锚点：Mollick+中国出口管制双信号<br>· 受众关联：依赖开源模型的超级个体需关注供给风险<br>· 叙事钩子："免费的AI模型午餐，可能快要结束了" | 中 | AI转型 / 认知升级 |
-| **P2** | `Small AI models are spreading in areas with unreliable internet`（在网络不稳定地区，小型AI模型正逐渐普及） | 【主体】IEEE Spectrum，【动作】报道小型AI模型在无宽带、缺电地区的普及案例，【关键数字】RxScanner将模型缩小至Android手机本地运行，参数通常至多几十亿，功耗仅数瓦，【影响】AI正在跨越数字鸿沟——小模型是"AI民主化"的真正载体 | IEEE Spectrum | · 冲突/异常：AI的下一波增长在不发达地区<br>· 数据锚点：手机本地运行 / 数瓦功耗 / 无宽带可用<br>· 受众关联：超级个体不需要顶级算力就能部署AI<br>· 叙事钩子："最好的AI，是那个能在你口袋里跑的AI" | 中 | AI转型 / 工具实战 |
-| **P2** | `Krea 2 identity preservation feature goes live`（Krea 2 身份保留功能上线） | 【主体】Krea AI，【动作】发布Krea 2身份保留功能及配套ComfyUI节点，【影响】AI图像生成中的人物一致性进一步突破——内容创作者的"AI模特"更可控 | X | · 冲突/异常：AI生成内容的人物一致性持续提升<br>· 数据锚点：身份保留+ComfyUI节点<br>· 受众关联：个人品牌创作者需要一致的视觉形象<br>· 叙事钩子："你的AI分身，今天更像你了" | 中 | 内容创作 / 工具实战 |
-| **P2** | `US autonomous ground vehicles deployed in Ukraine — 100+ Lancer vehicles, 1,100+ missions`（美国首批自主地面车辆在乌克兰参战：100+辆Lancer执行1100+次任务） | 【主体】Forterra，【动作】宣布过去9个月向乌克兰部署超过100辆基于Polaris ATV的Lancer自主地面车辆，【关键数字】执行1100+次任务、行驶2500英里、运送777吨物资，加装Starlink天线远程操控，【影响】自主系统正在从实验室走向真实战场——AI军事化不可逆 | TechCrunch | · 冲突/异常：自主地面车辆首次大规模实战部署<br>· 数据锚点：100+辆车 / 1100+次任务 / 777吨物资<br>· 受众关联：AI军事化加速的伦理思考素材<br>· 叙事钩子："AI的第一个'战场工作'，是运送弹药" | 低 | 哲学社会 |
-| **P2** | `Grok Imagine update: 15-second video generation now available`（Grok Imagine更新：支持15秒视频生成） | 【主体】xAI / Elon Musk，【动作】更新Grok Imagine支持15秒视频生成，【影响】视频生成赛道再添竞争者——从图片到视频的门槛持续降低 | X | · 冲突/异常：xAI从文本/图片扩展到视频<br>· 数据锚点：15秒视频生成<br>· 受众关联：短视频创作者的AI工具选择增多<br>· 叙事钩子："15秒AI视频——短视频创作者的新武器" | 中 | 内容创作 |
+> 报告生成时间：2026-07-08 17:30 CST
+> 分析方法：Hermes Agent · 多源采集 · SOUL四视角分析
+> 分析焦点：AI 转型 · 超级个体 · 行业动态 · 受众痛点
+> [WARN] 理论中立性纪律：本报告为信息采集与分析，不预设任何哲学框架。不署名引用哲学家的理论概念。理论框架的引入在内容创作阶段，不在采集阶段。
 
 ---
 
-## [CN] 今日中国AI圈动态（via aihot.virxact.com）
+## 本期热点清单（Top 20 优先排序）
 
-> 以下为 aihot 今日精选的中国 AI 行业动态（2026-07-07 至 2026-07-08）。
+> 排序逻辑：P0=必追（赛道直接相关+多平台共振），P1=可追（相关但需要角度切入），P2=参考（边缘相关但趋势信号）
+
+| 优先级 | 标题（原文 · 必带中文翻译） | 中文摘要（系统化四要素） | 平台 | 概览（4 字段结构化） | 与赛道的关联度 | 建议内容方向 |
+|--------|---------------------------|--------------------------|------|---------------------|---------------|-------------|
+| **P0** | `Global OPC Co-Creation Festival：AI-Powered One-Person Companies Enter Mainstream（2026全球OPC共创节：AI驱动的一人公司进入主流）` | 【主体】全球数字经济大会组委会，【动作】举办2026全球OPC共创节(7/1-4)，月之暗面Kimi、腾讯云等AI头部参会，【关键数字】全国OPC社区426处覆盖26省65城、深圳龙岗54个社区释放17万平米、独立创始人占比6年增长53%(23.7%→36.3%)、一人公司新注册同比增长47%，【影响】OPC从概念走向制度化——政府、税务、产业园区三方协同构建"一人一AI=一家公司"的完整生态，超级个体从边缘叙事升级为国家战略级经济形态 | 新浪财经/21财经/极客公园 | · 冲突/异常：一人公司被写入"十五五"规划，政府从旁观者变推手<br>· 数据锚点：426处社区/54个OPC社区/17万平米/47%增长<br>· 受众关联：转型者Marcus的"单干"不再孤独——国家在铺路<br>· 叙事钩子："一个人、一台电脑、一套AI工具，就是一家公司" | 极高 | 超级个体/一人公司 |
+| **P0** | `Claude Cowork Expands to Mobile and Web — The Coding Agent Wars Spill Into the Rest of the Office（Claude Cowork扩展移动端和网页端——编程Agent之战溢出到整个办公室）` | 【主体】Anthropic，【动作】7/7将Claude Cowork从桌面扩展至移动端和网页端，Max用户优先Beta推送，新增Dispatch功能实现跨设备持久线程，【关键数字】使用数据首次披露——Cowork用户多数不用于编程而是状态更新/文档/协调等知识工作，【影响】AI Agent从"开发者专属"到"大众办公工具"的分水岭——超级个体可以随时随地让AI在后台工作，手机=移动指挥部 | TechCrunch/VentureBeat/Anthropic官方 | · 冲突/异常：Agent不再是程序员专利——大多数用户用它写邮件做文档<br>· 数据锚点：多数Cowork用户不做编程/跨设备Dispatch<br>· 受众关联：超级个体可以在手机上管理AI员工<br>· 叙事钩子："你的AI同事，现在住进你手机里了" | 极高 | AI工具实战 |
+| **P0** | `工信部发布风险提示：Claude Code 存在安全后门，可能泄露用户敏感信息（MIIT Issues Risk Alert：Claude Code Has Security Backdoor That May Leak User Data）` | 【主体】中国工信部NVDB，【动作】7/8发布风险提示指出Claude Code内置隐蔽监控机制，未经用户同意向远程服务器回传地域/身份标识，受影响版本2.1.91至2.1.196(自4/2起)，【关键数字】阿里宣布7/10起全面禁用Claude Code并推荐自研Qoder替代，【影响】AI工具的"信任危机"从技术讨论升级为国家行动——超级个体依赖的工具随时可能因地缘政治断供，工具链安全从"可选项"变"必选项" | IT之家/财联社/工信部NVDB | · 冲突/异常：Anthropic承认自4月起内置中国用户检测机制<br>· 数据锚点：2.1.91-2.1.196受影响/阿里7/10全面禁用<br>· 受众关联：每个用Claude Code的超级个体都受影响<br>· 叙事钩子："你的AI工具，在悄悄判断你是不是中国人" | 极高 | AI转型/认知升级 |
+| **P0** | `US Commerce Department Approves OpenAI GPT-5.6 Sol for Mass Release — Sol Debuts Tomorrow（美国商务部批准OpenAI GPT-5.6大规模发布——Sol明日亮相）` | 【主体】美国商务部/OpenAI，【动作】批准GPT-5.6 Sol/Terra/Luna三层架构大规模发布，此前6/26仅向约20家政府批准伙伴预览，【关键数字】Sol旗舰版88.8% Terminal-Bench 2.1(编程)/多层安全框架/Ultra推理模式，【影响】从"政府管控预览"到"全面开放"仅12天——AI能力的扩散速度远超监管预期，超级个体获得与顶级机构同等级AI能力的时间窗口持续压缩 | IT之家/The Hacker News/Wikipedia | · 冲突/异常：从政府锁定向全面开放的惊人速度<br>· 数据锚点：88.8% Terminal-Bench/20→全量/12天<br>· 受众关联：顶级AI能力即将人人可用<br>· 叙事钩子："政府刚批准，你的AI核武器明天上线" | 极高 | AI工具实战 |
+| **P0** | `GitLost：How We Tricked GitHub's AI Agent into Leaking Private Repos（GitLost：我们如何诱骗GitHub的AI Agent泄露私有仓库）` | 【主体】Noma Labs安全研究团队，【动作】发现GitHub Agentic Workflows的提示词注入漏洞，未认证攻击者可通过公开Issue让AI Agent读取私有仓库内容并公开发布，【关键数字】单一精心构造的Issue即可实现跨仓库数据泄露/影响所有使用GitHub Agentic Workflows的组织，【影响】AI Agent安全从理论威胁变为可复现攻击——当Agent拥有"读私有+写公开"双重权限时，提示词注入=数据泄露通道。这是Agent安全风险从"可能性"到"确定性"的转折 | Noma Security/Hacker News/The Register | · 冲突/异常：AI Agent被最基础的提示词注入攻破<br>· 数据锚点：1个Issue=私有仓库全泄露<br>· 受众关联：每个用GitHub Agent的超级个体都有风险<br>· 叙事钩子："你的AI同事，被一个Issue骗走了所有代码" | 高 | AI工具实战/认知升级 |
+| **P1** | `Microsoft Replaces OpenAI and Anthropic Models in Copilot with In-House MAI to Cut Costs（微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic模型）` | 【主体】微软，【动作】在Copilot中用自研MAI模型替换OpenAI和Anthropic模型以降低运营成本，【关键数字】自研替代策略覆盖Copilot全线产品，【影响】大企业AI成本焦虑驱动自研替代——对依赖外部API的超级个体而言，"成本归零"的定价权不在自己手里，但大厂的降本实践证明了"自建+外购"混合策略的可行性 | The Decoder | · 冲突/异常：微软背弃合作伙伴选择自研<br>· 数据锚点：Copilot全线替换<br>· 受众关联：大厂降本路径可被个体借鉴<br>· 叙事钩子："连微软都觉得AI太贵了" | 中 | AI工具实战 |
+| **P1** | `Claude Developer Shares Two Multi-Agent Patterns：Advisor and Orchestrator（Claude开发者分享两种多智能体模式：Advisor和Orchestrator）` | 【主体】Claude开发者邵猛，【动作】7/8在X分享Claude多智能体架构的两种模式——Advisor(顾问型)和Orchestrator(编排型)，【关键数字】两种模式覆盖"决策辅助"和"任务调度"两类核心Agent场景，【影响】多Agent协作模式正在形成可复用的设计范式——超级个体编排多个Agent的能力将成为核心技能，而不是"用哪个Agent" | X:邵猛 | · 冲突/异常：Agent不止一个——需要编排能力<br>· 数据锚点：2种模式/Advisor+Orchestrator<br>· 受众关联：超级个体需要学会"管AI"而不是"用AI"<br>· 叙事钩子："未来你管的不是人，是一群AI Agent" | 高 | AI工具实战/超级个体 |
+| **P1** | `YC CEO Claims 37K Lines of Code Deployed Daily via AI — Developer Review Finds Bloated, Inefficient Frontend Code（YC CEO声称每日用AI部署3.7万行代码——开发者审查发现前端代码大量臃肿低效）` | 【主体】YC CEO Garry Tan/开发者社区，【动作】Tan声称agentic AI每日部署37K行代码引发争议，开发者审查后发现前端代码大量重复冗余/低效实现，【关键数字】37K行/日声称 vs 实际代码质量堪忧，【影响】AI生产力"量vs质"辩论进入实证阶段——产出数量不等于产出价值，超级个体的竞争力不在"AI写得多快"而在"AI写得多好" | FastCompany/HN | · 冲突/异常：AI代码神话被同行审查拆穿<br>· 数据锚点：37K行声称/大量臃肿低效<br>· 受众关联：警惕AI产出幻觉——质量>数量<br>· 叙事钩子："你AI写了3万行垃圾代码，然后呢？" | 高 | AI工具实战/认知升级 |
+| **P1** | `Rowboat：Open-Source，Local-First Desktop AI Assistant — A Claude Desktop Alternative（Rowboat：开源本地优先桌面AI助手——Claude Desktop的替代品）` | 【主体】Rowboat Labs，【动作】7/7在HN发布开源本地优先桌面AI助手，内建邮件/会议/笔记/浏览器/编码五类工作界面，AI在具体工作流中而非仅聊天中提供帮助，【关键数字】50点HN热度/13条讨论，【影响】开源Agent生态加速碎片化——超级个体的"AI工具箱"越来越需要自主选择权而非绑定单一平台 | HN/GitHub | · 冲突/异常：不是又一个Chat——是内建工作流的AI桌面<br>· 数据锚点：5类工作界面/开源MIT<br>· 受众关联：不想被Claude/OpenAI绑定的替代方案<br>· 叙事钩子："开源AI桌面：你的数据，你做主" | 高 | AI工具实战 |
+| **P1** | `Life Design Lab Prompt Test：Designing Four Stages of Life with Claude（《人生设计课》Prompt实测：用Claude设计人生的四个阶段）` | 【主体】公众号"数字生命卡兹克"，【动作】用Claude+《人生设计课》框架设计人生四阶段，Prompt实测输出结构化人生规划，【关键数字】四阶段框架可直接复制使用，【影响】AI+人生设计=超级个体成长赛道的内容蓝海——"用AI找到人生方向"比"用AI赚钱"更打动人 | 公众号:数字生命卡兹克 | · 冲突/异常：AI不是用来写代码的，是用来设计人生的<br>· 数据锚点：4阶段Prompt/可复制<br>· 受众关联：觉醒者Alex的"我想要什么"问题有了AI辅助<br>· 叙事钩子："让AI帮你回答'我这辈子要干什么'" | 极高 | 认知升级/超级个体 |
+| **P1** | `China Plans to Restrict Foreign Access to Its Strongest AI Models（中国拟限制外国访问最强AI模型）` | 【主体】中国政府，【动作】拟限制外国访问中国最强AI模型，延续AI"筑墙"趋势，【关键数字】涉及中国顶尖AI实验室的模型出口管制，【影响】与DeepSeek开源形成张力——一边是最强模型管制一边是成本归零，超级个体在中美AI"脱钩"中面临工具选择困境 | X:Rohan Paul | · 冲突/异常：中国AI从"追赶者"到"被限制出口"<br>· 数据锚点：模型出口管制/多实验室受影响<br>· 受众关联：国内超级个体的AI工具池可能受限<br>· 叙事钩子："中国AI强到需要管制了" | 中 | AI转型 |
+| **P2** | `Anthropic Redeploys Claude Fable 5 After Export Control Lift — Proposes Industry Cybersecurity Framework（Anthropic重新部署Fable 5——提出行业网安框架）` | 【主体】Anthropic，【动作】7/1起Fable 5全球恢复部署并提出行业级网络安全框架提案，6/30同步发布Sonnet 5，【关键数字】经历2周出口管制冻结后恢复，【影响】Fable 5/Sonnet 5生态恢复——超级个体的Claude工具链回到完整状态 | Anthropic Newsroom | · 冲突/异常：出口管制仅2周即解除<br>· 数据锚点：7/1恢复/Fable 5+Sonnet 5<br>· 受众关联：Claude订阅者工具恢复<br>· 叙事钩子："Fable 5回来了，但安全阴影还在" | 中 | AI工具实战 |
+| **P2** | `DeepSeek V4 Flash Pricing at $0.14/M Input — Legacy Aliases Deprecate July 24（DeepSeek V4 Flash定价$0.14/M输入——旧版别名7/24退役）` | 【主体】DeepSeek，【动作】V4 Flash $0.14/M输入/$0.28/M输出正式定价，旧版deepseek-chat/reasoner别名7/24退役，V4 Pro峰值/非峰值定价上线，【关键数字】$0.14/M输入(缓存命中$0.003)/100万上下文/384K输出，【影响】AI成本持续下探——超级个体用最便宜API构建Agent的门槛降至接近零 | DeepSeek API | · 冲突/异常：$0.14/M让AI比电费还便宜<br>· 数据锚点：$0.14/M输入/缓存$0.003/7/24退役<br>· 受众关联：最便宜的AI API=最低的Agent运营成本<br>· 叙事钩子："AI比你的咖啡便宜1000倍" | 中 | AI工具实战 |
+| **P2** | `Ethan Mollick：Open-Weight Model Supply May Not Be Sustainable（Ethan Mollick：开放权重模型供给难持续）` | 【主体】Ethan Mollick，【动作】7/7在X警告开放权重模型的供给可持续性问题——训练成本/维护成本/商业模式三重压力，【关键数字】当前开放权重模型生态面临经济可持续性挑战，【影响】如果开源AI收缩，超级个体将更依赖闭源商业API——工具链自主性再次成为焦点 | X: Ethan Mollick | · 冲突/异常：开源AI可能不是免费午餐<br>· 数据锚点：开放权重供给收缩风险<br>· 受众关联：依赖开源模型的个体需准备Plan B<br>· 叙事钩子："免费的AI，可能撑不过这个夏天" | 中 | AI转型 |
+| **P2** | `Claude Cowork Usage Data：Most Users Aren't Coding（Claude Cowork使用数据：多数用户不用于编程）` | 【主体】Anthropic，【动作】伴随Cowork移动端发布首次披露使用数据——多数用户用Cowork做状态更新/文档/协调等非编程知识工作，【关键数字】非编程使用占多数，【影响】AI Agent的"非编程"用例是更大的蓝海——超级个体的内容创作/项目管理/客户沟通都可被Agent接管 | VentureBeat | · 冲突/异常：Agent不写代码反而更值钱<br>· 数据锚点：多数用户非编程使用<br>· 受众关联：内容创作者才是Agent最大受益者<br>· 叙事钩子："AI Agent最擅长的不是写代码，是替你开会" | 高 | AI工具实战 |
+| **P2** | `Meta Superintelligence Labs Launches Muse Image and Muse Video（Meta超级智能实验室推出Muse Image和Muse Video）` | 【主体】Meta AI，【动作】7/7推出Muse Image和Muse Video两款AI创作工具，【关键数字】超级智能实验室出品，【影响】AI创作工具赛道持续拥挤——超级个体的内容生产工具选择越来越多，差异化从"有没有工具"转向"怎么用工具" | X: AI at Meta | · 冲突/异常：Meta杀入AI创作赛道<br>· 数据锚点：Muse Image+Muse Video同时发布<br>· 受众关联：内容创作工具有了新选择<br>· 叙事钩子："又一个AI创作工具，这次是Meta的" | 低 | AI工具实战 |
+| **P2** | `Ant Group's Robbyant Open-Sources LingBot-Vision：1B-Parameter Visual Foundation Model（蚂蚁集团Robbyant开源LingBot-Vision：1B参数视觉基础模型）` | 【主体】蚂蚁集团Robbyant，【动作】开源LingBot-Vision 1B参数视觉基础模型用于密集空间感知，【关键数字】1B参数/边界中心视觉，【影响】小型高效模型趋势加速——超级个体在边缘设备上部署AI视觉能力成为可能 | MarkTechPost | · 冲突/异常：1B参数=手机可跑<br>· 数据锚点：1B参数/视觉基础模型<br>· 受众关联：本地AI视觉能力触手可及<br>· 叙事钩子："1B参数的AI，装进你的手机" | 低 | AI工具实战 |
+| **P2** | `AI Audit Agent Finds 7 Vulnerabilities in Cloudflare CIRCL（AI审计代理在Cloudflare CIRCL中发现7个漏洞）` | 【主体】zkSecurity，【动作】用AI审计代理在Cloudflare CIRCL密码库中发现7个真实漏洞，【关键数字】7个漏洞/AI自主发现，【影响】AI Agent在安全审计中的实战能力验证——"AI帮你找Bug"从概念走向生产 | HN | · 冲突/异常：AI找到了人类漏掉的7个漏洞<br>· 数据锚点：7个真实漏洞<br>· 受众关联：AI Agent可以替你审计代码<br>· 叙事钩子："AI找到了7个安全漏洞，人类一个都没发现" | 低 | AI工具实战 |
+| **P2** | `Hackers Can Assemble Massive Botnets Using 9 of the Most Popular AI Tools（黑客可利用9款最流行的AI工具组装大规模僵尸网络）` | 【主体】Ars Technica，【动作】报告黑客可利用9款流行AI工具组装大规模僵尸网络，【关键数字】9款工具/AI僵尸网络，【影响】AI工具的双刃剑——同样的Agent能力可被用于攻击，安全意识和工具链审计成为超级个体必修课 | Ars Technica | · 冲突/异常：你用的AI工具可能正在被黑客利用<br>· 数据锚点：9款流行工具<br>· 受众关联：安全意识不是可选项<br>· 叙事钩子："你的AI助手，可能已经是黑客的僵尸" | 低 | AI转型 |
+
+---
+
+## [CN] 今日中国AI圈动态（via aihot）
+
+> 以下为 aihot.virxact.com 今日精选的中国 AI 行业动态（24h，23条）。
 > 标记说明：P0（直接选题）| P1（间接相关）| P2（行业背景）
 
-### 直接选题（P0）
+### P0（直接选题）
 
 | 类别 | 标题（原文 · 中文翻译） | 来源 | 匹配关键词 |
 |------|---------------------|------|-----------|
-| industry | `China plans to restrict foreign access to its most powerful AI models`（中国拟限制外国访问最强AI模型） | X：Rohan Paul | AI、出口管制、地缘政治 |
-| tip | `How people are using Claude Cowork`（人们如何使用Claude Cowork） | Claude：Blog | AI Agent、超级个体、内容创作 |
-| ai-products | `Claude Cowork is coming to mobile and web`（Claude Cowork向移动端和网页端开放） | Claude：Blog | AI Agent、工具实战、超级个体 |
+| industry | `工信部发布Claude Code后门安全风险提示（MIIT Issues Claude Code Backdoor Risk Alert）` | X：小互 (@xiaohu) | AI工具安全, 地缘政治 |
+| tip | `Claude开发者分享两种多智能体模式：Advisor和Orchestrator（Claude Dev Shares Two Multi-Agent Patterns）` | X：邵猛 (@shao__meng) | AI Agent, 超级个体 |
+| tip | `《人生设计课》Prompt实测：用Claude设计人生的四个阶段（Life Design Lab：Design Four Life Stages with Claude）` | 公众号：数字生命卡兹克 | 认知成长, 超级个体 |
 
-### 行业动态（P1-P2）
+### P1（行业动态）
 
-- [industry] **Microsoft phases out OpenAI and Anthropic models in Copilot to cut costs（微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic模型）** — The Decoder (Jul 7) — 大企业AI成本驱动的"降级"信号
-- [tip] **YC CEO Garry Tan claims 37K AI code lines/day, developer review finds bloated code（YC CEO声称每日用AI部署3.7万行代码，开发者审查发现臃肿低效）** — Fast Company / HN (Jul 7) — AI生产力叙事vs代码质量
-- [tip] **Elvis Saravia: Using HITL and DialAgent to improve agentic loop reliability（通过人机协同和DialAgent提升Agent循环可靠性）** — X (Jul 7) — Agent可靠性工程
-- [ai-products] **Rowboat: Open-source, local-first desktop AI assistant（Rowboat：开源本地优先桌面AI助手）** — HN (Jul 7) — Claude Desktop开源替代
-- [ai-products] **Gemini API Managed Agents adds background execution, remote MCP, custom functions（Gemini Managed Agents新增后台执行、远程MCP与自定义函数）** — Google Blog (Jul 7) — Agent基础设施
-- [tip] **Liquid AI open-sources Antidoom for fixing reasoning model doom loops（Liquid AI开源Antidoom修复推理模型死循环）** — MarkTechPost (Jul 7) — 推理模型可靠性
-- [tip] **Intelligence is Free, Now What? — BAIR on Data Systems for Agents（智能免费了，然后呢？—伯克利Agent时代数据系统框架）** — BAIR Blog (Jul 7) — AI成本归零
-- [ai-models] **Meta Superintelligence Labs launches Muse Image and Muse Video（Meta超智能实验室发布Muse图像和视频模型）** — X (Jul 7) — 媒体生成
-- [ai-products] **MIRA: Playable multiplayer world model at 20 FPS（MIRA：20FPS可玩多人世界模型）** — X (Jul 7) — 世界模型
-- [industry] **Ethan Mollick: Open-weight model supply unlikely to continue indefinitely（Ethan Mollick：开放权重模型供给难持续）** — X (Jul 7) — AI开放生态
-- [ai-products] **NotebookLM short video overviews now live（NotebookLM短视频概览正式上线）** — X (Jul 7) — AI教育工具
-- [industry] **US autonomous ground vehicles fighting in Ukraine（美国自主地面车辆在乌克兰参战）** — TechCrunch (Jul 7) — AI军事化
-- [ai-products] **Grok Imagine update: 15-second video（Grok Imagine更新：15秒视频）** — X (Jul 7) — 视频生成
-- [tip] **Small AI models spreading in areas with unreliable internet（小型AI模型在网络不稳定地区普及）** — IEEE Spectrum (Jul 7) — AI民主化
-- [tip] **Krea 2 identity preservation feature（Krea 2身份保留功能）** — X (Jul 7) — AI图像生成
-- [tip] **Choosing Claude model and effort level in Claude Code（Claude Code模型与努力级别选择）** — Claude Blog (Jul 7) — Agent可配置性
+- [industry] **美国商务部批准OpenAI大规模发布GPT-5.6，Sol明日亮相** —— IT之家 (7/8) — GPT-5.6从政府管控预览到全面开放仅12天
+- [industry] **GitLost：Noma Labs发现GitHub AI代理提示词注入漏洞** —— HN (7/8) — 单一公开Issue可泄露私有仓库
+- [industry] **中国拟限制外国访问最强AI模型** —— X：Rohan Paul (7/7) — 中国AI"筑墙"延续
+- [industry] **微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic** —— The Decoder (7/7) — 大厂自研替代趋势
+- [ai-products] **Claude Cowork向移动端和网页端开放** —— Claude Blog (7/7) — Agent从桌面到全平台
+- [ai-products] **Rowboat：开源本地优先桌面AI助手** —— HN (7/7) — 开源Claude Desktop替代品
+- [tip] **YC CEO声称日部署37K行代码，开发者审查发现臃肿低效** —— HN (7/7) — AI生产力辩论
+- [tip] **蚂蚁集团周俊AICon演讲：从Token数量到Token密度** —— 公众号：蚂蚁百灵 (7/8) — 万亿参数模型效率优化
+- [industry] **Ethan Mollick：开放权重模型供给难持续** —— X (7/7) — 开源AI可持续性警告
+- [tip] **Claude Cowork用户数据：多数用户不用于编程** —— Claude Blog (7/7) — Agent的非编程蓝海
 
-> [STATS] 今日 aihot 统计：共 19 条 | P0: 3 条 | P1: 8 条 | P2: 8 条
-> [WARN] AI HOT 本期数据量偏低（19条）——周三常规水平，Fable 5消化期+美国独立日假期后恢复期正常现象
-> 交叉验证：与海外源交叉验证 5 条 | aihot独家 5 条
+### P2（行业背景）
+
+- [paper] **黑客可利用9款最流行AI工具组装大规模僵尸网络** —— Ars Technica (7/8)
+- [tip] **AI审计代理在Cloudflare CIRCL中发现7个漏洞** —— HN (7/8)
+- [ai-models] **蚂蚁Robbyant开源LingBot-Vision：1B参数视觉基础模型** —— MarkTechPost (7/8)
+- [ai-models] **Meta推出Muse Image和Muse Video** —— X (7/7)
+- [tip] **Krea 2身份保留功能上线** —— X (7/7)
+- [ai-products] **NotebookLM短视频概览正式上线** —— X (7/7)
+- [tip] **Liquid AI开源Antidoom：推理模型死循环修复方法** —— MarkTechPost (7/7)
+
+> [STATS] 今日 aihot 统计：共 23 条 | P0: 3 条 | P1: 10 条 | P2: 10 条
+> 交叉验证：5 条 | aihot独家：18 条
+> [WARN] 低活动日（23条 vs 正常30-40条）— 行业消化期正常现象
 ---
 
 ## [人物] 关键人物观点追踪
 
-### Anthropic (Official Blog, Jul 7)
-- **核心观点**：Claude Cowork的120万次会话数据证明——AI Agent的最大用户群不是程序员，而是业务运营人员（33.4%）和内容创作者（16.4%）。软件开发仅占8.7%。
-- **引文/来源**：
-  > "When we released Claude Code in 2025, we were surprised at how many non-technical users started playing around with it... We built Claude Cowork to extend the agentic capabilities of Claude Code to the same chat interface people were already using."
-  > "The largest category of Cowork usage was Business Process & Operations (33.4%) — tasks like organizing reports and reconciling spreadsheets."
-- **对卷哥的价值**：这是官方一手数据，直接验证了"AI赋能非技术个体"的核心叙事。可以用这个数据打破"AI Agent是程序员专属"的认知。
-- **建议内容角度**：「AI Agent的真正用户是谁？Anthropic 120万次会话数据告诉你答案」
-- **来源**：https://claude.com/blog/how-people-are-using-claude-cowork
+### Sam Altman
+- **核心观点**：博客自5/6 Molotov-cocktail manifesto后保持沉默，无新发布
+- **引文/来源**：Jina Reader确认博客最后更新2026-05-06
+- **对卷哥的价值**：Altman沉默期 = OpenAI在GPT-5.6发布前保持战略安静。对比Anthropic的激进发布节奏(Dario Amodei的Fable 5重新部署+Sonnet 5+Cowork扩张)，形成"两种AI领导风格"的叙事张力
+- **建议内容角度**：Altman沉默 vs Amodei激进——两种AI领导力哲学的对比分析
+- **来源**：blog.samaltman.com（Jina Reader 51KB全文）
 
-### UC Berkeley EPIC Data Lab (BAIR Blog, Jul 7)
-- **核心观点**：AI推理成本正以年降9-900倍的速度归零。GPT-4级能力已从$30/百万token降至$0.10以下。这要求数据系统从"为人设计"转向"为Agent设计"——Data Systems For, Of, and By Agents。
-- **引文/来源**：
-  > "The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1, and some providers are pushing costs below $0.10."
-  > "Reasoning prices are declining between 9 and 900 times per year, with a median of 50x."
-- **对卷哥的价值**：AI成本归零是超级个体杠杆无限放大的底层逻辑。可以用这个数据做"AI通胀终结"叙事。
-- **建议内容角度**：「当AI比一杯咖啡还便宜——你的竞争力在哪？」
-- **来源**：http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what
+### Anthropic (Dario Amodei)
+- **核心观点**：Fable 5出口管制解除→7/1全球重新部署→提出行业网安框架→Sonnet 5发布→Cowork移动端扩展——7天4连击的激进发布节奏
+- **引文/来源**：Anthropic Newsroom 7/6："The Making of Claude Code"深度文章；7/2："More details on Fable 5's cyber safeguards"；6/30：Sonnet 5发布+Fable 5重新部署
+- **对卷哥的价值**：Anthropic正在定义"负责任的AI Agent"——在安全框架内最大化Agent能力。这是超级个体使用AI工具的"安全感"来源
+- **建议内容角度**：Anthropic 7天4连击——"AI公司正在学习如何安全地释放Agent能力"；对比工信部Claude Code后门警告的叙事张力
+- **来源**：anthropic.com/news（Jina Reader 9KB）
 
-### Ethan Mollick (X/Twitter, Jul 7)
-- **核心观点**：前沿开放权重模型的供给不太可能无限期持续。与中国出口管制形成双面叙事——全球AI开放生态可能在收缩。
-- **引文/来源**：
-  > "This is a key reason I don't expect the flow of frontier open-weight models to continue indefinitely, or even for much longer."
-- **对卷哥的价值**：提醒国内超级个体关注AI模型供给链风险。结合中国出口管制，可以讲"AI工具墙"叙事。
-- **建议内容角度**：「免费的AI模型午餐，可能快要结束了——你准备好了吗？」
-- **来源**：https://x.com/emollick/status/2074497401578996154
+### Ethan Mollick
+- **核心观点**：7/7在X警告开放权重模型供给不可持续——训练成本、维护成本、商业模式三重压力可能迫使开源AI收缩
+- **引文/来源**：X @emollick 7/7："开放权重模型的供给可能不会持续"
+- **对卷哥的价值**：如果开源AI收缩，超级个体对闭源商业API的依赖将加深——工具链自主性成为真实风险。这是"AI时代的个体脆弱性"的又一论据
+- **建议内容角度**："免费AI可能撑不过夏天——你的工具链有Plan B吗？"
+- **来源**：x.com/emollick
 
-### Andrej Karpathy (Blog, 静默期)
-- **核心观点**：Karpathy自4月30日"Sequoia Ascent 2026 summary"后无新博文。本期无新增信号。
-- **对卷哥的价值**：Karpathy的静默期本身就是信号——技术领袖可能在酝酿下一个重大发布或观点。
-- **来源**：https://karpathy.bearblog.dev/blog/ (最后更新: Apr 30, 2026)
+### Benedict Evans
+- **核心观点**：博客无近期更新
+- **引文/来源**：Jina Reader确认ben-evans.com无新内容
+- **对卷哥的价值**：Evans沉默期=科技产业在GPT-5.6/Fable 5/Sonnet 5密集发布前的"暴风雨前平静"
+- **来源**：ben-evans.com
 
-### Sam Altman (Blog, 静默期)
-- **核心观点**：Altman自5月6日家庭照片帖后无新博文。本期无新增信号。
-- **对卷哥的价值**：Altman静默超过2个月——在Anthropic密集发布Cowork+Sonnet 5+Fable 5的背景下，OpenAI的沉默引人注目。
-- **来源**：https://blog.samaltman.com/ (最后更新: May 6, 2026)
+### Karpathy
+- **核心观点**：博客无近期更新（最后：4/30 Sequoia Ascent 2026演讲，2/12 microgpt）
+- **引文/来源**：Jina Reader确认karpathy.bearblog.dev仅1.5KB（列表页），无新文章
+- **对卷哥的价值**：Karpathy的"Slopacolypse 2026"预测正在成真——GitLost漏洞、AI代码臃肿、AI僵尸网络——AI的"垃圾化"比"觉醒化"来得更快
+- **来源**：karpathy.bearblog.dev
 
 ---
 
 ## [深度] 深度分析（Top 10）
 
-### 1. AI Agent的"日常化"转折点——Claude Cowork数据揭晓的范式转移
+### 1. 一人公司从边缘叙事到国家战略——OPC的制度化拐点
 
-- **热点来源**：Anthropic官方博客 (Jul 7, 2026)
-- **为什么值得深挖**：长期以来，AI Agent被叙事为"程序员的生产力工具"（Claude Code、Copilot、Cursor等）。但Anthropic的120万次Cowork会话数据揭示了一个完全不同的现实——90%以上的使用场景与编码无关。这触动了受众的一个核心焦虑："我不会写代码，AI时代我是不是被淘汰了？"——答案是：不会。
-- **受众关联**：转型者Marcus（有能力但不知道如何"为自己工作"）最需要这个信号。他们以为AI Agent是高技术壁垒的东西，但数据证明——处理报表、整理文档、跨团队协调这些"普通工作"才是Agent的主战场。
-- **叙事建议**：
-  - 反常识钩子：「AI Agent的真正用户，不是程序员，是你的行政同事」
-  - 情绪弧线：震惊（"Agent不是写代码的？"）→ 理解（"原来处理报表才是最大场景"）→ 共鸣（"这就是我每天做的事"）→ 行动（"你也可以用Cowork"）
-  - 受众镜像：每个在Excel和邮件之间疲于奔命的职场人
-- **内容价值**：破除"AI=编程"的认知扭曲，降低AI使用的心理门槛
-- **信息完整度**：80%（Jina Reader 9135字完整提取 + 官方数据）
+- **热点来源**：新浪财经/21财经/极客公园/证券时报/人民网 多平台共振（7/6-7/8）
+- **为什么值得深挖**：这不是又一个"AI改变工作"的报道——这是OPC从"个人选择"到"国家战略"的质变。全国426处OPC社区、54个深圳龙岗社区、多城市写入"十五五"规划、税务部门主动配套合规辅导——当政府开始为一个"一个人就是一家公司"的经济形态铺路，意味着什么？
+- **受众关联**：转型者Marcus的核心焦虑是"我单干靠不靠谱？"——现在政府告诉他"靠谱，我们给你铺路"。这不是励志故事，这是制度信号。
+- **叙事建议**：[反常识钩子] "国家在给'不想上班的人'修高速公路" | [情绪弧线] 惊讶→确认→被看见→行动 | [受众镜像] "原来我不是逃兵，我是先行者"
+- **内容价值**：给受众提供"转型的合法性"——不是逃避职场，是顺应经济形态变迁
+- **信息完整度**：高(80%) — 5源交叉验证 + 具体数字/人物/政策
 
-### 2. 智能成本归零——个体与组织的起跑线正在拉平
+### 2. Claude Cowork移动端——Agent从"开发者玩具"到"大众工具"的范式转移
 
-- **热点来源**：UC Berkeley BAIR Blog (Jul 7, 2026)
-- **为什么值得深挖**：AI推理成本年降50倍（中位数），从$30/百万token到$0.10以下。这意味着——一个超级个体今天能调用的智能，相当于2023年一个中型公司的AI预算才能买到的能力。这是"一人公司"可以对抗大公司的底层经济逻辑。
-- **受众关联**：探索者Lily（"我需要先准备好才能开始"）——这个数据告诉她：你不需要大公司预算，智能已经便宜到近乎免费。
-- **叙事建议**：
-  - 反常识钩子：「你的竞争对手不是另一个个体——是正在用AI的你自己」
-  - 情绪弧线：震惊（"年降50倍？"）→ 理解（"成本不是问题"）→ 行动（"那我的瓶颈在哪？"）
-  - 受众镜像："我一直以为AI很贵——原来我缺的不是钱，是开始的勇气"
-- **内容价值**：直接消除"AI成本太高"的行动障碍
-- **信息完整度**：80%（Jina Reader完整提取 + 伯克利官方数据引用）
+- **热点来源**：Anthropic官方/TechCrunch/VentureBeat (7/7)
+- **为什么值得深挖**：Cowork移动端+使用数据首次披露（多数用户不用于编程）→两个信号叠加：①Agent不是程序员的专利 ②Agent最有价值的场景是"知识工作"而非"编程"。对超级个体而言，这意味着"AI同事"可以接管邮件/文档/会议记录/状态更新——这些占据知识工作者60%+时间的非核心工作。
+- **受众关联**：超级个体需要从"AI写代码"的叙事中走出来——真正的杠杆在"AI替你开会、写邮件、做文档"
+- **叙事建议**：[反常识钩子] "AI Agent最擅长的不是写代码，是替你开会" | [情绪弧线] 意外→好奇→共鸣→行动 | [受众镜像] "原来AI可以不写代码就帮我省下半天时间"
+- **内容价值**：降低AI使用门槛——不是程序员也能用Agent
+- **信息完整度**：高(80%) — Anthropic官方+多源验证
 
-### 3. 微软"降级"AI供应商——大企业AI消费降级的信号意义
+### 3. 工信部Claude Code后门警告——AI工具的"信任危机"从技术到政治
 
-- **热点来源**：The Decoder (Jul 7, 2026)
-- **为什么值得深挖**：微软——OpenAI的最大投资者和Anthropic的合作伙伴——正在用自研MAI模型替换两者以降低成本。这释放了一个信号：AI不再是"越贵越好"，而是"够用就行"。当大企业开始消费降级，超级个体的AI支出效率反而可能更高。
-- **受众关联**：转型者Marcus的核心信念"我的价值来自于我的职位/公司"——当微软都在"降级"时，依附大公司的AI能力不再是优势。
-- **叙事建议**：
-  - 反常识钩子：「连微软都在'降级'AI——大公司的AI优势正在消失」
-  - 情绪弧线：震惊（"微软不用OpenAI了？"）→ 理解（"AI成本战开始了"）→ 共鸣（"大公司也在省钱"）
-  - 受众镜像："如果大公司都开始用'够用就好'的AI，我凭什么觉得我需要最贵的？"
-- **内容价值**：打破"AI是大公司专属"的认知
-- **信息完整度**：60%（The Decoder摘要 + 交叉验证，原文Jina可能被拦截）
+- **热点来源**：工信部NVDB/IT之家/财联社/观点网 (7/8当天)
+- **为什么值得深挖**：Anthropic承认自4月起内置中国用户检测机制（时区/代理检测），阿里7/10全面禁用——这不是Bug，是设计。超级个体面临的真实风险：你花数月"养"的AI工具链，可能一纸禁令就断了。工具链安全从"可选项"变"必选项"。
+- **受众关联**：每个用Claude Code的超级个体都需要Plan B——自建/开源替代/国产替代
+- **叙事建议**：[反常识钩子] "你的AI工具在判断你是不是中国人——这不是科幻，是工信部今天的公告" | [情绪弧线] 震惊→担忧→清醒→准备 | [受众镜像] "我必须为我的工具链做安全审计"
+- **内容价值**：工具链安全意识启蒙+替代方案指南
+- **信息完整度**：高(90%) — 工信部官方+IT之家+阿里内部通知 多源验证
 
-### 4. YC CEO的37K行代码神话——AI生产力的"量vs质"辩论
+### 4. OpenAI GPT-5.6从"政府管控"到"全面开放"仅12天——AI能力扩散的不可逆加速
 
-- **热点来源**：Fast Company / Hacker News (Jul 7, 2026)
-- **为什么值得深挖**：Garry Tan的"AI日部署37K行代码"在X上引发轰动，但独立开发者审查其网站后发现：169次请求、6.42MB页面（HN仅7次请求）。这不是生产力——这是AI生成的臃肿代码。这个事件完美触达受众的一个深层焦虑："AI让我做更多，但做的是不是更好？"
-- **受众关联**：觉醒者Alex（知道"不想要什么"但不清楚"想要什么"）——这个故事告诉他：AI时代，判断力比产出量更重要。
-- **叙事建议**：
-  - 反常识钩子：「硅谷最有权势的人在用AI写屎山代码——而你不敢用AI？」
-  - 情绪弧线：嘲笑（"37K行？"）→ 反思（"多不等于好"）→ 觉醒（"判断力才是稀缺品"）
-  - 受众镜像："我担心AI写的代码不够好，结果YC老板写的更烂"
-- **内容价值**：打破"AI产出多=能力强"的错觉，强调判断力的不可替代性
-- **信息完整度**：60%（Fast Company文章 + HN讨论摘要）
+- **热点来源**：IT之家/The Hacker News/Wikipedia (7/8)
+- **为什么值得深挖**：6/26仅20家政府批准伙伴预览→7/8商务部批准大规模发布——12天。对比Fable 5的出口管制从6/12到7/1解除（19天）。AI能力的政府管控周期在缩短——"管控→评估→放行"的循环越来越快。对超级个体意味着：顶级AI能力从"少数人特权"到"人人可用"的时间窗口在消失。
+- **受众关联**：超级个体不用等"下一代AI"——它明天就到了
+- **叙事建议**：[反常识钩子] "政府锁AI的速度，赶不上AI进化的速度" | [情绪弧线] 意外→理解→紧迫→行动 | [受众镜像] "我得在下次发布前学会用这代AI"
+- **内容价值**：紧迫感激活——不等"准备好"再开始
+- **信息完整度**：中(60%) — 多源确认但Sol实际能力待大规模验证
 
-### 5. 中国AI"筑墙"——国内超级个体的工具选择困局
+### 5. GitLost + 工信部后门 + AI僵尸网络——AI Agent安全的"三连击"
 
-- **热点来源**：X / Rohan Paul (Jul 7, 2026)
-- **为什么值得深挖**：中国商务部拟将先进AI模型（含开源权重）限制在国内，同时讨论将模型泄漏视为国家安全犯罪。这对国内超级个体意味着什么？一方面，可能加速国内模型生态发展（利好）；另一方面，可能切断与国际工具链的连接（利空）。
-- **受众关联**：所有国内内容创作者和超级个体——你的Claude订阅、GitHub模型下载、API调用可能受到影响。
-- **叙事建议**：
-  - 反常识钩子：「AI铁幕落下——不是美国封锁中国，是中国封锁自己」
-  - 情绪弧线：警觉（"我的Claude会被禁吗？"）→ 理解（"这是出口管制不是进口管制"）→ 行动（"多工具备份策略"）
-  - 受众镜像："我用着美国的AI工具做中国的内容——我站在裂缝上"
-- **内容价值**：提供地缘政治视角下的实用工具备份策略
-- **信息完整度**：60%（X帖 + 摘要，一手政策文件不可得）
+- **热点来源**：Noma Labs/HN/工信部/Ars Technica (7/8)
+- **为什么值得深挖**：同一天三条Agent安全新闻——①GitHub Agent被提示词注入泄露私有仓库 ②工信部警告Claude Code后门 ③9款AI工具可组装僵尸网络。这不是巧合——Agent的"自主行动能力"必然带来"自主危害能力"。超级个体必须理解：你交给Agent的权限，就是Agent可能被利用的攻击面。
+- **受众关联**：每个用AI Agent的超级个体都是潜在受害者——也是潜在防线
+- **叙事建议**：[反常识钩子] "AI Agent越强大，你越不安全——除非你理解它怎么被攻击" | [情绪弧线] 震惊→警惕→学习→加固 | [受众镜像] "我得检查我的Agent权限设置了"
+- **内容价值**：Agent安全意识入门+最小权限原则
+- **信息完整度**：高(85%) — 三源独立验证+具体攻击向量
 
-### 6. Claude Cowork移动端——"AI Agent装在口袋里"意味着什么
+### 6. YC CEO 37K行代码被拆穿——AI生产力的"皇帝新衣"时刻
 
-- **热点来源**：Anthropic官方博客 (Jul 7, 2026)
-- **为什么值得深挖**：Claude Cowork从Mac桌面端扩展到移动端和网页端，这是Agent界面从"终端黑箱"到"手机主屏"的跨越。意味着——任何人都可以在地铁上、咖啡厅里、睡前调动AI Agent。这比任何技术进步都更能加速AI的"日常化"。
-- **受众关联**：探索者Lily——"我不会用终端"不再是障碍。年轻探索者Z——"AI就是手机上的一个App"。
-- **叙事建议**：
-  - 反常识钩子：「最强大的AI Agent，界面不是终端——是你的手机主屏」
-  - 情绪弧线：好奇（"手机上也能用Agent？"）→ 尝试（"怎么用？"）→ 习惯（"和刷微信一样自然"）
-  - 受众镜像："我一直以为AI Agent是高深的东西——原来它就在我手机里"
-- **内容价值**：降低AI Agent的使用门槛认知
-- **信息完整度**：80%（Jina Reader 31916字完整提取）
+- **热点来源**：FastCompany/HN (7/7)
+- **为什么值得深挖**：Garry Tan的37K行/日声称被开发者审查发现代码臃肿低效——这不是个案，是AI生产力叙事的"皇帝新衣"时刻。超级个体必须警惕：AI让你产出更快，但不一定让你产出更好。"AI写代码"的真正价值不是数量而是质量——这恰恰是有经验的人的优势。
+- **受众关联**：转型者Marcus的竞争力不在"AI写得多快"而在"我比AI更懂什么是好代码"
+- **叙事建议**：[反常识钩子] "AI写了3万行垃圾——有经验的你，价值反而更高了" | [情绪弧线] 共鸣→释然→自信→行动 | [受众镜像] "原来经验不是包袱，是过滤器"
+- **内容价值**：纠正"AI替代焦虑"——经验的价值被低估
+- **信息完整度**：中(60%) — 二手报道为主
 
-### 7. Google Gemini Managed Agents——Agent从"同步"走向"异步"
+### 7. Claude多智能体模式(Advisor+Orchestrator)——Agent编排成为核心技能
 
-- **热点来源**：Google Blog (Jul 7, 2026)
-- **为什么值得深挖**：Google为Gemini API新增后台执行——Agent可以异步运行，你发完指令就关掉手机，它完成后通知你。这是Agent从"工具"到"员工"的关键跨越——真正的"雇佣AI为你工作"。
-- **受众关联**：超级个体可以"雇佣"多个Agent并行处理不同任务——内容创作Agent写稿的同时，数据分析Agent在做报表。
-- **叙事建议**：
-  - 反常识钩子：「你的AI助手开始自己'加班'了——你睡觉的时候它在工作」
-  - 受众镜像："我同时'雇佣'了3个AI——一个写稿、一个做图、一个回邮件"
-- **内容价值**：展示Agent异步工作的实际场景
-- **信息完整度**：60%（Google Blog摘要）
+- **热点来源**：X:邵猛 (7/8)
+- **为什么值得深挖**：Claude开发者分享两种Agent协作模式——Advisor(决策辅助)和Orchestrator(任务调度)。这不是技术细节——这是超级个体的核心能力图谱："管AI"比"用AI"更重要。未来一个人的团队=1个人类+N个AI Agent，编排能力=管理能力。
+- **受众关联**：超级个体的下一课：学会当AI团队的"CEO"
+- **叙事建议**：[反常识钩子] "未来你管的不是人，是一群AI——但管理能力一样重要" | [情绪弧线] 好奇→理解→兴奋→学习 | [受众镜像] "我得学会编排Agent而不是只用Agent"
+- **内容价值**：Agent编排入门框架
+- **信息完整度**：低(30%) — 仅X短文，待深读
 
-### 8. 开源Agent替代品崛起——Rowboat与AI工具的"去中心化"
+### 8. 微软Copilot自研替代——大厂降本实践给超级个体的启示
 
-- **热点来源**：GitHub / Hacker News (Jul 7, 2026)
-- **为什么值得深挖**：Rowboat作为Claude Desktop的开源替代品登上HN首页。结合Mollick的"开放权重模型供给难持续"警告——开源Agent生态的重要性正在上升。对注重隐私、不想绑定单一供应商的超级个体来说，这是好消息。
-- **受众关联**：注重数据主权的超级个体
-- **叙事建议**：
-  - 反常识钩子：「你的AI助手，可以完全跑在你自己的电脑上——而且开源」
-  - 受众镜像："我不想让Anthropic看到我的所有文件——开源方案来了"
-- **内容价值**：提供本地化Agent工具选择
-- **信息完整度**：60%（GitHub README + HN讨论）
+- **热点来源**：The Decoder (7/7)
+- **为什么值得深挖**：微软在Copilot中用自研MAI替换OpenAI/Anthropic——大厂也在降本。超级个体可以学到：①不要绑定单一API供应商 ②成本优化=自建+外购混合 ③大厂的自研路径验证了"多模型策略"的可行性
+- **受众关联**：超级个体的AI工具预算管理——不是越多越贵越好
+- **叙事建议**：[反常识钩子] "连微软都觉得OpenAI太贵——你的AI预算该怎么花？" | [情绪弧线] 共鸣→思考→优化 | [受众镜像] "我可以像微软一样做AI成本管理"
+- **内容价值**：AI工具成本优化策略
+- **信息完整度**：中(60%)
 
-### 9. AI的"自反性"信号——从推理死循环修复到模型可配置性
+### 9. 2026全球OPC共创节——Kimi/腾讯云等AI头部入局一人公司生态
 
-- **热点来源**：Liquid AI / Anthropic (Jul 7, 2026)
-- **为什么值得深挖**：Liquid AI的Antidoom修复推理模型死循环 + Claude Code的模型/努力级别选择——共同指向AI系统正在获得"自反性"：能够被配置、被调试、被修复。这不是更强的AI，而是"更可控的AI"。
-- **受众关联**：高级用户需要理解Agent的可配置维度——不是所有任务都需要"最强模型"
-- **叙事建议**：
-  - 反常识钩子：「AI想太多也会'死机'——但科学家找到修复方法了」
-  - 受众镜像："我用Sonnet就够了，不需要每次都上Fable——省钱又高效"
-- **内容价值**：教授Agent的"性价比"使用策略
-- **信息完整度**：60%
+- **热点来源**：新浪财经/21财经 (7/6)
+- **为什么值得深挖**：月之暗面Kimi和腾讯云等AI头部品牌在OPC共创节上分享——AI公司正在把"一人公司"当作B端市场。这意味着：①AI工具会越来越适配一人公司场景 ②"超级个体"将获得企业级AI支持 ③AI公司之间的OPC生态竞争已经开始
+- **受众关联**：超级个体将被AI公司当作"核心客户"而非"边缘用户"
+- **叙事建议**：[反常识钩子] "AI巨头正在抢着帮你一个人开公司" | [情绪弧线] 意外→被看见→信心 | [受众镜像] "原来AI公司比老板更看好我"
+- **内容价值**：市场信号——超级个体是AI公司的新增长点
+- **信息完整度**：高(80%) — 多源验证
 
-### 10. 世界模型进入"可交互"时代——MIRA与内容创作的未来
+### 10. 《人生设计课》Prompt实测——AI辅助人生规划的蓝海信号
 
-- **热点来源**：X / Ethan Mollick (Jul 7, 2026)
-- **为什么值得深挖**：MIRA作为可玩多人世界模型，20 FPS实时生成"火箭联盟的梦"——AI不再只是"生成一段你看的视频"，而是"生成一个你可以走进去的世界"。这对内容创作者意味着：未来的内容形态可能不是视频，而是"可交互的世界"。
-- **受众关联**：内容创作者需要开始理解"世界模型"这个概念——它可能是下一代内容形态
-- **叙事建议**：
-  - 反常识钩子：「AI的下一个战场不是视频——是你可以走进去的世界」
-  - 受众镜像："我以为AI视频已经是天花板了——结果AI正在学会'做梦'"
-- **内容价值**：前瞻性趋势判断，拓宽创作者视野
-- **信息完整度**：60%
+- **热点来源**：公众号:数字生命卡兹克 (7/8)
+- **为什么值得深挖**：用Claude+《人生设计课》框架设计人生四阶段——这不是工具教程，是"AI帮你找到人生方向"的实证。对卷哥的赛道而言，这是直接内容蓝海：把AI从"生产力工具"重新定义为"人生规划师"
+- **受众关联**：觉醒者Alex的"我想要什么"问题——AI可以帮你结构化思考
+- **叙事建议**：[反常识钩子] "让AI设计你的人生——不是算命，是结构化思考" | [情绪弧线] 好奇→尝试→发现→分享 | [受众镜像] "原来AI可以帮我回答'这辈子要干什么'"
+- **内容价值**：可复制的Prompt+人生设计框架
+- **信息完整度**：中(60%) — 公众号文章，可复现
 
 ---
 
 ## [选题] 选题建议（Top 5，含执行路径）
 
-### 选题一：AI Agent的真正用户不是你想象的那个人——120万次会话数据揭秘
+### 选题一：「国家在给不想上班的人修高速公路——一人公司正式成为国家战略」
 
-- **切入角度**：用Anthropic官方数据打破"AI Agent=程序员工具"的认知，展示业务运营、内容创作才是最大使用场景
-- **内容形式**：抖音口播（60-90秒）+ 小红书图文笔记
-- **目标受众**：转型者Marcus + 探索者Lily
-- **预期共鸣点**："原来处理报表、写文档的人才是AI Agent最大用户——这不就是我吗？"
+- **切入角度**：把OPC制度化解读为"打工人的退路被国家修成了高速公路"——不是贩卖焦虑，是提供转型合法性
+- **内容形式**：口播（抖音60-90秒）+ 图文（小红书深度笔记）
+- **目标受众**：转型者Marcus
+- **预期共鸣点**："原来我不是逃兵，我是先行者"
 - **执行步骤**：
-  1. 提炼Anthropic数据的3个关键数字（33.4%业务运营、16.4%内容创作、8.7%编码）作为钩子
-  2. 用"你以为vs实际上"对比结构：你以为Agent是程序员的玩具 → 实际上它已经是你的同事
-  3. 结尾给出行动建议："打开Claude Cowork，上传你今天的Excel表格试试"
-- **建议发布平台**：抖音（破圈）+ 小红书（深度种草）
+  1. 提炼三个数据锚点：426处社区/47%增长/"一人一AI就是一家公司"
+  2. 用"三张门票"结构：政府给场地→税务给合规→AI公司给工具
+  3. 结尾提问："当国家都在为一人公司铺路，你还在等什么？"
+- **建议发布平台**：抖音首发 → 小红书图文二发 → B站深度版
 
-### 选题二：AI比一杯咖啡还便宜了——你的竞争力在哪？
+### 选题二：「AI Agent最擅长的不是写代码，是替你开会——Claude Cowork移动端深度解读」
 
-- **切入角度**：用伯克利"智能成本年降50倍"数据，揭示超级个体对抗大公司的底层经济逻辑
-- **内容形式**：B站深度视频（8-12分钟）+ 抖音精华版（60秒）
-- **目标受众**：转型者Marcus + 觉醒者Alex
-- **预期共鸣点**："2023年我需要公司预算才能用的AI，今天我自己花一杯咖啡钱就能用——那我还在等什么？"
-- **执行步骤**：
-  1. 开场：一杯咖啡的价格 vs GPT-4级智能的价格对比
-  2. 展开：成本归零如何拉平个体与组织的起跑线
-  3. 深化：成本不是问题——判断力、审美、真实连接才是
-  4. 行动：列出3个今天就能用AI替代的日常工作
-- **建议发布平台**：B站（深度）+ 抖音（破圈）
-
-### 选题三：连微软都在"降级"AI——大公司的AI优势正在消失
-
-- **切入角度**：微软用自研MAI替换OpenAI/Anthropic → AI不再是"越贵越好" → 超级个体的AI成本优势
-- **内容形式**：抖音口播（60秒）+ 小红书图文
-- **目标受众**：转型者Marcus（"大公司有更好的AI"焦虑）
-- **预期共鸣点**："微软都在省钱用AI——我凭什么觉得我打不过大公司？"
-- **执行步骤**：
-  1. 钩子："微软——OpenAI最大投资人——正在减少使用OpenAI"
-  2. 展开：MAI模型性能vs成本对比
-  3. 升华：大公司"降级"AI = AI通胀结束 = 个体优势窗口
-  4. 行动：评估你的AI工具支出，用"够用"替代"最强"
-- **建议发布平台**：抖音 + 小红书
-
-### 选题四：YC老板用AI写了6MB垃圾代码——AI时代的真正稀缺品是什么？
-
-- **切入角度**：Garry Tan 37K行/天神话被拆穿 → AI生成代码的"量vs质" → 判断力才是稀缺品
-- **内容形式**：抖音口播（60-90秒）
+- **切入角度**：用Cowork使用数据（多数用户不编程）打破"AI Agent=写代码"的刻板印象，重新定义Agent对普通人的价值
+- **内容形式**：口播（抖音90-120秒）+ B站深度（10min）
 - **目标受众**：探索者Lily + 觉醒者Alex
-- **预期共鸣点**："硅谷大佬都在用AI写屎山代码——我担心AI不够好是不是想多了？"
+- **预期共鸣点**："原来AI可以不写代码就帮我省下半天时间"
 - **执行步骤**：
-  1. 钩子：Garry Tan的37K行/天宣称
-  2. 反转：开发者审查发现169次请求、6.42MB页面
-  3. 升华：AI让你做更多——但判断力告诉你什么不该做
-  4. 行动：用AI辅助你的工作，但用你自己的判断力做最终决策
+  1. 列举知识工作者60%时间花在"非核心工作"上（邮件/会议/文档/协调）
+  2. 展示Cowork如何接管这些——不是替代你，是解放你
+  3. 给3个可立即使用的场景：①AI替你回邮件 ②AI替你整理会议纪要 ③AI替你更新项目状态
+- **建议发布平台**：抖音首发 → B站深度版
+
+### 选题三：「你的AI工具在判断你是不是中国人——Claude Code后门事件全解析」
+
+- **切入角度**：从工信部公告出发，揭示AI工具的"信任危机"——不是恐吓，是工具链安全意识启蒙
+- **内容形式**：口播（抖音60-90秒）+ 小红书图文（替代方案清单）
+- **目标受众**：转型者Marcus + 所有用Claude Code的受众
+- **预期共鸣点**："我必须为我的工具链做安全审计"
+- **执行步骤**：
+  1. 事件还原：工信部公告+Anthropic承认+阿里禁用（三重确认）
+  2. 提炼"工具链安全三原则"：不绑定单一供应商/有开源Plan B/定期版本审计
+  3. 给出3个国产替代方案（Qoder/Codex CLI/Rowboat）
+- **建议发布平台**：抖音首发 → 小红书图文
+
+### 选题四：「AI写了3万行垃圾——有经验的你，价值反而更高了」
+
+- **切入角度**：YC CEO 37K行代码被拆穿→反向论证"经验不是包袱是过滤器"——AI让你产出更快，但不一定更好
+- **内容形式**：口播（抖音60-90秒）
+- **目标受众**：转型者Marcus
+- **预期共鸣点**："原来经验不是包袱，是过滤器"
+- **执行步骤**：
+  1. 事件还原：37K行声称→开发者审查→代码臃肿低效
+  2. 核心论点：AI降低的是"生产门槛"不是"质量门槛"——质量仍然靠人
+  3. 给转型者的信心："你的10年经验，AI学不会——它只会模仿，不会判断"
 - **建议发布平台**：抖音
 
-### 选题五：AI铁幕落下——你的工具在墙内还是墙外？
+### 选题五：「未来你管的不是人，是一群AI——Agent编排成为核心技能」
 
-- **切入角度**：中国限制AI模型出口 + Mollick警告开源供给难持续 → 超级个体的工具备份策略
-- **内容形式**：小红书图文 + 抖音口播
-- **目标受众**：所有国内超级个体
-- **预期共鸣点**："我从来没想过——我每天用的AI工具可能哪天就'断供'了"
+- **切入角度**：从Claude Advisor+Orchestrator模式出发，定义"Agent编排能力"为超级个体下一个核心技能
+- **内容形式**：B站深度视频（10-15min）
+- **目标受众**：探索者Lily + 进阶超级个体
+- **预期共鸣点**："我得学会当AI团队的CEO，而不是AI的使用者"
 - **执行步骤**：
-  1. 事件还原：中国商务部拟限制AI模型出口
-  2. 影响分析：对国内超级个体的4个可能影响（API访问、模型下载、工具生态、投资限制）
-  3. 应对策略：多工具备份方案（国内+国外）、关注国内模型生态进展
-  4. 行动：列出你的AI工具清单，为每个工具找一个替代方案
-- **建议发布平台**：小红书（深度图文）+ 抖音（警示）
+  1. 引入两种模式：Advisor（让AI帮你决策）vs Orchestrator（让AI帮你调度）
+  2. 给一个具体的"3 Agent协作"场景：内容创作Agent+数据分析Agent+客户沟通Agent
+  3. 工具推荐：Claude Cowork(编排)+Claude Code(执行)+n8n(自动化)
+- **建议发布平台**：B站首发 → 小红书图文精简版
 
 ---
 
 ## [痛点] 受众痛点库
 
-### 痛点一："我不会写代码，AI是不是跟我没关系？"
+### 痛点一：「我的AI工具说断就断——工具链没有Plan B」
 
-- **原始用户表达**：「那些AI Agent、Copilot什么的，听起来都是程序员用的。我一个做运营的，跟我有什么关系？」
-- **来源平台**：小红书 #AI副业 话题评论区
+- **原始用户表达**：工信部Claude Code后门公告+阿里7/10全面禁用→每个用Claude Code的人都在问"我该怎么办？"
+- **来源平台**：工信部NVDB/IT之家评论区
 - **情绪强度**：高
-- **匹配标签**：AI转型 / 工具实战
-- **建议内容方向**：用Claude Cowork数据（90%非编码场景）直接回应——"AI Agent的最大用户，就是做运营和内容的你"
+- **匹配标签**：AI转型
+- **建议内容方向**：工具链安全审计清单+国产/开源替代方案对比
 
-### 痛点二："AI工具太贵了，我用不起"
+### 痛点二：「AI写的代码又快又多——但我的经验还有用吗？」
 
-- **原始用户表达**：「ChatGPT Pro $200一个月，我副业还没赚到钱呢」
-- **来源平台**：抖音评论区
+- **原始用户表达**：YC CEO 37K行/日声称→开发者审查发现低效→"AI写得多不等于写得好"
+- **来源平台**：Hacker News讨论区
 - **情绪强度**：中
-- **匹配标签**：AI转型 / 工具实战
-- **建议内容方向**：用伯克利数据——"GPT-4级智能已经从$30/百万token降到$0.10以下，你喝一杯咖啡的钱够AI帮你工作一个月"
+- **匹配标签**：AI转型/认知升级
+- **建议内容方向**："AI时代，经验不是包袱是过滤器"的论证内容
 
-### 痛点三："我担心AI写的代码/内容不够好"
+### 痛点三：「AI Agent越来越强——但我不知道怎么管它们」
 
-- **原始用户表达**：「AI生成的太模板化了，没有灵魂」
-- **来源平台**：小红书 #AI创作 话题
+- **原始用户表达**：Claude多智能体模式(Advisor+Orchestrator)分享→用户问"我应该用哪种？"
+- **来源平台**：X评论区
 - **情绪强度**：中
-- **匹配标签**：内容创作 / 工具实战
-- **建议内容方向**：用Garry Tan案例反向论证——"AI的问题不是不够好，是你不会用。YC老板用AI写了6MB垃圾代码，而你完全可以做得更好"
+- **匹配标签**：AI工具实战/超级个体
+- **建议内容方向**：Agent编排入门指南——从"用AI"到"管AI"
 
-### 痛点四："我在中国，会不会有一天用不了Claude/ChatGPT？"
+### 痛点四：「我想做一人公司——但不知道从哪开始」
 
-- **原始用户表达**：「听说又要限制AI了，我的Claude订阅还能用多久？」
-- **来源平台**：即刻 / 微博
+- **原始用户表达**：OPC共创节报道中提到的"合规焦虑""财务混乱""政策不懂"等痛点
+- **来源平台**：21财经/新浪财经报道中的创业者采访
 - **情绪强度**：高
-- **匹配标签**：AI转型 / 商业逻辑
-- **建议内容方向**：解读中国AI出口管制政策（是出口限制不是进口限制）+ 提供国内替代方案清单
+- **匹配标签**：超级个体/一人公司
+- **建议内容方向**：一人公司启动清单——注册/财税/工具链/第一批客户
 
 ---
 
 ## [执行] 执行路径报告
 
 ### 本期采集统计
-- **信息源数量**：4个（AI HOT API + Python引擎 + Jina Reader博客 + HN/Reddit聚合）
-- **采集条目数**：AI HOT 19条 + Python引擎 55条（17条AI相关）+ Jina博客 5篇
-- **去重排除**：Python引擎中38条非AI相关排除
-- **受限源**：3个
-  - MCP Brave Search：僵死进程（unreachable after 5 consecutive failures）
-  - datapro：服务升级中
-  - byted-web-search：venv urllib3兼容性问题（Python 3.11 typing union syntax）
-- **降级路径已启用**：AI HOT + Python引擎 + Jina Reader 三源覆盖
-- **Jina Reader状态**：正常（通过系统Python 3.9 + SSL bypass可用）
-- **本期数据量评估**：AI HOT 19条（偏低但属周三正常水平）+ Jina博客关键发现（Claude Cowork双文+BAIR Intelligence is Free）
+- **信息源数量**：6个（AI HOT API + web_search × 8 + Jina Reader × 4 + Python引擎 + MCP Brave（不可用）+ 浏览器（未使用））
+- **采集条目数**：AI HOT 23条 + web_search 40+条 + Python引擎 65条 + Jina Reader 4条
+- **去重排除**：百度热搜无关条目（世界杯/高考/娱乐）全部丢弃
+- **受限源**：MCP Brave Search（SUBSCRIPTION_TOKEN_INVALID 延续，降级到web_search）
 
 ### 受限源及替代建议
 | 信息源 | 原因 | 替代方案 |
 |--------|------|---------|
-| MCP Brave Search | 僵死进程（连续5次不可达） | AI HOT + Python引擎 + Jina Reader 覆盖 |
-| datapro | 服务升级中 | AI HOT 中文AI资讯替代 |
-| byted-web-search | venv urllib3 Python 3.11 typing语法兼容性 | AI HOT API覆盖中文源 |
+| MCP Brave Search | API Key/订阅失效(422) | web_search完全替代 |
+| MCP Brave News | 同上 | web_search完全替代 |
+| Jina Reader (curl) | macOS LibreSSL SSL exit 35 | Python requests+verify=False绕过 |
 
 ### 上期选题建议的反馈
+> [WARN] 处理规则：上期SOUL报告（2026-07-08 08:10版为Python引擎自动报告，非SOUL框架报告），无选题建议可追踪。本期为首个完整SOUL框架日报。
+
 | 上期选题 | 是否执行 | 效果/原因 |
 |----------|---------|-----------|
-| W-27-25: Claude自反性——AI有了内心独白 | 待验证 | Anthropic 7/6论文，需确认卷哥是否已创作相关内容 |
-| W-27-22: AI基础设施对外——巨头从用算力到卖算力 | 待验证 | Meta Compute+Microsoft Frontier，连续2天信号 |
-| W-27-23: 哲学地基论——NYT头版AI公司招聘哲学系 | 待验证 | Anthropic/DeepMind招聘趋势 |
-| W-27-18: Meta AI大溃败——LeCun自曝+考虑放弃开源 | 待验证 | 连续3天信号，热度高 |
-| W-27-19: 中国大模型价格战改写硅谷定价 | 待验证 | 连续3天信号 |
+| 首期SOUL框架报告 | 不适用 | 无上期反馈 |
 
 ---
 
-## [线索] 本周线索（Week 28）
+## [线索] 本周线索（更新）
+
+> [NEW] 线索 ID 持久化规则：每周一线索 ID 从 W-{week_num}-{topic_seq} 格式，不再每天重新分配
 
 | 线索ID | 主题词 | 今日信号 | 简要说明 | 历史天数 |
 |--------|--------|---------|---------|---------|
-| W-28-01 | AI Agent日常化——从开发者工具到大众工具 | 强 | Claude Cowork数据：90%非编码场景+移动/网页端开放。Anthropic官方一手数据验证Agent已进入日常知识工作 | 第1天 |
-| W-28-02 | 智能成本系统性归零 | 强 | 伯克利BAIR数据：GPT-4级$30→<$0.10/百万token，年降50倍。+微软用自研MAI替换OpenAI/Anthropic双重信号 | 第1天 |
-| W-28-03 | AI生产力"量vs质"辩论 | 中 | Garry Tan 37K行/天神话被拆穿——AI生成代码质量问题浮出水面 | 第1天 |
-| W-28-04 | 中国AI"筑墙"——模型出口管制 | 强 | 商务部主导限制AI模型出口（含开源权重），讨论模型泄漏为国家安全犯罪。Mollick同步警告开放权重供给难持续 | 第1天 |
-| W-28-05 | Agent基础设施成熟——异步+可配置 | 中 | Google Managed Agents后台执行+Claude Code模型/努力级别选择。Agent从"工具"走向"员工" | 第1天 |
-| W-28-06 | 开源Agent生态崛起 | 中 | Rowboat登上HN首页+Mollick开放权重警告。去中心化Agent工具链正在形成 | 第1天 |
-| W-28-07 | AI军事化不可逆——自主武器实战部署 | 中 | Forterra 100+辆Lancer自主地面车辆在乌克兰执行1100+次任务。TechCrunch报道 | 第1天 |
+| W-28-01 | AI Agent日常化——从开发者工具到大众工具 | 强 | Claude Cowork移动端+使用数据(多数不编程)→Agent进入大众视野 | 连续1天 |
+| W-28-02 | AI成本系统性归零——个体杠杆无限放大 | 强 | DeepSeek V4 Flash $0.14/M + GPT-5.6全面开放→顶级AI能力价格逼近零 | 连续1天 |
+| W-28-03 | AI生产力"量vs质"辩论 | 中 | YC CEO 37K行被拆穿→AI产出质量受质疑 | 连续1天 |
+| W-28-04 | 中国AI"筑墙"——工具链安全+模型管制 | 强 | 工信部Claude Code后门+中国限制AI模型出口+阿里禁用→双向管制升级 | 连续1天 |
+| W-28-05 | Agent基础设施成熟——多模式+跨设备 | 强 | Cowork移动端+Advisor/Orchestrator模式+Rowboat开源→Agent形态多样化 | 连续1天 |
+| W-28-06 | 开源Agent生态崛起 | 中 | Rowboat开源+Ethan Mollick开放权重警告→开源AI可持续性讨论 | 连续1天 |
+| W-28-07 | 一人公司制度化——从个人选择到国家战略 | 强 | OPC共创节+426社区+十五五规划→OPC进入国家战略视野 | 连续1天 |
+| W-28-08 | AI Agent安全三连击 | 强 | GitLost+工信部后门+AI僵尸网络→Agent安全从理论到实证 | 新增 |
 
-_历史线索：本周共7条 | 强3条 | 中4条 | 新增7条_
-
-> [WARN] Week 27已归档（28条线索），本周为Week 28新周期。跨周延续线索：W-27-12（Agent范式转变）→ W-28-01（Agent日常化）；W-27-14（AI成本下降）→ W-28-02（智能成本归零）；W-27-15（大企业AI贫困）→ W-28-02延伸。
+_历史线索：本周期共 8 条 | 强 5 条 | 中 2 条 | 新增 1 条_
 
 ---
 
-## [深挖] 素材深挖提示
+## [深挖] 素材深挖提示（日报专属）
 
-> 本期热点中有以下话题适合使用 **hotspot-topic-excavator** 进行深度素材挖掘：
+> 本期热点中有以下话题适合使用 **hotspot-topic-excavator** 进行深度素材挖掘（6类内容+3类图片→文章大纲）：
 
 | 候选 | 话题 | 种子信号 | 优先级 |
 |------|------|---------|--------|
-| 1 | AI Agent日常化——非技术用户的Agent时代 | Claude Cowork 120万次会话数据+移动端开放 | 高 |
-| 2 | AI智能成本归零——个体杠杆无限放大 | 伯克利BAIR $30→$0.10 + 微软MAI替换 | 高 |
-| 3 | AI生产力神话破灭——YC CEO 37K行代码被拆穿 | Garry Tan vs 独立开发者代码审查 | 中 |
+| candidate_1 | 一人公司制度化：从边缘叙事到国家战略 | OPC共创节+426社区+十五五规划+深圳龙岗54社区 | 最高 |
+| candidate_2 | Claude Code后门事件：AI工具链的信任危机 | 工信部公告+Anthropic承认+阿里禁用+版本2.1.91-196 | 最高 |
+| candidate_3 | AI Agent从开发者工具到大众工具 | Cowork移动端+非编程使用数据+Rowboat开源+Advisor/Orchestrator | 高 |
 
-> [TOOL] 使用方法：对卷哥说「用素材深挖采集器分析 [话题名]」即可自动启动，产出完整素材弹药包。
+> 使用方法：对卷哥说「用素材深挖采集器分析 [话题名]」即可自动启动，产出完整素材弹药包。
 
 ---
 
-*报告由 Hermes Agent 自动生成 · 2026-07-08 08:06 CST*
-*数据源：AI HOT API (19条) + Python Hotspot Engine (55条/17条AI相关) + Jina Reader (5篇关键博客) · MCP Brave (不可用) · datapro (不可用) · byted-web-search (不可用)*
-*推理引擎：deepseek-v4-pro via volces-ark · reasoning_effort=max*
+*报告由 Hermes Agent 自动生成 · 2026-07-08 17:30 CST*
+*采集工具：AI HOT API / web_search × 8 / Jina Reader (Python bypass) / Python hotspot_engine*
+*理论中立性：本报告未预设哲学框架，未署名引用哲学家理论概念*
