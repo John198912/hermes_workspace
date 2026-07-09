@@ -5,16 +5,16 @@
       "id": "W-28-01",
       "topic": "AI Agent日常化——从开发者工具到大众工具",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-08",
-      "days": 2,
+      "last_signal": "2026-07-09",
+      "days": 3,
       "strength": "strong"
     },
     {
       "id": "W-28-02",
-      "topic": "智能成本系统性归零——个体杠杆无限放大",
+      "topic": "AI成本两极分化——前沿模型涨价+中国模型降价",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-08",
-      "days": 2,
+      "last_signal": "2026-07-09",
+      "days": 3,
       "strength": "strong"
     },
     {
@@ -23,31 +23,31 @@
       "first_seen": "2026-07-07",
       "last_signal": "2026-07-08",
       "days": 2,
-      "strength": "medium"
+      "strength": "weak"
     },
     {
       "id": "W-28-04",
-      "topic": "中国AI'筑墙'——模型出口管制+开放权重供给收缩",
+      "topic": "中国AI'筑墙'——工具链安全+模型管制",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-08",
-      "days": 2,
+      "last_signal": "2026-07-09",
+      "days": 3,
       "strength": "strong"
     },
     {
       "id": "W-28-05",
-      "topic": "Agent基础设施成熟——异步执行+可配置性",
+      "topic": "Agent基础设施成熟——多模式+跨设备",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-08",
-      "days": 2,
+      "last_signal": "2026-07-09",
+      "days": 3,
       "strength": "strong"
     },
     {
       "id": "W-28-06",
-      "topic": "开源Agent生态崛起——Rowboat+本地化趋势",
+      "topic": "开源Agent生态崛起——中国开源模型竞争力验证",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-08",
-      "days": 2,
-      "strength": "strong"
+      "last_signal": "2026-07-09",
+      "days": 3,
+      "strength": "medium"
     },
     {
       "id": "W-28-07",
@@ -61,8 +61,8 @@
       "id": "W-28-08",
       "topic": "AI Agent安全三连击——GitLost+隐藏追踪器+勒索软件",
       "first_seen": "2026-07-08",
-      "last_signal": "2026-07-08",
-      "days": 1,
+      "last_signal": "2026-07-09",
+      "days": 2,
       "strength": "strong"
     },
     {
@@ -71,7 +71,7 @@
       "first_seen": "2026-07-08",
       "last_signal": "2026-07-08",
       "days": 1,
-      "strength": "strong"
+      "strength": "weak"
     },
     {
       "id": "W-28-10",
@@ -79,10 +79,26 @@
       "first_seen": "2026-07-08",
       "last_signal": "2026-07-08",
       "days": 1,
+      "strength": "weak"
+    },
+    {
+      "id": "W-28-11",
+      "topic": "AI行业权力格局重构——OpenAI vs Anthropic王座易主",
+      "first_seen": "2026-07-09",
+      "last_signal": "2026-07-09",
+      "days": 1,
       "strength": "strong"
+    },
+    {
+      "id": "W-28-12",
+      "topic": "AI替代人工——从'预测'到'新闻'",
+      "first_seen": "2026-07-09",
+      "last_signal": "2026-07-09",
+      "days": 1,
+      "strength": "medium"
     }
   ],
-  "updated": "2026-07-08T18:00:00+08:00",
+  "updated": "2026-07-09T08:00:00+08:00",
   "archived_weeks": {
     "27": {
       "clue_count": 28,
