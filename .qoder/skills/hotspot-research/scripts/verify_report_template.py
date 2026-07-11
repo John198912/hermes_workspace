@@ -31,7 +31,7 @@ import datetime
 from pathlib import Path
 
 # === EDIT THESE FOR THE SPECIFIC RUN ===
-REPORT_DIR = Path.home() / "Documents" / "qoder_workspace" / "hotspot" / "reports" / "hotspot" / "hotspot-research_qoder"
+REPORT_DIR = Path.home() / "Desktop" / "qoder_workspace" / "hermes_workspace_tmp" / "reports" / "hotspot-research_qoder"
 _today = datetime.date.today().strftime("%Y-%m-%d")
 REPORT = REPORT_DIR / f"report_daily_{_today}_AM.md"   # 带日期+AM/PM 的实际报告文件
 SOFTLINK = REPORT_DIR / "report_daily.md"               # 固定软链接路径

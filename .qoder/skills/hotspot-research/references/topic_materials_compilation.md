@@ -2,7 +2,7 @@
 
 > **用途**：当用户需要为某个特定话题（如即将创作的内容、B站深度视频、小红书系列等）准备补充素材时，从现有日/周报档案中"挖掘"相关热点，而非启动新的全量采集。
 > **与日报/周报的区别**：日报/周报是"从互联网采集新信号"；话题元素材采集是"从已有报告库中提取相关条目 + 标注关联 + 整合分析"。
-> **报告目录**：`~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/`
+> **报告目录**：`~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/`
 
 ---
 
@@ -25,7 +25,7 @@
 1. 使用 `Grep` 搜索最近相关的日报文件
 2. 使用 `Glob` 列出目标时间范围内的所有日报文件
    ```
-   Glob pattern="report_daily_*.md" path="~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/"
+   Glob pattern="report_daily_*.md" path="~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/"
    ```
 3. 使用 `Read` 读取核心日报（通常是最近一期的日报），提取核心事件
 4. 确定搜索关键词（中文+英文混合）
@@ -86,7 +86,7 @@
 ## 输出文档命名规范
 
 ```
-~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/topic_excavation/{YYYY-MM-DD}/{topic_slug}/topic_materials.md
+~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/topic_excavation/{YYYY-MM-DD}/{topic_slug}/topic_materials.md
 ```
 
 示例：`topic_excavation/2026-05-30/anthropic-altman-amodei-unemployment/topic_materials.md`

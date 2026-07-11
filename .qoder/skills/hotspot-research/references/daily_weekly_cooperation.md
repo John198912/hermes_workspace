@@ -1,7 +1,7 @@
 # 日报→周报协作机制
 
 > **核心原则：** 日报是周报的输入，不是平行的产出。日报的分析成果必须流入周报。
-> **报告目录：** `~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/`
+> **报告目录：** `~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/`
 
 ---
 
@@ -104,8 +104,8 @@ AI HOT volume signal → 本周出现频次最高的 AI 行业关键词
 
 ```
 # 搜索本周所有日报的线索 section
-Grep pattern="## 📡 本周线索" path="~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/" glob="report_daily_*.md"
+Grep pattern="## 📡 本周线索" path="~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/" glob="report_daily_*.md"
 
 # 搜索特定关键词
-Grep pattern="某个主题词" path="~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/" glob="report_daily_*.md"
+Grep pattern="某个主题词" path="~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/" glob="report_daily_*.md"
 ```

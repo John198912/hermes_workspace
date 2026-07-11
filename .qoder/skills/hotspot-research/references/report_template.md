@@ -1,7 +1,7 @@
 # 报告输出模板 (Report Template)
 
 > **用途**：Step 4 按模板生成报告时加载。
-> **输出路径**：`~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/`
+> **输出路径**：`~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/`
 
 ---
 

@@ -30,7 +30,7 @@ BLOGS = [
     ("evans",           "https://www.ben-evans.com/"),
 ]
 
-OUTDIR = os.path.expanduser("~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/jina_cache")
+OUTDIR = os.path.expanduser("~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/jina_cache")
 os.makedirs(OUTDIR, exist_ok=True)
 
 results = {}

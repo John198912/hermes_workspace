@@ -16,7 +16,7 @@ Jina Reader 将任意 URL 转为 LLM-ready Markdown——无需逐源写正则�
 ```bash
 python3 <skill_path>/scripts/jina_blogs_template.py
 ```
-脚本自动采集 8 人博客，输出到 `~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/jina_cache/`。
+脚本自动采集 8 人博客，输出到 `~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/jina_cache/`。
 
 **方式 B — 逐个 curl（通过 Bash 工具）**：
 ```bash

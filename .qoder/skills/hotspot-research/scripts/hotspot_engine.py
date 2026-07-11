@@ -18,7 +18,7 @@ hotspot_engine.py — 热点采集核心引擎
   阶段2（采集后）：对全部采集结果做完整对比 → 标记重复 → 已标记过2次则排除
   每日只对比每日指纹库，每周只对比每周指纹库。
 
-报告输出目录：~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/
+报告输出目录：~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/
 """
 
 import json
@@ -33,7 +33,7 @@ from urllib.parse import urlparse
 # ============================================================
 # 配置
 # ============================================================
-DATA_DIR = os.path.expanduser("~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder")
+DATA_DIR = os.path.expanduser("~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder")
 DAILY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_daily.json")
 WEEKLY_FINGERPRINT_FILE = os.path.join(DATA_DIR, "fingerprints_weekly.json")
 DAILY_REPORT_FILE = os.path.join(DATA_DIR, "report_daily.md")

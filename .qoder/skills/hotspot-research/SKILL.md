@@ -11,7 +11,7 @@ description: >
 
 跨平台内容热点采集与分析系统的**策略大脑和执行手册**。Agent 每次执行时严格按以下流程操作。
 
-> **报告输出目录**：`~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/`
+> **报告输出目录**：`~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/`
 > **脚本目录**：本 skill 目录下的 `scripts/`
 
 ---
@@ -166,7 +166,7 @@ python3 <skill_path>/scripts/jina_blogs_template.py
 - 过期（>30 天无信号）的线索标记为 `[EXPIRED]` 归档
 - 同一线索主题在同周不得获得不同 W-ID
 
-**实现方式**：线索文件存储在 `~/Documents/qoder_workspace/hotspot/reports/hotspot/hotspot-research_qoder/_week_clues.json`。
+**实现方式**：线索文件存储在 `~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/_week_clues.json`。
 - 使用 `Bash` 工具通过 `python3 -c` 或 `jq` 读取/写入 JSON
 - 如文件不存在则创建空 JSON `{}`
 - 每次报告生成后追加新线索并写回
