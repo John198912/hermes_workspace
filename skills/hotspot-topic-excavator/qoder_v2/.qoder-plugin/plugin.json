@@ -1,0 +1,17 @@
+{
+  "name": "hotspot-topic-excavator",
+  "displayName": "热点主题素材深挖采集器",
+  "version": "2.7.5",
+  "description": "Hotspot topic material excavator with dual-axis deep-dive and divergence model for daily content material collection.",
+  "descriptionZh": "以每日热点话题为锚点，采用双轴模型（向内深挖+向外发散），产出内容素材+图片素材+多层组装报告的内容素材采集器。",
+  "author": {
+    "name": "Qoder"
+  },
+  "homepage": "https://github.com/John198912/hermes_workspace/tree/main/skills/hotspot-topic-excavator",
+  "repository": "https://github.com/John198912/hermes_workspace",
+  "logo": "./assets/avatar.svg",
+  "keywords": ["qoder-plugin", "skill", "hotspot-research", "content-strategy", "material-excavation"],
+  "category": "content-strategy",
+  "tags": ["skill", "hotspot-research", "deep-research"],
+  "skills": "./skills/"
+}
