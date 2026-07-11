@@ -71,7 +71,7 @@
 ### 第 1 组：政策驱动（顶层）
 
 ```
-WebSearch(query="工信部/发改委/国务院 [话题关键词] 数字化转型 2026")
+WebSearch(query="工信部/发改委/国务院 [话题关键词] 数字化转型 {current_year}")
 ```
 
 **目标命中**：八部门联合发文的官方文件 / 智库解读 / 政府工作报告中 AI 占比 / 国家级行动计划
@@ -79,7 +79,7 @@ WebSearch(query="工信部/发改委/国务院 [话题关键词] 数字化转型
 ### 第 2 组：大厂 AI 部署路径（厂商层）
 
 ```
-WebSearch(query="阿里 通义千问 字节 火山引擎 华为 企业AI 部署 驻场 2026")
+WebSearch(query="阿里 通义千问 字节 火山引擎 华为 企业AI 部署 驻场 {current_year}")
 ```
 
 **目标命中**：通义千问 C 端 Agent 工程哲学 / 字节火山引擎 MaaS 战略 / 华为盘古开源
@@ -87,7 +87,7 @@ WebSearch(query="阿里 通义千问 字节 火山引擎 华为 企业AI 部署 
 ### 第 3 组：制造业 / 工业 AI 实证（案例层）
 
 ```
-WebSearch(query="美的 海尔 三一重工 比亚迪 智能工厂 AI 智能体 2026")
+WebSearch(query="美的 海尔 三一重工 比亚迪 智能工厂 AI 智能体 {current_year}")
 ```
 
 **目标命中**：灯塔工厂 / 智能体工厂 / 工业大模型落地
@@ -95,7 +95,7 @@ WebSearch(query="美的 海尔 三一重工 比亚迪 智能工厂 AI 智能体 
 ### 第 4 组：咨询业 / 人才结构（行业层）
 
 ```
-WebSearch(query="普华永道 德勤 毕马威 安永 AI转型 中国 咨询 2026")
+WebSearch(query="普华永道 德勤 毕马威 安永 AI转型 中国 咨询 {current_year}")
 ```
 
 **目标命中**：中国四大 AI 化 / 本土咨询 / AI 工程师人才缺口
@@ -103,7 +103,7 @@ WebSearch(query="普华永道 德勤 毕马威 安永 AI转型 中国 咨询 202
 ### 第 5 组：路径对比（核心差异化）
 
 ```
-WebSearch(query="中美 AI 路线 对比 投入 商业模式 2026")
+WebSearch(query="中美 AI 路线 对比 投入 商业模式 {current_year}")
 ```
 
 **目标命中**：美国"砸模型" vs 中国"铺应用"路径论 / 中美 AI 投资差异
@@ -111,7 +111,7 @@ WebSearch(query="中美 AI 路线 对比 投入 商业模式 2026")
 ### 第 6 组：市场份额 / 调用量数据（规模层）
 
 ```
-WebSearch(query="字节 火山引擎 豆包 千问 大模型 MaaS 市场份额 调用量 2026")
+WebSearch(query="字节 火山引擎 豆包 千问 大模型 MaaS 市场份额 调用量 {current_year}")
 ```
 
 **目标命中**：火山引擎 MaaS 中国份额 / 智能体平台份额 / 日均 Token 调用量
@@ -119,7 +119,7 @@ WebSearch(query="字节 火山引擎 豆包 千问 大模型 MaaS 市场份额 �
 ### 第 7 组：基础设施 / 资本投入（基础层）
 
 ```
-WebSearch(query="阿里 3800亿 字节 1500亿 国产GPU 算力 投入 AI 2026")
+WebSearch(query="阿里 3800亿 字节 1500亿 国产GPU 算力 投入 AI {current_year}")
 ```
 
 **目标命中**：互联网巨头 3 年 AI 投入承诺 / 国产 GPU 采购 / 芯片约束下的中国 AI 效率
@@ -127,7 +127,7 @@ WebSearch(query="阿里 3800亿 字节 1500亿 国产GPU 算力 投入 AI 2026")
 ### 第 8 组：竞争格局 / 估值反差（对比层）
 
 ```
-WebSearch(query="OpenAI 估值 阿里 腾讯 股价 跌幅 AI 2026 中国 美国")
+WebSearch(query="OpenAI 估值 阿里 腾讯 股价 跌幅 AI {current_year} 中国 美国")
 ```
 
 **目标命中**：中美 AI 公司估值对比 / 互联网巨头 A 股 vs H 股表现 / 上游芯片 vs 应用厂商股价剪刀差

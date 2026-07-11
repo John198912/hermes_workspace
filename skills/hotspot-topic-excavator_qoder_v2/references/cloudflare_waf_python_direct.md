@@ -1,7 +1,8 @@
-# Cloudflare WAF 站点直连绕过 · Python requests 模式
+# Cloudflare WAF 站点兼容性直连 · Python requests 模式
 
 > 验证日期：2026-07-05
 > 验证场景：Memeburn 文章抓取被 WebFetch 阻断，Python `requests` + 浏览器 UA 同一 URL 成功
+> **使用边界**：本模式仅用于公开、无需认证、允许自动访问的页面。不得用于绕过验证码、登录、付费墙或明确的访问控制。
 > 关联：`SKILL.md` Step 2A「降级路径」第①层
 > **Qoder 工具适配版**：原 Jina Reader → WebFetch；其余 Bash + Python 不变
 

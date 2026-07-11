@@ -14,15 +14,17 @@
 """
 
 import argparse
+import ipaddress
 import re
 import html
 import sys
+from urllib.parse import urlparse
 
 try:
     import requests
     from bs4 import BeautifulSoup
 except ImportError:
-    print("ERROR: 缺少依赖包。请执行: pip3 install --user requests beautifulsoup4", file=sys.stderr)
+    print("ERROR: 缺少依赖包。请执行: pip3 install -r requirements.txt", file=sys.stderr)
     sys.exit(1)
 
 HEADERS = {
@@ -43,6 +45,40 @@ def is_waf_blocked(text):
             if marker in lower:
                 return True
     return False
+
+
+def inline_to_markdown(el):
+    """将元素内的内联子节点转换为 Markdown 文本（避免重复输出）"""
+    parts = []
+    for child in el.children:
+        if child.name is None:  # NavigableString
+            text = str(child).strip()
+            if text:
+                parts.append(text)
+        elif child.name in ['strong', 'b']:
+            text = child.get_text(strip=True)
+            if text:
+                parts.append(f'**{text}**')
+        elif child.name in ['em', 'i']:
+            text = child.get_text(strip=True)
+            if text:
+                parts.append(f'*{text}*')
+        elif child.name == 'a':
+            text = child.get_text(strip=True)
+            href = child.get('href', '')
+            if text and href:
+                parts.append(f'[{text}]({href})')
+            elif text:
+                parts.append(text)
+        elif child.name == 'code':
+            text = child.get_text(strip=True)
+            if text:
+                parts.append(f'`{text}`')
+        else:
+            text = child.get_text(strip=True)
+            if text:
+                parts.append(text)
+    return ' '.join(parts)
 
 
 def html_to_markdown(html_content):
@@ -75,53 +111,39 @@ def html_to_markdown(html_content):
 
     lines = []
 
-    for el in content_el.descendants:
-        if el.name is None:  # NavigableString
-            text = str(el).strip()
-            if text:
-                lines.append(text)
-            continue
-
+    # 仅遍历块级元素，通过 inline_to_markdown 处理内联格式，避免文本重复
+    block_tags = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li', 'blockquote', 'pre', 'img', 'br', 'a']
+    for el in content_el.find_all(block_tags):
         if el.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
             level = int(el.name[1])
             text = el.get_text(strip=True)
-            lines.append('')
-            lines.append('#' * level + ' ' + text)
-            lines.append('')
+            if text:
+                lines.append('')
+                lines.append('#' * level + ' ' + text)
+                lines.append('')
         elif el.name == 'p':
-            text = el.get_text(strip=True)
+            text = inline_to_markdown(el)
             if text:
                 lines.append('')
                 lines.append(text)
         elif el.name == 'br':
             lines.append('')
-        elif el.name == 'strong' or el.name == 'b':
-            text = el.get_text(strip=True)
-            if text:
-                lines.append('**' + text + '**')
-        elif el.name == 'em' or el.name == 'i':
-            text = el.get_text(strip=True)
-            if text:
-                lines.append('*' + text + '*')
         elif el.name == 'a':
+            # 仅处理不在块级元素内的独立链接
+            if el.parent and el.parent.name in ['p', 'li', 'blockquote', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+                continue
             text = el.get_text(strip=True)
             href = el.get('href', '')
             if text and href:
                 lines.append(f'[{text}]({href})')
-        elif el.name in ['ul', 'ol']:
-            lines.append('')
         elif el.name == 'li':
-            text = el.get_text(strip=True)
+            text = inline_to_markdown(el)
             if text:
                 lines.append('- ' + text)
         elif el.name == 'blockquote':
             text = el.get_text(strip=True)
             if text:
                 lines.append('> ' + text)
-        elif el.name == 'code':
-            text = el.get_text(strip=True)
-            if text:
-                lines.append('`' + text + '`')
         elif el.name == 'pre':
             text = el.get_text(strip=True)
             if text:
@@ -149,10 +171,47 @@ def html_to_markdown(html_content):
     return '\n'.join(result)
 
 
-def fetch_url(url, output_format='markdown', max_length=50000):
-    """抓取指定 URL 的内容"""
+def is_safe_url(url):
+    """检查 URL 是否安全（防止 SSRF）"""
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30, verify=False)
+        parsed = urlparse(url)
+    except Exception:
+        return False, "URL 解析失败"
+
+    if parsed.scheme not in ('http', 'https'):
+        return False, f"不允许的协议: {parsed.scheme}"
+
+    hostname = parsed.hostname
+    if not hostname:
+        return False, "无法解析主机名"
+
+    # 拒绝 loopback、private、link-local 和 metadata 地址
+    try:
+        ip = ipaddress.ip_address(hostname)
+        if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved:
+            return False, f"拒绝访问内部/保留地址: {hostname}"
+    except ValueError:
+        # 不是 IP 地址，检查主机名
+        if hostname in ('localhost', 'metadata.google.internal'):
+            return False, f"拒绝访问内部主机名: {hostname}"
+
+    return True, ""
+
+
+def fetch_url(url, output_format='markdown', max_length=50000, insecure=False):
+    """抓取指定 URL 的内容"""
+    # SSRF 防护
+    safe, reason = is_safe_url(url)
+    if not safe:
+        print(f"ERROR: URL 安全检查失败 - {reason}", file=sys.stderr)
+        sys.exit(1)
+
+    verify_tls = not insecure
+    if insecure:
+        print("[WARN] TLS 验证已关闭（--insecure），存在安全风险", file=sys.stderr)
+
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=30, verify=verify_tls)
     except Exception as e:
         print(f"ERROR: 网络请求失败 - {e}", file=sys.stderr)
         sys.exit(2)
@@ -195,12 +254,12 @@ def main():
                         help='输出格式 (默认: markdown)')
     parser.add_argument('--max-length', '-m', type=int, default=50000,
                         help='最大输出长度 (默认: 50000)')
+    parser.add_argument('--insecure', action='store_true',
+                        help='跳过 TLS 证书验证（不推荐，仅用于调试）')
 
     args = parser.parse_args()
-    fetch_url(args.url, args.output, args.max_length)
+    fetch_url(args.url, args.output, args.max_length, args.insecure)
 
 
 if __name__ == '__main__':
-    import urllib3
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     main()

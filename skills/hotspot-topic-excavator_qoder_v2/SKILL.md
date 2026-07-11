@@ -35,11 +35,21 @@ argument-hint: <目标主题> [每日热点信息文件路径或粘贴内容]
 | 字段 | 要求 | 说明 |
 |------|------|------|
 | **目标主题** | 必填 | 本次深挖的唯一锚点主题 |
-| **每日热点信息** | 必填 | 形式A：指定文件路径；形式B：直接粘贴 |
+| **每日热点信息** | 选填 | 支持三种输入模式（见下方） |
 | **来源线索** | 选填 | 原始出处 |
 | **选题角度** | 选填 | 已确定的切入点 |
 | **目标平台** | 选填 | 抖音/B站/公众号/小红书（可多选，默认全平台） |
 | **内容形式** | 选填 | 短视频口播/深度长视频/图文长文/笔记 |
+
+### 三种输入模式
+
+| 模式 | 输入 | 执行方式 |
+|------|------|---------|
+| **report-backed** | 主题 + 日报/热点信息 | 从日报中提取种子，进入双轴采集 |
+| **seed-backed** | 主题 + 用户自写摘要 | 用户摘要作为种子材料（≠可信信源），启动「真伪验证」流程后进入双轴采集 |
+| **topic-only** | 仅主题 | Agent 自行通过 WebSearch 建立种子（3-5 组关键词搜索），然后进入双轴采集 |
+
+> 默认模式为 report-backed。当用户仅说「深挖 [话题名]」时，自动进入 topic-only 模式。
 
 ### 用户提供预消化版本的处理（v2.7.5）
 
@@ -94,7 +104,7 @@ argument-hint: <目标主题> [每日热点信息文件路径或粘贴内容]
 | `WebSearch`（中文关键词） | 中文信源采集 | 中国政策/本土案例/中文视角 |
 | `Bash`（Python requests） | **降级·直连抓取** | Cloudflare WAF 站点、反爬场景 |
 | `WebFetch` / `WebSearch` | 播客 transcript 替代 | 播客类话题·YouTube 字幕失败时的首选降级 |
-| `Bash`（`scripts/web_fetch.py`） | **降级·智能网页抓取** | WebFetch 失败时的 Python 直连方案，自动处理 WAF 绕过 |
+| `Bash`（`scripts/web_fetch.py`） | **降级·智能网页抓取** | WebFetch 失败时的 Python 直连方案，自动处理 WAF 兼容性直连 |
 | `Bash`（`scripts/yt_transcript.py`） | **降级·播客字幕获取** | YouTube 视频/播客逐字稿获取 |
 
 > **★ 关键策略：WebSearch 和 WebFetch 并行调用，互为备份。** 多组搜索可同时发起，提升效率。
@@ -197,7 +207,8 @@ python3 /path/to/script.py "[keyword]"
 
 **判定规则**：
 - 任何 `urllib3` / `TypeError` / `unsupported operand` 报错 → 先 `python3 --version` 验证版本
-- 如版本 < 3.10，降级 urllib3 到 `pip3 install --user 'urllib3<2.0'` 或安装更高版本 Python
+- 如版本 < 3.10，建议创建项目 venv（`python3 -m venv .venv && source .venv/bin/activate`）后安装依赖；或在 venv 内降级 urllib3：`pip install 'urllib3<2.0'`
+- **避免使用 `pip3 install --user` 修改全局环境**，可能影响其他工具
 - **不修改脚本 shebang**（避免影响其他工具链）
 
 ### 中文补强（v2.5.0）
@@ -262,6 +273,18 @@ python3 /path/to/script.py "[keyword]"
 
 ### Layer 1：素材包（按 6 类 + 3 类分模块）
 ### Layer 2：文章/视频大纲 + 素材填充
+
+**RIVET 结构**（大纲骨架）：
+
+| 字母 | 名称 | 含义 |
+|------|------|------|
+| **R** | Rupture（场景爆破） | 用反常识打破平衡，制造认知冲击 |
+| **I** | Illuminate（照亮盲区） | 核心论证，揭示被忽略的关键事实 |
+| **V** | Validate（验证处境） | 数据支撑，用硬核事实验证论点 |
+| **E** | Embody（具身化） | 核心隐喻，让抽象概念可感知 |
+| **T** | Transform（转化行动） | 给出受众可执行的行动建议 |
+
+> RIVET 模板详见 `templates/report_template.md`。
 
 ---
 
@@ -344,11 +367,12 @@ python3 /path/to/script.py "[keyword]"
 
 ---
 
-## 模块 9 ｜ 连续性生产
+## 模块 9 ｜ 连续性生产（可选）
 
 > **核心理念**：素材挖掘报告不是终点——是内容生产流水线的起点。
+> **默认行为**：仅产出研究素材包（Layer 1 + Layer 2）。仅当用户显式请求「生成内容」「多平台产出」「写抖音脚本」等时，才进入本模块。
 
-### ★ 内容产出质量标准
+### ★ 内容产出质量标准（仅在用户触发内容生产时适用）
 
 > **⚠️ 禁止产出「抽象描述」——每条产出必须达到「可直接用」的粒度。**
 
@@ -365,7 +389,7 @@ python3 /path/to/script.py "[keyword]"
 素材挖掘报告（report.md）
   ├── Layer 1: 素材包（嵌入报告）
   ├── Layer 2: 文章大纲（嵌入报告）
-  ↓ 自动进入
+  ↓ 仅当用户显式请求内容生产时进入
   └── 独立产出：多平台内容（content-production-multi-platform.md）
 ```
 
@@ -393,8 +417,8 @@ python3 /path/to/script.py "[keyword]"
 - **真实可溯源优先**：杜绝编造链接/数据。
 - **素材分层不丢弃**：按相关性分层（🔴🟡🟢）。
 - **中英文信源兼顾**：金句保留原文，标注信息完整度。
-- **理论中立性**：采集报告不署名引用哲学家的理论概念。报告描述事实、数据、争议、受众痛点，不预设分析框架。理论框架的引入在内容创作阶段，不在采集阶段。
-- **产出文件必须保存到** `reports/hotspot/{YYYY-MM-DD}/{topic_slug}/` 目录下。
+- **理论中立性（分阶段）**：采集阶段（Layer 1）不署名引用哲学家理论概念，描述事实、数据、争议、受众痛点，不预设分析框架。分析阶段（Layer 2）如使用理论框架（SOUL/结构归因等），必须标注「框架来源」——框架是分析视角，不是客观事实。不强制使用理论家。
+- **产出文件必须保存到** `/Users/jiang/Documents/qoder_workspace/hotspot/reports/hotspot-topic-excavator_qoder/{YYYY-MM-DD}/{topic_slug}/` 目录下。
 - **V1 横向关联不可跳过**：必须检索日报/周报档案中已有的横向关联话题。
 - **校准审查强制**：报告初稿完成 → Step A(逻辑扫描) → B(完整性) → C(措辞) → D(框架) → E(对立) → **F(理论偏向)** → **G(叙事引力)** → **H(受众工具链翻译)** → **I(三角叙事补洞)** → 校准记录表嵌入报告末尾。详见模块 7-8。
 - **工具并行化**：Step 2A 中的多组 WebSearch 和 WebFetch 应尽可能并行调用，提升采集效率。
@@ -408,13 +432,13 @@ python3 /path/to/script.py "[keyword]"
 - `templates/report_template.md` — 报告输出格式模板
 
 **降级脚本**：
-- `scripts/web_fetch.py` — 降级网页抓取（Python requests + WAF 绕过 + Markdown 转换）
+- `scripts/web_fetch.py` — 降级网页抓取（Python requests + WAF 兼容性直连 + Markdown 转换）
 - `scripts/yt_transcript.py` — YouTube/播客逐字稿获取（自动兼容新旧 API 版本）
 
 **References · 采集技术**：
 - `references/llm_context_only_excavation.md` — 搜索+原文获取模式（93% 完整度）
 - `references/anthropic-source-handling.md` — Anthropic Research JS 增量加载抓取
-- `references/cloudflare_waf_python_direct.md` — Cloudflare WAF 站点 Python 直连绕过
+- `references/cloudflare_waf_python_direct.md` — Cloudflare WAF 站点 Python 兼容性直连（仅用于公开、无需认证的页面）
 - `references/international_topic_chinese_supplement.md` — 国际治理话题中文补强模式
 - `references/b2b_topic_china_perspective.md` — B 端公司/商业话题中国视角补强模式
 - `references/media_culture_topic_china_mirror.md` — 媒体/文化趋势话题中国镜像模式

@@ -1,0 +1,6 @@
+# 降级脚本依赖（仅在 WebFetch/WebSearch 不可用时触发）
+# 安装: pip3 install -r requirements.txt
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+youtube-transcript-api>=1.0.0,<2.0.0

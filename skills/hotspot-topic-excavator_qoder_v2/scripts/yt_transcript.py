@@ -52,8 +52,9 @@ def fetch_transcript(video_id, language='en', output_format='text'):
     print(f"[YT] Video ID: {video_id}", file=sys.stderr)
 
     try:
-        # 尝试新版 API
-        transcript_list = YouTubeTranscriptApi.list(video_id)
+        # 尝试新版 API（需先实例化，>=1.0.0 要求实例方法调用）
+        api = YouTubeTranscriptApi()
+        transcript_list = api.list(video_id)
 
         # 查找指定语言的 transcript
         transcript = None
@@ -98,8 +99,8 @@ def fetch_transcript(video_id, language='en', output_format='text'):
 
         print(f"[YT] 完成，总时长约 {int(fetched.snippets[-1].start // 60) if fetched.snippets else 0} 分钟", file=sys.stderr)
 
-    except AttributeError:
-        # 旧版 API 兼容
+    except (AttributeError, TypeError):
+        # 旧版 API 兼容（AttributeError: 旧版无 list 方法; TypeError: 类方法调用报错）
         print("[YT] 使用旧版 API 接口...", file=sys.stderr)
         try:
             transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=[language])

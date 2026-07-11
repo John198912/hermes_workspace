@@ -91,7 +91,7 @@
 - 可以作为多个新选题的"金句"：「你不能让一块从未存在过的肌肉萎缩」
 - 与 SOUL 控制性理念完美对齐——"真实稳定的自我"对成人是"维护"，对孩子是"建造"
 
-**提醒**：本知识应通过 `references/key_persons.md` 追加 Timothy Cook 到"心理学追踪人物清单"，或更新 `references/keywords.md` 补充"cognitive atrophy / cognitive foreclosure"两个术语。
+**提醒**：原 Hermes 环境中应通过 `references/key_persons.md` 追加 Timothy Cook 到"心理学追踪人物清单"，或更新 `references/keywords.md` 补充"cognitive atrophy / cognitive foreclosure"两个术语。（注：`key_persons.md` 和 `keywords.md` 属于 hotspot-research skill，Qoder 版 hotspot-topic-excavator 不包含此文件。）
 
 ---
 
