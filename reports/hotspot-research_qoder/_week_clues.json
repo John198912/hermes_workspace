@@ -1,0 +1,51 @@
+{
+  "W-28-01": {
+    "topic": "AI Agent 安全",
+    "signal": "🔴强",
+    "desc": "GPT-5.6-Sol 删光文件事件，Agent 权限管理成为行业焦点",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-02": {
+    "topic": "AI 硬件法律战",
+    "signal": "🔴强",
+    "desc": "Apple vs OpenAI 诉讼，AI 硬件知识产权进入法律战阶段",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-03": {
+    "topic": "自主 AI 智能体",
+    "signal": "🔴强",
+    "desc": "ChatGPT Work 发布 + GPT-5.6 三档开放，AI 从助手到员工",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-04": {
+    "topic": "人形机器人应用化",
+    "signal": "🟡中",
+    "desc": "宇树 G1 Nature 论文，首例活体手术，成本为达芬奇 5%",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-05": {
+    "topic": "AI 竞争格局重塑",
+    "signal": "🟡中",
+    "desc": "马斯克承认 Anthropic 领先 + Claude Fable 5 获信任通宵运行",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-06": {
+    "topic": "推理效率创新",
+    "signal": "🟡中",
+    "desc": "小红书 PIPO 架构 + DeepSeek on AMD，推理成本和硬件多元化",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-07": {
+    "topic": "AI 自媒体工具",
+    "signal": "🟡中",
+    "desc": "百度搭子首发自媒体专业套件，日均提问量增 20 倍",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  }
+}
