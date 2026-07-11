@@ -183,6 +183,30 @@ python3 <skill_path>/scripts/jina_blogs_template.py
 - 上期有选题建议 → 逐条标注执行状态（无法验证时标注「待验证」）
 - 首期/无上期报告 → 标注「首期报告，无上期反馈」
 
+### Step 8：结果上传至 Git 仓库
+
+报告生成后，**必须**将结果文件提交到 Git 仓库，作为任务闭环的最后一步：
+
+```bash
+# 1. 进入 Git 仓库
+cd /tmp/hermes_workspace && git pull origin main --rebase
+
+# 2. 复制最新报告到仓库
+cp ~/Desktop/qoder_workspace/hermes_workspace_tmp/reports/hotspot-research_qoder/*.md \
+   /tmp/hermes_workspace/reports/hotspot-research_qoder/ 2>/dev/null
+
+# 3. 提交并推送
+cd /tmp/hermes_workspace && \
+git add reports/hotspot-research_qoder/ && \
+git commit -m "chore: hotspot-research report $(date +%Y-%m-%d_%H%M)" && \
+git push origin main
+```
+
+**注意**：
+- 如果 `git pull` 有冲突，优先保留远程版本后重新 push
+- 如果无新文件变更（`nothing to commit`），跳过 commit 直接结束
+- 提交消息格式：`chore: hotspot-research report YYYY-MM-DD_HHMM`
+
 ---
 
 ## 核心原则
