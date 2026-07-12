@@ -9,14 +9,14 @@
   "W-28-02": {
     "topic": "AI 硬件法律战",
     "signal": "🔴强",
-    "desc": "Apple vs OpenAI 诉讼，AI 硬件知识产权进入法律战阶段",
+    "desc": "Apple vs OpenAI 诉讼 + Bloomberg 内幕 + 分析师评论 + 400 跳槽员工",
     "days": 1,
     "first_seen": "2026-07-11"
   },
   "W-28-03": {
     "topic": "自主 AI 智能体",
     "signal": "🔴强",
-    "desc": "ChatGPT Work 发布 + GPT-5.6 三档开放，AI 从助手到员工",
+    "desc": "ChatGPT Work + GPT-5.6 三档 + 数学猜想证明 + Bun 重写",
     "days": 1,
     "first_seen": "2026-07-11"
   },
@@ -45,6 +45,27 @@
     "topic": "AI 自媒体工具",
     "signal": "🟡中",
     "desc": "百度搭子首发自媒体专业套件，日均提问量增 20 倍",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-08": {
+    "topic": "AI 编程 ROI 量化",
+    "signal": "🔴强",
+    "desc": "Bun 重写案例：16.5 万美元 / 11 天 / 100 万行，ROI 首次可量化",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-09": {
+    "topic": "反 AI 技术",
+    "signal": "🟡中",
+    "desc": "Ghost Font 人类可读 AI 不可读，隐私保护新维度",
+    "days": 1,
+    "first_seen": "2026-07-11"
+  },
+  "W-28-10": {
+    "topic": "GPU 金融循环",
+    "signal": "🟡中",
+    "desc": "Nvidia/CoreWeave/Nebius 循环融资，算力成本走势信号",
     "days": 1,
     "first_seen": "2026-07-11"
   }
