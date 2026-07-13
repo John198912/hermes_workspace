@@ -2,71 +2,78 @@
   "W-28-01": {
     "topic": "AI Agent 安全",
     "signal": "🔴强",
-    "desc": "GPT-5.6-Sol 删光文件事件，Agent 权限管理成为行业焦点",
-    "days": 1,
+    "desc": "Grok CLI 偷代码 + Claude Code 33k 开销，Agent 安全从权限扩展到信任+成本",
+    "days": 3,
     "first_seen": "2026-07-11"
   },
   "W-28-02": {
     "topic": "AI 硬件法律战",
-    "signal": "🔴强",
-    "desc": "Apple vs OpenAI 诉讼 + Bloomberg 内幕 + 分析师评论 + 400 跳槽员工",
-    "days": 1,
+    "signal": "🟡中",
+    "desc": "Apple vs OpenAI 诉讼持续 [D+3]，分析师评论追加",
+    "days": 3,
     "first_seen": "2026-07-11"
   },
   "W-28-03": {
     "topic": "自主 AI 智能体",
     "signal": "🔴强",
-    "desc": "ChatGPT Work + GPT-5.6 三档 + 数学猜想证明 + Bun 重写",
-    "days": 1,
+    "desc": "Codex/ChatGPT Work 取消限制 + 600万用户 + Ploy 迁移 GPT-5.6 Sol",
+    "days": 3,
     "first_seen": "2026-07-11"
   },
   "W-28-04": {
     "topic": "人形机器人应用化",
     "signal": "🟡中",
     "desc": "宇树 G1 Nature 论文，首例活体手术，成本为达芬奇 5%",
-    "days": 1,
+    "days": 3,
     "first_seen": "2026-07-11"
   },
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
-    "signal": "🟡中",
-    "desc": "马斯克承认 Anthropic 领先 + Claude Fable 5 获信任通宵运行",
-    "days": 1,
+    "signal": "🔴强",
+    "desc": "Ploy 实测 GPT-5.6 Sol 超越 Claude Opus 4.8 + 黄仁勋 $1000亿营收",
+    "days": 3,
     "first_seen": "2026-07-11"
   },
   "W-28-06": {
     "topic": "推理效率创新",
     "signal": "🟡中",
     "desc": "小红书 PIPO 架构 + DeepSeek on AMD，推理成本和硬件多元化",
-    "days": 1,
+    "days": 3,
     "first_seen": "2026-07-11"
   },
   "W-28-07": {
     "topic": "AI 自媒体工具",
     "signal": "🟡中",
     "desc": "百度搭子首发自媒体专业套件，日均提问量增 20 倍",
-    "days": 1,
+    "days": 3,
     "first_seen": "2026-07-11"
   },
-  "W-28-08": {
-    "topic": "AI 编程 ROI 量化",
+  "W-29-01": {
+    "topic": "AI 数据主权",
     "signal": "🔴强",
-    "desc": "Bun 重写案例：16.5 万美元 / 11 天 / 100 万行，ROI 首次可量化",
+    "desc": "纳德拉反向信息悖论——企业付 AI 两次钱",
     "days": 1,
-    "first_seen": "2026-07-11"
+    "first_seen": "2026-07-13"
   },
-  "W-28-09": {
-    "topic": "反 AI 技术",
+  "W-29-02": {
+    "topic": "中国 Agent 模型",
     "signal": "🟡中",
-    "desc": "Ghost Font 人类可读 AI 不可读，隐私保护新维度",
+    "desc": "腾讯 Hy3 295B MoE 开源 + 微信 10亿用户集成",
     "days": 1,
-    "first_seen": "2026-07-11"
+    "first_seen": "2026-07-13"
   },
-  "W-28-10": {
-    "topic": "GPU 金融循环",
+  "W-29-03": {
+    "topic": "开源 AI 监管",
     "signal": "🟡中",
-    "desc": "Nvidia/CoreWeave/Nebius 循环融资，算力成本走势信号",
+    "desc": "白宫讨论 6个月内禁止高能力开源模型发布",
     "days": 1,
-    "first_seen": "2026-07-11"
+    "first_seen": "2026-07-13"
+  },
+  "W-29-04": {
+    "topic": "AI CEO 叙事转向",
+    "signal": "🟡中",
+    "desc": "Altman + Amodei 同期改口称 AI 净创造就业",
+    "days": 1,
+    "first_seen": "2026-07-13"
   }
 }
