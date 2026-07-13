@@ -96,9 +96,49 @@
       "last_signal": "2026-07-09",
       "days": 1,
       "strength": "medium"
+    },
+    {
+      "id": "W-28-13",
+      "topic": "GPT-5.6发布——AI编码Agent市场重新洗牌",
+      "first_seen": "2026-07-09",
+      "last_signal": "2026-07-12",
+      "days": 4,
+      "strength": "strong"
+    },
+    {
+      "id": "W-28-14",
+      "topic": "苹果诉OpenAI窃取商业机密——AI行业权力格局剧烈震荡",
+      "first_seen": "2026-07-10",
+      "last_signal": "2026-07-12",
+      "days": 3,
+      "strength": "strong"
+    },
+    {
+      "id": "W-28-15",
+      "topic": "一人公司OPC成为中国主流叙事——从实验到基础设施",
+      "first_seen": "2026-07-06",
+      "last_signal": "2026-07-10",
+      "days": 5,
+      "strength": "strong"
+    },
+    {
+      "id": "W-28-16",
+      "topic": "AI Agent安全危机——三连击（xAI泄露+GPT删硬盘+GitLost）",
+      "first_seen": "2026-07-08",
+      "last_signal": "2026-07-12",
+      "days": 5,
+      "strength": "strong"
+    },
+    {
+      "id": "W-28-17",
+      "topic": "AI编码Agent隐性成本——Claude Code 33k tokens vs 竞品",
+      "first_seen": "2026-07-12",
+      "last_signal": "2026-07-12",
+      "days": 1,
+      "strength": "strong"
     }
   ],
-  "updated": "2026-07-09T08:00:00+08:00",
+  "updated": "2026-07-13T08:00:00+08:00",
   "archived_weeks": {
     "27": {
       "clue_count": 28,
