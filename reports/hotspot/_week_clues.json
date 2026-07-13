@@ -5,17 +5,17 @@
       "id": "W-28-01",
       "topic": "AI Agent日常化——从开发者工具到大众工具",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-09",
-      "days": 3,
+      "last_signal": "2026-07-13",
+      "days": 7,
       "strength": "strong"
     },
     {
       "id": "W-28-02",
       "topic": "AI成本两极分化——前沿模型涨价+中国模型降价",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-09",
-      "days": 3,
-      "strength": "strong"
+      "last_signal": "2026-07-13",
+      "days": 7,
+      "strength": "medium"
     },
     {
       "id": "W-28-03",
@@ -29,16 +29,16 @@
       "id": "W-28-04",
       "topic": "中国AI'筑墙'——工具链安全+模型管制",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-09",
-      "days": 3,
-      "strength": "strong"
+      "last_signal": "2026-07-13",
+      "days": 7,
+      "strength": "medium"
     },
     {
       "id": "W-28-05",
       "topic": "Agent基础设施成熟——多模式+跨设备",
       "first_seen": "2026-07-07",
-      "last_signal": "2026-07-09",
-      "days": 3,
+      "last_signal": "2026-07-13",
+      "days": 7,
       "strength": "strong"
     },
     {
@@ -61,8 +61,8 @@
       "id": "W-28-08",
       "topic": "AI Agent安全三连击——GitLost+隐藏追踪器+勒索软件",
       "first_seen": "2026-07-08",
-      "last_signal": "2026-07-09",
-      "days": 2,
+      "last_signal": "2026-07-13",
+      "days": 6,
       "strength": "strong"
     },
     {
@@ -85,55 +85,31 @@
       "id": "W-28-11",
       "topic": "AI行业权力格局重构——OpenAI vs Anthropic王座易主",
       "first_seen": "2026-07-09",
-      "last_signal": "2026-07-09",
-      "days": 1,
+      "last_signal": "2026-07-13",
+      "days": 5,
       "strength": "strong"
     },
     {
       "id": "W-28-12",
       "topic": "AI替代人工——从'预测'到'新闻'",
       "first_seen": "2026-07-09",
-      "last_signal": "2026-07-09",
-      "days": 1,
+      "last_signal": "2026-07-12",
+      "days": 4,
       "strength": "medium"
     },
     {
       "id": "W-28-13",
-      "topic": "GPT-5.6发布——AI编码Agent市场重新洗牌",
-      "first_seen": "2026-07-09",
-      "last_signal": "2026-07-12",
-      "days": 4,
+      "topic": "中国超级个体国家战略——OPC社区+政策落地",
+      "first_seen": "2026-07-13",
+      "last_signal": "2026-07-13",
+      "days": 1,
       "strength": "strong"
     },
     {
       "id": "W-28-14",
-      "topic": "苹果诉OpenAI窃取商业机密——AI行业权力格局剧烈震荡",
-      "first_seen": "2026-07-10",
-      "last_signal": "2026-07-12",
-      "days": 3,
-      "strength": "strong"
-    },
-    {
-      "id": "W-28-15",
-      "topic": "一人公司OPC成为中国主流叙事——从实验到基础设施",
-      "first_seen": "2026-07-06",
-      "last_signal": "2026-07-10",
-      "days": 5,
-      "strength": "strong"
-    },
-    {
-      "id": "W-28-16",
-      "topic": "AI Agent安全危机——三连击（xAI泄露+GPT删硬盘+GitLost）",
-      "first_seen": "2026-07-08",
-      "last_signal": "2026-07-12",
-      "days": 5,
-      "strength": "strong"
-    },
-    {
-      "id": "W-28-17",
-      "topic": "AI编码Agent隐性成本——Claude Code 33k tokens vs 竞品",
-      "first_seen": "2026-07-12",
-      "last_signal": "2026-07-12",
+      "topic": "AI编码工具内战——Claude Code vs OpenCode vs Codex",
+      "first_seen": "2026-07-13",
+      "last_signal": "2026-07-13",
       "days": 1,
       "strength": "strong"
     }
