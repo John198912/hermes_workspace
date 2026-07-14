@@ -2,36 +2,36 @@
   "W-28-01": {
     "topic": "AI Agent 安全",
     "signal": "🔴强",
-    "desc": "Grok CLI 偷代码 + Claude Code 33k 开销，Agent 安全从权限扩展到信任+成本",
-    "days": 3,
+    "desc": "Grok CLI 偷代码 [D+2] + Claude Code 33k + Cloudflare Precursor 检测 AI Agent",
+    "days": 4,
     "first_seen": "2026-07-11"
   },
   "W-28-02": {
     "topic": "AI 硬件法律战",
     "signal": "🟡中",
     "desc": "Apple vs OpenAI 诉讼持续 [D+3]，分析师评论追加",
-    "days": 3,
+    "days": 4,
     "first_seen": "2026-07-11"
   },
   "W-28-03": {
     "topic": "自主 AI 智能体",
     "signal": "🔴强",
-    "desc": "Codex/ChatGPT Work 取消限制 + 600万用户 + Ploy 迁移 GPT-5.6 Sol",
-    "days": 3,
+    "desc": "Codex 新功能（Steer/Queue/Sandbox）+ OpenAI 提示词指南（Agent 范式）",
+    "days": 4,
     "first_seen": "2026-07-11"
   },
   "W-28-04": {
     "topic": "人形机器人应用化",
     "signal": "🟡中",
     "desc": "宇树 G1 Nature 论文，首例活体手术，成本为达芬奇 5%",
-    "days": 3,
+    "days": 4,
     "first_seen": "2026-07-11"
   },
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "Ploy 实测 GPT-5.6 Sol 超越 Claude Opus 4.8 + 黄仁勋 $1000亿营收",
-    "days": 3,
+    "desc": "tokenizer 隐性涨价 + Hebbia Fable 5 金融基准 + Meta $500亿数据中心",
+    "days": 4,
     "first_seen": "2026-07-11"
   },
   "W-28-06": {
@@ -50,30 +50,51 @@
   },
   "W-29-01": {
     "topic": "AI 数据主权",
-    "signal": "🔴强",
-    "desc": "纳德拉反向信息悖论——企业付 AI 两次钱",
-    "days": 1,
+    "signal": "🟡中",
+    "desc": "Cloudflare Precursor 区分人类和 AI Agent 行为（从数据主权到行为主权）",
+    "days": 2,
     "first_seen": "2026-07-13"
   },
   "W-29-02": {
     "topic": "中国 Agent 模型",
     "signal": "🟡中",
     "desc": "腾讯 Hy3 295B MoE 开源 + 微信 10亿用户集成",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-13"
   },
   "W-29-03": {
     "topic": "开源 AI 监管",
     "signal": "🟡中",
     "desc": "白宫讨论 6个月内禁止高能力开源模型发布",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-13"
   },
   "W-29-04": {
     "topic": "AI CEO 叙事转向",
     "signal": "🟡中",
     "desc": "Altman + Amodei 同期改口称 AI 净创造就业",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-13"
+  },
+  "W-29-05": {
+    "topic": "AI 工具成本透明化",
+    "signal": "🔴强",
+    "desc": "tokenizer 隐性涨价 30% + 前沿模型 41 天王座 + 价格年降 10×",
+    "days": 1,
+    "first_seen": "2026-07-14"
+  },
+  "W-29-06": {
+    "topic": "AI 视频生成",
+    "signal": "🟡中",
+    "desc": "PixVerse $439M 融资 + 1.5亿用户 + 估值 $20亿",
+    "days": 1,
+    "first_seen": "2026-07-14"
+  },
+  "W-29-07": {
+    "topic": "AI 图像精编",
+    "signal": "🟡中",
+    "desc": "Seedream 5.0 Pro 交互编辑 + HyOCR-1.5 端到端 OCR",
+    "days": 1,
+    "first_seen": "2026-07-14"
   }
 }
