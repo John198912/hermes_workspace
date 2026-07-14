@@ -112,9 +112,30 @@
       "last_signal": "2026-07-13",
       "days": 1,
       "strength": "strong"
+    },
+    {
+      "id": "W-29-05",
+      "topic": "AI 工具隐性成本",
+      "first_seen": "2026-07-14",
+      "signal": "strong",
+      "description": "Tokenizer 差异导致 1.73 倍成本差异 + Claude 新旧 tokenizer 30% 差异"
+    },
+    {
+      "id": "W-29-06",
+      "topic": "图像/视觉 AI 突破",
+      "first_seen": "2026-07-14",
+      "signal": "strong",
+      "description": "Seedream 5.0 Pro + 腾讯 HyOCR-1.5 + Apple SpeechAnalyzer"
+    },
+    {
+      "id": "W-29-07",
+      "topic": "AI 编码工具人格化",
+      "first_seen": "2026-07-14",
+      "signal": "medium",
+      "description": "Claude Mr. Meeseeks 插件——AI 工具从功能导向走向人格化体验"
     }
   ],
-  "updated": "2026-07-13T08:00:00+08:00",
+  "updated": "2026-07-14 08:08 CST",
   "archived_weeks": {
     "27": {
       "clue_count": 28,
