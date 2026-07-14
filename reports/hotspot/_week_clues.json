@@ -133,9 +133,30 @@
       "first_seen": "2026-07-14",
       "signal": "medium",
       "description": "Claude Mr. Meeseeks 插件——AI 工具从功能导向走向人格化体验"
+    },
+    {
+      "id": "W-29-08",
+      "topic": "AI编码工具安全升级: Musk承认+工信部警告",
+      "first_seen": "2026-07-14",
+      "signal": "strong",
+      "description": "Musk亲口承认Grok Build上传代码, SpaceXAI承诺删除; 工信部评定Claude Code后门为严重等级"
+    },
+    {
+      "id": "W-29-09",
+      "topic": "AI务实主义叙事: AI作为正常技术",
+      "first_seen": "2026-07-14",
+      "signal": "strong",
+      "description": "普林斯顿教授Narayanan ICML 2026: AI是正常技术, 不会突然让人失业, 人类需主动适应而非躺平"
+    },
+    {
+      "id": "W-29-10",
+      "topic": "端侧AI摩尔定律: 知识密度每3.5月翻一番",
+      "first_seen": "2026-07-14",
+      "signal": "medium",
+      "description": "面壁定律: 知识密度每3.5月翻番, 2B参数胜8B竞品"
     }
   ],
-  "updated": "2026-07-14 08:08 CST",
+  "updated": "2026-07-14 15:44 CST",
   "archived_weeks": {
     "27": {
       "clue_count": 28,
