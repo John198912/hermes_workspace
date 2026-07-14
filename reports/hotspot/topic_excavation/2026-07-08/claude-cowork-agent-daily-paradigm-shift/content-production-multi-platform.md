@@ -1,6 +1,6 @@
 # 🎬 多平台内容产出：「AI Agent的"日常化"转折点——Claude Cowork数据揭晓的范式转移」
 
-> 锚点报告：`reports/hotspot/topic_excavation/2026-07-08/claude-cowork-agent-daily-paradigm-shift/report.md`
+> 锚点报告：`reports/hotspot/topic_excavation/2026-07-08/Claude协作智能体·日常范式转变/report.md`
 > 产出时间：2026-07-08
 > 产出粒度：秒级时间码 + 画面描述 + 音效提示 + 逐句口播
 
@@ -219,4 +219,4 @@
 ---
 
 *产出文件由 hotspot-topic-excavator v2.7.0 生成 · 2026-07-08*
-*锚点报告：`reports/hotspot/topic_excavation/2026-07-08/claude-cowork-agent-daily-paradigm-shift/report.md`*
+*锚点报告：`reports/hotspot/topic_excavation/2026-07-08/Claude协作智能体·日常范式转变/report.md`*

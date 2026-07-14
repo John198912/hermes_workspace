@@ -273,4 +273,4 @@
 ---
 
 *多平台内容产出完成 · 2026-07-05*
-*归档路径：~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/forbes-great-workplace-reset-12-shifts/content-production-multi-platform.md*
+*归档路径：~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/福布斯：大职场重置12项变革/content-production-multi-platform.md*

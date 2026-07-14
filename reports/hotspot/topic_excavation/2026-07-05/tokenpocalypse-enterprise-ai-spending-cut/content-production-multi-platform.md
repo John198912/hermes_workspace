@@ -438,4 +438,4 @@ Token 末日，不是 AI 末日。
 
 ---
 
-*多平台内容生产完成 · 与 report.md 同步归档 · 目录: `2026-07-05/tokenpocalypse-enterprise-ai-spending-cut/`*
+*多平台内容生产完成 · 与 report.md 同步归档 · 目录: `2026-07-05/Tokenpocalypse：企业AI支出削减/`*

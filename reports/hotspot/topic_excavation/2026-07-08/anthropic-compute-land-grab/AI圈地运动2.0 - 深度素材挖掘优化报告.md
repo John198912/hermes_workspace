@@ -5,7 +5,7 @@
 分析方法：hotspot\-topic\-excavator v2\.7\.0・B2B 中国视角补强模式（v2\.6\.1）・深度素材挖掘增强版
 采集工具链：豆包搜索 18 组关键词 \+ Brave LLM Context \+ Jina Reader
 信源数量：90\+ 条（中文 65\+，英文 25\+）
-归档目录：`reports/hotspot/topic_excavation/2026-07-08/anthropic-compute-land-grab/`
+归档目录：`reports/hotspot/topic_excavation/2026-07-08/Anthropic算力圈地运动/`
 ⚠️ 理论中立性纪律：本报告为信息采集，描述事实 / 数据 / 争议 / 案例，不预设哲学分析框架。
 
 ---

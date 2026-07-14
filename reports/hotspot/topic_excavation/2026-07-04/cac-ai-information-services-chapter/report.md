@@ -4,7 +4,7 @@
 > **执行模型**：volces-ark / deepseek-v4-pro（reasoning_effort=max）
 > **执行 Skill**：hotspot-topic-excavator v2.6.1
 > **触发来源**：0704 热点日报 · CAC 修订草案条目
-> **报告路径**：`reports/hotspot/topic_excavation/2026-07-04/cac-ai-information-services-chapter/report.md`
+> **报告路径**：`reports/hotspot/topic_excavation/2026-07-04/网信办AI信息服务专章/report.md`
 
 ---
 
@@ -16,7 +16,7 @@
 | C2 选题卡粒度 | 完整选题卡 | **完整选题卡 + 额外视角** | 是 |
 | C3 发散边界 | ≤5 个，每个必溯源 | **5 个，全部溯源至锚点** | 是 |
 | 工具链 | Brave + Jina + Tavily | **豆包 + curl 官方信源（Brave MCP 不可用，已自动降级）** | — |
-| 报告路径 | `reports/hotspot/topic_excavation/{date}/{topic_slug}/` | `2026-07-04/cac-ai-information-services-chapter/` | — |
+| 报告路径 | `reports/hotspot/topic_excavation/{date}/{topic_slug}/` | `2026-07-04/网信办AI信息服务专章/` | — |
 
 **降级说明**：Brave MCP 在本次任务中连续 3 次失败返回 `unreachable`，自动切换至 byted-web-search（豆包）+ 直 curl 网信办官网的双源降级链路，完整捕获了 P1 官方信源（cac.gov.cn 专家解读全文）。
 
@@ -497,7 +497,7 @@
 *报告生成时间：2026-07-08 00:53 UTC+8*
 *执行 Skill：hotspot-topic-excavator v2.6.1 · SOUL 框架维护*
 *采集模式：豆包（byted-web-search）+ 直 curl CAC 官网 · 降级链路（Brave MCP 不可用）*
-*报告路径：`reports/hotspot/topic_excavation/2026-07-04/cac-ai-information-services-chapter/report.md`*
+*报告路径：`reports/hotspot/topic_excavation/2026-07-04/网信办AI信息服务专章/report.md`*
 
 
 

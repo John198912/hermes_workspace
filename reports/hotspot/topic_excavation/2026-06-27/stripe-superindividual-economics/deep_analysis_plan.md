@@ -464,7 +464,7 @@
 | 元素材储备 | `topic_materials.md` | 25.8KB | 95% |
 | 深度分析方案 | `deep_analysis_plan.md`（本文件） | 待写入 | — |
 
-**归档位置**：`~/hermes_workspace/reports/hotspot/topic_excavation/2026-06-27/stripe-superindividual-economics/`
+**归档位置**：`~/hermes_workspace/reports/hotspot/topic_excavation/2026-06-27/Stripe超级个体经济学/`
 
 ---
 

@@ -3,7 +3,7 @@
 > 素材深挖报告 | 2026-07-08 | hotspot-topic-excavator v2.6.1
 > 执行模型: volces-ark/deepseek-v4-pro (reasoning_effort: max)
 > 采集路径: 双轴（深挖70% + 发散30%）| 16 信源 | 5 篇原文拉取
-> 归档目录: `reports/hotspot/topic_excavation/2026-07-08/opc-real-ecology-income-pyramid/`
+> 归档目录: `reports/hotspot/topic_excavation/2026-07-08/一人公司真实生态·收入金字塔/`
 
 ---
 

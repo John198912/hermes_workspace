@@ -2,8 +2,8 @@
 
 > **合并时间**：2026-06-27
 > **合并来源**：
-> - A 卷：`pieter-levels-creator-economy/` — 微观案例（Pieter Levels 10 年个人轨迹）
-> - B 卷：`stripe-superindividual-economics/` — 宏观统计（Stripe 支付数据 + 中国 OPC 全景）
+> - A 卷：`Pieter Levels与创作者经济/` — 微观案例（Pieter Levels 10 年个人轨迹）
+> - B 卷：`Stripe超级个体经济学/` — 宏观统计（Stripe 支付数据 + 中国 OPC 全景）
 > **定位**：一套完整的内容方案——从"一个人怎么做到的"到"400 万人正在做"到"中国 1600 万家 OPC 的真实存活率"
 > **控制性理念**：「在 AI 重塑一切的时代，真实稳定的自我是唯一不可被替代的资产」——A 卷论证"自我如何变成产品"，B 卷论证"自我如何变成统计学事实"
 
@@ -353,11 +353,11 @@
 
 | 文档 | 路径 | 大小 | 完整度 |
 |------|------|------|--------|
-| A 卷·素材报告 | `pieter-levels-creator-economy/report.md` | 40.5KB | 95% |
-| A 卷·多平台产出 | `pieter-levels-creator-economy/content-production-multi-platform.md` | 17.4KB | — |
-| B 卷·元素材 | `stripe-superindividual-economics/topic_materials.md` | 25.8KB | 95% |
-| B 卷·深度方案 | `stripe-superindividual-economics/deep_analysis_plan.md` | 22.6KB | — |
-| **合并方案（本文件）** | `stripe-superindividual-economics/merged-content-plan.md` | — | — |
+| A 卷·素材报告 | `Pieter Levels与创作者经济/report.md` | 40.5KB | 95% |
+| A 卷·多平台产出 | `Pieter Levels与创作者经济/content-production-multi-platform.md` | 17.4KB | — |
+| B 卷·元素材 | `Stripe超级个体经济学/topic_materials.md` | 25.8KB | 95% |
+| B 卷·深度方案 | `Stripe超级个体经济学/deep_analysis_plan.md` | 22.6KB | — |
+| **合并方案（本文件）** | `Stripe超级个体经济学/merged-content-plan.md` | — | — |
 
 **归档根目录**：`~/hermes_workspace/reports/hotspot/topic_excavation/2026-06-27/`
 

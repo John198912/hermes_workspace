@@ -361,4 +361,4 @@
 ---
 
 *报告由 Hermes Agent · hotspot-topic-excavator v2 · SOUL 框架生成 · 2026-06-17T09:30:00+0800*
-*产出目录: ~/hermes_workspace/reports/hotspot/topic_excavation/2026-06-17/ai-era-value-revaluation/*
+*产出目录: ~/hermes_workspace/reports/hotspot/topic_excavation/2026-06-17/AI时代价值重估/*

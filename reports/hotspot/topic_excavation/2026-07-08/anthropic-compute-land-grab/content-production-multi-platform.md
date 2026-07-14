@@ -1,6 +1,6 @@
 # 🎬 多平台内容产出：「AI 圈地运动 2.0——Anthropic 20 年算力长约」
 
-> 锚点报告：`reports/hotspot/topic_excavation/2026-07-08/anthropic-compute-land-grab/report.md`
+> 锚点报告：`reports/hotspot/topic_excavation/2026-07-08/Anthropic算力圈地运动/report.md`
 > 产出时间：2026-07-08
 > 产出粒度：秒级时间码 + 画面描述 + 音效提示 + 逐句口播
 
@@ -209,4 +209,4 @@
 ---
 
 *产出文件由 hotspot-topic-excavator v2.7.0 生成 · 2026-07-08*
-*锚点报告：`reports/hotspot/topic_excavation/2026-07-08/anthropic-compute-land-grab/report.md`*
+*锚点报告：`reports/hotspot/topic_excavation/2026-07-08/Anthropic算力圈地运动/report.md`*

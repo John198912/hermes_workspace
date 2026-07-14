@@ -558,4 +558,4 @@
 
 *补充报告由SOUL框架维护 · 中国视角深度扩展 · 2026-07-05*
 *补充素材来源：外交部官网 + 中国政府网 + 新华网 + 人民网 + 学术期刊 + 行业报告 + 地方案例 = 30+新增信源*
-*归档位置：`reports/hotspot/topic_excavation/2026-07-05/ai-equality-inequality-rashomon-un-panel/china-perspective-supplement.md`*
+*归档位置：`reports/hotspot/topic_excavation/2026-07-05/AI平等与不平等罗生门·联合国小组/china-perspective-supplement.md`*

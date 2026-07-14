@@ -432,5 +432,5 @@ your-project/
 
 按 SOUL 模块 7「连续性生产」规定——**报告写完 = 内容生产开始**。下一文件 `content-production-multi-platform.md` 即将产出，包含抖音完整分镜脚本（2 版本）+ 小红书图文（3 篇）+ B 站深度视频大纲 + 公众号长文结构 + Quick Start 操作指南。
 
-> 报告存档：reports/hotspot/topic_excavation/2026-07-05/every-compound-engineering/report.md
+> 报告存档：reports/hotspot/topic_excavation/2026-07-05/Every复利工程/report.md
 > 信息完整度：🔴 92%

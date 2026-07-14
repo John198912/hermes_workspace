@@ -2,7 +2,7 @@
 
 ## 一、文档概述与核心视角说明
 
-本文为 GitHub 原报告 [🔬 深度素材挖掘报告：Token 末日来临 ——2026 年企业开始削减 AI 支出](https://github.com/John198912/hermes_workspace/blob/main/reports/hotspot/topic_excavation/2026-07-05/tokenpocalypse-enterprise-ai-spending-cut/report.md) 的定向补充调研素材库，全程锚定**中国本土化产业视角**，既呼应原报告定义的全球产业共性 ——`Tokenpocalypse并非AI行业的终结，而是粗放式无差别AI应用浪潮的落幕`，又重点切入中国独有的政策供给、技术栈选择、行业落地场景与企业级应对逻辑，填补原报告的区域空白。
+本文为 GitHub 原报告 [🔬 深度素材挖掘报告：Token 末日来临 ——2026 年企业开始削减 AI 支出](https://github.com/John198912/hermes_workspace/blob/main/reports/hotspot/topic_excavation/2026-07-05/Tokenpocalypse：企业AI支出削减/report.md) 的定向补充调研素材库，全程锚定**中国本土化产业视角**，既呼应原报告定义的全球产业共性 ——`Tokenpocalypse并非AI行业的终结，而是粗放式无差别AI应用浪潮的落幕`，又重点切入中国独有的政策供给、技术栈选择、行业落地场景与企业级应对逻辑，填补原报告的区域空白。
 
 素材采集严格遵循「政策权威背书、头部案例交叉验证、第三方数据机构佐证」三重标准，覆盖的核心维度包括：中国企业 AI 支出收缩与成本管控的现状全景、本土化典型落地案例、Token 成本高企的深层专属动因、顶层政策对 AI 支出结构的系统性重塑、国内企业的差异化落地方案，以及中国 AI 行业的长期发展趋势与特有挑战，可直接用于扩展原报告的区域章节、制作中西对比内容或出版行业定制化分析内容。
 

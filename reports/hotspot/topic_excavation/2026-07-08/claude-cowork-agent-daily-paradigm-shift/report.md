@@ -5,7 +5,7 @@
 > 分析方法：hotspot-topic-excavator v2.7.0 · 事件驱动+数据范式混合模型
 > 采集工具链：Brave Web Search + Brave News + Brave LLM Context（多源交叉验证）
 > 信源数量：60+ 条（中文 15+，英文 45+）
-> 归档目录：`reports/hotspot/topic_excavation/2026-07-08/claude-cowork-agent-daily-paradigm-shift/`
+> 归档目录：`reports/hotspot/topic_excavation/2026-07-08/Claude协作智能体·日常范式转变/`
 > ⚠️ 理论中立性纪律：本报告为信息采集，描述事实/数据/争议/案例，不预设哲学分析框架。
 
 ---

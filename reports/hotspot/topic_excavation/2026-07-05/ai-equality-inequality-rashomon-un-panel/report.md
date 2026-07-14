@@ -479,4 +479,4 @@
 
 *报告由SOUL框架维护 · hotspot-topic-excavator v2.6.0 · 2026-07-05*
 *采集路径：Brave LLM Context (5) + Brave Web (30) + Brave News (10) + 豆包搜索 (19) + 发散搜索 (20) = ~84条原始素材*
-*归档位置：`reports/hotspot/topic_excavation/2026-07-05/ai-equality-inequality-rashomon-un-panel/report.md`*
+*归档位置：`reports/hotspot/topic_excavation/2026-07-05/AI平等与不平等罗生门·联合国小组/report.md`*

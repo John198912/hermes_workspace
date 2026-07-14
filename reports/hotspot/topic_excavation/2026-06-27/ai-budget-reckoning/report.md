@@ -567,4 +567,4 @@ AI 预算清算潮完美论证了这一命题：
 ---
 
 *报告由 Hermes Agent + hotspot-topic-excavator v2 生成 · 2026-06-27*
-*产出目录：reports/hotspot/topic_excavation/2026-06-27/ai-budget-reckoning/*
+*产出目录：reports/hotspot/topic_excavation/2026-06-27/AI预算清算/*

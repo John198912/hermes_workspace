@@ -257,4 +257,4 @@
 
 ---
 
-*产出文件位于: `reports/hotspot/topic_excavation/2026-06-17/ai-era-value-revaluation/`*
+*产出文件位于: `reports/hotspot/topic_excavation/2026-06-17/AI时代价值重估/`*

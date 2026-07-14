@@ -11,7 +11,7 @@
 
 ### 🚨 信号一：Fortune 母女对谈原文（Fortune, 2026-06-28）
 
-- **来源链接**：[Fortune](https://fortune.com/2026/06/28/ai-productivity-ceo-syndio-colacurcio-daughter-dartmouth-cognitive-surrender/) | [WDC TV NEWS 全文镜像](https://wdctv.news/this-ceo-became-3x-more-productive-with-ai-then-she-read-what-her-daughter-wrote-about-it-at-dartmouth/)
+- **来源链接**：[Fortune](https://fortune.com/2026/06/28/ai-productivity-ceo-syndio-colacurcio-daughter-dartmouth-认知投降/) | [WDC TV NEWS 全文镜像](https://wdctv.news/this-ceo-became-3x-more-productive-with-ai-then-she-read-what-her-daughter-wrote-about-it-at-dartmouth/)
 - **发布时间**：2026-06-28 12:30 UTC
 - **作者**：Maria Colacurcio（Part One）+ Sofia Frei（Part Two），独立撰写
 - **人物背景**：Maria Colacurcio — Syndio CEO（薪酬决策智能公司，140 人团队，客户含 Walmart/Microsoft/Salesforce）；Sofia Frei — 达特茅斯学院大一新生，19 岁
@@ -58,9 +58,9 @@
 
 - **来源链接**：
   - [Wharton Executive Education 深度解读](https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/05/thinking-fast-slow-and-artificially/)
-  - [Forbes 报道](https://www.forbes.com/sites/lesliekatz/2026/03/27/cognitive-surrender-we-trust-ai-over-our-own-brains-research-finds/)
+  - [Forbes 报道](https://www.forbes.com/sites/lesliekatz/2026/03/27/认知投降-we-trust-ai-over-our-own-brains-research-finds/)
   - [Ars Technica 科学报道](https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/)
-  - [The Next Web 产业分析](https://thenextweb.com/news/wharton-cognitive-surrender-ai-chatbots-decisions-moot-app)
+  - [The Next Web 产业分析](https://thenextweb.com/news/wharton-认知投降-ai-chatbots-decisions-moot-app)
   - [Wharton Podcast 原始访谈](https://knowledge.wharton.upenn.edu/podcast/ripple-effect/how-ai-is-reshaping-human-intuition-and-reasoning-gideon-nave-and-steven-shaw/)
 - **论文标题**："Thinking — Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender"
 - **研究规模**：3 个实验 × 1,300+ 参与者 × 近 10,000 次试验
@@ -114,7 +114,7 @@
 
 - **来源链接**：
   - [Psychology Today: Adults Lose Skills to AI. Children Never Build Them.](https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them)（Timothy Cook, 2026-03-22）
-  - [Psychology Today: AI and the Psychology of Cognitive Surrender](https://www.psychologytoday.com/us/blog/the-digital-self/202606/ai-and-the-psychology-of-cognitive-surrender)（2026-06-01）
+  - [Psychology Today: AI and the Psychology of Cognitive Surrender](https://www.psychologytoday.com/us/blog/the-digital-self/202606/ai-and-the-psychology-of-认知投降)（2026-06-01）
   - [MDPI: Artificial Intelligence and Youth: Cognitive, Educational, and Behavioral Impacts](https://www.mdpi.com/2673-2688/7/4/121)（2026-04）
   - [Digital Journal: Generational differences in AI adoption](https://www.digitaljournal.com/article/generational-differences-in-ai-adoption-a-psychological-perspective/)（2026-06-14）
 
@@ -344,14 +344,14 @@ Sofia 从反面揭示：当一个人从未问过"为什么"（因为 AI 直接�
 
 | # | 来源名称 | URL | 类型 | 完整度 |
 |---|---------|-----|------|--------|
-| 1 | Fortune 母女对谈原文 | https://fortune.com/2026/06/28/ai-productivity-ceo-syndio-colacurcio-daughter-dartmouth-cognitive-surrender/ | P1 一手叙事 | 100%（WDC TV NEWS 全文镜像） |
+| 1 | Fortune 母女对谈原文 | https://fortune.com/2026/06/28/ai-productivity-ceo-syndio-colacurcio-daughter-dartmouth-认知投降/ | P1 一手叙事 | 100%（WDC TV NEWS 全文镜像） |
 | 2 | Wharton Executive Education 深度解读 | https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/05/thinking-fast-slow-and-artificially/ | P1 一手解读 | 100%（完整论文概述） |
-| 3 | Forbes 认知投降报道 | https://www.forbes.com/sites/lesliekatz/2026/03/27/cognitive-surrender-we-trust-ai-over-our-own-brains-research-finds/ | P2 权威媒体 | 95% |
+| 3 | Forbes 认知投降报道 | https://www.forbes.com/sites/lesliekatz/2026/03/27/认知投降-we-trust-ai-over-our-own-brains-research-finds/ | P2 权威媒体 | 95% |
 | 4 | Ars Technica 科学报道 | https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/ | P2 科技媒体 | 90% |
-| 5 | The Next Web 产业分析 | https://thenextweb.com/news/wharton-cognitive-surrender-ai-chatbots-decisions-moot-app | P2 科技媒体 | 100% |
+| 5 | The Next Web 产业分析 | https://thenextweb.com/news/wharton-认知投降-ai-chatbots-decisions-moot-app | P2 科技媒体 | 100% |
 | 6 | Wharton Podcast 原始访谈 | https://knowledge.wharton.upenn.edu/podcast/ripple-effect/how-ai-is-reshaping-human-intuition-and-reasoning-gideon-nave-and-steven-shaw/ | P1 一手访谈 | 100% |
 | 7 | Psychology Today "认知止赎" | https://www.psychologytoday.com/us/blog/the-algorithmic-mind/202603/adults-lose-skills-to-ai-children-never-build-them | P2 心理学媒体 | 100% |
-| 8 | Psychology Today "认知投降心理学" | https://www.psychologytoday.com/us/blog/the-digital-self/202606/ai-and-the-psychology-of-cognitive-surrender | P2 心理学媒体 | 90% |
+| 8 | Psychology Today "认知投降心理学" | https://www.psychologytoday.com/us/blog/the-digital-self/202606/ai-and-the-psychology-of-认知投降 | P2 心理学媒体 | 90% |
 | 9 | MDPI Youth AI 综述 | https://www.mdpi.com/2673-2688/7/4/121 | P1 学术论文 | 95% |
 | 10 | Digital Journal 代际差异 | https://www.digitaljournal.com/article/generational-differences-in-ai-adoption-a-psychological-perspective/ | P2 媒体 | 85% |
 | 11 | ResearchGate Wharton 论文 | https://www.researchgate.net/publication/399711077 | P1 学术论文 | 80%（摘要+关键段落） |

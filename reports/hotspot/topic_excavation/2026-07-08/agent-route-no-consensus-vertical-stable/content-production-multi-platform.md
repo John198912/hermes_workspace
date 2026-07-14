@@ -1,6 +1,6 @@
 # 🎬 多平台内容产出：AI行业路线没共识——但"垂直场景Agent"是稳的方向
 
-> 素材来源：`report.md`（agent-route-no-consensus-vertical-stable）
+> 素材来源：`report.md`（AI行业路线无共识·垂直Agent是稳方向）
 > 产出时间：2026-07-08
 > 目标平台：抖音 / B站 / 公众号 / 小红书
 

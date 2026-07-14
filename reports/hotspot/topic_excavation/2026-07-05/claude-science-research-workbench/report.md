@@ -418,4 +418,4 @@ Claude Science 的设计哲学完美论证了 SOUL 的「Token 源头」命题�
 ---
 
 *报告由 Hermes Agent · SOUL 框架生成 · 2026-07-05*
-*归档路径：~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/claude-science-research-workbench/report.md*
+*归档路径：~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/Claude科研工作台/report.md*

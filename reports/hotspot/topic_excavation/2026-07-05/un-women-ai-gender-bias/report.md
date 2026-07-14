@@ -507,7 +507,7 @@
 ## 📂 产出文件位置
 
 ```
-~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/un-women-ai-gender-bias/
+~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/联合国妇女署：AI性别偏见/
 ├── report.md (本文件)
 └── content-production-multi-platform.md (多平台内容产出，待生成)
 ```

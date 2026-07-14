@@ -272,4 +272,4 @@ Arruda 的「知识经济→人性经济」框架与 SOUL 的「token 的源头�
 ---
 
 *报告由 Hermes Agent · SOUL 框架生成 · 2026-07-05*
-*归档路径：~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/forbes-great-workplace-reset-12-shifts/report.md*
+*归档路径：~/hermes_workspace/reports/hotspot/topic_excavation/2026-07-05/福布斯：大职场重置12项变革/report.md*

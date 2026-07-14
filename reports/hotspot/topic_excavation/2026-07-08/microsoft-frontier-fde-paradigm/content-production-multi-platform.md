@@ -1,6 +1,6 @@
 # 🎬 多平台内容产出：Microsoft Frontier Company · FDE 范式转变
 
-> 锚点报告：`reports/hotspot/topic_excavation/2026-07-08/microsoft-frontier-fde-paradigm/report.md`
+> 锚点报告：`reports/hotspot/topic_excavation/2026-07-08/微软前沿FDE范式/report.md`
 > 产出时间：2026-07-08
 > 产出粒度：秒级时间码 + 画面描述 + 音效提示 + 逐句口播 · 至少 2 版本
 
@@ -216,4 +216,4 @@
 ---
 
 *产出文件由 hotspot-topic-excavator v2.6.1 生成 · 2026-07-08*
-*锚点报告：`reports/hotspot/topic_excavation/2026-07-08/microsoft-frontier-fde-paradigm/report.md`*
+*锚点报告：`reports/hotspot/topic_excavation/2026-07-08/微软前沿FDE范式/report.md`*

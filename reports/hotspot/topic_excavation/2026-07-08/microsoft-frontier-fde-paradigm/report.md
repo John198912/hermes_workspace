@@ -1,7 +1,7 @@
 # 🔥 AI×超级个体 热点深挖报告：Microsoft Frontier Company（FDE 范式转变·全球-美国-中国三段式）
 
 > 报告生成时间：2026-07-08
-> 报告路径：`reports/hotspot/topic_excavation/2026-07-08/microsoft-frontier-fde-paradigm/report.md`
+> 报告路径：`reports/hotspot/topic_excavation/2026-07-08/微软前沿FDE范式/report.md`
 > 锚点主题：Microsoft Frontier Company 成立——25 亿 + 6000 工程师 + 95% 失败率的解药？
 > 分析方法：hotspot-topic-excavator v2.6.1 · B2B 中国视角补强模式 · 8 组豆包 + Brave/Jina 降级链路
 > 配置：深挖 70% + 发散 30% · 再创作选题完整格式 · 发散上限 5 个

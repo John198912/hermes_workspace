@@ -670,4 +670,4 @@ AI的未来不只是在代码里决定。它现在也在参议院办公室里、
 
 ---
 
-*报告由 Hermes Agent 结合 SOUL 热点主题素材深挖采集器（hotspot-topic-excavator v2）自动生成 · 2026-06-07 · 路径：`reports/hotspot/topic_excavation/2026-06-06/ai-public-ownership/`*
+*报告由 Hermes Agent 结合 SOUL 热点主题素材深挖采集器（hotspot-topic-excavator v2）自动生成 · 2026-06-07 · 路径：`reports/hotspot/topic_excavation/2026-06-06/AI公共所有权/`*

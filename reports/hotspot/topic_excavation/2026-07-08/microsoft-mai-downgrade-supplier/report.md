@@ -5,7 +5,7 @@
 > 分析方法：hotspot-topic-excavator v2.7.5 · B2B话题中国视角补强模式
 > 采集工具链：Brave Search + Brave LLM Context + 豆包搜索 3组关键词
 > 信源数量：28+ 条（中文 10+，英文 15+，分析师深度专栏 3）
-> 归档目录：`reports/hotspot/topic_excavation/2026-07-08/microsoft-mai-downgrade-supplier/`
+> 归档目录：`reports/hotspot/topic_excavation/2026-07-08/微软MAI降级供应商/`
 > 话题类型：B2B企业行为信号 · 热点锚点来自 The Decoder (Jul 7, 2026) + Bloomberg 独家
 > ⚠️ 理论中立性纪律：本报告为信息采集，描述事实/数据/争议/案例，不预设哲学分析框架。
 
