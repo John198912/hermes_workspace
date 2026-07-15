@@ -2,7 +2,7 @@
   "W-28-01": {
     "topic": "AI Agent 安全",
     "signal": "🔴强",
-    "desc": "Sol 删文件 + Cursor 0day + Grok 偷代码 [D+3]，Agent 安全全面爆发",
+    "desc": "Sol 删文件 + Cursor 0day + Grok 偷代码 + Claude 记忆泄露(HN 403分)",
     "days": 5,
     "first_seen": "2026-07-11"
   },
@@ -30,7 +30,7 @@
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "Qwen-Audio 语音推理登顶 + Hy3 量化版 + Hassabis AGI 时间线",
+    "desc": "Apple Intelligence 中国落地选阿里千问 + DeepSeek 准备 IPO + Qwen-Audio 登顶",
     "days": 5,
     "first_seen": "2026-07-11"
   },
@@ -79,7 +79,7 @@
   "W-29-05": {
     "topic": "AI 工具成本透明化",
     "signal": "🔴强",
-    "desc": "纽约州暂停数据中心 + 数据中心电费涨 $230亿 + 41天王座",
+    "desc": "数据中心电费 $230亿 + 纽约暂停 + Goldman Sachs 6%年涨",
     "days": 2,
     "first_seen": "2026-07-14"
   },
@@ -115,6 +115,27 @@
     "topic": "AGI 时间线",
     "signal": "🟡中",
     "desc": "Hassabis 数年可至 vs 普林斯顿正常技术框架",
+    "days": 1,
+    "first_seen": "2026-07-15"
+  },
+  "W-30-04": {
+    "topic": "Apple AI 中国落地",
+    "signal": "🔴强",
+    "desc": "Apple Intelligence 完成备案 + 阿里千问集成 + 10亿+用户入口",
+    "days": 1,
+    "first_seen": "2026-07-15"
+  },
+  "W-30-05": {
+    "topic": "AI Agent 手机操控",
+    "signal": "🟡中",
+    "desc": "Airtap iMessage 新功能：发短信让 AI 操作手机",
+    "days": 1,
+    "first_seen": "2026-07-15"
+  },
+  "W-30-06": {
+    "topic": "DeepSeek IPO",
+    "signal": "🟡中",
+    "desc": "DeepSeek 据悉准备 2027 Q2 上海上市",
     "days": 1,
     "first_seen": "2026-07-15"
   }
