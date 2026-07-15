@@ -2,22 +2,22 @@
   "W-28-01": {
     "topic": "AI Agent 安全",
     "signal": "🔴强",
-    "desc": "Grok CLI 偷代码 [D+2] + Claude Code 33k + Cloudflare Precursor 检测 AI Agent",
-    "days": 4,
+    "desc": "Sol 删文件 + Cursor 0day + Grok 偷代码 [D+3]，Agent 安全全面爆发",
+    "days": 5,
     "first_seen": "2026-07-11"
   },
   "W-28-02": {
     "topic": "AI 硬件法律战",
     "signal": "🟡中",
     "desc": "Apple vs OpenAI 诉讼持续 [D+3]，分析师评论追加",
-    "days": 4,
+    "days": 5,
     "first_seen": "2026-07-11"
   },
   "W-28-03": {
     "topic": "自主 AI 智能体",
     "signal": "🔴强",
-    "desc": "Codex 新功能（Steer/Queue/Sandbox）+ OpenAI 提示词指南（Agent 范式）",
-    "days": 4,
+    "desc": "Codex 700万周活 + 150项更新 + OpenAI 提示词指南",
+    "days": 5,
     "first_seen": "2026-07-11"
   },
   "W-28-04": {
@@ -30,8 +30,8 @@
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "tokenizer 隐性涨价 + Hebbia Fable 5 金融基准 + Meta $500亿数据中心",
-    "days": 4,
+    "desc": "Qwen-Audio 语音推理登顶 + Hy3 量化版 + Hassabis AGI 时间线",
+    "days": 5,
     "first_seen": "2026-07-11"
   },
   "W-28-06": {
@@ -52,7 +52,7 @@
     "topic": "AI 数据主权",
     "signal": "🟡中",
     "desc": "Cloudflare Precursor 区分人类和 AI Agent 行为（从数据主权到行为主权）",
-    "days": 2,
+    "days": 3,
     "first_seen": "2026-07-13"
   },
   "W-29-02": {
@@ -79,22 +79,43 @@
   "W-29-05": {
     "topic": "AI 工具成本透明化",
     "signal": "🔴强",
-    "desc": "tokenizer 隐性涨价 30% + 前沿模型 41 天王座 + 价格年降 10×",
-    "days": 1,
+    "desc": "纽约州暂停数据中心 + 数据中心电费涨 $230亿 + 41天王座",
+    "days": 2,
     "first_seen": "2026-07-14"
   },
   "W-29-06": {
     "topic": "AI 视频生成",
     "signal": "🟡中",
     "desc": "PixVerse $439M 融资 + 1.5亿用户 + 估值 $20亿",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-14"
   },
   "W-29-07": {
     "topic": "AI 图像精编",
     "signal": "🟡中",
     "desc": "Seedream 5.0 Pro 交互编辑 + HyOCR-1.5 端到端 OCR",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-14"
+  },
+  "W-30-01": {
+    "topic": "端侧 AI 里程碑",
+    "signal": "🔴强",
+    "desc": "Bonsai 27B 上手机 3.9GB + Hy3 量化版单卡 85.5GiB + Google Gemma 4 E2B",
+    "days": 1,
+    "first_seen": "2026-07-15"
+  },
+  "W-30-02": {
+    "topic": "AI 训练版权战",
+    "signal": "🟡中",
+    "desc": "Google 遭出版商集体诉讼（Hachette/Elsevier/Cengage）",
+    "days": 1,
+    "first_seen": "2026-07-15"
+  },
+  "W-30-03": {
+    "topic": "AGI 时间线",
+    "signal": "🟡中",
+    "desc": "Hassabis 数年可至 vs 普林斯顿正常技术框架",
+    "days": 1,
+    "first_seen": "2026-07-15"
   }
 }
