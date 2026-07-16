@@ -2,22 +2,22 @@
   "W-28-01": {
     "topic": "AI Agent 安全",
     "signal": "🔴强",
-    "desc": "Sol 删文件 + Cursor 0day + Grok 偷代码 + Claude 记忆泄露(HN 403分)",
-    "days": 5,
+    "desc": "Anthropic 四种偏差 + GPT-Red 84% + Claude 记忆泄露 + Grok 开源",
+    "days": 6,
     "first_seen": "2026-07-11"
   },
   "W-28-02": {
     "topic": "AI 硬件法律战",
     "signal": "🟡中",
     "desc": "Apple vs OpenAI 诉讼持续 [D+3]，分析师评论追加",
-    "days": 5,
+    "days": 6,
     "first_seen": "2026-07-11"
   },
   "W-28-03": {
     "topic": "自主 AI 智能体",
     "signal": "🔴强",
-    "desc": "Codex 700万周活 + 150项更新 + OpenAI 提示词指南",
-    "days": 5,
+    "desc": "开源编程智能体内存方案 + 远程 Agent 操控 + Claude Code MCP",
+    "days": 6,
     "first_seen": "2026-07-11"
   },
   "W-28-04": {
@@ -30,8 +30,8 @@
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "Apple Intelligence 中国落地选阿里千问 + DeepSeek 准备 IPO + Qwen-Audio 登顶",
-    "days": 5,
+    "desc": "Inkling 975B 开源 + Stripe 收购 PayPal $530亿",
+    "days": 6,
     "first_seen": "2026-07-11"
   },
   "W-28-06": {
@@ -80,7 +80,7 @@
     "topic": "AI 工具成本透明化",
     "signal": "🔴强",
     "desc": "数据中心电费 $230亿 + 纽约暂停 + Goldman Sachs 6%年涨",
-    "days": 2,
+    "days": 3,
     "first_seen": "2026-07-14"
   },
   "W-29-06": {
@@ -101,7 +101,7 @@
     "topic": "端侧 AI 里程碑",
     "signal": "🔴强",
     "desc": "Bonsai 27B 上手机 3.9GB + Hy3 量化版单卡 85.5GiB + Google Gemma 4 E2B",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-15"
   },
   "W-30-02": {
@@ -122,7 +122,7 @@
     "topic": "Apple AI 中国落地",
     "signal": "🔴强",
     "desc": "Apple Intelligence 完成备案 + 阿里千问集成 + 10亿+用户入口",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-15"
   },
   "W-30-05": {
@@ -138,5 +138,26 @@
     "desc": "DeepSeek 据悉准备 2027 Q2 上海上市",
     "days": 1,
     "first_seen": "2026-07-15"
+  },
+  "W-30-07": {
+    "topic": "AI 语音诈骗",
+    "signal": "🟡中",
+    "desc": "FBI 报告：$8.93亿损失 / 2.2万起投诉 / 60岁+占$3.52亿",
+    "days": 1,
+    "first_seen": "2026-07-16"
+  },
+  "W-30-08": {
+    "topic": "AI 军事化伦理",
+    "signal": "🟡中",
+    "desc": "DeepMind 研究员因军事 AI 协议离职",
+    "days": 1,
+    "first_seen": "2026-07-16"
+  },
+  "W-30-09": {
+    "topic": "开源编程工具",
+    "signal": "🔴强",
+    "desc": "Grok Build 开源(HN 390分) + 开源内存方案(SSH同步)",
+    "days": 1,
+    "first_seen": "2026-07-16"
   }
 }
