@@ -3,7 +3,7 @@
     "topic": "AI Agent 安全",
     "signal": "🔴强",
     "desc": "54%企业遭遇安全事件 + xAI起诉Grok用户 + 50%部署后翻车",
-    "days": 7,
+    "days": 8,
     "first_seen": "2026-07-11"
   },
   "W-28-02": {
@@ -30,8 +30,8 @@
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "Kimi K3 HN千赞 + 台积电$640亿 + 欧盟DMA裁决",
-    "days": 7,
+    "desc": "Kimi K3 前端登顶 + Schema 99% + AWS $17亿",
+    "days": 8,
     "first_seen": "2026-07-11"
   },
   "W-28-06": {
@@ -79,8 +79,8 @@
   "W-29-05": {
     "topic": "AI 工具成本透明化",
     "signal": "🔴强",
-    "desc": "70%高端内存被抢购 + 电脑涨50% + 2028平价电脑消失",
-    "days": 4,
+    "desc": "AWS $17亿账单不准 + 70%内存抢购 + 台积电$640亿",
+    "days": 5,
     "first_seen": "2026-07-14"
   },
   "W-29-06": {
@@ -157,21 +157,35 @@
     "topic": "开源编程工具",
     "signal": "🔴强",
     "desc": "Grok Build 开源(HN 390分) + 开源内存方案(SSH同步)",
-    "days": 2,
+    "days": 3,
     "first_seen": "2026-07-16"
   },
   "W-30-10": {
     "topic": "反 AI 字体",
     "signal": "🟡中",
     "desc": "Decoy Font(空间频率混淆) + Ghost Font 前例",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-17"
   },
   "W-30-11": {
     "topic": "AI 全球治理",
     "signal": "🟡中",
     "desc": "世界AI合作组织上海签署(29国) + 欧盟DMA",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-17"
+  },
+  "W-30-12": {
+    "topic": "AI 编程 UX 设计",
+    "signal": "🟡中",
+    "desc": "Claude Code Misfeature + Cursor 72.9%",
+    "days": 1,
+    "first_seen": "2026-07-18"
+  },
+  "W-30-13": {
+    "topic": "AI 硬件法律战升级",
+    "signal": "🔴强",
+    "desc": "Apple 向40名OpenAI前员工发律师函(从告公司到告个人)",
+    "days": 1,
+    "first_seen": "2026-07-18"
   }
 }
