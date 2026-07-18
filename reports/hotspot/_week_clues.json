@@ -1,15 +1,49 @@
 {
   "week": 29,
   "clues": [
-    {"id": "W-29-01", "topic": "OPC 一人公司浪潮", "signal": "strong", "days": 1, "updated": "2026-07-16 08:00"},
-    {"id": "W-29-02", "topic": "GPT-5.6 Sol vs Fable 5 性价比之争", "signal": "strong", "days": 1, "updated": "2026-07-16 08:00"},
-    {"id": "W-29-03", "topic": "AI Agent 安全边界", "signal": "medium", "days": 1, "updated": "2026-07-16 08:00"},
-    {"id": "W-29-04", "topic": "开放权重模型崛起", "signal": "medium", "days": 1, "updated": "2026-07-16 08:00"},
-    {"id": "W-29-05", "topic": "AI 安全自动化", "signal": "strong", "days": 1, "updated": "2026-07-16 08:00"},
-    {"id": "W-29-06", "topic": "端侧 AI 能力跃升", "signal": "medium", "days": 1, "updated": "2026-07-16 08:00"},
-    {"id": "W-29-07", "topic": "AI 视频生成赛道", "signal": "weak", "days": 1, "updated": "2026-07-16 08:00"},
-    {"id": "W-29-08", "topic": "AI 编程工具生态竞争", "signal": "medium", "days": 1, "updated": "2026-07-16 08:00"}
+    {
+      "id": "apple_vs_openai",
+      "text": "Apple 起诉 OpenAI：平台战争升级",
+      "date": "2026-07-17",
+      "status": "active"
+    },
+    {
+      "id": "kimi_k3_release",
+      "text": "Kimi K3 2.8T 开源模型登顶编码榜",
+      "date": "2026-07-17",
+      "status": "active"
+    },
+    {
+      "id": "sora_2_clone",
+      "text": "Sora 2 视频克隆效果惊人",
+      "date": "2026-07-17",
+      "status": "active"
+    },
+    {
+      "id": "opc_waic",
+      "text": "WAIC 首次 OPC 专项赛事，600+项目参赛",
+      "date": "2026-07-17",
+      "status": "active"
+    },
+    {
+      "id": "waic_2026",
+      "text": "世界人工智能合作组织总部设上海",
+      "date": "2026-07-16",
+      "status": "active"
+    },
+    {
+      "id": "ai_agent_security",
+      "text": "54% 企业遭遇 AI 智能体安全事件",
+      "date": "2026-07-16",
+      "status": "active"
+    },
+    {
+      "id": "fable5_cursorbench",
+      "text": "Claude Fable 5 CursorBench 72.9% 新高",
+      "date": "2026-07-17",
+      "status": "active"
+    }
   ],
-  "updated": "2026-07-16 08:00 CST",
+  "updated": "2026-07-18 14:46:26",
   "archived_weeks": {}
 }
