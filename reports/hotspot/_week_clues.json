@@ -1,34 +1,34 @@
 {
-  "week": 29,
+  "week": 30,
   "clues": [
     {
+      "id": "gpt56_sol_math",
+      "text": "GPT-5.6 Sol 用 prompt 解决凸优化 30 年难题",
+      "date": "2026-07-19",
+      "status": "active"
+    },
+    {
+      "id": "fable5_permanent_split",
+      "text": "Claude Fable 5 永久拆分：Max 保留/Pro 转 API 计费（7/20 生效）",
+      "date": "2026-07-18",
+      "status": "active"
+    },
+    {
+      "id": "opc_yunnan_policy",
+      "text": "云南出台全国首个省级 OPC 专项扶持政策，个人最高 1000 万贷款",
+      "date": "2026-07-19",
+      "status": "active"
+    },
+    {
+      "id": "us_solo_founder_63pct",
+      "text": "美国 63% 新 C-corp 为单创始人，29.8M 独立创业者 $1.7T 收入",
+      "date": "2026-07-18",
+      "status": "active"
+    },
+    {
       "id": "apple_vs_openai",
-      "text": "Apple 起诉 OpenAI：平台战争升级",
+      "text": "Apple 起诉 OpenAI：平台战争升级，涉及 400+ 前员工",
       "date": "2026-07-17",
-      "status": "active"
-    },
-    {
-      "id": "kimi_k3_release",
-      "text": "Kimi K3 2.8T 开源模型登顶编码榜",
-      "date": "2026-07-17",
-      "status": "active"
-    },
-    {
-      "id": "sora_2_clone",
-      "text": "Sora 2 视频克隆效果惊人",
-      "date": "2026-07-17",
-      "status": "active"
-    },
-    {
-      "id": "opc_waic",
-      "text": "WAIC 首次 OPC 专项赛事，600+项目参赛",
-      "date": "2026-07-17",
-      "status": "active"
-    },
-    {
-      "id": "waic_2026",
-      "text": "世界人工智能合作组织总部设上海",
-      "date": "2026-07-16",
       "status": "active"
     },
     {
@@ -38,12 +38,41 @@
       "status": "active"
     },
     {
-      "id": "fable5_cursorbench",
-      "text": "Claude Fable 5 CursorBench 72.9% 新高",
+      "id": "fable5_vs_sol_nphard",
+      "text": "Fable 5 vs GPT-5.6 Sol NP-Hard 对比测试",
+      "date": "2026-07-18",
+      "status": "active"
+    },
+    {
+      "id": "sonnet5_launch",
+      "text": "Claude Sonnet 5 发布",
       "date": "2026-07-17",
       "status": "active"
+    },
+    {
+      "id": "ai_decision_degradation",
+      "text": "AI 热潮正在瓦解全球决策机制",
+      "date": "2026-07-19",
+      "status": "active"
+    },
+    {
+      "id": "kimi_k3_release",
+      "text": "Kimi K3 登顶前端编码榜，开放权重挑战双巨头",
+      "date": "2026-07-17",
+      "status": "archived"
+    },
+    {
+      "id": "waic_2026",
+      "text": "世界人工智能合作组织总部设上海 + WAIC 2026 OPC 赛事",
+      "date": "2026-07-16",
+      "status": "archived"
     }
   ],
-  "updated": "2026-07-18 14:46:26",
-  "archived_weeks": {}
+  "updated": "2026-07-19 14:15:00",
+  "archived_weeks": {
+    "29": [
+      "kimi_k3_release",
+      "waic_2026"
+    ]
+  }
 }
