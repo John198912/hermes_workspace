@@ -3,7 +3,7 @@
     "topic": "AI Agent 安全",
     "signal": "🔴强",
     "desc": "54%企业遭遇安全事件 + xAI起诉Grok用户 + 50%部署后翻车",
-    "days": 8,
+    "days": 9,
     "first_seen": "2026-07-11"
   },
   "W-28-02": {
@@ -17,7 +17,7 @@
     "topic": "自主 AI 智能体",
     "signal": "🔴强",
     "desc": "Grok Automations定时自动化 + Claude Fable 5进入Cowork",
-    "days": 7,
+    "days": 9,
     "first_seen": "2026-07-11"
   },
   "W-28-04": {
@@ -30,8 +30,8 @@
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "Kimi K3 前端登顶 + Schema 99% + AWS $17亿",
-    "days": 8,
+    "desc": "GPT-5.6 数学突破 + Fable 5 第三次免费",
+    "days": 9,
     "first_seen": "2026-07-11"
   },
   "W-28-06": {
@@ -80,7 +80,7 @@
     "topic": "AI 工具成本透明化",
     "signal": "🔴强",
     "desc": "AWS $17亿从517分飙升至1209分(本周HN最热)",
-    "days": 5,
+    "days": 6,
     "first_seen": "2026-07-14"
   },
   "W-29-06": {
@@ -192,14 +192,35 @@
     "topic": "AI 财富再分配",
     "signal": "🟡中",
     "desc": "Index Ventures呼吁再分配 + 加州5%财富税",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-18"
   },
   "W-30-15": {
     "topic": "AI 全球治理中国主导",
     "signal": "🔴强",
     "desc": "WAIC 2026上海开幕 + 习近平出席 + 29国签署",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-18"
+  },
+  "W-30-16": {
+    "topic": "AI 项目失败潮",
+    "signal": "🔴强",
+    "desc": "0%成功率 + 全球决策机制瓦解",
+    "days": 1,
+    "first_seen": "2026-07-19"
+  },
+  "W-30-17": {
+    "topic": "AI 内容监管",
+    "signal": "🟡中",
+    "desc": "纽约市长禁止AI图片做广告",
+    "days": 1,
+    "first_seen": "2026-07-19"
+  },
+  "W-30-18": {
+    "topic": "本地语音 AI",
+    "signal": "🟡中",
+    "desc": "Moonshine <500KB + transcribe.cpp 60+模型",
+    "days": 1,
+    "first_seen": "2026-07-19"
   }
 }
