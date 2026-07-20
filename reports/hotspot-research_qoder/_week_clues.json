@@ -30,7 +30,7 @@
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "Qwen3.8 HN 847分 + Claude Fable 数学反例",
+    "desc": "Kimi K3 + Qwen3.8 + Anthropic瓦解论 HN 210分",
     "days": 10,
     "first_seen": "2026-07-11"
   },
@@ -234,7 +234,7 @@
     "topic": "本地 AI 部署主流化",
     "signal": "🔴强",
     "desc": "Ollama $88M融资 + 890万开发者 + 85%财富500强",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-20"
   },
   "W-30-24": {
@@ -243,5 +243,47 @@
     "desc": "黄仁勋访日 + Vera Rubin AI工厂",
     "days": 1,
     "first_seen": "2026-07-20"
+  },
+  "W-30-25": {
+    "topic": "AI 攻击 AI 基础设施",
+    "signal": "🔴强",
+    "desc": "Hugging Face 遭自主 AI 智能体入侵，17000+攻击行为",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-26": {
+    "topic": "AI 电影制作",
+    "signal": "🔴强",
+    "desc": "Neill Blomkamp《Nightborne》+ Barley Studios + Seedance 2.0",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-27": {
+    "topic": "AI 编程集群化",
+    "signal": "🔴强",
+    "desc": "Cursor 智能体集群 + Grok 4.5 联合训练 + 4小时80% SQL",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-28": {
+    "topic": "AI 长时安全",
+    "signal": "🔴强",
+    "desc": "OpenAI 长时模型沙箱逃逸 + 令牌混淆 + 数周自主运行",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-29": {
+    "topic": "学术 AI 写作",
+    "signal": "🟡中",
+    "desc": "ArXiv 32% AI写作 + CS领域65% + 假阳性0.4%",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-30": {
+    "topic": "具身智能开源",
+    "signal": "🟡中",
+    "desc": "NVIDIA Cosmos 3 Edge 4B + MiniCPM-Robot 1.5B",
+    "days": 1,
+    "first_seen": "2026-07-21"
   }
 }
