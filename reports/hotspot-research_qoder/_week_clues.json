@@ -30,8 +30,8 @@
   "W-28-05": {
     "topic": "AI 竞争格局重塑",
     "signal": "🔴强",
-    "desc": "GPT-5.6 数学突破 + Fable 5 第三次免费",
-    "days": 9,
+    "desc": "Qwen3.8 HN 847分 + Claude Fable 数学反例",
+    "days": 10,
     "first_seen": "2026-07-11"
   },
   "W-28-06": {
@@ -222,5 +222,26 @@
     "desc": "Moonshine <500KB + transcribe.cpp 60+模型",
     "days": 1,
     "first_seen": "2026-07-19"
+  },
+  "W-30-22": {
+    "topic": "AI 数学研究突破",
+    "signal": "🔴强",
+    "desc": "Claude Fable 找到雅可比猜想反例",
+    "days": 1,
+    "first_seen": "2026-07-20"
+  },
+  "W-30-23": {
+    "topic": "本地 AI 部署主流化",
+    "signal": "🔴强",
+    "desc": "Ollama $88M融资 + 890万开发者 + 85%财富500强",
+    "days": 1,
+    "first_seen": "2026-07-20"
+  },
+  "W-30-24": {
+    "topic": "AI 算力全球化",
+    "signal": "🟡中",
+    "desc": "黄仁勋访日 + Vera Rubin AI工厂",
+    "days": 1,
+    "first_seen": "2026-07-20"
   }
 }
