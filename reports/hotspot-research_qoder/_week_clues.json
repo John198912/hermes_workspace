@@ -261,7 +261,7 @@
   "W-30-27": {
     "topic": "AI 编程集群化",
     "signal": "🔴强",
-    "desc": "Cursor 智能体集群 + Grok 4.5 联合训练 + 4小时80% SQL",
+    "desc": "Cursor 智能体集群 HN 186分（AM 33→PM 186）",
     "days": 1,
     "first_seen": "2026-07-21"
   },
@@ -283,6 +283,41 @@
     "topic": "具身智能开源",
     "signal": "🟡中",
     "desc": "NVIDIA Cosmos 3 Edge 4B + MiniCPM-Robot 1.5B",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-31": {
+    "topic": "AI 隐性债务",
+    "signal": "🔴强",
+    "desc": "五家巨头 $1.65万亿，4年8倍，Meta $4200亿",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-32": {
+    "topic": "Kimi Work 平台",
+    "signal": "🔴强",
+    "desc": "中国 AI 工作平台，HN 530分，对标 ChatGPT Work",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-33": {
+    "topic": "AI 版权合规",
+    "signal": "🔴强",
+    "desc": "Anthropic $15亿和解，700万本书，91%已领取",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-34": {
+    "topic": "AI 数学反例",
+    "signal": "🟡中",
+    "desc": "人类数学家被反例，HN 329分（AM 29→PM 329）",
+    "days": 1,
+    "first_seen": "2026-07-21"
+  },
+  "W-30-35": {
+    "topic": "本地 AI 部署",
+    "signal": "🟡中",
+    "desc": "Nativ Mac本地运行 HN 268分 + Ollama $88M",
     "days": 1,
     "first_seen": "2026-07-21"
   }
