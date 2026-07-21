@@ -290,21 +290,21 @@
     "topic": "AI 隐性债务",
     "signal": "🔴强",
     "desc": "五家巨头 $1.65万亿，4年8倍，Meta $4200亿",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-21"
   },
   "W-30-32": {
     "topic": "Kimi Work 平台",
     "signal": "🔴强",
     "desc": "中国 AI 工作平台，HN 530分，对标 ChatGPT Work",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-21"
   },
   "W-30-33": {
     "topic": "AI 版权合规",
     "signal": "🔴强",
-    "desc": "Anthropic $15亿和解，700万本书，91%已领取",
-    "days": 1,
+    "desc": "Anthropic $15亿和解获批，仅350人退出",
+    "days": 2,
     "first_seen": "2026-07-21"
   },
   "W-30-34": {
@@ -320,5 +320,47 @@
     "desc": "Nativ Mac本地运行 HN 268分 + Ollama $88M",
     "days": 1,
     "first_seen": "2026-07-21"
+  },
+  "W-30-36": {
+    "topic": "美国制裁中国 AI 模型",
+    "signal": "🔴强",
+    "desc": "财政部长 Bessent 威胁制裁，IP 盗窃指控",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-37": {
+    "topic": "AI 数学巅峰",
+    "signal": "🔴强",
+    "desc": "小红书 dots IMO 2026 满分金牌 42/42",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-38": {
+    "topic": "Google Flash 系列",
+    "signal": "🔴强",
+    "desc": "Gemini 3.6 Flash + 3.5 Flash-Lite + Cyber，token -17%",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-39": {
+    "topic": "Qwen-Image-3.0",
+    "signal": "🔴强",
+    "desc": "HN 477分，图像生成实用化，9图网格+12语言",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-40": {
+    "topic": "AI 编程主力化",
+    "signal": "🟡中",
+    "desc": "Claude Tag 65% PR / Anthropic 80% AI代码",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-41": {
+    "topic": "AI 原生开发安全",
+    "signal": "🟡中",
+    "desc": "Anthropic 8倍交付 / 安全左移 / 80% AI代码",
+    "days": 1,
+    "first_seen": "2026-07-22"
   }
 }
