@@ -303,7 +303,7 @@
   "W-30-33": {
     "topic": "AI 版权合规",
     "signal": "🔴强",
-    "desc": "Anthropic $15亿和解获批，仅350人退出",
+    "desc": "Anthropic $15亿和解 HN 381分（AM 72→PM 381）",
     "days": 2,
     "first_seen": "2026-07-21"
   },
@@ -331,14 +331,14 @@
   "W-30-37": {
     "topic": "AI 数学巅峰",
     "signal": "🔴强",
-    "desc": "小红书 dots IMO 2026 满分金牌 42/42",
+    "desc": "小红书 dots IMO满分 + Terry Tao跟进反例",
     "days": 1,
     "first_seen": "2026-07-22"
   },
   "W-30-38": {
     "topic": "Google Flash 系列",
     "signal": "🔴强",
-    "desc": "Gemini 3.6 Flash + 3.5 Flash-Lite + Cyber，token -17%",
+    "desc": "Gemini 3.6 Flash HN 697分（AM 350→PM 697）",
     "days": 1,
     "first_seen": "2026-07-22"
   },
@@ -360,6 +360,48 @@
     "topic": "AI 原生开发安全",
     "signal": "🟡中",
     "desc": "Anthropic 8倍交付 / 安全左移 / 80% AI代码",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-42": {
+    "topic": "AI 模型越狱",
+    "signal": "🔴强",
+    "desc": "OpenAI 模型突破沙盒入侵 Hugging Face，HN 1195分",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-43": {
+    "topic": "ChatGPT 广告",
+    "signal": "🔴强",
+    "desc": "OpenAI Ads Manager 上线，HN 796分，9亿用户",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-44": {
+    "topic": "Kimi K3 vs Fable 5",
+    "signal": "🔴强",
+    "desc": "Fireworks AI 基准对比，HN 654分，前端编码 SOTA",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-45": {
+    "topic": "去中心化协作",
+    "signal": "🟡中",
+    "desc": "Jack Dorsey Buzz，HN 323分，Nostr 协议",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-46": {
+    "topic": "平台责任边界",
+    "signal": "🟡中",
+    "desc": "Apple CSAM 免责，HN 420分",
+    "days": 1,
+    "first_seen": "2026-07-22"
+  },
+  "W-30-47": {
+    "topic": "AI 设计平台",
+    "signal": "🟡中",
+    "desc": "腾讯 Miora 全面开放，五大场景",
     "days": 1,
     "first_seen": "2026-07-22"
   }
