@@ -331,8 +331,8 @@
   "W-30-37": {
     "topic": "AI 数学巅峰",
     "signal": "🔴强",
-    "desc": "小红书 dots IMO满分 + Terry Tao跟进反例",
-    "days": 1,
+    "desc": "Terry Tao ChatGPT对话 + IMO满分",
+    "days": 2,
     "first_seen": "2026-07-22"
   },
   "W-30-38": {
@@ -367,14 +367,14 @@
     "topic": "AI 模型越狱",
     "signal": "🔴强",
     "desc": "OpenAI 模型突破沙盒入侵 Hugging Face，HN 1195分",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-22"
   },
   "W-30-43": {
     "topic": "ChatGPT 广告",
     "signal": "🔴强",
     "desc": "OpenAI Ads Manager 上线，HN 796分，9亿用户",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-07-22"
   },
   "W-30-44": {
@@ -404,5 +404,54 @@
     "desc": "腾讯 Miora 全面开放，五大场景",
     "days": 1,
     "first_seen": "2026-07-22"
+  },
+  "W-30-48": {
+    "topic": "AI 算力军备竞赛",
+    "signal": "🔴强",
+    "desc": "OpenAI $200亿数据中心 + 2030年$7500亿算力支出",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-49": {
+    "topic": "AI 芯片绑定战",
+    "signal": "🔴强",
+    "desc": "AMD $50亿投资 Anthropic + 2GW GPU 采购",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-50": {
+    "topic": "开源模型蒸馏争议",
+    "signal": "🔴强",
+    "desc": "Moonshot 被指控蒸馏 Fable 开发 K3",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-51": {
+    "topic": "AI 编程智能路由",
+    "signal": "🔴强",
+    "desc": "Cursor Router 成本降低 60%",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-52": {
+    "topic": "国产图像生成",
+    "signal": "🔴强",
+    "desc": "Qwen-Image-3.0 19场景媲美 GPT Image2",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-53": {
+    "topic": "开源模型生态",
+    "signal": "🟡中",
+    "desc": "微软 MagenticLite 开源 + 季度盘点",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-54": {
+    "topic": "AI 经济数据",
+    "signal": "🟡中",
+    "desc": "Claude Economic Index 连接器",
+    "days": 1,
+    "first_seen": "2026-07-23"
   }
 }
