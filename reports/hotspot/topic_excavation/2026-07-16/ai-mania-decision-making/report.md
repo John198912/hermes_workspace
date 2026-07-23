@@ -118,13 +118,19 @@
 
 ### 图片素材方案
 
+> ⚠️ **图片生成服务状态**：2026-07-16 执行时 ImageGen 服务返回 40500 错误（连续 4 次），以下 prompt 已优化备用，待服务恢复后可直接生成。图片仅存储在本地 `images/` 目录，不上传 Git。
+
 | 类型 | 内容 | 来源/链接 | 授权类型 |
-|------|------|----------|---------|
-| 1. 文章内可用配图 | 原始博客 hermit-tech.com 截图 | hermit-tech.com | Fair Use（注明作者） |
-| 1. 文章内可用配图 | Mitchell Hashimoto X 帖截图 | x.com/mitchellh | Fair Use |
-| 3. AI 绘图 prompt 1 | "A corporate office with everyone glued to their screens with glowing AI text, dystopian lighting, editorial illustration" | N/A | 无版权问题 |
-| 3. AI 绘图 prompt 2 | "A scale weighing 95% failure rate against 5% success rate, infographic style, red and green color contrast" | N/A | 无版权问题 |
-| 3. AI 绘图 prompt 3 | "An office building with one sign saying 'AI Monday' and staff running around frantically, satirical editorial style" | N/A | 无版权问题 |
+|------|------|----------|----------|
+| 1. 文章内可用配图 | 原始博客 hermit-tech.com 全文截图（Nikhil Suresh 署名页） | hermit-tech.com | Fair Use（注明作者） |
+| 1. 文章内可用配图 | Mitchell Hashimoto X 帖截图（"AI psychosis" 原推） | x.com/mitchellh/status/2055380239711457578 | Fair Use |
+| 1. 文章内可用配图 | Fortune 报道 Eric Vaughan "AI Monday" + 80% 替换截图 | fortune.com | Fair Use |
+| 1. 文章内可用配图 | MIT NANDA 95% 失败率数据图表 | fortune.com / MIT | Fair Use |
+| 3. AI 绘图 prompt 1 | **"AI Psychosis 办公室"**：A corporate office with everyone glued to their screens with glowing AI text, dystopian lighting, editorial illustration style. Workers hunched over desks with screens showing "AI" in bright neon colors. Cold blue lighting and shadows. Some workers look exhausted, others manic. Background: large screen displays "AI MONDAY" in bold letters. Unsettling dystopian workplace mood. | N/A | 无版权问题 |
+| 3. AI 绘图 prompt 2 | **"95% vs 5% 天平"**：A dramatic scale weighing 95% failure rate against 5% success rate, infographic style with red and green color contrast. Left side heavily weighted down with red blocks labeled "95% FAIL", right side barely lifts with tiny green block labeled "5% SUCCESS". Dark corporate office background with charts. Clean modern editorial illustration with bold typography. | N/A | 无版权问题 |
+| 3. AI 绘图 prompt 3 | **"AI Monday 讽刺画"**：An office building with one large sign saying "AI MONDAY" and staff running around frantically in satirical editorial style. Modern glass corporate tower. Employees rushing between desks with papers flying, some confused, others panicked. Manager standing on desk shouting through megaphone. Satirical exaggerated political cartoon style. Bright but chaotic color palette. "AI MONDAY" sign glowing ominously. Darkly humorous tone critiquing corporate AI obsession. | N/A | 无版权问题 |
+| 3. AI 绘图 prompt 4 | **"皇帝的新衣·AI 版"**：A corporate boardroom where executives are applauding an empty podium labeled "AI STRATEGY", while a single employee in the back looks confused. The executives are dressed in expensive suits but their eyes are glazed over. A banner reads "100x PRODUCTIVITY". Editorial cartoon style with muted corporate colors. | N/A | 无版权问题 |
+| 3. AI 绘图 prompt 5 | **"三菱 6 个月沉默"**：A phone sitting on a desk with a missed call notification showing "6 MONTHS AGO", surrounded by cobwebs. The phone screen shows a polite AI chatbot message: "We'll call you back as soon as someone is available." The background is a Mitsubishi dealership. Melancholic, quiet atmosphere. Editorial illustration style. | N/A | 无版权问题 |
 
 ---
 
