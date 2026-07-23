@@ -453,5 +453,54 @@
     "desc": "Claude Economic Index 连接器",
     "days": 1,
     "first_seen": "2026-07-23"
+  },
+  "W-30-55": {
+    "topic": "陶哲轩 AI 研究",
+    "signal": "🔴强",
+    "desc": "菲尔兹奖得主公开 ChatGPT 对话 HN 1028 分",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-56": {
+    "topic": "AI 内容质量",
+    "signal": "🔴强",
+    "desc": "优质书籍 vs AI slop HN 463 分",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-57": {
+    "topic": "AI 隐藏债务",
+    "signal": "🔴强",
+    "desc": "$1.65 万亿 off-balance-sheet 债务",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-58": {
+    "topic": "Apple vs OpenAI",
+    "signal": "🔴强",
+    "desc": "硬件机密盗窃指控，后智能手机时代定义权",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-59": {
+    "topic": "Google vs ChatGPT",
+    "signal": "🔴强",
+    "desc": "Gemini 9.5 亿用户 + 27.7% 市场份额",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-60": {
+    "topic": "Qwen-TTS 登顶",
+    "signal": "🟡中",
+    "desc": "通义千问 Audio-3.0-TTS 全球第一",
+    "days": 1,
+    "first_seen": "2026-07-23"
+  },
+  "W-30-61": {
+    "topic": "北京智能体新政",
+    "signal": "🟡中",
+    "desc": "OPC/Harness Engineering 写入政策",
+    "days": 1,
+    "first_seen": "2026-07-23"
   }
 }
