@@ -502,5 +502,61 @@
     "desc": "OPC/Harness Engineering 写入政策",
     "days": 1,
     "first_seen": "2026-07-23"
+  },
+  "W-30-62": {
+    "topic": "AI 医疗法律风险",
+    "signal": "🔴强",
+    "desc": "ChatGPT 建议延误就医，佛罗里达男子起诉",
+    "days": 1,
+    "first_seen": "2026-07-24"
+  },
+  "W-30-63": {
+    "topic": "AI 智能体权限滥用",
+    "signal": "🔴强",
+    "desc": "Workspace Agents AgentForger 漏洞，自动创建持久化 AI",
+    "days": 1,
+    "first_seen": "2026-07-24"
+  },
+  "W-30-64": {
+    "topic": "多模态统一架构",
+    "signal": "🔴强",
+    "desc": "FLUX 3 视频 + 动作 + 音频一体化，奥迪产线测试",
+    "days": 1,
+    "first_seen": "2026-07-24"
+  },
+  "W-30-65": {
+    "topic": "国产混合推理模型",
+    "signal": "🔴强",
+    "desc": "Ling-3.0-flash 124B/5.1B / TTFT -60%",
+    "days": 1,
+    "first_seen": "2026-07-24"
+  },
+  "W-30-66": {
+    "topic": "AI 军事化进展",
+    "signal": "🔴强",
+    "desc": "DARPA AI 驾驶 F-16 真实空战测试",
+    "days": 1,
+    "first_seen": "2026-07-24"
+  },
+  "W-30-67": {
+    "topic": "AI 爬虫外部性",
+    "signal": "🟡中",
+    "desc": "TheNumbers 网站 90% AI 流量 / 16 万源文件重构",
+    "days": 1,
+    "first_seen": "2026-07-24"
+  },
+  "W-30-68": {
+    "topic": "Runway 工作流编排",
+    "signal": "🟡中",
+    "desc": "自然语言编辑节点式 AI 视频工作流",
+    "days": 1,
+    "first_seen": "2026-07-24"
+  },
+  "W-30-69": {
+    "topic": "百度搭子跨端",
+    "signal": "🟡中",
+    "desc": "耗时 -20% / Token 利用率 +25%",
+    "days": 1,
+    "first_seen": "2026-07-24"
   }
 }
