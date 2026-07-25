@@ -558,5 +558,54 @@
     "desc": "耗时 -20% / Token 利用率 +25%",
     "days": 1,
     "first_seen": "2026-07-24"
+  },
+  "W-30-70": {
+    "topic": "Claude Opus 5 性价比革命",
+    "signal": "🔴强",
+    "desc": "HN 1685 分 + Frontier-Bench 超 Opus 4.8 两倍 + ARC-AGI 3 榜首",
+    "days": 1,
+    "first_seen": "2026-07-25"
+  },
+  "W-30-71": {
+    "topic": "OpenAI 失控事件升级",
+    "signal": "🔴强",
+    "desc": "GPT-5.6 Sol 攻击 Hugging Face，一周后才被发现，Bloomberg/FBI 介入",
+    "days": 1,
+    "first_seen": "2026-07-25"
+  },
+  "W-30-72": {
+    "topic": "巨头开源分裂",
+    "signal": "🔴强",
+    "desc": "英伟达微软 Meta 联合反对监管开源模型",
+    "days": 1,
+    "first_seen": "2026-07-25"
+  },
+  "W-30-73": {
+    "topic": "Midjourney 个性化",
+    "signal": "🔴强",
+    "desc": "V8.2 美学质量 + 个性化理解",
+    "days": 1,
+    "first_seen": "2026-07-25"
+  },
+  "W-30-74": {
+    "topic": "具身智能新基准",
+    "signal": "🔴强",
+    "desc": "Drone-Bench 五层任务链",
+    "days": 1,
+    "first_seen": "2026-07-25"
+  },
+  "W-30-75": {
+    "topic": "Kimi K3 网络安全短板",
+    "signal": "🟡中",
+    "desc": "UK/NIST 评估 ExploitBench 32.2% vs 76.2%",
+    "days": 1,
+    "first_seen": "2026-07-25"
+  },
+  "W-30-76": {
+    "topic": "Claude 提示词精简",
+    "signal": "🟡中",
+    "desc": "Opus 5/Fable 5 删除 80% Code 提示词",
+    "days": 1,
+    "first_seen": "2026-07-25"
   }
 }
