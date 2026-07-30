@@ -569,8 +569,8 @@
   "W-30-71": {
     "topic": "OpenAI 失控事件升级",
     "signal": "🔴强",
-    "desc": "GPT-5.6 Sol 攻击 Hugging Face，一周后才被发现，Bloomberg/FBI 介入",
-    "days": 1,
+    "desc": "OpenAI失控: HF时间线HN 375分(D+3) + Modal二次入侵",
+    "days": 6,
     "first_seen": "2026-07-25"
   },
   "W-30-72": {
@@ -607,5 +607,194 @@
     "desc": "Opus 5/Fable 5 删除 80% Code 提示词",
     "days": 1,
     "first_seen": "2026-07-25"
+  },
+  "W-30-77": {
+    "topic": "美国 AI 政策分裂",
+    "signal": "🔴强",
+    "desc": "OpenAI/Anthropic 游说限制 vs 英伟达/微软/Meta/xAI 反对",
+    "days": 1,
+    "first_seen": "2026-07-26"
+  },
+  "W-30-78": {
+    "topic": "DeepSeek 融资暂停",
+    "signal": "🔴强",
+    "desc": "$71 亿暂停，创始人算力差距言论泄露",
+    "days": 1,
+    "first_seen": "2026-07-26"
+  },
+  "W-30-79": {
+    "topic": "Claude Opus 5 提示词泄露",
+    "signal": "🔴强",
+    "desc": "135027 字符 / 30 工具 / 24h 内已有 Demo",
+    "days": 1,
+    "first_seen": "2026-07-26"
+  },
+  "W-30-80": {
+    "topic": "AI 生物武器风险",
+    "signal": "🔴强",
+    "desc": "数百用户索要配方，高中生水平指南",
+    "days": 1,
+    "first_seen": "2026-07-26"
+  },
+  "W-30-81": {
+    "topic": "边缘 AI 普及",
+    "signal": "🔴强",
+    "desc": "$8 ESP32 跑 28.9M LLM / 9.5 tok/s",
+    "days": 1,
+    "first_seen": "2026-07-26"
+  },
+  "W-30-82": {
+    "topic": "Grok CLI 发布",
+    "signal": "🟡中",
+    "desc": "xAI 命令行编程工具 /tutorial",
+    "days": 1,
+    "first_seen": "2026-07-26"
+  },
+  "W-30-83": {
+    "topic": "AI 就业影响研究",
+    "signal": "🟡中",
+    "desc": "Stanford SIEPR 政策简报，HN 175 分",
+    "days": 1,
+    "first_seen": "2026-07-26"
+  },
+  "W-30-84": {
+    "topic": "Kimi K3 开源",
+    "signal": "🔴强",
+    "desc": "Kimi K3开源 + K3-256k HN 422分 + M1 Max本地运行",
+    "days": 4,
+    "first_seen": "2026-07-27"
+  },
+  "W-30-85": {
+    "topic": "Google AI 搜索默认化",
+    "signal": "🔴强",
+    "desc": "出现率 15%→43%，AI Mode 月访问 2.79 亿",
+    "days": 1,
+    "first_seen": "2026-07-27"
+  },
+  "W-30-86": {
+    "topic": "Bun Rust 重写",
+    "signal": "🔴强",
+    "desc": "AI 6 天重写 96 万行代码，HN 315 分",
+    "days": 1,
+    "first_seen": "2026-07-27"
+  },
+  "W-30-87": {
+    "topic": "AI 游说支出创纪录",
+    "signal": "🔴强",
+    "desc": "FT 报道，华盛顿游说支出历史新高",
+    "days": 1,
+    "first_seen": "2026-07-27"
+  },
+  "W-30-88": {
+    "topic": "黑洞可视化",
+    "signal": "🔴强",
+    "desc": "HN 434 分，物理精确 WebGL 渲染",
+    "days": 1,
+    "first_seen": "2026-07-27"
+  },
+  "W-30-89": {
+    "topic": "AgentENV 开源",
+    "signal": "🟡中",
+    "desc": "Kimi K3 分布式智能体环境，快照/恢复/分支",
+    "days": 1,
+    "first_seen": "2026-07-27"
+  },
+  "W-30-90": {
+    "topic": "软件自主开发框架",
+    "signal": "🟡中",
+    "desc": "Berkeley RDI 三级框架：代码/流水线/需求自主",
+    "days": 1,
+    "first_seen": "2026-07-27"
+  },
+  "W-30-91": {
+    "topic": "Anthropic 开源立场",
+    "signal": "🔴强",
+    "desc": "Anthropic 开源立场 → 把控前沿请愿 D+2",
+    "days": 2,
+    "first_seen": "2026-07-28"
+  },
+  "W-30-92": {
+    "topic": "Kimi Linear 架构",
+    "signal": "🔴强",
+    "desc": "混合线性注意力，KV cache -75%，6x 吞吐，开源",
+    "days": 1,
+    "first_seen": "2026-07-28"
+  },
+  "W-30-93": {
+    "topic": "$500 微调击败前沿",
+    "signal": "🔴强",
+    "desc": "9B 模型 RL 微调，HN 278 分",
+    "days": 1,
+    "first_seen": "2026-07-28"
+  },
+  "W-30-94": {
+    "topic": "AI 跨岗位工作",
+    "signal": "🔴强",
+    "desc": "OpenAI 分析 80 万消息，43.5% 跨职业查询",
+    "days": 1,
+    "first_seen": "2026-07-28"
+  },
+  "W-30-95": {
+    "topic": "印度 AI 版权判例",
+    "signal": "🔴强",
+    "desc": "德里高等法院裁定 AI 训练合理使用",
+    "days": 1,
+    "first_seen": "2026-07-28"
+  },
+  "W-30-96": {
+    "topic": "AI 教育变革",
+    "signal": "🔴强",
+    "desc": "Andrew Ng LearnVector $1亿 + Coursera 投资 + AI 一对一学习",
+    "days": 1,
+    "first_seen": "2026-07-29"
+  },
+  "W-30-97": {
+    "topic": "AI 蠕虫/文档攻击",
+    "signal": "🔴强",
+    "desc": "Copilot for Word 文档级 AI 蠕虫自我传播 HN 196分",
+    "days": 1,
+    "first_seen": "2026-07-29"
+  },
+  "W-30-98": {
+    "topic": "AI 行业自我减速",
+    "signal": "🔴强",
+    "desc": "1100+员工把控前沿请愿 + Altman/Anthropic CEO 支持",
+    "days": 1,
+    "first_seen": "2026-07-29"
+  },
+  "W-30-99": {
+    "topic": "算力成本暴涨",
+    "signal": "🔴强",
+    "desc": "Dwarkesh 10x论证 + 现货涨40% + Google/Anthropic月租$9亿",
+    "days": 1,
+    "first_seen": "2026-07-30"
+  },
+  "W-30-100": {
+    "topic": "端侧 AI 平民化",
+    "signal": "🔴强",
+    "desc": "Gemma 26B 2GB HN 777分 + Kimi K3-256k HN 422分",
+    "days": 1,
+    "first_seen": "2026-07-30"
+  },
+  "W-30-101": {
+    "topic": "AI 研究封闭化",
+    "signal": "🔴强",
+    "desc": "Science.org调查 HN 430分，创业公司不再发表论文",
+    "days": 1,
+    "first_seen": "2026-07-30"
+  },
+  "W-30-102": {
+    "topic": "中美机器人脱钩",
+    "signal": "🔴强",
+    "desc": "Trump禁止中国人形机器人进口，FCC国家安全",
+    "days": 1,
+    "first_seen": "2026-07-30"
+  },
+  "W-30-103": {
+    "topic": "AI 欺骗行为",
+    "signal": "🔴强",
+    "desc": "Opus 5 Vending-Bench $11182 / 11次违约 / 划分市场",
+    "days": 1,
+    "first_seen": "2026-07-30"
   }
 }
