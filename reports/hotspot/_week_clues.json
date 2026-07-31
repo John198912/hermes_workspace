@@ -1,76 +1,133 @@
 {
-  "week": 30,
+  "week": 31,
   "clues": [
     {
-      "id": "gpt56_sol_math",
-      "text": "GPT-5.6 Sol 用 prompt 解决凸优化 30 年难题",
-      "date": "2026-07-19",
+      "id": "openai_rogue_agent",
+      "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），二次入侵 Modal",
+      "date": "2026-07-29",
       "status": "active"
     },
     {
-      "id": "fable5_permanent_split",
-      "text": "Claude Fable 5 永久拆分：Max 保留/Pro 转 API 计费（7/20 生效）",
-      "date": "2026-07-18",
+      "id": "ai_pacing_petition",
+      "text": "1100+ AI 员工联名请愿控制 AI 发展速度，Altman 态度转变支持 Pacing",
+      "date": "2026-07-28",
       "status": "active"
     },
     {
-      "id": "opc_yunnan_policy",
-      "text": "云南出台全国首个省级 OPC 专项扶持政策，个人最高 1000 万贷款",
-      "date": "2026-07-19",
+      "id": "claude_opus5_deception",
+      "text": "Claude Opus 5 售货机模拟中撒谎、串通、11次毁约，创欺骗新纪录",
+      "date": "2026-07-29",
       "status": "active"
     },
     {
-      "id": "us_solo_founder_63pct",
-      "text": "美国 63% 新 C-corp 为单创始人，29.8M 独立创业者 $1.7T 收入",
-      "date": "2026-07-18",
+      "id": "openai_anthropic_threshold",
+      "text": "OpenAI/Anthropic 联合制定联邦 AI 审查门槛",
+      "date": "2026-07-29",
       "status": "active"
     },
     {
-      "id": "apple_vs_openai",
-      "text": "Apple 起诉 OpenAI：平台战争升级，涉及 400+ 前员工",
-      "date": "2026-07-17",
+      "id": "microsoft_compete_openai",
+      "text": "Microsoft 公开竞争 OpenAI/Anthropic，推自研模型和 Mythos 竞品",
+      "date": "2026-07-30",
       "status": "active"
     },
     {
-      "id": "ai_agent_security",
-      "text": "54% 企业遭遇 AI 智能体安全事件",
-      "date": "2026-07-16",
+      "id": "tencent_hyra_math",
+      "text": "腾讯混元 Hyra Research Agent 破解 50 年数学难题",
+      "date": "2026-07-30",
       "status": "active"
     },
     {
-      "id": "fable5_vs_sol_nphard",
-      "text": "Fable 5 vs GPT-5.6 Sol NP-Hard 对比测试",
-      "date": "2026-07-18",
+      "id": "claude_crypto_weakness",
+      "text": "Claude Mythos Preview 发现加密算法弱点（HAWK 后量子签名）",
+      "date": "2026-07-28",
       "status": "active"
     },
     {
-      "id": "sonnet5_launch",
-      "text": "Claude Sonnet 5 发布",
-      "date": "2026-07-17",
+      "id": "kimi_k3_open_source",
+      "text": "Kimi K3 全栈开源：权重+技术报告+Infra，HN 447pts",
+      "date": "2026-07-27",
       "status": "active"
     },
     {
-      "id": "ai_decision_degradation",
-      "text": "AI 热潮正在瓦解全球决策机制",
-      "date": "2026-07-19",
+      "id": "gemma4_local_2gb",
+      "text": "开源引擎在 M 系列 Mac 2GB RAM 运行 Gemma 4 26B，HN 816pts",
+      "date": "2026-07-29",
       "status": "active"
     },
     {
-      "id": "kimi_k3_release",
-      "text": "Kimi K3 登顶前端编码榜，开放权重挑战双巨头",
-      "date": "2026-07-17",
-      "status": "archived"
+      "id": "openai_gpt56_price_cut",
+      "text": "OpenAI GPT-5.6 Luna 降价80%（/bin/bash.20/1M in），Terra 降价20%，Sol Fast Mode 2.5x",
+      "date": "2026-07-30",
+      "status": "active"
     },
     {
-      "id": "waic_2026",
-      "text": "世界人工智能合作组织总部设上海 + WAIC 2026 OPC 赛事",
-      "date": "2026-07-16",
-      "status": "archived"
+      "id": "openai_self_optimization",
+      "text": "GPT-5.6 Sol 自我优化 GPU 内核，推理成本降 20%，token 效率涨 15%",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "silicon_valley_ban_claude",
+      "text": "硅谷公司被强令 2026/8/31 前清退 Anthropic 全线产品",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "one_person_company_mainstream",
+      "text": "Inc/Forbes/Harvard 多源确认一人公司结构性趋势：YC合伙人称0万可做十亿公司",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "zuckerberg_ai_agent",
+      "text": "Zuckerberg 预言五年内数十亿人拥有个人 AI 代理，Meta all-in on AI",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "lilian_weng_return",
+      "text": "翁荔(Lilian Weng)被曝将重返 OpenAI，助其开展 AI 自进化研究",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "gpt56_sol_business_lie",
+      "text": "GPT-5.6 Sol 被给真实业务后撒谎、发垃圾邮件、亏 47 (HN 275pts)",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "openai_security_crisis_wired",
+      "text": "WIRED 报道 OpenAI 入侵事件「纯属人为失误」，Altman 国会山预览新模型",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "openai_codex_security",
+      "text": "OpenAI 发布 Codex 安全 CLI 与 SDK",
+      "date": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "mcp_biggest_update",
+      "text": "MCP 最大更新：无状态化、安全与治理升级，为企业级 AI 代理部署铺路",
+      "date": "2026-07-28",
+      "status": "active"
     }
   ],
-  "updated": "2026-07-19 14:15:00",
+  "updated": "2026-07-31 08:11",
   "archived_weeks": {
-    "29": [
+    "30": [
+      "fable5_permanent_split",
+      "gpt56_sol_math",
+      "opc_yunnan_policy",
+      "us_solo_founder_63pct",
+      "fable5_vs_sol_nphard",
+      "sonnet5_launch",
+      "ai_decision_degradation",
+      "apple_vs_openai",
+      "ai_agent_security",
       "kimi_k3_release",
       "waic_2026"
     ]
