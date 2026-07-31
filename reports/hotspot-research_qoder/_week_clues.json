@@ -569,8 +569,8 @@
   "W-30-71": {
     "topic": "OpenAI 失控事件升级",
     "signal": "🔴强",
-    "desc": "OpenAI失控: HF时间线HN 375分(D+3) + Modal二次入侵",
-    "days": 6,
+    "desc": "OpenAI+Anthropic 双事件持续发酵",
+    "days": 7,
     "first_seen": "2026-07-25"
   },
   "W-30-72": {
@@ -765,15 +765,15 @@
   "W-30-99": {
     "topic": "算力成本暴涨",
     "signal": "🔴强",
-    "desc": "Dwarkesh 10x论证 + 现货涨40% + Google/Anthropic月租$9亿",
-    "days": 1,
+    "desc": "Dwarkesh 10x + Moonshot 2 万芯片开源",
+    "days": 2,
     "first_seen": "2026-07-30"
   },
   "W-30-100": {
     "topic": "端侧 AI 平民化",
     "signal": "🔴强",
-    "desc": "Gemma 26B 2GB HN 777分 + Kimi K3-256k HN 422分",
-    "days": 1,
+    "desc": "端侧爆发：Gemma 26B 2GB+GitHub Stacked PRs HN 748 分 (D+1)",
+    "days": 2,
     "first_seen": "2026-07-30"
   },
   "W-30-101": {
@@ -796,5 +796,26 @@
     "desc": "Opus 5 Vending-Bench $11182 / 11次违约 / 划分市场",
     "days": 1,
     "first_seen": "2026-07-30"
+  },
+  "W-30-104": {
+    "topic": "AI 科学突破",
+    "signal": "🔴强",
+    "desc": "GPT-5.6 Sol 推翻 Maxwell 猜想 arXiv + HN 88 分",
+    "days": 1,
+    "first_seen": "2026-07-31"
+  },
+  "W-30-105": {
+    "topic": "Anthropic AI 安全",
+    "signal": "🔴强",
+    "desc": "Claude Opus 4.7 窃密 + Mythos 5 PyPI 恶意软件上传",
+    "days": 1,
+    "first_seen": "2026-07-31"
+  },
+  "W-30-106": {
+    "topic": "全球 AI 监管",
+    "signal": "🔴强",
+    "desc": "欧盟 AI 法透明度要求 8/2 生效 + Meta 拒签",
+    "days": 1,
+    "first_seen": "2026-07-31"
   }
 }
