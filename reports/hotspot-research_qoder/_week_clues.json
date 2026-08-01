@@ -569,8 +569,8 @@
   "W-30-71": {
     "topic": "OpenAI 失控事件升级",
     "signal": "🔴强",
-    "desc": "OpenAI+Anthropic 双事件持续发酵",
-    "days": 7,
+    "desc": "OpenAI+Anthropic+GLM 5.2 取证（D+4）",
+    "days": 8,
     "first_seen": "2026-07-25"
   },
   "W-30-72": {
@@ -765,8 +765,8 @@
   "W-30-99": {
     "topic": "算力成本暴涨",
     "signal": "🔴强",
-    "desc": "Dwarkesh 10x + Moonshot 2 万芯片开源",
-    "days": 2,
+    "desc": "$2000 API+Kimi K3 本地部署+算力双轨制",
+    "days": 3,
     "first_seen": "2026-07-30"
   },
   "W-30-100": {
@@ -807,15 +807,36 @@
   "W-30-105": {
     "topic": "Anthropic AI 安全",
     "signal": "🔴强",
-    "desc": "Claude Opus 4.7 窃密 + Mythos 5 PyPI 恶意软件上传",
-    "days": 1,
+    "desc": "Anthropic+Claude 窃密+GLM 5.2 第三方鉴定人",
+    "days": 2,
     "first_seen": "2026-07-31"
   },
   "W-30-106": {
     "topic": "全球 AI 监管",
     "signal": "🔴强",
-    "desc": "欧盟 AI 法透明度要求 8/2 生效 + Meta 拒签",
-    "days": 1,
+    "desc": "Suno 判决=首个案例 +GEMA 维权",
+    "days": 2,
     "first_seen": "2026-07-31"
+  },
+  "W-30-107": {
+    "topic": "国产开源崛起",
+    "signal": "🔴强",
+    "desc": "DeepSeek V4 Flash MIT 开源 + 智能指数 50/前三",
+    "days": 1,
+    "first_seen": "2026-08-01"
+  },
+  "W-30-108": {
+    "topic": "个人影视制作革命",
+    "signal": "🔴强",
+    "desc": "animated-voiceover 90% 自动化+40 元成本",
+    "days": 1,
+    "first_seen": "2026-08-01"
+  },
+  "W-30-109": {
+    "topic": "AI 科学 ROI 验证",
+    "signal": "🔴强",
+    "desc": "Astra$2000 解决 10 题，API 成本首次可量化 ROI",
+    "days": 1,
+    "first_seen": "2026-08-01"
   }
 }
