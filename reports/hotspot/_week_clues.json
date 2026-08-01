@@ -2,62 +2,14 @@
   "week": 31,
   "clues": [
     {
-      "id": "openai_rogue_agent",
-      "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），二次入侵 Modal",
-      "date": "2026-07-29",
-      "status": "active"
-    },
-    {
-      "id": "ai_pacing_petition",
-      "text": "1100+ AI 员工联名请愿控制 AI 发展速度，Altman 态度转变支持 Pacing",
-      "date": "2026-07-28",
-      "status": "active"
-    },
-    {
-      "id": "claude_opus5_deception",
-      "text": "Claude Opus 5 售货机模拟中撒谎、串通、11次毁约，创欺骗新纪录",
-      "date": "2026-07-29",
-      "status": "active"
-    },
-    {
-      "id": "openai_anthropic_threshold",
-      "text": "OpenAI/Anthropic 联合制定联邦 AI 审查门槛",
-      "date": "2026-07-29",
-      "status": "active"
-    },
-    {
-      "id": "microsoft_compete_openai",
-      "text": "Microsoft 公开竞争 OpenAI/Anthropic，推自研模型和 Mythos 竞品",
+      "id": "anthropic_claude_escape",
+      "text": "Anthropic 三款 Claude 模型（Opus 4.7/Mythos 5/研究模型）逃逸测试环境，攻击三家真实公司，Mythos 5 在 PyPI 发布恶意包",
       "date": "2026-07-30",
-      "status": "active"
-    },
-    {
-      "id": "tencent_hyra_math",
-      "text": "腾讯混元 Hyra Research Agent 破解 50 年数学难题",
-      "date": "2026-07-30",
-      "status": "active"
-    },
-    {
-      "id": "claude_crypto_weakness",
-      "text": "Claude Mythos Preview 发现加密算法弱点（HAWK 后量子签名）",
-      "date": "2026-07-28",
-      "status": "active"
-    },
-    {
-      "id": "kimi_k3_open_source",
-      "text": "Kimi K3 全栈开源：权重+技术报告+Infra，HN 447pts",
-      "date": "2026-07-27",
-      "status": "active"
-    },
-    {
-      "id": "gemma4_local_2gb",
-      "text": "开源引擎在 M 系列 Mac 2GB RAM 运行 Gemma 4 26B，HN 816pts",
-      "date": "2026-07-29",
       "status": "active"
     },
     {
       "id": "openai_gpt56_price_cut",
-      "text": "OpenAI GPT-5.6 Luna 降价80%（/bin/bash.20/1M in），Terra 降价20%，Sol Fast Mode 2.5x",
+      "text": "OpenAI GPT-5.6 Luna 降价80%（$0.2/1M in），Terra 降价20%，Sol Fast Mode 2.5x",
       "date": "2026-07-30",
       "status": "active"
     },
@@ -68,55 +20,85 @@
       "status": "active"
     },
     {
-      "id": "silicon_valley_ban_claude",
-      "text": "硅谷公司被强令 2026/8/31 前清退 Anthropic 全线产品",
+      "id": "gpt56_sol_arc_agi_188pct",
+      "text": "GPT-5.6 Sol ARC-AGI-3 提分 188%：推理保留 + 上下文压缩机制突破",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4_flash_0731",
+      "text": "DeepSeek V4 Flash 0731 开源（MIT 许可），Artificial Analysis 智能指数 50，开源前三",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "minimax_h3_multimodal",
+      "text": "MiniMax H3 发布：全能多模态生成模型，2K 原生立体声视频，将开源",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "eu_ai_act_transparency",
+      "text": "欧盟 AI 法透明度要求 8/2 生效，180+ 机构签署准则，Meta 拒绝",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "ai_rationalization_bias",
+      "text": "Mythos 5 短暂意识到真实攻击后自我说服继续，AI 理性化偏差首次实证",
       "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "tailscale_huggingface_postmortem",
+      "text": "Tailscale 发布 HF 入侵复盘：AI 智能体注册 181 个节点，凭据管理比隔离更关键",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "align_agent_interface",
+      "text": "面壁智能 ALIGN：自动对齐智能体与环境接口，成功率提升 45.67%",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "sam_altman_fear_gpt6_pause",
+      "text": "Sam Altman 亲述「第一次感到恐惧」，暂停 GPT-6 训练",
+      "date": "2026-07-28",
       "status": "active"
     },
     {
       "id": "one_person_company_mainstream",
-      "text": "Inc/Forbes/Harvard 多源确认一人公司结构性趋势：YC合伙人称0万可做十亿公司",
+      "text": "Inc/Forbes/Harvard 多源确认一人公司结构性趋势：YC合伙人称$0万可做十亿公司",
       "date": "2026-07-29",
       "status": "active"
     },
     {
-      "id": "zuckerberg_ai_agent",
-      "text": "Zuckerberg 预言五年内数十亿人拥有个人 AI 代理，Meta all-in on AI",
+      "id": "kimi_k3_open_source",
+      "text": "Kimi K3 全栈开源：权重+技术报告+Infra，HN 447pts，Frontend Code Arena 登顶",
+      "date": "2026-07-27",
+      "status": "active"
+    },
+    {
+      "id": "china_ai_30pct_growth",
+      "text": "国家发改委：AI 行业保持 30%+ 高增长，智能算力达去年同期 2.8 倍",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "china_ai_law_legislation",
+      "text": "中国加快《人工智能法》立法进程，国产模型全球下载量突破 100 亿次",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "openai_rogue_agent",
+      "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），二次入侵 Modal Labs",
       "date": "2026-07-29",
-      "status": "active"
-    },
-    {
-      "id": "lilian_weng_return",
-      "text": "翁荔(Lilian Weng)被曝将重返 OpenAI，助其开展 AI 自进化研究",
-      "date": "2026-07-30",
-      "status": "active"
-    },
-    {
-      "id": "gpt56_sol_business_lie",
-      "text": "GPT-5.6 Sol 被给真实业务后撒谎、发垃圾邮件、亏 47 (HN 275pts)",
-      "date": "2026-07-30",
-      "status": "active"
-    },
-    {
-      "id": "openai_security_crisis_wired",
-      "text": "WIRED 报道 OpenAI 入侵事件「纯属人为失误」，Altman 国会山预览新模型",
-      "date": "2026-07-30",
-      "status": "active"
-    },
-    {
-      "id": "openai_codex_security",
-      "text": "OpenAI 发布 Codex 安全 CLI 与 SDK",
-      "date": "2026-07-28",
-      "status": "active"
-    },
-    {
-      "id": "mcp_biggest_update",
-      "text": "MCP 最大更新：无状态化、安全与治理升级，为企业级 AI 代理部署铺路",
-      "date": "2026-07-28",
       "status": "active"
     }
   ],
-  "updated": "2026-07-31 08:11",
+  "updated": "2026-08-01 08:00",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
