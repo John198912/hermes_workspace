@@ -765,8 +765,8 @@
   "W-30-99": {
     "topic": "算力成本暴涨",
     "signal": "🔴强",
-    "desc": "$2000 API+Kimi K3 本地部署+算力双轨制",
-    "days": 3,
+    "desc": "$2000 API + AMD MI355X 性价比验证",
+    "days": 4,
     "first_seen": "2026-07-30"
   },
   "W-30-100": {
@@ -800,8 +800,8 @@
   "W-30-104": {
     "topic": "AI 科学突破",
     "signal": "🔴强",
-    "desc": "GPT-5.6 Sol 推翻 Maxwell 猜想 arXiv + HN 88 分",
-    "days": 1,
+    "desc": "Astra 10 题 + Lean 内核 Bug 事后分析",
+    "days": 3,
     "first_seen": "2026-07-31"
   },
   "W-30-105": {
@@ -814,7 +814,7 @@
   "W-30-106": {
     "topic": "全球 AI 监管",
     "signal": "🔴强",
-    "desc": "Suno 判决=首个案例 +GEMA 维权",
+    "desc": "欧盟 AI 法 8/2 生效 + 透明度要求",
     "days": 2,
     "first_seen": "2026-07-31"
   },
@@ -838,5 +838,26 @@
     "desc": "Astra$2000 解决 10 题，API 成本首次可量化 ROI",
     "days": 1,
     "first_seen": "2026-08-01"
+  },
+  "W-30-110": {
+    "topic": "AI 理财建议",
+    "signal": "🔴强",
+    "desc": "MIT Sloan 研究 HN 304 分 + 半数美国人用 AI 理财",
+    "days": 1,
+    "first_seen": "2026-08-02"
+  },
+  "W-30-111": {
+    "topic": "AI 视频 30 秒叙事",
+    "signal": "🔴强",
+    "desc": "Seedance 2.5 HN 342 分 + 30 秒原生 + 50 参考",
+    "days": 1,
+    "first_seen": "2026-08-02"
+  },
+  "W-30-112": {
+    "topic": "AMD 算力替代",
+    "signal": "🔴强",
+    "desc": "MI355X <50% B300 成本 + Kimi K3 部署",
+    "days": 1,
+    "first_seen": "2026-08-02"
   }
 }
