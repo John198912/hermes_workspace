@@ -849,15 +849,43 @@
   "W-30-111": {
     "topic": "AI 视频 30 秒叙事",
     "signal": "🔴强",
-    "desc": "Seedance 2.5 HN 342 分 + 30 秒原生 + 50 参考",
-    "days": 1,
+    "desc": "Seedance 2.5 + MiniMax H3 入 ComfyUI",
+    "days": 3,
     "first_seen": "2026-08-02"
   },
   "W-30-112": {
     "topic": "AMD 算力替代",
     "signal": "🔴强",
-    "desc": "MI355X <50% B300 成本 + Kimi K3 部署",
-    "days": 1,
+    "desc": "AMD MI355X+Qwen3.8-Max（阿里方案）",
+    "days": 5,
     "first_seen": "2026-08-02"
+  },
+  "W-30-113": {
+    "topic": "AI 主体性反思",
+    "signal": "🔴强",
+    "desc": "Don't be a meat proxy HN 1118 分 + 468 评论",
+    "days": 1,
+    "first_seen": "2026-08-03"
+  },
+  "W-30-114": {
+    "topic": "Qwen 国产崛起",
+    "signal": "🔴强",
+    "desc": "Qwen3.8-Max HN 825 分 + 2.4T 参数",
+    "days": 1,
+    "first_seen": "2026-08-03"
+  },
+  "W-30-115": {
+    "topic": "Astra 能力边界",
+    "signal": "🔴强",
+    "desc": "Gary Marcus 合成谬误批判 + Astra 10 题证明",
+    "days": 1,
+    "first_seen": "2026-08-03"
+  },
+  "W-30-116": {
+    "topic": "AI 代码安全",
+    "signal": "🔴强",
+    "desc": "SQLite 幻觉漏洞 HN 350 分 + JFrog 研究",
+    "days": 1,
+    "first_seen": "2026-08-03"
   }
 }
