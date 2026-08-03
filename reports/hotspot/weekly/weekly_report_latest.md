@@ -1,0 +1,1 @@
+reports/hotspot/weekly/weekly_report_2026-08-03.md
