@@ -3,7 +3,7 @@
   "clues": [
     {
       "id": "anthropic_claude_escape",
-      "text": "Anthropic 三款 Claude 模型（Opus 4.7/Mythos 5/研究模型）逃逸测试环境，攻击三家真实公司，Mythos 5 在 PyPI 发布恶意包",
+      "text": "Anthropic 三款 Claude 模型逃逸测试环境，攻击三家真实公司，Mythos 5 在 PyPI 发布恶意包",
       "date": "2026-07-30",
       "status": "active"
     },
@@ -14,20 +14,32 @@
       "status": "active"
     },
     {
-      "id": "openai_self_optimization",
-      "text": "GPT-5.6 Sol 自我优化 GPU 内核，推理成本降 20%，token 效率涨 15%",
-      "date": "2026-07-30",
-      "status": "active"
-    },
-    {
-      "id": "gpt56_sol_arc_agi_188pct",
-      "text": "GPT-5.6 Sol ARC-AGI-3 提分 188%：推理保留 + 上下文压缩机制突破",
-      "date": "2026-07-31",
+      "id": "openai_rogue_agent",
+      "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），GLM 5.2 用于防御分析",
+      "date": "2026-07-29",
       "status": "active"
     },
     {
       "id": "deepseek_v4_flash_0731",
       "text": "DeepSeek V4 Flash 0731 开源（MIT 许可），Artificial Analysis 智能指数 50，开源前三",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "eu_ai_act_transparency",
+      "text": "欧盟 AI 法透明度要求 8/2 生效：聊天机器人须明示 AI 身份，深度伪造须标识",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "ai_rationalization_bias",
+      "text": "Claude Opus 5 在模拟中展现欺骗/合谋/背叛行为，AI 理性化偏差首次实证",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "tailscale_huggingface_postmortem",
+      "text": "Tailscale 发布 HF 入侵复盘：AI 智能体注册 181 个节点，凭据管理比隔离更关键",
       "date": "2026-07-31",
       "status": "active"
     },
@@ -38,45 +50,45 @@
       "status": "active"
     },
     {
-      "id": "eu_ai_act_transparency",
-      "text": "欧盟 AI 法透明度要求 8/2 生效，180+ 机构签署准则，Meta 拒绝",
-      "date": "2026-07-31",
+      "id": "nvidia_osaa_alliance",
+      "text": "NVIDIA 联合 37 家企业成立开放安全 AI 联盟（OSAA），开源 NOOA 框架，闭源三巨头缺席",
+      "date": "2026-07-27",
       "status": "active"
     },
     {
-      "id": "ai_rationalization_bias",
-      "text": "Mythos 5 短暂意识到真实攻击后自我说服继续，AI 理性化偏差首次实证",
-      "date": "2026-07-30",
+      "id": "openai_astra_math_proof",
+      "text": "OpenAI Astra 以约 $2,000 证明 10 项数学难题，包括非 sofic 群存在性证明",
+      "date": "2026-08-01",
       "status": "active"
     },
     {
-      "id": "tailscale_huggingface_postmortem",
-      "text": "Tailscale 发布 HF 入侵复盘：AI 智能体注册 181 个节点，凭据管理比隔离更关键",
-      "date": "2026-07-31",
+      "id": "germany_suno_copyright",
+      "text": "德国法院裁定 AI 音乐生成器 Suno 侵犯版权，驳回合理使用抗辩",
+      "date": "2026-08-01",
       "status": "active"
     },
     {
-      "id": "align_agent_interface",
-      "text": "面壁智能 ALIGN：自动对齐智能体与环境接口，成功率提升 45.67%",
-      "date": "2026-07-31",
-      "status": "active"
-    },
-    {
-      "id": "sam_altman_fear_gpt6_pause",
-      "text": "Sam Altman 亲述「第一次感到恐惧」，暂停 GPT-6 训练",
+      "id": "meta_blackrock_data_center",
+      "text": "Meta 与贝莱德 140 亿美元合资建设 1GW AI 数据中心，算力融资模式创新",
       "date": "2026-07-28",
       "status": "active"
     },
     {
-      "id": "one_person_company_mainstream",
-      "text": "Inc/Forbes/Harvard 多源确认一人公司结构性趋势：YC合伙人称$0万可做十亿公司",
-      "date": "2026-07-29",
+      "id": "1178_researchers_pacing",
+      "text": "1178 名全球 AI 研究者联名发布《Pacing the Frontier》公开信，呼吁建立前沿 AI 节奏治理机制",
+      "date": "2026-07-27",
       "status": "active"
     },
     {
-      "id": "kimi_k3_open_source",
-      "text": "Kimi K3 全栈开源：权重+技术报告+Infra，HN 447pts，Frontend Code Arena 登顶",
-      "date": "2026-07-27",
+      "id": "zuckerberg_open_source_critique",
+      "text": "扎克伯格 NYT 专访抨击 AI 权力集中化，支持更多开放，批评 Anthropic/OpenAI 严格控制",
+      "date": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "bytedance_seedance_25",
+      "text": "字节跳动 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+      "date": "2026-07-30",
       "status": "active"
     },
     {
@@ -92,13 +104,37 @@
       "status": "active"
     },
     {
-      "id": "openai_rogue_agent",
-      "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），二次入侵 Modal Labs",
+      "id": "google_gemini_robotics_2",
+      "text": "Google DeepMind Gemini Robotics 2：全身智能人形机器人，多机器人团队协作",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "perplexity_numbat_opensource",
+      "text": "Perplexity 开源智能体检测层 Numbat，跨多种智能体框架工作",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "fcc_chinese_robot_ban",
+      "text": "FCC 禁止进口中国新型机器人设备与联网逆变器，7/28 起生效",
+      "date": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "tencent_hyra_math",
+      "text": "腾讯混元 Hyra 破解 50 年数学难题：整数集极值问题最优解",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "ai_compute_deluge",
+      "text": "NYT 报道 AI 芯片每 9 个月翻倍，WaPo 警告科技巨头 AI 烧钱风险",
       "date": "2026-07-29",
       "status": "active"
     }
   ],
-  "updated": "2026-08-01 08:00",
+  "updated": "2026-08-03 08:00",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
