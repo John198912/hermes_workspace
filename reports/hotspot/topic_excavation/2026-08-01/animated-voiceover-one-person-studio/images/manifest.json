@@ -1,0 +1,117 @@
+{
+  "topic": "animated-voiceover one person company",
+  "collected_at": "2026-08-04 02:53:26",
+  "total_images": 9,
+  "max_images": 20,
+  "min_resolution": "800x600",
+  "images": [
+    {
+      "filename": "img_001.png",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/repository-covers/animated-voiceover-cover.png",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Animated Voiceover — an Agent workflow for AI animated explainer videos",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 2498370,
+      "context": "content-img",
+      "description": "Animated Voiceover — an Agent workflow for AI animated explainer videos"
+    },
+    {
+      "filename": "img_002.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/examples/video-effect-01.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Animated philosophy explainer scene",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 80666,
+      "context": "content-img",
+      "description": "Animated philosophy explainer scene"
+    },
+    {
+      "filename": "img_003.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/examples/video-effect-02.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Animated psychology explainer scene",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 112838,
+      "context": "content-img",
+      "description": "Animated psychology explainer scene"
+    },
+    {
+      "filename": "img_004.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/style-previews/cinematic-3d-animation-nietzsche-16x9-v3.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Cinematic 3D animation preview",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 81294,
+      "context": "content-img",
+      "description": "Cinematic 3D animation preview"
+    },
+    {
+      "filename": "img_005.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/style-previews/clay-stop-motion.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Clay stop-motion preview",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 151402,
+      "context": "content-img",
+      "description": "Clay stop-motion preview"
+    },
+    {
+      "filename": "img_006.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/style-previews/melancholic-blue-simple-line-animation.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Melancholic blue line animation preview",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 158106,
+      "context": "content-img",
+      "description": "Melancholic blue line animation preview"
+    },
+    {
+      "filename": "img_007.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/style-previews/soft-colored-pencil-cute-animation.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Soft colored-pencil cute animation preview",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 265628,
+      "context": "content-img",
+      "description": "Soft colored-pencil cute animation preview"
+    },
+    {
+      "filename": "img_008.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/style-previews/clean-line-crayon-animation.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Clean-line crayon animation preview",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 127688,
+      "context": "content-img",
+      "description": "Clean-line crayon animation preview"
+    },
+    {
+      "filename": "img_009.webp",
+      "source_url": "https://github.com/s1dashu/animated-voiceover/raw/main/assets/style-previews/dopamine-cute-3d-animation-16x9-v2.webp",
+      "page_url": "https://github.com/s1dashu/animated-voiceover",
+      "alt_text": "Dopamine cute 3D animation preview",
+      "license_hint": "unknown",
+      "width": 0,
+      "height": 0,
+      "file_size_bytes": 76996,
+      "context": "content-img",
+      "description": "Dopamine cute 3D animation preview"
+    }
+  ]
+}
