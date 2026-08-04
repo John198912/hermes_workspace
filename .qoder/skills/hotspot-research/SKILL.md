@@ -91,7 +91,10 @@ python3 <skill_path>/scripts/jina_blogs_template.py
 - 36氪快讯：通过 Bash curl API
 - 小红书/抖音：标注为受限源，需 Browser MCP 或手动补采
 
-#### 1.4 中国 AI 圈动态（AI HOT REST API + WebSearch 补充）
+#### 1.4 中国 AI 圈动态（AI HOT REST API + WebSearch 补充）— **必做，不可跳过**
+
+> ⛔ **硬约束**：只要 Step 0 预检通过（fingerprint 返回有效 JSON），本步骤采集的数据**必须**进入报告的「🇨🇳 今日中国AI圈动态」章节。仅在 `[aihot:UNAVAILABLE]` 时才允许用替代源。采集失败不报错但跳过该章节 = 静默失败，属重大缺陷。
+
 - **AI HOT（首选）**：通过 Bash curl 调用 `/api/public/items` 端点，获取最近 24h 精选条目
   ```bash
   UA="aihot-skill/0.3.4 (+https://aihot.virxact.com/aihot-skill/)"
@@ -140,6 +143,35 @@ python3 <skill_path>/scripts/jina_blogs_template.py
 ### Step 4：按模板生成报告
 
 使用 `references/report_template.md` 模板，通过 `Write` 工具写入报告文件。
+
+> ⛔ **章节完整性硬约束（日报 9 章节全部必须）**：
+> 1. 📋 本期热点清单（P0 5 条 + P1 4-7 条）
+> 2. 🇨🇳 今日中国AI圈动态（AI HOT 数据）
+> 3. 👤 关键人物观点追踪
+> 4. 🔍 深度分析（Top 10）
+> 5. 💡 选题建议（Top 5，含执行路径）
+> 6. 💔 受众痛点库
+> 7. ⚙️ 执行路径报告（含各采集源成功/失败状态）
+> 8. 📡 本周线索（更新）
+> 9. 💡 素材深挖提示
+>
+> **规则**：
+> - 禁止整章省略。某章节确实无内容时，必须保留章节骨架并写明：「本期无有效信号（原因：XXX，已尝试源：YYY）」
+> - P1 低于 4 条时，必须在热点清单下方说明「本期信号不足」的具体原因（如源受限/时效窗口内无相关信号），禁止无说明的 0-3 条
+> - 章节省略即静默失败——验证器会拦截，但 Agent 不应依赖拦截，应首次生成即完整
+
+### Step 4.5：报告强制验证（交付前必过）
+
+报告保存后**必须**运行验证器，验证失败则修复后重新验证，**禁止带失败交付**：
+
+```bash
+python3 <skill_path>/scripts/verify_report_template.py --report <报告路径> --mode daily   # 或 weekly
+```
+
+**处理规则**：
+- exit code 0 → 验证通过，继续 Step 5
+- exit code 非 0 → 按输出的缺失章节/数量问题修复报告，重新保存后再次验证，直到通过
+- 验证器输出 `X/9 章节通过, P0=Y, P1=Z` 结构化摘要，必须将验证结果摘要写入报告的「⚙️ 执行路径报告」章节
 
 **报告命名规范**：
 - 日报：`report_daily_YYYY-MM-DD.md`（首份）/ `report_daily_YYYY-MM-DD_am.md`（上午版）/ `report_daily_YYYY-MM-DD_pm.md`（下午版）
@@ -244,24 +276,31 @@ curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/fingerprint" --
 
 当话题核心是一个具体事件，但其内容生产价值在于事件承载的结构性信号时，使用信号分析模型进行深度分析。详见 `references/signal_analysis_model.md`。
 
+### 原则 #6：反模式清单（硬禁令）
+
+以下 4 个反模式均来自真实事故，完整案例见 `references/anti_patterns.md`：
+
+1. **时序倒置**：把时间更早的事件写成较晚事件的"后续/回应"。写多事件叙事前必须按时间正序排列所有锚点，确认因果方向。
+2. **长程检索过拟合（硬凑老材料）**：把 24h 之外的历史材料（旧演讲/旧文章）当作今日论据。主论据必须 24h 内，历史引用仅允许出现在"背景交代"且必须标注原日期。
+3. **AM/PM 覆盖**：同日多次运行直接覆盖已有报告。必须走 Step 0 的版本命名逻辑（_am/_pm/_pm_v2）。
+4. **章节省略（静默失败）**：报告缺章节但不报错。这是最危险的反模式——用户看到"正常交付"的报告，实际内容腰斩（真实案例：5 天内报告从 21KB 退化到 7.6KB，6 个章节持续缺失）。
+
 ---
 
 ## 报告质量检查清单
 
-报告生成后应检查：
-- [ ] 8 个必须 section 全部存在
-- [ ] P0 条目 5 个 + P1 条目 7 个 = 12 个（日报）
+报告生成后**必须**逐项检查（全部通过才能交付，自动化检查见 Step 4.5 验证器）：
+- [ ] 9 个必须 section 全部存在（缺章节必须保留骨架+原因说明）
+- [ ] P0 条目 5 个 + P1 条目 4-7 个（P1 不足 4 条必须说明原因）
 - [ ] 每条热点标注发布日期
 - [ ] 英文标题全部带中文翻译
 - [ ] 中文摘要包含四要素（主体/动作/关键数字/行业影响）
 - [ ] 概览包含 4 个固定字段
+- [ ] 「🇨🇳 今日中国AI圈动态」章节包含 AI HOT 真实数据（预检通过时）
+- [ ] 「👤 关键人物观点追踪」章节存在（无新观点时写骨架+原因）
 - [ ] 线索 ID 持久化，不重新分配
 - [ ] 上期选题反馈不为空（首期除外）
-
-可选：运行验证脚本：
-```bash
-python3 <skill_path>/scripts/verify_report_template.py
-```
+- [ ] **已运行 Step 4.5 验证器且 exit code = 0**
 
 ---
 
@@ -275,7 +314,9 @@ python3 <skill_path>/scripts/verify_report_template.py
 | `references/key_persons.md` | 人物追踪清单 | 采集博客前 |
 | `references/creator_profile.md` | 人设和受众定义 | 分析时 |
 | `references/collection_commands.md` | 所有来源的采集命令 | 执行采集时 |
-| `references/data_quality.md` | 三关审核详细表、各源审计指南 | 筛选审核时 |
+| `references/data_quality.md` | 三关审核详细表、各源审计指南、章节-数据源映射 | 筛选审核时 |
+| `references/anti_patterns.md` | 5 大反模式案例库（时序倒置/硬凑材料/覆盖/静默失败/文档腐化） | 报告生成前必读 |
+| `references/troubleshooting.md` | 四层诊断法 + 修复 vs 降级决策树 | 采集源连续失败时 |
 | `references/report_template.md` | 报告输出格式模板 | 生成报告时 |
 | `references/deep_dive_pattern.md` | 横纵深度专题模板 | 周报深度分析时 |
 | `references/signal_analysis_model.md` | 信号分析型话题编译模型 | 深度分析时 |
