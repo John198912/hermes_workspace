@@ -814,8 +814,8 @@
   "W-30-106": {
     "topic": "全球 AI 监管",
     "signal": "🔴强",
-    "desc": "欧盟 AI 法 8/2 生效 + 透明度要求",
-    "days": 2,
+    "desc": "Apple v.OpenAI 新证据 (更多前员工参与)",
+    "days": 4,
     "first_seen": "2026-07-31"
   },
   "W-30-107": {
@@ -856,7 +856,7 @@
   "W-30-112": {
     "topic": "AMD 算力替代",
     "signal": "🔴强",
-    "desc": "AMD MI355X+Qwen3.8-Max（阿里方案）",
+    "desc": "DeepSeek V4 Flash MI300X+AMD 挑战 Nvidia",
     "days": 5,
     "first_seen": "2026-08-02"
   },
@@ -887,5 +887,26 @@
     "desc": "SQLite 幻觉漏洞 HN 350 分 + JFrog 研究",
     "days": 1,
     "first_seen": "2026-08-03"
+  },
+  "W-30-117": {
+    "topic": "Anthropic 算力军备",
+    "signal": "🔴强",
+    "desc": "Anthropic$10B+Volta 初创协议 (6 年/$17 亿/年)",
+    "days": 1,
+    "first_seen": "2026-08-04"
+  },
+  "W-30-118": {
+    "topic": "LLMs 专家效应",
+    "signal": "🔴强",
+    "desc": "Sean Goedecke HN 1248 分 +511 评论实证研究",
+    "days": 1,
+    "first_seen": "2026-08-04"
+  },
+  "W-30-119": {
+    "topic": "AI 编程协作困境",
+    "signal": "🔴强",
+    "desc": "GitHub Stacked PR 解决 AI 代码审查难题",
+    "days": 1,
+    "first_seen": "2026-08-04"
   }
 }
