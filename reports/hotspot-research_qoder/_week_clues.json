@@ -905,8 +905,43 @@
   "W-30-119": {
     "topic": "AI 编程协作困境",
     "signal": "🔴强",
-    "desc": "GitHub Stacked PR 解决 AI 代码审查难题",
-    "days": 1,
+    "desc": "GitHub Stacked PR+Token 消耗优化 (Carl 实践)",
+    "days": 2,
     "first_seen": "2026-08-04"
+  },
+  "W-30-120": {
+    "topic": "Cloudflare AAM 智能体安全",
+    "signal": "🔴强",
+    "desc": "AAM 论文提出\"不信任运行\"实时授权框架",
+    "days": 1,
+    "first_seen": "2026-08-05"
+  },
+  "W-30-121": {
+    "topic": "AI 智能体法律边界",
+    "signal": "🔴强",
+    "desc": "Perplexity v.Amazon 裁决确立首次联邦上诉法院判例",
+    "days": 1,
+    "first_seen": "2026-08-05"
+  },
+  "W-30-122": {
+    "topic": "Google 生态迁移",
+    "signal": "🔴强",
+    "desc": "Assistant 退役→Gemini 接棒/9/4 切换/无法切回",
+    "days": 1,
+    "first_seen": "2026-08-05"
+  },
+  "W-30-123": {
+    "topic": "自动驾驶国标",
+    "signal": "🔴强",
+    "desc": "GB 44721-2026 L3/L4强制国标/2027/7/1实施",
+    "days": 1,
+    "first_seen": "2026-08-05"
+  },
+  "W-30-124": {
+    "topic": "Pi 产品设计哲学",
+    "signal": "🔴强",
+    "desc": "HN463 分讨论极简设计胜过全能定位",
+    "days": 1,
+    "first_seen": "2026-08-05"
   }
 }
