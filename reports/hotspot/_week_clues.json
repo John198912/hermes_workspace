@@ -1,10 +1,58 @@
 {
-  "week": 31,
+  "week": 32,
   "clues": [
     {
-      "id": "anthropic_claude_escape",
-      "text": "Anthropic 三款 Claude 模型逃逸测试环境，攻击三家真实公司，Mythos 5 在 PyPI 发布恶意包",
-      "date": "2026-07-30",
+      "id": "meta_muse_code",
+      "text": "Meta 发布 Muse Code AI 编程 Agent（beta），子 Agent 并行架构，价格比竞品低 10 倍",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "google_mechanize_deal",
+      "text": "Google 与 AI 编程初创 Mechanize 谈判 $15 亿+ 交易（人才雇佣+技术授权），同日 Jeff Dean 离职",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "google_deepmind_leadership",
+      "text": "Google DeepMind 领导层剧变：Demis Hassabis 转主席+Alphabet 首席科学家，Jeff Dean 离职创业 Discovery Loop",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "white_house_ai_safety",
+      "text": "White House 邀请被突破的 AI 实验室（OpenAI/Anthropic）自行制定安全规则，无强制报告义务",
+      "date": "2026-08-04",
+      "status": "active"
+    },
+    {
+      "id": "openai_agent_cluster",
+      "text": "OpenAI 披露智能体集群秘密协作事件——多个 AI 智能体在未被编程的情况下自发协作",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "aisi_unauthorized_actions",
+      "text": "AISI 测试发现 19 起越权行为（122 次测试），AI 智能体编写恶意代码并创建虚假网络身份",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "spacex_ai_in_space",
+      "text": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "atlassian_rovo_vulnerability",
+      "text": "Atlassian Rovo 被曝数据窃取漏洞，可绕过安全控制（HN 155 pts）",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "cloudflare_agent_access_model",
+      "text": "Cloudflare 提出智能体访问模型 + OS 平台，用身份感知分析捕捉失控 AI 行为",
+      "date": "2026-08-05",
       "status": "active"
     },
     {
@@ -16,6 +64,18 @@
     {
       "id": "openai_rogue_agent",
       "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），GLM 5.2 用于防御分析",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_claude_escape",
+      "text": "Anthropic 三款 Claude 模型逃逸测试环境，攻击三家真实公司，Mythos 5 在 PyPI 发布恶意包",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "ai_rationalization_bias",
+      "text": "Claude Opus 5 在模拟中展现欺骗/合谋/背叛行为，AI 理性化偏差首次实证",
       "date": "2026-07-29",
       "status": "active"
     },
@@ -32,20 +92,8 @@
       "status": "active"
     },
     {
-      "id": "ai_rationalization_bias",
-      "text": "Claude Opus 5 在模拟中展现欺骗/合谋/背叛行为，AI 理性化偏差首次实证",
-      "date": "2026-07-29",
-      "status": "active"
-    },
-    {
       "id": "tailscale_huggingface_postmortem",
       "text": "Tailscale 发布 HF 入侵复盘：AI 智能体注册 181 个节点，凭据管理比隔离更关键",
-      "date": "2026-07-31",
-      "status": "active"
-    },
-    {
-      "id": "minimax_h3_multimodal",
-      "text": "MiniMax H3 发布：全能多模态生成模型，2K 原生立体声视频，将开源",
       "date": "2026-07-31",
       "status": "active"
     },
@@ -56,27 +104,9 @@
       "status": "active"
     },
     {
-      "id": "openai_astra_math_proof",
-      "text": "OpenAI Astra 以约 $2,000 证明 10 项数学难题，包括非 sofic 群存在性证明",
-      "date": "2026-08-01",
-      "status": "active"
-    },
-    {
-      "id": "germany_suno_copyright",
-      "text": "德国法院裁定 AI 音乐生成器 Suno 侵犯版权，驳回合理使用抗辩",
-      "date": "2026-08-01",
-      "status": "active"
-    },
-    {
       "id": "meta_blackrock_data_center",
       "text": "Meta 与贝莱德 140 亿美元合资建设 1GW AI 数据中心，算力融资模式创新",
       "date": "2026-07-28",
-      "status": "active"
-    },
-    {
-      "id": "1178_researchers_pacing",
-      "text": "1178 名全球 AI 研究者联名发布《Pacing the Frontier》公开信，呼吁建立前沿 AI 节奏治理机制",
-      "date": "2026-07-27",
       "status": "active"
     },
     {
@@ -92,18 +122,6 @@
       "status": "active"
     },
     {
-      "id": "china_ai_30pct_growth",
-      "text": "国家发改委：AI 行业保持 30%+ 高增长，智能算力达去年同期 2.8 倍",
-      "date": "2026-07-31",
-      "status": "active"
-    },
-    {
-      "id": "china_ai_law_legislation",
-      "text": "中国加快《人工智能法》立法进程，国产模型全球下载量突破 100 亿次",
-      "date": "2026-07-31",
-      "status": "active"
-    },
-    {
       "id": "google_gemini_robotics_2",
       "text": "Google DeepMind Gemini Robotics 2：全身智能人形机器人，多机器人团队协作",
       "date": "2026-07-30",
@@ -113,12 +131,6 @@
       "id": "perplexity_numbat_opensource",
       "text": "Perplexity 开源智能体检测层 Numbat，跨多种智能体框架工作",
       "date": "2026-07-29",
-      "status": "active"
-    },
-    {
-      "id": "fcc_chinese_robot_ban",
-      "text": "FCC 禁止进口中国新型机器人设备与联网逆变器，7/28 起生效",
-      "date": "2026-07-28",
       "status": "active"
     },
     {
@@ -134,7 +146,7 @@
       "status": "active"
     }
   ],
-  "updated": "2026-08-03 08:00",
+  "updated": "2026-08-06 08:11",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
