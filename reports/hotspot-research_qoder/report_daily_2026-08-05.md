@@ -1,7 +1,7 @@
 # 🔥 AI×超级个体 热点采集报告（日报 · 2026-08-05）
 
 > 报告生成时间：2026-08-05 CST (晚间版)
-> 分析方法：Qoder Agent · LLM 分析 · 多维度信息聚合
+> 分析方法：Qoder Agent · LLM 分析 · 多维度信息聚合  
 > 分析焦点：AI 转型 · 超级个体 · 行业动态 · 受众痛点
 > ⚠️ 理论中立性纪律：本报告为信息采集与分析，不预设任何哲学框架。
 
@@ -16,10 +16,9 @@
 | **P0** | `Google Assistant ends September, Gemini takes over mobile assistant services`（Google Assistant 下月起逐步退场，"Hey Google"将由谷歌 Gemini 接棒） | `8/5` | 【主体】Google【动作】移动端 Google Assistant 停止服务，改用 Gemini 作为默认助理【关键数字】9 月 4 日起陆续切换/无法切回原有服务 [行业影响] Google 语音助手战略收缩，Gemini 统一入口 | IT 之家 | [冲突] Assistant 生态遗产 vs Gemini 新入口 [数据] 手机/平板/Wear OS/耳机全切换 [受众] Android 用户 [叙事] "告别 Hey Google，迎来 Hello Gemini" | 🟡 中等相关：AI 入口竞争格局 | 观点：Google Assistant 退场对超级个体的影响 |
 | **P0** | `NVIDIA releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis`（NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉 - 语言 - 动作模型） | `8/5` | 【主体】NVIDIA【动作】发布 34B 参数 VLA 模型专为自动驾驶长尾事件设计【关键数字】Linux 基金会 OpenMDW-1.1 许可/Apache 2.0 代码/首日商用 [行业影响] 自动驾驶开源模型进入"视觉 - 语言 - 动作"统一时代 | MarkTechPost | [冲突] NVIDIA 闭源垄断 vs 开源开放许可 [数据] 34B/VLA/长尾事件 [受众] 自动驾驶开发者 [叙事] "一张卡搞定自动驾驶长尾？Alpamayo 2 Super 开卷" | 🟡 中等相关：自动驾驶技术平民化 | 实践：Alpamayo 2 Super 部署指南 |
 | **P0** | `Pi's Minimalism Is Its Advantage`（Pi 的最小主义是它的优势） | `8/5` | 【主体】Sean Goedecke【动作】论证 Pi 数学家研究工具的成功源于极简设计理念【关键数字】HN 463 分 233 评论/ autoresearch & databricks 集成 [行业影响] AI 应用成功未必需要复杂功能堆砌，专注单一场景的"最小可行产品"仍有巨大空间 | HN 463 | [冲突] 功能堆砌 vs 极简专注 [数据] HN 463 分 / 233 评论 [受众] AI 创业者 [叙事] "为什么 Pi 能打败 ChatGPT 插件商店？因为它只做了一件事" | 🔴 直接相关：AI 产品设计哲学 | 深度：Pi 模式对超级个体创业者的启示 |
-
-**[持续追踪]** P1 | `Huawei talks autonomous driving system mandatory national standard release`（华为谈自动驾驶系统强制性国家标准发布） | `8/5` | 工信部 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》7/30 发布，我国首部针对 L3/L4 自动驾驶系统的强制性国标，2027/7/1 实施 | IT 之家 | [冲突] 国产标准制定 vs 国际规则跟随 [数据] L3/L4 / 强制实施 [受众] 自动驾驶从业者 [叙事] "L3 级自动驾驶的中国标准来了" | 🟡 中等相关：自动驾驶政策趋势 | 追踪：国标的行业影响评估 |
-**[持续追踪]** P1 | `烧了 5 亿 token 后，我给 Codex 和 Claude Code 做 Skill 上下文瘦身的新技巧`（Token 消耗优化实战） | `8/5` | 作者为 Codex 和 Claude Code 中 300 多个 Skill 做上下文瘦身，发现每次新会话仅 Skill 列表就占约 9.9k token，按 7 月使用强度粗算多余 Skill 列表约吃掉 4 到 5 亿 token 的上文空间 | 公众号·卡尔的 AI 沃茨 | [冲突] Skill 生态繁荣 vs Token 成本爆炸 [数据] 300+ Skill / 9.9k token / 4-5 亿 token [受众] AI 开发者 [叙事] "你的 Skill 可能正在燃烧你的钱包" | 🔴 直接相关：AI 开发成本优化 | 实操：Skill 上下文瘦身技巧 |
-**[持续追踪]** P1 | `Stateless MCP has recaptured my interest`（无状态 MCP 重新吸引 Simon Willison） | `8/5` | Simon Willison 博客探讨无状态 MCP 协议的优势与实践体验，从有状态向无状态过渡的技术债务问题 | Simon Willison Blog HN 317 | [冲突] 有状态复杂性 vs 无状态简洁性 [数据] MCP 协议演进 [受众] MCP 开发者 [叙事] "为什么 Simon 从有状态 MCP 转到了无状态？" | 🟡 中等相关：MCP 协议演进 | 技术分析：无状态 MCP 架构解读 |
+| **P1** | `Huawei talks autonomous driving system mandatory national standard release`（华为谈自动驾驶系统强制性国家标准发布） | `8/5` | 【主体】工信部【动作】发布 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》【关键数字】我国首部针对 L3/L4 自动驾驶系统的强制性国标/2027/7/1实施 [行业影响] 填补行业标准空白，安全性优先于技术创新 | IT 之家 | [冲突] 国产标准制定 vs 国际规则跟随 [数据] L3/L4 / 强制实施 [受众] 自动驾驶从业者 [叙事] "L3 级自动驾驶的中国标准来了" | 🟡 中等相关：自动驾驶政策趋势 | 追踪：国标的行业影响评估 |
+| **P1** | `烧了 5 亿 token 后，我给 Codex 和 Claude Code 做 Skill 上下文瘦身的新技巧`（Token 消耗优化实战） | `8/5` | 【主体】Carl【动作】为 300+ Skill 做上下文瘦身【关键数字】每次新会话占用 9.9k token /粗算吃掉 4-5 亿 token 上下文空间 [行业影响] AI 开发者面临隐形成本爆炸 | 公众号·卡尔的 AI 沃茨 | [冲突] Skill 生态繁荣 vs Token 成本爆炸 [数据] 300+ Skill / 9.9k token / 4-5 亿 token [受众] AI 开发者 [叙事] "你的 Skill 可能正在燃烧你的钱包" | 🔴 直接相关：AI 开发成本优化 | 实操：Skill 上下文瘦身技巧 |
+| **P1** | `Stateless MCP has recaptured my interest`（无状态 MCP 重新吸引 Simon Willison） | `8/5` | 【主体】Simon Willison【动作】博客探讨无状态 MCP 协议的优势与实践体验【关键数字】MCP 协议演进 /社区共识形成 [行业影响] MCP 从有状态向无状态过渡，简化实现提升可扩展性 | Simon Willison Blog HN 317 | [冲突] 有状态复杂性 vs 无状态简洁性 [数据] MCP 协议演进 [受众] MCP 开发者 [叙事] "为什么 Simon 从有状态 MCP 转到了无状态？" | 🟡 中等相关：MCP 协议演进 | 技术分析：无状态 MCP 架构解读 |
 
 ---
 
