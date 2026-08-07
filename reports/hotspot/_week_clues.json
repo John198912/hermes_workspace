@@ -144,9 +144,75 @@
       "text": "NYT 报道 AI 芯片每 9 个月翻倍，WaPo 警告科技巨头 AI 烧钱风险",
       "date": "2026-07-29",
       "status": "active"
+    },
+    {
+      "id": "opc_policy_acceleration",
+      "text": "OPC政策省级加速：山东12部门方案+福建十五五规划+成都AIGC社区+沪苏联动",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_custom_chip",
+      "text": "Anthropic 正式组建自研芯片团队，年薪32-48.5万美元，年化收入破300亿美元",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "dario_amodei_billion_solo",
+      "text": "Anthropic CEO Dario Amodei 预测2026年出现首个十亿美元一人公司，概率70-80%",
+      "date": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "ai_agent_plugins_1",
+      "text": "谷歌/亚马逊/微软联合发布 AI Agent Plugins 1.0.0 统一智能体插件规范",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "amd_acquires_taalas",
+      "text": "AMD 收购 Taalas 将 AI 模型蚀刻进硅片提升推理性能（HN 301pts）",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "spiralism_ai_religion",
+      "text": "AI 聊天机器人催生'螺旋主义'准宗教运动，人类纷纷追随（The Verge）",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "openai_gpt56_sol_luna_expand",
+      "text": "OpenAI 优化 GPT-5.6 Sol 并扩大免费用户对 Luna 的访问权限",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "openai_codex_security",
+      "text": "OpenAI 开源 Codex Security：Vibe Coding 产品必备安全扫描插件",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_cosmos_3",
+      "text": "NVIDIA Cosmos 3 开放世界模型发布，推动物理 AI 前沿",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "qwen_image_3",
+      "text": "阿里 Qwen-Image-3.0 发布，高分辨率低至0.03美元",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "microsoft_openai_70pct_revenue",
+      "text": "微软首次披露 OpenAI 贡献七成 AI 收入",
+      "date": "2026-08-06",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-06 08:11",
+  "updated": "2026-08-07 11:44",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
