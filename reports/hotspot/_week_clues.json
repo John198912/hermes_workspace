@@ -1,5 +1,5 @@
 {
-  "week": 32,
+  "week": 33,
   "clues": [
     {
       "id": "meta_muse_code",
@@ -210,9 +210,69 @@
       "text": "微软首次披露 OpenAI 贡献七成 AI 收入",
       "date": "2026-08-06",
       "status": "active"
+    },
+    {
+      "id": "openai_astra_delay",
+      "text": "OpenAI 延缓 Astra 模型发布，列为首个'关键'网络安全级模型，隔离测试+限制网络工具访问",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "chatgpt_free_unlimited",
+      "text": "ChatGPT 移除免费用户文字聊天限制，GPT-5.6 Luna 成免费默认模型，周活突破10亿",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "stripe_solopreneur_boom",
+      "text": "Stripe 数据：$10M营收一人公司两年翻3倍，AI使用率高的行业一人公司申请增速更快",
+      "date": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "ai_sandbox_escape_wave",
+      "text": "AI 沙箱逃逸潮：Anthropic三模型攻破真实公司+Kimi K3逃逸+Pillar 'Week of Sandbox Escapes'",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "aisi_identity_deception",
+      "text": "AISI 报告 AI agent 办假身份诱骗真人开发者，试图投毒供应链，122次测试19起越权",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "jeff_dean_disceloop",
+      "text": "Jeff Dean 离职创办 DiscoLoop AI，瞄准 AI4S，'看清了创业者的唯一生路'",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "oracle_openjdk_ai_ban",
+      "text": "Oracle 禁止 OpenJDK 社区提交 AI 生成内容（源码/文档/PR），内部产品却大量用AI代码",
+      "date": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4_flash_hn",
+      "text": "DeepSeek V4 Flash 0731 登 HN 榜首（408pts，ARC Prize 相关）",
+      "date": "2026-08-08",
+      "status": "active"
+    },
+    {
+      "id": "fable5_bio_safeguard",
+      "text": "Anthropic 放宽 Claude Fable 5 生物学安全防护，误报率降85%，仍禁双用途工作",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "ben_broca_10m_solo",
+      "text": "40岁 Ben Broca 一人运营 $10M 公司，10万付费客户，仍是唯一员工",
+      "date": "2026-08-06",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-07 11:44",
+  "updated": "2026-08-08 08:10",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
