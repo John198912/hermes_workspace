@@ -270,9 +270,39 @@
       "text": "40岁 Ben Broca 一人运营 $10M 公司，10万付费客户，仍是唯一员工",
       "date": "2026-08-06",
       "status": "active"
+    },
+    {
+      "id": "deepseek_price_hike",
+      "text": "DeepSeek 官宣 API 大幅涨价，价格战转向价值战",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "cloudflare_bot_supremacy",
+      "text": "AI 机器人流量超人类，五年或达 1:1000",
+      "date": "2026-08-08",
+      "status": "active"
+    },
+    {
+      "id": "israel_irregular_hacks",
+      "text": "以色列 Irregular 被指与 OpenAI/Anthropic/Meta 失控 AI 攻击有关",
+      "date": "2026-08-09",
+      "status": "active"
+    },
+    {
+      "id": "china_model_industrial_pipeline",
+      "text": "中国 8 周 5 款旗舰模型，OpenRouter 调用量连续 14 周超美国",
+      "date": "2026-08-09",
+      "status": "active"
+    },
+    {
+      "id": "qwen38_open_weights",
+      "text": "Qwen3.8-Max 开源权重（8/10当周），2.4T MoE/1M 上下文",
+      "date": "2026-08-03",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-08 08:10",
+  "updated": "2026-08-09T21:41:55.053293",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
