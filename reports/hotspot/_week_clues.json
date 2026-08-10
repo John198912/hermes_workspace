@@ -300,9 +300,15 @@
       "text": "Qwen3.8-Max 开源权重（8/10当周），2.4T MoE/1M 上下文",
       "date": "2026-08-03",
       "status": "active"
+    },
+    {
+      "id": "china_opc_policy",
+      "text": "中国 OPC 一人公司爆发：税务报长文，Carta 独立创始人占比 6 年+53%，全国 426 个 OPC 社区覆盖 26 省 65 城，20+ 城市专项扶持政策，'数字员工元年'+'词元经济'",
+      "date": "2026-08-05",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-09T21:41:55.053293",
+  "updated": "2026-08-10T08:09:20.660285",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
