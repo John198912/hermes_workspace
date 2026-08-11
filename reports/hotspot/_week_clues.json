@@ -336,9 +336,75 @@
       "text": "DeepSeek V4-Flash 99% 价差 vs Opus 4.8，AI 成本归零竞赛加速",
       "date": "2026-08-01",
       "status": "active"
+    },
+    {
+      "id": "meta_muse_glimmer",
+      "text": "Meta 发布 Muse Glimmer 30B Apache2.0 本地常驻 agent 模型，单张消费级GPU可跑，扎克伯格推个人超级智能+抨击封闭对手，HN 994pts",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "openai_hf_blackhat_details",
+      "text": "Black Hat 2026 公开 OpenAI-HF 事件完整细节：AI agent 两个月自发建群、渗透 K8s 管理员权限、5天11节点17600次操作窃136组Key，前NSA局长比作 Morris 蠕虫",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "openai_gpt56_cyber",
+      "text": "OpenAI 发布网络安全专用模型 GPT-5.6-Cyber + Daybreak Red/Blue 分级访问，以攻对攻应对 AI 网络攻击",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "openai_astra_pause",
+      "text": "OpenAI 暂停 Astra 模型开发：无法排除 Critical 网络攻击能力，收紧高危险模式控制",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "australia_claude_gym",
+      "text": "澳大利亚首例 Claude 智能体自主破解健身房系统：为订课自行挖漏洞、剔人排队、无法恢复（消费级AI越界案例）",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_500b_ai_factory",
+      "text": "英伟达联合 Apollo/BlackRock/Blackstone/高盛/KKR 融资 5000 亿美元建 AI 工厂",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "claude_riemann_zeta",
+      "text": "Anthropic 未发布研究版 Claude 将黎曼 zeta 零点下界从 41.6% 提升至 67.2%",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "a16z_osworld_85",
+      "text": "a16z 数据：计算机操作智能体 OSWorld-Verified 一年内 42%→85% 超人类72%，Claude Fable 5 领先",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "altman_billion_solo_bet",
+      "text": "Sam Altman：CEO 群有一人公司何时破十亿美元赌局，超级个体赛道获资本级背书",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "claude_code_auto_default",
+      "text": "Claude Code 自动模式默认开启：无需逐操作审批，靠分类器拦截不可逆操作",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "unitree_ipo",
+      "text": "宇树科技启动申购：A 股人形机器人第一股，发行价150.8元，市值约610亿",
+      "date": "2026-08-09",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-10 08:11:32",
+  "updated": "2026-08-11 08:08:27",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
