@@ -402,9 +402,99 @@
       "text": "宇树科技启动申购：A 股人形机器人第一股，发行价150.8元，市值约610亿",
       "date": "2026-08-09",
       "status": "active"
+    },
+    {
+      "id": "anthropic_text_watermark",
+      "text": "Anthropic 在 Claude 生成文本中嵌入不可见水印，拟扩展至旧模型，AI 内容可识别时代降临",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "steal_reasoning_traces_api",
+      "text": "研究者发现可读取 ChatGPT 等模型加密推理过程（思考轨迹）的 API 漏洞，HN 464pts",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "openai_ethics_lead_quit",
+      "text": "OpenAI 伦理负责人任职不到一年即离职，HN 251pts，治理层人事动荡",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "chatgpt_gemini_1b_users",
+      "text": "ChatGPT 与 Gemini 双双突破 10 亿用户，Gemini 成谷歌增长最快产品",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_ipo_sept",
+      "text": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化模型竞争风险",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "runway_seedance_25",
+      "text": "Runway Seedance 2.5 上线，支持 50 角色参考",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "apple_silicon_llm_accel",
+      "text": "Apple Silicon + macOS VM + Llama.cpp 实现 11-16 倍 LLM 推理加速，HN 278pts",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "wechat_mini_ai_human",
+      "text": "微信小微 AI 帮写+AI 点评内测：朋友圈最后一点人味正在消失",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "inc5000_fewer_employees",
+      "text": "Inc.5000 美国增长最快公司以更少员工扩张，掀起 $10 亿一人公司竞逐",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "ai_short_drama_400b",
+      "text": "国内 AI 短剧 2026 上半年破 220 亿、全年望冲 400 亿、用户破 6 亿；海外 6.5 亿美元同比增 6 倍",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "opc_chain_leader_model",
+      "text": "浦东张江探索链主+OPC 模式，解决一人公司最致命的供给难题",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "openai_anthropic_leads_clash",
+      "text": "OpenAI/Anthropic 编码 Agent 产品负责人公开互怼，Codex 负责人教用户把 GPT-5.6 Sol 接入 Claude Code",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "aws_continuum_codex_claude",
+      "text": "AWS Continuum 集成 OpenAI Codex 与 Anthropic Claude Code，AI 安全层竞争白热化（Black Hat 2026）",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "manus_independent_company",
+      "text": "Manus 恢复为独立公司运营，HN 128pts，agent 应用市场洗牌信号",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_nemotron4_open",
+      "text": "消息称英伟达开发万亿参数开源 Nemotron 4；同日推出 Nemotron 3.5 Lightning，HN 159pts",
+      "date": "2026-08-11",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-11 08:08:27",
+  "updated": "2026-08-12 08:05:59",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
