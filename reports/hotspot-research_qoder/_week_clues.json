@@ -990,42 +990,63 @@
     "topic": "Meta 开源战略",
     "signal": "🔴强",
     "desc": "Muse Glimmer 30B 开源上线 OpenRouter，MCP Atlas 75.5 分",
-    "days": 2,
+    "days": 3,
     "first_seen": "2026-08-11"
   },
   "W-33-02": {
     "topic": "推理模型军备竞赛",
     "signal": "🔴强",
     "desc": "xAI Grok 4.6 + 微软 MAI-Thinking-1 同日发布",
-    "days": 2,
+    "days": 3,
     "first_seen": "2026-08-11"
   },
   "W-33-03": {
     "topic": "智能体评估标准化",
     "signal": "🟡中",
     "desc": "OpenRouter 发布搜索基准测试，数据驱动决策",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-08-12"
   },
   "W-33-04": {
     "topic": "AI 伦理边界讨论",
     "signal": "🔴强",
     "desc": "Research Gold AI 骗局曝光，引发真实性危机",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-08-12"
   },
   "W-33-05": {
     "topic": "开源项目管理进化",
     "signal": "🟡中",
     "desc": "AutoGPT AGENTS.md 人类探测器方案",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-08-12"
   },
   "W-33-06": {
     "topic": "视频生成平民化",
     "signal": "🟡中",
     "desc": "LTX-2.5 6.8 秒生成 10 秒视频，成本降至$0.9/片",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-08-12"
+  },
+  "W-33-07": {
+    "topic": "国产智能体框架崛起",
+    "signal": "🔴强",
+    "desc": "DeepSeek Harness v0.1 MIT 开源+Cordis 元框架",
+    "days": 1,
+    "first_seen": "2026-08-13"
+  },
+  "W-33-08": {
+    "topic": "语音合成技术突破",
+    "signal": "🔴强",
+    "desc": "小红书 dots.tts Seed-TTS-Eval 三项最佳成绩",
+    "days": 1,
+    "first_seen": "2026-08-13"
+  },
+  "W-33-09": {
+    "topic": "移动办公 AI 化",
+    "signal": "🔴强",
+    "desc": "WorkBuddy 远程控制打通多设备无需扫码",
+    "days": 1,
+    "first_seen": "2026-08-13"
   }
 }
