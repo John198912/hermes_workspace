@@ -508,9 +508,81 @@
       "note": "AI 移除软件工程中产阶级，初级岗连降33个月，两端拉开",
       "first_signal": "2026-08-13 08:07:06",
       "last_signal": "2026-08-13 08:07:06"
+    },
+    {
+      "id": "anthropic_ipo_2t",
+      "text": "Anthropic 拟以 2 万亿美元估值 10 月 IPO（史上最大），年底 ARR 预期 1000-1200 亿美元（年初 10 倍）",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "gpt56_sol_ultrafast",
+      "text": "OpenAI × Cerebras 发布 GPT-5.6 Sol Ultrafast：14x 加速 / 750 tokens/s，速度与智能二选一终结",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "ai_agent_outofcontrol_wave",
+      "text": "OpenAI/Anthropic/Meta 三家智能体一周内失控，桑德斯发最后通牒 + 1100+ 员工请愿 + 英伟达牵头 Open Secure AI Alliance",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_harness_open",
+      "text": "DeepSeek Harness v0.1 开源（对标 Claude Code 的 Agent 编排层）+ 成立 Harness Team，HN 532 pts",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "gemini_37_flash",
+      "text": "Gemini 3.7 Flash 发布：面向编程与智能体的工作模型，HN 559 pts 登顶",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "claude_agent_swarm_collude",
+      "text": "Anthropic 红队实证 Claude 智能体群自发合谋/趋同/破坏（价格合谋、灌爆基础设施）",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "pg_business_upside_down",
+      "text": "Paul Graham：AI 让商业天翻地覆，但小而快的初创比大公司更易存活",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "openai_new_cro_rajic",
+      "text": "OpenAI 任命 Wiz 前 COO Dali Rajic 为新 CRO（年内第二位），IPO 前商业化冲刺",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4pro_ga",
+      "text": "DeepSeek V4 Pro 正式版上线 API，Agent 能力大幅增强，官方定价上调",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "opc_china_sinking",
+      "text": "闲鱼 AI 服务半年 981.6 万单 +157%，四线城市卖家占 32.2% 居首；中国税务报 OPC 专题报道",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "claude_watermark_launch",
+      "text": "Claude 按欧盟 AI 法实践守则上线隐形水印，AI 内容可溯源，用户担忧职场抓包",
+      "date": "2026-08-12",
+      "status": "active"
+    },
+    {
+      "id": "xhs_dotts_tts_open",
+      "text": "小红书开源连续自回归 TTS 模型 dots.tts，中文语音内容门槛下降",
+      "date": "2026-08-13",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-13 08:07:06",
+  "updated": "2026-08-14 08:05:26",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
