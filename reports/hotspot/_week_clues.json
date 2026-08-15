@@ -580,9 +580,37 @@
       "text": "小红书开源连续自回归 TTS 模型 dots.tts，中文语音内容门槛下降",
       "date": "2026-08-13",
       "status": "active"
+    },
+    {
+      "id": "qwen38_open_source",
+      "date": "2026-08-15",
+      "title": "Qwen3.8-27B & Max 开源：27B 原生多模态稠密，HN#1 833pts，Apache 2.0",
+      "strength": "strong",
+      "days": 1
+    },
+    {
+      "id": "glm53_cyber_emergent",
+      "date": "2026-08-15",
+      "title": "GLM-5.3 发布：编程开源第一+涌现网安能力，CyberGym 84.5% 超 Mythos5，发现 1981 漏洞",
+      "strength": "strong",
+      "days": 1
+    },
+    {
+      "id": "cursor_spacex_acquisition",
+      "date": "2026-08-15",
+      "title": "SpaceX 完成 $60B 收购 Cursor，并入 SpaceXAI，获全球最大 GPU 集群",
+      "strength": "strong",
+      "days": 1
+    },
+    {
+      "id": "opc_hangzhou_2000",
+      "date": "2026-08-15",
+      "title": "杭州 AI+OPC 企业超 2000 家，全国社区 95→618，非技术背景占 75%",
+      "strength": "strong",
+      "days": 1
     }
   ],
-  "updated": "2026-08-14 08:05:26",
+  "updated": "2026-08-15 08:05:33",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
