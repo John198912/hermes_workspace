@@ -11,7 +11,16 @@
 - [fingerprints_daily.json](file://data/fingerprints_daily.json)
 - [report_2026-08-14.md](file://reports/hotspot/daily/report_2026-08-14.md)
 - [hotspot-report-refactor.md](file://plans/2026-04-28_233000-hotspot-report-refactor.md)
+- [_week_clues.json](file://reports/hotspot/_week_clues.json)
+- [_week_clues_qoder.json](file://reports/hotspot-research_qoder/_week_clues.json)
 </cite>
+
+## 更新摘要
+**变更内容**
+- 新增周线索数据库功能，支持AI行业发展的长期追踪（第30-33周）
+- 增强热点采集系统的线索持久化能力，包含Meta Muse Code AI、Google收购谈判、OpenAI定价变化等重大事件
+- 扩展了多版本周线索数据库结构，支持信号强度评估和趋势分析
+- 完善了热点报告的线索整合机制，提升长期价值追踪能力
 
 ## 目录
 1. [简介](#简介)
@@ -26,12 +35,12 @@
 10. [附录](#附录)
 
 ## 简介
-本系统是一个面向“AI×超级个体”赛道的自动化热点采集与分析工作流。通过多平台信息源并行采集、指纹去重、结构化数据输出，再由 LLM（Hermes Agent）结合 Skill 模板生成高质量日报/周报，最终沉淀为可检索的报告资产与线索库。系统强调时效性、理论中立性与可追溯性，支持 AM/PM 多版本报告与周线索持久化。
+本系统是一个面向"AI×超级个体"赛道的自动化热点采集与分析工作流。通过多平台信息源并行采集、指纹去重、结构化数据输出，再由 LLM（Hermes Agent）结合 Skill 模板生成高质量日报/周报，最终沉淀为可检索的报告资产与线索库。**最新增强**：系统现已具备完整的周线索数据库功能，能够持续追踪AI行业重大发展，包括Meta的Muse Code AI编程代理、Google的收购谈判以及OpenAI的定价策略调整等关键事件。
 
 ## 项目结构
 - 采集与执行：Python 引擎负责跨平台抓取、指纹去重、异常降级与 JSON 产出；Skill 定义策略与流程；配置管理模型与工具集。
 - 分析与产出：LLM 读取结构化数据，按模板生成报告；报告按日/周归档，并维护线索与指纹库。
-- 数据与资产：指纹库、历史报告、专题挖掘素材、生态扫描等。
+- **数据与资产**：指纹库、历史报告、专题挖掘素材、生态扫描、**周线索数据库**等。
 
 ```mermaid
 graph TB
@@ -47,15 +56,17 @@ end
 subgraph "数据层"
 F["fingerprints_daily.json<br/>指纹库"]
 R["reports/hotspot/daily/*.md<br/>日报/周报"]
+W["_week_clues.json<br/>周线索数据库"]
 end
 E --> F
 E --> |"JSON"| S
 S --> T
 C --> S
 S --> R
+S --> W
 ```
 
-图表来源
+**图表来源**
 - [hotspot_engine.py:1-120](file://scripts/hotspot_engine.py#L1-L120)
 - [SKILL.md:1-101](file://skills/hotspot-research/SKILL.md#L1-L101)
 - [platforms.md:1-127](file://skills/hotspot-research/references/platforms.md#L1-L127)
@@ -75,9 +86,10 @@ S --> R
   - 职责：平台评级、采集方式、替代方案与已知限制（如 AI HOT 认证墙）。
 - 配置（hermes-config-backup.yaml）
   - 职责：默认模型、MCP 服务（Brave Search）、终端/浏览器/压缩等运行参数。
-- 数据与报告
+- **数据与报告**
   - fingerprints_daily.json：指纹库，记录标题/来源/URL 摘要的哈希、出现次数与时间戳。
   - reports/hotspot/daily/*.md：按日生成的分析报告，含 Top 清单、中国 AI 圈动态、人物观点、深度分析、选题建议、线索更新等。
+  - **_week_clues.json**：**周线索数据库**，追踪AI行业重大发展，包含线索ID、文本描述、日期、状态、信号强度等元数据。
 
 章节来源
 - [hotspot_engine.py:1-120](file://scripts/hotspot_engine.py#L1-L120)
@@ -87,13 +99,14 @@ S --> R
 - [hermes-config-backup.yaml:1-315](file://config/hermes-config-backup.yaml#L1-L315)
 - [fingerprints_daily.json:1-800](file://data/fingerprints_daily.json#L1-L800)
 - [report_2026-08-14.md:1-358](file://reports/hotspot/daily/report_2026-08-14.md#L1-L358)
+- [_week_clues.json:1-629](file://reports/hotspot/_week_clues.json#L1-L629)
 
 ## 架构总览
-系统采用“Python 采集 + LLM 分析”的分层架构：
+系统采用"Python 采集 + LLM 分析"的分层架构：
 - Python 层专注高可靠的数据抓取、去重与降级，输出结构化 JSON。
 - LLM 层基于 Skill 与模板进行价值判断、叙事构建与内容编排。
 - 配置层提供模型、MCP 工具与环境参数，确保稳定运行。
-- 数据层沉淀指纹、报告与线索，形成可回溯的知识资产。
+- **数据层**沉淀指纹、报告、**周线索数据库**与线索，形成可回溯的知识资产。
 
 ```mermaid
 sequenceDiagram
@@ -104,6 +117,7 @@ participant Sources as "各平台API/网页"
 participant Skill as "SKILL.md"
 participant LLM as "Hermes Agent"
 participant Report as "report_template.md"
+participant Clues as "_week_clues.json"
 Cron->>Engine : 触发每日/每周采集
 Engine->>Sources : 并发抓取(Reddit/HN/B站/百度/微信等)
 Engine->>Store : 指纹校验/标记/过期清理
@@ -111,19 +125,22 @@ Engine-->>Cron : 输出JSON(含元数据/失败源)
 Cron->>Skill : 加载策略与约束
 Skill->>LLM : 传入JSON+模板+平台评级
 LLM->>Report : 生成报告(Top清单/深度分析/选题建议)
+LLM->>Clues : 更新周线索数据库
 Report-->>Cron : 写入日报/周报
+Clues-->>Cron : 持久化线索追踪
 ```
 
-图表来源
+**图表来源**
 - [hotspot_engine.py:170-800](file://scripts/hotspot_engine.py#L170-L800)
 - [SKILL.md:1-101](file://skills/hotspot-research/SKILL.md#L1-L101)
 - [report_template.md:1-195](file://skills/hotspot-research/templates/report_template.md#L1-L195)
+- [_week_clues.json:1-629](file://reports/hotspot/_week_clues.json#L1-L629)
 
 ## 详细组件分析
 
 ### 热点采集引擎（hotspot_engine.py）
 - 指纹去重
-  - 以“标题归一化 + 来源域名 + URL路径摘要”生成 MD5 指纹，支持 seen_count 计数与 TTL 过期清理（日报7天/周报30天）。
+  - 以"标题归一化 + 来源域名 + URL路径摘要"生成 MD5 指纹，支持 seen_count 计数与 TTL 过期清理（日报7天/周报30天）。
   - 高质量源（Reddit/HN）提高排除阈值，普通源降低阈值以减少跨日期重复。
 - 多源采集
   - 内置 Reddit、HN、B站、百度热搜、搜狗微信、微博热搜、知乎热榜、海外博客/Newsletter 等采集方法。
@@ -149,7 +166,7 @@ ForEachSrc --> |否| Save["保存指纹/统计"]
 Save --> End(["结束"])
 ```
 
-图表来源
+**图表来源**
 - [hotspot_engine.py:68-168](file://scripts/hotspot_engine.py#L68-L168)
 - [hotspot_engine.py:173-800](file://scripts/hotspot_engine.py#L173-L800)
 
@@ -186,6 +203,23 @@ Save --> End(["结束"])
 章节来源
 - [hermes-config-backup.yaml:1-315](file://config/hermes-config-backup.yaml#L1-L315)
 
+### **周线索数据库（_week_clues.json）**
+- **数据结构**：包含周号、线索数组、更新时间、归档周号等元数据
+- **线索格式**：每条线索包含ID、文本描述、日期、状态、信号强度、首次/末次信号时间等
+- **覆盖范围**：第30-33周的AI行业发展，包括Meta Muse Code AI、Google收购谈判、OpenAI定价变化等重大事件
+- **信号分类**：强信号（🔴）、中信号（🟡）、弱信号（🟢），用于评估线索重要性
+- **趋势追踪**：支持线索的生命周期管理，从发现到归档的完整跟踪
+
+**主要线索示例**：
+- Meta发布Muse Code AI编程Agent（beta），子Agent并行架构，价格比竞品低10倍
+- Google与AI编程初创Mechanize谈判$15亿+交易，Jeff Dean离职创业
+- OpenAI GPT-5.6 Luna降价80%，Terra降价20%，Sol Fast Mode 2.5x
+- Anthropic拟以2万亿美元估值IPO，年底ARR预期1000-1200亿美元
+
+章节来源
+- [_week_clues.json:1-629](file://reports/hotspot/_week_clues.json#L1-L629)
+- [_week_clues_qoder.json:1-1052](file://reports/hotspot-research_qoder/_week_clues.json#L1-L1052)
+
 ### 数据与报告
 - 指纹库（fingerprints_daily.json）
   - 记录指纹、标题、来源、seen_count、首次/末次出现时间，用于去重与趋势追踪。
@@ -200,7 +234,7 @@ Save --> End(["结束"])
 - 组件耦合
   - hotspot_engine.py 强依赖 platforms.md（采集目标与方式）与 SKILL.md（约束与流程）。
   - LLM 依赖 report_template.md（输出格式）与 hermes-config-backup.yaml（模型与工具）。
-  - 数据层依赖指纹库与报告目录，保证可回溯与复用。
+  - **数据层**依赖指纹库、报告目录、**周线索数据库**，保证可回溯与复用。
 - 外部依赖
   - 平台 API/网页（Reddit、HN、B站、百度、搜狗、微博、知乎、Substack、博客等）。
   - MCP 服务（Brave Search）作为受限源的补充。
@@ -215,15 +249,18 @@ Skill --> Template["report_template.md"]
 Skill --> Config["hermes-config-backup.yaml"]
 Engine --> Data["fingerprints_daily.json"]
 Skill --> Reports["reports/hotspot/daily/*.md"]
+Skill --> Clues["_week_clues.json"]
+Reports --> Clues
 ```
 
-图表来源
+**图表来源**
 - [hotspot_engine.py:170-800](file://scripts/hotspot_engine.py#L170-L800)
 - [platforms.md:1-127](file://skills/hotspot-research/references/platforms.md#L1-L127)
 - [SKILL.md:1-101](file://skills/hotspot-research/SKILL.md#L1-L101)
 - [report_template.md:1-195](file://skills/hotspot-research/templates/report_template.md#L1-L195)
 - [hermes-config-backup.yaml:1-315](file://config/hermes-config-backup.yaml#L1-L315)
 - [fingerprints_daily.json:1-800](file://data/fingerprints_daily.json#L1-L800)
+- [_week_clues.json:1-629](file://reports/hotspot/_week_clues.json#L1-L629)
 
 ## 性能与稳定性
 - 采集性能
@@ -233,9 +270,10 @@ Skill --> Reports["reports/hotspot/daily/*.md"]
 - 稳定性
   - 受限源降级：当平台反爬/JS渲染/API变更时，记录失败原因并提供替代方案。
   - 认证墙处理：AI HOT 认证墙预检，及时切换到 Brave/搜狗/手动补采。
-- 可扩展性
+- **可扩展性**
   - 新增平台只需在 SourceCollector 中添加采集方法，并在 platforms.md 中登记评级与获取方式。
   - 报告模板扩展可在 template 中增加字段与章节，Skill 同步约束。
+  - **周线索数据库**支持灵活扩展，可添加新的线索类型、信号强度和追踪维度。
 
 [本节为通用指导，不直接分析具体文件]
 
@@ -250,10 +288,15 @@ Skill --> Reports["reports/hotspot/daily/*.md"]
 - 报告质量问题
   - 缺失发布日期：按模板强制规范补齐，无法确定则降级并标注。
   - 主题漂移：依据 platforms.md 与关键词过滤，保持赛道相关性。
+- **周线索数据库问题**
+  - 线索重复：检查ID唯一性约束，确保每条线索有唯一的标识符
+  - 信号强度不一致：统一信号分类标准，避免主观判断差异
+  - 归档逻辑错误：验证归档周号的正确性，确保线索生命周期管理正常
 - 调试建议
   - 查看 failed_sources 列表，定位失败源与原因。
   - 检查 fingerprints_daily.json 的 seen_count 与 last_seen，确认去重逻辑。
   - 使用 verify_report_template.py 进行后置结构校验（按需）。
+  - **监控周线索数据库的更新频率和质量**，确保线索追踪的连续性。
 
 章节来源
 - [SKILL.md:1-101](file://skills/hotspot-research/SKILL.md#L1-L101)
@@ -261,13 +304,20 @@ Skill --> Reports["reports/hotspot/daily/*.md"]
 - [hotspot_engine.py:252-771](file://scripts/hotspot_engine.py#L252-L771)
 
 ## 结论
-该系统通过“Python 采集 + LLM 分析”的清晰分工，实现了高可靠、可追溯、高质量的热点采集与报告生成。指纹去重、平台评级、AM/PM 版本规则与时效宣誓共同保障了内容的时效性与质量。未来可继续扩展平台源、优化降级策略，并强化线索库的长期价值。
+该系统通过"Python 采集 + LLM 分析"的清晰分工，实现了高可靠、可追溯、高质量的热点采集与报告生成。**最新的周线索数据库功能**显著增强了系统的长期价值追踪能力，能够持续记录和分析AI行业的重大发展，包括Meta的Muse Code AI、Google的收购谈判、OpenAI的定价策略调整等关键事件。指纹去重、平台评级、AM/PM 版本规则与时效宣誓共同保障了内容的时效性与质量。未来可继续扩展平台源、优化降级策略，并强化线索库的长期价值与趋势分析能力。
 
 [本节为总结性内容，不直接分析具体文件]
 
 ## 附录
 - 重构方案参考
   - 将 Python 脚本聚焦于数据采集与 JSON 输出，报告生成交由 LLM 与 Skill 完成，提升分析深度与叙事能力。
+- **周线索数据库使用指南**
+  - 线索录入：每条线索应包含唯一ID、清晰的文本描述、准确的日期和适当的状态标记
+  - 信号评估：根据影响范围和持续时间评估信号强度（强/中/弱）
+  - 生命周期管理：从发现到活跃再到归档的完整跟踪
+  - 趋势分析：通过时间序列分析识别AI行业的发展趋势和模式
 
 章节来源
 - [hotspot-report-refactor.md:1-138](file://plans/2026-04-28_233000-hotspot-report-refactor.md#L1-L138)
+- [_week_clues.json:1-629](file://reports/hotspot/_week_clues.json#L1-L629)
+- [_week_clues_qoder.json:1-1052](file://reports/hotspot-research_qoder/_week_clues.json#L1-L1052)
