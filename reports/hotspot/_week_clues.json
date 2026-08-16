@@ -608,9 +608,93 @@
       "title": "杭州 AI+OPC 企业超 2000 家，全国社区 95→618，非技术背景占 75%",
       "strength": "strong",
       "days": 1
+    },
+    {
+      "id": "ai_books_flooding",
+      "text": "三校研究：AI生成书籍占亚马逊自出版目录20%只赚12%销量，书目38.3倍vs收入8.9倍，7/8类型无AI书也掉收入",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "us_china_ai_pick_sides",
+      "text": "美国拟要求盟国在AI竞赛选边站（Pax Silica框架），波及AI/芯片/关键矿产供应链",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "qwen_3b_downloads",
+      "text": "阿里Qwen开源权重半年全球下载超30亿次，超越Meta/Google成全球第一",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "openai_anthropic_price_war",
+      "text": "OpenAI/Anthropic面对中国开源围攻打价格战，AlphaSense研究称单任务总成本美系仍可能划算",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "solopreneur_298m_17t",
+      "text": "美国独奏经济：2980万一人业主/1.7万亿美元营收，AI使用率高的行业增速更快",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_200b_2028",
+      "text": "Anthropic财务模型预测2028年营收2000亿美元，叠加2万亿估值IPO叙事",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "chengdu_kemeng_opc",
+      "text": "成都科梦OPC社区开园：全国首个科幻IP+AI社区，2500㎡/100+OPC/400+报名/首批15项目",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "shenzhen_tax_opc",
+      "text": "中国税务报：OPC创业者千元月成本雇6-7个AI员工，内容创业10+AI员工覆盖全流程制作成本1/10",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "claude_agents_turf_war",
+      "text": "Claude智能体在共享代码库打地盘战（多Agent共同所有者冲突），多Agent协作失控微观案例",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "ai_working_memory_hn",
+      "text": "HN热帖：AI工作记忆（1M+ tokens上下文）远超人脑，理解Agent长程能力认知框架（377pts）",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "codex_232x_research",
+      "text": "开发者用Codex自动研究/实验把一个内核优化232倍，AI研究助理从玩具变生产力（HN 385pts）",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "working_ai_leadership",
+      "text": "HN高分帖：和AI协作像领导团队而非写代码，人的价值从执行转向决策+验收（255pts/166评论）",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "zuckerberg_personal_agent",
+      "text": "扎克伯格：人人都将拥有超强个人智能体，与Muse Glimmer本地Agent布局呼应",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "eisman_ai_boom_warning",
+      "text": "大空头Eisman警告AI繁荣依赖OpenAI和Anthropic两家公司，集中度风险",
+      "date": "2026-08-15",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-15 08:05:33",
+  "updated": "2026-08-16 08:04:37",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
