@@ -1036,17 +1036,18 @@
     "first_seen": "2026-08-13"
   },
   "W-33-08": {
-    "topic": "语音合成技术突破",
-    "signal": "🔴强",
-    "desc": "小红书 dots.tts Seed-TTS-Eval 三项最佳成绩",
-    "days": 1,
-    "first_seen": "2026-08-13"
+    "topic": "AI隐私与思维链安全",
+    "first_day": "2026-08-16",
+    "signal": "加密CoT攻击破解三大厂"
   },
   "W-33-09": {
-    "topic": "移动办公 AI 化",
-    "signal": "🔴强",
-    "desc": "WorkBuddy 远程控制打通多设备无需扫码",
-    "days": 1,
-    "first_seen": "2026-08-13"
+    "topic": "AI操纵力与社会工程",
+    "first_day": "2026-08-16",
+    "signal": "AI杀猪盘说服率46% vs 人类18%"
+  },
+  "W-33-10": {
+    "topic": "AI安全路线之争（开源vs监管）",
+    "first_day": "2026-08-16",
+    "signal": "Amodei否定开源权重方案"
   }
 }
