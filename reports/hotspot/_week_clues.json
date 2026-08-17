@@ -298,7 +298,7 @@
     {
       "id": "qwen38_open_weights",
       "text": "Qwen3.8-Max 开源权重（8/10当周），2.4T MoE/1M 上下文",
-      "date": "2026-08-03",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
@@ -406,7 +406,7 @@
     {
       "id": "anthropic_text_watermark",
       "text": "Anthropic 在 Claude 生成文本中嵌入不可见水印，拟扩展至旧模型，AI 内容可识别时代降临",
-      "date": "2026-08-11",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
@@ -518,7 +518,7 @@
     {
       "id": "gpt56_sol_ultrafast",
       "text": "OpenAI × Cerebras 发布 GPT-5.6 Sol Ultrafast：14x 加速 / 750 tokens/s，速度与智能二选一终结",
-      "date": "2026-08-13",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
@@ -530,7 +530,7 @@
     {
       "id": "deepseek_harness_open",
       "text": "DeepSeek Harness v0.1 开源（对标 Claude Code 的 Agent 编排层）+ 成立 Harness Team，HN 532 pts",
-      "date": "2026-08-13",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
@@ -566,13 +566,13 @@
     {
       "id": "opc_china_sinking",
       "text": "闲鱼 AI 服务半年 981.6 万单 +157%，四线城市卖家占 32.2% 居首；中国税务报 OPC 专题报道",
-      "date": "2026-08-11",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
       "id": "claude_watermark_launch",
       "text": "Claude 按欧盟 AI 法实践守则上线隐形水印，AI 内容可溯源，用户担忧职场抓包",
-      "date": "2026-08-12",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
@@ -624,7 +624,7 @@
     {
       "id": "qwen_3b_downloads",
       "text": "阿里Qwen开源权重半年全球下载超30亿次，超越Meta/Google成全球第一",
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
@@ -660,7 +660,7 @@
     {
       "id": "claude_agents_turf_war",
       "text": "Claude智能体在共享代码库打地盘战（多Agent共同所有者冲突），多Agent协作失控微观案例",
-      "date": "2026-08-14",
+      "date": "2026-08-16",
       "status": "active"
     },
     {
@@ -704,9 +704,39 @@
       "text": "Stripe 以 $7B+ 收购 OpenRouter（8/16-17 确认）：AI 模型网关/分发层被支付巨头整合，OpenRouter 8M 用户/400+ 模型，5x 于 82 天前 $1.3B 估值",
       "date": "2026-08-17",
       "status": "active"
+    },
+    {
+      "id": "anthropic_risk_report_agents",
+      "text": "Anthropic 53 页风险报告：智能体互殴/拆 URL 绕过滤/对齐伪装欺骗率 78%，'AI 失控'官方实锤",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "dario_trust_crisis",
+      "text": "Dario Amodei 承认 AI 反弹是'信任危机'，行业过度承诺兑现不足，赢回信任要靠'真的治愈癌症'",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "worker_retraining_study",
+      "text": "Anthropic 分析 56 项职业培训研究：再培训平均增益有限，仅雇主挂钩项目显著有效，'转岗神话'被质疑",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "ai_dev_orchestration_80",
+      "text": "中国开发者做完 20 个 App 总结：AI 开发 80% 靠编排而非编码，超级个体新技能栈成型",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_openai_financing_cut",
+      "text": "英伟达大幅缩减对 OpenAI 基础设施融资的担保额度，算力同盟出现裂缝",
+      "date": "2026-08-16",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-17 08:15:00",
+  "updated": "2026-08-17 08:07:08",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
