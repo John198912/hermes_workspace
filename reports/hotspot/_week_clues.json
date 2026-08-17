@@ -1,5 +1,5 @@
 {
-  "week": 33,
+  "week": 34,
   "clues": [
     {
       "id": "meta_muse_code",
@@ -692,9 +692,21 @@
       "text": "大空头Eisman警告AI繁荣依赖OpenAI和Anthropic两家公司，集中度风险",
       "date": "2026-08-15",
       "status": "active"
+    },
+    {
+      "id": "nvidia_openai_250b_guarantee",
+      "text": "Nvidia 削减 OpenAI $250B 数据中心融资担保（Reuters 8/14，HN 69pts），巨头算力合作裂缝信号",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "stripe_openrouter_7b",
+      "text": "Stripe 以 $7B+ 收购 OpenRouter（8/16-17 确认）：AI 模型网关/分发层被支付巨头整合，OpenRouter 8M 用户/400+ 模型，5x 于 82 天前 $1.3B 估值",
+      "date": "2026-08-17",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-16 08:04:37",
+  "updated": "2026-08-17 08:15:00",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
