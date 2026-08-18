@@ -9,18 +9,22 @@
 - [report_template.md](file://skills/hotspot-research/templates/report_template.md)
 - [hermes-config-backup.yaml](file://config/hermes-config-backup.yaml)
 - [fingerprints_daily.json](file://data/fingerprints_daily.json)
-- [report_2026-08-16.md](file://reports/hotspot/daily/report_2026-08-16.md)
-- [report_daily_2026-08-16.md](file://reports/hotspot-research_qoder/report_daily_2026-08-16.md)
+- [eco_scan_2026-08-17.md](file://reports/ecosystem/eco_scan_2026-08-17.md)
+- [report_2026-08-17.md](file://reports/hotspot/daily/report_2026-08-17.md)
+- [report_daily_2026-08-17.md](file://reports/hotspot-research_qoder/report_daily_2026-08-17.md)
+- [weekly_report_2026-08-17.md](file://reports/hotspot/weekly/weekly_report_2026-08-17.md)
 - [_week_clues.json](file://reports/hotspot/_week_clues.json)
 - [_week_clues_qoder.json](file://reports/hotspot-research_qoder/_week_clues.json)
 </cite>
 
 ## 更新摘要
 **变更内容**
-- **新增六通道并行采集方法论**：日报系统现已实现六个独立信息源的并发采集（AI HOT RSS、Brave MCP搜索、byted-web中文搜索、Jina博客、Browser HN、周线索文件），显著提升数据采集效率和质量
-- **增强Qoder研究流专用报告**：324行深度分析报告专注于AI转型趋势，包含Claude水印退订潮、加密思维链破解、AI店长解雇人类等前沿话题
-- **完善周线索数据库系统**：两个数据流均具备持久化ID管理的复杂周线索追踪系统，支持线索生命周期管理和信号强度评估
-- **提升报告质量与时效性**：通过多源交叉验证、智能去重机制和受限源降级策略，确保报告的准确性和及时性
+- **新增生态系统扫描报告第11期**：完整的生态评估体系，涵盖Skills Hub恢复、GitHub新仓库发现、HERMES-ECO评分体系
+- **增强每日热点分析能力**：覆盖Stripe收购OpenRouter（70亿美元）、Anthropic风险报告、AI智能体安全监控等前沿话题
+- **完善周趋势合成系统**：Week 34（8月10-16日）综合分析报告，整合三大主线叙事
+- **新增AI智能体安全监控功能**：多Agent协作治理、对齐伪装检测、权限边界管理
+- **强化市场资本化追踪**：Anthropic $2万亿IPO预测、SpaceX收购Cursor、算力基建融资模式创新
+- **提升监管合规分析能力**：欧盟AI法案透明度要求、水印机制、内容溯源制度
 
 ## 目录
 1. [简介](#简介)
@@ -35,7 +39,7 @@
 10. [附录](#附录)
 
 ## 简介
-本系统是一个面向"AI×超级个体"赛道的自动化热点采集与分析工作流。通过**六通道并行采集**、指纹去重、结构化数据输出，再由 LLM（Hermes/Qoder Agent）结合 Skill 模板生成高质量日报/周报，最终沉淀为可检索的报告资产与线索库。**最新增强**：系统现已实现完整的六通道并行采集方法论，能够同时处理多个信息源，包括AI HOT RSS、Brave MCP搜索、byted-web中文搜索、Jina博客、Browser HN和周线索文件，大幅提升数据采集效率和覆盖范围。
+本系统是一个面向"AI×超级个体"赛道的自动化热点采集与分析工作流。通过**六通道并行采集**、指纹去重、结构化数据输出，再由 LLM（Hermes/Qoder Agent）结合 Skill 模板生成高质量日报/周报，最终沉淀为可检索的报告资产与线索库。**最新增强**：系统现已实现完整的生态系统扫描能力，能够同时处理多个信息源，包括AI HOT RSS、Brave MCP搜索、byted-web中文搜索、Jina博客、Browser HN和周线索文件，大幅提升数据采集效率和覆盖范围。
 
 ## 项目结构
 - **采集与执行**：Python 引擎负责跨平台抓取、指纹去重、异常降级与 JSON 产出；Skill 定义策略与流程；配置管理模型与工具集。
@@ -57,6 +61,7 @@ subgraph "智能分析层"
 S["SKILL.md<br/>策略/约束/流程"]
 T["report_template.md<br/>报告模板"]
 C["hermes-config-backup.yaml<br/>模型/MCP/工具"]
+ES["生态系统扫描器<br/>HERMES-ECO v1.0"]
 end
 subgraph "数据资产层"
 FP["fingerprints_daily.json<br/>指纹库"]
@@ -64,6 +69,7 @@ R1["reports/hotspot/daily/*.md<br/>主报告流"]
 R2["reports/hotspot-research_qoder/*.md<br/>研究流"]
 W1["_week_clues.json<br/>主线索库"]
 W2["_week_clues_qoder.json<br/>研究线索库"]
+EC["reports/ecosystem/*.md<br/>生态扫描报告"]
 end
 E --> FP
 E --> |"JSON"| S
@@ -73,6 +79,7 @@ S --> R1
 S --> R2
 S --> W1
 S --> W2
+ES --> EC
 A --> E
 B --> E
 C --> E
@@ -83,8 +90,8 @@ G --> E
 
 **图表来源**
 - [hotspot_engine.py:173-800](file://scripts/hotspot_engine.py#L173-L800)
-- [report_2026-08-16.md:307-311](file://reports/hotspot/daily/report_2026-08-16.md#L307-L311)
-- [report_daily_2026-08-16.md:258-262](file://reports/hotspot-research_qoder/report_daily_2026-08-16.md#L258-L262)
+- [eco_scan_2026-08-17.md:10-25](file://reports/ecosystem/eco_scan_2026-08-17.md#L10-L25)
+- [report_2026-08-17.md:290-295](file://reports/hotspot/daily/report_2026-08-17.md#L290-L295)
 
 章节来源
 - [README.md:1-29](file://README.md#L1-L29)
@@ -93,9 +100,12 @@ G --> E
 - **六通道并行采集引擎**（hotspot_engine.py）
   - 职责：同时处理AI HOT RSS、Brave MCP搜索、byted-web搜索、Jina博客、Browser HN、周线索文件等多个信息源，实现高效并行采集
   - 关键类：FingerprintStore（指纹存储/过期清理）、SourceCollector（多源采集器集合）
+- **生态系统扫描器**（HERMES-ECO v1.0）
+  - 职责：定期扫描Hermes生态技能库，评估技能成熟度、社区活跃度、实用价值
+  - 评分维度：WF（工作流匹配度）、MS（成熟度）、AD（易用性）、GV（替代价值）、EH（社区热度）、US（用户满意度）
 - **双轨报告系统**
-  - 主报告流：362行综合热点报告，涵盖AI行业全貌
-  - 研究流：324行深度分析报告，专注AI转型趋势
+  - 主报告流：346行综合热点报告，涵盖AI行业全貌
+  - 研究流：336行深度分析报告，专注AI转型趋势
 - **智能线索管理系统**
   - 主线索库：追踪AI行业重大发展事件
   - 研究线索库：专注AI安全、隐私、治理等专业领域
@@ -106,15 +116,17 @@ G --> E
 
 章节来源
 - [hotspot_engine.py:173-800](file://scripts/hotspot_engine.py#L173-L800)
-- [report_2026-08-16.md:307-311](file://reports/hotspot/daily/report_2026-08-16.md#L307-L311)
-- [report_daily_2026-08-16.md:258-262](file://reports/hotspot-research_qoder/report_daily_2026-08-16.md#L258-L262)
-- [_week_clues.json:1-713](file://reports/hotspot/_week_clues.json#L1-L713)
-- [_week_clues_qoder.json:1-1053](file://reports/hotspot-research_qoder/_week_clues.json#L1-L1053)
+- [eco_scan_2026-08-17.md:28-44](file://reports/ecosystem/eco_scan_2026-08-17.md#L28-L44)
+- [report_2026-08-17.md:290-295](file://reports/hotspot/daily/report_2026-08-17.md#L290-L295)
+- [report_daily_2026-08-17.md:290-295](file://reports/hotspot-research_qoder/report_daily_2026-08-17.md#L290-L295)
+- [_week_clues.json:1-200](file://reports/hotspot/_week_clues.json#L1-L200)
+- [_week_clues_qoder.json:1-200](file://reports/hotspot-research_qoder/_week_clues.json#L1-L200)
 
 ## 架构总览
-系统采用"**六通道并行采集 + 双轨智能分析**"的分层架构：
+系统采用"**六通道并行采集 + 双轨智能分析 + 生态系统扫描**"的分层架构：
 - **采集层**：六个独立信息源并行工作，每个通道独立try-except保护，单源失败不影响整体
 - **分析层**：Hermes/Qoder Agent基于Skill与模板进行价值判断、叙事构建与内容编排
+- **生态层**：定期扫描Hermes生态技能库，评估技能成熟度和社区活跃度
 - **配置层**：提供模型、MCP 工具与环境参数，确保稳定运行
 - **数据层**：沉淀指纹、报告、**双轨周线索数据库**与线索，形成可回溯的知识资产
 
@@ -127,12 +139,16 @@ participant Store as "FingerprintStore"
 participant Skill as "SKILL.md"
 participant LLM as "Hermes/Qoder Agent"
 participant Report as "report_template.md"
+participant Scanner as "生态系统扫描器"
 participant Clues as "双轨线索库"
 Cron->>Engine : 触发每日/每周采集
 Engine->>Sources : 六通道并行采集
 Note over Sources : AI HOT RSS + Brave MCP + byted-web + Jina + HN + 线索文件
 Engine->>Store : 指纹校验/标记/过期清理
 Engine-->>Cron : 输出JSON(含元数据/失败源)
+Cron->>Scanner : 启动生态扫描
+Scanner->>Sources : 扫描Skills Hub/GitHub/awesome-list
+Scanner-->>Cron : 输出生态评估报告
 Cron->>Skill : 加载策略与约束
 Skill->>LLM : 传入JSON+模板+平台评级
 LLM->>Report : 生成双轨报告(主报告+研究流)
@@ -143,10 +159,38 @@ Clues-->>Cron : 持久化线索追踪
 
 **图表来源**
 - [hotspot_engine.py:173-800](file://scripts/hotspot_engine.py#L173-L800)
-- [report_2026-08-16.md:307-311](file://reports/hotspot/daily/report_2026-08-16.md#L307-L311)
-- [report_daily_2026-08-16.md:258-262](file://reports/hotspot-research_qoder/report_daily_2026-08-16.md#L258-L262)
+- [eco_scan_2026-08-17.md:10-25](file://reports/ecosystem/eco_scan_2026-08-17.md#L10-L25)
+- [report_2026-08-17.md:290-295](file://reports/hotspot/daily/report_2026-08-17.md#L290-L295)
 
 ## 详细组件分析
+
+### 生态系统扫描器（HERMES-ECO v1.0）
+- **三源扫描架构**
+  - Source A（Skills Hub）：Jina Reader恢复后返回真实目录（90,698 skills / 82 Built-in / 115 Optional / 90501 Community）
+  - Source B（GitHub API）：近30天新仓库搜索，本期首次出现多个100+⭐高质量Hermes兼容仓库
+  - Source C（awesome-list）：245条目清单，last reviewed 2026-07-16未更新
+- **评分体系**
+  - WF（工作流匹配度）：解决用户实际工作流痛点的能力
+  - MS（成熟度）：从experimental到production的演进状态
+  - AD（易用性）：安装配置复杂度与学习成本
+  - GV（替代价值）：本地是否有等效解决方案
+  - EH（社区热度）：GitHub Stars增长趋势与活跃度
+  - US（用户满意度）：累计用户反馈与使用体验
+- **Top 10推荐清单**
+  - rtk-hermes（83.9分，Essential，第11周等待验证）
+  - drawio-skill（78.0分，Recommended，第10周）
+  - hermes-web-search-plus（76.1分，Recommended，第2周）
+  - agenttrace（74.8分，Recommended，第10周）
+  - youtube-skills（72.4分，Recommended，第10周）
+  - coding-posture（70.4分，Recommended，第6周）
+  - mission-control（69.8分，Recommended，维持）
+  - hermes-council（67.4分，Recommended，维持）
+  - MeiGen-AI-Design-MCP（67.2分，Recommended，维持）
+  - hermes-field-kit（65.7分，Recommended，新发现）
+
+章节来源
+- [eco_scan_2026-08-17.md:10-44](file://reports/ecosystem/eco_scan_2026-08-17.md#L10-L44)
+- [eco_scan_2026-08-17.md:47-117](file://reports/ecosystem/eco_scan_2026-08-17.md#L47-L117)
 
 ### 六通道并行采集引擎（hotspot_engine.py）
 - **并行采集架构**
@@ -185,24 +229,44 @@ Save --> End(["结束"])
 - [hotspot_engine.py:173-800](file://scripts/hotspot_engine.py#L173-L800)
 
 ### 双轨报告系统
-- **主报告流**（report_2026-08-16.md）
-  - 362行综合热点报告，涵盖AI行业全貌
+- **主报告流**（report_2026-08-17.md）
+  - 346行综合热点报告，涵盖AI行业全貌
   - Top 20优先排序，包含中国AI圈动态、关键人物观点、深度分析、选题建议等完整章节
-  - 六通道采集统计：AI HOT RSS 50条 + Brave MCP 5组搜索 + byted-web 5组中文搜索 + Jina博客 8/8 + Browser HN 30条 + 周线索文件
-- **研究流**（report_daily_2026-08-16.md）
-  - 324行深度分析报告，专注AI转型趋势
+  - 六通道采集统计：AI HOT RSS 50条 + Brave MCP 5组搜索 + Tavily web_search 1组 + byted-web 6组中文搜索 + Jina博客 4/8 + Browser HN 2页60条
+- **研究流**（report_daily_2026-08-17.md）
+  - 336行深度分析报告，专注AI转型趋势
   - 聚焦AI安全、隐私、治理等专业领域
   - 多维度信息聚合：AI HOT API + aiweekly.co + 钛媒体 Edge AI Daily + WebSearch中英文 + Sam Altman博客 + Karpathy博客
 
 章节来源
-- [report_2026-08-16.md:307-311](file://reports/hotspot/daily/report_2026-08-16.md#L307-L311)
-- [report_daily_2026-08-16.md:258-262](file://reports/hotspot-research_qoder/report_daily_2026-08-16.md#L258-L262)
+- [report_2026-08-17.md:10-37](file://reports/hotspot/daily/report_2026-08-17.md#L10-L37)
+- [report_daily_2026-08-17.md:10-27](file://reports/hotspot-research_qoder/report_daily_2026-08-17.md#L10-L27)
+
+### 周趋势合成系统（Week 34）
+- **三大主线叙事**
+  - AI智能体"失控"从技术新闻升级为政治事件：OpenAI/Anthropic/Meta三家智能体一周内相继被曝"自作主张"
+  - AI资本化进入"万亿叙事"：Anthropic拟$2万亿估值IPO，SpaceX完成$60B收购Cursor
+  - 中国开源主导地位被硬数据坐实：阿里Qwen3.8开源，半年全球下载破30亿成世界第一
+- **Top 10重大信号**
+  - AI智能体失控潮：桑德斯最后通牒 + 英伟达牵头OSAA
+  - Anthropic拟$2万亿估值10月IPO
+  - 阿里Qwen3.8开源，半年全球下载破30亿
+  - GPT-5.6 Sol Ultrafast：Cerebras驱动14x加速
+  - SpaceX完成$60B收购Cursor
+  - AI生成书籍洪水实证
+  - GLM-5.3编程开源第一
+  - 美国独奏经济：2980万一人业主/$1.7万亿营收
+  - OPC中国下沉：杭州2000+家、全国社区95→618
+  - Claude隐形水印全球落地
+
+章节来源
+- [weekly_report_2026-08-17.md:10-35](file://reports/hotspot/weekly/weekly_report_2026-08-17.md#L10-L35)
 
 ### 双轨周线索数据库系统
 - **主线索库**（_week_clues.json）
   - 数据结构：包含周号、线索数组、更新时间、归档周号等元数据
   - 线索格式：每条线索包含ID、文本描述、日期、状态、信号强度、首次/末次信号时间等
-  - 覆盖范围：第30-33周的AI行业发展，包括Meta Muse Code AI、Google收购谈判、OpenAI定价变化等重大事件
+  - 覆盖范围：第30-34周的AI行业发展，包括Meta Muse Code AI、Google收购谈判、OpenAI定价变化等重大事件
   - 信号分类：强信号（🔴）、中信号（🟡）、弱信号（🟢），用于评估线索重要性
 - **研究线索库**（_week_clues_qoder.json）
   - 持久化ID管理：每周一线索ID从 `W-{week_num}-{topic_seq}` 格式，不再每天重新分配
@@ -216,8 +280,8 @@ Save --> End(["结束"])
 - Anthropic拟以2万亿美元估值IPO，年底ARR预期1000-1200亿美元
 
 章节来源
-- [_week_clues.json:1-713](file://reports/hotspot/_week_clues.json#L1-L713)
-- [_week_clues_qoder.json:1-1053](file://reports/hotspot-research_qoder/_week_clues.json#L1-L1053)
+- [_week_clues.json:1-200](file://reports/hotspot/_week_clues.json#L1-L200)
+- [_week_clues_qoder.json:1-200](file://reports/hotspot-research_qoder/_week_clues.json#L1-L200)
 
 ### 平台与来源（platforms.md）
 - 国内平台：小红书、B站、抖音、微博、知乎、投资界/惊蛰研究所等，明确评级与获取方式
@@ -257,6 +321,7 @@ Skill --> Reports1["reports/hotspot/daily/*.md"]
 Skill --> Reports2["reports/hotspot-research_qoder/*.md"]
 Skill --> Clues1["_week_clues.json"]
 Skill --> Clues2["_week_clues_qoder.json"]
+Skill --> Ecosystem["reports/ecosystem/*.md"]
 Reports1 --> Clues1
 Reports2 --> Clues2
 ```
@@ -281,6 +346,7 @@ Reports2 --> Clues2
   - **新通道扩展**：只需在 SourceCollector 中添加新的采集方法，并在 platforms.md 中登记评级与获取方式
   - **报告模板扩展**：可在 template 中增加字段与章节，Skill 同步约束
   - **线索库扩展**：双轨周线索数据库支持灵活扩展，可添加新的线索类型、信号强度和追踪维度
+  - **生态扫描扩展**：HERMES-ECO评分体系支持新增评估维度和权重调整
 
 ## 故障排查指南
 - **常见采集失败**
@@ -301,6 +367,10 @@ Reports2 --> Clues2
   - **线索重复**：检查ID唯一性约束，确保每条线索有唯一的标识符
   - **信号强度不一致**：统一信号分类标准，避免主观判断差异
   - **归档逻辑错误**：验证归档周号的正确性，确保线索生命周期管理正常
+- **生态扫描问题**
+  - **Skills Hub连接失败**：检查Jina Reader状态，切换到GitHub API或awesome-list
+  - **评分计算异常**：验证WF/MS/AD/GV/EH/US各维度权重计算逻辑
+  - **新仓库发现延迟**：调整GitHub API搜索频率和缓存策略
 - **调试建议**
   - 查看 failed_sources 列表，定位失败源与原因
   - 检查 fingerprints_daily.json 的 seen_count 与 last_seen，确认去重逻辑
@@ -313,7 +383,7 @@ Reports2 --> Clues2
 - [hotspot_engine.py:252-771](file://scripts/hotspot_engine.py#L252-L771)
 
 ## 结论
-该系统通过"**六通道并行采集 + 双轨智能分析**"的清晰分工，实现了高可靠、可追溯、高质量的热点采集与报告生成。**最新的六通道并行采集方法论**显著提升了系统的信息采集效率和覆盖范围，能够同时处理AI HOT RSS、Brave MCP搜索、byted-web搜索、Jina博客、Browser HN和周线索文件等多个信息源。**双轨周线索数据库系统**进一步增强了长期价值追踪能力，能够持续记录和分析AI行业的重大发展，包括Meta的Muse Code AI、Google的收购谈判、OpenAI的定价策略调整等关键事件。指纹去重、平台评级、AM/PM 版本规则与时效宣誓共同保障了内容的时效性与质量。未来可继续扩展新采集通道、优化并行调度策略，并强化线索库的长期价值与趋势分析能力。
+该系统通过"**六通道并行采集 + 双轨智能分析 + 生态系统扫描**"的清晰分工，实现了高可靠、可追溯、高质量的热点采集与报告生成。**最新的生态系统扫描能力**显著提升了系统的信息采集效率和覆盖范围，能够同时处理AI HOT RSS、Brave MCP搜索、byted-web搜索、Jina博客、Browser HN和周线索文件等多个信息源。**双轨周线索数据库系统**进一步增强了长期价值追踪能力，能够持续记录和分析AI行业的重大发展，包括Meta的Muse Code AI、Google的收购谈判、OpenAI的定价策略调整等关键事件。**Week 34的综合分析**展示了系统在复杂信息环境下的处理能力，成功整合了AI智能体失控、万亿资本叙事和中国开源主导三大主线。指纹去重、平台评级、AM/PM 版本规则与时效宣誓共同保障了内容的时效性与质量。未来可继续扩展新采集通道、优化并行调度策略，并强化线索库的长期价值与趋势分析能力。
 
 ## 附录
 - **重构方案参考**
@@ -327,9 +397,16 @@ Reports2 --> Clues2
   - **信号评估**：根据影响范围和持续时间评估信号强度（强/中/弱）
   - **生命周期管理**：从发现到活跃再到归档的完整跟踪
   - **趋势分析**：通过时间序列分析识别AI行业的发展趋势和模式
+- **生态系统扫描使用指南**
+  - **评分标准**：理解WF/MS/AD/GV/EH/US各维度的含义和权重
+  - **新技能评估**：对新发现的技能进行多维度评估，重点关注工作流匹配度和替代价值
+  - **趋势追踪**：关注Skills Hub恢复状态、GitHub新仓库发现、awesome-list更新情况
+  - **采纳决策**：基于评分体系和用户需求做出合理的技能采纳决策
 
 章节来源
-- [report_2026-08-16.md:307-311](file://reports/hotspot/daily/report_2026-08-16.md#L307-L311)
-- [report_daily_2026-08-16.md:258-262](file://reports/hotspot-research_qoder/report_daily_2026-08-16.md#L258-L262)
-- [_week_clues.json:1-713](file://reports/hotspot/_week_clues.json#L1-L713)
-- [_week_clues_qoder.json:1-1053](file://reports/hotspot-research_qoder/_week_clues.json#L1-L1053)
+- [eco_scan_2026-08-17.md:236-257](file://reports/ecosystem/eco_scan_2026-08-17.md#L236-L257)
+- [report_2026-08-17.md:290-346](file://reports/hotspot/daily/report_2026-08-17.md#L290-L346)
+- [report_daily_2026-08-17.md:290-336](file://reports/hotspot-research_qoder/report_daily_2026-08-17.md#L290-L336)
+- [weekly_report_2026-08-17.md:203-235](file://reports/hotspot/weekly/weekly_report_2026-08-17.md#L203-L235)
+- [_week_clues.json:1-200](file://reports/hotspot/_week_clues.json#L1-L200)
+- [_week_clues_qoder.json:1-200](file://reports/hotspot-research_qoder/_week_clues.json#L1-L200)
