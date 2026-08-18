@@ -734,9 +734,69 @@
       "text": "英伟达大幅缩减对 OpenAI 基础设施融资的担保额度，算力同盟出现裂缝",
       "date": "2026-08-16",
       "status": "active"
+    },
+    {
+      "id": "openai_preparedness_disband",
+      "text": "OpenAI 解散 Preparedness 安全团队（两年内第3个），IPO 前夕安全治理空心化，伦理负责人/首席未来学家离职",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_ohio_105b",
+      "text": "Nvidia 最高 $105B 担保 OpenAI 俄亥俄数据中心，SB Energy 承建 8GW/20年租约，$1.5B 入股，Huang 称 2030 前 $600B 营收",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "unitree_ipo_confirm",
+      "text": "宇树科技 8/19 科创板上市（688836）人形机器人第一股：150.8元/609.93亿市值/募资60.99亿/申购978万户创纪录/中签率0.0181%新低/DeepSeek战略配售协同",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "cursor_origin_launch",
+      "text": "Cursor 发布 Origin 原生代码托管平台叫板 GitHub（repo/PR/review/merge/CI 全内嵌），同日 GitHub 全球故障 + Ask HN 替代 GitHub 477pts",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "copilot_autofix_breach",
+      "text": "Wiz：AI 生成的 GitHub Copilot Autofix 修复本身成为攻破 Snowflake Jira 的漏洞跳板（HN 305pts），AI 代码安全悖论实锤",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "gartner_inference_paradox",
+      "text": "Gartner 推断悖论：Agent 工作流推理成本 2028 前涨 5 倍，AI 总支出 $2.59T，模型降价反而推高总成本",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "ai_81pct_vc",
+      "text": "AI 公司 Q1 拿走 81% 全球风投，H1 $510B 纪录，非 AI 创业公司份额历史最低（资本极化）",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "gpt56_sol_price_cut_50",
+      "text": "GPT-5.6 Sol 在 OpenRouter 降价 50% + 1M token 上下文扩展给 ChatGPT 订阅者，价格战平民化阶段",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "china_oss_shock_ft",
+      "text": "FT：下一场中国冲击来自开源 AI（采用中国模型=吸收中国标准）；Bloomberg 美国护城河失守；CNA 硅谷分裂；美国考虑限制",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "claude_watermark_backlash",
+      "text": "Claude 水印采用 Google SynthID-Text；误标'抢功'12例实证（kmleon）；John Gruber 斥'公然冒犯'；Claude Max 用户退订潮",
+      "date": "2026-08-17",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-17 08:07:08",
+  "updated": "2026-08-18 08:05:00",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
