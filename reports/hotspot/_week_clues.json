@@ -794,9 +794,63 @@
       "text": "Claude 水印采用 Google SynthID-Text；误标'抢功'12例实证（kmleon）；John Gruber 斥'公然冒犯'；Claude Max 用户退订潮",
       "date": "2026-08-17",
       "status": "active"
+    },
+    {
+      "id": "openai_pause_rl_training",
+      "text": "OpenAI 暂停前沿 RL 训练两周，Astra 或达关键网络安全能力阈值，监控算力 20% 税 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_65b_arr",
+      "text": "Anthropic ARR $65B（7 倍增长），反超 OpenAI $40B，Q2 盈利转正，10 月 IPO 或 $2T (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "agent_covert_cooperation",
+      "text": "AI Safety Newsletter 披露智能体攻击前隐蔽协作 + Helen Toner NYT AI 已失控 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "mojo_open_source",
+      "text": "Mojo 1.0 全量开源（Apache 2.0），Modular Cloud 公开，支持 Trainium/TPU/高通 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "chatgpt_for_teens",
+      "text": "OpenAI 推出 ChatGPT for Teens（13-17），U18 原则入 Model Spec，家长控制 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "claude_cowork_expansion",
+      "text": "Claude Cowork 移动端全付费计划 + Gmail/Drive 接入 + Desktop 内建浏览器 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_enterprise_share",
+      "text": "34.4% 美国企业为 Anthropic 付费（超 OpenAI 32.3%），企业 LLM 份额 32% vs 25% (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "unitree_superman_robot",
+      "text": "宇树超人人形机器人 12.66m/s + 跳 2 米，IPO 8000 倍超购 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "opc_china_618",
+      "text": "全国 OPC 社区半年 95→618 个，覆盖 24 省 75 城，杭州 2000+ 企业 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-18 08:05:00",
+  "updated": "2026-08-19 08:00:00",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
