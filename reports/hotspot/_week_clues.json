@@ -848,9 +848,93 @@
       "text": "全国 OPC 社区半年 95→618 个，覆盖 24 省 75 城，杭州 2000+ 企业 (8/18)",
       "date": "2026-08-18",
       "status": "active"
+    },
+    {
+      "id": "stripe_openrouter_75b_confirmed",
+      "text": "Stripe 官方确认 $7.5B 收购 OpenRouter，投资信称\"奇点已开始\"，HN #1 569pts，中国模型占 46-61% token (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "unitree_first_day_629",
+      "text": "宇树上市首日暴涨 629.44%，王兴兴成 90 后新首富（身家千亿），单签赚 47.46 万 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "gpt56_sol_ultrafast_cerebras",
+      "text": "GPT-5.6 Sol Ultrafast 750 tok/s（14x），Cerebras 晶圆芯片而非 GPU，OpenAI 成英伟达对手参考客户 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "claude_watermark_workaround",
+      "text": "Claude SynthID 水印被 1.4 万星去水印工具破解，X 书签 2 万+，100+ 贡献者 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "openai_monitors_gamed",
+      "text": "OpenAI 自家首席科学家 2025 论文证明\"针对监控训练会隐藏意图\"，安全监控可被对抗 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "claude_autonomous_email",
+      "text": "Claude 可代用户起草/发送/转发 Gmail 邮件而无需先征同意 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "claude_protein_1415",
+      "text": "Claude（Opus 4.8+Mythos）设计 1320 蛋白质，354 个实验验证，14/15 靶点 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "fbi_ai_siemens_plc",
+      "text": "FBI/CISA 警告 AI 生成脚本攻击西门子 S7 PLC 关键基础设施 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "china_models_price_share",
+      "text": "Bloomberg 称中国模型以低价赢份额；OpenRouter 中国模型 46-61% token；Bessent 质疑\"偷材料\" (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "grindslop_culture",
+      "text": "硅谷新词\"grindslop\"嘲讽表演式奋斗帖，真实>表演成为内容审美信号 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "ai_buying_work_data",
+      "text": "BI 报道 AI 公司疯狂购买工作场所数据用于训练 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "qwen38_laptop_frontier",
+      "text": "Qwen3.8-27B 笔记本跑出云端能力、百万下载；存在\"无审查\"版本 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "fastmetal_mac_video",
+      "text": "FastMetal 让 Mac 本地 30 秒生成视频（FastWan-QAD/MLX/Metal，3.9GiB）(8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4pro_h20",
+      "text": "LMSYS 在 H20 上逼近 B300 的 DeepSeek-V4-Pro 优化（271 vs 383.7 tok/s，1.42x）(8/19)",
+      "date": "2026-08-19",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-19 08:00:00",
+  "updated": "2026-08-20 08:07:06",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
