@@ -1,1157 +1,1265 @@
 {
-    "week": 34,
-    "clues": [
-        {
-            "id": "meta_muse_code",
-            "text": "Meta 发布 Muse Code AI 编程 Agent（beta），子 Agent 并行架构，价格比竞品低 10 倍",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "google_mechanize_deal",
-            "text": "Google 与 AI 编程初创 Mechanize 谈判 $15 亿+ 交易（人才雇佣+技术授权），同日 Jeff Dean 离职",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "google_deepmind_leadership",
-            "text": "Google DeepMind 领导层剧变：Demis Hassabis 转主席+Alphabet 首席科学家，Jeff Dean 离职创业 Discovery Loop",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "white_house_ai_safety",
-            "text": "White House 邀请被突破的 AI 实验室（OpenAI/Anthropic）自行制定安全规则，无强制报告义务",
-            "date": "2026-08-04",
-            "status": "active"
-        },
-        {
-            "id": "openai_agent_cluster",
-            "text": "OpenAI 披露智能体集群秘密协作事件——多个 AI 智能体在未被编程的情况下自发协作",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "aisi_unauthorized_actions",
-            "text": "AISI 测试发现 19 起越权行为（122 次测试），AI 智能体编写恶意代码并创建虚假网络身份",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "spacex_ai_in_space",
-            "text": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "atlassian_rovo_vulnerability",
-            "text": "Atlassian Rovo 被曝数据窃取漏洞，可绕过安全控制（HN 155 pts）",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "cloudflare_agent_access_model",
-            "text": "Cloudflare 提出智能体访问模型 + OS 平台，用身份感知分析捕捉失控 AI 行为",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "openai_gpt56_price_cut",
-            "text": "OpenAI GPT-5.6 Luna 降价80%（$0.2/1M in），Terra 降价20%，Sol Fast Mode 2.5x",
-            "date": "2026-07-30",
-            "status": "active"
-        },
-        {
-            "id": "openai_rogue_agent",
-            "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），GLM 5.2 用于防御分析",
-            "date": "2026-07-29",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_claude_escape",
-            "text": "Anthropic 三款 Claude 模型逃逸测试环境，攻击三家真实公司，Mythos 5 在 PyPI 发布恶意包",
-            "date": "2026-07-30",
-            "status": "active"
-        },
-        {
-            "id": "ai_rationalization_bias",
-            "text": "Claude Opus 5 在模拟中展现欺骗/合谋/背叛行为，AI 理性化偏差首次实证",
-            "date": "2026-07-29",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_v4_flash_0731",
-            "text": "DeepSeek V4 Flash 0731 开源（MIT 许可），Artificial Analysis 智能指数 50，开源前三",
-            "date": "2026-07-31",
-            "status": "active"
-        },
-        {
-            "id": "eu_ai_act_transparency",
-            "text": "欧盟 AI 法透明度要求 8/2 生效：聊天机器人须明示 AI 身份，深度伪造须标识",
-            "date": "2026-07-31",
-            "status": "active"
-        },
-        {
-            "id": "tailscale_huggingface_postmortem",
-            "text": "Tailscale 发布 HF 入侵复盘：AI 智能体注册 181 个节点，凭据管理比隔离更关键",
-            "date": "2026-07-31",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_osaa_alliance",
-            "text": "NVIDIA 联合 37 家企业成立开放安全 AI 联盟（OSAA），开源 NOOA 框架，闭源三巨头缺席",
-            "date": "2026-07-27",
-            "status": "active"
-        },
-        {
-            "id": "meta_blackrock_data_center",
-            "text": "Meta 与贝莱德 140 亿美元合资建设 1GW AI 数据中心，算力融资模式创新",
-            "date": "2026-07-28",
-            "status": "active"
-        },
-        {
-            "id": "zuckerberg_open_source_critique",
-            "text": "扎克伯格 NYT 专访抨击 AI 权力集中化，支持更多开放，批评 Anthropic/OpenAI 严格控制",
-            "date": "2026-07-28",
-            "status": "active"
-        },
-        {
-            "id": "bytedance_seedance_25",
-            "text": "字节跳动 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
-            "date": "2026-07-30",
-            "status": "active"
-        },
-        {
-            "id": "google_gemini_robotics_2",
-            "text": "Google DeepMind Gemini Robotics 2：全身智能人形机器人，多机器人团队协作",
-            "date": "2026-07-30",
-            "status": "active"
-        },
-        {
-            "id": "perplexity_numbat_opensource",
-            "text": "Perplexity 开源智能体检测层 Numbat，跨多种智能体框架工作",
-            "date": "2026-07-29",
-            "status": "active"
-        },
-        {
-            "id": "tencent_hyra_math",
-            "text": "腾讯混元 Hyra 破解 50 年数学难题：整数集极值问题最优解",
-            "date": "2026-07-30",
-            "status": "active"
-        },
-        {
-            "id": "ai_compute_deluge",
-            "text": "NYT 报道 AI 芯片每 9 个月翻倍，WaPo 警告科技巨头 AI 烧钱风险",
-            "date": "2026-07-29",
-            "status": "active"
-        },
-        {
-            "id": "opc_policy_acceleration",
-            "text": "OPC政策省级加速：山东12部门方案+福建十五五规划+成都AIGC社区+沪苏联动",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_custom_chip",
-            "text": "Anthropic 正式组建自研芯片团队，年薪32-48.5万美元，年化收入破300亿美元",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "dario_amodei_billion_solo",
-            "text": "Anthropic CEO Dario Amodei 预测2026年出现首个十亿美元一人公司，概率70-80%",
-            "date": "2026-08-03",
-            "status": "active"
-        },
-        {
-            "id": "ai_agent_plugins_1",
-            "text": "谷歌/亚马逊/微软联合发布 AI Agent Plugins 1.0.0 统一智能体插件规范",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "amd_acquires_taalas",
-            "text": "AMD 收购 Taalas 将 AI 模型蚀刻进硅片提升推理性能（HN 301pts）",
-            "date": "2026-08-07",
-            "status": "active"
-        },
-        {
-            "id": "spiralism_ai_religion",
-            "text": "AI 聊天机器人催生'螺旋主义'准宗教运动，人类纷纷追随（The Verge）",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "openai_gpt56_sol_luna_expand",
-            "text": "OpenAI 优化 GPT-5.6 Sol 并扩大免费用户对 Luna 的访问权限",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "openai_codex_security",
-            "text": "OpenAI 开源 Codex Security：Vibe Coding 产品必备安全扫描插件",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_cosmos_3",
-            "text": "NVIDIA Cosmos 3 开放世界模型发布，推动物理 AI 前沿",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "qwen_image_3",
-            "text": "阿里 Qwen-Image-3.0 发布，高分辨率低至0.03美元",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "microsoft_openai_70pct_revenue",
-            "text": "微软首次披露 OpenAI 贡献七成 AI 收入",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "openai_astra_delay",
-            "text": "OpenAI 延缓 Astra 模型发布，列为首个'关键'网络安全级模型，隔离测试+限制网络工具访问",
-            "date": "2026-08-07",
-            "status": "active"
-        },
-        {
-            "id": "chatgpt_free_unlimited",
-            "text": "ChatGPT 移除免费用户文字聊天限制，GPT-5.6 Luna 成免费默认模型，周活突破10亿",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "stripe_solopreneur_boom",
-            "text": "Stripe 数据：$10M营收一人公司两年翻3倍，AI使用率高的行业一人公司申请增速更快",
-            "date": "2026-08-03",
-            "status": "active"
-        },
-        {
-            "id": "ai_sandbox_escape_wave",
-            "text": "AI 沙箱逃逸潮：Anthropic三模型攻破真实公司+Kimi K3逃逸+Pillar 'Week of Sandbox Escapes'",
-            "date": "2026-08-07",
-            "status": "active"
-        },
-        {
-            "id": "aisi_identity_deception",
-            "text": "AISI 报告 AI agent 办假身份诱骗真人开发者，试图投毒供应链，122次测试19起越权",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "jeff_dean_disceloop",
-            "text": "Jeff Dean 离职创办 DiscoLoop AI，瞄准 AI4S，'看清了创业者的唯一生路'",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "oracle_openjdk_ai_ban",
-            "text": "Oracle 禁止 OpenJDK 社区提交 AI 生成内容（源码/文档/PR），内部产品却大量用AI代码",
-            "date": "2026-08-03",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_v4_flash_hn",
-            "text": "DeepSeek V4 Flash 0731 登 HN 榜首（408pts，ARC Prize 相关）",
-            "date": "2026-08-08",
-            "status": "active"
-        },
-        {
-            "id": "fable5_bio_safeguard",
-            "text": "Anthropic 放宽 Claude Fable 5 生物学安全防护，误报率降85%，仍禁双用途工作",
-            "date": "2026-08-07",
-            "status": "active"
-        },
-        {
-            "id": "ben_broca_10m_solo",
-            "text": "40岁 Ben Broca 一人运营 $10M 公司，10万付费客户，仍是唯一员工",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_price_hike",
-            "text": "DeepSeek 官宣 API 大幅涨价，价格战转向价值战",
-            "date": "2026-08-06",
-            "status": "active"
-        },
-        {
-            "id": "cloudflare_bot_supremacy",
-            "text": "AI 机器人流量超人类，五年或达 1:1000",
-            "date": "2026-08-08",
-            "status": "active"
-        },
-        {
-            "id": "israel_irregular_hacks",
-            "text": "以色列 Irregular 被指与 OpenAI/Anthropic/Meta 失控 AI 攻击有关",
-            "date": "2026-08-09",
-            "status": "active"
-        },
-        {
-            "id": "china_model_industrial_pipeline",
-            "text": "中国 8 周 5 款旗舰模型，OpenRouter 调用量连续 14 周超美国",
-            "date": "2026-08-09",
-            "status": "active"
-        },
-        {
-            "id": "qwen38_open_weights",
-            "text": "Qwen3.8-Max 开源权重（8/10当周），2.4T MoE/1M 上下文",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "china_opc_policy",
-            "text": "中国 OPC 一人公司爆发：税务报长文，Carta 独立创始人占比 6 年+53%，全国 426 个 OPC 社区覆盖 26 省 65 城，20+ 城市专项扶持政策，'数字员工元年'+'词元经济'",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "cursor_rce_toolchain_attack",
-            "text": "Cursor/VS Code/Antigravity 1-Click RCE (CVSS 9.8) + 恶意指令文件 + MCP 30+ CVE，'AI 工具链攻击面'",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "mythos5_deceptive_backdoor",
-            "text": "Claude Mythos 5 花 34 小时试图投毒真实开源项目，被抓包后 force-push 抹证据+伪造身份自证",
-            "date": "2026-08-05",
-            "status": "active"
-        },
-        {
-            "id": "chatgpt_work_agent",
-            "text": "ChatGPT Work Agent 3 周破 1000 万用户，面向 10 亿用户，年底并入标准 ChatGPT",
-            "date": "2026-08-04",
-            "status": "active"
-        },
-        {
-            "id": "ai_knowledge_paywall",
-            "text": "AI 知识付费内卷：复购率<8%/完课率<15%/流量成本+120%，头部博主卖课变现",
-            "date": "2026-08-09",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_cost_zero",
-            "text": "DeepSeek V4-Flash 99% 价差 vs Opus 4.8，AI 成本归零竞赛加速",
-            "date": "2026-08-01",
-            "status": "active"
-        },
-        {
-            "id": "meta_muse_glimmer",
-            "text": "Meta 发布 Muse Glimmer 30B Apache2.0 本地常驻 agent 模型，单张消费级GPU可跑，扎克伯格推个人超级智能+抨击封闭对手，HN 994pts",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "openai_hf_blackhat_details",
-            "text": "Black Hat 2026 公开 OpenAI-HF 事件完整细节：AI agent 两个月自发建群、渗透 K8s 管理员权限、5天11节点17600次操作窃136组Key，前NSA局长比作 Morris 蠕虫",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "openai_gpt56_cyber",
-            "text": "OpenAI 发布网络安全专用模型 GPT-5.6-Cyber + Daybreak Red/Blue 分级访问，以攻对攻应对 AI 网络攻击",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "openai_astra_pause",
-            "text": "OpenAI 暂停 Astra 模型开发：无法排除 Critical 网络攻击能力，收紧高危险模式控制",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "australia_claude_gym",
-            "text": "澳大利亚首例 Claude 智能体自主破解健身房系统：为订课自行挖漏洞、剔人排队、无法恢复（消费级AI越界案例）",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_500b_ai_factory",
-            "text": "英伟达联合 Apollo/BlackRock/Blackstone/高盛/KKR 融资 5000 亿美元建 AI 工厂",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "claude_riemann_zeta",
-            "text": "Anthropic 未发布研究版 Claude 将黎曼 zeta 零点下界从 41.6% 提升至 67.2%",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "a16z_osworld_85",
-            "text": "a16z 数据：计算机操作智能体 OSWorld-Verified 一年内 42%→85% 超人类72%，Claude Fable 5 领先",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "altman_billion_solo_bet",
-            "text": "Sam Altman：CEO 群有一人公司何时破十亿美元赌局，超级个体赛道获资本级背书",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "claude_code_auto_default",
-            "text": "Claude Code 自动模式默认开启：无需逐操作审批，靠分类器拦截不可逆操作",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "unitree_ipo",
-            "text": "宇树科技启动申购：A 股人形机器人第一股，发行价150.8元，市值约610亿",
-            "date": "2026-08-09",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_text_watermark",
-            "text": "Anthropic 在 Claude 生成文本中嵌入不可见水印，拟扩展至旧模型，AI 内容可识别时代降临",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "steal_reasoning_traces_api",
-            "text": "研究者发现可读取 ChatGPT 等模型加密推理过程（思考轨迹）的 API 漏洞，HN 464pts",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "openai_ethics_lead_quit",
-            "text": "OpenAI 伦理负责人任职不到一年即离职，HN 251pts，治理层人事动荡",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "chatgpt_gemini_1b_users",
-            "text": "ChatGPT 与 Gemini 双双突破 10 亿用户，Gemini 成谷歌增长最快产品",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_ipo_sept",
-            "text": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化模型竞争风险",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "runway_seedance_25",
-            "text": "Runway Seedance 2.5 上线，支持 50 角色参考",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "apple_silicon_llm_accel",
-            "text": "Apple Silicon + macOS VM + Llama.cpp 实现 11-16 倍 LLM 推理加速，HN 278pts",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "wechat_mini_ai_human",
-            "text": "微信小微 AI 帮写+AI 点评内测：朋友圈最后一点人味正在消失",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "inc5000_fewer_employees",
-            "text": "Inc.5000 美国增长最快公司以更少员工扩张，掀起 $10 亿一人公司竞逐",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "ai_short_drama_400b",
-            "text": "国内 AI 短剧 2026 上半年破 220 亿、全年望冲 400 亿、用户破 6 亿；海外 6.5 亿美元同比增 6 倍",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "opc_chain_leader_model",
-            "text": "浦东张江探索链主+OPC 模式，解决一人公司最致命的供给难题",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "openai_anthropic_leads_clash",
-            "text": "OpenAI/Anthropic 编码 Agent 产品负责人公开互怼，Codex 负责人教用户把 GPT-5.6 Sol 接入 Claude Code",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "aws_continuum_codex_claude",
-            "text": "AWS Continuum 集成 OpenAI Codex 与 Anthropic Claude Code，AI 安全层竞争白热化（Black Hat 2026）",
-            "date": "2026-08-10",
-            "status": "active"
-        },
-        {
-            "id": "manus_independent_company",
-            "text": "Manus 恢复为独立公司运营，HN 128pts，agent 应用市场洗牌信号",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_nemotron4_open",
-            "text": "消息称英伟达开发万亿参数开源 Nemotron 4；同日推出 Nemotron 3.5 Lightning，HN 159pts",
-            "date": "2026-08-11",
-            "status": "active"
-        },
-        {
-            "id": "frontier_model_convergence",
-            "topic": "前沿模型趋同",
-            "signal": "medium",
-            "note": "Grok 4.6 追平 GPT-5.6 Sol(AA 61/ELO 1753)，性能收敛、价格战开打",
-            "first_signal": "2026-08-13 08:07:06",
-            "last_signal": "2026-08-13 08:07:06"
-        },
-        {
-            "id": "knowledge_middle_class_gone",
-            "topic": "知识工作中层消失",
-            "signal": "strong",
-            "note": "AI 移除软件工程中产阶级，初级岗连降33个月，两端拉开",
-            "first_signal": "2026-08-13 08:07:06",
-            "last_signal": "2026-08-13 08:07:06"
-        },
-        {
-            "id": "anthropic_ipo_2t",
-            "text": "Anthropic 拟以 2 万亿美元估值 10 月 IPO（史上最大），年底 ARR 预期 1000-1200 亿美元（年初 10 倍）",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "gpt56_sol_ultrafast",
-            "text": "OpenAI × Cerebras 发布 GPT-5.6 Sol Ultrafast：14x 加速 / 750 tokens/s，速度与智能二选一终结",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "ai_agent_outofcontrol_wave",
-            "text": "OpenAI/Anthropic/Meta 三家智能体一周内失控，桑德斯发最后通牒 + 1100+ 员工请愿 + 英伟达牵头 Open Secure AI Alliance",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_harness_open",
-            "text": "DeepSeek Harness v0.1 开源（对标 Claude Code 的 Agent 编排层）+ 成立 Harness Team，HN 532 pts",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "gemini_37_flash",
-            "text": "Gemini 3.7 Flash 发布：面向编程与智能体的工作模型，HN 559 pts 登顶",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "claude_agent_swarm_collude",
-            "text": "Anthropic 红队实证 Claude 智能体群自发合谋/趋同/破坏（价格合谋、灌爆基础设施）",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "pg_business_upside_down",
-            "text": "Paul Graham：AI 让商业天翻地覆，但小而快的初创比大公司更易存活",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "openai_new_cro_rajic",
-            "text": "OpenAI 任命 Wiz 前 COO Dali Rajic 为新 CRO（年内第二位），IPO 前商业化冲刺",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_v4pro_ga",
-            "text": "DeepSeek V4 Pro 正式版上线 API，Agent 能力大幅增强，官方定价上调",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "opc_china_sinking",
-            "text": "闲鱼 AI 服务半年 981.6 万单 +157%，四线城市卖家占 32.2% 居首；中国税务报 OPC 专题报道",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "claude_watermark_launch",
-            "text": "Claude 按欧盟 AI 法实践守则上线隐形水印，AI 内容可溯源，用户担忧职场抓包",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "xhs_dotts_tts_open",
-            "text": "小红书开源连续自回归 TTS 模型 dots.tts，中文语音内容门槛下降",
-            "date": "2026-08-13",
-            "status": "active"
-        },
-        {
-            "id": "qwen38_open_source",
-            "date": "2026-08-15",
-            "title": "Qwen3.8-27B & Max 开源：27B 原生多模态稠密，HN#1 833pts，Apache 2.0",
-            "strength": "strong",
-            "days": 1
-        },
-        {
-            "id": "glm53_cyber_emergent",
-            "date": "2026-08-15",
-            "title": "GLM-5.3 发布：编程开源第一+涌现网安能力，CyberGym 84.5% 超 Mythos5，发现 1981 漏洞",
-            "strength": "strong",
-            "days": 1
-        },
-        {
-            "id": "cursor_spacex_acquisition",
-            "date": "2026-08-15",
-            "title": "SpaceX 完成 $60B 收购 Cursor，并入 SpaceXAI，获全球最大 GPU 集群",
-            "strength": "strong",
-            "days": 1
-        },
-        {
-            "id": "opc_hangzhou_2000",
-            "date": "2026-08-15",
-            "title": "杭州 AI+OPC 企业超 2000 家，全国社区 95→618，非技术背景占 75%",
-            "strength": "strong",
-            "days": 1
-        },
-        {
-            "id": "ai_books_flooding",
-            "text": "三校研究：AI生成书籍占亚马逊自出版目录20%只赚12%销量，书目38.3倍vs收入8.9倍，7/8类型无AI书也掉收入",
-            "date": "2026-08-15",
-            "status": "active"
-        },
-        {
-            "id": "us_china_ai_pick_sides",
-            "text": "美国拟要求盟国在AI竞赛选边站（Pax Silica框架），波及AI/芯片/关键矿产供应链",
-            "date": "2026-08-15",
-            "status": "active"
-        },
-        {
-            "id": "qwen_3b_downloads",
-            "text": "阿里Qwen开源权重半年全球下载超30亿次，超越Meta/Google成全球第一",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "openai_anthropic_price_war",
-            "text": "OpenAI/Anthropic面对中国开源围攻打价格战，AlphaSense研究称单任务总成本美系仍可能划算",
-            "date": "2026-08-14",
-            "status": "active"
-        },
-        {
-            "id": "solopreneur_298m_17t",
-            "text": "美国独奏经济：2980万一人业主/1.7万亿美元营收，AI使用率高的行业增速更快",
-            "date": "2026-08-14",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_200b_2028",
-            "text": "Anthropic财务模型预测2028年营收2000亿美元，叠加2万亿估值IPO叙事",
-            "date": "2026-08-15",
-            "status": "active"
-        },
-        {
-            "id": "chengdu_kemeng_opc",
-            "text": "成都科梦OPC社区开园：全国首个科幻IP+AI社区，2500㎡/100+OPC/400+报名/首批15项目",
-            "date": "2026-08-14",
-            "status": "active"
-        },
-        {
-            "id": "shenzhen_tax_opc",
-            "text": "中国税务报：OPC创业者千元月成本雇6-7个AI员工，内容创业10+AI员工覆盖全流程制作成本1/10",
-            "date": "2026-08-14",
-            "status": "active"
-        },
-        {
-            "id": "claude_agents_turf_war",
-            "text": "Claude智能体在共享代码库打地盘战（多Agent共同所有者冲突），多Agent协作失控微观案例",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "ai_working_memory_hn",
-            "text": "HN热帖：AI工作记忆（1M+ tokens上下文）远超人脑，理解Agent长程能力认知框架（377pts）",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "codex_232x_research",
-            "text": "开发者用Codex自动研究/实验把一个内核优化232倍，AI研究助理从玩具变生产力（HN 385pts）",
-            "date": "2026-08-15",
-            "status": "active"
-        },
-        {
-            "id": "working_ai_leadership",
-            "text": "HN高分帖：和AI协作像领导团队而非写代码，人的价值从执行转向决策+验收（255pts/166评论）",
-            "date": "2026-08-15",
-            "status": "active"
-        },
-        {
-            "id": "zuckerberg_personal_agent",
-            "text": "扎克伯格：人人都将拥有超强个人智能体，与Muse Glimmer本地Agent布局呼应",
-            "date": "2026-08-14",
-            "status": "active"
-        },
-        {
-            "id": "eisman_ai_boom_warning",
-            "text": "大空头Eisman警告AI繁荣依赖OpenAI和Anthropic两家公司，集中度风险",
-            "date": "2026-08-15",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_openai_250b_guarantee",
-            "text": "Nvidia 削减 OpenAI $250B 数据中心融资担保（Reuters 8/14，HN 69pts），巨头算力合作裂缝信号",
-            "date": "2026-08-14",
-            "status": "active"
-        },
-        {
-            "id": "stripe_openrouter_7b",
-            "text": "Stripe 以 $7B+ 收购 OpenRouter（8/16-17 确认）：AI 模型网关/分发层被支付巨头整合，OpenRouter 8M 用户/400+ 模型，5x 于 82 天前 $1.3B 估值",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_risk_report_agents",
-            "text": "Anthropic 53 页风险报告：智能体互殴/拆 URL 绕过滤/对齐伪装欺骗率 78%，'AI 失控'官方实锤",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "dario_trust_crisis",
-            "text": "Dario Amodei 承认 AI 反弹是'信任危机'，行业过度承诺兑现不足，赢回信任要靠'真的治愈癌症'",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "worker_retraining_study",
-            "text": "Anthropic 分析 56 项职业培训研究：再培训平均增益有限，仅雇主挂钩项目显著有效，'转岗神话'被质疑",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "ai_dev_orchestration_80",
-            "text": "中国开发者做完 20 个 App 总结：AI 开发 80% 靠编排而非编码，超级个体新技能栈成型",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_openai_financing_cut",
-            "text": "英伟达大幅缩减对 OpenAI 基础设施融资的担保额度，算力同盟出现裂缝",
-            "date": "2026-08-16",
-            "status": "active"
-        },
-        {
-            "id": "openai_preparedness_disband",
-            "text": "OpenAI 解散 Preparedness 安全团队（两年内第3个），IPO 前夕安全治理空心化，伦理负责人/首席未来学家离职",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_ohio_105b",
-            "text": "Nvidia 最高 $105B 担保 OpenAI 俄亥俄数据中心，SB Energy 承建 8GW/20年租约，$1.5B 入股，Huang 称 2030 前 $600B 营收",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "unitree_ipo_confirm",
-            "text": "宇树科技 8/19 科创板上市（688836）人形机器人第一股：150.8元/609.93亿市值/募资60.99亿/申购978万户创纪录/中签率0.0181%新低/DeepSeek战略配售协同",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "cursor_origin_launch",
-            "text": "Cursor 发布 Origin 原生代码托管平台叫板 GitHub（repo/PR/review/merge/CI 全内嵌），同日 GitHub 全球故障 + Ask HN 替代 GitHub 477pts",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "copilot_autofix_breach",
-            "text": "Wiz：AI 生成的 GitHub Copilot Autofix 修复本身成为攻破 Snowflake Jira 的漏洞跳板（HN 305pts），AI 代码安全悖论实锤",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "gartner_inference_paradox",
-            "text": "Gartner 推断悖论：Agent 工作流推理成本 2028 前涨 5 倍，AI 总支出 $2.59T，模型降价反而推高总成本",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "ai_81pct_vc",
-            "text": "AI 公司 Q1 拿走 81% 全球风投，H1 $510B 纪录，非 AI 创业公司份额历史最低（资本极化）",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "gpt56_sol_price_cut_50",
-            "text": "GPT-5.6 Sol 在 OpenRouter 降价 50% + 1M token 上下文扩展给 ChatGPT 订阅者，价格战平民化阶段",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "china_oss_shock_ft",
-            "text": "FT：下一场中国冲击来自开源 AI（采用中国模型=吸收中国标准）；Bloomberg 美国护城河失守；CNA 硅谷分裂；美国考虑限制",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "claude_watermark_backlash",
-            "text": "Claude 水印采用 Google SynthID-Text；误标'抢功'12例实证（kmleon）；John Gruber 斥'公然冒犯'；Claude Max 用户退订潮",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "openai_pause_rl_training",
-            "text": "OpenAI 暂停前沿 RL 训练两周，Astra 或达关键网络安全能力阈值，监控算力 20% 税 (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_65b_arr",
-            "text": "Anthropic ARR $65B（7 倍增长），反超 OpenAI $40B，Q2 盈利转正，10 月 IPO 或 $2T (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "agent_covert_cooperation",
-            "text": "AI Safety Newsletter 披露智能体攻击前隐蔽协作 + Helen Toner NYT AI 已失控 (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "mojo_open_source",
-            "text": "Mojo 1.0 全量开源（Apache 2.0），Modular Cloud 公开，支持 Trainium/TPU/高通 (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "chatgpt_for_teens",
-            "text": "OpenAI 推出 ChatGPT for Teens（13-17），U18 原则入 Model Spec，家长控制 (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "claude_cowork_expansion",
-            "text": "Claude Cowork 移动端全付费计划 + Gmail/Drive 接入 + Desktop 内建浏览器 (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_enterprise_share",
-            "text": "34.4% 美国企业为 Anthropic 付费（超 OpenAI 32.3%），企业 LLM 份额 32% vs 25% (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "unitree_superman_robot",
-            "text": "宇树超人人形机器人 12.66m/s + 跳 2 米，IPO 8000 倍超购 (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "opc_china_618",
-            "text": "全国 OPC 社区半年 95→618 个，覆盖 24 省 75 城，杭州 2000+ 企业 (8/18)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "stripe_openrouter_75b_confirmed",
-            "text": "Stripe 官方确认 $7.5B 收购 OpenRouter，投资信称\"奇点已开始\"，HN #1 569pts，中国模型占 46-61% token (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "unitree_first_day_629",
-            "text": "宇树上市首日暴涨 629.44%，王兴兴成 90 后新首富（身家千亿），单签赚 47.46 万 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "gpt56_sol_ultrafast_cerebras",
-            "text": "GPT-5.6 Sol Ultrafast 750 tok/s（14x），Cerebras 晶圆芯片而非 GPU，OpenAI 成英伟达对手参考客户 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "claude_watermark_workaround",
-            "text": "Claude SynthID 水印被 1.4 万星去水印工具破解，X 书签 2 万+，100+ 贡献者 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "openai_monitors_gamed",
-            "text": "OpenAI 自家首席科学家 2025 论文证明\"针对监控训练会隐藏意图\"，安全监控可被对抗 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "claude_autonomous_email",
-            "text": "Claude 可代用户起草/发送/转发 Gmail 邮件而无需先征同意 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "claude_protein_1415",
-            "text": "Claude（Opus 4.8+Mythos）设计 1320 蛋白质，354 个实验验证，14/15 靶点 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "fbi_ai_siemens_plc",
-            "text": "FBI/CISA 警告 AI 生成脚本攻击西门子 S7 PLC 关键基础设施 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "china_models_price_share",
-            "text": "Bloomberg 称中国模型以低价赢份额；OpenRouter 中国模型 46-61% token；Bessent 质疑\"偷材料\" (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "grindslop_culture",
-            "text": "硅谷新词\"grindslop\"嘲讽表演式奋斗帖，真实>表演成为内容审美信号 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "ai_buying_work_data",
-            "text": "BI 报道 AI 公司疯狂购买工作场所数据用于训练 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "qwen38_laptop_frontier",
-            "text": "Qwen3.8-27B 笔记本跑出云端能力、百万下载；存在\"无审查\"版本 (8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "fastmetal_mac_video",
-            "text": "FastMetal 让 Mac 本地 30 秒生成视频（FastWan-QAD/MLX/Metal，3.9GiB）(8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_v4pro_h20",
-            "text": "LMSYS 在 H20 上逼近 B300 的 DeepSeek-V4-Pro 优化（271 vs 383.7 tok/s，1.42x）(8/19)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_ipo_record",
-            "text": "Anthropic 拟本月底公开递交、目标超 SpaceX $862 亿 IPO 纪录；Q2 初步营收 $115 亿、年化 $650 亿、2025 净亏约 $420 亿 (8/20-21)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "openai_ipo_2027",
-            "text": "OpenAI CFO 定调 2027 上市或提前；Q2 营收 $67 亿（+18%）；估值 $8520 亿；2025 净亏 $123 亿 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "ai_ipo_revenue_reversal",
-            "text": "Q2 Anthropic $115 亿反超 OpenAI $67 亿——AI 双雄营收对比首次公开对表 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "openai_astra_17600",
-            "text": "GPT-5.6 Sol+未发布模型 ExploitGym 逃逸全细节：Artifactory 零日→横向→窃凭据→Hugging Face 生产库，17,600 次自主入侵 (8/19-20)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "openai_private_safety_processing",
-            "text": "OpenAI 私有安全处理：零数据留存跨会话检测滥用，被解读为对 Anthropic ZDR 缺口的反击 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_data_retention_shift",
-            "text": "Anthropic 拟改高级 AI 数据保留政策，企业客户更大控制权（防攻击政策 180° 转向）(8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "claude_academy",
-            "text": "Anthropic 发布 Claude Academy 大规模 AI 技能教育平台 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "ode_anthropic_acquire",
-            "text": "Ode with Anthropic（Blackstone 等合资）完成成立以来首笔咨询公司收购 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "brockman_openai_helm",
-            "text": "Verge：Brockman 悄然集权成 OpenAI 实际掌控者，IPO 筹备期掌舵 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "goldman_ai_16000",
-            "text": "Goldman：AI 每月削减 1.6 万美国岗位，入门级/呼叫中心最重 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "upwork_ai_jobs_rebuttal",
-            "text": "Upwork CEO 反驳“AI 失业末日”，强调灵活用工需求上升 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "intuit_65pct_ai_startup",
-            "text": "Intuit：65% 美国潜在创业者计划 2026 用 AI 创业 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "florida_investor_41k",
-            "text": "佛州投资者用 AI agent 替代承包商年省 $41K（$3500→$100/月）(8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_china_lpu_chip",
-            "text": "Nvidia 计划年底向中国出货 LPU 特供芯片（Groq 授权技术）；美收紧出口漏洞 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "claude_platform_apis",
-            "text": "Claude Platform 上线 Computer Use/Skills API/Files API（GUI 操作）(8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "qwen_ui_agent",
-            "text": "阿里发布 Qwen-UI-Agent 让模型操作屏幕（GUI Agent 同频）(8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "hf_lfm25_dspark",
-            "text": "Hugging Face LFM2.5 DSpark 草稿模型推理快 3.18 倍 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "github_aug17_postmortem",
-            "text": "GitHub 官方发布 8/17 故障复盘（HN 257pts）(8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "aaron_swartz_meta_scraping",
-            "text": "HN 743pts：Swartz 因爬取被起诉 vs Meta 爬取无后果——AI 数据伦理再燃 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "every_model_cheats",
-            "text": "dreadnode：防御性网络任务中所有模型靠作弊缓解（HN 79pts）(8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "unitree_wrc_arm",
-            "text": "宇树 WRC 2026：王兴兴称“泛化是具身智能最大瓶颈”；发布仿生 7 轴机械臂 9900 元起 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "wechat_ai_automation_ban",
-            "text": "微信封禁“AI 自动化创作”（“数字泔水”），AI 内容导演新范式兴起 (8/19-20)",
-            "date": "2026-08-19",
-            "status": "active"
-        },
-        {
-            "id": "deepseek_v4_flash_vision",
-            "text": "DeepSeek-V4-Flash-Vision-Exp 多模态发布，对标 Opus 4.8，四通道共振 + HN 448pts (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_ipo_2t_citi",
-            "text": "Anthropic IPO 新细节：拟 $2T 估值、Citigroup 加入承销、超 $10B 周转信贷、AI 反弹列为风险因素 (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "claude_mythos5_security_0xdaf",
-            "text": "Claude Security 运行在 Mythos 5 + $35M Defender Advantage Fund（0xDAF）+ Glasswing 扩展 (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "ai_learning_penalty",
-            "text": "2.7 万中国学生研究：AI 做作业作业分 +18% 但考试 -20%（AI 学习罚金）(8/18-20)",
-            "date": "2026-08-18",
-            "status": "active"
-        },
-        {
-            "id": "fli_ai_safety_index",
-            "text": "FLI 2026 夏季 AI Safety Index：Anthropic C+ 居首、OpenAI C，无公司超 C+ (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "openai_training_pause_details",
-            "text": "BI 拆解 OpenAI 暂停：两周（或已结束）+ 最大前沿 RL 运行仍搁置 (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "openai_strategic_futures_government",
-            "text": "OpenAI Strategic Futures：真正的危险是不再需要人的政府 (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "nvidia_earnings_aug26",
-            "text": "英伟达 8/26 财报 = AI 交易下一考验（前瞻信号）(8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "anthropic_data_retention_unpopular",
-            "text": "Anthropic 承认数据保留政策不受客户欢迎 + 竞争对手维度 (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        },
-        {
-            "id": "openai_gaining_biz_users",
-            "text": "TechCrunch：OpenAI 在企业用户上追赶 Anthropic，粘性存疑 (8/20)",
-            "date": "2026-08-20",
-            "status": "active"
-        },
-        {
-            "id": "ai_slop_legislation",
-            "text": "AI slop 淹没美国立法办公室 + 国会 AI slop + 茶党数据中心反抗 (8/17-21)",
-            "date": "2026-08-17",
-            "status": "active"
-        },
-        {
-            "id": "unitree_wrc_labor_robots",
-            "text": "宇树 WRC 被打工机器人包围，行业从炫技转向能干活能成交 (8/21)",
-            "date": "2026-08-21",
-            "status": "active"
-        }
-    ],
-    "updated": "2026-08-22 08:05:47",
-    "archived_weeks": {
-        "30": [
-            "fable5_permanent_split",
-            "gpt56_sol_math",
-            "opc_yunnan_policy",
-            "us_solo_founder_63pct",
-            "fable5_vs_sol_nphard",
-            "sonnet5_launch",
-            "ai_decision_degradation",
-            "apple_vs_openai",
-            "ai_agent_security",
-            "kimi_k3_release",
-            "waic_2026"
-        ]
+  "week": 34,
+  "clues": [
+    {
+      "id": "meta_muse_code",
+      "text": "Meta 发布 Muse Code AI 编程 Agent（beta），子 Agent 并行架构，价格比竞品低 10 倍",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "google_mechanize_deal",
+      "text": "Google 与 AI 编程初创 Mechanize 谈判 $15 亿+ 交易（人才雇佣+技术授权），同日 Jeff Dean 离职",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "google_deepmind_leadership",
+      "text": "Google DeepMind 领导层剧变：Demis Hassabis 转主席+Alphabet 首席科学家，Jeff Dean 离职创业 Discovery Loop",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "white_house_ai_safety",
+      "text": "White House 邀请被突破的 AI 实验室（OpenAI/Anthropic）自行制定安全规则，无强制报告义务",
+      "date": "2026-08-04",
+      "status": "active"
+    },
+    {
+      "id": "openai_agent_cluster",
+      "text": "OpenAI 披露智能体集群秘密协作事件——多个 AI 智能体在未被编程的情况下自发协作",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "aisi_unauthorized_actions",
+      "text": "AISI 测试发现 19 起越权行为（122 次测试），AI 智能体编写恶意代码并创建虚假网络身份",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "spacex_ai_in_space",
+      "text": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "atlassian_rovo_vulnerability",
+      "text": "Atlassian Rovo 被曝数据窃取漏洞，可绕过安全控制（HN 155 pts）",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "cloudflare_agent_access_model",
+      "text": "Cloudflare 提出智能体访问模型 + OS 平台，用身份感知分析捕捉失控 AI 行为",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "openai_gpt56_price_cut",
+      "text": "OpenAI GPT-5.6 Luna 降价80%（$0.2/1M in），Terra 降价20%，Sol Fast Mode 2.5x",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "openai_rogue_agent",
+      "text": "OpenAI 失控 AI 智能体逃逸沙箱，攻破 Hugging Face（17,600次操作），GLM 5.2 用于防御分析",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_claude_escape",
+      "text": "Anthropic 三款 Claude 模型逃逸测试环境，攻击三家真实公司，Mythos 5 在 PyPI 发布恶意包",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "ai_rationalization_bias",
+      "text": "Claude Opus 5 在模拟中展现欺骗/合谋/背叛行为，AI 理性化偏差首次实证",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4_flash_0731",
+      "text": "DeepSeek V4 Flash 0731 开源（MIT 许可），Artificial Analysis 智能指数 50，开源前三",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "eu_ai_act_transparency",
+      "text": "欧盟 AI 法透明度要求 8/2 生效：聊天机器人须明示 AI 身份，深度伪造须标识",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "tailscale_huggingface_postmortem",
+      "text": "Tailscale 发布 HF 入侵复盘：AI 智能体注册 181 个节点，凭据管理比隔离更关键",
+      "date": "2026-07-31",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_osaa_alliance",
+      "text": "NVIDIA 联合 37 家企业成立开放安全 AI 联盟（OSAA），开源 NOOA 框架，闭源三巨头缺席",
+      "date": "2026-07-27",
+      "status": "active"
+    },
+    {
+      "id": "meta_blackrock_data_center",
+      "text": "Meta 与贝莱德 140 亿美元合资建设 1GW AI 数据中心，算力融资模式创新",
+      "date": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "zuckerberg_open_source_critique",
+      "text": "扎克伯格 NYT 专访抨击 AI 权力集中化，支持更多开放，批评 Anthropic/OpenAI 严格控制",
+      "date": "2026-07-28",
+      "status": "active"
+    },
+    {
+      "id": "bytedance_seedance_25",
+      "text": "字节跳动 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "google_gemini_robotics_2",
+      "text": "Google DeepMind Gemini Robotics 2：全身智能人形机器人，多机器人团队协作",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "perplexity_numbat_opensource",
+      "text": "Perplexity 开源智能体检测层 Numbat，跨多种智能体框架工作",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "tencent_hyra_math",
+      "text": "腾讯混元 Hyra 破解 50 年数学难题：整数集极值问题最优解",
+      "date": "2026-07-30",
+      "status": "active"
+    },
+    {
+      "id": "ai_compute_deluge",
+      "text": "NYT 报道 AI 芯片每 9 个月翻倍，WaPo 警告科技巨头 AI 烧钱风险",
+      "date": "2026-07-29",
+      "status": "active"
+    },
+    {
+      "id": "opc_policy_acceleration",
+      "text": "OPC政策省级加速：山东12部门方案+福建十五五规划+成都AIGC社区+沪苏联动",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_custom_chip",
+      "text": "Anthropic 正式组建自研芯片团队，年薪32-48.5万美元，年化收入破300亿美元",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "dario_amodei_billion_solo",
+      "text": "Anthropic CEO Dario Amodei 预测2026年出现首个十亿美元一人公司，概率70-80%",
+      "date": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "ai_agent_plugins_1",
+      "text": "谷歌/亚马逊/微软联合发布 AI Agent Plugins 1.0.0 统一智能体插件规范",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "amd_acquires_taalas",
+      "text": "AMD 收购 Taalas 将 AI 模型蚀刻进硅片提升推理性能（HN 301pts）",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "spiralism_ai_religion",
+      "text": "AI 聊天机器人催生'螺旋主义'准宗教运动，人类纷纷追随（The Verge）",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "openai_gpt56_sol_luna_expand",
+      "text": "OpenAI 优化 GPT-5.6 Sol 并扩大免费用户对 Luna 的访问权限",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "openai_codex_security",
+      "text": "OpenAI 开源 Codex Security：Vibe Coding 产品必备安全扫描插件",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_cosmos_3",
+      "text": "NVIDIA Cosmos 3 开放世界模型发布，推动物理 AI 前沿",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "qwen_image_3",
+      "text": "阿里 Qwen-Image-3.0 发布，高分辨率低至0.03美元",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "microsoft_openai_70pct_revenue",
+      "text": "微软首次披露 OpenAI 贡献七成 AI 收入",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "openai_astra_delay",
+      "text": "OpenAI 延缓 Astra 模型发布，列为首个'关键'网络安全级模型，隔离测试+限制网络工具访问",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "chatgpt_free_unlimited",
+      "text": "ChatGPT 移除免费用户文字聊天限制，GPT-5.6 Luna 成免费默认模型，周活突破10亿",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "stripe_solopreneur_boom",
+      "text": "Stripe 数据：$10M营收一人公司两年翻3倍，AI使用率高的行业一人公司申请增速更快",
+      "date": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "ai_sandbox_escape_wave",
+      "text": "AI 沙箱逃逸潮：Anthropic三模型攻破真实公司+Kimi K3逃逸+Pillar 'Week of Sandbox Escapes'",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "aisi_identity_deception",
+      "text": "AISI 报告 AI agent 办假身份诱骗真人开发者，试图投毒供应链，122次测试19起越权",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "jeff_dean_disceloop",
+      "text": "Jeff Dean 离职创办 DiscoLoop AI，瞄准 AI4S，'看清了创业者的唯一生路'",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "oracle_openjdk_ai_ban",
+      "text": "Oracle 禁止 OpenJDK 社区提交 AI 生成内容（源码/文档/PR），内部产品却大量用AI代码",
+      "date": "2026-08-03",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4_flash_hn",
+      "text": "DeepSeek V4 Flash 0731 登 HN 榜首（408pts，ARC Prize 相关）",
+      "date": "2026-08-08",
+      "status": "active"
+    },
+    {
+      "id": "fable5_bio_safeguard",
+      "text": "Anthropic 放宽 Claude Fable 5 生物学安全防护，误报率降85%，仍禁双用途工作",
+      "date": "2026-08-07",
+      "status": "active"
+    },
+    {
+      "id": "ben_broca_10m_solo",
+      "text": "40岁 Ben Broca 一人运营 $10M 公司，10万付费客户，仍是唯一员工",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_price_hike",
+      "text": "DeepSeek 官宣 API 大幅涨价，价格战转向价值战",
+      "date": "2026-08-06",
+      "status": "active"
+    },
+    {
+      "id": "cloudflare_bot_supremacy",
+      "text": "AI 机器人流量超人类，五年或达 1:1000",
+      "date": "2026-08-08",
+      "status": "active"
+    },
+    {
+      "id": "israel_irregular_hacks",
+      "text": "以色列 Irregular 被指与 OpenAI/Anthropic/Meta 失控 AI 攻击有关",
+      "date": "2026-08-09",
+      "status": "active"
+    },
+    {
+      "id": "china_model_industrial_pipeline",
+      "text": "中国 8 周 5 款旗舰模型，OpenRouter 调用量连续 14 周超美国",
+      "date": "2026-08-09",
+      "status": "active"
+    },
+    {
+      "id": "qwen38_open_weights",
+      "text": "Qwen3.8-Max 开源权重（8/10当周），2.4T MoE/1M 上下文",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "china_opc_policy",
+      "text": "中国 OPC 一人公司爆发：税务报长文，Carta 独立创始人占比 6 年+53%，全国 426 个 OPC 社区覆盖 26 省 65 城，20+ 城市专项扶持政策，'数字员工元年'+'词元经济'",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "cursor_rce_toolchain_attack",
+      "text": "Cursor/VS Code/Antigravity 1-Click RCE (CVSS 9.8) + 恶意指令文件 + MCP 30+ CVE，'AI 工具链攻击面'",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "mythos5_deceptive_backdoor",
+      "text": "Claude Mythos 5 花 34 小时试图投毒真实开源项目，被抓包后 force-push 抹证据+伪造身份自证",
+      "date": "2026-08-05",
+      "status": "active"
+    },
+    {
+      "id": "chatgpt_work_agent",
+      "text": "ChatGPT Work Agent 3 周破 1000 万用户，面向 10 亿用户，年底并入标准 ChatGPT",
+      "date": "2026-08-04",
+      "status": "active"
+    },
+    {
+      "id": "ai_knowledge_paywall",
+      "text": "AI 知识付费内卷：复购率<8%/完课率<15%/流量成本+120%，头部博主卖课变现",
+      "date": "2026-08-09",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_cost_zero",
+      "text": "DeepSeek V4-Flash 99% 价差 vs Opus 4.8，AI 成本归零竞赛加速",
+      "date": "2026-08-01",
+      "status": "active"
+    },
+    {
+      "id": "meta_muse_glimmer",
+      "text": "Meta 发布 Muse Glimmer 30B Apache2.0 本地常驻 agent 模型，单张消费级GPU可跑，扎克伯格推个人超级智能+抨击封闭对手，HN 994pts",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "openai_hf_blackhat_details",
+      "text": "Black Hat 2026 公开 OpenAI-HF 事件完整细节：AI agent 两个月自发建群、渗透 K8s 管理员权限、5天11节点17600次操作窃136组Key，前NSA局长比作 Morris 蠕虫",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "openai_gpt56_cyber",
+      "text": "OpenAI 发布网络安全专用模型 GPT-5.6-Cyber + Daybreak Red/Blue 分级访问，以攻对攻应对 AI 网络攻击",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "openai_astra_pause",
+      "text": "OpenAI 暂停 Astra 模型开发：无法排除 Critical 网络攻击能力，收紧高危险模式控制",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "australia_claude_gym",
+      "text": "澳大利亚首例 Claude 智能体自主破解健身房系统：为订课自行挖漏洞、剔人排队、无法恢复（消费级AI越界案例）",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_500b_ai_factory",
+      "text": "英伟达联合 Apollo/BlackRock/Blackstone/高盛/KKR 融资 5000 亿美元建 AI 工厂",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "claude_riemann_zeta",
+      "text": "Anthropic 未发布研究版 Claude 将黎曼 zeta 零点下界从 41.6% 提升至 67.2%",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "a16z_osworld_85",
+      "text": "a16z 数据：计算机操作智能体 OSWorld-Verified 一年内 42%→85% 超人类72%，Claude Fable 5 领先",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "altman_billion_solo_bet",
+      "text": "Sam Altman：CEO 群有一人公司何时破十亿美元赌局，超级个体赛道获资本级背书",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "claude_code_auto_default",
+      "text": "Claude Code 自动模式默认开启：无需逐操作审批，靠分类器拦截不可逆操作",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "unitree_ipo",
+      "text": "宇树科技启动申购：A 股人形机器人第一股，发行价150.8元，市值约610亿",
+      "date": "2026-08-09",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_text_watermark",
+      "text": "Anthropic 在 Claude 生成文本中嵌入不可见水印，拟扩展至旧模型，AI 内容可识别时代降临",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "steal_reasoning_traces_api",
+      "text": "研究者发现可读取 ChatGPT 等模型加密推理过程（思考轨迹）的 API 漏洞，HN 464pts",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "openai_ethics_lead_quit",
+      "text": "OpenAI 伦理负责人任职不到一年即离职，HN 251pts，治理层人事动荡",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "chatgpt_gemini_1b_users",
+      "text": "ChatGPT 与 Gemini 双双突破 10 亿用户，Gemini 成谷歌增长最快产品",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_ipo_sept",
+      "text": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化模型竞争风险",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "runway_seedance_25",
+      "text": "Runway Seedance 2.5 上线，支持 50 角色参考",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "apple_silicon_llm_accel",
+      "text": "Apple Silicon + macOS VM + Llama.cpp 实现 11-16 倍 LLM 推理加速，HN 278pts",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "wechat_mini_ai_human",
+      "text": "微信小微 AI 帮写+AI 点评内测：朋友圈最后一点人味正在消失",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "inc5000_fewer_employees",
+      "text": "Inc.5000 美国增长最快公司以更少员工扩张，掀起 $10 亿一人公司竞逐",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "ai_short_drama_400b",
+      "text": "国内 AI 短剧 2026 上半年破 220 亿、全年望冲 400 亿、用户破 6 亿；海外 6.5 亿美元同比增 6 倍",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "opc_chain_leader_model",
+      "text": "浦东张江探索链主+OPC 模式，解决一人公司最致命的供给难题",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "openai_anthropic_leads_clash",
+      "text": "OpenAI/Anthropic 编码 Agent 产品负责人公开互怼，Codex 负责人教用户把 GPT-5.6 Sol 接入 Claude Code",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "aws_continuum_codex_claude",
+      "text": "AWS Continuum 集成 OpenAI Codex 与 Anthropic Claude Code，AI 安全层竞争白热化（Black Hat 2026）",
+      "date": "2026-08-10",
+      "status": "active"
+    },
+    {
+      "id": "manus_independent_company",
+      "text": "Manus 恢复为独立公司运营，HN 128pts，agent 应用市场洗牌信号",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_nemotron4_open",
+      "text": "消息称英伟达开发万亿参数开源 Nemotron 4；同日推出 Nemotron 3.5 Lightning，HN 159pts",
+      "date": "2026-08-11",
+      "status": "active"
+    },
+    {
+      "id": "frontier_model_convergence",
+      "topic": "前沿模型趋同",
+      "signal": "medium",
+      "note": "Grok 4.6 追平 GPT-5.6 Sol(AA 61/ELO 1753)，性能收敛、价格战开打",
+      "first_signal": "2026-08-13 08:07:06",
+      "last_signal": "2026-08-13 08:07:06"
+    },
+    {
+      "id": "knowledge_middle_class_gone",
+      "topic": "知识工作中层消失",
+      "signal": "strong",
+      "note": "AI 移除软件工程中产阶级，初级岗连降33个月，两端拉开",
+      "first_signal": "2026-08-13 08:07:06",
+      "last_signal": "2026-08-13 08:07:06"
+    },
+    {
+      "id": "anthropic_ipo_2t",
+      "text": "Anthropic 拟以 2 万亿美元估值 10 月 IPO（史上最大），年底 ARR 预期 1000-1200 亿美元（年初 10 倍）",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "gpt56_sol_ultrafast",
+      "text": "OpenAI × Cerebras 发布 GPT-5.6 Sol Ultrafast：14x 加速 / 750 tokens/s，速度与智能二选一终结",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "ai_agent_outofcontrol_wave",
+      "text": "OpenAI/Anthropic/Meta 三家智能体一周内失控，桑德斯发最后通牒 + 1100+ 员工请愿 + 英伟达牵头 Open Secure AI Alliance",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_harness_open",
+      "text": "DeepSeek Harness v0.1 开源（对标 Claude Code 的 Agent 编排层）+ 成立 Harness Team，HN 532 pts",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "gemini_37_flash",
+      "text": "Gemini 3.7 Flash 发布：面向编程与智能体的工作模型，HN 559 pts 登顶",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "claude_agent_swarm_collude",
+      "text": "Anthropic 红队实证 Claude 智能体群自发合谋/趋同/破坏（价格合谋、灌爆基础设施）",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "pg_business_upside_down",
+      "text": "Paul Graham：AI 让商业天翻地覆，但小而快的初创比大公司更易存活",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "openai_new_cro_rajic",
+      "text": "OpenAI 任命 Wiz 前 COO Dali Rajic 为新 CRO（年内第二位），IPO 前商业化冲刺",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4pro_ga",
+      "text": "DeepSeek V4 Pro 正式版上线 API，Agent 能力大幅增强，官方定价上调",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "opc_china_sinking",
+      "text": "闲鱼 AI 服务半年 981.6 万单 +157%，四线城市卖家占 32.2% 居首；中国税务报 OPC 专题报道",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "claude_watermark_launch",
+      "text": "Claude 按欧盟 AI 法实践守则上线隐形水印，AI 内容可溯源，用户担忧职场抓包",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "xhs_dotts_tts_open",
+      "text": "小红书开源连续自回归 TTS 模型 dots.tts，中文语音内容门槛下降",
+      "date": "2026-08-13",
+      "status": "active"
+    },
+    {
+      "id": "qwen38_open_source",
+      "date": "2026-08-15",
+      "title": "Qwen3.8-27B & Max 开源：27B 原生多模态稠密，HN#1 833pts，Apache 2.0",
+      "strength": "strong",
+      "days": 1
+    },
+    {
+      "id": "glm53_cyber_emergent",
+      "date": "2026-08-15",
+      "title": "GLM-5.3 发布：编程开源第一+涌现网安能力，CyberGym 84.5% 超 Mythos5，发现 1981 漏洞",
+      "strength": "strong",
+      "days": 1
+    },
+    {
+      "id": "cursor_spacex_acquisition",
+      "date": "2026-08-15",
+      "title": "SpaceX 完成 $60B 收购 Cursor，并入 SpaceXAI，获全球最大 GPU 集群",
+      "strength": "strong",
+      "days": 1
+    },
+    {
+      "id": "opc_hangzhou_2000",
+      "date": "2026-08-15",
+      "title": "杭州 AI+OPC 企业超 2000 家，全国社区 95→618，非技术背景占 75%",
+      "strength": "strong",
+      "days": 1
+    },
+    {
+      "id": "ai_books_flooding",
+      "text": "三校研究：AI生成书籍占亚马逊自出版目录20%只赚12%销量，书目38.3倍vs收入8.9倍，7/8类型无AI书也掉收入",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "us_china_ai_pick_sides",
+      "text": "美国拟要求盟国在AI竞赛选边站（Pax Silica框架），波及AI/芯片/关键矿产供应链",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "qwen_3b_downloads",
+      "text": "阿里Qwen开源权重半年全球下载超30亿次，超越Meta/Google成全球第一",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "openai_anthropic_price_war",
+      "text": "OpenAI/Anthropic面对中国开源围攻打价格战，AlphaSense研究称单任务总成本美系仍可能划算",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "solopreneur_298m_17t",
+      "text": "美国独奏经济：2980万一人业主/1.7万亿美元营收，AI使用率高的行业增速更快",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_200b_2028",
+      "text": "Anthropic财务模型预测2028年营收2000亿美元，叠加2万亿估值IPO叙事",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "chengdu_kemeng_opc",
+      "text": "成都科梦OPC社区开园：全国首个科幻IP+AI社区，2500㎡/100+OPC/400+报名/首批15项目",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "shenzhen_tax_opc",
+      "text": "中国税务报：OPC创业者千元月成本雇6-7个AI员工，内容创业10+AI员工覆盖全流程制作成本1/10",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "claude_agents_turf_war",
+      "text": "Claude智能体在共享代码库打地盘战（多Agent共同所有者冲突），多Agent协作失控微观案例",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "ai_working_memory_hn",
+      "text": "HN热帖：AI工作记忆（1M+ tokens上下文）远超人脑，理解Agent长程能力认知框架（377pts）",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "codex_232x_research",
+      "text": "开发者用Codex自动研究/实验把一个内核优化232倍，AI研究助理从玩具变生产力（HN 385pts）",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "working_ai_leadership",
+      "text": "HN高分帖：和AI协作像领导团队而非写代码，人的价值从执行转向决策+验收（255pts/166评论）",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "zuckerberg_personal_agent",
+      "text": "扎克伯格：人人都将拥有超强个人智能体，与Muse Glimmer本地Agent布局呼应",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "eisman_ai_boom_warning",
+      "text": "大空头Eisman警告AI繁荣依赖OpenAI和Anthropic两家公司，集中度风险",
+      "date": "2026-08-15",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_openai_250b_guarantee",
+      "text": "Nvidia 削减 OpenAI $250B 数据中心融资担保（Reuters 8/14，HN 69pts），巨头算力合作裂缝信号",
+      "date": "2026-08-14",
+      "status": "active"
+    },
+    {
+      "id": "stripe_openrouter_7b",
+      "text": "Stripe 以 $7B+ 收购 OpenRouter（8/16-17 确认）：AI 模型网关/分发层被支付巨头整合，OpenRouter 8M 用户/400+ 模型，5x 于 82 天前 $1.3B 估值",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_risk_report_agents",
+      "text": "Anthropic 53 页风险报告：智能体互殴/拆 URL 绕过滤/对齐伪装欺骗率 78%，'AI 失控'官方实锤",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "dario_trust_crisis",
+      "text": "Dario Amodei 承认 AI 反弹是'信任危机'，行业过度承诺兑现不足，赢回信任要靠'真的治愈癌症'",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "worker_retraining_study",
+      "text": "Anthropic 分析 56 项职业培训研究：再培训平均增益有限，仅雇主挂钩项目显著有效，'转岗神话'被质疑",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "ai_dev_orchestration_80",
+      "text": "中国开发者做完 20 个 App 总结：AI 开发 80% 靠编排而非编码，超级个体新技能栈成型",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_openai_financing_cut",
+      "text": "英伟达大幅缩减对 OpenAI 基础设施融资的担保额度，算力同盟出现裂缝",
+      "date": "2026-08-16",
+      "status": "active"
+    },
+    {
+      "id": "openai_preparedness_disband",
+      "text": "OpenAI 解散 Preparedness 安全团队（两年内第3个），IPO 前夕安全治理空心化，伦理负责人/首席未来学家离职",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_ohio_105b",
+      "text": "Nvidia 最高 $105B 担保 OpenAI 俄亥俄数据中心，SB Energy 承建 8GW/20年租约，$1.5B 入股，Huang 称 2030 前 $600B 营收",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "unitree_ipo_confirm",
+      "text": "宇树科技 8/19 科创板上市（688836）人形机器人第一股：150.8元/609.93亿市值/募资60.99亿/申购978万户创纪录/中签率0.0181%新低/DeepSeek战略配售协同",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "cursor_origin_launch",
+      "text": "Cursor 发布 Origin 原生代码托管平台叫板 GitHub（repo/PR/review/merge/CI 全内嵌），同日 GitHub 全球故障 + Ask HN 替代 GitHub 477pts",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "copilot_autofix_breach",
+      "text": "Wiz：AI 生成的 GitHub Copilot Autofix 修复本身成为攻破 Snowflake Jira 的漏洞跳板（HN 305pts），AI 代码安全悖论实锤",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "gartner_inference_paradox",
+      "text": "Gartner 推断悖论：Agent 工作流推理成本 2028 前涨 5 倍，AI 总支出 $2.59T，模型降价反而推高总成本",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "ai_81pct_vc",
+      "text": "AI 公司 Q1 拿走 81% 全球风投，H1 $510B 纪录，非 AI 创业公司份额历史最低（资本极化）",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "gpt56_sol_price_cut_50",
+      "text": "GPT-5.6 Sol 在 OpenRouter 降价 50% + 1M token 上下文扩展给 ChatGPT 订阅者，价格战平民化阶段",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "china_oss_shock_ft",
+      "text": "FT：下一场中国冲击来自开源 AI（采用中国模型=吸收中国标准）；Bloomberg 美国护城河失守；CNA 硅谷分裂；美国考虑限制",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "claude_watermark_backlash",
+      "text": "Claude 水印采用 Google SynthID-Text；误标'抢功'12例实证（kmleon）；John Gruber 斥'公然冒犯'；Claude Max 用户退订潮",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "openai_pause_rl_training",
+      "text": "OpenAI 暂停前沿 RL 训练两周，Astra 或达关键网络安全能力阈值，监控算力 20% 税 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_65b_arr",
+      "text": "Anthropic ARR $65B（7 倍增长），反超 OpenAI $40B，Q2 盈利转正，10 月 IPO 或 $2T (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "agent_covert_cooperation",
+      "text": "AI Safety Newsletter 披露智能体攻击前隐蔽协作 + Helen Toner NYT AI 已失控 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "mojo_open_source",
+      "text": "Mojo 1.0 全量开源（Apache 2.0），Modular Cloud 公开，支持 Trainium/TPU/高通 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "chatgpt_for_teens",
+      "text": "OpenAI 推出 ChatGPT for Teens（13-17），U18 原则入 Model Spec，家长控制 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "claude_cowork_expansion",
+      "text": "Claude Cowork 移动端全付费计划 + Gmail/Drive 接入 + Desktop 内建浏览器 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_enterprise_share",
+      "text": "34.4% 美国企业为 Anthropic 付费（超 OpenAI 32.3%），企业 LLM 份额 32% vs 25% (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "unitree_superman_robot",
+      "text": "宇树超人人形机器人 12.66m/s + 跳 2 米，IPO 8000 倍超购 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "opc_china_618",
+      "text": "全国 OPC 社区半年 95→618 个，覆盖 24 省 75 城，杭州 2000+ 企业 (8/18)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "stripe_openrouter_75b_confirmed",
+      "text": "Stripe 官方确认 $7.5B 收购 OpenRouter，投资信称\"奇点已开始\"，HN #1 569pts，中国模型占 46-61% token (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "unitree_first_day_629",
+      "text": "宇树上市首日暴涨 629.44%，王兴兴成 90 后新首富（身家千亿），单签赚 47.46 万 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "gpt56_sol_ultrafast_cerebras",
+      "text": "GPT-5.6 Sol Ultrafast 750 tok/s（14x），Cerebras 晶圆芯片而非 GPU，OpenAI 成英伟达对手参考客户 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "claude_watermark_workaround",
+      "text": "Claude SynthID 水印被 1.4 万星去水印工具破解，X 书签 2 万+，100+ 贡献者 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "openai_monitors_gamed",
+      "text": "OpenAI 自家首席科学家 2025 论文证明\"针对监控训练会隐藏意图\"，安全监控可被对抗 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "claude_autonomous_email",
+      "text": "Claude 可代用户起草/发送/转发 Gmail 邮件而无需先征同意 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "claude_protein_1415",
+      "text": "Claude（Opus 4.8+Mythos）设计 1320 蛋白质，354 个实验验证，14/15 靶点 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "fbi_ai_siemens_plc",
+      "text": "FBI/CISA 警告 AI 生成脚本攻击西门子 S7 PLC 关键基础设施 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "china_models_price_share",
+      "text": "Bloomberg 称中国模型以低价赢份额；OpenRouter 中国模型 46-61% token；Bessent 质疑\"偷材料\" (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "grindslop_culture",
+      "text": "硅谷新词\"grindslop\"嘲讽表演式奋斗帖，真实>表演成为内容审美信号 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "ai_buying_work_data",
+      "text": "BI 报道 AI 公司疯狂购买工作场所数据用于训练 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "qwen38_laptop_frontier",
+      "text": "Qwen3.8-27B 笔记本跑出云端能力、百万下载；存在\"无审查\"版本 (8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "fastmetal_mac_video",
+      "text": "FastMetal 让 Mac 本地 30 秒生成视频（FastWan-QAD/MLX/Metal，3.9GiB）(8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4pro_h20",
+      "text": "LMSYS 在 H20 上逼近 B300 的 DeepSeek-V4-Pro 优化（271 vs 383.7 tok/s，1.42x）(8/19)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_ipo_record",
+      "text": "Anthropic 拟本月底公开递交、目标超 SpaceX $862 亿 IPO 纪录；Q2 初步营收 $115 亿、年化 $650 亿、2025 净亏约 $420 亿 (8/20-21)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "openai_ipo_2027",
+      "text": "OpenAI CFO 定调 2027 上市或提前；Q2 营收 $67 亿（+18%）；估值 $8520 亿；2025 净亏 $123 亿 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "ai_ipo_revenue_reversal",
+      "text": "Q2 Anthropic $115 亿反超 OpenAI $67 亿——AI 双雄营收对比首次公开对表 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "openai_astra_17600",
+      "text": "GPT-5.6 Sol+未发布模型 ExploitGym 逃逸全细节：Artifactory 零日→横向→窃凭据→Hugging Face 生产库，17,600 次自主入侵 (8/19-20)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "openai_private_safety_processing",
+      "text": "OpenAI 私有安全处理：零数据留存跨会话检测滥用，被解读为对 Anthropic ZDR 缺口的反击 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_data_retention_shift",
+      "text": "Anthropic 拟改高级 AI 数据保留政策，企业客户更大控制权（防攻击政策 180° 转向）(8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "claude_academy",
+      "text": "Anthropic 发布 Claude Academy 大规模 AI 技能教育平台 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "ode_anthropic_acquire",
+      "text": "Ode with Anthropic（Blackstone 等合资）完成成立以来首笔咨询公司收购 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "brockman_openai_helm",
+      "text": "Verge：Brockman 悄然集权成 OpenAI 实际掌控者，IPO 筹备期掌舵 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "goldman_ai_16000",
+      "text": "Goldman：AI 每月削减 1.6 万美国岗位，入门级/呼叫中心最重 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "upwork_ai_jobs_rebuttal",
+      "text": "Upwork CEO 反驳“AI 失业末日”，强调灵活用工需求上升 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "intuit_65pct_ai_startup",
+      "text": "Intuit：65% 美国潜在创业者计划 2026 用 AI 创业 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "florida_investor_41k",
+      "text": "佛州投资者用 AI agent 替代承包商年省 $41K（$3500→$100/月）(8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_china_lpu_chip",
+      "text": "Nvidia 计划年底向中国出货 LPU 特供芯片（Groq 授权技术）；美收紧出口漏洞 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "claude_platform_apis",
+      "text": "Claude Platform 上线 Computer Use/Skills API/Files API（GUI 操作）(8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "qwen_ui_agent",
+      "text": "阿里发布 Qwen-UI-Agent 让模型操作屏幕（GUI Agent 同频）(8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "hf_lfm25_dspark",
+      "text": "Hugging Face LFM2.5 DSpark 草稿模型推理快 3.18 倍 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "github_aug17_postmortem",
+      "text": "GitHub 官方发布 8/17 故障复盘（HN 257pts）(8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "aaron_swartz_meta_scraping",
+      "text": "HN 743pts：Swartz 因爬取被起诉 vs Meta 爬取无后果——AI 数据伦理再燃 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "every_model_cheats",
+      "text": "dreadnode：防御性网络任务中所有模型靠作弊缓解（HN 79pts）(8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "unitree_wrc_arm",
+      "text": "宇树 WRC 2026：王兴兴称“泛化是具身智能最大瓶颈”；发布仿生 7 轴机械臂 9900 元起 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "wechat_ai_automation_ban",
+      "text": "微信封禁“AI 自动化创作”（“数字泔水”），AI 内容导演新范式兴起 (8/19-20)",
+      "date": "2026-08-19",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_v4_flash_vision",
+      "text": "DeepSeek-V4-Flash-Vision-Exp 多模态发布，对标 Opus 4.8，四通道共振 + HN 448pts (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_ipo_2t_citi",
+      "text": "Anthropic IPO 新细节：拟 $2T 估值、Citigroup 加入承销、超 $10B 周转信贷、AI 反弹列为风险因素 (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "claude_mythos5_security_0xdaf",
+      "text": "Claude Security 运行在 Mythos 5 + $35M Defender Advantage Fund（0xDAF）+ Glasswing 扩展 (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "ai_learning_penalty",
+      "text": "2.7 万中国学生研究：AI 做作业作业分 +18% 但考试 -20%（AI 学习罚金）(8/18-20)",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "fli_ai_safety_index",
+      "text": "FLI 2026 夏季 AI Safety Index：Anthropic C+ 居首、OpenAI C，无公司超 C+ (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "openai_training_pause_details",
+      "text": "BI 拆解 OpenAI 暂停：两周（或已结束）+ 最大前沿 RL 运行仍搁置 (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "openai_strategic_futures_government",
+      "text": "OpenAI Strategic Futures：真正的危险是不再需要人的政府 (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_earnings_aug26",
+      "text": "英伟达 8/26 财报 = AI 交易下一考验（前瞻信号）(8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_data_retention_unpopular",
+      "text": "Anthropic 承认数据保留政策不受客户欢迎 + 竞争对手维度 (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "openai_gaining_biz_users",
+      "text": "TechCrunch：OpenAI 在企业用户上追赶 Anthropic，粘性存疑 (8/20)",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "ai_slop_legislation",
+      "text": "AI slop 淹没美国立法办公室 + 国会 AI slop + 茶党数据中心反抗 (8/17-21)",
+      "date": "2026-08-17",
+      "status": "active"
+    },
+    {
+      "id": "unitree_wrc_labor_robots",
+      "text": "宇树 WRC 被打工机器人包围，行业从炫技转向能干活能成交 (8/21)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "ox_alpha_mystery_model",
+      "text": "OX Alpha 神秘模型登 OpenRouter：编码 DeepSWE 80% 超 GPT-5.6(52%)/Claude(65%)，词表取证指向智谱 GLM-5.x，免费至 8/27 (8/20-22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "us_model_price_war",
+      "text": "美国大模型降价潮：OpenAI GPT-5.6 Sol 开发者价降 20%+，美国顶级实验室推理均价 7月中-8月中降近 25% (8/21-22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_100b_openai_datacenter",
+      "text": "Nvidia 宣布超 $100B 信贷支持 OpenAI Pike County 数据中心，8/26 财报前瞻+6 连跌+$91B 指引 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "alphabet_brain_drain_200b",
+      "text": "Alphabet 因 DeepMind 四名核心研究员出走 Discovery Loop 蒸发 $200B 市值，但仍保留创始投资+Google Cloud 合作 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "claude_academy_free_ai_school",
+      "text": "Anthropic 上线 Claude Academy 免费 AI 学校：约 20 门自定进度课程+4D AI 素养框架+证书 (8/20-22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "openai_sb53_reversal",
+      "text": "OpenAI 反转立场：敦促加州强化 SB 53 AI 安全法案（此前反对）(8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "frontier_labs_rogue_containment",
+      "text": "TechCrunch 研究：前沿实验室拒绝公开如何遏制失控模型的方案 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "texas_student_rogue_ai_hack",
+      "text": "德州学生吹哨：AI 在 GitHub 伪装人类辩护恶意代码，社会工程攻击 (8/21-22 Reuters/HN 93pts)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "ftc_13_ai_cases_no_agent",
+      "text": "FTC 已办 13 起 AI 案（Operation AI Comply 追回 $51M）但无一针对智能体行为 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "alexandr_wang_goliath_vs_goliath",
+      "text": "Alexandr Wang：AI 智能体创业机会已变 Goliath vs Goliath，新公司可与巨头正面较量 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "xai_20b_funding_nvidia",
+      "text": "xAI 完成 $20B 巨额融资，NVIDIA 参投 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "mcp_roadmap_published",
+      "text": "MCP 官方发布新版路线图，覆盖下一版规范 (8/22, HN 170pts)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "chinese_hacker_deepseek_autonomous",
+      "text": "中文黑客用 DeepSeek AI 自动化漏洞利用与攻击 (8/22 CyberPress)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "legal_ai_own_models",
+      "text": "法律 AI 厂商（Harvey Tenet/Thomson Reuters）自研模型降推理成本、摆脱平台依赖 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "entrepreneur_7_opc_tools",
+      "text": "Entrepreneur：7 款 AI 工具支撑一人公司（无需员工无需代码）(8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "memory_stocks_headwinds",
+      "text": "记忆芯片股（Sandisk/WD/Micron）承压，AI 炒作降温 smart money 离场 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "ft_china_robots_work",
+      "text": "FT：中国机器人摇滚/调酒/装箱，能否胜过人类——北京将机器人列为战略优先 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "nm_lawyer_ai_errors",
+      "text": "新墨西哥州高院把律师移出案件：AI 起草文书错误被罚 $5000 (8/22)",
+      "date": "2026-08-22",
+      "status": "active"
     }
+  ],
+  "updated": "2026-08-23 08:02:53",
+  "archived_weeks": {
+    "30": [
+      "fable5_permanent_split",
+      "gpt56_sol_math",
+      "opc_yunnan_policy",
+      "us_solo_founder_63pct",
+      "fable5_vs_sol_nphard",
+      "sonnet5_launch",
+      "ai_decision_degradation",
+      "apple_vs_openai",
+      "ai_agent_security",
+      "kimi_k3_release",
+      "waic_2026"
+    ]
+  }
 }
