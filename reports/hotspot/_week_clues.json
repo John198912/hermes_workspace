@@ -1,5 +1,5 @@
 {
-  "week": 34,
+  "week": 35,
   "clues": [
     {
       "id": "meta_muse_code",
@@ -1139,8 +1139,8 @@
     },
     {
       "id": "ox_alpha_mystery_model",
-      "text": "OX Alpha 神秘模型登 OpenRouter：编码 DeepSWE 80% 超 GPT-5.6(52%)/Claude(65%)，词表取证指向智谱 GLM-5.x，免费至 8/27 (8/20-22)",
-      "date": "2026-08-22",
+      "text": "匿名模型 OX Alpha 空降 OpenRouter：DeepSWE 80%（GPT-5.6 52%/Claude 65%），3 天 22.1 万用户，100 万亿免费 token/天，词表取证指向智谱 GLM-5 世代，数据保留争议 (8/20-23)",
+      "date": "2026-08-23",
       "status": "active"
     },
     {
@@ -1244,9 +1244,27 @@
       "text": "新墨西哥州高院把律师移出案件：AI 起草文书错误被罚 $5000 (8/22)",
       "date": "2026-08-22",
       "status": "active"
+    },
+    {
+      "id": "opc_anhui_nanjing",
+      "text": "OPC 政策双加厚：安徽工位注册/一址多照/一日办结 + 南京首张 OPC 数据知识产权证书（江苏占全国 40% 一人公司）(8/23-24)",
+      "date": "2026-08-24",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_poolside_6b",
+      "text": "Nvidia 付 $6B 获 Poolside 模型技术授权 + 向 100 多名员工发工作邀请——芯片平台把模型和人才纳入生态 (8/21 Bloomberg)",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_965b_top",
+      "text": "Anthropic 二级市场估值 $965B 超 OpenAI（Power 20 榜首重排），AI 上市潮结构性需求质疑 (8/23)",
+      "date": "2026-08-23",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-23 08:02:53",
+  "updated": "2026-08-24 08:05:37",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
