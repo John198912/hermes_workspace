@@ -1262,9 +1262,111 @@
       "text": "Anthropic 二级市场估值 $965B 超 OpenAI（Power 20 榜首重排），AI 上市潮结构性需求质疑 (8/23)",
       "date": "2026-08-23",
       "status": "active"
+    },
+    {
+      "id": "ox_alpha_privacy_retention",
+      "text": "OX Alpha 匿名模型留存全部提示词，无人能指认持有者（TechTimes/TNW/SiliconANGLE 8/23）",
+      "date": "2026-08-23",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_fable5_demand_slump",
+      "text": "FT: Anthropic 旗舰 Fable 5 企业需求低迷，用户转向更便宜模型（Ramp 数据/DeepSeek 迁移 8/23）",
+      "date": "2026-08-23",
+      "status": "active"
+    },
+    {
+      "id": "openai_sol_price_cut_33pct",
+      "text": "OpenAI Sol 精确降幅：输入-20%/输出-33.3% 至 11/21，已低于 Claude Opus 5（winbuzzer 8/23）",
+      "date": "2026-08-23",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_server_price_hike_15pct",
+      "text": "Nvidia 通知大客户 AI 服务器涨价超 15%（内存成本飙升），期权定价 $312B 波动（CNBC/Bloomberg 8/22-23）",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "openai_daybreak_gpt56_cyber",
+      "text": "OpenAI Daybreak 网安计划：Daybreak Blue(Sol)/Red(GPT-5.6 Cyber)，进攻模型仅限授权防御者（8/22-23）",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "world_humanoid_robot_games",
+      "text": "世界人形机器人运动会北京开幕：2056 台/666 队/51 赛项，天工 Ultra 百米 9.39s 破博尔特纪录（AP/NBC/CBS 8/22-23）",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "texas_student_mythos5_aisi",
+      "text": "德州学生事件实锤：失控 AI 是 Anthropic Mythos 5，来自英国 AISI 测试（US News/AI HOT 8/20-23）",
+      "date": "2026-08-20",
+      "status": "active"
+    },
+    {
+      "id": "openai_lehane_cyber_warning",
+      "text": "OpenAI 全球事务官勒汉恩：公众和企业须为 AI 持续网络攻击做好防御准备（8/23）",
+      "date": "2026-08-23",
+      "status": "active"
+    },
+    {
+      "id": "glm53_security_dns_vuln",
+      "text": "GLM-5.3 安全实证：挖出 DNS 40 年协议漏洞/微软 3 漏洞/Cursor 漏洞/机器人劫持漏洞（安全419 8/22-23）",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_ipo_100b_backlash",
+      "text": "Anthropic IPO 拟募 $100B/估值 $2T，AI 反弹写进招股书风险因素（NYT/CNBC 8/21-23）",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "opc_middle_manager_4_agents",
+      "text": "一人公司进化：雇 4 个 AI Agent 后成了中层管理者，瓶颈是无共享记忆（thecreatorsai 8/21）",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "china_ai_community_opc_infra",
+      "text": "中国 AI 社区成 OPC 新基建：5㎡ 工位 3 年免租 + 墨见 AI 虚拟团队（CSDN/墨刀 8/22-23）",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "coupa_agent_payments_201m",
+      "text": "Coupa AI Agent 自主组装 $2010 万付款批次但无最终决定权（PYMNTS 8/21）",
+      "date": "2026-08-21",
+      "status": "active"
+    },
+    {
+      "id": "enterprise_agent_autonomy_limit",
+      "text": "企业 AI Agent 赢家都在限制 Agent 自主权（VentureBeat/Forbes 8/22）",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "openai_rl_pause_monitoring_20pct",
+      "text": "OpenAI 暂停 RL 训练细节：监控消耗约 20% 推理算力、30 分钟告警（byted CSDN 8/18-22）",
+      "date": "2026-08-18",
+      "status": "active"
+    },
+    {
+      "id": "ai_content_director_wechat_ban",
+      "text": "AI 内容创作：微信封禁数字泔水，做 AI 内容导演；AI 订阅市场 2026 超 $2000 亿（CSDN 8/22-23）",
+      "date": "2026-08-22",
+      "status": "active"
+    },
+    {
+      "id": "claude_opus46_jailbreak",
+      "text": "TechCrunch 越狱测试：Claude Opus 4.6 轻易绕过色情内容限制（8/21）",
+      "date": "2026-08-21",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-24 08:05:37",
+  "updated": "2026-08-24 08:08:40",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
