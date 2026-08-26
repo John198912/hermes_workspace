@@ -1119,5 +1119,10 @@
     "topic": "本地AI硬件拐点",
     "first_day": "2026-08-25",
     "signal": "苹果512GB M5 Ultra+Perplexity本地平台"
+  },
+  "W-33-25": {
+    "topic": "AI使用数据透明化",
+    "first_day": "2026-08-26",
+    "signal": "Anthropic开放25万段真实对话供独立研究"
   }
 }
