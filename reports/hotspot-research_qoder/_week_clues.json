@@ -1154,5 +1154,15 @@
     "topic": "远程算力绕道封堵（MoonshotKimi K3）",
     "first_day": "2026-08-30",
     "signal": "商务部起草新规打击泰国/新加坡远程 GPU 租用"
+  },
+  "W-33-32": {
+    "topic": "AI 广告商业化（ChatGPT Ads）",
+    "first_day": "2026-08-31",
+    "signal": "200 天破 10 亿年化营收"
+  },
+  "W-33-33": {
+    "topic": "中国 B 端 Agent 大决战（阿里 vs 腾讯）",
+    "first_day": "2026-08-31",
+    "signal": "Qwen Work 公测+WorkBuddy 双雄争霸"
   }
 }
