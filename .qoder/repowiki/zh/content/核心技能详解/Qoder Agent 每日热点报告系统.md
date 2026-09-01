@@ -12,6 +12,7 @@
 - [eco_scan_2026-08-17.md](file://reports/ecosystem/eco_scan_2026-08-17.md)
 - [report_2026-08-19.md](file://reports/hotspot/daily/report_2026-08-19.md)
 - [report_daily_2026-08-28.md](file://reports/hotspot-research_qoder/report_daily_2026-08-28.md)
+- [report_daily_2026-08-31.md](file://reports/hotspot-research_qoder/report_daily_2026-08-31.md)
 - [_week_clues.json](file://reports/hotspot/_week_clues.json)
 - [_week_clues_qoder.json](file://reports/hotspot-research_qoder/_week_clues.json)
 - [weekly_report_2026-08-17.md](file://reports/hotspot/weekly/weekly_report_2026-08-17.md)
@@ -19,8 +20,8 @@
 
 ## 更新摘要
 **变更内容**
-- **新增2026-08-28深度分析报告**：Qoder Agent生成321行综合热点报告，成功覆盖AI训练数据刑事指控（xAI CSAM诉讼）、国产旗舰开源竞赛（腾讯Hy4 770B参数开源）等20个优先热点，展现 sophisticated multi-source validation 能力
-- **强化周线索追踪系统**：新增W-33-28"AI训练数据刑事指控"和W-33-29"国产旗舰开源竞赛"两个重要追踪主题，完善AI行业重大事件长期追踪能力
+- **新增2026-08-31深度分析报告**：Qoder Agent生成337行综合热点报告，成功覆盖DeepSeek开源多模态模型（MIT协议）、ChatGPT Ads收入里程碑（10亿美元年化）、Ethan Mollick的Twilight Factory框架、MiniMax AI流媒体平台、欧盟AI法案执法行动等5个P0级热点，展现 sophisticated multi-source validation 能力
+- **强化周线索追踪系统**：新增W-33-32"AI广告商业化"和W-33-33"中国B端Agent大决战"两个重要追踪主题，完善AI行业重大事件长期追踪能力
 - **提升多源验证精度**：通过AI HOT REST API、aiweekly.co、WebSearch中英文等多渠道交叉验证，确保关键事件的准确性与时效性
 - **优化内容策展质量**：通过结构化主题优先级排序（P0/P1/P2）和可执行内容建议，展现更成熟的content curation能力
 
@@ -37,7 +38,7 @@
 10. [附录](#附录)
 
 ## 简介
-本系统是一个面向"AI×超级个体"赛道的自动化热点采集与分析工作流。通过**六通道并行采集**、指纹去重、结构化数据输出，再由 LLM（Hermes/Qoder Agent）结合 Skill 模板生成高质量日报/周报，最终沉淀为可检索的报告资产与线索库。**最新增强**：系统现已实现完整的生态系统扫描能力，能够同时处理多个信息源，包括AI HOT RSS、Brave MCP搜索、byted-web中文搜索、Jina博客、Browser HN和周线索文件，大幅提升数据采集效率和覆盖范围。**2026年8月28日最新更新**：Qoder Agent成功生成321行深度分析报告，涵盖AI训练数据刑事指控、国产旗舰开源竞赛等重大事件，展现了 sophisticated multi-source validation 和 automated analysis pipeline 的卓越能力。
+本系统是一个面向"AI×超级个体"赛道的自动化热点采集与分析工作流。通过**六通道并行采集**、指纹去重、结构化数据输出，再由 LLM（Hermes/Qoder Agent）结合 Skill 模板生成高质量日报/周报，最终沉淀为可检索的报告资产与线索库。**最新增强**：系统现已实现完整的生态系统扫描能力，能够同时处理多个信息源，包括AI HOT RSS、Brave MCP搜索、byted-web中文搜索、Jina博客、Browser HN和周线索文件，大幅提升数据采集效率和覆盖范围。**2026年8月31日最新更新**：Qoder Agent成功生成337行深度分析报告，涵盖DeepSeek开源多模态模型、ChatGPT Ads收入里程碑、Ethan Mollick的Twilight Factory框架、MiniMax AI流媒体平台、欧盟AI法案执法行动等重大事件，展现了 sophisticated multi-source validation 和 automated analysis pipeline 的卓越能力。
 
 ## 项目结构
 - **采集与执行**：Python 引擎负责跨平台抓取、指纹去重、异常降级与 JSON 产出；Skill 定义策略与流程；配置管理模型与工具集。
@@ -60,7 +61,7 @@ S["SKILL.md<br/>策略/约束/流程"]
 T["report_template.md<br/>报告模板"]
 C["hermes-config-backup.yaml<br/>模型/MCP/工具"]
 ES["生态系统扫描器<br/>HERMES-ECO v1.0"]
-QA["Qoder Agent<br/>深度分析(321行)"]
+QA["Qoder Agent<br/>深度分析(337行)"]
 HA["Hermes Agent<br/>综合热点(294行)"]
 end
 subgraph "数据资产层"
@@ -106,7 +107,7 @@ G --> E
   - 职责：定期扫描Hermes生态技能库，评估技能成熟度、社区活跃度、实用价值
   - 评分维度：WF（工作流匹配度）、MS（成熟度）、AD（易用性）、GV（替代价值）、EH（社区热度）、US（用户满意度）
 - **双轨报告系统**
-  - **Qoder Agent研究流**：321行深度分析报告，专注AI转型趋势，包含AI训练数据刑事指控、国产旗舰开源竞赛等20个优先热点
+  - **Qoder Agent研究流**：337行深度分析报告，专注AI转型趋势，包含DeepSeek开源多模态模型、ChatGPT Ads收入里程碑、Ethan Mollick Twilight Factory框架、MiniMax AI流媒体平台、欧盟AI法案执法行动等5个P0级热点
   - **Hermes Agent主报告流**：294行综合热点报告，涵盖AI行业全貌，包括OpenAI RL训练暂停、Anthropic ARR超$65B、Unitree STAR市场上市、Claude Gmail/Drive集成扩展
 - **智能线索管理系统**
   - 主线索库：追踪AI行业重大发展事件
@@ -120,9 +121,9 @@ G --> E
 - [hotspot_engine.py:173-800](file://scripts/hotspot_engine.py#L173-L800)
 - [eco_scan_2026-08-17.md:28-44](file://reports/ecosystem/eco_scan_2026-08-17.md#L28-L44)
 - [report_2026-08-19.md:271-286](file://reports/hotspot/daily/report_2026-08-19.md#L271-L286)
-- [report_daily_2026-08-28.md:10-38](file://reports/hotspot-research_qoder/report_daily_2026-08-28.md#L10-L38)
+- [report_daily_2026-08-31.md:10-38](file://reports/hotspot-research_qoder/report_daily_2026-08-31.md#L10-L38)
 - [_week_clues.json:1-815](file://reports/hotspot/_week_clues.json#L1-L815)
-- [_week_clues_qoder.json:1068-1078](file://reports/hotspot-research_qoder/_week_clues.json#L1068-L1078)
+- [_week_clues_qoder.json:1158-1168](file://reports/hotspot-research_qoder/_week_clues.json#L1158-L1168)
 
 ## 架构总览
 系统采用"**六通道并行采集 + 双轨智能分析 + 生态系统扫描**"的分层架构：
@@ -155,7 +156,7 @@ Scanner-->>Cron : 输出生态评估报告
 Cron->>Skill : 加载策略与约束
 Skill->>Qoder : 传入JSON+模板+平台评级
 Skill->>Hermes : 传入JSON+模板+平台评级
-Qoder->>Report : 生成深度分析报告(321行)
+Qoder->>Report : 生成深度分析报告(337行)
 Hermes->>Report : 生成综合热点报告(294行)
 Qoder->>Clues : 更新研究线索库
 Hermes->>Clues : 更新主线索库
@@ -235,9 +236,9 @@ Save --> End(["结束"])
 - [hotspot_engine.py:173-800](file://scripts/hotspot_engine.py#L173-L800)
 
 ### 双轨报告系统
-- **Qoder Agent研究流**（report_daily_2026-08-28.md）
-  - **321行深度分析报告**，专注AI转型趋势
-  - **Top 20优先排序**，涵盖AI训练数据刑事指控（xAI CSAM诉讼）、国产旗舰开源竞赛（腾讯Hy4 770B参数开源）、OpenAI失控智能体报告、英伟达涨价传导链等重大事件
+- **Qoder Agent研究流**（report_daily_2026-08-31.md）
+  - **337行深度分析报告**，专注AI转型趋势
+  - **Top 20优先排序**，涵盖DeepSeek开源多模态模型（MIT协议）、ChatGPT Ads收入里程碑（10亿美元年化）、Ethan Mollick Twilight Factory框架、MiniMax AI流媒体平台、欧盟AI法案执法行动等5个P0级热点
   - **多源验证**：AI HOT REST API + aiweekly.co + WebSearch中英文 + 专家观点，确保关键事件的准确性
   - **多维度信息聚合**：实时API数据 + 海外聚合 + 中文搜索 + 专家博客，形成完整证据链
 - **Hermes Agent主报告流**（report_2026-08-19.md）
@@ -248,7 +249,7 @@ Save --> End(["结束"])
 
 章节来源
 - [report_2026-08-19.md:10-38](file://reports/hotspot/daily/report_2026-08-19.md#L10-L38)
-- [report_daily_2026-08-28.md:10-38](file://reports/hotspot-research_qoder/report_daily_2026-08-28.md#L10-L38)
+- [report_daily_2026-08-31.md:10-38](file://reports/hotspot-research_qoder/report_daily_2026-08-31.md#L10-L38)
 
 ### 周趋势合成系统（Week 34）
 - **三大主线叙事**
@@ -281,9 +282,9 @@ Save --> End(["结束"])
   - 生命周期管理：新增线索追加到末尾并写回；过期（>30天无信号）的线索标记为 `[EXPIRED]` 归档
   - 禁止规则：同一线索主题在同周获得不同 W-ID
 
-**最新更新**（2026-08-28）：
-- **AI训练数据刑事指控**（W-33-28）：xAI CSAM诉讼首次刑事级别指控，标志AI训练数据合规边界重塑
-- **国产旗舰开源竞赛**（W-33-29）：腾讯Hy4 770B参数开源接力智谱开源浪潮，中国开源主导地位持续巩固
+**最新更新**（2026-08-31）：
+- **AI广告商业化**（W-33-32）：ChatGPT Ads 200天破10亿美元年化营收，标志AI原生广告商业模式跑通
+- **中国B端Agent大决战**（W-33-33）：阿里巴巴Qwen Work公测+腾讯WorkBuddy双雄争霸，企业级AI助手市场竞争白热化
 
 **主要线索示例**：
 - Meta发布Muse Code AI编程Agent（beta），子Agent并行架构，价格比竞品低10倍
@@ -293,7 +294,7 @@ Save --> End(["结束"])
 
 章节来源
 - [_week_clues.json:1-815](file://reports/hotspot/_week_clues.json#L1-L815)
-- [_week_clues_qoder.json:1068-1078](file://reports/hotspot-research_qoder/_week_clues.json#L1068-L1078)
+- [_week_clues_qoder.json:1158-1168](file://reports/hotspot-research_qoder/_week_clues.json#L1158-L1168)
 
 ### 平台与来源（platforms.md）
 - 国内平台：小红书、B站、抖音、微博、知乎、投资界/惊蛰研究所等，明确评级与获取方式
@@ -395,7 +396,7 @@ Reports2 --> Clues2
 - [hotspot_engine.py:252-771](file://scripts/hotspot_engine.py#L252-L771)
 
 ## 结论
-该系统通过"**六通道并行采集 + 双轨智能分析 + 生态系统扫描**"的清晰分工，实现了高可靠、可追溯、高质量的热点采集与报告生成。**最新的生态系统扫描能力**显著提升了系统的信息采集效率和覆盖范围，能够同时处理AI HOT RSS、Brave MCP搜索、byted-web搜索、Jina博客、Browser HN和周线索文件等多个信息源。**双轨周线索数据库系统**进一步增强了长期价值追踪能力，能够持续记录和分析AI行业的重大发展，包括Meta的Muse Code AI、Google的收购谈判、OpenAI的定价策略调整等关键事件。**Week 34的综合分析**展示了系统在复杂信息环境下的处理能力，成功整合了AI智能体失控、万亿资本叙事和中国开源主导三大主线。**2026年8月28日的最新更新**标志着系统能力的重大提升：Qoder Agent成功生成321行深度分析报告，涵盖AI训练数据刑事指控、国产旗舰开源竞赛、OpenAI失控智能体报告、英伟达涨价传导链等20个优先热点，展现了 sophisticated multi-source validation 和 automated analysis pipeline 的卓越能力。系统通过AI HOT REST API、aiweekly.co、WebSearch中英文等多渠道交叉验证，确保了关键事件的准确性与时效性。通过结构化主题优先级排序（P0/P1/P2）和可执行内容建议，体现了更成熟的content curation能力。**2026-08-28的双轨报告**进一步强化了对AI训练数据刑事指控和国产旗舰开源竞赛的追踪，体现了系统在新兴议题上的快速响应能力和跨源验证的可靠性。指纹去重、平台评级、AM/PM 版本规则与时效宣誓共同保障了内容的时效性与质量。未来可继续扩展新采集通道、优化并行调度策略，并强化线索库的长期价值与趋势分析能力。
+该系统通过"**六通道并行采集 + 双轨智能分析 + 生态系统扫描**"的清晰分工，实现了高可靠、可追溯、高质量的热点采集与报告生成。**最新的生态系统扫描能力**显著提升了系统的信息采集效率和覆盖范围，能够同时处理AI HOT RSS、Brave MCP搜索、byted-web搜索、Jina博客、Browser HN和周线索文件等多个信息源。**双轨周线索数据库系统**进一步增强了长期价值追踪能力，能够持续记录和分析AI行业的重大发展，包括Meta的Muse Code AI、Google的收购谈判、OpenAI的定价策略调整等关键事件。**Week 34的综合分析**展示了系统在复杂信息环境下的处理能力，成功整合了AI智能体失控、万亿资本叙事和中国开源主导三大主线。**2026年8月31日的最新更新**标志着系统能力的重大提升：Qoder Agent成功生成337行深度分析报告，涵盖DeepSeek开源多模态模型、ChatGPT Ads收入里程碑、Ethan Mollick的Twilight Factory框架、MiniMax AI流媒体平台、欧盟AI法案执法行动等5个P0级热点，展现了 sophisticated multi-source validation 和 automated analysis pipeline 的卓越能力。系统通过AI HOT REST API、aiweekly.co、WebSearch中英文等多渠道交叉验证，确保了关键事件的准确性与时效性。通过结构化主题优先级排序（P0/P1/P2）和可执行内容建议，体现了更成熟的content curation能力。**2026-08-31的双轨报告**进一步强化了对AI广告商业化和中国B端Agent市场的追踪，体现了系统在新兴议题上的快速响应能力和跨源验证的可靠性。指纹去重、平台评级、AM/PM 版本规则与时效宣誓共同保障了内容的时效性与质量。未来可继续扩展新采集通道、优化并行调度策略，并强化线索库的长期价值与趋势分析能力。
 
 ## 附录
 - **重构方案参考**
@@ -418,7 +419,7 @@ Reports2 --> Clues2
 章节来源
 - [eco_scan_2026-08-17.md:236-257](file://reports/ecosystem/eco_scan_2026-08-17.md#L236-L257)
 - [report_2026-08-19.md:271-286](file://reports/hotspot/daily/report_2026-08-19.md#L271-L286)
-- [report_daily_2026-08-28.md:261-286](file://reports/hotspot-research_qoder/report_daily_2026-08-28.md#L261-L286)
+- [report_daily_2026-08-31.md:261-286](file://reports/hotspot-research_qoder/report_daily_2026-08-31.md#L261-L286)
 - [weekly_report_2026-08-17.md:203-235](file://reports/hotspot/weekly/weekly_report_2026-08-17.md#L203-235)
 - [_week_clues.json:1-815](file://reports/hotspot/_week_clues.json#L1-L815)
-- [_week_clues_qoder.json:1068-1078](file://reports/hotspot-research_qoder/_week_clues.json#L1068-L1078)
+- [_week_clues_qoder.json:1158-1168](file://reports/hotspot-research_qoder/_week_clues.json#L1158-L1168)
