@@ -1164,5 +1164,15 @@
     "topic": "中国 B 端 Agent 大决战（阿里 vs 腾讯）",
     "first_day": "2026-08-31",
     "signal": "Qwen Work 公测+WorkBuddy 双雄争霸"
+  },
+  "W-33-34": {
+    "topic": "欧盟DSA首次纳管AI服务",
+    "first_day": "2026-09-01",
+    "signal": "ChatGPT成首个受DSA直接监管的独立AI服务（1.59亿月活）"
+  },
+  "W-33-35": {
+    "topic": "军方AI选型政治（GenAI.mil）",
+    "first_day": "2026-09-01",
+    "signal": "300万入口开放、Claude缺席、司法与行政分裂"
   }
 }
