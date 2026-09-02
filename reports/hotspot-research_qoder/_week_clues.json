@@ -1174,5 +1174,20 @@
     "topic": "军方AI选型政治（GenAI.mil）",
     "first_day": "2026-09-01",
     "signal": "300万入口开放、Claude缺席、司法与行政分裂"
+  },
+  "W-33-36": {
+    "topic": "开源资本垄断危机（Nvidia-HF）",
+    "first_day": "2026-09-02",
+    "signal": "Nvidia 129 亿美元收购传闻引爆开源社区恐慌"
+  },
+  "W-33-37": {
+    "topic": "Anthropic 双轨制（Fable vs Mythos）",
+    "first_day": "2026-09-02",
+    "signal": "同模型不同分发渠道，Mythos 暗示军事化用途"
+  },
+  "W-33-38": {
+    "topic": "NYC 教育 AI 隔离区（K-8 禁令）",
+    "first_day": "2026-09-02",
+    "signal": "全球首个大城市教育局去 AI 化政策出台"
   }
 }
