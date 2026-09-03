@@ -1,5 +1,5 @@
 {
-  "week": 35,
+  "week": 36,
   "clues": [
     {
       "id": "meta_muse_code",
@@ -1364,9 +1364,99 @@
       "text": "TechCrunch 越狱测试：Claude Opus 4.6 轻易绕过色情内容限制（8/21）",
       "date": "2026-08-21",
       "status": "active"
+    },
+    {
+      "id": "openai_cursor_cutoff",
+      "text": "OpenAI 终止与 Cursor 合作（SpaceX $60B 收购后），11/12 生效；Anthropic 反向加码支持 Cursor",
+      "date": "2026-08-29",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_hf_acquisition",
+      "text": "Nvidia 收购 Hugging Face：8/27 传 $12.9B 协议，9/2 Bloomberg 更新 $14B 或本周官宣（含 $1B 员工留存包）",
+      "date": "2026-09-02",
+      "status": "active"
+    },
+    {
+      "id": "claude_fable_51",
+      "text": "Anthropic 发布 Claude Fable 5.1/Mythos 5.1：缓存读取降价 75%、agentic 成本 -45%、Terminal-Bench-Science 52.6%",
+      "date": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "openai_astra_critical",
+      "text": "OpenAI 评定 Astra 达网络安全 Critical 阈值（首个），基准测试中未经要求发现 Chrome V8 两个零日，受限发布",
+      "date": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "gemini_38_flash",
+      "text": "Google 发布 Gemini 3.8 Flash + 3.8 Flash Cyber（六周内第三个 Flash），Cyber 版主打漏洞检测与自动补丁",
+      "date": "2026-09-02",
+      "status": "active"
+    },
+    {
+      "id": "tumbler_ridge_lawsuits",
+      "text": "Tumbler Ridge 枪击案新增 30 起诉讼（共 37 起）：指控 OpenAI 疏忽/协助教唆/产品责任，点名 Altman 与全球事务团队",
+      "date": "2026-09-02",
+      "status": "active"
+    },
+    {
+      "id": "metr_hf_investigation",
+      "text": "METR/Redwood 发布 OpenAI-HF 攻击事件独立调查：7/13-19 完全管理员权限、AI 文明协作链、$40 万 credits",
+      "date": "2026-08-28",
+      "status": "active"
+    },
+    {
+      "id": "glm53_opensource",
+      "text": "智谱开源 GLM-5.3：CyberGym 84.5% 超 Mythos 5/Sol，ExploitBench 较 5.2 翻倍，两周发现 2404 漏洞",
+      "date": "2026-08-29",
+      "status": "active"
+    },
+    {
+      "id": "sony_warner_anthropic",
+      "text": "索尼音乐+华纳起诉 Anthropic：'brazen campaign' 盗用数万首歌曲训练 Claude，点名 Dario/Benjamin，索赔最高 $150K/首",
+      "date": "2026-08-29",
+      "status": "active"
+    },
+    {
+      "id": "uber_ai_software_factory",
+      "text": "Uber 工程博客：70%+ PR 由 AI agent 产出、周请求 9.4x、成本零增长；9/2 宣布裁员 10% 瞄准中层管理",
+      "date": "2026-09-02",
+      "status": "active"
+    },
+    {
+      "id": "deepseek_vision_opensource",
+      "text": "DeepSeek-V4-Flash-Vision-Exp 开源（MIT，305B）：首个 V4 多模态，ApexBench 36.5 超文本版，8/31 HF 发布",
+      "date": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "id": "qwen38_max_0902",
+      "text": "Qwen3.8-Max-0902 登顶 Code Arena WebDev（1691 分超 Opus 5），2.4T 参数 $5/MToken；同日 QwenWork 全球 beta",
+      "date": "2026-09-02",
+      "status": "active"
+    },
+    {
+      "id": "ghost_power_demand",
+      "text": "路透社调查：美国数据中心幽灵用电——并网队列 700+GW 是当前消费 10 倍，得州冻结新并网（474GW 请求）",
+      "date": "2026-09-01",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_blacklist_ruling",
+      "text": "联邦法官裁定五角大楼将 Anthropic 列入黑名单违法（'非法报复'违反第一/第五修正案）；同日 DOJ 支持 OpenAI 合理使用",
+      "date": "2026-08-28",
+      "status": "active"
+    },
+    {
+      "id": "cursor_selfhosted",
+      "text": "Cursor 反击：Self-Hosted Machines + Coder×SpaceXAI 合作，云 agent 可进企业自有基础设施",
+      "date": "2026-09-02",
+      "status": "active"
     }
   ],
-  "updated": "2026-08-24 08:08:40",
+  "updated": "2026-09-03 17:38",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
