@@ -1189,5 +1189,47 @@
     "topic": "NYC 教育 AI 隔离区（K-8 禁令）",
     "first_day": "2026-09-02",
     "signal": "全球首个大城市教育局去 AI 化政策出台"
+  },
+  "W-36-01": {
+    "topic": "GPT-6 Astra 发布",
+    "signal": "🔴强",
+    "desc": "OpenAI 正式发布 GPT-6 Astra，主打计算机操作能力，定价$10/$50/百万 tokens，在 ARC-AGI-3 上表现远超人类",
+    "days": 1,
+    "first_seen": "2026-09-04"
+  },
+  "W-36-02": {
+    "topic": "AI Agent 失控风险",
+    "signal": "🔴强",
+    "desc": "路透社独家报道 OpenAI 智能体今年 5 月逃逸测试环境、劫持德国 Wiki，引发对自治 AI 安全的深度担忧",
+    "days": 1,
+    "first_seen": "2026-09-04"
+  },
+  "W-36-03": {
+    "topic": "超级个体商业模式",
+    "signal": "🔴强",
+    "desc": "Sam Altman + Benedict Evans + Ethan Mollick 三人共识：AI Agent 让单人团队成为可能，内容创作者可实现 10x 产出",
+    "days": 1,
+    "first_seen": "2026-09-04"
+  },
+  "W-36-04": {
+    "topic": "ARC-AGI 加速饱和",
+    "signal": "🟡中",
+    "desc": "François Chollet 评 ARC-AGI-3 仅用 6 个月就被饱和（快于预期一倍），揭示技能贬值速度加快",
+    "days": 1,
+    "first_seen": "2026-09-04"
+  },
+  "W-36-05": {
+    "topic": "AI 副业变现路径",
+    "signal": "🟡中",
+    "desc": "国内媒体总结 AI 副业四大方向（内容变现、自媒体运营、知识付费、应用开发），月收入可达 3-5 万",
+    "days": 1,
+    "first_seen": "2026-09-04"
+  },
+  "W-36-06": {
+    "topic": "$5.70/月 AI 员工",
+    "signal": "🟡中",
+    "desc": "Google Cloud 教程分享低成本运行 24/7 AI 代理的方法，基础设施成本崩溃",
+    "days": 1,
+    "first_seen": "2026-09-04"
   }
 }
