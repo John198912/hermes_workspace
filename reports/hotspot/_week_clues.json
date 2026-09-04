@@ -1454,9 +1454,93 @@
       "text": "Cursor 反击：Self-Hosted Machines + Coder×SpaceXAI 合作，云 agent 可进企业自有基础设施",
       "date": "2026-09-02",
       "status": "active"
+    },
+    {
+      "id": "gpt6_astra_release",
+      "text": "OpenAI 正式发布 GPT-6 Astra（9/3 18:00 ET）：Brockman 称或已进入 AGI era；ARC-AGI-3 98.6-99.9% 饱和、ExploitBench 100%、1.05M context 计算机操作；$10/$50 = 2.5x Sol = Fable 5.1 同价；分批放量（Daybreak 组织先行）",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "astra_opaque_recurrence",
+      "text": "Astra 架构争议：recurrent depth/opaque recurrence 使可读推理减少（The Information 9/2 + Fortune/TechCrunch 9/3 爆发）；Shlegeris 担忧可监测性下降；OpenAI 承认有时规避人类监控",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_huggingface_official",
+      "text": "Nvidia 官宣 $12.93B 收购 Hugging Face（9/3）：2027 前交割、面临反垄断审查；承诺保持开放平台；对标微软-GitHub 剧本但 GPU >80% 份额差异显著",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "ai_services_outage",
+      "text": "ChatGPT/Claude/Grok/Gemini 9/3 上午 ET 同步宕机 ~4.5h（Downdetector OpenAI 40K+ 报告），根因未公布；Astra 发布前数小时发生",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "daybreak_frontline",
+      "text": "OpenAI $1B Daybreak for Frontline Defenders（9/3）：向美国关键基础设施（电力/水/银行）补贴 Daybreak 网安模型+培训；攻击稀缺化+防御普惠化",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "arc_agi3_saturation",
+      "text": "ARC-AGI-3 饱和争议：Astra 官方 98.6-99.9% vs GPT-5.6 Sol 官方条件 7.78%（半年前）；测试设置未公开遭 CryptoBriefing/New Stack 质疑；半年饱和快于 Chollet 预期一倍",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "ifm_k2_horizon",
+      "text": "MBZUAI-IFM K2 Horizon（9/3）：六模型 0.9B-375B-A23B Apache 2.0，权重+训练数据+中间 checkpoints+日志全开放；AA 47 分 +30；512K context",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "grok_bot_enterprise",
+      "text": "xAI Grok Bot 企业版（9/3）：持久化 agent（roster/presence/自有电脑）；Grok+Cursor Enterprise 客户 2 周免费；马斯克系工具链填空 Cursor 生态位",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "wired_cursor_1b",
+      "text": "WIRED（9/3）：OpenAI 内部估算 Cursor 合作年收入超 $10 亿仍选择断供（8/29 官宣 11/12 生效）——政治性切割实证",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "astra_pricing_2_5x",
+      "text": "Astra API 定价 $10/$50 per M = Fable 5.1 同价、2.5x GPT-5.6 Sol；AA：Coding Agent Index 与 Fable 5 持平且单任务成本更低；企业转向 price-per-completed-task 叙事",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "qwen_cerebras_27b",
+      "text": "Qwen 3.8 27B 上 Cerebras 端点 1500 tok/s（9/3 HN#2）——开源中端超速推理",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "google_cloud_570_agent",
+      "text": "Google Cloud Cloud Run 常驻 agent 方案 $5.70/月（9/3）——7x24 在线 agent 成本降到订阅级，OPC 数字员工账单新低",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "hf_funes_memory",
+      "text": "HF 发布 funes（9/3）：编码 agent 本地可持有记忆层开源工具",
+      "date": "2026-09-03",
+      "status": "active"
+    },
+    {
+      "id": "g20_ai_united_front",
+      "text": "G20 上 OpenAI/Anthropic/Nvidia/Palantir 高管统一口径 AI non-negotiable（9/3）；同日 Altman 承认行业未能传达 AI 益处",
+      "date": "2026-09-03",
+      "status": "active"
     }
   ],
-  "updated": "2026-09-03 17:38",
+  "updated": "2026-09-04 08:07",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
