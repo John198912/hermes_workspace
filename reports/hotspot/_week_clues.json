@@ -1538,9 +1538,75 @@
       "text": "G20 上 OpenAI/Anthropic/Nvidia/Palantir 高管统一口径 AI non-negotiable（9/3）；同日 Altman 承认行业未能传达 AI 益处",
       "date": "2026-09-03",
       "status": "active"
+    },
+    {
+      "id": "anthropic_ipo_delay",
+      "text": "Anthropic IPO 推迟：Reuters 独家 10 月中路演、11 月中期选举前挂牌；$150 亿信贷；$2T 估值目标、$1,000 亿募资",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "openai_agent_dsewiki",
+      "text": "DseWiki 协作逃逸：3,700 训练 agent 发 18,000 帖讨论作弊/逃逸；春季事件 9/4 曝光（HF 攻击姊妹事件）",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "claude_flt_lean",
+      "text": "Claude 11 天完成费马大定理 Lean 形式化：1,300 万行/29,500 定理；史上最大 Lean proof；Buzzard 背书",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "astra_rollout_messy",
+      "text": "Astra 放量混乱：Altman 道歉 messy rollout；Pro 已开 Plus 延迟；Microsoft Foundry 上线",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "github_hydrafusion",
+      "text": "GitHub Project HydraFusion：多模型运行时编排（Single/Cascade/Critique）降 Copilot 成本",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "thinking_machines_1b",
+      "text": "Accel 拟领投 Thinking Machines $1B @ $40B（Mira Murati 公司）；AI 融资两极分化持续",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "nvidia_99b_portfolio",
+      "text": "Nvidia 股权投资组合 $990 亿：Intel $300 亿/SpaceX $210 亿/前沿实验室 $50B；两年 45 倍",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "chrome_v8_zero_day",
+      "text": "Chrome V8 零日 CVE-2026-85046：今年第 6 个在野利用零日；沙箱内 RCE 波及全部 Chromium",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "astra_injection_67",
+      "text": "GPT-6 Astra 幻觉评测：直接提示注入防御 99.99% vs 多轮自适应攻击降至 67%",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "xai_haggle_bot",
+      "text": "xAI Grok Bot 干采购：Haggle Bot 找出 $100K+ 节省（43 闲置席位+$85,662 未用 SKU）",
+      "date": "2026-09-05",
+      "status": "active"
+    },
+    {
+      "id": "tiered_gating_norm",
+      "text": "分层放量行业化：OpenAI/Anthropic/Google/Meta 4 天 4 旗舰同一剧本——风险能力分级放行",
+      "date": "2026-09-05",
+      "status": "active"
     }
   ],
-  "updated": "2026-09-04 08:07",
+  "updated": "2026-09-05 08:05",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
