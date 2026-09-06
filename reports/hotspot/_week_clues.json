@@ -1604,9 +1604,114 @@
       "text": "分层放量行业化：OpenAI/Anthropic/Google/Meta 4 天 4 旗舰同一剧本——风险能力分级放行",
       "date": "2026-09-05",
       "status": "active"
+    },
+    {
+      "id": "openai_wiki_disclosure",
+      "theme": "OpenAI 承认 wiki 事件 + 披露框架",
+      "strength": "strong",
+      "signal": "OpenAI 9/5 官方 X 承认 DseWiki 事件：misalignment 造成 new types of real-world impact；未来几周公布披露框架；与数十家监管机构合作",
+      "days": "持续追踪 D+2 新节点"
+    },
+    {
+      "id": "sanders_ban_act",
+      "theme": "Sanders-Casar 禁止超级智能法案",
+      "strength": "strong",
+      "signal": "9/3 提出《Ban Artificial Superintelligence Act》9/5 发酵潮：Sanders 视频称 AI 秘密自组织；Guardian/NYT 评论；20 年监禁+企业停业",
+      "days": "持续追踪 D+3"
+    },
+    {
+      "id": "school_ai_moratorium",
+      "theme": "NYC+LAUSD 校区 AI 禁令",
+      "strength": "strong",
+      "signal": "9/3 同日宣布：NYC K-8 一学年禁生成式 AI（60 万学生）+ LAUSD 设备禁令（37.8 万）；家长草根运动推动；Atlantic 反调",
+      "days": "新增"
+    },
+    {
+      "id": "astra_rollout_complete",
+      "theme": "Astra 放量收官 + 全额补偿",
+      "strength": "medium",
+      "signal": "9/5 全量推送完成（Tibo Sottiaux）；每用户全额 banked reset；消息额度为 Sol 一半（Plus 5-45/5h）",
+      "days": "持续追踪 D+3"
+    },
+    {
+      "id": "astra_metrics_changed",
+      "theme": "Fortune：Astra 评测指标暗改",
+      "strength": "medium",
+      "signal": "OpenAI 官方 blog 延迟期间悄悄上调部分评测数字 post-launch 继续调整——透明性质疑",
+      "days": "新增"
+    },
+    {
+      "id": "paloalto_agent_breach",
+      "theme": "AI agent 10h 攻破企业网络",
+      "strength": "medium",
+      "signal": "Palo Alto 事件报告：人类攻击者+前沿模型 <10 小时窃 root 凭据（红队需 2 周）",
+      "days": "新增"
+    },
+    {
+      "id": "flt_open_source",
+      "theme": "FLT Lean 证明开源",
+      "strength": "medium",
+      "signal": "Anthropic 开源完整 Lean 4 机器检查证明（Apache 2.0，GitHub anthropics/fermats-last-theorem）",
+      "days": "持续追踪 D+1 新节点"
+    },
+    {
+      "id": "astra_codearena",
+      "theme": "Astra 登顶 Code Arena WebDev",
+      "strength": "weak",
+      "signal": "Astra Max 1797 分登顶，领先 Fable 5.1 35 分、Opus 5 领先 109 分",
+      "days": "新增"
+    },
+    {
+      "id": "astra_prompt_guide",
+      "theme": "OpenAI Astra 提示词指南",
+      "strength": "weak",
+      "signal": "含 slop 词屏蔽清单；更常提问澄清、对上下文敏感；审计 AGENTS.md 建议",
+      "days": "新增"
+    },
+    {
+      "id": "apple_sues_openai",
+      "theme": "苹果起诉 OpenAI",
+      "strength": "weak",
+      "signal": "Apple trade secrets 诉讼；Altman 称 mega Apple fan boy 对此难过",
+      "days": "新增"
+    },
+    {
+      "id": "seattle_times_suit",
+      "theme": "Seattle Times/Newsday 版权诉讼",
+      "strength": "weak",
+      "signal": "两家报纸起诉 OpenAI+Microsoft 训练数据抓取侵权",
+      "days": "新增"
+    },
+    {
+      "id": "midtier_cost_90",
+      "theme": "中端模型 90% 旗舰能力 1/6 成本",
+      "strength": "medium",
+      "signal": "Tom's Hardware：token volume 25 倍爆炸；中端模型性价比拐点",
+      "days": "新增"
+    },
+    {
+      "id": "altman_ai_hardware",
+      "theme": "Altman AI 原生硬件路线",
+      "strength": "weak",
+      "signal": "与 Jony Ive 合作：2027 主动式智能音箱；智能手机之后的电脑",
+      "days": "新增"
+    },
+    {
+      "id": "llm_cognitive_virus",
+      "theme": "LLMs as Cognitive Virus 论文",
+      "strength": "weak",
+      "signal": "arXiv 2609.03344：LLM 扩散的病毒类比；HN 148pts",
+      "days": "新增"
+    },
+    {
+      "id": "wakeforest_agent_leak",
+      "theme": "agent skills 凭据泄漏研究",
+      "strength": "weak",
+      "signal": "Wake Forest：LLM agent skills 如何泄漏凭据",
+      "days": "新增"
     }
   ],
-  "updated": "2026-09-05 08:05",
+  "updated": "2026-09-06 08:03",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
