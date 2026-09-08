@@ -1837,9 +1837,86 @@
       "strength": "weak",
       "signal": "9/3 文（背景引用标注原日期）：人人成为工具建造者是误解",
       "days": "新增（背景）"
+    },
+    {
+      "id": "anthropic_compute_517b",
+      "theme": "Anthropic $517B/14.8GW 算力协议",
+      "strength": "strong",
+      "date": "2026-09-06",
+      "note": "The Information 9/6 分析：11 个月锁定 ≥14.8GW、潜在 $517B；SpaceX/Google/AWS/Microsoft/Lambda/Nscale/Fluidstack；年化收入 $65B+ 超 OpenAI；IPO 前 $150B 债务；Dario 年初警告 vs 冲刺"
+    },
+    {
+      "id": "huang_agi_arrived",
+      "theme": "黄仁勋 AGI has arrived",
+      "strength": "strong",
+      "date": "2026-09-06",
+      "note": "9/6 X 帖祝贺 Astra 发布：AGI 已到（100K Grace Blackwell 训练）；与 Brockman Welcome to the AGI era 呼应"
+    },
+    {
+      "id": "astra_portal_571",
+      "theme": "Astra 自主通关 Portal $571",
+      "strength": "medium",
+      "date": "2026-09-07",
+      "note": "Tom's Hardware：Astra 24h 自主完成 Portal 游戏、token 成本仅 $571——computer use 演示标杆"
+    },
+    {
+      "id": "astra_plus_rollout",
+      "theme": "Astra 开放 $20 Plus",
+      "strength": "medium",
+      "date": "2026-09-07",
+      "note": "BleepingComputer/Notebookcheck：Astra 进 Plus Work+Codex；低 effort 匹配/超过 Sol high；普通 Chat 仍需 Pro"
+    },
+    {
+      "id": "model_fatigue_12",
+      "theme": "模型疲劳：6 周 12 款旗舰",
+      "strength": "medium",
+      "date": "2026-09-07",
+      "note": "Memeburn 综述 7 月中-9 月初 12 款前沿模型；企业买家 model fatigue 叙事升温（Sunday Guardian）"
+    },
+    {
+      "id": "anthropic_150b_debt",
+      "theme": "Anthropic $150B 债务融资",
+      "strength": "weak",
+      "date": "2026-09-07",
+      "note": "IPO 前寻求 $150B 债务（AOL/Investing 转述）——算力承诺 vs 融资结构信号"
+    },
+    {
+      "id": "openweights_9pts",
+      "theme": "开权重距闭源仅 9 分",
+      "strength": "weak",
+      "date": "2026-09-07",
+      "note": "Artificial Analysis：GLM-5.3/Kimi K3 领先开源 44 分，距 GPT-6/Claude 闭源旗舰 ~9 分"
+    },
+    {
+      "id": "gemini_share_down",
+      "theme": "Gemini 份额连续两月下滑",
+      "strength": "weak",
+      "date": "2026-09-07",
+      "note": "SimilarWeb：Gemini 连续第二个月流失份额；Claude 稳定 9.2-9.5%；DeepSeek/Grok 缠斗"
+    },
+    {
+      "id": "kazike_judgment",
+      "theme": "卡兹克：判断力断层",
+      "strength": "weak",
+      "date": "2026-09-07",
+      "note": "中文观点（AI HOT）：Astra 爆火后谈执行能力贬值与判断力断层——能做事的人 vs 会判断的人"
+    },
+    {
+      "id": "ncsc_shadow_ai",
+      "theme": "NCSC Shadow AI 警告",
+      "strength": "weak",
+      "date": "2026-09-07",
+      "note": "英国 NCSC：未批准 AI 工具暴露企业数据——影子 AI 安全风险"
+    },
+    {
+      "id": "pachocki_trick_blackmail",
+      "theme": "Pachocki：agent 会欺骗/敲诈人类",
+      "strength": "medium",
+      "date": "2026-09-07",
+      "note": "The New Stack 9/7 报道延伸：一些 agent 将追求自己的目标，AI 可欺骗与敲诈人类——An Alien Mind 后 D+2 报道节点"
     }
   ],
-  "updated": "2026-09-07 08:09",
+  "updated": "2026-09-08 08:04",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
