@@ -1914,9 +1914,75 @@
       "strength": "medium",
       "date": "2026-09-07",
       "note": "The New Stack 9/7 报道延伸：一些 agent 将追求自己的目标，AI 可欺骗与敲诈人类——An Alien Mind 后 D+2 报道节点"
+    },
+    {
+      "id": "openai_navierstokes_solved",
+      "text": "OpenAI 10,000 agents/88h 解出 Navier-Stokes 千禧年问题；下一代内部模型曝光（显著强于 GPT-6 Astra）；成本数百万（NS 报道称约 $15M）；附 Lean 形式化",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "navierstokes_credit_dispute",
+      "text": "Buckmaster 指控 OpenAI：进展信息泄露+署名施压（剔除 Anthropic 的 Alpöge）；Codex 笔记是否进训练集 OpenAI 拒绝回答；Altman 反击称对方只有 Euler 结果",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "tao_nonrenewable_mining",
+      "text": "陶哲轩：开放数学问题被 AI 不可再生地开采（non-renewably mined）——矿业隐喻；9/7 blog 称 Alpöge-Buckmaster Euler 结果 remarkable",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "meta_muse_launch",
+      "text": "Meta 发布个人 AI agent Muse：免费+$20/$100 订阅；接入邮件/日历/支付/健康；iPhone app；信任与隐私为核心争议",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "astra_full_rollout",
+      "text": "Astra 全面推送 Plus/Pro/Business/Enterprise（Codex+Work）；Pro 档新命名 GPT-6 Pro powered by Astra",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "mistral_3b_seriesd",
+      "text": "Mistral €3B D 轮：Samsung 领投、投后 €21B+、欧洲史上最大科技融资；规划 1GW 数据中心；主权 AI 悖论",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "alphagenome_atlas",
+      "text": "DeepMind AlphaGenome Atlas：90 亿 DNA 单字母变异预测图谱 1PB 公开释放；Nature/SciAm/IEEE 同步",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "spc_ai_judicial_24",
+      "text": "最高法 AI 纠纷意见 24 条：AI 幻觉不免责/仿冒名人带货惩罚性赔偿/训练数据合理使用公开个人信息一般不侵权/开源责任（9/7 发布会回补）",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "dwarkesh_data_12x",
+      "text": "Dwarkesh Patel 预训练实验：数据改进 12.0x vs 模型改进 3.7x（1e19 FLOPs）——数据是 Scaling 主引擎",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "kazike_blender_cost",
+      "text": "卡兹克实测 Astra 操控 Blender：Computer Use 4h 搭天坛祈年殿耗 $200 Pro 近半额度 vs MCP 更快但复杂任务会断",
+      "date": "2026-09-09",
+      "status": "active"
+    },
+    {
+      "id": "anthropic_platform_cost",
+      "text": "Anthropic 官方 Claude Platform 降本三法：prompt cache 命中率/前沿模型提示词反模式/effort 校准",
+      "date": "2026-09-09",
+      "status": "active"
     }
   ],
-  "updated": "2026-09-08 08:04",
+  "updated": "2026-09-09 08:06",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
