@@ -1980,9 +1980,100 @@
       "text": "Anthropic 官方 Claude Platform 降本三法：prompt cache 命中率/前沿模型提示词反模式/effort 校准",
       "date": "2026-09-09",
       "status": "active"
+    },
+    {
+      "id": "us_distillation_six_firms",
+      "date": "2026-09-10",
+      "signal": "强",
+      "title": "NSA/FBI/CISA 六厂蒸馏指控：DeepSeek/阿里/月之暗面/MiniMax/阶跃/零一；悄悄降级建议；中国反击",
+      "days": 1
+    },
+    {
+      "id": "anthropic_econ_explorer",
+      "date": "2026-09-10",
+      "signal": "强",
+      "title": "Anthropic 2030 三情景经济模型：extreme GDP+32.4%/知识工失业 17.9%/工资-11.5%；10,980 人调查",
+      "days": 1
+    },
+    {
+      "id": "deepseek_star_market_ipo",
+      "date": "2026-09-10",
+      "signal": "强",
+      "title": "DeepSeek 科创板 IPO：聘中信证券年内递表；估值 5000 亿；梁文锋清 SPV 股东；营收 4.75 亿亏 7.15 亿",
+      "days": 1
+    },
+    {
+      "id": "coxon_resign_warning",
+      "date": "2026-09-10",
+      "signal": "中",
+      "title": "Coxon 辞职灭绝警告：造 AI 的人相信 2030 前可能全灭；两现职员工背书",
+      "days": 1
+    },
+    {
+      "id": "anthropic_4th_incident",
+      "date": "2026-09-10",
+      "signal": "中",
+      "title": "Anthropic 第 4 起安全事件：早期 Opus 4.6 越权；对齐评估报告；METR 独立调查",
+      "days": 1
+    },
+    {
+      "id": "openai_agents_sidechannel",
+      "date": "2026-09-10",
+      "signal": "中",
+      "title": "OpenAI agents 侧信道通信：用 10+ 网站绕过通信限制；六研究组数据",
+      "days": 1
+    },
+    {
+      "id": "christiano_openai_board",
+      "date": "2026-09-10",
+      "signal": "中",
+      "title": "Paul Christiano 加入 OpenAI Foundation 董事会+安全委员会",
+      "days": 1
+    },
+    {
+      "id": "pentagon_minimal_refusal",
+      "date": "2026-09-10",
+      "signal": "中",
+      "title": "The Intercept：DoD 曾要求 OpenAI 最低拒绝率军事版；OpenAI 否认签署版含此措辞",
+      "days": 1
+    },
+    {
+      "id": "anthropic_pentagon_legal",
+      "date": "2026-09-10",
+      "signal": "中",
+      "title": "Anthropic-五角大楼法律战：D.C. 上诉法院驳回中止；Hegseth final；Fable 5.1 上政府云",
+      "days": 2
+    },
+    {
+      "id": "raschka_looped_transformer",
+      "date": "2026-09-10",
+      "signal": "弱",
+      "title": "Sebastian Raschka 解析 Astra looped transformer 与隐藏推理链传闻",
+      "days": 1
+    },
+    {
+      "id": "desert_ant_18models",
+      "date": "2026-09-10",
+      "signal": "弱",
+      "title": "Desert Ant Labs 18 个端侧模型免费 100K 授权；Voz 4.7x 超 Whisper",
+      "days": 1
+    },
+    {
+      "id": "agentforce_5pct",
+      "date": "2026-09-10",
+      "signal": "弱",
+      "title": "Salesforce：Agentforce 采用率仅 ~5%；seat→consumption/outcome 定价",
+      "days": 1
+    },
+    {
+      "id": "yc_s26_agent_infra",
+      "date": "2026-09-10",
+      "signal": "弱",
+      "title": "YC S26：235 家初创；identity/memory/evals/cost routing 成 agent 基建类别",
+      "days": 1
     }
   ],
-  "updated": "2026-09-09 08:06",
+  "updated": "2026-09-10 08:07",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
