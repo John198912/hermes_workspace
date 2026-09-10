@@ -1287,5 +1287,33 @@
     "desc": "$84/月 8 工具替代 5-10 人团队创业启动成本降至历史最低",
     "days": 7,
     "first_seen": "2026-09-09"
+  },
+  "W-36-15": {
+    "topic": "Shopify 回归原生",
+    "signal": "🔴强",
+    "desc": "从 React Native 迁回 Swift/Kotlin LLM 智能体改变跨平台开发成本假设",
+    "days": 8,
+    "first_seen": "2026-09-10"
+  },
+  "W-36-16": {
+    "topic": "DeepSeek KV cache 革命",
+    "signal": "🔴强",
+    "desc": "V4.1-Flash 将内存需求降至 1/4 长上下文推理成本暴跌",
+    "days": 8,
+    "first_seen": "2026-09-10"
+  },
+  "W-36-17": {
+    "topic": "Devin RSA 密码破译",
+    "signal": "🔴强",
+    "desc": "多 Agent 协作完成 RSA-260 因式分解数学证明不再人类专属",
+    "days": 8,
+    "first_seen": "2026-09-10"
+  },
+  "W-36-18": {
+    "topic": "Nvidia 软实力$10B",
+    "signal": "🔴强",
+    "desc": "Nathan Lambert 评收购 HuggingFace 影响力价值每年约 100 亿",
+    "days": 8,
+    "first_seen": "2026-09-10"
   }
 }
