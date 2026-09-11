@@ -2071,9 +2071,93 @@
       "signal": "弱",
       "title": "YC S26：235 家初创；identity/memory/evals/cost routing 成 agent 基建类别",
       "days": 1
+    },
+    {
+      "id": "anthropic_threat_report",
+      "title": "Anthropic 154 页威胁报告：7 家中国实验室蒸馏举证（2 亿次交互/re-routing 指控/生物武器/监视）",
+      "date": "2026-09-11",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "deepseek_v41_flash",
+      "title": "DeepSeek V4.1-Flash：552B MoE/1M 上下文/KV cache 890B/MIT 开源；V4-Pro 退役 9/14",
+      "date": "2026-09-11",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "researchers_exodus",
+      "title": "研究员离职潮升级 D+2：Quartz 集体发声/NBC 没有大人在房间/WIRED 深访/Musk psyop 论/两党介入",
+      "date": "2026-09-11",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "bessent_ai_race",
+      "title": "Bessent：若中国 AI 领先没有后天；中方愿对话但警告反制（9 月对话窗口）",
+      "date": "2026-09-11",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "cognition_swe2",
+      "title": "Cognition SWE-2：基于中国开源 Kimi K3 后训练；Terminal-Bench 92.8；成本-64%",
+      "date": "2026-09-11",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "cognition_rsa260",
+      "title": "Cognition RSA-260：4,900 GPU-days/~$400k/16 天/10x 降本；Devin 重写 CADO-NFS",
+      "date": "2026-09-11",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "openai_agents_api",
+      "title": "OpenAI Agents API 公测：Codex harness 单次调用无额外费；GPT-Live-1 $0.05/min",
+      "date": "2026-09-11",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "cursor_projects",
+      "title": "Cursor Projects：协调者智能体+数千子智能体；单线程持久模式",
+      "date": "2026-09-11",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "ai_skill_gap",
+      "title": "AI 抹平黑客技能鸿沟：独立操作者获国家级攻击能力（Anthropic 报告第二面）",
+      "date": "2026-09-11",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "shopify_native",
+      "title": "Shopify 从 React Native 迁回原生：LLM agent 改变跨平台成本假设（HN 709pts）",
+      "date": "2026-09-11",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "ns_trust_debate",
+      "title": "NS 数学信任争议延续：mathstodon 595pts + Lean 4 形式化细节（可验证≠可信）",
+      "date": "2026-09-11",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "google_pics",
+      "title": "Google Pics：Nano Banana 2 驱动的 Workspace 图像编辑器（对 Canva）",
+      "date": "2026-09-11",
+      "signal": "弱",
+      "days": 1
     }
   ],
-  "updated": "2026-09-10 08:07",
+  "updated": "2026-09-11 08:06",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
