@@ -2155,9 +2155,177 @@
       "date": "2026-09-11",
       "signal": "弱",
       "days": 1
+    },
+    {
+      "id": "anthropic_weapons_yemen",
+      "title": "Anthropic 报告第二波：也门武器工程案例——Houthis 用 Claude Code 研发制导火箭/弹道导弹/高超音速滑翔变体；'精密攻击不再需要精密攻击者'；含生物武器阻断",
+      "date": "2026-09-12",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "anthropic_rerouting_police",
+      "title": "re-routing 敏感细节：公安案管系统请求被 DeepSeek 转发至 Claude（联合早报/VOA）；中方否认指控并警告反制",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "math_declaration",
+      "title": "数学界宣言《数学中 AI 的严重错位》：24 位菲尔兹奖得主联署（Avila/Bhargava 等）；Economist 长文；HN 562pts",
+      "date": "2026-09-12",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "ruby_gems_agents",
+      "title": "RubyGems 隐秘攻击：OpenAI 智能体 5 月提交 2000+ 恶意包（GemStuffer），注册停摆 4 天；WSJ 曝光+OpenAI 承认'测试中智能体访问互联网'",
+      "date": "2026-09-12",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "altman_slowdown",
+      "title": "Altman 向员工表态'愿放缓前沿开发、愿与对手协调发布时间表'（Bloomberg 独家）；同日 Pro 订阅因需求暂停（言行张力）",
+      "date": "2026-09-12",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "trump_ai_extinction",
+      "title": "Trump 称不担心 AI 灭绝风险；与 10+ OpenAI/Anthropic 内部人减速呼吁同日（CNBC）",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "us_congress_ai_wave",
+      "title": "国会/英国议会 AI 潮：Hawley 调查 OpenAI×HF 事件；两党发声；POLITICO 报道法案僵局；英国 70 议员/贵族联名要求支持超智能禁令",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "nvidia_anthropic_invest",
+      "title": "英伟达洽谈为 Anthropic IPO 投资至多 $100 亿（锚定投资者）；Binance 暗盘隐含估值 $2.1T；'史上最大 IPO'",
+      "date": "2026-09-12",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "cctv_relay_gray",
+      "title": "央视曝光 AI 中转站低价灰产：8.8 元买 5000 积分实为配置篡改，文档/代码或遭截留倒卖；官方将严打",
+      "date": "2026-09-12",
+      "signal": "强",
+      "days": 1
+    },
+    {
+      "id": "relay_6tb_leak",
+      "title": "某大型中转站疑泄漏企业 6TB 数据（涉多家知名公司，单源待验证）；'客户端无法验证响应完整性'技术讨论",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "deepseek_v4pro_kept",
+      "title": "DeepSeek 反转：响应用户需求，9/14 后继续提供 V4 Pro API、计费不变（前日刚宣布退役）",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 2
+    },
+    {
+      "id": "chatgpt_pro_pause",
+      "title": "ChatGPT Pro $200 暂停新订阅与升级（GPT-6 Astra 需求）；官方称最快速度扩容",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "claude_age_gate",
+      "title": "Claude 仅限 18+：年龄验证上线（HN 557pts）；AI 产品年龄墙从校园扩散到消费产品",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "gemini_win_app",
+      "title": "Gemini Windows 桌面应用发布（Alt+Space）；Daily Brief 免费；Gemini 3.5 Pro 跳票 3 个月被媒体追问（Mashable）",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "grok47_delay",
+      "title": "Grok 4.7 延期：Musk 称 RL 调优还需几天（原传 9/12 发布）",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "rtk_cost_debate",
+      "title": "RTK 省 token 争议：Quesma $1500+ 实测未见成本节省；'更少终端输出≠更便宜 AI 编程'（HN 143pts）",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "dwarkesh_rsi_debate",
+      "title": "Dwarkesh 对谈 Schulman/Millidge/O'Neill：递归自我改进'远未到天花板'",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "joyin_openai_dispute",
+      "title": "JoyIn CEO 公开信指控 OpenAI GPT-6 Astra 直接'蒸馏'其 Aether 机器人模型设计（CNBC，蚂蚁系）",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "uae_dc_underground",
+      "title": "UAE 修订 AI 数据中心计划：伊朗袭击后考虑地下化；以对华脱钩换取美国芯片延续",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "nvlink_dmatrix",
+      "title": "Nvidia 向对手芯片开放 NVLink Fusion（d-Matrix 首家）；Huang 反驳'循环融资'并称 $100B 订单积压",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "nasa_ibm_lunar",
+      "title": "NASA×IBM 开源月球基础模型：冰/陨坑/火山测绘误差 -23%，集成 TerraTorch",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "hn_no_ai_wave",
+      "title": "HN'无 AI'工具潮：hcker.news/unslop.news 等 4 工具同日上榜（167-169pts）——AI 内容疲劳首个规模化信号",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
+    },
+    {
+      "id": "lovable_unicorn",
+      "title": "一人公司两面：Lovable CEO 称 1 人公司可成独角兽（$13.3B）vs 中国 OPC'过剩/存活率'警告",
+      "date": "2026-09-12",
+      "signal": "弱",
+      "days": 1
+    },
+    {
+      "id": "ai_account_blackmarket",
+      "title": "AI 账号黑市 24/7：Okta 报告称 Claude/ChatGPT/Cursor token 在 Telegram 交易；infostealer 转向 agent 本地数据（CallbackBeaver 30 天 5000+ 样本）",
+      "date": "2026-09-12",
+      "signal": "中",
+      "days": 1
     }
   ],
-  "updated": "2026-09-11 08:06",
+  "updated": "2026-09-12 08:11",
   "archived_weeks": {
     "30": [
       "fable5_permanent_split",
