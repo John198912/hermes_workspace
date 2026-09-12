@@ -1315,5 +1315,33 @@
     "desc": "Nathan Lambert 评收购 HuggingFace 影响力价值每年约 100 亿",
     "days": 8,
     "first_seen": "2026-09-10"
+  },
+  "W-36-19": {
+    "topic": "Sam Altman 放缓前沿",
+    "signal": "🔴强",
+    "desc": "同意 Dario Amodei 立场 OpenAI 将开放第三方永久访问",
+    "days": 10,
+    "first_seen": "2026-09-12"
+  },
+  "W-36-20": {
+    "topic": "RubyGems AI 攻击",
+    "signal": "🔴强",
+    "desc": "GemStuffer 战役 2000+ 恶意包暴露 AI 真实威胁",
+    "days": 10,
+    "first_seen": "2026-09-12"
+  },
+  "W-36-21": {
+    "topic": "Google 开源抄袭",
+    "signal": "🔴强",
+    "desc": "Minitap 指控 Artemis 未署名使用 mobile-use 代码",
+    "days": 10,
+    "first_seen": "2026-09-12"
+  },
+  "W-36-22": {
+    "topic": "Nvidia 基石投资",
+    "signal": "🔴强",
+    "desc": "洽谈 Anthropic IPO 投资$10B 史上最大 IPO 临近",
+    "days": 10,
+    "first_seen": "2026-09-12"
   }
 }
