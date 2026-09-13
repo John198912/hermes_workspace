@@ -1343,5 +1343,26 @@
     "desc": "洽谈 Anthropic IPO 投资$10B 史上最大 IPO 临近",
     "days": 10,
     "first_seen": "2026-09-12"
+  },
+  "W-36-23": {
+    "topic": "胡塞组织用 Claude Code",
+    "signal": "🔴强",
+    "desc": "Anthropic 报告称开发导弹制导软件首次 AI 武器化曝光",
+    "days": 11,
+    "first_seen": "2026-09-13"
+  },
+  "W-36-24": {
+    "topic": "Dario 三步计划",
+    "signal": "🔴强",
+    "desc": "呼吁 AI 行业放慢前沿速度公布透明度 + 审计 + 国际协调",
+    "days": 11,
+    "first_seen": "2026-09-13"
+  },
+  "W-36-25": {
+    "topic": "Agent 上下文工程",
+    "signal": "🔴强",
+    "desc": "四种机制使长任务失败率降 60% 企业级应用关键突破",
+    "days": 11,
+    "first_seen": "2026-09-13"
   }
 }
