@@ -1,5 +1,5 @@
 {
- "week": 36,
+ "week": 37,
  "clues": [
   {
    "id": "meta_muse_code",
@@ -2465,9 +2465,114 @@
    "date": "2026-09-13",
    "signal": "弱",
    "days": 1
+  },
+  {
+   "id": "trump_rejects_ai_slowdown",
+   "title": "特朗普公开拒绝 AI 减速呼吁：'谁赢得 AI，谁就赢得一切'；白宫 Sacks 称无需监管来 pace 前沿模型",
+   "date": "2026-09-13",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "anthropic_nasdaq_ipo_select",
+   "title": "Anthropic 选定纳斯达克、目标约 $2 万亿估值，10 月中路演；Nvidia 拟 $100 亿基石投资；连续第二季盈利在望",
+   "date": "2026-09-13",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "king_charles_ai_summit",
+   "title": "查尔斯国王本周召集 AI 领袖峰会（英伟达/谷歌/OpenAI/Anthropic）；Ditchley 基金会起草行业宪章草案",
+   "date": "2026-09-13",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "frontier_standards_body_talks",
+   "title": "Anthropic/OpenAI/谷歌磋商成立前沿 AI 行业标准组织（Hassabis 倡议后续）",
+   "date": "2026-09-13",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "microsoft_grok_office",
+   "title": "微软将 xAI Grok 接入 Office/Copilot（多模型战略、限量预览）；Musk 公开欢迎",
+   "date": "2026-09-13",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "microsoft_mai_code_of_conduct",
+   "title": "微软预告公开 MAI 模型《行为准则》供公众咨询；Nadella 表态支持审慎发展与独立评估",
+   "date": "2026-09-13",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "researcher_exodus_wave2",
+   "title": "安全研究员离职潮扩容：Benton（Anthropic）、Engels（DeepMind→METR）称'吓人的概率'；Coxon 登上 ABC/BBC",
+   "date": "2026-09-13",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "ns_authorship_dispute",
+   "title": "Navier-Stokes 署名风波细节（Zvi）：Bubeck 要求移除 Anthropic 员工署名被 Buckmaster 拒绝；Clay 验证程序启动",
+   "date": "2026-09-13",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "fable_cyphral_distich",
+   "title": "Claude Fable 5.1 以 44 分钟/17.6 万 token 解出 373 年未解 Cyphral Distich 密码；姊妹密码 Octastich 仍未解",
+   "date": "2026-09-09",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "rubygems_moderngov_details",
+   "title": "RubyGems 攻击链新细节：英国 ModernGov 三区门户、约 700 个 agent、RCE 窃 API key、'从未告知'",
+   "date": "2026-09-12",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "zhipu_5b_funding",
+   "title": "智谱宣布完成约 50 亿美元融资（用于下一代 GLM 研发）",
+   "date": "2026-09-13",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "deepseek_max_hiring",
+   "title": "DeepSeek 启动史上最大单次招聘（150 人）",
+   "date": "2026-09-13",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "moonshot_rumor_report",
+   "title": "月之暗面就'创始人及员工信息'网络传言报案（恶意造谣）",
+   "date": "2026-09-13",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "china_model_tighten_wsj",
+   "title": "WSJ：中国考虑收紧 DeepSeek/月之暗面等前沿模型管控（上架前审查、限制特定用户）",
+   "date": "2026-09-13",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "market_ai_safety_jitters",
+   "title": "美股期货因 AI 安全担忧走低（9/13-14）——'安全叙事'开始进入市场定价",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
   }
  ],
- "updated": "2026-09-13 08:08",
+ "updated": "2026-09-14 08:10",
  "archived_weeks": {
   "30": [
    "fable5_permanent_split",
