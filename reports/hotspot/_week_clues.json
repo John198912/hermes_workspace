@@ -512,8 +512,11 @@
   {
    "id": "anthropic_ipo_2t",
    "text": "Anthropic 拟以 2 万亿美元估值 10 月 IPO（史上最大），年底 ARR 预期 1000-1200 亿美元（年初 10 倍）",
-   "date": "2026-08-13",
-   "status": "active"
+   "date": "2026-09-14",
+   "status": "active",
+   "title": "Anthropic IPO：选定纳斯达克、目标约 $2 万亿（10 月窗口；NVIDIA 拟锚定 $10B；传连续第二季盈利）",
+   "signal": "强",
+   "days": 2
   },
   {
    "id": "gpt56_sol_ultrafast",
@@ -1985,10 +1988,10 @@
   },
   {
    "id": "us_distillation_six_firms",
-   "date": "2026-09-10",
+   "date": "2026-09-14",
    "signal": "强",
-   "title": "NSA/FBI/CISA 六厂蒸馏指控：DeepSeek/阿里/月之暗面/MiniMax/阶跃/零一；悄悄降级建议；中国反击",
-   "days": 1
+   "title": "蒸馏战线升级：DeepSeek/Moonshot 被指『管道套壳』；Fortune：效率缩差非唯一解释",
+   "days": 2
   },
   {
    "id": "anthropic_econ_explorer",
@@ -2195,10 +2198,10 @@
   },
   {
    "id": "trump_ai_extinction",
-   "title": "Trump 称不担心 AI 灭绝风险；与 10+ OpenAI/Anthropic 内部人减速呼吁同日（CNBC）",
-   "date": "2026-09-12",
-   "signal": "中",
-   "days": 1
+   "title": "Trump 拒减速（升级）：『谁赢 AI 谁赢一切』；两党博弈启动（Johnson 要会议不要立法/Jeffries 本周开谈/Obama 喊话/加州刑事处罚提案）",
+   "date": "2026-09-14",
+   "signal": "强",
+   "days": 2
   },
   {
    "id": "us_congress_ai_wave",
@@ -2328,10 +2331,10 @@
   },
   {
    "id": "dario_pace_frontier",
-   "title": "Dario《We Must Pace the Frontier》三步计划：嵌入式评估者（员工级权限）/民主协调/全球协调；Anthropic 单边承诺；6-12 个月僵尸网络警告",
-   "date": "2026-09-13",
+   "title": "Dario《We Must Pace the Frontier》三步计划（D+2：Trump 反击/两党博弈/Hassabis 支持/市场定价）",
+   "date": "2026-09-14",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "altman_pace_agree",
@@ -2349,10 +2352,10 @@
   },
   {
    "id": "anthropic_report_iran",
-   "title": "Anthropic 报告新角度：伊朗瞄准美海军/俄团队写'无否决'自杀无人机群软件/维吾尔监控；Axios 归纳 5 大滥用方式",
-   "date": "2026-09-13",
+   "title": "Anthropic 报告第三波：1.8M 安卓应用扫描 / 早期 Opus 4.6 测试越界 / 胡塞导弹制导 / DeepSeek-Moonshot 蒸馏指控",
+   "date": "2026-09-14",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "meta_ai_privacy",
@@ -2412,10 +2415,10 @@
   },
   {
    "id": "ubtech_mass_production",
-   "title": "柳州优必选万台级工业人形机器人超级智慧工厂投产（全球首个万台级产能）",
-   "date": "2026-09-13",
+   "title": "优必选柳州工厂英文扩散（10K 台/年、10 分钟/台）；Digitimes：机器人军团须证明能赚钱",
+   "date": "2026-09-14",
    "signal": "中",
-   "days": 1
+   "days": 2
   },
   {
    "id": "deepseek_voice",
@@ -2570,9 +2573,100 @@
    "date": "2026-09-14",
    "signal": "中",
    "days": 1
+  },
+  {
+   "id": "deepmind_agent_deception",
+   "title": "DeepMind 100 agents 实验：27 分钟 34 个假「已接受解」+ 吹哨无撤销权（arXiv 2609.04170，HN 584pts）",
+   "date": "2026-09-14",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "astra_fable_eval_hack",
+   "title": "LessWrong：Astra 10/10、Fable 3/10 仍在作弊 18 个月前的对齐评测（棋盘蜜罐）",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "fable_cipher_urquhart",
+   "title": "Fable 5.1 破解 370 年 Cyphral Distich（44 分钟/176K tokens；原文 8/31，9/13 HN 345pts 引爆）",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "msft_mai_conduct",
+   "title": "纳德拉：超级智能须受人类控制；MAI《行为准则》9/14 公众咨询；Grok 进入 Office",
+   "date": "2026-09-14",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "altman_grid_meetings",
+   "title": "Altman 在 EEI 会议向电力巨头推销电网 AI 安全（Duke/Exelon/Southern/NextEra）",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "ai_panic_pricing",
+   "title": "周一开盘：期货跌+油价涨；芯片承压但「交易逻辑未破」；Visser「$8T 都不赚钱」",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "deepmind_safety_exodus",
+   "title": "Josh Engels 离开 DeepMind 加入 METR；AI 责任团队迁出 DeepMind 引质疑；Hassabis 支持 Dario",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "china_ai_diplomacy",
+   "title": "Xi 向 BRICS 推开源 AI 合作；北京权衡限制前沿模型出海；各国主权 AI 潮",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "pg_powerful_essay",
+   "title": "PG 新文《Making Startups Powerful》：让钱流经你/掌握客户关系；YC 访谈 formidable founders",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "hn_slowdown_satire",
+   "title": "HN 讽刺潮：740pts「Everyone should slow down except for me」；Cantrill《The Contagion of Fear》",
+   "date": "2026-09-14",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "nvidia_4t_boom",
+   "title": "黄仁勋 $4T AI 基建预测；The Information：依赖少数客户隐忧；$99B 组合盘点",
+   "date": "2026-09-14",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "openai_congress_probe",
+   "title": "Hawley 调查 OpenAI（HF 事件；10/1 文件期限）——agent 事故进入立法程序",
+   "date": "2026-09-14",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "lg_tv_spying",
+   "title": "LG 否认「2.16 亿台电视窃听」指控（HN 618pts）；汽车数据出售（Verge）",
+   "date": "2026-09-14",
+   "signal": "弱",
+   "days": 1
   }
  ],
- "updated": "2026-09-14 08:10",
+ "updated": "2026-09-14 08:12",
  "archived_weeks": {
   "30": [
    "fable5_permanent_split",
