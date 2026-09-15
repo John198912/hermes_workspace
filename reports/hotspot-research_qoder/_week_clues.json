@@ -1364,5 +1364,40 @@
     "desc": "四种机制使长任务失败率降 60% 企业级应用关键突破",
     "days": 11,
     "first_seen": "2026-09-13"
+  },
+  "W-36-28": {
+    "topic": "Vidu S2 视频 AI 突破",
+    "signal": "🔴强",
+    "desc": "生数科技发布 Avatar+Editing 双模型中国视频 AI 全球领跑",
+    "days": 13,
+    "first_seen": "2026-09-15"
+  },
+  "W-36-29": {
+    "topic": "巨头放缓协议卡特尔化",
+    "signal": "🔴强",
+    "desc": "四大 CEO 联合声明引发反垄断担忧开源运动受威胁",
+    "days": 13,
+    "first_seen": "2026-09-15"
+  },
+  "W-36-30": {
+    "topic": "StepAudio 3 语音模型",
+    "signal": "🔴强",
+    "desc": "阶跃星辰发布 5 款语音模型多款全球第一中国语音 AI 崛起",
+    "days": 13,
+    "first_seen": "2026-09-15"
+  },
+  "W-36-31": {
+    "topic": "Project Lily 人工审核",
+    "signal": "🔴强",
+    "desc": "OpenAI 内部项目曝光$50/hour 审核员揭示 AI 训练真相",
+    "days": 13,
+    "first_seen": "2026-09-15"
+  },
+  "W-36-32": {
+    "topic": "AI 模型性价比革命",
+    "signal": "🔴强",
+    "desc": "Luna vs Astra 实测$0.20 vs $5.66开发者省钱攻略",
+    "days": 13,
+    "first_seen": "2026-09-15"
   }
 }
