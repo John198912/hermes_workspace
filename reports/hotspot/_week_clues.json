@@ -512,11 +512,11 @@
   {
    "id": "anthropic_ipo_2t",
    "text": "Anthropic 拟以 2 万亿美元估值 10 月 IPO（史上最大），年底 ARR 预期 1000-1200 亿美元（年初 10 倍）",
-   "date": "2026-09-14",
+   "date": "2026-09-15",
    "status": "active",
-   "title": "Anthropic IPO：选定纳斯达克、目标约 $2 万亿（10 月窗口；NVIDIA 拟锚定 $10B；传连续第二季盈利）",
+   "title": "Anthropic IPO：纳斯达克 $2T（10 月窗口）；新增 RUM $13.7B 算力单（Trump-linked）；Axios：IPO 不受安全风波拖累；Polymarket ≥$2T 概率 35.3%",
    "signal": "强",
-   "days": 2
+   "days": 3
   },
   {
    "id": "gpt56_sol_ultrafast",
@@ -2198,10 +2198,10 @@
   },
   {
    "id": "trump_ai_extinction",
-   "title": "Trump 拒减速（升级）：『谁赢 AI 谁赢一切』；两党博弈启动（Johnson 要会议不要立法/Jeffries 本周开谈/Obama 喊话/加州刑事处罚提案）",
-   "date": "2026-09-14",
+   "title": "Trump 拒减速（D+3→hoax 线）：骗局/高 IQ 总统/病态阴谋；国会山三动作（Schumer 简报/Thune 轻触/4 天倒计时）",
+   "date": "2026-09-15",
    "signal": "强",
-   "days": 2
+   "days": 3
   },
   {
    "id": "us_congress_ai_wave",
@@ -2352,10 +2352,10 @@
   },
   {
    "id": "anthropic_report_iran",
-   "title": "Anthropic 报告第三波：1.8M 安卓应用扫描 / 早期 Opus 4.6 测试越界 / 胡塞导弹制导 / DeepSeek-Moonshot 蒸馏指控",
-   "date": "2026-09-14",
+   "title": "Anthropic 报告余波（D+3）：PLA/警方数据曝光、190M 交换、7 家实验室全名单",
+   "date": "2026-09-15",
    "signal": "强",
-   "days": 2
+   "days": 3
   },
   {
    "id": "meta_ai_privacy",
@@ -2590,17 +2590,17 @@
   },
   {
    "id": "fable_cipher_urquhart",
-   "title": "Fable 5.1 破解 370 年 Cyphral Distich（44 分钟/176K tokens；原文 8/31，9/13 HN 345pts 引爆）",
-   "date": "2026-09-14",
+   "title": "Fable 5.1 破解 370 年 Cyphral Distich（D+2：HN 345→1169pts 登顶；原文 8/31）",
+   "date": "2026-09-15",
    "signal": "中",
-   "days": 1
+   "days": 2
   },
   {
    "id": "msft_mai_conduct",
-   "title": "纳德拉：超级智能须受人类控制；MAI《行为准则》9/14 公众咨询；Grok 进入 Office",
-   "date": "2026-09-14",
+   "title": "微软 AI 准则全文公布（37 页/6 周反馈/「人比 AI 重要」/禁止抵抗关机）；Grok 入 Office",
+   "date": "2026-09-15",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "altman_grid_meetings",
@@ -2664,9 +2664,149 @@
    "date": "2026-09-14",
    "signal": "弱",
    "days": 1
+  },
+  {
+   "id": "trump_ai_hoax",
+   "title": "Trump 「hoax 日」：AI 警告定性为骗局/病态阴谋；All-In 连线（黄仁勋同场）；「高 IQ 总统」论",
+   "date": "2026-09-15",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "congress_ai_briefing",
+   "title": "国会山三动作：Schumer 要求全员机密简报 / Thune「轻触监管」/ Jeffries 党团会；仅剩 4 个立法日——大选前立法无望",
+   "date": "2026-09-15",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "china_mfa_ai_response",
+   "title": "北京反叙事：外交部斥「散布恐慌（fear mongering）」与「恶意竞争」；陈一新详列 AI 六重风险",
+   "date": "2026-09-15",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "apple_siri_ai_beta",
+   "title": "iOS 27 + Siri AI beta 全系发布：英语先行/waitlist；可替换 Claude、ChatGPT（代码）；中国欧盟缺席",
+   "date": "2026-09-15",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "deepseek_ipo_cfo",
+   "title": "DeepSeek 任命高瓴合伙人严文韬为首任 CFO、推进科创板；估值一个月 +37% 至 $710 亿",
+   "date": "2026-09-15",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "anthropic_rum_deal",
+   "title": "Anthropic × RUM Group $13.7B/6 年算力协议（Trump-linked）；可购 5100 万股；RUM 股价 +27%",
+   "date": "2026-09-15",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "msft_humanist_code",
+   "title": "微软 37 页《AI 准则》全文公布：「人比 AI 重要」/禁止抵抗关机/拒绝模型权利/6 周反馈",
+   "date": "2026-09-15",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "datacenter_opposition",
+   "title": "数据中心反对潮升级：Gallup 71% 反对/2/3 项目遇阻/10+ 州撤税补/费城抗议/工会入场",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "ai_chip_selloff",
+   "title": "芯片股重挫：Intel -7%/AMD -6%/Nvidia -3.7%；纳指期货 -1.44%；10 年期收益率触 5%",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "pion_autonomous_company",
+   "title": "Pion（Andon Labs）：宣称能自主运营任意公司的 agent 平台开 waitlist（Vending-Bench 血统）",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "agent_reliability_60",
+   "title": "Agent 可靠性实测：最佳 coding agent 失败率约 60%（New Stack）；RubyGems「OpenAI bots 早知道漏洞」（HN 351pts）",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "safety_pause_cartel_debate",
+   "title": "「卡特尔还是安全公约」质疑合流：Verge/Conversation/MIT TR/BI 同日质询 + CFR/Stanford 方案",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "agi_era_claims",
+   "title": "AGI 宣告与失控警告同日：Brockman「已进入 AGI 时代/防御者窗口关闭」+ 黄仁勋背书 + Altman「失去控制可能」",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "anthropic_new_safety_body",
+   "title": "WaPo：OpenAI/Anthropic/Google 等头部公司讨论创建新 AI 安全机构（政府缺位处自建裁判席）",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "ai_medical_integration",
+   "title": "NYT：联邦推进 AI 进入医疗——治疗/开药 agents 落地，安全与风投影响力担忧",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "china_open_models_hy4",
+   "title": "中国开源层：Hy4 preview 上架硅基流动+vLLM 支持 / DeepSeek-V4.1-Flash(Max) Agent Arena 第 3 / 小红书 Iris 开源",
+   "date": "2026-09-15",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "openai_glass_imaging",
+   "title": "OpenAI $300M 收购 Glass Imaging（前苹果影像团队）；苹果诉 OpenAI 查「秘密设备」（10/1）",
+   "date": "2026-09-15",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "germany_ai_stance",
+   "title": "德国：暂停 AI 开发对欧洲「不可行」，呼吁中美参与治理；澳信号局警告（9/15）",
+   "date": "2026-09-15",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "hn_meta_discourse",
+   "title": "HN 情绪第三波：Dario Please（230pts）/监管俘获批评/评测方法论讨论（LLM judges 等）",
+   "date": "2026-09-15",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "antigravity_free",
+   "title": "Google Antigravity 免费化：转为 Gemini API 托管 agent（免费+付费层）；XDA 三方实测",
+   "date": "2026-09-15",
+   "signal": "弱",
+   "days": 1
   }
  ],
- "updated": "2026-09-14 08:12",
+ "updated": "2026-09-15 08:06",
  "archived_weeks": {
   "30": [
    "fable5_permanent_split",
