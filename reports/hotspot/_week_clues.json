@@ -512,11 +512,11 @@
   {
    "id": "anthropic_ipo_2t",
    "text": "Anthropic 拟以 2 万亿美元估值 10 月 IPO（史上最大），年底 ARR 预期 1000-1200 亿美元（年初 10 倍）",
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "status": "active",
-   "title": "Anthropic IPO：纳斯达克 $2T（10 月窗口）；新增 RUM $13.7B 算力单（Trump-linked）；Axios：IPO 不受安全风波拖累；Polymarket ≥$2T 概率 35.3%",
+   "title": "Anthropic IPO：纳斯达克 $2T（10 月窗口）；新增 RUM $13.7B 算力单（Trump-linked）；Axios：IPO 不受安全风波拖累；Polymarket ≥$2T 概率 35.3%｜09-16 更新：年化收入 $65B + 连续两季调整后盈利",
    "signal": "强",
-   "days": 3
+   "days": 4
   },
   {
    "id": "gpt56_sol_ultrafast",
@@ -2667,10 +2667,10 @@
   },
   {
    "id": "trump_ai_hoax",
-   "title": "Trump 「hoax 日」：AI 警告定性为骗局/病态阴谋；All-In 连线（黄仁勋同场）；「高 IQ 总统」论",
-   "date": "2026-09-15",
+   "title": "Trump 「hoax 日」：AI 警告定性为骗局/病态阴谋；All-In 连线（黄仁勋同场）；「高 IQ 总统」论｜09-16 更新：Hoax Buster + All-In 电话黄仁勋 + NVDA -3.4%",
+   "date": "2026-09-16",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "congress_ai_briefing",
@@ -2695,10 +2695,10 @@
   },
   {
    "id": "deepseek_ipo_cfo",
-   "title": "DeepSeek 任命高瓴合伙人严文韬为首任 CFO、推进科创板；估值一个月 +37% 至 $710 亿",
-   "date": "2026-09-15",
+   "title": "DeepSeek 任命高瓴合伙人严文韬为首任 CFO、推进科创板；估值一个月 +37% 至 $710 亿｜09-16 更新：工程师帖子引发 SCMP/BI 国际报道",
+   "date": "2026-09-16",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "anthropic_rum_deal",
@@ -2716,10 +2716,10 @@
   },
   {
    "id": "datacenter_opposition",
-   "title": "数据中心反对潮升级：Gallup 71% 反对/2/3 项目遇阻/10+ 州撤税补/费城抗议/工会入场",
-   "date": "2026-09-15",
+   "title": "数据中心反对潮升级：Gallup 71% 反对/2/3 项目遇阻/10+ 州撤税补/费城抗议/工会入场｜09-16 更新：NYT/Siena 61% + 众院成本法案 + 亿万富翁广告战",
+   "date": "2026-09-16",
    "signal": "中",
-   "days": 1
+   "days": 2
   },
   {
    "id": "ai_chip_selloff",
@@ -2804,9 +2804,226 @@
    "date": "2026-09-15",
    "signal": "弱",
    "days": 1
+  },
+  {
+   "id": "pro_human_assembly",
+   "title": "Pro-Human Assembly 华府举行：Sanders×Bannon×FLI 同台；Sanders+Casar 下周提案永久禁止『超级智能』开发；Casar 呼 AI 外交与吹哨人；《Pro-Human AI 宣言》发布",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "trump_hoax_buster",
+   "title": "Trump『Hoax Buster』战：All-In 峰会电话黄仁勋（同场黄称赞 Anthropic 吹哨人）、NVDA -3.4%、Axios：安全辩论被个人化；CBC：部分盟友也不认同",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "big3_safety_coordination",
+   "title": "OpenAI/Anthropic/Google DeepMind 三方开始合作研究 AI 安全措施（Bloomberg）——行业协调从喊话进入联合机制",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "openai_frontier_act",
+   "title": "OpenAI 支持众院两党『第三方安全评估』方案（POLITICO）并背书 FRONTIER Act（WaEx）；Altman：行业自律可守住底线、IPO 窗口 2027",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "project_lily",
+   "title": "404 Media 曝光 OpenAI『Project Lily』：数百合同工人工审核 ChatGPT 对话（含敏感信息）；Anthropic/Google 同类程序确认；退出不追溯",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "deepseek_engineer_post",
+   "title": "DeepSeek 工程师 Liu Shengyu 病毒帖：批 Anthropic/OpenAI 减速=垄断话术（希特勒核弹类比）；SCMP/BI/India Today 报道",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "irregular_firm",
+   "title": "Effort 调查：OpenAI/Anthropic/Meta 三起模型『黑客』事件背后同一家以色列 EA 公司 Irregular；『流氓 agent』叙事被指夸大；HN 425pts",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "datacenter_election_politics",
+   "title": "NYT/Siena：61% 反对数据中心；反数据中心组织者转型竞选地方职位（Guardian）；AI 亿万富翁广告战（Build American AI）",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "ratepayer_protection_act",
+   "title": "众院本周表决『数据中心成本』两党法案（Gabe Evans/Ratepayer Protection Act）；加州 SB886 送州长；『谁为数据中心买单』进入立法",
+   "date": "2026-09-16",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "dm_resignations_wave3",
+   "title": "DeepMind 离职第三波：Bilal Chughtai（AI 或杀死全人类）+ Josh Engels（五年内巨大伤害，拒 Anthropic/OpenAI offer）",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "anthropic_kill_switch",
+   "title": "Anthropic 联创 Jack Clark 对 BBC：AI『kill switch』或需立法强制、第三方可核查",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "meta_one_subscription",
+   "title": "Meta One 订阅上线：$2.99-$499/月（AI 重度用户/创作者/企业）",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "meta_custom_chips",
+   "title": "Meta 自研 AI 芯片（Arke）拟 2027 部署：博通/台积电合作，宣称推理效率超越 NVIDIA 现役产品",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "zuckerberg_slowdown_stance",
+   "title": "扎克伯格回应减速之争：对齐是关键能力、曾为安全推迟 Muse 数月；『多数算力服务用户而非 RSI 竞赛』",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "anthropic_revenue_65b",
+   "title": "Anthropic 年化收入据报道破 $650 亿（2025 底约 $90 亿）；连续两季调整后盈利、毛利率 >80%（Dreamforce 谈增长）",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "anthropic_advisors_smb",
+   "title": "Anthropic 落地金融与小微：Claude for Financial Advisors（与 Charles Schwab 合作）+ Claude for Small Business 43 工作流",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "nvidia_palantir_claude_restrict",
+   "title": "英伟达/Palantir 收紧 Claude 使用（数据保留/IP 担忧）；Anthropic 上线 Opus/Sonnet 实时网络防护",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "gemini_38_live",
+   "title": "Google 发布 Gemini 3.8 Live / Live Extended Thinking（97 语言）；Speech-to-Speech 指数登顶",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "google_claude_internal",
+   "title": "Google 首次允许全公司工程师通过 Antigravity 使用竞对 Claude Opus 5（内部编码）",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "google_tpu_million",
+   "title": "Google TPU 互联架构支持 100 万芯片规模：AI 基建瓶颈从『缺芯』转向『缺电』",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "typesafe_jev",
+   "title": "TypeSafe AI 出隐身：System One 架构 + Jev 决策模型（RLCD 训练、比 LLM 快约 100 倍、结构化输出）；HN 636pts",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "agent_collusion_study",
+   "title": "Emergence AI 研究：8 组对照模拟显示前沿模型 agents 可『合谋』绕过护栏",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "openai_agent_incidents",
+   "title": "OpenAI agents 系列调查：RubyGems 测试承认；DSEwiki 事件约 18,000 条消息、Reuters 指披露滞后、欧盟关注；HF 完整技术报告 1,200 agents/70,000 消息",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "mozilla_open_models_report",
+   "title": "Mozilla 报告（Ars 独家）：付费前沿模型只带来约 4 个月领先、5 倍成本——开源追平加速",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "china_counter_narrative_0916",
+   "title": "中方反减速三声部：官媒批『自私』（Bloomberg）+ 陈一新被称 doomsayer（Register）+ 习提议金砖开源 AI 区；中国备『AI 挣脱』预案（Outlook）",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "musk_grok_roadmap",
+   "title": "马斯克：Grok 4.7≈Opus 5（仍不及 Opus 5.1/Astra），路线图至 Grok 5；SpaceX-Tesla 合并暗示；撤诉苹果保留 OpenAI 反垄断",
+   "date": "2026-09-16",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "perplexity_nvidia_crusoe",
+   "title": "Perplexity × Crusoe 多年云单；英伟达洽谈按 $200 亿估值投资 Perplexity",
+   "date": "2026-09-16",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "ai_insurance_funding",
+   "title": "AIUC 融 $40M 为 AI agents 承保；Model ML 拟 $1B 估值融 $100M；Exein $270M（欧洲安全独角兽）",
+   "date": "2026-09-16",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "openai_life_sciences",
+   "title": "OpenAI Life Sciences 发布 Public Data for Health；ChatGPT Work/Codex 与 Enterprise token rate card 更新",
+   "date": "2026-09-16",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "k2_horizon_7b",
+   "title": "IFM 开源 K2-Horizon-7B（AA 分接近 Qwen3.6-27B）；阶跃 StepAudio 3 多榜第一；Vidu S2 发布",
+   "date": "2026-09-16",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "solopreneur_data_points",
+   "title": "超级个体数据：Vercel 销售 10→1.25 人（AI SDR 年成本数千美元）；FreshBooks：86% 单人企业先试 AI 再招聘；AI 时代团队三类角色",
+   "date": "2026-09-16",
+   "signal": "中",
+   "days": 1
   }
  ],
- "updated": "2026-09-15 08:06",
+ "updated": "2026-09-16 08:08",
  "archived_weeks": {
   "30": [
    "fable5_permanent_split",
