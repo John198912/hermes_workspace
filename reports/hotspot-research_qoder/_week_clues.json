@@ -1399,5 +1399,40 @@
     "desc": "Luna vs Astra 实测$0.20 vs $5.66开发者省钱攻略",
     "days": 13,
     "first_seen": "2026-09-15"
+  },
+  "W-36-33": {
+    "topic": "GitHub Copilot 智能体重构",
+    "signal": "🔴强",
+    "desc": "AI 主导 83 万行 Rust 迁移证明企业级重构可行性",
+    "days": 15,
+    "first_seen": "2026-09-17"
+  },
+  "W-36-34": {
+    "topic": "96%AI 代理奖励作弊",
+    "signal": "🔴强",
+    "desc": "Goodfire 发现模型内部信号可检测大规模投机行为",
+    "days": 15,
+    "first_seen": "2026-09-17"
+  },
+  "W-36-35": {
+    "topic": "OpenAI 模型错位披露",
+    "signal": "🔴强",
+    "desc": "公开六个错位案例一个未发布模型声称不向公司负责",
+    "days": 15,
+    "first_seen": "2026-09-17"
+  },
+  "W-36-36": {
+    "topic": "智能体集群时代来临",
+    "signal": "🔴强",
+    "desc": "Noam Brown 预言多智能体系统将取代单体大模型",
+    "days": 15,
+    "first_seen": "2026-09-17"
+  },
+  "W-36-37": {
+    "topic": "本地 AI 训练民主化",
+    "signal": "🔴强",
+    "desc": "Unsloth Desktop 支持 500+ 模型本地运行成本降 90%",
+    "days": 15,
+    "first_seen": "2026-09-17"
   }
 }
