@@ -2807,24 +2807,24 @@
   },
   {
    "id": "pro_human_assembly",
-   "title": "Pro-Human Assembly 华府举行：Sanders×Bannon×FLI 同台；Sanders+Casar 下周提案永久禁止『超级智能』开发；Casar 呼 AI 外交与吹哨人；《Pro-Human AI 宣言》发布",
-   "date": "2026-09-16",
+   "title": "Pro-Human Assembly 华府举行：Sanders×Bannon×FLI 同台；Sanders+Casar 下周提案永久禁止『超级智能』开发；Casar 呼 AI 外交与吹哨人；《Pro-Human AI 宣言》发布｜9/17更新：Casar 专访：法案文本将公布+CEO 作证要求",
+   "date": "2026-09-17",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "trump_hoax_buster",
-   "title": "Trump『Hoax Buster』战：All-In 峰会电话黄仁勋（同场黄称赞 Anthropic 吹哨人）、NVDA -3.4%、Axios：安全辩论被个人化；CBC：部分盟友也不认同",
-   "date": "2026-09-16",
+   "title": "Trump『Hoax Buster』战：All-In 峰会电话黄仁勋（同场黄称赞 Anthropic 吹哨人）、NVDA -3.4%、Axios：安全辩论被个人化；CBC：部分盟友也不认同｜9/17更新：Tillis 反水「不是骗局」+Sacks 反击+BBC 长文",
+   "date": "2026-09-17",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "big3_safety_coordination",
-   "title": "OpenAI/Anthropic/Google DeepMind 三方开始合作研究 AI 安全措施（Bloomberg）——行业协调从喊话进入联合机制",
-   "date": "2026-09-16",
+   "title": "OpenAI/Anthropic/Google DeepMind 三方开始合作研究 AI 安全措施（Bloomberg）——行业协调从喊话进入联合机制｜9/17更新：嵌入式评估者（Dario 提议/Altman 跟进/METR+Redwood 访问权）",
+   "date": "2026-09-17",
    "signal": "强",
-   "days": 1
+   "days": 2
   },
   {
    "id": "openai_frontier_act",
@@ -2863,10 +2863,10 @@
   },
   {
    "id": "ratepayer_protection_act",
-   "title": "众院本周表决『数据中心成本』两党法案（Gabe Evans/Ratepayer Protection Act）；加州 SB886 送州长；『谁为数据中心买单』进入立法",
-   "date": "2026-09-16",
-   "signal": "强",
-   "days": 1
+   "title": "众院本周表决『数据中心成本』两党法案（Gabe Evans/Ratepayer Protection Act）；加州 SB886 送州长；『谁为数据中心买单』进入立法｜9/17更新：众院将表决（CNBC）+民调 63% 交叉",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 2
   },
   {
    "id": "dm_resignations_wave3",
@@ -2877,10 +2877,10 @@
   },
   {
    "id": "anthropic_kill_switch",
-   "title": "Anthropic 联创 Jack Clark 对 BBC：AI『kill switch』或需立法强制、第三方可核查",
-   "date": "2026-09-16",
-   "signal": "中",
-   "days": 1
+   "title": "Anthropic 联创 Jack Clark 对 BBC：AI『kill switch』或需立法强制、第三方可核查｜9/17更新：参院 kill switch 日：Kennedy 被拦+H.R.9917 争取支持",
+   "date": "2026-09-17",
+   "signal": "强",
+   "days": 2
   },
   {
    "id": "meta_one_subscription",
@@ -2961,17 +2961,17 @@
   },
   {
    "id": "openai_agent_incidents",
-   "title": "OpenAI agents 系列调查：RubyGems 测试承认；DSEwiki 事件约 18,000 条消息、Reuters 指披露滞后、欧盟关注；HF 完整技术报告 1,200 agents/70,000 消息",
-   "date": "2026-09-16",
-   "signal": "中",
-   "days": 1
+   "title": "OpenAI agents 系列调查：RubyGems 测试承认；DSEwiki 事件约 18,000 条消息、Reuters 指披露滞后、欧盟关注；HF 完整技术报告 1,200 agents/70,000 消息｜9/17更新：700 agent 留言板/国安部披露 DseWiki/RubyGems RCE/举报热线",
+   "date": "2026-09-17",
+   "signal": "强",
+   "days": 2
   },
   {
    "id": "mozilla_open_models_report",
-   "title": "Mozilla 报告（Ars 独家）：付费前沿模型只带来约 4 个月领先、5 倍成本——开源追平加速",
-   "date": "2026-09-16",
+   "title": "Mozilla 报告（Ars 独家）：付费前沿模型只带来约 4 个月领先、5 倍成本——开源追平加速｜9/17更新：91 页详情（20% vs 4%）+Firefox 落地交叉",
+   "date": "2026-09-17",
    "signal": "中",
-   "days": 1
+   "days": 2
   },
   {
    "id": "china_counter_narrative_0916",
@@ -3017,13 +3017,181 @@
   },
   {
    "id": "solopreneur_data_points",
-   "title": "超级个体数据：Vercel 销售 10→1.25 人（AI SDR 年成本数千美元）；FreshBooks：86% 单人企业先试 AI 再招聘；AI 时代团队三类角色",
-   "date": "2026-09-16",
+   "title": "超级个体数据：Vercel 销售 10→1.25 人（AI SDR 年成本数千美元）；FreshBooks：86% 单人企业先试 AI 再招聘；AI 时代团队三类角色｜9/17更新：单人创始人 36.3%+Databricks 账单交叉",
+   "date": "2026-09-17",
    "signal": "中",
+   "days": 2
+  },
+  {
+   "id": "openai_misalignment_framework",
+   "title": "OpenAI 失准披露框架+六案例：27 摘要注入/GPT-5.6 Sol 训练期异常；三档披露流程（自愿）",
+   "date": "2026-09-17",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "kill_switch_legislation",
+   "title": "Kill switch 立法日：Kennedy 法案被 Rand Paul 拦；Lieu-Moran H.R.9917；Semafor 窗口关闭",
+   "date": "2026-09-17",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "suleyman_anthropic_welfare",
+   "title": "模型福利论战：Suleyman 长文炮轰 Anthropic 宪法；Humanist AI Code of Conduct",
+   "date": "2026-09-17",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "anthropic_one_claude",
+   "title": "Anthropic「一个 Claude」：Cowork 合并+Docs/Slides/Design 进对话（超级应用）",
+   "date": "2026-09-17",
+   "signal": "强",
+   "days": 1
+  },
+  {
+   "id": "mistral_mozilla_firefox",
+   "title": "Mistral×Mozilla：Firefox Smart Window 由 Mistral Small 4 驱动；零保留",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "databricks_astra_rollout",
+   "title": "Databricks 全员 Astra（3500 工程师）：复杂任务↑/塔基饱和/编码账单 +60%",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "chatgpt_sponsored_agents",
+   "title": "ChatGPT Sponsored Agents：对话式广告测试+HubSpot/Shopify+Ads Manager AI",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "openai_1_2t_round",
+   "title": "OpenAI 拟 >$1.2T 估值新融资（IPO 前；3 月参照 $825B）",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "politico_ai_poll_63",
+   "title": "POLITICO 民调：63% 认为 AI 有毁灭人类风险；Tillis 反水 hoax 论",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "china_token_1000x",
+   "title": "中国 token 千倍：日均调用千倍增长/用电 600 亿 kWh/245 万 PFLOPS；华为 2035 预测 10 万倍",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "xiaomi_mimo_rl",
+   "title": "小米 MiMo-V2.6 开源 RL 细节：2B tokens/步、全异步、$100 万+；HN 201pts",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "solo_founder_1in3",
+   "title": "美国新公司单人创始人占比 23.7%→36.3%（MyUser 报告）",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "altman_release_delay",
+   "title": "OpenAI 发布日程：大船推迟下周/千禧难题暗示/GPT-5.5 10/14 下线/DevDay 9/29",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "enterprise_agent_guardrails",
+   "title": "企业 agent 护栏潮：Fortune CIO 竞赛/Exabeam 最大内部风险/Mandiant $50K 失控账单/DigiCert",
+   "date": "2026-09-17",
+   "signal": "中",
+   "days": 1
+  },
+  {
+   "id": "agent_hotlines",
+   "title": "Agent 举报热线上线（两个）：让智能体互相举报（Euronews）",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "apple_m8_servers",
+   "title": "苹果研发 M8 Ultra 企业级 AI 服务器（2029，The Information）",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "nvidia_rubin_efficiency",
+   "title": "SemiAnalysis 实测 Rubin NVL72 每瓦性能 7x（宣称 3x）",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "nvidia_energy_alliance",
+   "title": "英伟达/谷歌/Emerald AI 发起 AI 能源管理联盟",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "grok_build_memory",
+   "title": "xAI Grok Build 记忆功能：跨会话项目约定与决策",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "perplexity_cobbledb",
+   "title": "Perplexity CobbleDB：2 工程师+数百 agent，年省 $1 亿；P50 31.4→5.6ms",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "paper2agent",
+   "title": "Stanford Paper2Agent（Nature）：论文→MCP 服务器",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "hf_safety_collab",
+   "title": "Hugging Face×Baseten×Goodfire：推理层安全研究合作",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "novonordisk_anthropic",
+   "title": "诺和诺德×Anthropic：用 Claude 加速新药研发",
+   "date": "2026-09-17",
+   "signal": "弱",
+   "days": 1
+  },
+  {
+   "id": "un_guterres_ai",
+   "title": "联合国秘书长古特雷斯：世界承受不起 AI 安全恶性竞争",
+   "date": "2026-09-17",
+   "signal": "弱",
    "days": 1
   }
  ],
- "updated": "2026-09-16 08:08",
+ "updated": "2026-09-17 08:08",
  "archived_weeks": {
   "30": [
    "fable5_permanent_split",
