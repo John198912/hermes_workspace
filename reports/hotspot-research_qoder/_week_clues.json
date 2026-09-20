@@ -1434,5 +1434,40 @@
     "desc": "Unsloth Desktop 支持 500+ 模型本地运行成本降 90%",
     "days": 15,
     "first_seen": "2026-09-17"
+  },
+  "W-37-01": {
+    "topic": "Qwen-Image-2.1 开源",
+    "signal": "🔴强",
+    "desc": "7B 统一生成编辑原生 RGBA 开源图像革命新里程碑",
+    "days": 1,
+    "first_seen": "2026-09-20"
+  },
+  "W-37-02": {
+    "topic": "NYT 版权诉讼升级",
+    "signal": "🔴强",
+    "desc": "微软承认 AI 抓取最大劳动盗用版权战争白热化",
+    "days": 1,
+    "first_seen": "2026-09-20"
+  },
+  "W-37-03": {
+    "topic": "Step 5 旗舰模型",
+    "signal": "🔴强",
+    "desc": "600B MoE 模型 1/8 成本全球前三开源生态新力量",
+    "days": 1,
+    "first_seen": "2026-09-20"
+  },
+  "W-37-04": {
+    "topic": "本地优先创意运动",
+    "signal": "🔴强",
+    "desc": "ComfyUI 集成推动自托管工具普及创作自主权回归",
+    "days": 1,
+    "first_seen": "2026-09-20"
+  },
+  "W-37-05": {
+    "topic": "AI 模型价格战开启",
+    "signal": "🔴强",
+    "desc": "Step 5 掀价格战倒逼行业重构商业模式",
+    "days": 1,
+    "first_seen": "2026-09-20"
   }
 }
