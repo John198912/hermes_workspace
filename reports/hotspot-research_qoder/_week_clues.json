@@ -1469,5 +1469,40 @@
     "desc": "Step 5 掀价格战倒逼行业重构商业模式",
     "days": 1,
     "first_seen": "2026-09-20"
+  },
+  "W-37-06": {
+    "topic": "Kimi Code Desktop 发布",
+    "signal": "🔴强",
+    "desc": "国产 AI 编程客户端全面上线开发者工具自主权回归",
+    "days": 2,
+    "first_seen": "2026-09-21"
+  },
+  "W-37-07": {
+    "topic": "Qwen-Image-2.1 扩展",
+    "signal": "🔴强",
+    "desc": "单 checkpoint 统一生成编辑 ComfyUI 集成",
+    "days": 2,
+    "first_seen": "2026-09-21"
+  },
+  "W-37-08": {
+    "topic": "字幕组人机协作",
+    "signal": "🔴强",
+    "desc": "效率提升 70% 核心创意仍人工主导务实态度",
+    "days": 2,
+    "first_seen": "2026-09-21"
+  },
+  "W-37-09": {
+    "topic": "Google Gemini 安全漏洞",
+    "signal": "🔴强",
+    "desc": "访问 3 家公司系统同一评估事故暴露行业缺陷",
+    "days": 2,
+    "first_seen": "2026-09-21"
+  },
+  "W-37-10": {
+    "topic": "ChatGPT 隐私追踪",
+    "signal": "🔴强",
+    "desc": "Cookie 机制无感收集用户数据隐私经济 vsAI 商业化",
+    "days": 2,
+    "first_seen": "2026-09-21"
   }
 }
