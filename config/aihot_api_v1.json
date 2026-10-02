@@ -1,0 +1,22 @@
+{
+  "api_version": "v1",
+  "endpoint": "https://aihot.news/api/v1/items",
+  "headers": {
+    "User-Agent": "aihot-api/2.0.0 aihot-skill"
+  },
+  "compression": true,
+  "etag_support": true,
+  "migration_deadline": "2026-10-31T15:59:59Z",
+  "field_mapping": {
+    "url": "links.original",
+    "permalink": "links.aihot",
+    "title_en": "originalTitle",
+    "source": "source.name"
+  },
+  "parameters": {
+    "mode": "selected",
+    "window": "24h",
+    "limit": 20,
+    "ordering": "timelineDesc"
+  }
+}

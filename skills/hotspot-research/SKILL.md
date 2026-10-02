@@ -11,12 +11,29 @@ description: >
 
 这是热点采集系统的**策略大脑和执行手册**。Agent 每次执行 cron 任务时严格按以下流程执行。
 
-> ⚠️ **执行前必读（2026-07-08）**：以下两个配置陷阱是沉默的杀手——不会报错但会导致错误模型/低质量产出：
+> ⚠️ **执行前必读（2026-10-02）**：以下两个配置陷阱是沉默的杀手——不会报错但会导致错误模型/低质量产出：
 > 1. **`agent.reasoning_effort` 不能写 `xhigh`**：volces-ark API 只支持 max/high/medium/low。写 `xhigh` → API 400 → Hermes 静默 fallback 到 minimax-chat → 用户看到"新会话走了 MiniMax"。正确值：`max`。详见 `references/provider_volces_ark.md`。
 > 2. **Provider `name` 字段不能写 `minimax`**：Hermes 内部硬编码映射 `minimax` → `api.minimax.io/anthropic`，覆盖你写的 base_url。必须用 `minimax-chat` 或 `volces-ark` 等自定义名。详见 `references/provider_configuration.md`。
 > 3. **Cron 不继承 reasoning_effort**：`cronjob update` 的 model 参数不接受 reasoning_effort。唯一入口是 cron prompt 开头的硬指令。详见 `references/provider_configuration.md` → Cron Prompt 修复模板。
-> 4. 🆕 **Python 脚本 urllib3 兼容性陷阱（2026-07-08 实战验证）**：hermes-agent venv 的 Python 3.11 + urllib3 存在 `TypeError: unsupported operand type(s) for |: 'type' and 'type'` 兼容性问题，导致所有 `import requests` 的 Python 脚本（tavily-search、byted-web-search、hotspot_engine.py 等）全部不可用。**症状**：任何 Python 脚本在导入 requests 时崩溃。**根因**：urllib3 `_base_connection.py` 使用了 Python 3.10+ 的 `X | Y` union syntax，但 venv 内安装的 urllib3 版本不兼容。**降级路径**：① Brave MCP（npm 进程，不经过 Python venv）② browser 直接导航+快照 ③ terminal curl 直接请求（不 import requests）。详见 `references/python_venv_urllib3_fix.md`。
-> 5. 🆕 **AI HOT API 认证墙（2026-07-08 起）**：`aihot.virxact.com` 所有 API 端点返回 HTML 登录页（suite-passport），非 JSON。**症状**：curl 返回 `<html lang="zh-CN">` 含 `suite-passport-compile-at` meta 标签。**这不是临时故障——是系统变更**，不可重试。**替代采集路径**：Brave News 中文关键词搜索 + 搜狗微信（engine）+ 手动补采小红书/微博（交互 session）。每次 cron 运行应先快速检测 AI HOT 状态（curl -sI 看 Content-Type），若是 text/html → 立即跳过 + 标注 [aihot:AUTH_WALL]。详见 `references/aihot_integration.md` §7.1。
+> 4. 🆕 **Python 脚本 urllib3 兼容性陷阱（2026-07-08 实战验证）**：hermes-agent venv 的 Python 3.11 + urllib3 存在 `TypeError: unsupported operand type(s) for |: 'type' and 'type'` 兼容性问题，导致所有 `import requests` 的 Python 脚本（tavily-search、byted-web-search、hotspot_engine.py 等）全部不可用。**症状**：任何 Python 脚本在导入 requests 时崩溃。**根因**：urllib3 `_base_connection.py` 使用了 Python 3.10+ 的 `X | Y` union syntax，但 venv 内安装的 urllib3 版本不兼容。**降级路径**：① Brave MCP（npm 进程，不经过 Python venv）② browser 直接导航 + 快照 ③ terminal curl 直接请求（不 import requests）。详见 `references/python_venv_urllib3_fix.md`。
+> 5. 🆕 **AI HOT API 新版迁移（2026-10-02 紧急）**：旧版接口 `aihot.virxact.com/api/public/*` 将于 **2026-10-31** 彻底停用，必须迁移到 `https://aihot.news/api/v1/*`。
+>
+> **关键变化**:
+> - URL: `https://aihot.virxact.com` → `https://aihot.news`
+> - 端点：`/api/public/items` → `/api/v1/items`
+> - 参数：`take=50` → `limit=20`；`since=$timestamp` → `window=24h`
+> - 字段映射：`url`→`links.original`, `permalink`→`links.aihot`, `title_en`→`originalTitle`, `source`→`source.name`
+> 
+> **新调用示例**:
+> ```bash
+> curl --compressed -A 'aihot-api/2.0.0 aihot-skill' 'https://aihot.news/api/v1/items?mode=selected&window=24h&limit=20'
+> ```
+> 
+> **配置已更新**: 详见 `config/aihot_api_v1.json`
+> 
+> **降级路径**：如新版 API 暂时不可用，使用 Brave News 中文关键词搜索 + 搜狗微信替代。
+
+> 6. 🆕 **Cron Job 推理能力硬约束（2026-10-02 新增）**：所有热点采集 cron job 必须在 prompt 开头明确指定 `agent.reasoning_effort=max`，否则默认走 low 模式导致低质量输出。详见 `references/provider_configuration.md` → Cron Prompt 强制指令模板。
 
 > [NEW] **核心原则 #16：AM/PM 版本保留规则（2026-07-08 卷哥硬约束）**
 > 
