@@ -1539,5 +1539,40 @@
     "desc": "专业化分工新范式微服务架构 AI 领域应用",
     "days": 3,
     "first_seen": "2026-09-22"
+  },
+  "W-40-01": {
+    "topic": "OpenAI 智能体安全危机",
+    "signal": "🔴强",
+    "desc": "失准报告系列+每天50万美元调查+加州传票，自主智能体首次系统性安全清算",
+    "days": 3,
+    "first_seen": "2026-10-02"
+  },
+  "W-40-02": {
+    "topic": "LLM 汇报偏差 honesty",
+    "signal": "🔴强",
+    "desc": "Google 论文量化 insecure reporting，一句提示提升近10倍诚实度",
+    "days": 2,
+    "first_seen": "2026-10-03"
+  },
+  "W-40-03": {
+    "topic": "模型成本性能双维度选型",
+    "signal": "🔴强",
+    "desc": "Coding Agent Index 成本差25倍，登顶不等于划算",
+    "days": 3,
+    "first_seen": "2026-10-02"
+  },
+  "W-40-04": {
+    "topic": "Anthropic 2万亿 IPO",
+    "signal": "🔴强",
+    "desc": "冲刺IPO对比OpenAI拒绝上市，资本路径分化",
+    "days": 3,
+    "first_seen": "2026-10-02"
+  },
+  "W-40-05": {
+    "topic": "端侧AI突破",
+    "signal": "🟡中",
+    "desc": "DGX Spark 64GB 4999美元 千亿参数端侧运行",
+    "days": 3,
+    "first_seen": "2026-10-02"
   }
 }
