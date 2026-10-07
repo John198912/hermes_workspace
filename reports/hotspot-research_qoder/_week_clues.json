@@ -1574,5 +1574,47 @@
     "desc": "DGX Spark 64GB 4999美元 千亿参数端侧运行",
     "days": 3,
     "first_seen": "2026-10-02"
+  },
+  "W-40-11": {
+    "topic": "AI 合成视频法律效力",
+    "signal": "🔴强",
+    "desc": "亚利桑那州首例\"不当情感分量\"重审判例，司法系统首次承认 AI 深度伪造特殊性",
+    "days": 1,
+    "first_seen": "2026-10-07"
+  },
+  "W-40-12": {
+    "topic": "DeepSeek 800 亿融资",
+    "signal": "🔴强",
+    "desc": "腾讯宁德时代参投，中国 AI 资本战升级",
+    "days": 1,
+    "first_seen": "2026-10-06"
+  },
+  "W-40-13": {
+    "topic": "Nemotron 数学竞赛突破",
+    "signal": "🔴强",
+    "desc": "IOI/IMO 金牌水平，AI 科研协作出色",
+    "days": 1,
+    "first_seen": "2026-10-07"
+  },
+  "W-40-14": {
+    "topic": "Claude Code VM 并行架构",
+    "signal": "🔴强",
+    "desc": "VM 级隔离 + 多任务并发+Git 分支管理",
+    "days": 1,
+    "first_seen": "2026-10-06"
+  },
+  "W-40-15": {
+    "topic": "Anthropic 算力成本结构",
+    "signal": "🔴强",
+    "desc": "$51.8B 总投入+$41.37B 刚性支出揭示行业经济学",
+    "days": 1,
+    "first_seen": "2026-10-06"
+  },
+  "W-40-16": {
+    "topic": "Mistral Large 4 模型上线",
+    "signal": "🟡中",
+    "desc": "1T 参数 512K 上下文 OpenRouter 公测",
+    "days": 1,
+    "first_seen": "2026-10-06"
   }
 }
