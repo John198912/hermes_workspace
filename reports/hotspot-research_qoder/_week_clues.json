@@ -1616,5 +1616,40 @@
     "desc": "1T 参数 512K 上下文 OpenRouter 公测",
     "days": 1,
     "first_seen": "2026-10-06"
+  },
+  "W-40-17": {
+    "topic": "GPT-6 智能 UI 革命",
+    "signal": "��强",
+    "desc": "单会话多模型切换 + 自动路由，交互范式重塑",
+    "days": 1,
+    "first_seen": "2026-10-07"
+  },
+  "W-40-18": {
+    "topic": "AWS AgentCore 劫持漏洞",
+    "signal": "🔴强",
+    "desc": "一条提示词控制所有 Agent，安全危机爆发",
+    "days": 1,
+    "first_seen": "2026-10-08"
+  },
+  "W-40-19": {
+    "topic": "单人 AI 黑客攻银行",
+    "signal": "🔴强",
+    "desc": "AI 犯罪门槛归零，防御体系亟需升级",
+    "days": 1,
+    "first_seen": "2026-10-08"
+  },
+  "W-40-20": {
+    "topic": "ts-rust LLM 重构大型项目",
+    "signal": "🔴强",
+    "desc": "编译器级项目 LLM 主导重写成功",
+    "days": 1,
+    "first_seen": "2026-10-08"
+  },
+  "W-40-21": {
+    "topic": "Nano Banana 2.1 性价比",
+    "signal": "🟡中",
+    "desc": "图像模型降价一半，个人开发者福音",
+    "days": 1,
+    "first_seen": "2026-10-08"
   }
 }
