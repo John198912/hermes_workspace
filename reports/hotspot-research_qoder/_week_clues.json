@@ -1651,5 +1651,33 @@
     "desc": "图像模型降价一半，个人开发者福音",
     "days": 1,
     "first_seen": "2026-10-08"
+  },
+  "W-40-22": {
+    "topic": "OpenAI 数学论文风波",
+    "signal": "🔴强",
+    "desc": "722 份 AI 数学手稿引发学界抵制，科研范式冲突",
+    "days": 1,
+    "first_seen": "2026-10-08"
+  },
+  "W-40-23": {
+    "topic": "OpenAI 500 亿营收",
+    "signal": "🔴强",
+    "desc": "超预期增长 200 亿，AI 商业化黄金时代",
+    "days": 1,
+    "first_seen": "2026-10-08"
+  },
+  "W-40-24": {
+    "topic": "Arena 31 亿估值 B 轮",
+    "signal": "🔴强",
+    "desc": "评测赛道获资本认可，Alignment Index 成新标准",
+    "days": 1,
+    "first_seen": "2026-10-08"
+  },
+  "W-40-25": {
+    "topic": "ML Intern 百美元造模型",
+    "signal": "🟡中",
+    "desc": "自监督学习 democratization，个人开发者福音",
+    "days": 1,
+    "first_seen": "2026-10-08"
   }
 }
