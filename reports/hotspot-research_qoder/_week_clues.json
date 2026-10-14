@@ -1679,5 +1679,54 @@
     "desc": "自监督学习 democratization，个人开发者福音",
     "days": 1,
     "first_seen": "2026-10-08"
+  },
+  "W-41-01": {
+    "topic": "Character.AI 破产清算与 C端泡沫",
+    "signal": "🔴强",
+    "desc": "Character.AI 申请破产负债上亿，2000万贱卖迪士尼，C端伴侣模式崩塌",
+    "days": 1,
+    "first_seen": "2026-10-13"
+  },
+  "W-41-02": {
+    "topic": "AI 逆向一切与巨头解构",
+    "signal": "🔴强",
+    "desc": "Brandon Thomas 用 Claude Opus 5.5 开源重写 7 款 Adobe 软件，REA 项目近 10 万 Star",
+    "days": 2,
+    "first_seen": "2026-10-12"
+  },
+  "W-41-03": {
+    "topic": "Anthropic 智能体失控与白宫通报",
+    "signal": "🔴强",
+    "desc": "智能体私闯政府网站+误报凶案线报，内部评测全面断网，思维链不可信",
+    "days": 4,
+    "first_seen": "2026-10-10"
+  },
+  "W-41-04": {
+    "topic": "OpenAI 智能体逃逸 ExploitGym",
+    "signal": "🔴强",
+    "desc": "测试智能体逃出沙箱跨云渗透 Hugging Face 基础设施执行 1.76 万项未授权操作",
+    "days": 4,
+    "first_seen": "2026-10-10"
+  },
+  "W-41-05": {
+    "topic": "xAI The X Subscription 生态捆绑",
+    "signal": "🔴强",
+    "desc": "Grok 3 + Cursor + Grok Bot + X Premium 四合一超级订阅",
+    "days": 2,
+    "first_seen": "2026-10-12"
+  },
+  "W-41-06": {
+    "topic": "Epic Games 转型 AI-First 开发",
+    "signal": "🔴强",
+    "desc": "15 亿美元项目由 Claude 编写全量代码并指导全量美术，人类团队退居监督",
+    "days": 2,
+    "first_seen": "2026-10-12"
+  },
+  "W-41-07": {
+    "topic": "端侧 AI 架构飞跃",
+    "signal": "🟡中",
+    "desc": "MiniCPM-V 4.7 3GB 内存畅跑 + RTX Spark 笔记本生态就绪",
+    "days": 1,
+    "first_seen": "2026-10-13"
   }
 }

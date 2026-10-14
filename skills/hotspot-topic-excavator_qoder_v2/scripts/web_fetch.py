@@ -23,9 +23,11 @@ from urllib.parse import urlparse
 try:
     import requests
     from bs4 import BeautifulSoup
+    HAS_DEPS = True
 except ImportError:
-    print("ERROR: 缺少依赖包。请执行: pip3 install -r requirements.txt", file=sys.stderr)
-    sys.exit(1)
+    HAS_DEPS = False
+    import urllib.request
+    import ssl
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
@@ -210,17 +212,31 @@ def fetch_url(url, output_format='markdown', max_length=50000, insecure=False):
     if insecure:
         print("[WARN] TLS 验证已关闭（--insecure），存在安全风险", file=sys.stderr)
 
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=30, verify=verify_tls)
-    except Exception as e:
-        print(f"ERROR: 网络请求失败 - {e}", file=sys.stderr)
-        sys.exit(2)
+    if HAS_DEPS:
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=30, verify=verify_tls)
+            status_code = resp.status_code
+            text = resp.text
+        except Exception as e:
+            print(f"ERROR: 网络请求失败 - {e}", file=sys.stderr)
+            sys.exit(2)
+    else:
+        try:
+            ctx = ssl.create_default_context()
+            if not verify_tls:
+                ctx.check_hostname = False
+                ctx.verify_mode = ssl.CERT_NONE
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=30, context=ctx) as r:
+                status_code = r.status
+                text = r.read().decode('utf-8', errors='replace')
+        except Exception as e:
+            print(f"ERROR: 标准库请求失败 - {e}", file=sys.stderr)
+            sys.exit(2)
 
-    if resp.status_code != 200:
-        print(f"ERROR: HTTP {resp.status_code}", file=sys.stderr)
+    if status_code != 200:
+        print(f"ERROR: HTTP {status_code}", file=sys.stderr)
         sys.exit(2)
-
-    text = resp.text
 
     if is_waf_blocked(text):
         print("WARNING: 可能被 Cloudflare WAF 阻断", file=sys.stderr)
@@ -232,10 +248,16 @@ def fetch_url(url, output_format='markdown', max_length=50000, insecure=False):
 
     # 输出状态信息
     print(f"[FETCH] URL: {url}", file=sys.stderr)
-    print(f"[FETCH] Status: {resp.status_code}, Size: {len(text)} bytes", file=sys.stderr)
+    print(f"[FETCH] Status: {status_code}, Size: {len(text)} bytes", file=sys.stderr)
 
     if output_format == 'markdown':
-        content = html_to_markdown(text)
+        if HAS_DEPS:
+            content = html_to_markdown(text)
+        else:
+            clean = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL)
+            clean = re.sub(r'<style[^>]*>.*?</style>', '', clean, flags=re.DOTALL)
+            clean = re.sub(r'<[^>]+>', ' ', clean)
+            content = re.sub(r'\s+', ' ', clean).strip()
     else:
         content = text
 

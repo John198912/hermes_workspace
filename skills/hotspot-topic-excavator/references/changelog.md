@@ -13,6 +13,7 @@
 | **v2.5.0** | 2026-07-05 | `skill_manage edit`（追加降级路径） | **🆕 Cloudflare WAF 子路径**：当 Jina Reader 对 Memeburn 等中型新闻网返回 "Please wait..." 占位页时，**直接用 Python `requests` + 浏览器 UA + 正则提取 entry-content 块**绕过 WAF。验证：同一 URL Jina 300 字节占位 → Python 直连 87.8 KB → 正则提取 6 KB 完整正文。新增 `references/cloudflare_waf_python_direct.md`（含脚本、决策树、适用边界、Tokenpocalypse 实战案例） |
 | **v2.6.0** | 2026-07-05 | `skill_manage patch` | **🆕 web_extract 环境依赖警告**：明确"不要假设 web_extract 默认可用"，降级链路必须切到本环境已确认可用工具。新增引用父 umbrella `references/llm_brave_context_alternative_path.md`。新增 `references/international_topic_chinese_supplement.md`（国际治理中文补强）和 `references/calibration_case_un_women_international_upgrade.md`（单源议题升级 P0） |
 | **v2.6.1** | 2026-07-05 | `skill_manage patch` + 新建 reference | **🆕 B 端话题中国视角补强**（用户指令触发）：新建 `references/b2b_topic_china_perspective.md`：8 组豆包关键词广覆盖 + Layer 2 三段式（全球→美国→中国三路径）+ Layer 3 中国视角占比 ≥50% + 校准项 +3。**🆕 工具陷阱**：豆包 byted-web-search 沙箱 shebang 解析到 macOS 系统 Python 3.9 → urllib3 2.7.0 PEP 604 失败。**根因修复（不是降级）**：用 venv 绝对路径 `/Users/lizhenjiang/.hermes/hermes-agent/venv/bin/python3` 显式调用 |
+| **v3.0.0** | 2026-10-14 | 架构解耦重构 | **🆕 架构解耦·纯素材专注版**：彻底移除捆绑的 RIVET 单一大纲构建与下游多平台内容撰写逻辑。大纲与结构选型全权交接给 `ajuan-script-architect`（16 种结构诊断与评分），风格成稿交给 `ajuan-style-guardian` 与 `doubao-newmedia-writing`。本 skill 纯粹专注于：① SEED ≠ SOURCE 真伪交叉核验；② 双轴深度挖掘与 6 类高密度素材弹药库（🔴🟡🟢）；③ 3 类图片方案；④ 企业级到超级个体工具链映射；⑤ 九类校准审查（A-I）；⑥ 下游选型交接卡。 |
 
 ## references/ 子文件演进（按新增顺序）
 

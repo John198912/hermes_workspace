@@ -35,14 +35,11 @@
 
 ### 模式 A：B2B 话题（推荐·已有标准化模板）
 
-直接执行 `references/b2b_topic_china_perspective.md` 的 **8 组豆包关键词**：
-
-```bash
-VENV=/Users/lizhenjiang/.hermes/hermes-agent/venv/bin/python3
-SCRIPT=~/.hermes/skills/byted-web-search/scripts/web_search.py
+```markdown
+在 Antigravity 环境下，直接调用 `search_web` 工具执行以下 8 组关键词检索：
 
 # 第 1 组：政策驱动
-$VENV $SCRIPT "工信部/发改委/国务院 [话题关键词] 2026" --time-range OneMonth --count 10
+search_web("工信部 发改委 国务院 [话题关键词] 2026")
 
 # 第 2 组：大厂路径
 $VENV $SCRIPT "阿里/字节/华为 [话题关键词] 部署 2026" --time-range OneMonth --count 10

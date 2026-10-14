@@ -1,27 +1,17 @@
 #!/usr/bin/env python3
 """
-Jina Reader Python bypass for 8 key blogs (macOS LibreSSL workaround).
-
-Usage (cron and interactive sessions):
-  env -u PYTHONPATH -u VIRTUAL_ENV python3 /tmp/jina_blogs.py
-  → 8/8 blogs extracted in ~5-12 seconds, output to /tmp/jina_*.md
-
-Why Python bypass not curl:
-  - macOS LibreSSL 2.8.3 TLS handshake fails with r.jina.ai (curl exit 28/35)
-  - Python `requests` uses urllib3 + OpenSSL path → different TLS negotiation
-  - verify=False is required because LibreSSL rejects Jina's certificate chain
-    at the handshake protocol level (cert is valid, only handshake fails)
-
-Why `env -u PYTHONPATH -u VIRTUAL_ENV` prefix is required:
-  - Hermes cron session injects PYTHONPATH pointing at Python 3.11 venv
-  - System Python 3.9 then loads Python 3.11-compiled urllib3 → TypeError
-  - Stripping these env vars forces use of system Python 3.9 + its own libs
-
-Maintenance: edit the BLOGS list to add/remove tracked blogs.
-Add new blog:  ("shortname", "https://example.com/blog/")
+jina_blogs_template.py — 8位关键人物与研究博客提取工具 (Zero-Dependency Python 版本)
+================================================================================
+使用 Jina Reader (https://r.jina.ai/) 将博客 URL 提取为 Markdown 格式。
+针对 macOS LibreSSL 环境做了纯标准库 SSL Context 适配，不依赖 requests 或外部 pip 包。
 """
-import requests
+
+import os
+import sys
 import time
+import ssl
+import gzip
+import urllib.request
 
 BLOGS = [
     ("altman",          "https://blog.samaltman.com/"),
@@ -34,29 +24,43 @@ BLOGS = [
     ("evans",           "https://www.ben-evans.com/"),
 ]
 
-OUTDIR = "/tmp"
+OUTDIR = os.environ.get("JINA_CACHE_DIR", "/tmp")
+os.makedirs(OUTDIR, exist_ok=True)
 results = {}
 
+# 创建宽松 SSL 上下文以兼容 macOS LibreSSL 握手
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+
 for name, url in BLOGS:
-    outfile = f"{OUTDIR}/jina_{name}.md"
+    outfile = os.path.join(OUTDIR, f"jina_{name}.md")
     jina_url = f"https://r.jina.ai/{url}"
     try:
-        r = requests.get(
+        req = urllib.request.Request(
             jina_url,
-            headers={"Accept": "text/markdown", "User-Agent": "Mozilla/5.0"},
-            verify=False,
-            timeout=15,
+            headers={
+                "Accept": "text/markdown",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko)",
+                "Accept-Encoding": "gzip"
+            }
         )
-        if r.status_code == 200 and len(r.text) > 200:
-            with open(outfile, "w") as f:
-                f.write(r.text)
-            sz = len(r.text)
-            results[name] = f"OK ({sz:,} bytes)"
-        else:
-            results[name] = f"FAIL status={r.status_code} len={len(r.text)}"
+        with urllib.request.urlopen(req, timeout=15, context=ctx) as resp:
+            raw = resp.read()
+            if resp.info().get("Content-Encoding") == "gzip":
+                raw = gzip.decompress(raw)
+            text = raw.decode("utf-8", errors="replace")
+            
+            if len(text) > 200:
+                with open(outfile, "w", encoding="utf-8") as f:
+                    f.write(text)
+                sz = len(text)
+                results[name] = f"OK ({sz:,} bytes) -> {outfile}"
+            else:
+                results[name] = f"WARN (短文本 len={len(text)})"
     except Exception as e:
         results[name] = f"ERROR {type(e).__name__}: {str(e)[:60]}"
-    time.sleep(0.5)  # rate limit
+    time.sleep(0.3)
 
 print("=== Jina Reader Python Bypass Results ===")
 for n, r in results.items():
