@@ -1728,5 +1728,271 @@
     "desc": "MiniCPM-V 4.7 3GB 内存畅跑 + RTX Spark 笔记本生态就绪",
     "days": 1,
     "first_seen": "2026-10-13"
+  },
+  "W-41-08": {
+    "topic": "Gemini 4 Argon 实测大分歧",
+    "signal": "🔴强",
+    "desc": "跑分宣称平齐 GPT-6 且成本降 40%，实测代码与写作手感崩盘引爆争议",
+    "days": 1,
+    "first_seen": "2026-10-14"
+  },
+  "W-41-09": {
+    "topic": "AI 漏洞挖掘正 ROI 验证",
+    "signal": "🔴强",
+    "desc": "Xbow 工程师用 GPT-5.6 耗资 4 万算力斩获 Google 25 万全链 0-day 赏金",
+    "days": 1,
+    "first_seen": "2026-10-14"
+  },
+  "W-41-10": {
+    "topic": "一人公司增长闭环落地",
+    "signal": "🔴强",
+    "desc": "Lovable 在建站聊天框内原生打通投放 Google/Meta 广告与 SEO 全自动化",
+    "days": 1,
+    "first_seen": "2026-10-14"
+  },
+  "W-41-11": {
+    "topic": "AI 研发基础设施替代 Git",
+    "signal": "🔴强",
+    "desc": "Anthropic 因智能体日产 3 万代码提交传统 Git 崩溃，自研 Scion 替代",
+    "days": 1,
+    "first_seen": "2026-10-14"
+  },
+  "W-41-12": {
+    "topic": "Agent 生产事故频发警钟",
+    "signal": "🟡中",
+    "desc": "瑞典 TV4 电视台因 AI 误删剪辑成片节目被迫延期至 2027 年，权限失控",
+    "days": 1,
+    "first_seen": "2026-10-14"
+  },
+  "W-41-13": {
+    "topic": "Anthropic Q3 增长放缓与估值重压",
+    "signal": "🔴强",
+    "desc": "Q3 营收 168 亿但环比增速腰斩至 18%，11 月 IPO 估值预期面临下调",
+    "days": 1,
+    "first_seen": "2026-10-15"
+  },
+  "W-41-14": {
+    "topic": "八州联合起诉 OpenAI 青少年自伤",
+    "signal": "🔴强",
+    "desc": "全美八州联合起诉 ChatGPT 缺乏未成年防护引发司法监管风暴",
+    "days": 1,
+    "first_seen": "2026-10-15"
+  },
+  "W-41-15": {
+    "topic": "开源生图空间精准控制突破",
+    "signal": "🔴强",
+    "desc": "FLUX 3 Image Klein 5.6B 开源 + Diffusers 边界框精准控图",
+    "days": 1,
+    "first_seen": "2026-10-15"
+  },
+  "W-41-16": {
+    "topic": "视频大模型 MCP 原生接入",
+    "signal": "🔴强",
+    "desc": "可灵 Kling 4.0 全量开放且原生支持 MCP 与 CLI 自动化驱动",
+    "days": 1,
+    "first_seen": "2026-10-15"
+  },
+  "W-41-17": {
+    "topic": "端到端视频游戏世界模型",
+    "signal": "🔴强",
+    "desc": "昆仑万维 Matrix-Game 4.0 单张 5090 实时 1080P 自回归预测生成",
+    "days": 1,
+    "first_seen": "2026-10-15"
+  },
+  "W-41-18": {
+    "topic": "AI 智能体专属支付协议战",
+    "signal": "🟡中",
+    "desc": "a16z 研报 Wallet Wars 揭示 Agent 高频微支付成为巨头必争之地",
+    "days": 1,
+    "first_seen": "2026-10-15"
+  },
+  "W-41-19": {
+    "topic": "DeepSeek 开放原生搜索 API",
+    "signal": "🔴强",
+    "desc": "索引全球千亿网页+过滤SEO/GEO作弊+超低资费直击Agent联网与RAG底座",
+    "days": 1,
+    "first_seen": "2026-10-17"
+  },
+  "W-41-20": {
+    "topic": "RTX Spark 落地与本地 Token 自由",
+    "signal": "🔴强",
+    "desc": "华硕 37999 元创16 笔记本售罄+128G统一内存全天候本地推理脱离公有云",
+    "days": 1,
+    "first_seen": "2026-10-17"
+  },
+  "W-41-21": {
+    "topic": "AI 生成代码评审机制颠覆",
+    "signal": "🔴强",
+    "desc": "Anthropic 披露 Claude 编写 90% 代码后重构 7 层 Code Review 防线+回滚率降 40%",
+    "days": 1,
+    "first_seen": "2026-10-17"
+  },
+  "W-41-22": {
+    "topic": "智能体电商拦截与消费断层",
+    "signal": "🔴强",
+    "desc": "a16z 研报披露 Cloudflare 403 拦截翻倍+42%消费者不信任代购智能体",
+    "days": 1,
+    "first_seen": "2026-10-16"
+  },
+  "W-41-23": {
+    "topic": "开放权重模型提示词注入脆弱性",
+    "signal": "🟡中",
+    "desc": "PromptArmor 9800 次试验实测开源模型间接注入易感率高出闭源 88%",
+    "days": 1,
+    "first_seen": "2026-10-16"
+  },
+  "W-41-24": {
+    "topic": "AI 核心技术出口管制扩容",
+    "signal": "🟡中",
+    "desc": "商务部科技部拟在禁止/限制出口技术目录中增列 23 项 AI 核心技术",
+    "days": 1,
+    "first_seen": "2026-10-16"
+  },
+  "W-41-25": {
+    "topic": "Codex 逆袭与极简团队超级杠杆",
+    "signal": "🔴强",
+    "desc": "Every 长文揭秘 OpenAI 精干团队将失败的 Codex 打造成 4000 万周活应用，AI 原生重构软件生产力",
+    "days": 1,
+    "first_seen": "2026-10-18"
+  },
+  "W-41-26": {
+    "topic": "智能体失控与反向洪泛危机",
+    "signal": "🔴强",
+    "desc": "Vals AI 实测 6 款顶尖智能体追讨火车票退款全军覆没：编造病假、泄露病历、轰炸议员，暴露非受控 Agent 落地致命漏洞",
+    "days": 1,
+    "first_seen": "2026-10-18"
+  },
+  "W-41-27": {
+    "topic": "AI 搜索司法责任确立与出版商定性",
+    "signal": "🔴强",
+    "desc": "德国法院裁定 Google 须对 AI Overview 错误内容负全责，Google 和解规避先例，AI 搜索出版商化与版权重估",
+    "days": 1,
+    "first_seen": "2026-10-18"
+  },
+  "W-41-28": {
+    "topic": "AI 原生组织用工断层与初级岗位塌陷",
+    "signal": "🔴强",
+    "desc": "Anthropic 内部调查披露智能体工时已达员工 6 倍，技术初级岗位从 21% 跌至 14%，员工预期 75% 职能被替代",
+    "days": 1,
+    "first_seen": "2026-10-18"
+  },
+  "W-41-29": {
+    "topic": "冻结权重递归优化与元提示词 Harness",
+    "signal": "🔴强",
+    "desc": "Google Research 开源 Harness² 框架，通过元智能体递归归因与工具重构，无需微调权重显著提升智能体成功率",
+    "days": 1,
+    "first_seen": "2026-10-18"
+  },
+  "W-41-30": {
+    "topic": "本土端侧搜索成本杀穿与微开发落地",
+    "signal": "🔴强",
+    "desc": "DeepSeek 开放搜索 API 每千次仅 5 元，创作者 30 分钟用 Codex 自建 App 替代付费软件，AI 副业进入去泡沫洗牌期",
+    "days": 1,
+    "first_seen": "2026-10-18"
+  },
+  "W-42-01": {
+    "topic": "模型路由与支付基础设施",
+    "signal": "🟡中",
+    "desc": "Stripe 75亿美元收购 OpenRouter 实为 2026-08-19 官宣；10/19 因 HN 讨论重新发酵，模型路由仍是支付层入口（背景线索）",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-02": {
+    "topic": "智能体军团化网络武器化",
+    "signal": "🔴强",
+    "desc": "黑客用 Cairn 编排 AI 智能体侵入 John Deere、SharkNinja 等超100家网站，全自动渗透打穿传统Web防御",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-03": {
+    "topic": "国产千亿 MoE 智能体旗舰价格战",
+    "signal": "🔴强",
+    "desc": "MiniMax 正式发布 428B M3.1 Flash（Space Bunny），推理提速3倍成本降70%（zsh.15/1M），10/23开放权重",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-04": {
+    "topic": "LLM 反向代理与基础设施主权",
+    "signal": "🔴强",
+    "desc": "HN 240分热议自建 LLM 反向代理，通过单端多模型管理、虚拟Key与20秒缓存排查夺回技术主权与可观测性",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-05": {
+    "topic": "端侧模型去 AI 味与真实行文",
+    "signal": "🔴强",
+    "desc": "MacBook Air 微调 Qwen3-4B 去除破折号与三段排比等八股套话，Slop 评分暴降90%，证明极简微调去AI味可行",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-06": {
+    "topic": "Harness 工程与多智能体会话编排",
+    "signal": "🔴强",
+    "desc": "Claude Code 原生集成 tmux+worktree，Google 开源 Harness²，工程重心从 Prompt 转移到 Harness 与系统外壳",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-07": {
+    "topic": "AI 陪伴经济破产重组",
+    "signal": "🔴强",
+    "desc": "Character.AI 申请破产，迪士尼拟收购至少60名员工与技术，绕开40州诉讼与联合调查",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-08": {
+    "topic": "AI 记忆篡改与内容真实性",
+    "signal": "🔴强",
+    "desc": "MIT 200人实验：AI 篡改照片显著提升错误记忆概率与置信度，有图有真相失效",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-09": {
+    "topic": "百万卡吉瓦级算力竞赛",
+    "signal": "🔴强",
+    "desc": "Meta Prometheus 一期上线，吉瓦级供电、目标约100万 GPU，已用于训练 Muse 模型",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-10": {
+    "topic": "AI 资本结构与公共利益基金",
+    "signal": "🟡中",
+    "desc": "Anthropic 5%股份注入公益基金（约480亿美元）+600亿美元芯片债+向METR开放6名员工级权限",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-11": {
+    "topic": "企业 Agent 内部风险治理",
+    "signal": "🟡中",
+    "desc": "微软 Project Perception 扩展，把 Agent 视为内部风险，覆盖6类信号与自适应权限",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-12": {
+    "topic": "AI 健康第二意见",
+    "signal": "🔴强",
+    "desc": "35岁罗女士用蚂蚁阿福提示肺栓塞救回前夫，AI建议+医院复核闭环引发公共讨论",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-13": {
+    "topic": "具身智能低成本工程栈",
+    "signal": "🟡中",
+    "desc": "商汤 GPT-6-Astra 覆盖12基准/8真机，开源 RoboRSI，27B模型推理成本约1/50",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-14": {
+    "topic": "端侧常驻 Agent 模型供给",
+    "signal": "🟡中",
+    "desc": "英伟达发布 Nemotron 3.5 开源模型，面向常驻 Agent 与本地 PC",
+    "days": 1,
+    "first_seen": "2026-10-19"
+  },
+  "W-42-15": {
+    "topic": "银发族 AI 情感诈骗",
+    "signal": "🟡中",
+    "desc": "79岁老人坐火车见AI小海，6亿次播放的苦情剧本被用于向中老年带货",
+    "days": 3,
+    "first_seen": "2026-10-16"
   }
 }
