@@ -57,9 +57,9 @@
 
 ---
 
-## 🇨🇳 今日中国AI圈动态（via aihot.virxact.com REST API · 日报专属）
+## 🇨🇳 今日中国AI圈动态（via aihot.news v1 API · 日报专属）
 
-> 以下为今日中国 AI 行业动态（来源：aihot.virxact.com 公开 REST API）。
+> 以下为今日中国 AI 行业动态（来源：aihot.news 公开 REST API v2.0.0）。
 > 标记说明：🔴 P0（直接选题）| 🟡 P1（间接相关）| ⚪ P2（行业背景）
 > AI HOT 数据字段：`score`（0-100 重要性评分）| `category`（ai-models/ai-products/industry/paper/tip）| `selected`（是否精选）| `publishedAt`（发布时间 ISO 8601 UTC）
 
@@ -115,7 +115,7 @@
 
 ---
 
-## 🇨🇳 本周中国AI圈全景（via aihot.virxact.com REST API · 周报专属）
+## 🇨🇳 本周中国AI圈全景（via aihot.news v1 API · 周报专属）
 
 > 本周共采集 {N} 条，覆盖 5 大类别。
 

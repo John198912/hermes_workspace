@@ -213,24 +213,21 @@ for t, u in zip(titles[1:6], urls[1:6]):
 
 ---
 
-## 11. AI HOT REST API（中文 AI 行业动态）
+## 11. AI HOT REST API（中文 AI 行业动态 · v2.0.0）
 
-AI HOT（aihot.virxact.com）提供公开免费 REST API，覆盖中国 AI 行业动态。
+AI HOT（aihot.news）提供公开免费 REST API，覆盖中国 AI 行业动态。旧域名 `aihot.virxact.com` 与 `/api/public/*` 将于 **2026-10-31** 停用，新脚本一律使用 `aihot.news/api/v1/*`。
 
 ### 11.1 先决条件：必须带 User-Agent
 
-`/api/public/*` 端点走 nginx UA 黑名单挡商业爬虫，默认 curl UA 会被 403。**所有 curl 都必须带 aihot-skill UA**：
-
 ```bash
-UA="aihot-skill/0.3.4 (+https://aihot.virxact.com/aihot-skill/)"
+UA="aihot-api/2.0.0 aihot-skill"
 ```
 
-### 11.2 预检（轻量指纹端点，~100字节）
+### 11.2 预检（轻量 items 请求）
 
 ```bash
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/fingerprint" --max-time 5
-# 返回：{"selected":"f1-xxx","all":"f1-yyy","docs":"https://aihot.virxact.com/agent"}
-# 有效 JSON → API 可用，继续采集
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=24h&limit=1" --max-time 8
+# 返回含 "items" 的 JSON → API 可用，继续采集
 # 超时/错误 → API 不可用，跳过并使用替代路径
 ```
 
@@ -238,15 +235,15 @@ curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/fingerprint" --
 
 ```bash
 # 拉最近 24h 精选（日报默认）
-since=$(python3 -c "from datetime import datetime, timedelta, timezone; print((datetime.now(timezone.utc) - timedelta(hours=24)).strftime('%Y-%m-%dT%H:%M:%SZ'))")
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&since=$since&take=50" --max-time 10 -o /tmp/aihot_daily.json
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=24h&limit=50" --max-time 15 -o /tmp/aihot_daily.json
 
-# 拉最近 7 天精选（周报默认）
-since7d=$(python3 -c "from datetime import datetime, timedelta, timezone; print((datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%dT%H:%M:%SZ'))")
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&since=$since7d&take=100" --max-time 15 -o /tmp/aihot_weekly.json
+# 拉最近 7 天精选（周报默认；limit 最大 100，翻页见 11.8）
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=7d&limit=100" --max-time 20 -o /tmp/aihot_weekly.json
 ```
 
-**响应字段**：`items[]` 每条包含 `id/title/title_en/url/permalink/source/publishedAt/summary/category/score/selected`
+**响应字段**：`items[]` 每条包含 `id/title/originalTitle/summary/source.name/links.aihot/links.original/publishedAt/discoveredAt/category/score/selected/reason`；分页信息在 `page.nextCursor` / `page.hasMore`。
+
+**注意**：`window` 只支持 `24h` 和 `7d`；不支持 `30d`。30 天视图请用 11.6 的周报拼接。
 
 ### 11.4 分类拉取
 
@@ -254,64 +251,66 @@ curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=sele
 
 ```bash
 # 拉最近 7 天 AI 模型发布
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&category=ai-models&since=$since7d&take=50"
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=7d&category=ai-models&limit=50"
 
 # 拉最近 7 天 AI 产品发布
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&category=ai-products&since=$since7d&take=50"
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=7d&category=ai-products&limit=50"
 
 # 拉最近 7 天 AI 行业动态
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&category=industry&since=$since7d&take=50"
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=7d&category=industry&limit=50"
 
 # 拉最近 7 天 AI 论文
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&category=paper&since=$since7d&take=50"
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=7d&category=paper&limit=50"
 ```
 
 ### 11.5 关键词搜索
 
-`q` 参数在 `title + title_en + summary + contentText` 四列上做 ILIKE 匹配（PostgreSQL pg_trgm GIN 索引，2-6ms）。至少 2 字符，最长 200 字。
-
 ```bash
-# 找 OpenAI 最近发的（覆盖全池，不仅前 100）
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?q=OpenAI&take=30"
+# 找 OpenAI 相关
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?q=OpenAI&limit=30"
 
 # 找 DeepSeek 相关
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?q=DeepSeek&take=30"
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?q=DeepSeek&limit=30"
 
-# 关键词 + 时间窗（Anthropic 最近 3 天）
-SINCE3D=$(python3 -c "from datetime import datetime, timedelta, timezone; print((datetime.now(timezone.utc) - timedelta(days=3)).strftime('%Y-%m-%dT%H:%M:%SZ'))")
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&q=Anthropic&since=$SINCE3D"
+# 关键词 + 时间窗（Anthropic 最近 7 天）
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&q=Anthropic&window=7d&limit=30"
 ```
 
-### 11.6 日报拉取（用户明确说"日报"时）
+### 11.6 日报 / 周报 / 月报（Markdown 成品）
 
 ```bash
-# 拉最新日报
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/daily" --max-time 10
+# 最新日报
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/agent/daily"
 
-# 拉指定日期日报
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/daily/2026-07-08" --max-time 10
+# 指定日期日报（YYYY-MM-DD）
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/agent/daily/2026-10-19"
 
-# 列日报归档（最近 14 天）
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/dailies?take=14"
+# 指定周报（YYYY-Wxx）
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/agent/weekly/2026-W42"
+
+# 指定月报（YYYY-MM）
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/agent/monthly/2026-09"
+
+# 30 天视图：4 份周报 + 边界日报拼接（接口不支持一次拉 30d）
 ```
 
 ### 11.7 热点拉取（当前最热，多源热度排序）
 
 ```bash
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/hot-topics" --max-time 10
-# 返回每条带 sourceCount（多少独立信源在报）+ permalink（站内中文阅读页）
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/hot-topics" --max-time 15
+# 返回每条带 sourceCount / signalCount / participantCount / links.aihot
 ```
 
 ### 11.8 分页拉取（cursor 翻页）
 
 ```bash
 # 第 1 页
-resp1=$(curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=all&take=100")
-echo "$resp1" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'count={d.get(\"count\")}, hasNext={d.get(\"hasNext\")}, nextCursor={d.get(\"nextCursor\",\"null\")}')"
+resp1=$(curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=all&window=7d&limit=100")
+echo "$resp1" | python3 -c "import sys,json; d=json.load(sys.stdin); p=d.get('page',{}); print(f'count={p.get(\"count\")}, hasMore={p.get(\"hasMore\")}, nextCursor={p.get(\"nextCursor\",\"null\")}')"
 
-# 第 2 页（将 nextCursor 传入 cursor 参数）
-cursor=$(echo "$resp1" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('nextCursor',''))")
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=all&take=100&cursor=$cursor"
+# 第 2 页（将 page.nextCursor 传入 cursor 参数）
+cursor=$(echo "$resp1" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('page',{}).get('nextCursor',''))")
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=all&window=7d&limit=100&cursor=$cursor"
 ```
 
 **注意**：cursor 是不透明 token，不要解析/递增/跨端点复用。`hasNext=false` 或 `nextCursor=null` 时停止翻页。

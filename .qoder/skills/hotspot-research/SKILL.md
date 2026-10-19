@@ -40,13 +40,14 @@ description: >
    - 存在且为当日首份 → 重命名为 `_am.md`
    - 已有 `_am.md` → 新报告写为 `_pm.md`
    - 已有 `_am.md` 和 `_pm.md` → 写为 `_pm_v2.md`
-3. **AI HOT 预检**：
+3. **AI HOT 预检**（v2.0.0 接口）：
    ```bash
-   UA="aihot-skill/0.3.4 (+https://aihot.virxact.com/aihot-skill/)"
-   curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/fingerprint" --max-time 5
+   UA="aihot-api/2.0.0 aihot-skill"
+   curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=24h&limit=1" --max-time 8
    ```
-   - 返回有效 JSON → API 可用，继续 Step 1 采集
+   - 返回含 `items` 的 JSON → API 可用，继续 Step 1 采集
    - 超时/错误/无响应 → 标注 `[aihot:UNAVAILABLE]`，使用替代路径（WebSearch 中文搜索 + 搜狗微信）
+   - 旧域名 `aihot.virxact.com` 与 `/api/public/*` 将于 2026-10-31 停用，禁止在新脚本中使用
 4. **加载指纹库**：读取上次报告的指纹用于去重预检
    - 日报指纹保留 7 天，周报指纹保留 30 天
 
@@ -93,15 +94,16 @@ python3 <skill_path>/scripts/jina_blogs_template.py
 
 #### 1.4 中国 AI 圈动态（AI HOT REST API + WebSearch 补充）— **必做，不可跳过**
 
-> ⛔ **硬约束**：只要 Step 0 预检通过（fingerprint 返回有效 JSON），本步骤采集的数据**必须**进入报告的「🇨🇳 今日中国AI圈动态」章节。仅在 `[aihot:UNAVAILABLE]` 时才允许用替代源。采集失败不报错但跳过该章节 = 静默失败，属重大缺陷。
+> ⛔ **硬约束**：只要 Step 0 预检通过（v1/items 返回有效 JSON），本步骤采集的数据**必须**进入报告的「🇨🇳 今日中国AI圈动态」章节。仅在 `[aihot:UNAVAILABLE]` 时才允许用替代源。采集失败不报错但跳过该章节 = 静默失败，属重大缺陷。
 
-- **AI HOT（首选）**：通过 Bash curl 调用 `/api/public/items` 端点，获取最近 24h 精选条目
+- **AI HOT（首选）**：通过 Bash curl 调用 `/api/v1/items` 端点，获取最近 24h 精选条目
   ```bash
-  UA="aihot-skill/0.3.4 (+https://aihot.virxact.com/aihot-skill/)"
-  since=$(python3 -c "from datetime import datetime, timedelta, timezone; print((datetime.now(timezone.utc) - timedelta(hours=24)).strftime('%Y-%m-%dT%H:%M:%SZ'))")
-  curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/items?mode=selected&since=$since&take=50"
+  UA="aihot-api/2.0.0 aihot-skill"
+  curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=24h&limit=50"
   ```
-  - JSON 响应包含 `title/title_en/source/publishedAt/summary/category/score/selected/permalink` 等字段
+  - JSON 响应包含 `id/title/originalTitle/summary/source.name/links.aihot/links.original/publishedAt/category/score/selected` 等字段
+  - 7 天窗口用 `window=7d&limit=100`；翻页用响应中的 `page.nextCursor` 追加 `&cursor=...`
+  - 30 天视图不要一次拉 30d（接口不支持），改用 `/api/v1/agent/weekly/{YYYY-Wxx}` 周报拼接
 - **补充路径**：用 `WebSearch` 搜索 `AI 大模型 最新`、`DeepSeek 最新动态` 等关键词补充 AI HOT 未覆盖的内容
 
 详细采集命令见 `references/collection_commands.md`。
@@ -256,13 +258,14 @@ git push origin main
 
 ### 原则 #2：AI HOT 预检
 
-AI HOT（aihot.virxact.com）提供公开免费 REST API（必须带 aihot-skill UA 以避免 nginx 403）。每次运行前可快速检测：
+AI HOT（aihot.news）提供公开免费 REST API（v2.0.0，必须带 `aihot-api/2.0.0 aihot-skill` UA）。每次运行前可快速检测：
 ```bash
-UA="aihot-skill/0.3.4 (+https://aihot.virxact.com/aihot-skill/)"
-curl -sH "User-Agent: $UA" "https://aihot.virxact.com/api/public/fingerprint" --max-time 5
+UA="aihot-api/2.0.0 aihot-skill"
+curl -sH "User-Agent: $UA" "https://aihot.news/api/v1/items?mode=selected&window=24h&limit=1" --max-time 8
 ```
-- 返回有效 JSON → API 可用，`collect_aihot` 采集器自动采集
+- 返回含 `items` 的 JSON → API 可用
 - 超时/错误/无响应 → 标记为受限源，报告中使用 WebSearch 中文搜索 + 搜狗微信替代
+- 旧域名 `aihot.virxact.com` 与 `/api/public/*` 于 2026-10-31 停用
 
 ### 原则 #3：时效宣誓——每条热点标注发布日期
 

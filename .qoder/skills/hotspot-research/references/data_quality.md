@@ -113,7 +113,7 @@ Jina Reader 调用
 | B站科技区 | Bash curl API | 中 — 有发布日期 | B | 低 | 全品类混合；只关注 AI 标签项 |
 | 百度热搜 | Bash curl | 无法确定 | C | 极低 | 默认丢弃；仅在含 AI/转型 关键词 + 高匹配时保留 |
 | 搜狗微信 | Bash curl | 无法准确确定 | B | 中 | 仅在标题含 AI/转型/超级个体 关键词时保留。成功率约 20% |
-| AI HOT (aihot.virxact.com) | Bash curl REST API | 高 — publishedAt ISO 8601 | S | 高 | 中文AI行业全景雷达。需带 aihot-skill UA。score 0-100 可辅助判断重要性。5 个分类，关键词搜索 |
+| AI HOT (aihot.news) | Bash curl REST API v2.0.0 | 高 — publishedAt ISO 8601 | S | 高 | 中文AI行业全景雷达。需带 `aihot-api/2.0.0 aihot-skill` UA。score 0-100 可辅助判断重要性。5 个分类，关键词搜索 |
 | 投资界/惊蛰研究所 | Jina Reader | 中 — 文章有日期 | A | 高 | 国内"一人公司"最完整实操图谱 |
 
 ### Wikipedia 作为交叉验证源

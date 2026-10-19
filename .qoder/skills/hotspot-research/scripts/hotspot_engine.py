@@ -644,51 +644,26 @@ class SourceCollector:
                 continue
     
     def collect_aihot(self):
-        """AI HOT 中文AI资讯采集 — 使用 /api/public/items 端点
+        """AI HOT 中文AI资讯采集 — 使用 v2.0.0 /api/v1/items 端点
         
-        aihot.virxact.com 提供公开匿名 REST API，覆盖中国 AI 行业动态。
-        必须带特定 User-Agent (aihot-skill/X.Y.Z) 以避免 nginx UA 黑名单 403。
-        限流：60 req/min/IP，串行调用。
-        数据窗口：items 端点仅返回最近 7 天。
+        aihot.news 提供公开匿名 REST API，覆盖中国 AI 行业动态。
+        必须带 User-Agent (aihot-api/2.0.0 aihot-skill)。
+        限流：约 60 req/min/IP，串行调用。
+        数据窗口：items 端点支持 window=24h / 7d，默认取最近 24h。
         
-        优化：先检查 /api/public/fingerprint（~100字节），指纹未变化则跳过全量拉取。
+        v2.0.0 迁移：旧域名 aihot.virxact.com 与 /api/public/* 将于 2026-10-31 停用。
         """
-        AIHOT_UA = "aihot-skill/0.3.4 (+https://aihot.virxact.com/aihot-skill/)"
+        AIHOT_UA = "aihot-api/2.0.0 aihot-skill"
         aihot_headers = {"User-Agent": AIHOT_UA}
         
-        # 计算 24h 前的时间（UTC ISO 8601）
-        since = (datetime.now(timezone.utc) - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
-        
-        # 先检查 fingerprint（轻量，~100字节）
-        fp_url = "https://aihot.virxact.com/api/public/fingerprint"
-        fp_html = self._try_web(fp_url, timeout=5, headers=aihot_headers)
-        fp_cache_file = os.path.join(DATA_DIR, "aihot_fingerprint.json")
-        
-        if fp_html:
-            try:
-                fp_data = json.loads(fp_html)
-                current_fp = fp_data.get("selected", "")
-                if os.path.exists(fp_cache_file):
-                    try:
-                        with open(fp_cache_file) as f:
-                            prev_fp = json.load(f).get("selected", "")
-                        if current_fp and current_fp == prev_fp:
-                            print(f"[hotspot_engine] AI HOT 指纹未变化（{current_fp}），跳过采集")
-                            return
-                    except (json.JSONDecodeError, IOError):
-                        pass  # 缓存损坏，继续拉取
-                # 注意：fingerprint 缓存延迟到 items 成功获取后再写入（P1-4 修复）
-            except json.JSONDecodeError:
-                pass  # fingerprint 解析失败，继续拉 items
-        
-        # 拉取最近 24h 精选（日报默认路径）
-        api_url = f"https://aihot.virxact.com/api/public/items?mode=selected&since={since}&take=50"
-        html = self._try_web(api_url, timeout=15, headers=aihot_headers)
+        # v2 拉取最近 24h 精选（日报默认路径）
+        api_url = "https://aihot.news/api/v1/items?mode=selected&window=24h&limit=50"
+        html = self._try_web(api_url, timeout=20, headers=aihot_headers)
         
         if not html:
             self.unknown_sources.append({
-                "source": "AI HOT (aihot.virxact.com)",
-                "method": "REST API /api/public/items",
+                "source": "AI HOT (aihot.news)",
+                "method": "REST API /api/v1/items",
                 "status": "API 不可达（网络问题或临时限流）",
                 "suggestion": "检查网络连接；或改用 WebSearch 中文关键词搜索替代"
             })
@@ -697,11 +672,10 @@ class SourceCollector:
         try:
             data = json.loads(html)
         except json.JSONDecodeError:
-            # 可能返回了 HTML 认证墙（旧版行为）或 403 页面
             self.unknown_sources.append({
-                "source": "AI HOT (aihot.virxact.com)",
-                "method": "REST API /api/public/items",
-                "status": "响应非 JSON（可能认证墙或临时故障）",
+                "source": "AI HOT (aihot.news)",
+                "method": "REST API /api/v1/items",
+                "status": "响应非 JSON（可能临时故障）",
                 "suggestion": "稍后重试；或改用 WebSearch 中文关键词搜索"
             })
             return
@@ -717,10 +691,12 @@ class SourceCollector:
             if not title or len(title) < 3:
                 continue
             
-            title_en = item.get("title_en", "")  # 原英文标题（可能为 null）
-            source_name = item.get("source", "AI HOT")
-            url = item.get("url", "")  # 第三方原文
-            permalink = item.get("permalink", "")  # 站内中文阅读页
+            title_en = item.get("originalTitle", "")  # 原英文标题（可能为 null）
+            source_raw = item.get("source", {})
+            source_name = source_raw.get("name", "AI HOT") if isinstance(source_raw, dict) else str(source_raw or "AI HOT")
+            links = item.get("links", {}) or {}
+            url = links.get("original", "") if isinstance(links, dict) else ""  # 第三方原文
+            permalink = links.get("aihot", "") if isinstance(links, dict) else ""  # 站内中文阅读页
             published_at = item.get("publishedAt", "")  # ISO 8601 UTC
             summary = item.get("summary", "")  # 中文摘要（LLM 生成）
             category = item.get("category", "")  # ai-models/ai-products/industry/paper/tip
@@ -771,24 +747,15 @@ class SourceCollector:
                 date_source="AI HOT API"
             )
         
-        # items 成功获取后才更新 fingerprint 缓存（P1-4 修复：避免 items 失败时永久漏采）
-        if fp_html:
-            try:
-                fp_data = json.loads(fp_html)
-                with open(fp_cache_file, "w") as f:
-                    json.dump(fp_data, f, ensure_ascii=False)
-            except (json.JSONDecodeError, IOError):
-                pass
-        
-        print(f"[hotspot_engine] AI HOT 采集完成：{len(items)} 条精选（since={since}）")
+        print(f"[hotspot_engine] AI HOT 采集完成：{len(items)} 条精选（window=24h）")
     
     def collect_aihot_hot_topics(self):
-        """AI HOT 当前热点 — 多源热度排序，回答“现在最热”"""
-        AIHOT_UA = "aihot-skill/0.3.4 (+https://aihot.virxact.com/aihot-skill/)"
+        """AI HOT 当前热点 — 多源热度排序，回答“现在最热”（v2.0.0 /api/v1/hot-topics）"""
+        AIHOT_UA = "aihot-api/2.0.0 aihot-skill"
         aihot_headers = {"User-Agent": AIHOT_UA}
         
-        api_url = "https://aihot.virxact.com/api/public/hot-topics"
-        html = self._try_web(api_url, timeout=10, headers=aihot_headers)
+        api_url = "https://aihot.news/api/v1/hot-topics"
+        html = self._try_web(api_url, timeout=15, headers=aihot_headers)
         
         if not html:
             return  # 静默失败，不阻塞流程
@@ -804,9 +771,11 @@ class SourceCollector:
             if not title or len(title) < 3:
                 continue
             
-            source_name = item.get("source", "AI HOT")
-            permalink = item.get("permalink", "")
-            url = item.get("url", "")
+            source_raw = item.get("source", {})
+            source_name = source_raw.get("name", "AI HOT") if isinstance(source_raw, dict) else str(source_raw or "AI HOT")
+            links = item.get("links", {}) or {}
+            permalink = links.get("aihot", "") if isinstance(links, dict) else ""
+            url = links.get("original", "") if isinstance(links, dict) else ""
             source_count = item.get("sourceCount", 0)
             
             snippet = f"热点排序 | sourceCount:{source_count}"

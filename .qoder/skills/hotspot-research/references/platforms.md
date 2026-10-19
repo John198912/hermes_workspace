@@ -109,7 +109,7 @@
 | B | technologyreview.com | MIT，深度报道 | WebFetch |
 | B | huggingface.co/blog | 开源技术前沿 | WebFetch |
 
-| S | aihot.virxact.com | 中文AI行业全景雷达。公开免费 REST API（需带 aihot-skill UA）。端点：`/api/public/items`, `/api/public/daily`, `/api/public/hot-topics`。5 个分类（ai-models/ai-products/industry/paper/tip），关键词搜索。限流 60 req/min/IP。数据窗口 7 天 | Bash curl REST API |
+| S | aihot.news | 中文AI行业全景雷达。公开免费 REST API v2.0.0（需带 `aihot-api/2.0.0 aihot-skill` UA）。端点：`/api/v1/items`（JSON）、`/api/v1/agent/daily|weekly|monthly`（Markdown）、`/api/v1/hot-topics`。5 个分类（ai-models/ai-products/industry/paper/tip），关键词搜索。限流 60 req/min/IP。数据窗口 24h / 7d | Bash curl REST API |
 
 ## 4. 行业报告源
 | 来源 | 评级 | 内容特点 | 获取 |

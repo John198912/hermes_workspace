@@ -66,7 +66,7 @@ curl -sI --max-time 8 "https://<domain>/<path>" | head -5
 
 | 主源 | 降级方案 | 降级标注 |
 |------|---------|---------|
-| AI HOT `/api/public/items` | WebSearch 中文关键词 + 搜狗微信 | `[aihot:UNAVAILABLE]` |
+| AI HOT `/api/v1/items` | WebSearch 中文关键词 + 搜狗微信 | `[aihot:UNAVAILABLE]` |
 | Jina Reader (curl) | Python requests bypass → WebFetch | `[jina:BYPASS]` |
 | HackerNews Firebase API | algolia API `hn.algolia.com/api/v1/search?tags=front_page` | `[hn:FALLBACK]` |
 | Reddit JSON API | old.reddit.com / WebSearch site:reddit.com | `[reddit:FALLBACK]` |
