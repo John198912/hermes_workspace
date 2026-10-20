@@ -1891,88 +1891,88 @@
     "first_seen": "2026-10-18"
   },
   "W-42-01": {
-    "topic": "模型路由与支付基础设施",
+    "topic": "支付巨头控盘 AI 模型路由",
     "signal": "🟡中",
-    "desc": "Stripe 75亿美元收购 OpenRouter 实为 2026-08-19 官宣；10/19 因 HN 讨论重新发酵，模型路由仍是支付层入口（背景线索）",
-    "days": 1,
+    "desc": "Stripe 75亿美元收购 OpenRouter 为 2026-08-19 官宣，10/19 因 HN 讨论复燃；10/20 无新增实质进展",
+    "days": 3,
     "first_seen": "2026-10-19"
   },
   "W-42-02": {
     "topic": "智能体军团化网络武器化",
-    "signal": "🔴强",
-    "desc": "黑客用 Cairn 编排 AI 智能体侵入 John Deere、SharkNinja 等超100家网站，全自动渗透打穿传统Web防御",
-    "days": 1,
+    "signal": "🟡中",
+    "desc": "Cairn 编排 AI 智能体入侵 John Deere、SharkNinja 等 100+ 网站事件进入分析期，今日无新增受害方披露",
+    "days": 3,
     "first_seen": "2026-10-19"
   },
   "W-42-03": {
     "topic": "国产千亿 MoE 智能体旗舰价格战",
     "signal": "🔴强",
-    "desc": "MiniMax 正式发布 428B M3.1 Flash（Space Bunny），推理提速3倍成本降70%（zsh.15/1M），10/23开放权重",
-    "days": 1,
+    "desc": "DeepSeek V4.1-Flash 登顶 Agent Arena 开源第一，中位任务成本 $0.20，约为 GPT-6.1 Sol 的 27%",
+    "days": 3,
     "first_seen": "2026-10-19"
   },
   "W-42-04": {
     "topic": "LLM 反向代理与基础设施主权",
     "signal": "🔴强",
-    "desc": "HN 240分热议自建 LLM 反向代理，通过单端多模型管理、虚拟Key与20秒缓存排查夺回技术主权与可观测性",
-    "days": 1,
+    "desc": "DeepInfer 开源 + llm-d 1.0 发布，自托管推理栈同日补齐框架层与编排层",
+    "days": 3,
     "first_seen": "2026-10-19"
   },
   "W-42-05": {
     "topic": "端侧模型去 AI 味与真实行文",
-    "signal": "🔴强",
-    "desc": "MacBook Air 微调 Qwen3-4B 去除破折号与三段排比等八股套话，Slop 评分暴降90%，证明极简微调去AI味可行",
-    "days": 1,
+    "signal": "🟡中",
+    "desc": "Qwen3-4B 去 AI 味模型讨论延续，今日无新增开源权重",
+    "days": 3,
     "first_seen": "2026-10-19"
   },
   "W-42-06": {
     "topic": "Harness 工程与多智能体会话编排",
     "signal": "🔴强",
-    "desc": "Claude Code 原生集成 tmux+worktree，Google 开源 Harness²，工程重心从 Prompt 转移到 Harness 与系统外壳",
-    "days": 1,
+    "desc": "Meta 瘦编排器公开 1300 行路由层 + 14 个上下文隔离子智能体设计",
+    "days": 3,
     "first_seen": "2026-10-19"
   },
   "W-42-07": {
-    "topic": "AI 陪伴经济破产重组",
+    "topic": "全球地缘封杀与技术栈合规排查",
     "signal": "🔴强",
-    "desc": "Character.AI 申请破产，迪士尼拟收购至少60名员工与技术，绕开40州诉讼与联合调查",
-    "days": 1,
-    "first_seen": "2026-10-19"
+    "desc": "DHS 2026-01 号命令要求联邦文职机构清除 DeepSeek 及第三方衍生品，合规边界下沉到依赖树",
+    "days": 2,
+    "first_seen": "2026-10-20"
   },
   "W-42-08": {
-    "topic": "AI 记忆篡改与内容真实性",
+    "topic": "开源高性能推理引擎与扩散 LLM 颠覆",
     "signal": "🔴强",
-    "desc": "MIT 200人实验：AI 篡改照片显著提升错误记忆概率与置信度，有图有真相失效",
-    "days": 1,
-    "first_seen": "2026-10-19"
+    "desc": "DeepInfer 全面开源（HN 919 分登顶）；Mercury 3 以 1068 tok/s 上线 OpenRouter",
+    "days": 2,
+    "first_seen": "2026-10-20"
   },
   "W-42-09": {
-    "topic": "百万卡吉瓦级算力竞赛",
+    "topic": "端侧 35B MoE 实时无损推理与 Mac FP8 突破",
     "signal": "🔴强",
-    "desc": "Meta Prometheus 一期上线，吉瓦级供电、目标约100万 GPU，已用于训练 Muse 模型",
-    "days": 1,
-    "first_seen": "2026-10-19"
+    "desc": "面壁 LES 技术解析发布，iPhone 18 Pro Max 实测 35B-A3B 解码超 20 tok/s",
+    "days": 2,
+    "first_seen": "2026-10-20"
   },
   "W-42-10": {
-    "topic": "AI 资本结构与公共利益基金",
-    "signal": "🟡中",
-    "desc": "Anthropic 5%股份注入公益基金（约480亿美元）+600亿美元芯片债+向METR开放6名员工级权限",
-    "days": 1,
-    "first_seen": "2026-10-19"
+    "topic": "内部 AI 智能体滥用渗透与伦理暗黑设计",
+    "signal": "🔴强",
+    "desc": "WhatsApp 帮助页被曝向 LLM 植入隐藏指令，要求不推荐监管机构、不提 GDPR",
+    "days": 2,
+    "first_seen": "2026-10-20"
   },
   "W-42-11": {
-    "topic": "企业 Agent 内部风险治理",
-    "signal": "🟡中",
-    "desc": "微软 Project Perception 扩展，把 Agent 视为内部风险，覆盖6类信号与自适应权限",
-    "days": 1,
-    "first_seen": "2026-10-19"
+    "topic": "瘦编排器架构与评测先行系统工程",
+    "signal": "🔴强",
+    "desc": "Meta Thin Orchestrator 公开；Numan 复盘\"稀缺资产是评测标准不是提示词\"",
+    "days": 2,
+    "first_seen": "2026-10-20"
   },
   "W-42-12": {
-    "topic": "AI 健康第二意见",
-    "signal": "🔴强",
-    "desc": "35岁罗女士用蚂蚁阿福提示肺栓塞救回前夫，AI建议+医院复核闭环引发公共讨论",
-    "days": 1,
-    "first_seen": "2026-10-19"
+    "topic": "垂直自主语音 Agent 落地与无缝调度",
+    "signal": "🟡中",
+    "desc": "Google ADK 语音智能体教程延续，今日无新增产品发布",
+    "days": 2,
+    "first_seen": "2026-10-20"
   },
   "W-42-13": {
     "topic": "具身智能低成本工程栈",
@@ -1991,8 +1991,36 @@
   "W-42-15": {
     "topic": "银发族 AI 情感诈骗",
     "signal": "🟡中",
-    "desc": "79岁老人坐火车见AI小海，6亿次播放的苦情剧本被用于向中老年带货",
-    "days": 3,
+    "desc": "79岁老人坐火车见AI\"小海\"，今日再上百度热搜；6亿次播放的苦情剧本被用于向中老年带货",
+    "days": 4,
     "first_seen": "2026-10-16"
+  },
+  "W-42-16": {
+    "topic": "AI 助手对话数据泄露面",
+    "signal": "🔴强",
+    "desc": "Meta Muse 分享链接可被枚举出 6800 个，贷款申请与收入报表外泄",
+    "days": 1,
+    "first_seen": "2026-10-20"
+  },
+  "W-42-17": {
+    "topic": "头部模型公司估值卡位战",
+    "signal": "🔴强",
+    "desc": "OpenAI 拟融资 300 亿美元、估值超 1.4 万亿美元，抢在 Anthropic IPO 前锁定资金",
+    "days": 1,
+    "first_seen": "2026-10-20"
+  },
+  "W-42-18": {
+    "topic": "AI 反向用于社会防守",
+    "signal": "🔴强",
+    "desc": "Apate.ai 35 万 AI 诱饵耗掉骗子约 17 年，澳洲诈骗损失降 76%",
+    "days": 1,
+    "first_seen": "2026-10-20"
+  },
+  "W-42-19": {
+    "topic": "AI 代码解释权与责任归属",
+    "signal": "🟡中",
+    "desc": "HN 521 分讨论\"交付自己看不懂的 AI 代码\"，637 条评论聚焦审查成本与责任",
+    "days": 1,
+    "first_seen": "2026-10-20"
   }
 }
