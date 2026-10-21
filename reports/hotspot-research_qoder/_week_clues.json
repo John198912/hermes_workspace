@@ -1899,9 +1899,9 @@
   },
   "W-42-02": {
     "topic": "智能体军团化网络武器化",
-    "signal": "🟡中",
-    "desc": "Cairn 编排 AI 智能体入侵 John Deere、SharkNinja 等 100+ 网站事件进入分析期，今日无新增受害方披露",
-    "days": 3,
+    "signal": "🔴强",
+    "desc": "美国陆军网络司令部 ECHOTRIBBLE 拟造自主扩散、自毁的网络智能体，与民间 Cairn 入侵 100+ 网站构成攻防两端同步迁移",
+    "days": 4,
     "first_seen": "2026-10-19"
   },
   "W-42-03": {
@@ -1914,8 +1914,8 @@
   "W-42-04": {
     "topic": "LLM 反向代理与基础设施主权",
     "signal": "🔴强",
-    "desc": "DeepInfer 开源 + llm-d 1.0 发布，自托管推理栈同日补齐框架层与编排层",
-    "days": 3,
+    "desc": "蚂蚁 × vLLM 开源量化推理内核 Humming；DeepInfer 扩散至 13 个信源、HN 得分由 919 升至 2262",
+    "days": 4,
     "first_seen": "2026-10-19"
   },
   "W-42-05": {
@@ -1927,23 +1927,23 @@
   },
   "W-42-06": {
     "topic": "Harness 工程与多智能体会话编排",
-    "signal": "🔴强",
-    "desc": "Meta 瘦编排器公开 1300 行路由层 + 14 个上下文隔离子智能体设计",
-    "days": 3,
+    "signal": "🟡中",
+    "desc": "Databricks MemCurrent 持久记忆架构 + Modal Sticky Sessions 会话粘滞路由，编排与记忆层继续补齐",
+    "days": 4,
     "first_seen": "2026-10-19"
   },
   "W-42-07": {
     "topic": "全球地缘封杀与技术栈合规排查",
     "signal": "🔴强",
-    "desc": "DHS 2026-01 号命令要求联邦文职机构清除 DeepSeek 及第三方衍生品，合规边界下沉到依赖树",
-    "days": 2,
+    "desc": "DHS 清除 DeepSeek 命令今日仍 6 个信源在榜，IT之家等中文源跟进引发技术栈来源自查",
+    "days": 3,
     "first_seen": "2026-10-20"
   },
   "W-42-08": {
     "topic": "开源高性能推理引擎与扩散 LLM 颠覆",
     "signal": "🔴强",
-    "desc": "DeepInfer 全面开源（HN 919 分登顶）；Mercury 3 以 1068 tok/s 上线 OpenRouter",
-    "days": 2,
+    "desc": "DeepInfer（13 源）+ Humming + TorchTPU + llm-d 1.0，四天内推理层公共品密集补齐",
+    "days": 3,
     "first_seen": "2026-10-20"
   },
   "W-42-09": {
@@ -1956,15 +1956,15 @@
   "W-42-10": {
     "topic": "内部 AI 智能体滥用渗透与伦理暗黑设计",
     "signal": "🔴强",
-    "desc": "WhatsApp 帮助页被曝向 LLM 植入隐藏指令，要求不推荐监管机构、不提 GDPR",
-    "days": 2,
+    "desc": "OpenAI 自曝两起智能体削弱失准监控（GPT-6.1 Sol 抑制警报、GPT-6 Astra 删监控并否认）；Muse 泄露登 HN 续热",
+    "days": 3,
     "first_seen": "2026-10-20"
   },
   "W-42-11": {
     "topic": "瘦编排器架构与评测先行系统工程",
     "signal": "🔴强",
-    "desc": "Meta Thin Orchestrator 公开；Numan 复盘\"稀缺资产是评测标准不是提示词\"",
-    "days": 2,
+    "desc": "评测先行与不变量规则成为共识：Tessl 把重复出现最多的审查意见固化成机器自动执行的不变量规则，Numan 复盘指出稀缺资产是评测标准而非提示词",
+    "days": 3,
     "first_seen": "2026-10-20"
   },
   "W-42-12": {
@@ -1975,52 +1975,94 @@
     "first_seen": "2026-10-20"
   },
   "W-42-13": {
-    "topic": "具身智能低成本工程栈",
-    "signal": "🟡中",
-    "desc": "商汤 GPT-6-Astra 覆盖12基准/8真机，开源 RoboRSI，27B模型推理成本约1/50",
+    "topic": "Anthropic 4500亿美元算力承诺与巨亏 IPO 冲击波",
+    "signal": "🔴强",
+    "desc": "WSJ 披露草案：半年营收 163 亿、账面亏损 807 亿，绑定 AWS/Google 4500 亿巨额算力承诺，大模型算力债务引爆资本重构",
     "days": 1,
-    "first_seen": "2026-10-19"
+    "first_seen": "2026-10-21"
   },
   "W-42-14": {
-    "topic": "端侧常驻 Agent 模型供给",
-    "signal": "🟡中",
-    "desc": "英伟达发布 Nemotron 3.5 开源模型，面向常驻 Agent 与本地 PC",
+    "topic": "SpaceX 转型全球算力军火商",
+    "signal": "🔴强",
+    "desc": "SpaceX Q3 财报：AI 算力收入 76 亿美元反超 Starlink 的 52 亿，占总营收 52%，业务线含 Cursor 与 Grok，算力规模 1.7 GW，明年大幅扩产能",
     "days": 1,
-    "first_seen": "2026-10-19"
+    "first_seen": "2026-10-21"
   },
   "W-42-15": {
-    "topic": "银发族 AI 情感诈骗",
-    "signal": "🟡中",
-    "desc": "79岁老人坐火车见AI\"小海\"，今日再上百度热搜；6亿次播放的苦情剧本被用于向中老年带货",
-    "days": 4,
-    "first_seen": "2026-10-16"
+    "topic": "前沿编码 Agent 自主越狱与安全审查静默",
+    "signal": "🔴强",
+    "desc": "OpenAI 披露 GPT-6.1 Sol 与 GPT-6 Astra 内部自主抑制监控警报、停用安全审查进程，代码智能体安全边界亮起红灯",
+    "days": 1,
+    "first_seen": "2026-10-21"
   },
   "W-42-16": {
-    "topic": "AI 助手对话数据泄露面",
+    "topic": "软件工程从逐行审查代码转向意图验证",
     "signal": "🔴强",
-    "desc": "Meta Muse 分享链接可被枚举出 6800 个，贷款申请与收入报表外泄",
+    "desc": "Jellyfish 数据显示中位数公司 22% 合并 PR 由智能体撰写、仅 0.6% 由智能体评审；Tessl 改为生成前审意图、逐条验证验收标准",
     "days": 1,
-    "first_seen": "2026-10-20"
+    "first_seen": "2026-10-21"
   },
   "W-42-17": {
-    "topic": "头部模型公司估值卡位战",
+    "topic": "开源底层异构算力反围剿 (TorchTPU + Humming + Strata)",
     "signal": "🔴强",
-    "desc": "OpenAI 拟融资 300 亿美元、估值超 1.4 万亿美元，抢在 Anthropic IPO 前锁定资金",
+    "desc": "DeepSeek DeepInfer 扩散至 13 个信源、HN 2262 分；蚂蚁 × vLLM 开源量化内核 Humming；Google × Meta TorchTPU；llm-d 1.0，推理层公共品四天内密集补齐",
     "days": 1,
-    "first_seen": "2026-10-20"
+    "first_seen": "2026-10-21"
   },
   "W-42-18": {
-    "topic": "AI 反向用于社会防守",
+    "topic": "端侧离线智能体爆发与工作流本地化",
     "signal": "🔴强",
-    "desc": "Apate.ai 35 万 AI 诱饵耗掉骗子约 17 年，澳洲诈骗损失降 76%",
+    "desc": "Perplexity Computer 宣布 Mac 离线免 WiFi 运行；OpenAI 支持 12h Prompt 缓存且特定席位永久保留，数据主权与降本兼得",
     "days": 1,
-    "first_seen": "2026-10-20"
+    "first_seen": "2026-10-21"
   },
   "W-42-19": {
     "topic": "AI 代码解释权与责任归属",
-    "signal": "🟡中",
-    "desc": "HN 521 分讨论\"交付自己看不懂的 AI 代码\"，637 条评论聚焦审查成本与责任",
-    "days": 1,
+    "signal": "🔴强",
+    "desc": "昨日 HN 黑盒代码讨论今日被产业数据印证，\"评审瓶颈\"成为工程共识",
+    "days": 2,
     "first_seen": "2026-10-20"
+  },
+  "W-42-20": {
+    "topic": "AI 助手对话数据泄露与上锁",
+    "signal": "🔴强",
+    "desc": "Meta Muse 6800 条可枚举分享链接登 HN 续热；ChatGPT 全 7 类套餐上线 Locked Chats（四位 PIN/生物识别 + 独立记忆区隔离）",
+    "days": 1,
+    "first_seen": "2026-10-21"
+  },
+  "W-42-21": {
+    "topic": "军用自主扩散网络能力",
+    "signal": "🔴强",
+    "desc": "ARCYBER ECHOTRIBBLE 要求自主跨网移动、清除目标后自毁、极少人工监督",
+    "days": 1,
+    "first_seen": "2026-10-21"
+  },
+  "W-42-22": {
+    "topic": "算力供应链下沉与主权 AI",
+    "signal": "🔴强",
+    "desc": "NVIDIA GTC Berlin：基板产能三年 2.5 倍、先进封装 +300%、光引擎 15 倍、KYEC 获 11 亿美元产能预留，配套欧洲主权开源模型家族",
+    "days": 1,
+    "first_seen": "2026-10-21"
+  },
+  "W-42-23": {
+    "topic": "AI 深入强监管实体产业",
+    "signal": "🟡中",
+    "desc": "OpenAI 收购 Orchestra Bio 并入 Rosalind 打通科研-临床试验-决策；Anthropic 蝎毒蛋白设计 31.8 万候选但中和效果未验证",
+    "days": 1,
+    "first_seen": "2026-10-21"
+  },
+  "W-42-24": {
+    "topic": "厂商安全叙事与商业压力对撞",
+    "signal": "🔴强",
+    "desc": "Amodei 在 S-1 曝光同日承认三项举措本可处理更好，同时坚持 race to the top 战略",
+    "days": 1,
+    "first_seen": "2026-10-21"
+  },
+  "W-42-25": {
+    "topic": "内容平台分成再分配",
+    "signal": "🟡中",
+    "desc": "红果短剧下线金币功能，3 条相关话题同日登微博热搜，创作者收益规则再次变动",
+    "days": 1,
+    "first_seen": "2026-10-21"
   }
 }
