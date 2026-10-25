@@ -1901,7 +1901,7 @@
     "topic": "智能体军团化网络武器化",
     "signal": "🔴强",
     "desc": "AISI 与 Anthropic 同日发布 Mythos 5 未授权攻击事故报告；METR/Redwood 61 页红队报告披露 OpenAI 内部智能体监测系统多个漏洞",
-    "days": 8,
+    "days": 9,
     "first_seen": "2026-10-19"
   },
   "W-42-03": {
@@ -1922,14 +1922,14 @@
     "topic": "端侧模型去 AI 味与真实行文",
     "signal": "🔴强",
     "desc": "MacBook Air 微调 Qwen3-4B 去除破折号与三段排比等八股套话，Slop 评分暴降90%，证明极简微调去AI味可行",
-    "days": 6,
+    "days": 7,
     "first_seen": "2026-10-19"
   },
   "W-42-06": {
     "topic": "Harness 工程与多智能体会话编排",
     "signal": "🔴强",
     "desc": "Claude Code 原生集成 tmux+worktree，Google 开源 Harness²，工程重心从 Prompt 转移到 Harness 与系统外壳",
-    "days": 7,
+    "days": 8,
     "first_seen": "2026-10-19"
   },
   "W-42-07": {
@@ -1964,7 +1964,7 @@
     "topic": "瘦编排器架构与评测先行系统工程",
     "signal": "🔴强",
     "desc": "Anthropic × Theorem 用 Claude 为 123 个开源库生成约 1.8 亿行 Rocq 汇编级形式化证明，人工复核几乎为零，登 HN 385 分",
-    "days": 7,
+    "days": 8,
     "first_seen": "2026-10-20"
   },
   "W-42-12": {
@@ -2006,7 +2006,7 @@
     "topic": "开源底层异构算力反围剿 (TorchTPU + Humming + Strata)",
     "signal": "🔴强",
     "desc": "MiniMax 权重开放 + OpenAI Decisions API 输入 $0.1/百万 token，自托管与分层降本两条路径同日推进",
-    "days": 5,
+    "days": 6,
     "first_seen": "2026-10-21"
   },
   "W-42-18": {
@@ -2020,7 +2020,7 @@
     "topic": "PHP2Shell 浩劫与 AI 自动化攻防新常态",
     "signal": "🔴强",
     "desc": "Latent Space 以\"Black October\"盘点 48 小时内密集漏洞；Tell HN 当事人自述无意中破坏 PHP RCE 披露 embargo；eMudhra 退出全球 SSL/TLS 证书业务",
-    "days": 5,
+    "days": 6,
     "first_seen": "2026-10-22"
   },
   "W-42-20": {
@@ -2041,7 +2041,7 @@
     "topic": "AI 智能体暗黑攻击与供应链投毒",
     "signal": "🔴强",
     "desc": "1Password for Agents 与 OpenShell 等智能体运行时/凭据层密集出现，AI 供应链信任面同时扩张",
-    "days": 4,
+    "days": 5,
     "first_seen": "2026-10-22"
   },
   "W-42-23": {
@@ -2097,7 +2097,7 @@
     "topic": "智能体运维自主权分级",
     "signal": "🟡中",
     "desc": "Replit Monitoring Agent 提供只读调查 / autofix 验证 / auto-publish 自动部署三级权限，以可逆性作为授权依据",
-    "days": 3,
+    "days": 4,
     "first_seen": "2026-10-23"
   },
   "W-42-32": {
@@ -2125,7 +2125,7 @@
     "topic": "3T级 MoE 开源大基模与百万上下文工程反击",
     "signal": "🔴强",
     "desc": "月之暗面发布 Kimi K3.1 Pro（2.8T~3T参数、104B激活、1M上下文），Terminal-Bench 超 GPT-6 Astra 并定档开源，腾讯 WorkBuddy 首发接入",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-36": {
@@ -2146,21 +2146,21 @@
     "topic": "端云协同能效基准与反过度设计极简架构",
     "signal": "🔴强",
     "desc": "面壁智能开源 EC²-Bench 量化端云最优分流；山东大学与 Meta&CMU 论文证实花哨 Harness 徒增成本，强化学习专项小模型反杀庞大基座",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-39": {
     "topic": "国内首部「龙标」AI 全流程院线长片进影院与票房遇冷（生产端趋零、分发与信任端定价）",
     "signal": "🔴强",
     "desc": "博纳《三星堆：未来往事》10/23 拿龙标上映，成本超千万、两日票房约 40-50 万、排片 2.8%、场均人次 1.0、灯塔总预测 216.9 万；同日 Tibo 的 9 步 12 提示词 AI UGC 流程与 Higgsfield ARR 破 10 亿美元形成同题对照",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-40": {
     "topic": "全行业算力售罄与推理成本十倍下降门槛",
     "signal": "🔴强",
     "desc": "10/24 三份 CEO 表态同日：贾西称 AWS 2026 售罄/2027 基本售罄/2028 部分预订、今年支出 2200 亿美元仍不够、推理成本需降至约 1/10；皮查伊称全行业短缺、谷歌云为前沿研究放弃短期收入；奥特曼押注机器人造机器人",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-41": {
@@ -2174,21 +2174,56 @@
     "topic": "零文本纯语音基座模型与消费级本地全双工语音",
     "signal": "🟡中",
     "desc": "Block/Jack Dorsey 发布 Dessa：仅用人类语音、无文本数据、不从文本模型出发从零训练，全双工可打断，训练仅用单台 GB200 NVL72、可在 MacBook Pro M4 Max 本地运行，暂不公开、仅向 AI 安全研究者开放（HN 429/161）",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-43": {
     "topic": "政府 AI 风险专项拨款与生物安全实验室建制化",
     "signal": "🟡中",
     "desc": "英国 10/24 宣布约 6 亿英镑应对 AI 公共卫生与安全风险（1 亿英镑建 AI 生物安全实验室、6500 万英镑病原体防范研发），同日国防大臣建议民众储备三升水与罐头；与 10/23 国办 18 项任务构成中西方同期两种分配方向",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-44": {
     "topic": "AI 对话记录非私密性与设备端内置监听的取证争议",
     "signal": "🔴强",
     "desc": "悉尼男子向 Claude 表达袭击意图后 10/18 被拘、聊天内容如何取得与 Anthropic 是否主动提供均不明（10/24 IT之家）；同日微博「豆包把男友底细全招了」15.3 万阅读、HN「三星电视内置 AI 上报至已被暂停的 OpenAI 账号」352/114（高赞指出仅有截图无技术报告）",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
+  },
+  "W-42-45": {
+    "topic": "AI 内容真实性强制标记：州级立法、奖项撤销与纪录片反向保留瑕疵",
+    "signal": "🔴强",
+    "desc": "宾夕法尼亚州签署《人工智能欺骗性广告法》要求 AI 生成或显著修改的广告加注标识（界定模糊、有戏仿讽刺豁免）；尼康撤销被科学家识别出 AI 痕迹的摄影奖得主头衔；BBC《蓝色星球 III》刻意保留浮游生物与水质不佳画面以区别于 AI 精致影像",
+    "days": 1,
+    "first_seen": "2026-10-25"
+  },
+  "W-42-46": {
+    "topic": "个人数字分身资产化授权与体育合同 AI 条款空白",
+    "signal": "🔴强",
+    "desc": "22 岁澳大利亚国脚沃尔帕托独家授权数字形象、声音与生物特征数据给 Callandor 用于品牌变现并抽成；Hyperknown 同类、内马尔先例；AFL 要求 Sportsbet 停用未授权深度伪造；澳大利亚主流联赛合同尚无 AI 条款",
+    "days": 1,
+    "first_seen": "2026-10-25"
+  },
+  "W-42-47": {
+    "topic": "个人智能体接管现实事务权限（外呼、支付、凭证托管）与银行灾后应急预案",
+    "signal": "🔴强",
+    "desc": "Grok Bot 0.77 可代打电话、代办请求并发送通话摘要，支持支付账户连接与 Tailscale 私有网络，新增 Vault 保存登录与支付信息；同时摩根士丹利、美银、摩根大通、富国为 AI 引发的灾难制定应急预案，戴蒙称挡不住只能管控",
+    "days": 1,
+    "first_seen": "2026-10-25"
+  },
+  "W-42-48": {
+    "topic": "谷歌 AI 搜索重塑在线出版经济链与 GEO 方法的无实验真空期",
+    "signal": "🔴强",
+    "desc": "The Verge 梳理 AI Overviews（2024）与 AI Mode（2025-05）后 DMG Media 称点击率下降多达 89%、Pew 发现用户看到 AI Overview 后更少点击；多伦多大学×谷歌论文映射 11 种已发表 GEO 方法但明确未做实验；Cloudflare 自动化流量占比 57.5% 首超人类",
+    "days": 1,
+    "first_seen": "2026-10-25"
+  },
+  "W-42-49": {
+    "topic": "前沿能力时间线预测同日三向拉扯：RSI 提前至 2027、AGI 压缩至 2-3 年、研究级任务与日常工序背离",
+    "signal": "🟡中",
+    "desc": "Jack Clark 依 TasteVal 把 RSI 由 2028 提前到最早 2027；Hassabis 把 AGI 预期由 3-5 年压缩到 2-3 年；Pichai 仍称离终态很远；TheoPhysEval 最强智能体解出 50 道未发表理论物理题中 49 道（单题 <3 美元、约专家一天工作量），而 Epoch 六款模型在其自身 11 项真实任务上无一稳定达标",
+    "days": 1,
+    "first_seen": "2026-10-25"
   }
 }
