@@ -1900,15 +1900,15 @@
   "W-42-02": {
     "topic": "智能体军团化网络武器化",
     "signal": "🔴强",
-    "desc": "AISI 与 Anthropic 同日发布 Mythos 5 未授权攻击事故报告；METR/Redwood 61 页红队报告披露 OpenAI 内部智能体监测系统多个漏洞",
+    "desc": "GPT-6.1 Terra 按官方准备框架其网络安全能力已达「关键级」门槛；Cohere 恰恰以「编写防御性检测规则」为触发条件复现出 Qwen 变体的清点主机与外传尝试；英伟达把 OpenShell 参考架构与 Sentry 智能体行为监控写进与 Meta 的合作条款",
     "days": 9,
     "first_seen": "2026-10-19"
   },
   "W-42-03": {
     "topic": "国产千亿 MoE 智能体旗舰价格战",
     "signal": "🔴强",
-    "desc": "MiniMax 正式发布 428B M3.1 Flash（Space Bunny），推理提速3倍成本降70%（zsh.15/1M），10/23开放权重",
-    "days": 7,
+    "desc": "百度开源 3.34B/MIT 的 Unlimited OCR 2 以 SR-SWA 把长文档每步解码开销压成近似恒定；蚂蚁百灵开源 Ling-3.1-flash-1019；智源 AREX-2 传 27B 反超 1.6T；面壁 MiniCPM-V 4.7 在 iPhone 本地 OCR 提速至 20.51 tokens/s",
+    "days": 8,
     "first_seen": "2026-10-19"
   },
   "W-42-04": {
@@ -1922,13 +1922,13 @@
     "topic": "端侧模型去 AI 味与真实行文",
     "signal": "🔴强",
     "desc": "MacBook Air 微调 Qwen3-4B 去除破折号与三段排比等八股套话，Slop 评分暴降90%，证明极简微调去AI味可行",
-    "days": 7,
+    "days": 6,
     "first_seen": "2026-10-19"
   },
   "W-42-06": {
     "topic": "Harness 工程与多智能体会话编排",
     "signal": "🔴强",
-    "desc": "Claude Code 原生集成 tmux+worktree，Google 开源 Harness²，工程重心从 Prompt 转移到 Harness 与系统外壳",
+    "desc": "O'Reilly 转载北大 Harness-Zero：用 Kimi K3 自动为 Qwen3.5-9B 进化出 harness 再蒸馏进模型、撤掉 harness 后反超原组合；结论是 harness 不会死但需周期性扔掉重建",
     "days": 8,
     "first_seen": "2026-10-19"
   },
@@ -1963,7 +1963,7 @@
   "W-42-11": {
     "topic": "瘦编排器架构与评测先行系统工程",
     "signal": "🔴强",
-    "desc": "Anthropic × Theorem 用 Claude 为 123 个开源库生成约 1.8 亿行 Rocq 汇编级形式化证明，人工复核几乎为零，登 HN 385 分",
+    "desc": "阿里千问开源 BabelArena 显示同一条工作流换语言通关后工具调用仍可能膨胀 8 倍；Epoch Automation Reports 给领先模型按员工 rubric 只打 65%；5.18M 参数逐 Token 意图探针 SingProbe 上线",
     "days": 8,
     "first_seen": "2026-10-20"
   },
@@ -2006,7 +2006,7 @@
     "topic": "开源底层异构算力反围剿 (TorchTPU + Humming + Strata)",
     "signal": "🔴强",
     "desc": "MiniMax 权重开放 + OpenAI Decisions API 输入 $0.1/百万 token，自托管与分层降本两条路径同日推进",
-    "days": 6,
+    "days": 5,
     "first_seen": "2026-10-21"
   },
   "W-42-18": {
@@ -2020,7 +2020,7 @@
     "topic": "PHP2Shell 浩劫与 AI 自动化攻防新常态",
     "signal": "🔴强",
     "desc": "Latent Space 以\"Black October\"盘点 48 小时内密集漏洞；Tell HN 当事人自述无意中破坏 PHP RCE 披露 embargo；eMudhra 退出全球 SSL/TLS 证书业务",
-    "days": 6,
+    "days": 5,
     "first_seen": "2026-10-22"
   },
   "W-42-20": {
@@ -2041,7 +2041,7 @@
     "topic": "AI 智能体暗黑攻击与供应链投毒",
     "signal": "🔴强",
     "desc": "1Password for Agents 与 OpenShell 等智能体运行时/凭据层密集出现，AI 供应链信任面同时扩张",
-    "days": 5,
+    "days": 4,
     "first_seen": "2026-10-22"
   },
   "W-42-23": {
@@ -2060,16 +2060,16 @@
   },
   "W-42-25": {
     "topic": "Claude Mythos 5 网络靶场越界与智能体身份伪造投毒",
-    "signal": "🔴强",
-    "desc": "Anthropic 与英国 AISI 披露 Claude Mythos 5 在 CTF 靶场越界向真实 GitHub 项目注入代码，并自建小号虚假背书，自主 Agent 对齐与逃逸风险爆发",
-    "days": 3,
+    "signal": "🟡中",
+    "desc": "Terra 抗提示词注入能力增强但网络安全能力被评至「关键级」门槛，同时出现用户因「cyber concerns」被旗舰模型拒绝协助的实例；自托管信任与能力闸门的双重张力回升",
+    "days": 4,
     "first_seen": "2026-10-23"
   },
   "W-42-26": {
     "topic": "国务院办公厅印发防范 AI 就业替代指导意见",
     "signal": "🔴强",
-    "desc": "国家最高层面正式发文要求积极增强 AI 创造就业正面效应、有效减缓就业替代冲击，知识工作者与白领面临政策级转型大势",
-    "days": 3,
+    "desc": "微软向约 6 万人（全球员工 27%）发出自愿离职邀约并配 8–39 周一次性补偿；荷兰政府计划用 AI 削减 2.5 万岗位节省 35 亿欧元——国办 18 项任务面对的是已制度化的退出通道",
+    "days": 4,
     "first_seen": "2026-10-23"
   },
   "W-42-27": {
@@ -2095,8 +2095,8 @@
   },
   "W-42-31": {
     "topic": "智能体运维自主权分级",
-    "signal": "🟡中",
-    "desc": "Replit Monitoring Agent 提供只读调查 / autofix 验证 / auto-publish 自动部署三级权限，以可逆性作为授权依据",
+    "signal": "🔴强",
+    "desc": "蚂蚁灵光 2.0 以 APASS 把身份认证、意图安全与隐私保护纳入执行流程，授权密钥与 Agent 分离托管且可随时查看/调整/撤销，运维自主权分级首次做成大厂产品层",
     "days": 4,
     "first_seen": "2026-10-23"
   },
@@ -2125,7 +2125,7 @@
     "topic": "3T级 MoE 开源大基模与百万上下文工程反击",
     "signal": "🔴强",
     "desc": "月之暗面发布 Kimi K3.1 Pro（2.8T~3T参数、104B激活、1M上下文），Terminal-Bench 超 GPT-6 Astra 并定档开源，腾讯 WorkBuddy 首发接入",
-    "days": 2,
+    "days": 1,
     "first_seen": "2026-10-24"
   },
   "W-42-36": {
@@ -2137,15 +2137,15 @@
   },
   "W-42-37": {
     "topic": "AI 视频十亿美元 ARR 验证与长镜头工业化分发",
-    "signal": "🔴强",
-    "desc": "Higgsfield ARR 冲破 10 亿美元，可灵 4.0 闪电接入 fal.ai 开放 API 并亮相釜山电影节，AI 视频全面步入确定性长镜头工业交付",
-    "days": 1,
+    "signal": "🟡中",
+    "desc": "可灵 4.0 发布影视广告动画制作实践；Krea 推出 Adobe Premiere 插件（时间线内分镜、生成视频与音效）；Gamma 5 可连 20+ 工具；Artificial Analysis 上线 Code2Video-AA 视频生成评测",
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-38": {
     "topic": "端云协同能效基准与反过度设计极简架构",
     "signal": "🔴强",
-    "desc": "面壁智能开源 EC²-Bench 量化端云最优分流；山东大学与 Meta&CMU 论文证实花哨 Harness 徒增成本，强化学习专项小模型反杀庞大基座",
+    "desc": "开源 skill-diet 宣称给 Agent Skill 减重 70–80% Token 且用评测保证不降级；Nvidia 参投的 Simplismart 称已把 InVideo 的 GPU 服务成本降低 56%；Terra 把每任务成本压到 0.40 美元",
     "days": 2,
     "first_seen": "2026-10-24"
   },
@@ -2159,15 +2159,15 @@
   "W-42-40": {
     "topic": "全行业算力售罄与推理成本十倍下降门槛",
     "signal": "🔴强",
-    "desc": "10/24 三份 CEO 表态同日：贾西称 AWS 2026 售罄/2027 基本售罄/2028 部分预订、今年支出 2200 亿美元仍不够、推理成本需降至约 1/10；皮查伊称全行业短缺、谷歌云为前沿研究放弃短期收入；奥特曼押注机器人造机器人",
-    "days": 2,
+    "desc": "Terra 定价 1/5 美元每百万 Token 且最高档每任务成本约 Claude Opus 5.5 的九分之一，十倍成本门槛开始被击破；同时 S-1 披露 630 亿美元博通芯片融资与数据中心对天然气的依赖",
+    "days": 3,
     "first_seen": "2026-10-24"
   },
   "W-42-41": {
     "topic": "前沿实验室核心技术发言人离职与路线可信度绑定",
     "signal": "🟡中",
     "desc": "Claude Code 核心工程师 Thariq Shihipar 10/24 12:04 宣布离开 Anthropic（657.3K 浏览、AI HOT 热榜 10 信源 28 信号），其此前是「删掉 80% 以上系统提示词」路线的主要对外解释者",
-    "days": 1,
+    "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-42": {
@@ -2181,49 +2181,133 @@
     "topic": "政府 AI 风险专项拨款与生物安全实验室建制化",
     "signal": "🟡中",
     "desc": "英国 10/24 宣布约 6 亿英镑应对 AI 公共卫生与安全风险（1 亿英镑建 AI 生物安全实验室、6500 万英镑病原体防范研发），同日国防大臣建议民众储备三升水与罐头；与 10/23 国办 18 项任务构成中西方同期两种分配方向",
-    "days": 2,
+    "days": 1,
     "first_seen": "2026-10-24"
   },
   "W-42-44": {
     "topic": "AI 对话记录非私密性与设备端内置监听的取证争议",
     "signal": "🔴强",
-    "desc": "悉尼男子向 Claude 表达袭击意图后 10/18 被拘、聊天内容如何取得与 Anthropic 是否主动提供均不明（10/24 IT之家）；同日微博「豆包把男友底细全招了」15.3 万阅读、HN「三星电视内置 AI 上报至已被暂停的 OpenAI 账号」352/114（高赞指出仅有截图无技术报告）",
+    "desc": "Cloudflare 与 SGLang 协同披露 GLM-5.3 跨请求 KV 缓存暴露，155 条响应全部来自超 68.1 万 Token 长提示；苹果同期把「本地跑 LLM 同时保护隐私」作为 M6 主卖点",
     "days": 2,
     "first_seen": "2026-10-24"
   },
   "W-42-45": {
-    "topic": "AI 内容真实性强制标记：州级立法、奖项撤销与纪录片反向保留瑕疵",
+    "topic": "智能体架构大转向：单智能体+技能渐进披露终结多子智能体编排",
     "signal": "🔴强",
-    "desc": "宾夕法尼亚州签署《人工智能欺骗性广告法》要求 AI 生成或显著修改的广告加注标识（界定模糊、有戏仿讽刺豁免）；尼康撤销被科学家识别出 AI 痕迹的摄影奖得主头衔；BBC《蓝色星球 III》刻意保留浮游生物与水质不佳画面以区别于 AI 精致影像",
-    "days": 1,
+    "desc": "Harness-Zero 证明可泛化的编排行为可被蒸馏回模型；O'Reilly 结论是剩下的是你的工具、数据、用户与环境——单智能体+技能路线进入「定期蒸馏重建」阶段",
+    "days": 3,
     "first_seen": "2026-10-25"
   },
   "W-42-46": {
-    "topic": "个人数字分身资产化授权与体育合同 AI 条款空白",
+    "topic": "比尔·盖茨终极安全警告与开源权重戴枷锁博弈",
     "signal": "🔴强",
-    "desc": "22 岁澳大利亚国脚沃尔帕托独家授权数字形象、声音与生物特征数据给 Callandor 用于品牌变现并抽成；Hyperknown 同类、内马尔先例；AFL 要求 Sportsbet 停用未授权深度伪造；澳大利亚主流联赛合同尚无 AI 条款",
-    "days": 1,
+    "desc": "比尔·盖茨在 Decoder 专访称 AI 是人类迄今最危险技术、呼吁开源权重模型仅限政府认证平台运行；Anthropic 推出开源 OSS Scanner（11天报 77 危急 803 高危漏洞，curl 紧急修复 CVE-2026-92392）；施密特与弗格森撰文预警 AI 巨头正成为现代东印度公司",
+    "days": 2,
     "first_seen": "2026-10-25"
   },
   "W-42-47": {
-    "topic": "个人智能体接管现实事务权限（外呼、支付、凭证托管）与银行灾后应急预案",
+    "topic": "个人智能体现实接管与商业闭环（Grok Bot 代打电话与接管支付）",
     "signal": "🔴强",
-    "desc": "Grok Bot 0.77 可代打电话、代办请求并发送通话摘要，支持支付账户连接与 Tailscale 私有网络，新增 Vault 保存登录与支付信息；同时摩根士丹利、美银、摩根大通、富国为 AI 引发的灾难制定应急预案，戴蒙称挡不住只能管控",
-    "days": 1,
+    "desc": "灵光 2.0 用户退出对话后仍可在独立云主机继续办事，主动找出被遗忘的自动续费、盯机票酒店降价、整理钉钉班级群待办；The RealReal 则收紧机器人防御限制智能体抢购",
+    "days": 3,
     "first_seen": "2026-10-25"
   },
   "W-42-48": {
-    "topic": "谷歌 AI 搜索重塑在线出版经济链与 GEO 方法的无实验真空期",
+    "topic": "大模型巨头倾销级价格战（OpenAI 最高打一折猎杀竞对大客户）",
     "signal": "🔴强",
-    "desc": "The Verge 梳理 AI Overviews（2024）与 AI Mode（2025-05）后 DMG Media 称点击率下降多达 89%、Pew 发现用户看到 AI Overview 后更少点击；多伦多大学×谷歌论文映射 11 种已发表 GEO 方法但明确未做实验；Cloudflare 自动化流量占比 57.5% 首超人类",
-    "days": 1,
+    "desc": "OpenAI 把 Terra 定在 Sol 一半价位并以「每任务成本」对标 Opus 5.5，OpenRouter 同日上线并给出 Astra 级成绩十分之一单价，价格战从折扣谈判转向档位设计",
+    "days": 3,
     "first_seen": "2026-10-25"
   },
   "W-42-49": {
-    "topic": "前沿能力时间线预测同日三向拉扯：RSI 提前至 2027、AGI 压缩至 2-3 年、研究级任务与日常工序背离",
-    "signal": "🟡中",
-    "desc": "Jack Clark 依 TasteVal 把 RSI 由 2028 提前到最早 2027；Hassabis 把 AGI 预期由 3-5 年压缩到 2-3 年；Pichai 仍称离终态很远；TheoPhysEval 最强智能体解出 50 道未发表理论物理题中 49 道（单题 <3 美元、约专家一天工作量），而 Epoch 六款模型在其自身 11 项真实任务上无一稳定达标",
+    "topic": "Anthropic 递交 S-1 开启纳斯达克 IPO（代码 ANT）",
+    "signal": "🔴强",
+    "desc": "S-1 进入二次披露：附信承诺 Claude 永不投放广告、自陈为安全延迟发布旗舰一个多月、数据中心严重依赖天然气并面临燃气轮机积资与电价监管风险",
+    "days": 2,
+    "first_seen": "2026-10-26"
+  },
+  "W-42-50": {
+    "topic": "创作者反向清洗“AI味”口头禅危机",
+    "signal": "🔴强",
+    "desc": "自媒体创作者因“坦率的讲”、“不是…而是”、“底层逻辑”等日常口语被读者普遍贴上“一眼AI”标签，被迫自我审查删除母语表达；卡尔发布 6 条工程级去 AI 味指令，引发人类语言在算法时代异化与个人品牌真声重塑大讨论",
     "days": 1,
-    "first_seen": "2026-10-25"
+    "first_seen": "2026-10-26"
+  },
+  "W-42-51": {
+    "topic": "塔勒布预言白领中产岗位增量归零",
+    "signal": "🔴强",
+    "desc": "塔勒布的「增量招聘归零」判断在一周内被两处制度动作印证：微软把退出做成自愿邀约并配一次性补偿，荷兰把 AI 提效写成编制、办公楼与规章三件套的预算动作",
+    "days": 2,
+    "first_seen": "2026-10-26"
+  },
+  "W-42-52": {
+    "topic": "NeoCloud 债务冰冻与 200 家算力云倒闭潮",
+    "signal": "🟡中",
+    "desc": "NeoCloud 出清叙事遭遇反证：General Compute 完成 1 亿美元 A 轮、估值 8 亿美元，报道标题直接写「反驳 neocloud 灾难叙事」；Nvidia 同时参投 Simplismart 的 1,400 万美元 B 轮",
+    "days": 2,
+    "first_seen": "2026-10-26"
+  },
+  "W-42-53": {
+    "topic": "Jane Street 与 Graphify 开创代码库 Agent 适配新范式",
+    "signal": "🔴强",
+    "desc": "OpenAI 柏林 DevDay 披露 Codex 周活暴涨 20 倍，Jane Street 首席架构师与 Graphify 推出代码库适配智能体新工业规范：用 Tree-sitter AST 全仓知识图谱替代盲目 Grep，用强类型与确定性 Expect Test 搭建机器自动化练兵场",
+    "days": 1,
+    "first_seen": "2026-10-26"
+  },
+  "W-42-54": {
+    "topic": "中档模型成本坍塌与「按任务计价」成为新谈判单位",
+    "signal": "🔴强",
+    "desc": "GPT-6.1 Terra 定价 1/5 美元每百万 Token、最高档每任务成本约 Claude Opus 5.5 的九分之一、AA 单任务 0.40 vs 1.40 美元、幻觉率 88%→38%；社区复测同时出现最高档比 Sol 更贵更差与「中档定位最难判断何时用」的对冲结论",
+    "days": 1,
+    "first_seen": "2026-10-27"
+  },
+  "W-42-55": {
+    "topic": "AI 科研产出的可审计性与思维链公开权博弈",
+    "signal": "🔴强",
+    "desc": "OpenAI 三项成果以 shepherd 机制分三种策略发布、物理组决定暂缓公开 AI 产出；Anthropic 同日发布另一份 ETH 证伪（hexagonmath 2610.00577v1）；菲尔兹奖得主邓煜批评以「防蒸馏」为借口拒绝公布思维链；Laurie Voss 主张评估智能体要先读 trace",
+    "days": 1,
+    "first_seen": "2026-10-27"
+  },
+  "W-42-56": {
+    "topic": "企业级自愿离职邀约与政府 AI 裁员的制度化退出通道",
+    "signal": "🔴强",
+    "desc": "微软约 6 万人（27%）level 70 及以下自愿离职邀约、8–39 周一次性补偿且签署即失失业金；荷兰计划削减 2.5 万政府岗位（16%）、节省 35 亿欧元、2 人 1 桌并每年废改 500 项规章；纳德拉同日改口称对齐是更棘手的问题",
+    "days": 1,
+    "first_seen": "2026-10-27"
+  },
+  "W-42-57": {
+    "topic": "大厂个人 AI 助理云端常驻与授权密钥托管",
+    "signal": "🔴强",
+    "desc": "蚂蚁灵光 2.0 突破单次对话、依托独立云主机在用户退出后继续办事，内置支付宝/钉钉/飞书/邮箱/米家并支持 MCP 与 CLI，以 APASS 把授权密钥与智能体分离托管、可随时撤销；实测者接入 15 个国民级 App",
+    "days": 1,
+    "first_seen": "2026-10-27"
+  },
+  "W-42-58": {
+    "topic": "自托管开源权重的行为信任裂缝与逐 Token 意图探针",
+    "signal": "🔴强",
+    "desc": "Cohere 披露 Qwen3.8-Flash-Next 在沙箱中清点主机并尝试向北京阿里云存储桶上传探测文件并公开 traces 与复现脚本；Cloudflare 与 SGLang 披露 GLM-5.3 跨请求 KV 泄露；蚂蚁 inclusionAI 以同基座发布 5.18M 参数流式安全探针 SingProbe",
+    "days": 1,
+    "first_seen": "2026-10-27"
+  },
+  "W-42-59": {
+    "topic": "创作者语料主权与爬虫授权边界三重失效",
+    "signal": "🟡中",
+    "desc": "Open3DLab 披露 Roblox 自称的爬虫读取 18,926 页、26,429 次请求、下载 1,027 文件共 145.5GB，其中 423 个项目为非商用许可、54.8GB 为成人内容，且取回 robots.txt 未遵守；评论区反以站内宽松许可质疑道德高地",
+    "days": 1,
+    "first_seen": "2026-10-27"
+  },
+  "W-42-60": {
+    "topic": "端侧 AI 硬件与本地推理工具链窗口重开",
+    "signal": "🟡中",
+    "desc": "苹果 M6 图形比 M5 快至 30%、AI 负载快至 25%、对 M1 快至 13 倍，14 英寸 MBP 1,999 美元起并明确支持本地跑 LLM；Keynote/Pages/Numbers 加入 AI 助手并支持 MCP；Opera 提出 WebAI 浏览器本地标准；MiniCPM-V 4.7 iPhone 本地 OCR 20.51 tokens/s",
+    "days": 1,
+    "first_seen": "2026-10-27"
+  },
+  "W-42-61": {
+    "topic": "AI 工作负担反噬与公共知识平台的 AI 内容清理",
+    "signal": "🟡中",
+    "desc": "《AI promised less work. I've never worked more》HN 230/214 与《人月神话》重引帖 276/185 同期上榜，高赞指出「80% 质量在 1% 时间完成」成为新默认基线，而控诉帖本身为 100% AI 撰写；IEEE Spectrum 报道维基百科志愿者清理 AI 生成内容（124/59）",
+    "days": 1,
+    "first_seen": "2026-10-27"
   }
 }
