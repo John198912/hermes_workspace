@@ -1,0 +1,3047 @@
+{
+  "selected_24h": {
+    "schemaVersion": 1,
+    "query": {
+      "mode": "selected",
+      "category": null,
+      "window": "24h",
+      "q": null,
+      "by": "timeline",
+      "ordering": "timelineDesc"
+    },
+    "items": [
+      {
+        "id": "klkmnzle2z7p5y6cl477ce7sg",
+        "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
+        "originalTitle": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+        "summary": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
+        "source": {
+          "name": "The Decoder：AI News（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg",
+          "original": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/"
+        },
+        "publishedAt": "2026-10-28T10:56:24.000Z",
+        "discoveredAt": "2026-10-28T11:19:28.067Z",
+        "category": "industry",
+        "score": 77,
+        "selected": true,
+        "reason": "安全公司用 AI 智能体渗透 Anthropic 内部系统，双方对影响范围各执一词，可用作观察第三方软件安全短板的案例。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg"
+        }
+      },
+      {
+        "id": "gxwqce1swocfo9bp3dgqy3dnj",
+        "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
+        "originalTitle": "Anthropic 的 S-1 写着 90% 增量毛利，卖一美元推理只花一毛",
+        "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
+        "source": {
+          "name": "X：Saito 硬地骇客 (@SaitoWu)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj",
+          "original": "https://x.com/SaitoWu/status/2115376256929948006"
+        },
+        "publishedAt": "2026-10-28T09:32:56.000Z",
+        "discoveredAt": "2026-10-28T10:03:31.646Z",
+        "category": "industry",
+        "score": 78,
+        "selected": true,
+        "reason": "作者拆解了 SemiAnalysis 播客对 Anthropic S-1 的解读，把毛利、留存和算力承诺等关键数字整理成一份可对照的参考。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj"
+        }
+      },
+      {
+        "id": "tw5fe5mj6a2zyp6ica2ec3qpb",
+        "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
+        "originalTitle": "Getting started with Claude Code Mods",
+        "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+        "source": {
+          "name": "X：Addy Osmani (@addyosmani)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb",
+          "original": "https://x.com/addyosmani/status/2115326629488824753"
+        },
+        "publishedAt": "2026-10-28T06:15:43.000Z",
+        "discoveredAt": "2026-10-28T06:26:29.821Z",
+        "category": "tip",
+        "score": 72,
+        "selected": true,
+        "reason": "作者亲自讲解 Claude Code Mods 的机制与上手方法，覆盖三个可复用的示例 mod，读者可照做搭建自己的定制界面。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb"
+        }
+      },
+      {
+        "id": "b61d349yqp5mt029fsa0ytbv9",
+        "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+        "originalTitle": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+        "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
+        "source": {
+          "name": "TechCrunch：AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9",
+          "original": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+        },
+        "publishedAt": "2026-10-28T01:15:28.000Z",
+        "discoveredAt": "2026-10-28T01:49:06.901Z",
+        "category": "industry",
+        "score": 80,
+        "selected": true,
+        "reason": "文章依据 Anthropic S-1 拆解各股东持股结构，说明为何战略投资者而非 VC 是 IPO 最大受益方，并提示云厂商利益冲突。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9"
+        }
+      },
+      {
+        "id": "ku284awvyj7i3dt4j7oflb78m",
+        "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
+        "originalTitle": "Google的世界模型Genie 4正式发布，这一次，世界终于要活过来了。",
+        "summary": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
+        "source": {
+          "name": "公众号：数字生命卡兹克"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m",
+          "original": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687902&idx=1&sn=9a57b3d769582b12d8645af23431743d"
+        },
+        "publishedAt": "2026-10-28T00:22:00.000Z",
+        "discoveredAt": "2026-10-28T00:37:31.871Z",
+        "category": "ai-models",
+        "score": 65,
+        "selected": true,
+        "reason": "文章梳理了 Genie 4 相比 Genie 3 的画质、实时控制、原生音频等变化，并用视频路线与高斯泼溅路线的对比帮助读者理解世界模型走向。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m"
+        }
+      },
+      {
+        "id": "dk0g487d7s2n5hq9ex5bim1sy",
+        "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+        "originalTitle": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+        "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
+        "source": {
+          "name": "TechCrunch：AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy",
+          "original": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+        },
+        "publishedAt": "2026-10-27T23:34:27.000Z",
+        "discoveredAt": "2026-10-27T23:48:07.841Z",
+        "category": "industry",
+        "score": 84,
+        "selected": true,
+        "reason": "诉讼细节与 27 万条聊天记录呈现 GPT-4o 削药劝导过程，也暴露 OpenAI Model Spec 中医疗建议限制弱于版权规则的问题。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy"
+        }
+      },
+      {
+        "id": "axminfteoiwhm9xm2txq1u2ok",
+        "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
+        "originalTitle": "Expanding our partnership with GSA to bring Claude to all levels of government",
+        "summary": "Anthropic 与美国总务管理局（GSA）扩大合作，政府伙伴购买 Claude Enterprise、Claude for Government 和 Claude API 可享 40% 折扣，预计为政府节省 10 亿美元，且不设最低消费承诺。",
+        "source": {
+          "name": "Anthropic：Newsroom（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok",
+          "original": "https://www.anthropic.com/news/expanding-partnership-gsa"
+        },
+        "publishedAt": "2026-10-26T16:00:00.000Z",
+        "discoveredAt": "2026-10-27T23:22:07.196Z",
+        "category": "industry",
+        "score": 67,
+        "selected": true,
+        "reason": "Anthropic 官方公布了折扣幅度、覆盖范围和政府采用数据，读者可以据此了解其公共业务的推进方式。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok"
+        }
+      },
+      {
+        "id": "czkv5svlodxelpz10tt5fpnk7",
+        "title": "Anthropic 公布 Claude 加速药物研发的早期进展与六个合作案例",
+        "originalTitle": "Early progress on accelerating drug development with Claude",
+        "summary": "Anthropic 生命科学团队宣布过去数月与 Generate Biomedicines、Divergence Labs、BigHat Biosciences、Enveda、The Column Group、Bristol Myers Squibb 六家机构开展药物研发合作，并已启动自有药物研发。",
+        "source": {
+          "name": "Anthropic：Research（发表成果 · 网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/czkv5svlodxelpz10tt5fpnk7",
+          "original": "https://www.anthropic.com/research/early-progress-drug-development"
+        },
+        "publishedAt": "2026-10-26T16:00:00.000Z",
+        "discoveredAt": "2026-10-27T21:17:08.196Z",
+        "category": "industry",
+        "score": 70,
+        "selected": true,
+        "reason": "原文给出六个药物研发合作案例的具体数字与实验结果，读者可以据此判断 Claude 在研发各环节的实际表现。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/czkv5svlodxelpz10tt5fpnk7"
+        }
+      },
+      {
+        "id": "t13kjmoalf8m0luymjchvrysk",
+        "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
+        "originalTitle": "With Google SynthID detection in Gemini, anyone can easily check if an image, video, or audio file was made with AI from Google.",
+        "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
+        "source": {
+          "name": "X：Gemini (@GeminiApp)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
+          "original": "https://x.com/GeminiApp/status/2115171788812669225"
+        },
+        "publishedAt": "2026-10-27T20:00:27.000Z",
+        "discoveredAt": "2026-10-27T20:27:43.395Z",
+        "category": "ai-products",
+        "score": 68,
+        "selected": true,
+        "reason": "Gemini 内置 SynthID 检测能力，用户可直接询问某文件是否为 Google AI 生成，提供了可上手的内容溯源方法。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk"
+        }
+      },
+      {
+        "id": "d0k8x9588e62wlqnfoq3bmtq0",
+        "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策",
+        "originalTitle": "How AI agents shape experts’ judgment calls",
+        "summary": "Anthropic 发表研究，让 50 名有因果推断经验的专业分析师用 Claude Code（Claude Opus 4.8）完成一项统计分析任务，并在分析师不知情的情况下用掷硬币随机设定智能体在四个分析决策上的倾向。",
+        "source": {
+          "name": "Anthropic：Research（发表成果 · 网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0",
+          "original": "https://www.anthropic.com/research/agents-judgment-calls"
+        },
+        "publishedAt": "2026-10-26T16:00:00.000Z",
+        "discoveredAt": "2026-10-27T19:15:40.693Z",
+        "category": "paper",
+        "score": 84,
+        "selected": true,
+        "reason": "原文用随机分配智能体倾向的实验设计量化了专家的从随程度，还讨论了这种影响难以察觉的原因和可能的改进方向。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0"
+        }
+      },
+      {
+        "id": "xhwtx8zwvvmyou5emtd3dbzbn",
+        "title": "Azeem Azhar 图解 Anthropic S-1 财务数据",
+        "originalTitle": "🔮 Anthropic’s S-1 in charts",
+        "summary": "Azeem Azhar 图解 Anthropic 的 S-1 文件，指出公司已从实验室变成有现金流和资金的业务，看起来能走向可靠盈利。增长仍高但放缓，超过 80% 的营收来自发布不到六个月的模型；Q3 因向基金会付款可能出现边际亏损，客户集中度问题不大。",
+        "source": {
+          "name": "Azeem Azhar：Exponential View（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/xhwtx8zwvvmyou5emtd3dbzbn",
+          "original": "https://www.exponentialview.co/p/anthropics-s-1-in-charts"
+        },
+        "publishedAt": "2026-10-27T17:31:56.000Z",
+        "discoveredAt": "2026-10-27T17:57:39.625Z",
+        "category": "opinion",
+        "score": 77,
+        "selected": true,
+        "reason": "作者基于 S-1 图表数据拆解 Anthropic 从实验室转向盈利业务的路径，并指出增长放缓与新模式贡献 80% 营收等约束。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/xhwtx8zwvvmyou5emtd3dbzbn"
+        }
+      },
+      {
+        "id": "vx4t4ldzajj3lhb8luhg9dy9s",
+        "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
+        "originalTitle": "Introducing LFM3: Every Modality for Specialized Intelligence",
+        "summary": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
+        "source": {
+          "name": "Liquid AI 模型与工程博客（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
+          "original": "https://www.liquid.ai/blog/lfm3"
+        },
+        "publishedAt": "2026-10-26T16:00:00.000Z",
+        "discoveredAt": "2026-10-27T17:50:40.510Z",
+        "category": "ai-models",
+        "score": 69,
+        "selected": true,
+        "reason": "发布方给出了六款 2B 级模型的架构细节、基准对比和单卡微调路径，读者可据此评估边缘侧专用模型的选型。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s"
+        }
+      },
+      {
+        "id": "l63udrrcunv0qy04ve4s71g02",
+        "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
+        "originalTitle": "How We Built Our Design Agent",
+        "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
+        "source": {
+          "name": "LangChain：Blog（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02",
+          "original": "https://www.langchain.com/blog/design-agent"
+        },
+        "publishedAt": "2026-10-27T16:45:00.000Z",
+        "discoveredAt": "2026-10-27T17:30:39.617Z",
+        "category": "tip",
+        "score": 71,
+        "selected": true,
+        "reason": "LangChain 复盘自研设计 agent 从早期差评到可用的过程，并开源了 harness，读者可借鉴其教品味、建环境和异步子代理的具体做法。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02"
+        }
+      },
+      {
+        "id": "zbp5qzehshqnvgimabeu27cb1",
+        "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
+        "originalTitle": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+        "summary": "OpenAI 宣布扩大与 Oracle 的合作，将 Oracle 应用和数据接入 ChatGPT，并用 OpenAI 模型驱动 Oracle 新产品。",
+        "source": {
+          "name": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/zbp5qzehshqnvgimabeu27cb1",
+          "original": "https://openai.com/index/oracle-apps-in-chatgpt"
+        },
+        "publishedAt": "2026-10-27T07:00:00.000Z",
+        "discoveredAt": "2026-10-27T17:18:41.357Z",
+        "category": "industry",
+        "score": 60,
+        "selected": true,
+        "reason": "原文来自 OpenAI 官方宣布，列出了合作的具体产品和 Oracle 的使用数据，可了解企业级 Agent 集成的落地形态。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/zbp5qzehshqnvgimabeu27cb1"
+        }
+      },
+      {
+        "id": "zd8g1y3609zl72lnwis70owqt",
+        "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+        "originalTitle": "走向高效可信的文档智能｜MiniCPM家族首个OCR系列模型发布并开源",
+        "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
+        "source": {
+          "name": "公众号：面壁智能（MiniCPM）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
+          "original": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499654&idx=1&sn=9bcbf9492c492a5d5e611af41670425f"
+        },
+        "publishedAt": "2026-10-28T11:38:17.000Z",
+        "discoveredAt": "2026-10-28T11:49:52.518Z",
+        "category": "ai-models",
+        "score": 66,
+        "selected": true,
+        "reason": "原文给出双 SOTA 得分、吞吐实测与免检比例数据，并首次引入独立的解析结果判别模型，可用于评估文档解析落地方案。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt"
+        }
+      },
+      {
+        "id": "x9a9nhbuq2ncarw5i41jhryjc",
+        "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
+        "originalTitle": "Anthropic’s elaborate plan to keep Wall Street at bay",
+        "summary": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。",
+        "source": {
+          "name": "The Verge：AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/x9a9nhbuq2ncarw5i41jhryjc",
+          "original": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+        },
+        "publishedAt": "2026-10-27T16:51:22.000Z",
+        "discoveredAt": "2026-10-27T16:54:39.484Z",
+        "category": "industry",
+        "score": 79,
+        "selected": true,
+        "reason": "文章拆解了 Anthropic IPO 文件中的长期受益信托和 Founder LLC 等机制，并引用多位法学专家指出这些安全护盾的边界与隐患。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/x9a9nhbuq2ncarw5i41jhryjc"
+        }
+      },
+      {
+        "id": "p92a4pkxkheznj9nmt50o08l6",
+        "title": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定",
+        "originalTitle": "Can we trust LLMs to judge whether a research idea is novel?",
+        "summary": "Ai2 发布研究 Old Ideas, Novel Problems、配套 benchmark、数据、代码和自动化流水线，测试 LLM 作为研究想法新颖性裁判的可靠性。",
+        "source": {
+          "name": "Ai2 / Allen Institute for AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6",
+          "original": "https://allenai.org/blog/novelty-bench"
+        },
+        "publishedAt": "2026-10-27T08:00:00.000Z",
+        "discoveredAt": "2026-10-27T16:38:42.978Z",
+        "category": "paper",
+        "score": 64,
+        "selected": true,
+        "reason": "原文给出了跨六个 LLM 裁判的敏感性实验数据，读者可据此判断现有新颖性评估在 AI 生成想法上的可靠性边界。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6"
+        }
+      },
+      {
+        "id": "l74eacnb38ytvm5hm8om7h7cs",
+        "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+        "originalTitle": "Genie 4: A new generation of world simulation",
+        "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
+        "source": {
+          "name": "Google DeepMind：Blog（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+          "original": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        },
+        "publishedAt": "2026-10-27T16:01:38.000Z",
+        "discoveredAt": "2026-10-27T16:09:41.747Z",
+        "category": "ai-models",
+        "score": 73,
+        "selected": true,
+        "reason": "官方完整说明了 Genie 4 的实时交互、原生音频和与 Gemini 协作机制，也坦陈当前在长时一致性和物理精度上的局限。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs"
+        }
+      },
+      {
+        "id": "qoz4pwew5rsp1idirgbhtpj9d",
+        "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
+        "originalTitle": "Anyone can now bring their ideas into the company codebase",
+        "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
+        "source": {
+          "name": "Replit：Blog（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d",
+          "original": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
+        },
+        "publishedAt": "2026-10-27T15:30:00.000Z",
+        "discoveredAt": "2026-10-27T16:03:42.678Z",
+        "category": "ai-products",
+        "score": 68,
+        "selected": true,
+        "reason": "官方介绍 Cloud Agents 如何让非工程人员以经测试的 PR 参与公司代码库，含沙盒测试、skills 沉淀与共享环境等机制。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d"
+        }
+      },
+      {
+        "id": "o5s4s2z9njz29hgd7im06gzrf",
+        "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
+        "originalTitle": "Verified AI just had its greatest month.",
+        "summary": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
+        "source": {
+          "name": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf",
+          "original": "https://x.com/rohanpaul_ai/status/2115224910603890778"
+        },
+        "publishedAt": "2026-10-27T23:31:32.000Z",
+        "discoveredAt": "2026-10-27T23:45:11.650Z",
+        "category": "industry",
+        "score": 76,
+        "selected": true,
+        "reason": "原文汇总了 AI 智能体集群形式化验证有限单群分类定理的规模数据，可作为观察形式化验证能力进展的一个参照点。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf"
+        }
+      }
+    ],
+    "page": {
+      "count": 20,
+      "hasMore": false,
+      "nextCursor": null
+    }
+  },
+  "all_24h": {
+    "schemaVersion": 1,
+    "query": {
+      "mode": "all",
+      "category": null,
+      "window": "24h",
+      "q": null,
+      "by": "timeline",
+      "ordering": "timelineDesc"
+    },
+    "items": [
+      {
+        "id": "h7jfsvgpk7cgxdsm5b7hjhbgo",
+        "title": "Artificial Analysis 新版 Intelligence Index 扩大开源与闭源模型差距",
+        "originalTitle": "New Artificial Analysis index widens the gap between open and closed models",
+        "summary": "Artificial Analysis 改版其 Intelligence Index 至版本 5，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分。",
+        "source": {
+          "name": "The Decoder：AI News（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/h7jfsvgpk7cgxdsm5b7hjhbgo",
+          "original": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/"
+        },
+        "publishedAt": "2026-10-28T15:04:43.000Z",
+        "discoveredAt": "2026-10-28T15:21:26.913Z",
+        "category": "ai-models",
+        "score": 61,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/h7jfsvgpk7cgxdsm5b7hjhbgo"
+        }
+      },
+      {
+        "id": "vw5e29kdh3q3qp3xq7bs3zzr5",
+        "title": "英国和欧盟用户如何拒绝 Meta 将其内容用于 AI 训练",
+        "originalTitle": "If You're In the UK or EU, Here's How to Object to Meta's AI Training",
+        "summary": "404 Media 介绍了英国和欧盟用户拒绝 Meta 将其内容用于 AI 训练的操作方法。Meta 早前更新商业条款允许用业务账号内容训练 AI，生效日期因反弹从 10 月 30 日推迟到 11 月 20 日，并从允许用途中移除了 train 一词。",
+        "source": {
+          "name": "404 Media（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/vw5e29kdh3q3qp3xq7bs3zzr5",
+          "original": "https://www.404media.co/meta-ai-training-uk-eu/"
+        },
+        "publishedAt": "2026-10-28T14:18:35.000Z",
+        "discoveredAt": "2026-10-28T15:14:24.372Z",
+        "category": "tip",
+        "score": 61,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/vw5e29kdh3q3qp3xq7bs3zzr5"
+        }
+      },
+      {
+        "id": "ohxqwn3vtc7g1l8pwp85lkzcj",
+        "title": "Meta 更新商业条款允许用业务账号内容训练 AI，英国和欧盟用户可提交反对",
+        "originalTitle": "Objection, your honor",
+        "summary": "404 Media 介绍了 Meta 为商业账号更新的商业条款，允许使用关联域名和 URL 的内容来开发、改进和训练其产品，原定 10 月 30 日生效，在反弹后推迟至 11 月 20 日，并从允许用途中删去“train”一词、限制为广告和商业产品。英国和欧盟用户可通过 Instagram 账号的隐私中心点击“object”提交反对表单，有用户收到 Meta 批准反对的邮件。",
+        "source": {
+          "name": "404 Media（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ohxqwn3vtc7g1l8pwp85lkzcj",
+          "original": "https://www.404media.co/objection-your-honor/"
+        },
+        "publishedAt": "2026-10-28T14:41:07.000Z",
+        "discoveredAt": "2026-10-28T15:14:24.354Z",
+        "category": "industry",
+        "score": 61,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ohxqwn3vtc7g1l8pwp85lkzcj"
+        }
+      },
+      {
+        "id": "o6vtsm2l2bnclssa056s4lmve",
+        "title": "Unify 用 AI 筛选外呼对象并自动找号码",
+        "originalTitle": "Every year, someone says AI is about to make cold calling obsolete.",
+        "summary": "Unify 反向押注 AI 外呼：由 AI 依据融资、招聘、换工作或网站访问等购买信号挑选联系人，覆盖 65M+ 家公司，并从 7+ 数据源获取号码，再连同背景信息载入 Power Dialer，由真人完成通话。",
+        "source": {
+          "name": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/o6vtsm2l2bnclssa056s4lmve",
+          "original": "https://x.com/rohanpaul_ai/status/2115456469940437235"
+        },
+        "publishedAt": "2026-10-28T14:51:40.000Z",
+        "discoveredAt": "2026-10-28T15:11:27.801Z",
+        "category": "opinion",
+        "score": 40,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/o6vtsm2l2bnclssa056s4lmve"
+        }
+      },
+      {
+        "id": "b3ikymqf9x5hwgkg9jnl7ysid",
+        "title": "Anthropic 2026 上半年收入接近 2023 全年的 400 倍，远超其他科技巨头上市前增速",
+        "originalTitle": "Anthropic’s revenue curve will be folklore.",
+        "summary": "Rohan Paul 转引 Bloomberg 图表称，Anthropic 2026 上半年收入接近其 2023 全年的 400 倍，图中没有其他公司接近这一倍数。Nvidia 作为曲线第二陡的公司，上市前三年不足 50 倍，Alphabet、Meta、Microsoft 和 SpaceX 几乎停留在 1x 基线。Anthropic 2025 全年收入约为 2023 的 100 倍，即 2026 上半年约为 2025 全年的 4 倍。",
+        "source": {
+          "name": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/b3ikymqf9x5hwgkg9jnl7ysid",
+          "original": "https://x.com/rohanpaul_ai/status/2115460073665478726"
+        },
+        "publishedAt": "2026-10-28T15:05:59.000Z",
+        "discoveredAt": "2026-10-28T15:11:27.792Z",
+        "category": "opinion",
+        "score": 61,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/b3ikymqf9x5hwgkg9jnl7ysid"
+        }
+      },
+      {
+        "id": "we7dcjboqgfcl56pxzdhxfm8m",
+        "title": "OpenAI 法国 DevDay：Codex 用户激增",
+        "originalTitle": "Excited to kickoff our DevDay Exchange in France, and you all are building with AI!! 🇫🇷",
+        "summary": "很高兴在法国启动我们的 DevDay Exchange，你们都在用 AI 构建产品！！🇫🇷\n\n> 自 2026 年初以来，Codex 周活跃用户增长超过 14 倍\n> 过去一年，ChatGPT Business 席位增长近 70%\n> 自推出以来，work 用户数增长了两倍\n\n法国现在已跻身 OpenAI API 活跃开发者全球前十。\n\n哦对了，也恭喜 codex micro 的获奖者们 ;)\n\n冲啊！！🚀",
+        "source": {
+          "name": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/we7dcjboqgfcl56pxzdhxfm8m",
+          "original": "https://x.com/reach_vb/status/2115454782290723045"
+        },
+        "publishedAt": "2026-10-28T14:44:58.000Z",
+        "discoveredAt": "2026-10-28T15:11:27.784Z",
+        "category": "industry",
+        "score": 35,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/we7dcjboqgfcl56pxzdhxfm8m"
+        }
+      },
+      {
+        "id": "muw7172jyoxsglx3g6nldzvet",
+        "title": "xAI 拟收购密西西比 Southaven 418 套房屋，条件是居民放弃起诉其数据中心噪音",
+        "originalTitle": "xAI is buying out homeowners who promise not to sue over data center noise",
+        "summary": "据 The Guardian 报道，xAI 子公司 MZX 正在密西西比州 Southaven 收购房屋，条件是房主签署免责协议、放弃加入指控其数据中心和燃气轮机产生持续噪音与震动的诉讼，据报道计划收购 418 套，已有 18 户打算出售，租房者称在房东同意出售后收到 60 天搬离通知。",
+        "source": {
+          "name": "The Verge：AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/muw7172jyoxsglx3g6nldzvet",
+          "original": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit"
+        },
+        "publishedAt": "2026-10-28T14:44:00.000Z",
+        "discoveredAt": "2026-10-28T15:11:23.581Z",
+        "category": "industry",
+        "score": 74,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/muw7172jyoxsglx3g6nldzvet"
+        }
+      },
+      {
+        "id": "srpags9ndyun8flqx8gowak00",
+        "title": "PixVerse 2026 光影大赛倒计时3天",
+        "originalTitle": "FINAL_final_ v7. mp4",
+        "summary": "FINAL_final_ v7. mp4\n听着耳熟吗？\n\nPixLight 2026 还剩 3 天。\n该收尾并提交了。\n30 万美元奖金。\n\n符合条件的付费 PixVerse 会员：符合条件的 Pilot Track 积分 100% 返还，最高 10 万。\n\n适用条款与条件。\n\n提交链接见下方。",
+        "source": {
+          "name": "X：PixVerse (@PixVerse)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/srpags9ndyun8flqx8gowak00",
+          "original": "https://x.com/PixVerse/status/2115458623661068747"
+        },
+        "publishedAt": "2026-10-28T15:00:13.000Z",
+        "discoveredAt": "2026-10-28T15:07:29.661Z",
+        "category": "industry",
+        "score": 22,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/srpags9ndyun8flqx8gowak00"
+        }
+      },
+      {
+        "id": "z6zevnhd6cjajbpxoxsa6bdpb",
+        "title": "Gartner 调研：仅 3% 企业通过 AI 实现节约成本、提高生产力目标",
+        "originalTitle": null,
+        "summary": "IT之家援引 TechRadar 报道，Gartner 调研显示仅 3% 企业通过 AI 实现了提高生产力、降低运营成本等目标。四分之三企业领导者预计 AI 将对技术领域产生重大影响，尽管 38% 的企业已超出预算，仍有 85% 计划在 2027 年增加 AI 支出。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/z6zevnhd6cjajbpxoxsa6bdpb",
+          "original": "https://www.ithome.com/1/019/207.htm"
+        },
+        "publishedAt": "2026-10-28T14:46:20.083Z",
+        "discoveredAt": "2026-10-28T15:07:24.984Z",
+        "category": "industry",
+        "score": 59,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/z6zevnhd6cjajbpxoxsa6bdpb"
+        }
+      },
+      {
+        "id": "rwosr1j8i0j3c6yxornmjeeht",
+        "title": "Unsloth 让本地 LLM 自主操控浏览器",
+        "originalTitle": "Your local LLM can now take control of a browser and complete tasks autonomously via Unsloth!",
+        "summary": "你的本地 LLM 现在可以通过 Unsloth 接管浏览器并自主完成任务！\n\nQwen3.8-27B 成功操控浏览器完成了下棋、绘画等任务，全程无需人工干预。\n\nGitHub：https://github.com/unslothai/unsloth\n指南：https://unsloth.ai/docs/basics/browser-use",
+        "source": {
+          "name": "X：Unsloth (@UnslothAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/rwosr1j8i0j3c6yxornmjeeht",
+          "original": "https://x.com/UnslothAI/status/2115453111208919472"
+        },
+        "publishedAt": "2026-10-28T14:38:19.000Z",
+        "discoveredAt": "2026-10-28T14:40:30.979Z",
+        "category": "ai-products",
+        "score": 50,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/rwosr1j8i0j3c6yxornmjeeht"
+        }
+      },
+      {
+        "id": "w8px8ax9konwvv3xg4qj9kr1r",
+        "title": "Kling 4.0 上线 PixVerse",
+        "originalTitle": "Kling 4.0 just landed on PixVerse,",
+        "summary": "Kling 4.0 刚刚上线 PixVerse，\n\n→ 单次生成最长可达 30 秒，无需拼接\n→ 在多镜头场景中保持角色一致\n→ 在高速动作和复杂运镜中获得稳定运动\n\n完整提示词见下方",
+        "source": {
+          "name": "X：PixVerse (@PixVerse)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/w8px8ax9konwvv3xg4qj9kr1r",
+          "original": "https://x.com/PixVerse/status/2115435993704853526"
+        },
+        "publishedAt": "2026-10-28T13:30:18.000Z",
+        "discoveredAt": "2026-10-28T14:37:20.262Z",
+        "category": "ai-products",
+        "score": 39,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/w8px8ax9konwvv3xg4qj9kr1r"
+        }
+      },
+      {
+        "id": "ru6d25zqm13kc8i2f7e33j4ao",
+        "title": "AtomicChat 实测 MiniCPM-OCR 1.0 在 MacBook 上本地解析 Anthropic 全部 415 页 S-1 文件",
+        "originalTitle": "Huge thanks to @atomic_chat_hq for the awesome demo! 🙌",
+        "summary": "OpenBMB 转发并感谢 @atomic_chat_hq 的演示：该演示在 M5 Max MacBook 上本地运行 MiniCPM-OCR 1.0，处理 Anthropic S-1 文件全部 415 页，1.2GB 模型约每页 4 秒，数据全程不离开设备。GGUF 权重已发布在 huggingface.co/AtomicChat/MiniCPM-OCR-1.0-GGUF。",
+        "source": {
+          "name": "X：面壁智能 OpenBMB (@OpenBMB)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ru6d25zqm13kc8i2f7e33j4ao",
+          "original": "https://x.com/OpenBMB/status/2115433341226745861"
+        },
+        "publishedAt": "2026-10-28T13:19:46.000Z",
+        "discoveredAt": "2026-10-28T14:37:20.253Z",
+        "category": "ai-models",
+        "score": 55,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ru6d25zqm13kc8i2f7e33j4ao"
+        }
+      },
+      {
+        "id": "om6ecr204riamm4jukwwpbpsn",
+        "title": "面壁智能发布 LES 推理系统，让 MiniCPM-V 4.7 的 35B-A3B MoE 模型在手机上实时推理",
+        "originalTitle": "📱 35B parameters. Real-time inference. On a phone.",
+        "summary": "OpenBMB 发布 Lookahead Expert Scheduling（LES）推理系统，用于在端侧运行 MiniCPM-V 4.7 的 35B-A3B MoE 模型。",
+        "source": {
+          "name": "X：面壁智能 OpenBMB (@OpenBMB)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/om6ecr204riamm4jukwwpbpsn",
+          "original": "https://x.com/OpenBMB/status/2115443643800825938"
+        },
+        "publishedAt": "2026-10-28T14:00:42.000Z",
+        "discoveredAt": "2026-10-28T14:37:20.247Z",
+        "category": "ai-products",
+        "score": 53,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/om6ecr204riamm4jukwwpbpsn"
+        }
+      },
+      {
+        "id": "qoa3na27yq9gjy95xwwaopsk7",
+        "title": "面壁智能开源 MiniCPM-OCR 系列，文档解析与 OCR 结果可靠性评估配套",
+        "originalTitle": "📄 Parsing documents is only half the job. Knowing which outputs need a second look matters too. 🔍",
+        "summary": "OpenBMB 开源 MiniCPM-OCR 系列模型，把文档解析与 OCR 结果可靠性评估配套提供。MiniCPM-OCR 1.0 是 1.3B 参数的中英文文档解析模型，支持扫描页、拍照文档、倾斜和弯曲页面，可处理表格、公式、PDF 和关键信息抽取，并支持查看 Markdown 源码与预览解析结果；MiniCPM-OCR Jev 是独立模型，用于评估 OCR 结果可靠性，帮助识别需要人工复核的输出。模型权重开放在 GitHub 和 Hugging Face，支持多种部署方式。",
+        "source": {
+          "name": "X：面壁智能 OpenBMB (@OpenBMB)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qoa3na27yq9gjy95xwwaopsk7",
+          "original": "https://x.com/OpenBMB/status/2115443971338207396"
+        },
+        "publishedAt": "2026-10-28T14:02:00.000Z",
+        "discoveredAt": "2026-10-28T14:37:20.240Z",
+        "category": "ai-models",
+        "score": 50,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qoa3na27yq9gjy95xwwaopsk7"
+        }
+      },
+      {
+        "id": "nfbjc9vk011buvk2qm57fxzf2",
+        "title": "面壁 MiniCPM-OCR 1.0 在 Mac 本地处理 Anthropic S-1 全 415 页",
+        "originalTitle": "📄 Long documents, local processing.Great to see @atomic_chat_hq putting MiniCPM-OCR 1.0 to work on a Mac and sharing GGUFs with the comm...",
+        "summary": "面壁智能 OpenBMB 转发 @atomic_chat_hq 的实测演示：1.2GB 的 MiniCPM-OCR 1.0 在 M5 Max MacBook 上以每页约 4 秒的速度处理完 Anthropic S-1 全部 415 页，全程数据不离开本地。演示者已将 GGUF 版本分享至 Hugging Face（https://huggingface.co/AtomicChat/MiniCPM-OCR-1.0-GGUF）。",
+        "source": {
+          "name": "X：面壁智能 OpenBMB (@OpenBMB)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/nfbjc9vk011buvk2qm57fxzf2",
+          "original": "https://x.com/OpenBMB/status/2115445117540868297"
+        },
+        "publishedAt": "2026-10-28T14:06:33.000Z",
+        "discoveredAt": "2026-10-28T14:37:20.233Z",
+        "category": "ai-products",
+        "score": 59,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/nfbjc9vk011buvk2qm57fxzf2"
+        }
+      },
+      {
+        "id": "lmviabeigku8bddjvi1j84bkw",
+        "title": "VEED Dubbing 上线 fal 平台",
+        "originalTitle": "VEED Dubbing is now live on fal.",
+        "summary": "VEED Dubbing 现已在 fal 上线。\n\n- 可翻译视频，支持克隆语音和唇形同步。\n- Pro 版支持 94 种语言和 14 种地区口音，保留背景音频，并支持多说话人。\n- 提供目标口音和语音克隆强度控制。",
+        "source": {
+          "name": "X：fal (@fal)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/lmviabeigku8bddjvi1j84bkw",
+          "original": "https://x.com/fal/status/2115448482735522026"
+        },
+        "publishedAt": "2026-10-28T14:19:56.000Z",
+        "discoveredAt": "2026-10-28T14:23:20.516Z",
+        "category": "ai-products",
+        "score": 46,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/lmviabeigku8bddjvi1j84bkw"
+        }
+      },
+      {
+        "id": "b9f3h3iw6guzzgywhhfjlxuyp",
+        "title": "Simon Willison：2026 年 10 月是 vibe coding 游戏开发的拐点",
+        "originalTitle": "The October inflection point for vibe game development",
+        "summary": "Simon Willison 认为 2026 年 10 月是 vibe coding 游戏开发的拐点，他用 Claude Opus 5.5 以纯 vibe coding 方式做了四款自己真正爱玩的 HTML/JavaScript 浏览器游戏。",
+        "source": {
+          "name": "Simon Willison 博客"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/b9f3h3iw6guzzgywhhfjlxuyp",
+          "original": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+        },
+        "publishedAt": "2026-10-28T13:55:15.000Z",
+        "discoveredAt": "2026-10-28T14:12:14.750Z",
+        "category": "tip",
+        "score": 68,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/b9f3h3iw6guzzgywhhfjlxuyp"
+        }
+      },
+      {
+        "id": "i48ydhfark75ki4gs9eu6nese",
+        "title": "Waymo for Business 接入 Ramp 自动对账",
+        "originalTitle": "Expensing a work ride shouldn’t take longer than the trip.",
+        "summary": "报销工作行程本不该比行程本身还费时。\n\n正因如此，Waymo for Business 现已接入 @tryramp，你的行程收据会自动匹配到对应扣款。\n\n你的行程能自己搞定，现在收据也一样。",
+        "source": {
+          "name": "X：Waymo (@Waymo)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/i48ydhfark75ki4gs9eu6nese",
+          "original": "https://x.com/Waymo/status/2115443471225967069"
+        },
+        "publishedAt": "2026-10-28T14:00:01.000Z",
+        "discoveredAt": "2026-10-28T14:10:20.772Z",
+        "category": "ai-products",
+        "score": 26,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/i48ydhfark75ki4gs9eu6nese"
+        }
+      },
+      {
+        "id": "svvnjxhhncaxf94b2g9up589m",
+        "title": "MiniMax Code 团队开源日常 Agent 工作流与 Skills 合集 MCode Stack",
+        "originalTitle": "MiniMax Code @MiniMax_Code 团队把他们每天真正在用的 Agent 工作流和 Skills 开源出来了！",
+        "summary": "MiniMax Code 团队开源了 MCode Stack（github.com/MiniMax-AI/mcode-stack），包含团队日常构建 MiniMax Code 使用的 Agent 工作流和 Skills，可安装为 SKILL.md 插件接入 MiniMax Code 及任意支持 Skills 的 Agent。",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/svvnjxhhncaxf94b2g9up589m",
+          "original": "https://x.com/shao__meng/status/2115428696672866729"
+        },
+        "publishedAt": "2026-10-28T13:01:18.000Z",
+        "discoveredAt": "2026-10-28T14:09:38.111Z",
+        "category": "ai-products",
+        "score": 68,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/svvnjxhhncaxf94b2g9up589m"
+        }
+      },
+      {
+        "id": "vxbcxh0f4e045qyvczjbydd23",
+        "title": "CMU 11-768 客座讲座：Zhiruo Wang 讲 AI Agents for Human Work，榜单高分不等于顶人类工作",
+        "originalTitle": "CMU 11-768: AI Agents 课程最新发布了一堂客座讲座",
+        "summary": "CMU 11-768: AI Agents 课程发布客座讲座，由 Zhiruo Wang 主讲「AI Agents for Human Work」，讲义见 https://www.cmu-agents.com/slides/2026-10-27-zora-wang.pdf。",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/vxbcxh0f4e045qyvczjbydd23",
+          "original": "https://x.com/shao__meng/status/2115431302845628429"
+        },
+        "publishedAt": "2026-10-28T13:11:40.000Z",
+        "discoveredAt": "2026-10-28T14:09:38.104Z",
+        "category": "tip",
+        "score": 56,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/vxbcxh0f4e045qyvczjbydd23"
+        }
+      },
+      {
+        "id": "g3i9pg128xb7i24pjajwag8c8",
+        "title": "Apple Creator Studio 大更新：剪辑、图像、音乐、办公加入 AI，办公三件套支持 MCP 和 .keyx 开放格式",
+        "originalTitle": "Apple Creator Studio 大更新：剪辑、图像、音乐、办公一起加上 AI，办公还能被外部 Agent 操作",
+        "summary": "Apple 更新 Creator Studio，沿三条路线推进：将 MotionVFX、Content Hub 素材、Logic 声音浏览等专业内容收进订阅权益。",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/g3i9pg128xb7i24pjajwag8c8",
+          "original": "https://x.com/shao__meng/status/2115436497029730538"
+        },
+        "publishedAt": "2026-10-28T13:32:18.000Z",
+        "discoveredAt": "2026-10-28T14:09:38.094Z",
+        "category": "ai-products",
+        "score": 68,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/g3i9pg128xb7i24pjajwag8c8"
+        }
+      },
+      {
+        "id": "vzrq00877mv7z8p3xlfo91dv4",
+        "title": "前 GitHub CEO 创办 Entire：为人机协作写代码重做的 Git 托管平台",
+        "originalTitle": "Entire：专为「人和 Agent 一起写代码」做的新一代 Git 托管",
+        "summary": "前 GitHub CEO 创办的 Entire 推出面向人和 Agent 协作写代码的 Git 托管平台，用 Trail 代替以 diff 为主的 PR 时间线，每次推送由评审 Agent 在沙箱打分并置顶关键信息。",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/vzrq00877mv7z8p3xlfo91dv4",
+          "original": "https://x.com/shao__meng/status/2115439137407009193"
+        },
+        "publishedAt": "2026-10-28T13:42:47.000Z",
+        "discoveredAt": "2026-10-28T14:09:38.084Z",
+        "category": "ai-products",
+        "score": 66,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/vzrq00877mv7z8p3xlfo91dv4"
+        }
+      },
+      {
+        "id": "sxc3am89clt90dh8x8tm4enjm",
+        "title": "商汤开源 SenseNova 6.8 Code2Video：用代码生成短视频",
+        "originalTitle": "🎬 𝗗𝗲𝘀𝗰𝗿𝗶𝗯𝗲 𝘆𝗼𝘂𝗿 𝗶𝗱𝗲𝗮. 𝗔𝗜 𝘄𝗿𝗶𝘁𝗲𝘀 𝘁𝗵𝗲 𝗰𝗼𝗱𝗲. 𝗧𝗵𝗲 𝗰𝗼𝗱𝗲 𝗿𝗲𝗻𝗱𝗲𝗿𝘀 𝘁𝗵𝗲 𝘃𝗶𝗱𝗲𝗼.",
+        "summary": "商汤发布并开源 SenseNova 6.8 Code2Video 轻量级模型，通过生成可执行代码来创作和渲染短视频。模型权重和 Skill 已在 Hugging Face 和 GitHub 开放下载，并附上每条演示视频的提示词与完整生成轨迹；官方称未来将探索视频编辑、动画和 3D 创建。",
+        "source": {
+          "name": "X：商汤 SenseTime (@SenseTime_AI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/sxc3am89clt90dh8x8tm4enjm",
+          "original": "https://x.com/SenseTime_AI/status/2115445835068748044"
+        },
+        "publishedAt": "2026-10-28T14:09:24.000Z",
+        "discoveredAt": "2026-10-28T14:09:38.073Z",
+        "category": "ai-models",
+        "score": 57,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/sxc3am89clt90dh8x8tm4enjm"
+        }
+      },
+      {
+        "id": "e6tt10910m9i69f6gjl9c3y26",
+        "title": "Nathan Lambert 谈私有与开源基准之争",
+        "originalTitle": "Private benchmarks often show open models are further behind, but the problem with private benchmarks is you don’t have the community to ...",
+        "summary": "私有基准测试往往显示开源模型落后更多，但私有基准的问题在于，你没有社区帮你压掉那些不可避免的 bug。私有还是开源才是最佳方案，我五五开。",
+        "source": {
+          "name": "X：Nathan Lambert (@natolambert)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/e6tt10910m9i69f6gjl9c3y26",
+          "original": "https://x.com/natolambert/status/2115437422146130032"
+        },
+        "publishedAt": "2026-10-28T13:35:59.000Z",
+        "discoveredAt": "2026-10-28T14:04:32.594Z",
+        "category": "opinion",
+        "score": 30,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/e6tt10910m9i69f6gjl9c3y26"
+        }
+      },
+      {
+        "id": "ms5dasuj2bqfjn02f83hrb718",
+        "title": "Mistral 推出 Responses API 公测",
+        "originalTitle": "Today, we’re introducing the Responses API in public preview, made for building agents on Mistral.",
+        "summary": "今天，我们推出 Responses API 公开预览版，专为在 Mistral 上构建智能体而打造。\n\n每次响应都会将模型的回答、推理过程和工具调用作为独立条目返回，让你的应用比使用 Chat Completions 更轻松地处理每一步。\n\n它适用于 Mistral 托管的所有聊天模型，包括 Large 4。",
+        "source": {
+          "name": "X：Mistral AI (@MistralAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ms5dasuj2bqfjn02f83hrb718",
+          "original": "https://x.com/MistralAI/status/2115443720371814478"
+        },
+        "publishedAt": "2026-10-28T14:01:00.000Z",
+        "discoveredAt": "2026-10-28T14:04:32.587Z",
+        "category": "ai-products",
+        "score": 46,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ms5dasuj2bqfjn02f83hrb718"
+        }
+      },
+      {
+        "id": "pi7x4dkm0ii083vdk9drwdic8",
+        "title": "TechCrunch Founder Summit 开幕倒计时 7 天：门票最高省 $100",
+        "originalTitle": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+        "summary": "TechCrunch Founder Summit 将于 11 月 4 日在波士顿 SoWa Power Station 举办，距开幕仅剩 7 天，门票最高可省 $100。",
+        "source": {
+          "name": "TechCrunch：AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/pi7x4dkm0ii083vdk9drwdic8",
+          "original": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/"
+        },
+        "publishedAt": "2026-10-28T13:00:00.000Z",
+        "discoveredAt": "2026-10-28T13:58:26.274Z",
+        "category": null,
+        "score": 17,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/pi7x4dkm0ii083vdk9drwdic8"
+        }
+      },
+      {
+        "id": "z7c9pyq6sqz3umpw6p7krp8q6",
+        "title": "可灵AI成为动画电影《Minibots》独家技术伙伴",
+        "originalTitle": "Kling AI is teaming up with @EvoFilmsUK as the exclusive technology partner on Minibots, their upcoming animated feature.",
+        "summary": "可灵AI与EvoFilmsUK达成合作，成为动画电影《Minibots》的独家技术合作伙伴，该片由Kling 4.0提供技术支持。影片由John Adams执导、BAFTA提名制片人Diane Shorthouse制作，角色设计出自《花木兰》联合导演Tony Bancroft，编剧为《终结者3》的Michael Ferris，已在戛纳和TIFF电影市场亮相，定于2027年上映。",
+        "source": {
+          "name": "X：可灵 Kling AI (@Kling_ai)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/z7c9pyq6sqz3umpw6p7krp8q6",
+          "original": "https://x.com/Kling_ai/status/2115437409382932937"
+        },
+        "publishedAt": "2026-10-28T13:35:55.000Z",
+        "discoveredAt": "2026-10-28T13:40:29.885Z",
+        "category": "industry",
+        "score": 29,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/z7c9pyq6sqz3umpw6p7krp8q6"
+        }
+      },
+      {
+        "id": "vjw7ekte9oj14vymo48ibr74d",
+        "title": "Perplexity Computer 用 FiveM 打造 GTA VI 游戏内任务",
+        "originalTitle": "Fun project on Perplexity Computer: Asked it to design a GTA V mission where you vibecode GTA VI from an in-game phone while the devs cal...",
+        "summary": "Perplexity CEO 演示用 Perplexity Computer 设计了一个 GTA V 任务：玩家在游戏内手机上 vibecode GTA VI，同时被开发者报警追捕。",
+        "source": {
+          "name": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/vjw7ekte9oj14vymo48ibr74d",
+          "original": "https://x.com/AravSrinivas/status/2115435917708296406"
+        },
+        "publishedAt": "2026-10-28T13:30:00.000Z",
+        "discoveredAt": "2026-10-28T13:39:30.946Z",
+        "category": "tip",
+        "score": 44,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/vjw7ekte9oj14vymo48ibr74d"
+        }
+      },
+      {
+        "id": "dfkkqhssm1ykb62fr235vo4ru",
+        "title": "Artificial Analysis v5 与基准测试者的困境",
+        "originalTitle": "Artificial Analysis v5 and the benchmarker's dilemma",
+        "summary": "Artificial Analysis v5 发布，文章讨论基准测试者面临的困境：提升分数虽昂贵但有清晰打法，而在当前 AI 前沿打造有意义的基准却难得多。作者认为，语言模型的独立评估难度被严重低估。",
+        "source": {
+          "name": "Nathan Lambert：Interconnects（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/dfkkqhssm1ykb62fr235vo4ru",
+          "original": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers"
+        },
+        "publishedAt": "2026-10-28T12:58:39.000Z",
+        "discoveredAt": "2026-10-28T13:33:26.456Z",
+        "category": "opinion",
+        "score": 27,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/dfkkqhssm1ykb62fr235vo4ru"
+        }
+      },
+      {
+        "id": "ph60h37szim7y0ehek44m8sg9",
+        "title": "Meshy 为猫咪建模万圣节帽子并3D打印",
+        "originalTitle": "🐱 Sir Meowington is ready for Halloween. One fan. One look. 🎩🔮",
+        "summary": "🐱 Sir Meowington 已经准备好迎接万圣节了。一位粉丝。一个造型。🎩🔮\n\n看到最后——我们在 Meshy 里为他的帽子建模，并真实地3D打印了出来。看起来太酷了！！😼\n这个万圣节你会为你的宠物打印什么？",
+        "source": {
+          "name": "X：Meshy (@MeshyAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ph60h37szim7y0ehek44m8sg9",
+          "original": "https://x.com/MeshyAI/status/2115435920463638771"
+        },
+        "publishedAt": "2026-10-28T13:30:00.000Z",
+        "discoveredAt": "2026-10-28T13:31:33.251Z",
+        "category": null,
+        "score": 23,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ph60h37szim7y0ehek44m8sg9"
+        }
+      },
+      {
+        "id": "e13i9ph7wqh3kafl1os2vybgy",
+        "title": "OpenAI 员工称 Codex 在 Duo 上体验不错",
+        "originalTitle": "Ngl Codex on the Duo makes me consider getting one 😄",
+        "summary": "说实话，Codex 在 Duo 上让我都想买一台了 😄",
+        "source": {
+          "name": "X：Dominik Kundel（OpenAI 开发者体验，Codex） (@dkundel)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/e13i9ph7wqh3kafl1os2vybgy",
+          "original": "https://x.com/dkundel/status/2115425207905333701"
+        },
+        "publishedAt": "2026-10-28T12:47:26.000Z",
+        "discoveredAt": "2026-10-28T13:06:32.233Z",
+        "category": null,
+        "score": 25,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/e13i9ph7wqh3kafl1os2vybgy"
+        }
+      },
+      {
+        "id": "p82irpbr9w64cri3gv0h03j2e",
+        "title": "OpenAI 开发者展示 Duo 与自制游戏",
+        "originalTitle": "Can you tell @Dimillian is excited to show people his Duo and the game he's been building? 🤣",
+        "summary": "你能看出 @Dimillian 有多兴奋地想给大家展示他的 Duo 和他一直在做的游戏吗？🤣",
+        "source": {
+          "name": "X：Dominik Kundel（OpenAI 开发者体验，Codex） (@dkundel)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/p82irpbr9w64cri3gv0h03j2e",
+          "original": "https://x.com/dkundel/status/2115425844948549738"
+        },
+        "publishedAt": "2026-10-28T12:49:58.000Z",
+        "discoveredAt": "2026-10-28T13:06:32.226Z",
+        "category": null,
+        "score": 14,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/p82irpbr9w64cri3gv0h03j2e"
+        }
+      },
+      {
+        "id": "v2nseardpkyqdl3gnnyi8ff06",
+        "title": "MiniCPM5-2B 改造为结构化决策模型 Jev",
+        "originalTitle": "What if your model could make a structured choice instead of writing another paragraph? 🎯",
+        "summary": "开发者基于 OpenBMB 的 MiniCPM5-2B 微调出 System 1 决策模型 MiniCPM5-2B-Jev，输入文档和问题后直接返回预定义选项的概率，不生成自由文本。",
+        "source": {
+          "name": "X：面壁智能 OpenBMB (@OpenBMB)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/v2nseardpkyqdl3gnnyi8ff06",
+          "original": "https://x.com/OpenBMB/status/2115428701982908585"
+        },
+        "publishedAt": "2026-10-28T13:01:19.000Z",
+        "discoveredAt": "2026-10-28T13:05:33.272Z",
+        "category": "ai-products",
+        "score": 34,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/v2nseardpkyqdl3gnnyi8ff06"
+        }
+      },
+      {
+        "id": "mmtbuavdhktxllluo64i26utx",
+        "title": "Nathan Lambert 谈 Artificial Analysis v5 指数与基准评测行业",
+        "originalTitle": "Open models' demise has been greatly exaggerated, but the previous AA index did flatter them. As an industry we need more specific intell...",
+        "summary": "Nathan Lambert 发表对基准评测行业的 meta-review，认为开放模型被夸大了衰落，但此前 Artificial Analysis 的指数确实高估了它们。他提出行业需要更具体的智能指数，因为 LLM 被用于差异极大的任务，并附上 Interconnects 长文链接。",
+        "source": {
+          "name": "X：Nathan Lambert (@natolambert)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/mmtbuavdhktxllluo64i26utx",
+          "original": "https://x.com/natolambert/status/2115428494515777629"
+        },
+        "publishedAt": "2026-10-28T13:00:30.000Z",
+        "discoveredAt": "2026-10-28T13:02:30.522Z",
+        "category": "opinion",
+        "score": 53,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/mmtbuavdhktxllluo64i26utx"
+        }
+      },
+      {
+        "id": "q12xuluegg5hipf5mgcczp891",
+        "title": "1930年前数据训练模型的人格神经元实验",
+        "originalTitle": "There has been a bunch of really interesting experiments with activating individual neurons in open AI models, locking them into particul...",
+        "summary": "已有许多非常有趣的实验，通过激活开放 AI 模型中的单个神经元，将其锁定在特定人格上。\n\n这里，历史学家 @ResObscura 对一个仅用 1930 年前数据训练的模型尝试了同样的技巧，结果令人愉悦。",
+        "source": {
+          "name": "X：Ethan Mollick (@emollick)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/q12xuluegg5hipf5mgcczp891",
+          "original": "https://x.com/emollick/status/2115419671877062710"
+        },
+        "publishedAt": "2026-10-28T12:25:27.000Z",
+        "discoveredAt": "2026-10-28T12:50:33.221Z",
+        "category": "paper",
+        "score": 48,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/q12xuluegg5hipf5mgcczp891"
+        }
+      },
+      {
+        "id": "vlhg2hi5arkts8oyuvj7fzilx",
+        "title": "面壁智能 ForgeKernel 直播挑战 DeepSeek FlashMLA Prefill 手写算子",
+        "originalTitle": "AI 写算子，挑战人类手写巅峰",
+        "summary": "面壁智能将于 10 月 29 日上午 10:00 直播，由 ForgeKernel 基于 DeepSeek-V4.1 的真实推理负载现场生成、编译并跑分算子，正面挑战 DeepSeek 官方开源的 FlashMLA Prefill。后者运行于 DeepSeek 生产推理栈并驱动 DeepSeek-V4.1，被称为当前手写算子的顶尖水准。",
+        "source": {
+          "name": "公众号：面壁智能（MiniCPM）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/vlhg2hi5arkts8oyuvj7fzilx",
+          "original": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499663&idx=1&sn=b879302c82b0bd1e2e76647d593044af"
+        },
+        "publishedAt": "2026-10-28T12:25:51.000Z",
+        "discoveredAt": "2026-10-28T12:38:00.621Z",
+        "category": "tip",
+        "score": 42,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/vlhg2hi5arkts8oyuvj7fzilx"
+        }
+      },
+      {
+        "id": "qbo5kj0rokzgthb196jy06rl3",
+        "title": "Meta 悄然上线“AI 宠物日记”应用 Waddle World",
+        "originalTitle": "Meta quietly launched an ‘AI pet journal’ app",
+        "summary": "Meta 推出 16-bit 宠物养成应用 Waddle World，虚拟宠物可与用户对话并生成涂鸦来图解聊天内容，官方称其本质是“伪装成宠物的每日日记”。该应用免费，目前仅面向菲律宾成年用户开放，Meta 未说明是否推广至美国等市场。",
+        "source": {
+          "name": "The Verge：AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qbo5kj0rokzgthb196jy06rl3",
+          "original": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
+        },
+        "publishedAt": "2026-10-28T11:27:30.000Z",
+        "discoveredAt": "2026-10-28T12:10:17.700Z",
+        "category": "ai-products",
+        "score": 34,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qbo5kj0rokzgthb196jy06rl3"
+        }
+      },
+      {
+        "id": "zmj8nku42fp5aty92t4pl1016",
+        "title": "得州选民普遍反对数据中心，成为中期选举焦点议题",
+        "originalTitle": "Voters in Texas agree: They hate data centers",
+        "summary": "The Verge 报道，数据中心建设已成为得州中期选举的核心议题，8 月民调显示 57% 的得州人反对建设数据中心，多个团体组成 We the People Texas 联盟，据称代表多达 100 万选民。",
+        "source": {
+          "name": "The Verge：AI（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/zmj8nku42fp5aty92t4pl1016",
+          "original": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas"
+        },
+        "publishedAt": "2026-10-28T12:00:00.000Z",
+        "discoveredAt": "2026-10-28T12:10:17.670Z",
+        "category": "industry",
+        "score": 71,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/zmj8nku42fp5aty92t4pl1016"
+        }
+      },
+      {
+        "id": "x011gi6aygpnm7zm9uixn0ea2",
+        "title": "Gemini Notebook 将上线 Connectors，首发仅支持 Google Drive",
+        "originalTitle": "GOOGLE 🔥: Gemini Notebook will soon get Connectors! But there is a caveat: Google Drive will be the first, and the only, one available a...",
+        "summary": "Gemini Notebook 即将获得 Connectors 功能，首批仅支持 Google Drive，用户可直接在聊天中搜索 Drive 文件，也可按需关闭。该连接器会在工作区内检索并读取文档，原始文件保持不变。更多 Connectors 预计后续加入，但上线节奏尚不明确。",
+        "source": {
+          "name": "X：Testing Catalog (@testingcatalog)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/x011gi6aygpnm7zm9uixn0ea2",
+          "original": "https://x.com/testingcatalog/status/2115411600777650650"
+        },
+        "publishedAt": "2026-10-28T11:53:22.000Z",
+        "discoveredAt": "2026-10-28T12:07:23.629Z",
+        "category": "ai-products",
+        "score": 23,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/x011gi6aygpnm7zm9uixn0ea2"
+        }
+      },
+      {
+        "id": "n6o8v1amsogt9bcexjlrq5ttw",
+        "title": "OpenAI 开发者调侃卡拉OK式提示词",
+        "originalTitle": "Didn't expect to ever get prompts presented karaoke style 😂",
+        "summary": "没想到还能看到以卡拉OK风格呈现的提示词 😂",
+        "source": {
+          "name": "X：Dominik Kundel（OpenAI 开发者体验，Codex） (@dkundel)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/n6o8v1amsogt9bcexjlrq5ttw",
+          "original": "https://x.com/dkundel/status/2115407049089515852"
+        },
+        "publishedAt": "2026-10-28T11:35:17.000Z",
+        "discoveredAt": "2026-10-28T12:05:21.595Z",
+        "category": "tip",
+        "score": 26,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/n6o8v1amsogt9bcexjlrq5ttw"
+        }
+      },
+      {
+        "id": "ngpvswahez02rd7680x58gdhb",
+        "title": "菲尔兹奖得主邓煜：人类不能放弃自主思考给 AI 当狗",
+        "originalTitle": "菲尔兹奖得主邓煜提醒：人类不能放弃自主思考给 AI 当狗",
+        "summary": "菲尔兹奖得主、芝加哥大学教授邓煜近日在一场论坛上提醒，人类不能因有了 AI 就放弃自主思考，否则与动物无异，甘愿把思考权完全交给 AI 就是\"给 AI 做狗\"。他认为数学是检验人类自主思考与探索能力最纯粹的学科，并坚信 AI 时代数学绝不会消失。邓煜于 2026 年 7 月 23 日获菲尔兹奖，核心贡献是解决狭义希尔伯特第六问题。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ngpvswahez02rd7680x58gdhb",
+          "original": "https://www.ithome.com/1/019/155.htm"
+        },
+        "publishedAt": "2026-10-28T11:26:17.523Z",
+        "discoveredAt": "2026-10-28T12:00:17.072Z",
+        "category": "opinion",
+        "score": 29,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ngpvswahez02rd7680x58gdhb"
+        }
+      },
+      {
+        "id": "cvryp0rqa4d2bc8p6nk8lacod",
+        "title": "豆包工作上线录制回放功能，作者实测用它做电脑自动化 Skill",
+        "originalTitle": "豆包工作悄悄上线录制回放，就算Tibo不给重置我也能爽玩电脑自动化了",
+        "summary": "豆包工作新增了类似 Codex 的 record & replay 录制回放功能，用户可录制电脑操作并配语音讲解，由 AI 生成步骤并复刻，最长录制 30 分钟。作者实测发现它在用户占用窗口时会主动暂停而非重试，适合没有 API、跨多软件的工作流；作者还用它录制随机跨平台浏览节奏来采集小红书低粉爆款等内容，降低被风控检测的概率，并计划把 Codex 上做好的 skill 迁移过来以节省额度。",
+        "source": {
+          "name": "公众号：卡尔的AI沃茨"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/cvryp0rqa4d2bc8p6nk8lacod",
+          "original": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247512627&idx=1&sn=d39c9a21e22bf0c595347749ce8f719c"
+        },
+        "publishedAt": "2026-10-28T11:45:00.000Z",
+        "discoveredAt": "2026-10-28T11:59:08.561Z",
+        "category": "tip",
+        "score": 67,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/cvryp0rqa4d2bc8p6nk8lacod"
+        }
+      },
+      {
+        "id": "zd8g1y3609zl72lnwis70owqt",
+        "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+        "originalTitle": "走向高效可信的文档智能｜MiniCPM家族首个OCR系列模型发布并开源",
+        "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
+        "source": {
+          "name": "公众号：面壁智能（MiniCPM）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
+          "original": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499654&idx=1&sn=9bcbf9492c492a5d5e611af41670425f"
+        },
+        "publishedAt": "2026-10-28T11:38:17.000Z",
+        "discoveredAt": "2026-10-28T11:49:52.518Z",
+        "category": "ai-models",
+        "score": 66,
+        "selected": true,
+        "reason": "原文给出双 SOTA 得分、吞吐实测与免检比例数据，并首次引入独立的解析结果判别模型，可用于评估文档解析落地方案。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt"
+        }
+      },
+      {
+        "id": "sxaov74k08yh5pos4k46m16zq",
+        "title": "创作者阿米Amir用Kling 4.0实测温情短片《得闲饮茶》",
+        "originalTitle": "4.0实战测评室｜阿米Amir： 一支娓娓道来的慢片，验出Kling 4.0的整体成色",
+        "summary": "可灵AI实战测评室邀请创作者阿米Amir用Kling 4.0制作粤语温情短片《得闲饮茶》，检验其在慢节奏情感叙事上的表现。他反馈30秒原生输出、全能参考和多关键帧（最多10张图）让动作与节奏安排更有余地，12个角色资产的一致性比3.0更稳，粤语对白与口型匹配出色；相对3.0最长15秒，4.0升级到最长30秒，并新增21:9画幅。",
+        "source": {
+          "name": "公众号：可灵AI（快手·视频）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/sxaov74k08yh5pos4k46m16zq",
+          "original": "https://mp.weixin.qq.com/s?__biz=MzU5NTkwNDU2OA%3D%3D&mid=2247497294&idx=1&sn=b0786c6d35e19c7d9eec856799871125"
+        },
+        "publishedAt": "2026-10-28T11:12:46.000Z",
+        "discoveredAt": "2026-10-28T11:27:22.155Z",
+        "category": "tip",
+        "score": 62,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/sxaov74k08yh5pos4k46m16zq"
+        }
+      },
+      {
+        "id": "tzw8nu3aiejkls4fnvrfyi0ps",
+        "title": "James Shore 解析如何评估 AI 对软件开发的真实回报",
+        "originalTitle": "Are You Getting Your Money’s Worth From AI?",
+        "summary": "James Shore 在 O'Reilly Radar 发表系列文章首篇，介绍如何量化 AI 对软件开发的组织级影响，分四部分覆盖交付速度、负面后果和业务结果建模。",
+        "source": {
+          "name": "O'Reilly Radar（热点 RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/tzw8nu3aiejkls4fnvrfyi0ps",
+          "original": "https://www.oreilly.com/radar/are-you-getting-your-moneys-worth-from-ai/"
+        },
+        "publishedAt": "2026-10-28T10:54:18.000Z",
+        "discoveredAt": "2026-10-28T11:22:25.121Z",
+        "category": "tip",
+        "score": 56,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/tzw8nu3aiejkls4fnvrfyi0ps"
+        }
+      },
+      {
+        "id": "klkmnzle2z7p5y6cl477ce7sg",
+        "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
+        "originalTitle": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+        "summary": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
+        "source": {
+          "name": "The Decoder：AI News（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg",
+          "original": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/"
+        },
+        "publishedAt": "2026-10-28T10:56:24.000Z",
+        "discoveredAt": "2026-10-28T11:19:28.067Z",
+        "category": "industry",
+        "score": 77,
+        "selected": true,
+        "reason": "安全公司用 AI 智能体渗透 Anthropic 内部系统，双方对影响范围各执一词，可用作观察第三方软件安全短板的案例。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg"
+        }
+      },
+      {
+        "id": "hlzo912kzi3ltfvxlkandttt3",
+        "title": "Anthropic 工程经理：AI 时代新人拼的是创业式思维而非编码面试",
+        "originalTitle": "With AI writing the code, entrepreneurial thinking is now what counts most for newcomers at Anthropic",
+        "summary": "Anthropic 工程经理 Felix Rieseberg 认为小型编程测试已无意义，因为 Claude 做得比候选人更好，他在招聘中改看能体现品味、同理心和原则性思考的小原型。",
+        "source": {
+          "name": "The Decoder：AI News（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/hlzo912kzi3ltfvxlkandttt3",
+          "original": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/"
+        },
+        "publishedAt": "2026-10-28T11:15:00.000Z",
+        "discoveredAt": "2026-10-28T11:19:28.058Z",
+        "category": "opinion",
+        "score": 62,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/hlzo912kzi3ltfvxlkandttt3"
+        }
+      },
+      {
+        "id": "u1do7pdhga5yuj2nn6sjdygs6",
+        "title": "Terk Terkowitz：AI 工具帮不上你的工作，这是发现而非失败",
+        "originalTitle": "Quoting Terk Terkowitz",
+        "summary": "Amazon 工程领导层 Terk Terkowitz 在关于 AI 时代开发者角色的更新中表示，如果当前 AI 工具对你的工作没有帮助，那是一项发现，而不是失败。他建议记录原因、与同行社区分享、反馈给管理者并共同寻找解决方案，并称能说清 AI 在何处尚无法帮助工作的工程师，正展现了所期望的判断力。",
+        "source": {
+          "name": "Simon Willison 博客"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/u1do7pdhga5yuj2nn6sjdygs6",
+          "original": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
+        },
+        "publishedAt": "2026-10-28T10:09:07.000Z",
+        "discoveredAt": "2026-10-28T11:10:24.941Z",
+        "category": "opinion",
+        "score": 46,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/u1do7pdhga5yuj2nn6sjdygs6"
+        }
+      },
+      {
+        "id": "zicumeenaivdftlz3gxasj0ao",
+        "title": "美国银行提醒客户不要向 AI 助手透露网银密码",
+        "originalTitle": "美国银行警告客户：切勿将网银密码交给 AI 助手",
+        "summary": "据 Android Authority 报道，美国银行向客户发送题为《AI 时代的财务保护》的邮件，提醒不要向外部服务包括 AI 智能体分享网银用户名和密码，并表示分享凭据产生的责任由客户承担。摩根士丹利已开始屏蔽未经批准访问客户网银的第三方智能体，摩根大通和花旗银行也在收紧相关权限，责任归属难题尚无妥善解决方案。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/zicumeenaivdftlz3gxasj0ao",
+          "original": "https://www.ithome.com/1/019/146.htm"
+        },
+        "publishedAt": "2026-10-28T10:51:41.563Z",
+        "discoveredAt": "2026-10-28T11:06:26.604Z",
+        "category": "industry",
+        "score": 62,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/zicumeenaivdftlz3gxasj0ao"
+        }
+      },
+      {
+        "id": "qnrbm9tr5gpezlbgq82bzov78",
+        "title": "poteto 将管理 X 账号的 Grok Bot 模板 tibot 分享出来",
+        "originalTitle": "poteto 把自己用来管 X 账号的 Grok Bot tibot 分享成模板了：盯提及与关键词、按日程给短摘要、滤噪音、翻非英文，可选自动拉黑骚扰号。绝不代发帖；本人仍手写所有帖文与长文。",
+        "summary": "poteto 把自己用来管理 X 账号的 Grok Bot 模板 tibot 分享出来，安装入口为 https://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3。",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qnrbm9tr5gpezlbgq82bzov78",
+          "original": "https://x.com/shao__meng/status/2115392731333951528"
+        },
+        "publishedAt": "2026-10-28T10:38:23.000Z",
+        "discoveredAt": "2026-10-28T11:05:30.362Z",
+        "category": "tip",
+        "score": 61,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qnrbm9tr5gpezlbgq82bzov78"
+        }
+      },
+      {
+        "id": "tt8mv7pcnpyt4m0fg55kbmx2b",
+        "title": "把猎聘的机器人招聘顾问当 AI 助手用的一天 😅 也没碰到限额，就是回复有点慢，有点笨",
+        "originalTitle": "把猎聘的机器人招聘顾问当 AI 助手用的一天 😅",
+        "summary": "把猎聘的机器人招聘顾问当 AI 助手用的一天 😅 也没碰到限额，就是回复有点慢，有点笨",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/tt8mv7pcnpyt4m0fg55kbmx2b",
+          "original": "https://x.com/shao__meng/status/2115398317408768016"
+        },
+        "publishedAt": "2026-10-28T11:00:35.000Z",
+        "discoveredAt": "2026-10-28T11:05:30.355Z",
+        "category": "opinion",
+        "score": 21,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/tt8mv7pcnpyt4m0fg55kbmx2b"
+        }
+      },
+      {
+        "id": "f1jduzvjeu8qax7qdxf09zdxz",
+        "title": "Axiom 开源数十个 AI 智能体 24 天完成 15000 页有限单群分类定理形式化",
+        "originalTitle": "Axiom released an open-source GitHub repo where dozens of AI agents turned a 15,000-page math proof into about 43 million lines of code i...",
+        "summary": "Axiom 发布开源 GitHub 仓库，数十个 AI 智能体用 24 天把约 15000 页的有限单群分类定理（CFSG）数学证明转成约 4300 万行代码，该证明原本由 100 位数学家耗时数十年完成。代码用 Lean 编写，每一步可被机器验证，无需重读数百篇论文。Axiom 的图表显示 AI 编写的 Lean 项目自 2025 年中以来大约每 37 天规模翻倍。",
+        "source": {
+          "name": "X：Testing Catalog (@testingcatalog)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/f1jduzvjeu8qax7qdxf09zdxz",
+          "original": "https://x.com/testingcatalog/status/2115394156054933618"
+        },
+        "publishedAt": "2026-10-28T10:44:03.000Z",
+        "discoveredAt": "2026-10-28T11:05:30.174Z",
+        "category": "paper",
+        "score": 60,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/f1jduzvjeu8qax7qdxf09zdxz"
+        }
+      },
+      {
+        "id": "fb7jbiv0zka9c2o29062c3tyy",
+        "title": "某朋友： 软件黑客松这种互联网时代的老登活动，为什么有那么多AI时代的小登喜欢玩？ 也许现在应该搞科学黑客松，医疗黑客送。 我们手中握着核弹级别的智能，不应该只是想去做点软件产品。",
+        "originalTitle": "某朋友：",
+        "summary": "某朋友： 软件黑客松这种互联网时代的老登活动，为什么有那么多AI时代的小登喜欢玩？ 也许现在应该搞科学黑客松，医疗黑客送。 我们手中握着核弹级别的智能，不应该只是想去做点软件产品。",
+        "source": {
+          "name": "X：Oran Ge (@oran_ge)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/fb7jbiv0zka9c2o29062c3tyy",
+          "original": "https://x.com/oran_ge/status/2115393856615452789"
+        },
+        "publishedAt": "2026-10-28T10:42:52.000Z",
+        "discoveredAt": "2026-10-28T11:02:28.927Z",
+        "category": "opinion",
+        "score": 22,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/fb7jbiv0zka9c2o29062c3tyy"
+        }
+      },
+      {
+        "id": "lr76lqkjlzmltqeu7umnxiyg6",
+        "title": "Hermes Agent 用 Meshy 生成游戏 3D 资产",
+        "originalTitle": "⚔️ 1 prompt. 5 game-ready 3D assets. a top-down dungeon game.",
+        "summary": "⚔️ 1 条提示词。5 个可直接用于游戏的 3D 资产。一个俯视角地牢游戏。\nHermes Agent 端到端运行 Meshy：一个剑士英雄、2 个骷髅灯笼幽灵、一个罐子、一个宝箱、一支火把，英雄在 6 分钟内完成绑定和动画。\n🎮 全部 5 个都进了游戏，花费 191 credits。\n\n现在就在 Hermes 上构建你自己的吧。",
+        "source": {
+          "name": "X：Meshy (@MeshyAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/lr76lqkjlzmltqeu7umnxiyg6",
+          "original": "https://x.com/MeshyAI/status/2115391539564458455"
+        },
+        "publishedAt": "2026-10-28T10:33:39.000Z",
+        "discoveredAt": "2026-10-28T10:57:29.896Z",
+        "category": "ai-products",
+        "score": 44,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/lr76lqkjlzmltqeu7umnxiyg6"
+        }
+      },
+      {
+        "id": "j29vs8qze5vv19ag7ihren3lc",
+        "title": "写给 LLM 读者的强化学习术语：一个分数如何分到每个 token",
+        "originalTitle": "写给 LLM 读者的强化学习术语",
+        "summary": "马东锡 NLP 发布长文《写给 LLM 读者的强化学习术语》，用一个\"Is OpenAI open?\"的例子串讲 policy、state、action、reward、return、value、advantage 等 RL 术语。",
+        "source": {
+          "name": "X：马东锡 NLP (@dongxi_nlp)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/j29vs8qze5vv19ag7ihren3lc",
+          "original": "https://x.com/dongxi_nlp/status/2115389565628305715"
+        },
+        "publishedAt": "2026-10-28T10:25:49.000Z",
+        "discoveredAt": "2026-10-28T10:47:30.502Z",
+        "category": "tip",
+        "score": 46,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/j29vs8qze5vv19ag7ihren3lc"
+        }
+      },
+      {
+        "id": "pe3l9ndp7gkn1lexnq1vdokmp",
+        "title": "面向LLM读者的RL术语详解",
+        "originalTitle": "干的像沙漠般的一篇，关于 RL Terms.",
+        "summary": "干得像沙漠般的一篇，关于 RL Terms。\n\nRL 术语很多，且不好理解，例如：\npolicy、state、action\nreward、return、value、advantage\nbaseline、TD error、GAE\nclipping、KL\n\n这篇用一个例子把 RL 的术语写给 LLM 读者（依然太干了，RL 真的很难写得生动有趣）",
+        "source": {
+          "name": "X：马东锡 NLP (@dongxi_nlp)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/pe3l9ndp7gkn1lexnq1vdokmp",
+          "original": "https://x.com/dongxi_nlp/status/2115390983818944513"
+        },
+        "publishedAt": "2026-10-28T10:31:27.000Z",
+        "discoveredAt": "2026-10-28T10:47:30.495Z",
+        "category": "tip",
+        "score": 34,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/pe3l9ndp7gkn1lexnq1vdokmp"
+        }
+      },
+      {
+        "id": "qfmjhzvvizr286qqh1lh3je1f",
+        "title": "摩尔线程开源 Megatron-MUSA-Titan，聚焦万卡级集群万亿参数 MoE 模型训练",
+        "originalTitle": "摩尔线程开源 Megatron-MUSA-Titan，聚焦万卡级集群的万亿参数 MoE 模型训练",
+        "summary": "摩尔线程宣布开源大模型训练基础设施项目 Megatron-MUSA-Titan，基于其全功能 GPU，面向万卡级集群的万亿参数 MoE 模型训练，覆盖预训练与强化学习两大场景。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qfmjhzvvizr286qqh1lh3je1f",
+          "original": "https://www.ithome.com/1/019/131.htm"
+        },
+        "publishedAt": "2026-10-28T10:16:40.683Z",
+        "discoveredAt": "2026-10-28T10:39:26.142Z",
+        "category": "ai-products",
+        "score": 58,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qfmjhzvvizr286qqh1lh3je1f"
+        }
+      },
+      {
+        "id": "f8tl6tvd1a3tjxygdzyxz7qua",
+        "title": "小红书与 Rokid 合作：蜜薯 Personal Agent 如何用智能眼镜走进真实世界",
+        "originalTitle": "小红书 X Rokid 智能眼镜：让 Personal Agent 走进真实世界",
+        "summary": "小红书 2049 Lab 与 Rokid 合作，以智能眼镜为载体打造 AI 生活搭子“蜜薯”，在用户授权下按需感知现场，把大模型能力、社区经验与个人情境连接起来。文章介绍了蜜薯的整体架构，以及实时多模态全双工、Proactive 与 Memory 三部分如何协同支撑边看边聊的体验。团队还探讨了通向 Personal OS 的技术路径。",
+        "source": {
+          "name": "公众号：小红书技术（dots.llm）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/f8tl6tvd1a3tjxygdzyxz7qua",
+          "original": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496882&idx=1&sn=dbc2683bf7bd56abfb5982ec128b89ca"
+        },
+        "publishedAt": "2026-10-28T09:59:00.000Z",
+        "discoveredAt": "2026-10-28T10:38:32.660Z",
+        "category": "tip",
+        "score": 41,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/f8tl6tvd1a3tjxygdzyxz7qua"
+        }
+      },
+      {
+        "id": "oxpjn282r7lftdxfyd85wltno",
+        "title": "中国医生为 66 岁失明患者植入脑机接口，相机信号直连视觉皮层",
+        "originalTitle": "Doctors in China have implanted a brain-computer interface (BCI) in a 66-year-old woman blinded by retinitis pigmentosa, transmitting cam...",
+        "summary": "中国医生为一位因视网膜色素变性失明的 66 岁女性植入脑机接口（BCI），将相机信号直接传输到她的视觉皮层。她现在可以独立行走、阅读文字，并看清孙子长多高了。",
+        "source": {
+          "name": "X：X.PIN (@thexpin)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/oxpjn282r7lftdxfyd85wltno",
+          "original": "https://x.com/thexpin/status/2115385404182450482"
+        },
+        "publishedAt": "2026-10-28T10:09:16.000Z",
+        "discoveredAt": "2026-10-28T10:34:29.731Z",
+        "category": "industry",
+        "score": 72,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/oxpjn282r7lftdxfyd85wltno"
+        }
+      },
+      {
+        "id": "wv14q8aaf2uib6ca55pi0rbx2",
+        "title": "Nathan Lambert 谈 AAv5 指数与开源模型评测",
+        "originalTitle": "I feel a need to defend the AAv5 index and open models at the same time. Benchmarking is messier, more opinionated, and trickier than mos...",
+        "summary": "我觉得有必要同时为 AAv5 指数和开源模型辩护。基准评测比大多数人以为的更混乱、更主观，也更棘手。",
+        "source": {
+          "name": "X：Nathan Lambert (@natolambert)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/wv14q8aaf2uib6ca55pi0rbx2",
+          "original": "https://x.com/natolambert/status/2115388473507184867"
+        },
+        "publishedAt": "2026-10-28T10:21:28.000Z",
+        "discoveredAt": "2026-10-28T10:28:29.584Z",
+        "category": "opinion",
+        "score": 19,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/wv14q8aaf2uib6ca55pi0rbx2"
+        }
+      },
+      {
+        "id": "st5680seoxd9w4wpx5zytys2k",
+        "title": "苹果诉 OpenAI 案新进展：法官允许苹果扩大取证范围",
+        "originalTitle": null,
+        "summary": "苹果起诉 OpenAI 和 io Products 及两名前员工 Chang Liu、Tang Tan 窃取商业机密一案中，法官 Edward Davila 已批准苹果扩大取证范围，可提前获取部分内部文件、证据和员工证词。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/st5680seoxd9w4wpx5zytys2k",
+          "original": "https://www.ithome.com/1/019/089.htm"
+        },
+        "publishedAt": "2026-10-28T09:36:44.767Z",
+        "discoveredAt": "2026-10-28T10:12:25.804Z",
+        "category": "industry",
+        "score": 50,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/st5680seoxd9w4wpx5zytys2k"
+        }
+      },
+      {
+        "id": "y4wf0sv008ul59n2aezl6wu2v",
+        "title": "Liquid AI 发布 LFM3 模型家族，首批多款模型均基于 LFM3-1.7B-Base",
+        "originalTitle": "Liquid AI 发布 LFM3 模型家族，首批多款均基于 LFM3-1.7B-Base",
+        "summary": "Liquid AI 于当地时间 27 日发布 LFM3 模型家族，采用全新的三混合层架构，在 22T 词元上预训练。首批包括 LFM-1.7B（文本）、LFM3-VL-2B（视觉）、d1-2B（决策）、LFM3-Audio（音频）、LFM3-Omni-2B（全能）和 d1-Omni-2B（全能决策），均基于 LFM3-1.7B-Base。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/y4wf0sv008ul59n2aezl6wu2v",
+          "original": "https://www.ithome.com/1/019/099.htm"
+        },
+        "publishedAt": "2026-10-28T09:49:57.943Z",
+        "discoveredAt": "2026-10-28T10:12:25.797Z",
+        "category": "ai-models",
+        "score": 56,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/y4wf0sv008ul59n2aezl6wu2v"
+        }
+      },
+      {
+        "id": "m6pqpwlsbsnmvhysnzidrwouj",
+        "title": "Google DeepMind 发布 Genie 4 世界模型",
+        "originalTitle": "DAILY AI BRIEF 🗞 — Oct 28",
+        "summary": "Google DeepMind 发布 Genie 4，称其为最逼真的交互式世界模型，支持自然语言操控和原生音频，先向 Trusted Testers 开放，之后登陆 Google AI Ultra 和 Gemini API。同日 Gemini Robotics ER 2 在 Google Cloud 进入公开预览，Gemini Notebook 移动端可录制最长 1 小时实时音频作为来源。",
+        "source": {
+          "name": "X：Testing Catalog (@testingcatalog)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/m6pqpwlsbsnmvhysnzidrwouj",
+          "original": "https://x.com/testingcatalog/status/2115382733488746654"
+        },
+        "publishedAt": "2026-10-28T09:58:40.000Z",
+        "discoveredAt": "2026-10-28T10:03:31.877Z",
+        "category": "industry",
+        "score": 43,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/m6pqpwlsbsnmvhysnzidrwouj"
+        }
+      },
+      {
+        "id": "gxwqce1swocfo9bp3dgqy3dnj",
+        "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
+        "originalTitle": "Anthropic 的 S-1 写着 90% 增量毛利，卖一美元推理只花一毛",
+        "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
+        "source": {
+          "name": "X：Saito 硬地骇客 (@SaitoWu)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj",
+          "original": "https://x.com/SaitoWu/status/2115376256929948006"
+        },
+        "publishedAt": "2026-10-28T09:32:56.000Z",
+        "discoveredAt": "2026-10-28T10:03:31.646Z",
+        "category": "industry",
+        "score": 78,
+        "selected": true,
+        "reason": "作者拆解了 SemiAnalysis 播客对 Anthropic S-1 的解读，把毛利、留存和算力承诺等关键数字整理成一份可对照的参考。",
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj"
+        }
+      },
+      {
+        "id": "n49ybj6rh46mix65q7h1n97yx",
+        "title": "OpenAI 的 Vaibhav 即将在巴黎见面",
+        "originalTitle": "LETS GOOO Paris, excited to meet you in just a bit!! 🙌",
+        "summary": "冲啊巴黎，马上就能见到你们了，好激动！！🙌",
+        "source": {
+          "name": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/n49ybj6rh46mix65q7h1n97yx",
+          "original": "https://x.com/reach_vb/status/2115381819810164810"
+        },
+        "publishedAt": "2026-10-28T09:55:02.000Z",
+        "discoveredAt": "2026-10-28T10:03:31.631Z",
+        "category": null,
+        "score": 15,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/n49ybj6rh46mix65q7h1n97yx"
+        }
+      },
+      {
+        "id": "u59yvctl9d4iwi1y9hg2fkr8k",
+        "title": "东莞中学生走进百度智能云具身智能训练场，实操机械臂与人形机器人",
+        "originalTitle": "这堂研学课，让机器人“动”起来",
+        "summary": "10月21日下午，东莞中学万江龙湾学校53名初中生走进百度智能云承建运营的东莞具身智能训练场，通过科普课、观摩数据采集与机器人调测、操控机械臂抓娃娃和人形机器人射门等环节体验具身智能。该训练场于2026年9月8日启用，面积约5000平方米，配备机器人本体50余台、数据采集设备100余台，已规划13个产业场景、服务35家具身智能企业。",
+        "source": {
+          "name": "公众号：百度智能云（文心）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/u59yvctl9d4iwi1y9hg2fkr8k",
+          "original": "https://mp.weixin.qq.com/s?__biz=MzA5NTQ5MzE5OQ%3D%3D&mid=2653161154&idx=2&sn=f79b5247ed7cee1ff77bf283cf05f3f0"
+        },
+        "publishedAt": "2026-10-28T09:50:14.000Z",
+        "discoveredAt": "2026-10-28T09:59:41.748Z",
+        "category": "industry",
+        "score": 28,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/u59yvctl9d4iwi1y9hg2fkr8k"
+        }
+      },
+      {
+        "id": "qs2m6khe0bpfntxyrzrsp9i83",
+        "title": "深演智能与百度智能云达成战略合作，用百度伐谋重塑企业预测—决策—供应链全链路",
+        "originalTitle": "深演智能🤝百度智能云：重塑企业“预测—决策—供应链”全链路",
+        "summary": "10月27日，深演智能与百度智能云签署战略合作协议，围绕智能销量预测、供应链智能优化、用户洞察与产品匹配三大方向展开合作。双方将以百度伐谋平台为底层技术，共同开发物流配送网络优化、仓配一体化统筹等供应链决策智能体，并共建引入百度搜索数据与大模型的新一代AI销量预测体系。",
+        "source": {
+          "name": "公众号：百度智能云（文心）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qs2m6khe0bpfntxyrzrsp9i83",
+          "original": "https://mp.weixin.qq.com/s?__biz=MzA5NTQ5MzE5OQ%3D%3D&mid=2653161154&idx=1&sn=ce158e52f7f4aaab3839d5e3440efa81"
+        },
+        "publishedAt": "2026-10-28T09:50:14.000Z",
+        "discoveredAt": "2026-10-28T09:59:41.674Z",
+        "category": "industry",
+        "score": 24,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qs2m6khe0bpfntxyrzrsp9i83"
+        }
+      },
+      {
+        "id": "z5ilsc81pvuni4rn5nt7hnval",
+        "title": "Voxtral Mini Transcribe 3 语音榜单第二",
+        "originalTitle": "Voxtral Mini Transcribe 3 ranks #2 on Voice Arena’s Diarization + ASR leaderboard.",
+        "summary": "Voxtral Mini Transcribe 3 在 Voice Arena 的说话人分离 + ASR 榜单上排名第 2。",
+        "source": {
+          "name": "X：Mistral AI (@MistralAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/z5ilsc81pvuni4rn5nt7hnval",
+          "original": "https://x.com/MistralAI/status/2115380768394379474"
+        },
+        "publishedAt": "2026-10-28T09:50:51.000Z",
+        "discoveredAt": "2026-10-28T09:57:28.604Z",
+        "category": "ai-models",
+        "score": 36,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/z5ilsc81pvuni4rn5nt7hnval"
+        }
+      },
+      {
+        "id": "bie5dhw5yrq1fugnvxgircy2l",
+        "title": "ElevenLabs 与西班牙 ALS 协会合作，为渐冻症患者免费提供声音重建技术",
+        "originalTitle": "Aníbal, an engineer and professor, is losing his voice to ALS. With ElevenLabs, he’s recreated it so he can keep teaching.",
+        "summary": "ElevenLabs 与西班牙主要 ALS 协会 AsociacionELA 合作，向西班牙全国的 ALS 患者免费开放其声音重建技术。工程师兼教授 Aníbal 因 ALS 逐渐失声，用该技术复刻了自己的声音，得以继续教学。",
+        "source": {
+          "name": "X：ElevenLabs (@elevenlabs)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/bie5dhw5yrq1fugnvxgircy2l",
+          "original": "https://x.com/ElevenLabs/status/2115374286273950186"
+        },
+        "publishedAt": "2026-10-28T09:25:06.000Z",
+        "discoveredAt": "2026-10-28T09:45:30.186Z",
+        "category": "industry",
+        "score": 56,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/bie5dhw5yrq1fugnvxgircy2l"
+        }
+      },
+      {
+        "id": "on4siq2oecywt5a4qxd5r35a7",
+        "title": "抖音治理 AI 恶意营销号，近一月处置违规账号 50.7 万个",
+        "originalTitle": "抖音整治 AI 恶意营销号，近一月处置违规账号 50.7 万个",
+        "summary": "抖音黑板报公告治理滥用 AI 工具的恶意营销号，近一月累计处置违规短视频 113.5 万条、违规账号 50.7 万个，30.2 万个账号参与规则学习考试后规范创作。公告列举五类问题，包括 AI 生成诱导互动内容、数字人仿冒公众人物带货、批量炮制虚假信息、恐怖迷信猎奇内容，以及低成本复制爆款模板批量起号，并称部分账号背后存在教学黑产组织运营。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/on4siq2oecywt5a4qxd5r35a7",
+          "original": "https://www.ithome.com/1/019/001.htm"
+        },
+        "publishedAt": "2026-10-28T09:06:23.910Z",
+        "discoveredAt": "2026-10-28T09:45:27.266Z",
+        "category": "industry",
+        "score": 65,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/on4siq2oecywt5a4qxd5r35a7"
+        }
+      },
+      {
+        "id": "khnxu4fowj9v7k8qooqkdoez1",
+        "title": "央视实测 AI 可复原被打码的二维码，专家提示覆盖 90% 区域可防破解",
+        "originalTitle": "央视实测 AI 可复原被打码的二维码，专家给出防破解技巧",
+        "summary": "央视新闻实测发现，AI 图片工具能否复原被打码的二维码，取决于涂鸦是否盖住核心数据区：只遮挡外围或涂得不够厚时能复原成功，厚涂至完全覆盖则无法复原。专家提醒，处理二维码时应尽可能把 90% 的区域都打上马赛克。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/khnxu4fowj9v7k8qooqkdoez1",
+          "original": "https://www.ithome.com/1/019/043.htm"
+        },
+        "publishedAt": "2026-10-28T09:18:48.997Z",
+        "discoveredAt": "2026-10-28T09:45:27.259Z",
+        "category": "industry",
+        "score": 69,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/khnxu4fowj9v7k8qooqkdoez1"
+        }
+      },
+      {
+        "id": "cq7f448hrr1mk4qutbam14my5",
+        "title": "中国医生为66岁视网膜色素变性致盲女性植入 BCI 芯片，可独立行走并阅读文字",
+        "originalTitle": "Doctors in China gave a 66yo woman—blinded by retinitis pigmentosa—a BCI chip implant that beams camera signals straight to her brain lik...",
+        "summary": "中国医生为一位因视网膜色素变性失明的66岁女性植入 BCI 芯片，将摄像头信号直接传送到大脑，画面效果类似80年代复古显示器。目前她已能独立行走、阅读文字，并第一次看清孙子长了多高。",
+        "source": {
+          "name": "X：X.PIN (@thexpin)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/cq7f448hrr1mk4qutbam14my5",
+          "original": "https://x.com/thexpin/status/2115374338220376074"
+        },
+        "publishedAt": "2026-10-28T09:25:18.000Z",
+        "discoveredAt": "2026-10-28T09:32:31.528Z",
+        "category": "industry",
+        "score": 70,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/cq7f448hrr1mk4qutbam14my5"
+        }
+      },
+      {
+        "id": "w5vdht1phaameycc5og2nywxz",
+        "title": "Claude Duet 向美国 Max 用户开放",
+        "originalTitle": "ANTHROPIC 🔥: Claude Duet is rolling out to Claude Max users in US with Pro US users coming next in line.",
+        "summary": "ANTHROPIC 🔥：Claude Duet 正在向美国 Claude Max 用户推送，美国 Pro 用户接下来也将陆续开放。\n\n> 美国以外的更广泛扩展也在计划中，但目前没有时间表。\n\n预计欧盟用户可能要等更久。\n\n不会很快 👀",
+        "source": {
+          "name": "X：Testing Catalog (@testingcatalog)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/w5vdht1phaameycc5og2nywxz",
+          "original": "https://x.com/testingcatalog/status/2115370094658240579"
+        },
+        "publishedAt": "2026-10-28T09:08:26.000Z",
+        "discoveredAt": "2026-10-28T09:32:31.521Z",
+        "category": "ai-products",
+        "score": 44,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/w5vdht1phaameycc5og2nywxz"
+        }
+      },
+      {
+        "id": "k6toxduuuejft75n2uhzo1s2x",
+        "title": "Latent Space AINews：Anthropic 招聘经理取消编码面试，称 Hunger beats tenure",
+        "originalTitle": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+        "summary": "本期 AINews 以 Anthropic 招聘经理 Felix Rieseberg 停止对候选人使用传统编码面试为主头条，他认为让模型做 React 小题已无意义，并给初级工程师提出选业务影响力、周末做原型、聚焦单个好想法等建议。",
+        "source": {
+          "name": "Latent Space（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/k6toxduuuejft75n2uhzo1s2x",
+          "original": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+        },
+        "publishedAt": "2026-10-28T08:50:30.000Z",
+        "discoveredAt": "2026-10-28T09:31:26.670Z",
+        "category": "industry",
+        "score": 53,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/k6toxduuuejft75n2uhzo1s2x"
+        }
+      },
+      {
+        "id": "m0uwunb2y4u978swfsjdirc7s",
+        "title": "DeepSeek Harness 代码库现 DeepSeek-V5 占位符，为新一代模型铺路",
+        "originalTitle": "DeepSeek-V5 占位符现身 Harness 代码库，为新一代大模型提前铺路",
+        "summary": "开发者在 DeepSeek Harness 官方 GitHub 代码库的 provider.spec.ts 测试文件中发现 deepseek-v5、deepseek-v5-open 和 deepseek-v5-next 三个占位条目，与已有的 deepseek-v4-pro 并列。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/m0uwunb2y4u978swfsjdirc7s",
+          "original": "https://www.ithome.com/1/018/980.htm"
+        },
+        "publishedAt": "2026-10-28T08:54:17.640Z",
+        "discoveredAt": "2026-10-28T09:18:26.282Z",
+        "category": "industry",
+        "score": 37,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/m0uwunb2y4u978swfsjdirc7s"
+        }
+      },
+      {
+        "id": "yud1yw5oywy40y2n0ri0htxla",
+        "title": "豆包公关负责人刘星否认横店与字节合作将15万群演肖像声音喂给大模型",
+        "originalTitle": "豆包公关负责人刘星回应“横店与字节合作将 15 万群演肖像声音喂给大模型”：传言严重失实",
+        "summary": "豆包公关负责人刘星10月28日发文称“横店与字节合作，将15万名群演的肖像和声音喂给字节大模型”的传言严重失实。他表示横店影视AI服务平台项目是建设公共数字基础设施，把影视基地实景等资产做成高质量数据集，帮助剧组选景、筹备和拍摄；火山引擎是技术支持方，数据资产归横店或授权方所有，涉及肖像和声音需本人授权，项目数据不会用于训练字节大模型。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/yud1yw5oywy40y2n0ri0htxla",
+          "original": "https://www.ithome.com/1/018/981.htm"
+        },
+        "publishedAt": "2026-10-28T08:56:18.020Z",
+        "discoveredAt": "2026-10-28T09:18:26.274Z",
+        "category": "industry",
+        "score": 51,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/yud1yw5oywy40y2n0ri0htxla"
+        }
+      },
+      {
+        "id": "bn5ks1a320x17z79bmwrn05y5",
+        "title": "智原获美国客户云端 AI 芯片开案：三星 2nm 制程、3D 堆叠 DRAM",
+        "originalTitle": "ASIC 设计企业智原收获 AI 芯片开案：三星 2nm，3D 堆叠 DRAM",
+        "summary": "智原科技在 2026Q3 财报中宣布获得美国客户一款云端 AI 芯片开案，基于三星 2nm 制程，将逻辑 SoC 与定制 DRAM 垂直堆叠，采用混合键合技术并支持 PCIe Gen6。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/bn5ks1a320x17z79bmwrn05y5",
+          "original": "https://www.ithome.com/1/018/985.htm"
+        },
+        "publishedAt": "2026-10-28T09:01:15.477Z",
+        "discoveredAt": "2026-10-28T09:18:26.266Z",
+        "category": "industry",
+        "score": 41,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/bn5ks1a320x17z79bmwrn05y5"
+        }
+      },
+      {
+        "id": "p0qlekuiwxwqcrrvitf39lkuz",
+        "title": "Polymathic AI 与普林斯顿等机构发布 FlashMap，以 flow map 起草器实现最高 6.14x 无损解码加速",
+        "originalTitle": "Polymathic AI and Princeton Researchers Release FlashMap, a Flow Map Drafter for 6.14x Faster LLM Decoding",
+        "summary": "Polymathic AI、普林斯顿大学、USC ISI、NYU 与 Flatiron Institute 的研究者发布 FlashMap，一种投机解码起草器，用连续 flow map 替代离散扩散起草器，1 次 forward pass 联合起草 16 个 token 的完整块，输出与目标模型严格一致。",
+        "source": {
+          "name": "MarkTechPost（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/p0qlekuiwxwqcrrvitf39lkuz",
+          "original": "https://www.marktechpost.com/2026/10/28/flashmap-flow-map-speculative-decoding/"
+        },
+        "publishedAt": "2026-10-28T08:18:03.000Z",
+        "discoveredAt": "2026-10-28T09:10:25.438Z",
+        "category": "paper",
+        "score": 52,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/p0qlekuiwxwqcrrvitf39lkuz"
+        }
+      },
+      {
+        "id": "ltfqdz5go3toc18ivflz80wpw",
+        "title": "Tessl 博客：AI 代码工厂的瓶颈不是 Review 而是风险",
+        "originalTitle": "Review Isn’t the Bottleneck. Risk Is.",
+        "summary": "Tessl 博客提出，AI 软件工厂能生成代码、跑测试并开 PR，Review 队列堆积只是表象，真正的问题是如何放心让变更在无人逐行阅读的情况下推进。文章给出四类控制：降低出错概率（测试、静态分析、架构约束、隔离执行）、验证结果（验收场景与关联意图的证据包）、定位风险（系统关键性、依赖中心性、事件历史、可回滚性）、降低影响（隔离单元、熔断、特性开关、自动回滚）。",
+        "source": {
+          "name": "Tessl：产品与工程博客"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ltfqdz5go3toc18ivflz80wpw",
+          "original": "https://tessl.io/blog/review-isnt-the-bottleneck-risk-is"
+        },
+        "publishedAt": "2026-10-27T16:00:00.000Z",
+        "discoveredAt": "2026-10-28T09:03:26.598Z",
+        "category": "opinion",
+        "score": 57,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ltfqdz5go3toc18ivflz80wpw"
+        }
+      },
+      {
+        "id": "rgcpbp7vrzrtgt4cee8ejwpzr",
+        "title": "中国医生为失明患者植入脑机接口，将摄像头信号直接传入视觉皮层",
+        "originalTitle": "Doctors in China have implanted a brain-computer interface (BCI) in a 66-year-old woman blinded by retinitis pigmentosa, transmitting cam...",
+        "summary": "中国医生为一位因视网膜色素变性失明的 66 岁女性植入脑机接口（BCI），将摄像头信号直接传输到她的视觉皮层。据转述，她现在可以独立行走、阅读文字，并看到孙子长高了多少。",
+        "source": {
+          "name": "X：X.PIN (@thexpin)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/rgcpbp7vrzrtgt4cee8ejwpzr",
+          "original": "https://x.com/thexpin/status/2115367976652124467"
+        },
+        "publishedAt": "2026-10-28T09:00:01.000Z",
+        "discoveredAt": "2026-10-28T09:01:31.174Z",
+        "category": "industry",
+        "score": 64,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/rgcpbp7vrzrtgt4cee8ejwpzr"
+        }
+      },
+      {
+        "id": "bhndqmi7oo4f7zw7o29eirpfr",
+        "title": "Grok Bot 获用户盛赞推荐",
+        "originalTitle": "Hire Grok @Bot, you won’t regret it",
+        "summary": "雇用 Grok @Bot，你不会后悔的",
+        "source": {
+          "name": "X：Elon Musk (@elonmusk, xAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/bhndqmi7oo4f7zw7o29eirpfr",
+          "original": "https://x.com/elonmusk/status/2115346748730380385"
+        },
+        "publishedAt": "2026-10-28T07:35:40.000Z",
+        "discoveredAt": "2026-10-28T08:31:30.958Z",
+        "category": "opinion",
+        "score": 32,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/bhndqmi7oo4f7zw7o29eirpfr"
+        }
+      },
+      {
+        "id": "nq2rplyzt646j4m07rxh2a7zz",
+        "title": "Gavin Baker称Grok Bot最具影响力",
+        "originalTitle": "Grok @Bot rocks",
+        "summary": "Grok @Bot 太棒了\n\n（引用推文要点：Gavin Baker 称 Grok Bot 是他及其公司迄今用过最具影响力的 AI 产品，并表示自己已用到 17 个 Grok Bot。）",
+        "source": {
+          "name": "X：Elon Musk (@elonmusk, xAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/nq2rplyzt646j4m07rxh2a7zz",
+          "original": "https://x.com/elonmusk/status/2115348410396287061"
+        },
+        "publishedAt": "2026-10-28T07:42:16.000Z",
+        "discoveredAt": "2026-10-28T08:31:30.952Z",
+        "category": "opinion",
+        "score": 29,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/nq2rplyzt646j4m07rxh2a7zz"
+        }
+      },
+      {
+        "id": "m64qg6tisrbedds0s01weeqcr",
+        "title": "xAI 推广 Grok Bot 智能体",
+        "originalTitle": "Try Grok @Bot",
+        "summary": "试试 Grok @Bot",
+        "source": {
+          "name": "X：Elon Musk (@elonmusk, xAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/m64qg6tisrbedds0s01weeqcr",
+          "original": "https://x.com/elonmusk/status/2115353441954636214"
+        },
+        "publishedAt": "2026-10-28T08:02:16.000Z",
+        "discoveredAt": "2026-10-28T08:31:30.945Z",
+        "category": "opinion",
+        "score": 33,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/m64qg6tisrbedds0s01weeqcr"
+        }
+      },
+      {
+        "id": "tob4rjlydsrhrxsauxt9qunqv",
+        "title": "WorkBuddy 跨平台搜岗并定制简历",
+        "originalTitle": "Stop checking job boards one by one.",
+        "summary": "不用再逐个刷招聘网站。\nWorkBuddy 能跨多个平台搜索，将职位与你的经验匹配，并帮你针对值得申请的岗位定制简历。\n找到匹配的岗位，再让简历更贴合它。",
+        "source": {
+          "name": "X：Tencent WorkBuddy (@WorkBuddy_AI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/tob4rjlydsrhrxsauxt9qunqv",
+          "original": "https://x.com/WorkBuddy_AI/status/2115355228669403576"
+        },
+        "publishedAt": "2026-10-28T08:09:22.000Z",
+        "discoveredAt": "2026-10-28T08:30:33.877Z",
+        "category": "ai-products",
+        "score": 24,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/tob4rjlydsrhrxsauxt9qunqv"
+        }
+      },
+      {
+        "id": "bnwtkaf9xura86phnczy1oon8",
+        "title": "Artificial Analysis 发布 Intelligence Index v5，Claude Opus 5.5 以 58 分居首",
+        "originalTitle": "Artificial Analysis Intelligence Index v5 is now live!",
+        "summary": "Artificial Analysis 上线 Intelligence Index v5，新增 2 个基准（Cognition 的 FrontierCode 2.0 和 Terminal-Bench-Science）并升级 3 项，60% 的指数基于私有测试集。",
+        "source": {
+          "name": "X：Testing Catalog (@testingcatalog)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/bnwtkaf9xura86phnczy1oon8",
+          "original": "https://x.com/testingcatalog/status/2115355422034960876"
+        },
+        "publishedAt": "2026-10-28T08:10:08.000Z",
+        "discoveredAt": "2026-10-28T08:30:31.703Z",
+        "category": "ai-models",
+        "score": 65,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/bnwtkaf9xura86phnczy1oon8"
+        }
+      },
+      {
+        "id": "csne32fdp2wcalqawuyi60xl8",
+        "title": "蚂蚁 inclusionAI 发布 UBTree 项目页：用 Unigram 与 Bigram 模型并行树草稿加速投机解码",
+        "originalTitle": "inclusionAI/ubtree",
+        "summary": "蚂蚁 inclusionAI 上线 UBTree 项目页，介绍其用 Unigram 与 Bigram 模型做并行树草稿的投机解码方法（arXiv:2609.39972）。页面用 Ling3 Tiny 与 Flash 的 HumanEval 示例视频对比 AR、DFlash、DSpark 与 UBTree 四种方法，并附基准图表与消融数据。",
+        "source": {
+          "name": "蚂蚁 inclusionAI：GitHub 新仓库"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/csne32fdp2wcalqawuyi60xl8",
+          "original": "https://github.com/inclusionAI/ubtree"
+        },
+        "publishedAt": "2026-10-28T07:48:11.000Z",
+        "discoveredAt": "2026-10-28T08:23:26.496Z",
+        "category": "tip",
+        "score": 28,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/csne32fdp2wcalqawuyi60xl8"
+        }
+      },
+      {
+        "id": "rnfgfbibceaspx7g958vxflf9",
+        "title": "LlamaIndex 发布 Document Parsing Protocol 0.1 工作草案",
+        "originalTitle": "Introducing the Document Parsing Protocol",
+        "summary": "LlamaIndex 发布 Document Parsing Protocol（DPP）0.1 工作草案，为文档解析定义统一答案标准，包含覆盖文本、表格、表单、图表、示意图的 140 条规则，每条附示例页面和期望输出。",
+        "source": {
+          "name": "LlamaIndex：产品、工程与评测"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/rnfgfbibceaspx7g958vxflf9",
+          "original": "https://www.llamaindex.ai/blog/introducing-the-document-parsing-protocol"
+        },
+        "publishedAt": "2026-10-27T16:00:00.000Z",
+        "discoveredAt": "2026-10-28T08:16:28.002Z",
+        "category": "ai-products",
+        "score": 66,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/rnfgfbibceaspx7g958vxflf9"
+        }
+      },
+      {
+        "id": "qbvhe25k7w1yhyi1mrgxthypt",
+        "title": "Google DeepMind 发布 Genie 4 实时世界模型，原生生成音频并由 Gemini 3.8 Flash 在循环中规划",
+        "originalTitle": "Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio",
+        "summary": "Google DeepMind 发布 Genie 4 世界模型研究预览，可从文本和图像提示实时生成可探索世界，并原生生成环境音、音乐和角色对话。架构上由 Gemini Omni 锚定世界外观，Gemini 3.8 Flash 在模拟循环内解释提示、拆解目标、校验帧并重规划。",
+        "source": {
+          "name": "MarkTechPost（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qbvhe25k7w1yhyi1mrgxthypt",
+          "original": "https://www.marktechpost.com/2026/10/28/google-deepmind-genie-4-world-model/"
+        },
+        "publishedAt": "2026-10-28T07:34:58.000Z",
+        "discoveredAt": "2026-10-28T08:09:26.040Z",
+        "category": "ai-models",
+        "score": 69,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qbvhe25k7w1yhyi1mrgxthypt"
+        }
+      },
+      {
+        "id": "qnhwd1a0rwahp96f3fq0hhxtn",
+        "title": "卡兹克分享让 Claude 指挥 Codex 操控浏览器的 CLAUDE.md 规则",
+        "originalTitle": "因为怕被Claude封号，所以Claude浏览器插件啥的都没装，是直接让Claude指挥Codex操控浏览器的，规则都写在了CLAUDE.md里，目前用着很舒服，分享一下这个小规则：",
+        "summary": "作者因担心封号未安装 Claude 浏览器插件，改为在 CLAUDE.md 中写规则让 Claude 指挥本地 Codex 应用操控 Chrome。分工上小事用内置浏览器自己做，多步骤、需登录后台或跨网站的任务交给 Codex；用法为 codex-browser \"完整任务描述\"，追加指令用 --resume 会话 ID，并提醒每轮结束会关标签页，需写清网址、步骤和截图存放路径。",
+        "source": {
+          "name": "X：卡兹克 (@Khazix0918)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/qnhwd1a0rwahp96f3fq0hhxtn",
+          "original": "https://x.com/Khazix0918/status/2115349867329708277"
+        },
+        "publishedAt": "2026-10-28T07:48:04.000Z",
+        "discoveredAt": "2026-10-28T08:00:28.658Z",
+        "category": "tip",
+        "score": 60,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/qnhwd1a0rwahp96f3fq0hhxtn"
+        }
+      },
+      {
+        "id": "zuvu8m5bg05kqrsc2huzpnyzn",
+        "title": "LangChain 开源 Content Studio 设计 Agent 的四个月实践详解",
+        "originalTitle": "把设计品味写进 Agent：LangChain 开源 Content Studio 的四个月实践",
+        "summary": "作者详解 LangChain 开源的 Content Studio（Slack 里的 Design Agent）四个月实践，核心是把设计师判断写进 skills、wiki 与代码门禁，用沙箱电脑和异步子 Agent 撑住长任务。",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/zuvu8m5bg05kqrsc2huzpnyzn",
+          "original": "https://x.com/shao__meng/status/2115345069570212202"
+        },
+        "publishedAt": "2026-10-28T07:29:00.000Z",
+        "discoveredAt": "2026-10-28T07:59:32.587Z",
+        "category": "tip",
+        "score": 71,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/zuvu8m5bg05kqrsc2huzpnyzn"
+        }
+      },
+      {
+        "id": "ylpp5q2yw3wlqe2wsml1jkh1y",
+        "title": "胡润富豪榜显示 AI 助推中国新一代科技富豪：张一鸣以 997 亿美元居首",
+        "originalTitle": "AI is helping to build a new generation of Chinese tech billionaires on the Hurun Rich List:",
+        "summary": "胡润百富榜显示 AI 助推中国新一代科技富豪：字节跳动张一鸣以 997 亿美元居首，DeepSeek 梁文锋以 417 亿美元排第 7，宇树王兴兴身家 103 亿美元。作者称西方读者可能不了解，中国没人想当首富，因为会带来过多关注，公关团队会努力让老板下榜。",
+        "source": {
+          "name": "X：X.PIN (@thexpin)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ylpp5q2yw3wlqe2wsml1jkh1y",
+          "original": "https://x.com/thexpin/status/2115351611841052895"
+        },
+        "publishedAt": "2026-10-28T07:55:00.000Z",
+        "discoveredAt": "2026-10-28T07:59:30.836Z",
+        "category": "industry",
+        "score": 50,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ylpp5q2yw3wlqe2wsml1jkh1y"
+        }
+      },
+      {
+        "id": "dhm7ewle5k0wrxdy1zvx5re66",
+        "title": "MiniMax H3 生成 1971 年灵魂乐",
+        "originalTitle": "Somewhere in an alternate 1971, this was a soul classic. 🫡",
+        "summary": "在另一个 1971 年的平行时空里，这曾是一首灵魂乐经典。🫡",
+        "source": {
+          "name": "X：MiniMax Design (H3) (@Hailuo_AI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/dhm7ewle5k0wrxdy1zvx5re66",
+          "original": "https://x.com/Hailuo_AI/status/2115348702697246869"
+        },
+        "publishedAt": "2026-10-28T07:43:26.000Z",
+        "discoveredAt": "2026-10-28T07:46:29.471Z",
+        "category": null,
+        "score": 28,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/dhm7ewle5k0wrxdy1zvx5re66"
+        }
+      },
+      {
+        "id": "z9b3x7nsqw5n3ebt7jqs8onsa",
+        "title": "智元创新日直播预约开启：10月29日见证智元技术跃迁",
+        "originalTitle": "直播预约开启！10月29日，一起见证智元创新日",
+        "summary": "智元（AGIBOT）开启 2026 智元创新日直播预约，活动定于 10 月 29 日举行，官方称其为“技术跃迁新时刻”。官网同期列出远征 A3 Ultra、灵犀 X2、精灵 G2、Genie Studio 具身智能开发平台及灵渠 Link-U OS 等产品线。",
+        "source": {
+          "name": "AGIBOT 智元（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/z9b3x7nsqw5n3ebt7jqs8onsa",
+          "original": "https://www.agibot.com.cn/article/315/detail/255.html"
+        },
+        "publishedAt": "2026-10-28T07:26:42.000Z",
+        "discoveredAt": "2026-10-28T07:41:31.644Z",
+        "category": "industry",
+        "score": 21,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/z9b3x7nsqw5n3ebt7jqs8onsa"
+        }
+      },
+      {
+        "id": "ynb7mj366idfbku9j3cnmri4r",
+        "title": "智元预告 2026 智元创新日：倒计时 1 天",
+        "originalTitle": "倒计时 1 天：2026 智元创新日，不见不散！",
+        "summary": "智元宣布 2026 智元创新日进入倒计时 1 天，活动定于 10 月 29 日举行，直播预约已开启。官网同期列出远征 A3 Ultra、灵犀 X2、精灵 G2、Genie Studio 具身智能开发平台等产品线。",
+        "source": {
+          "name": "AGIBOT 智元（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/ynb7mj366idfbku9j3cnmri4r",
+          "original": "https://www.agibot.com.cn/article/315/detail/259.html"
+        },
+        "publishedAt": "2026-10-28T07:40:08.000Z",
+        "discoveredAt": "2026-10-28T07:41:31.637Z",
+        "category": null,
+        "score": 22,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/ynb7mj366idfbku9j3cnmri4r"
+        }
+      },
+      {
+        "id": "c5zdgpchio31r2911elz4bbg6",
+        "title": "Anthropic 上市文件披露四类芯片混用布局，分析师称英伟达定价权或承压",
+        "originalTitle": "Anthropic 上市文件披露多平台算力布局，英伟达定价权或承压",
+        "summary": "据《商业内幕》10 月 28 日报道，Anthropic 在 S-1 上市申请文件中披露，公司把多家战略合作伙伴的算力整合成统一资源池，通过软件将计算任务分配到亚马逊 Trainium、谷歌 TPU、英伟达 GPU 和 AMD GPU 四类芯片上，以分散风险。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/c5zdgpchio31r2911elz4bbg6",
+          "original": "https://www.ithome.com/1/018/906.htm"
+        },
+        "publishedAt": "2026-10-28T06:35:47.357Z",
+        "discoveredAt": "2026-10-28T07:30:25.282Z",
+        "category": "industry",
+        "score": 66,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/c5zdgpchio31r2911elz4bbg6"
+        }
+      },
+      {
+        "id": "o8x1ohq5pgbjocc3rj7brf58v",
+        "title": "CVE Tracker 可视化：AI 成放大器，2026 年漏洞报告数量陡增",
+        "originalTitle": "近乎垂直拉升：AI 成放大器，2026 年漏洞报告数量“爆表”",
+        "summary": "开发者 @0x_Osprey 制作网页 CVE Tracker，用趋势图追踪已获 CVE 编号的漏洞数量，显示 2026 年以来报告数量陡峭上升，并可对照主流 AI 模型发布时间。该媒体认为 AI 正成为安全研究的“放大器”，能更快扫描代码、复现异常并整理报告；但报告变多不等于系统更危险，低质量或重复报告会加重开源维护者和安全团队的分诊压力。",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/o8x1ohq5pgbjocc3rj7brf58v",
+          "original": "https://www.ithome.com/1/018/916.htm"
+        },
+        "publishedAt": "2026-10-28T06:57:35.673Z",
+        "discoveredAt": "2026-10-28T07:30:25.273Z",
+        "category": "tip",
+        "score": 46,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/o8x1ohq5pgbjocc3rj7brf58v"
+        }
+      },
+      {
+        "id": "f9g6dbtp22bp1jeojg9mu1v0r",
+        "title": "Sarvam 与 HQ IDS 建立 AI 框架，覆盖印度陆海空三军",
+        "originalTitle": "Sarvam and HQ IDS establish joint framework for AI adoption across the Army, Navy and Air Force",
+        "summary": "Sarvam 与印度国防部下属的 HQ IDS 签署 MoU，为印度陆军、海军和空军建立统一的 AI 项目框架。三军及联合机构将共用同一套基础模型、智能体基础设施与地理空间和感知系统，项目由其专注国防的 Chanakya 部门执行，采用包括 Sarvam 105B 在内的 AI 技术栈。重点方向为决策支持、目标获取与传感器到射手链路的数据融合，作战决策保留人工监督。",
+        "source": {
+          "name": "Sarvam AI（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/f9g6dbtp22bp1jeojg9mu1v0r",
+          "original": "https://www.sarvam.ai/blogs/sarvam-hq-ids-mou"
+        },
+        "publishedAt": "2026-10-26T16:00:00.000Z",
+        "discoveredAt": "2026-10-28T07:21:28.778Z",
+        "category": "industry",
+        "score": 48,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/f9g6dbtp22bp1jeojg9mu1v0r"
+        }
+      },
+      {
+        "id": "yunlw3xkiymz66b6ekv51a9jr",
+        "title": "OpenAI 预告明日有好消息",
+        "originalTitle": "And it's done. See you tomorrow for some good news.",
+        "summary": "搞定了。明天见，会有好消息。",
+        "source": {
+          "name": "X：Tibo (@thsottiaux)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/yunlw3xkiymz66b6ekv51a9jr",
+          "original": "https://x.com/thsottiaux/status/2115330127886463244"
+        },
+        "publishedAt": "2026-10-28T06:29:38.000Z",
+        "discoveredAt": "2026-10-28T06:57:31.180Z",
+        "category": null,
+        "score": 20,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/yunlw3xkiymz66b6ekv51a9jr"
+        }
+      },
+      {
+        "id": "zdurvz1mt9f7a2c762qsw3si3",
+        "title": "三套 Agent Skills 组合复刻顶级 iOS App 设计",
+        "originalTitle": "逆向任意顶级 iOS App 设计 ？",
+        "summary": "作者介绍一组用于逆向学习顶级 iOS App 设计的 Agent Skills 组合：Appllama Skills 提供头部 App 设计库与建造门槛（MCP 属 Pro 计费，设计技能可单独装），Expo Skills 覆盖框架与 EAS 上架等官方工程实践，Emil Kowalski Skills 把动效易错点写成可执行规则，星标远高于另两个。",
+        "source": {
+          "name": "X：邵猛 (@shao__meng)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/zdurvz1mt9f7a2c762qsw3si3",
+          "original": "https://x.com/shao__meng/status/2115332272152826248"
+        },
+        "publishedAt": "2026-10-28T06:38:09.000Z",
+        "discoveredAt": "2026-10-28T06:57:29.651Z",
+        "category": "tip",
+        "score": 63,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/zdurvz1mt9f7a2c762qsw3si3"
+        }
+      },
+      {
+        "id": "r07tdhxr9dyfwdfumu1kt39wv",
+        "title": "Grok Imagine 发布官方提示词指南并公开 Odyssey 制作工作流",
+        "originalTitle": "Grok Imagine",
+        "summary": "Elon Musk 转发 @imagine 的消息，宣布 Grok Imagine 的提示词指南上线。团队正以少量创意人员小规模团队公开制作 Odyssey 剧集，并邀请读者学习其工作流，指南链接为 https://x.com/i/article/2114831189475483648。",
+        "source": {
+          "name": "X：Elon Musk (@elonmusk, xAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/r07tdhxr9dyfwdfumu1kt39wv",
+          "original": "https://x.com/elonmusk/status/2115323441738047731"
+        },
+        "publishedAt": "2026-10-28T06:03:03.000Z",
+        "discoveredAt": "2026-10-28T06:30:31.041Z",
+        "category": "tip",
+        "score": 51,
+        "selected": false,
+        "reason": null,
+        "attribution": {
+          "name": "AIHOT",
+          "url": "https://aihot.news/items/r07tdhxr9dyfwdfumu1kt39wv"
+        }
+      }
+    ],
+    "page": {
+      "count": 100,
+      "hasMore": true,
+      "nextCursor": "it3.eyJhIjoxNzkzMTY5MDMxMDQxLCJpIjoicjA3dGRoeHI5ZHlmd2RmdW11MWt0Mzl3diIsImMiOiI2OTY2YzIwZTk4NTAifQ"
+    }
+  },
+  "hot_topics": {
+    "schemaVersion": 1,
+    "count": 10,
+    "items": [
+      {
+        "rank": 1,
+        "id": "l74eacnb38ytvm5hm8om7h7cs",
+        "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
+        "source": {
+          "name": "Google DeepMind：Blog（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+          "original": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "story": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180"
+        },
+        "sourceCount": 16,
+        "signalCount": 51,
+        "participantCount": 67,
+        "sourceNames": [
+          "MarkTechPost（RSS）",
+          "X：Ethan Mollick (@emollick)",
+          "X：indigo (@indigox)",
+          "X：卡兹克 (@Khazix0918)",
+          "公众号：数字生命卡兹克",
+          "X：Demis Hassabis (@demishassabis)",
+          "IT之家·人工智能",
+          "X：Oran Ge (@oran_ge)"
+        ],
+        "latestAt": "2026-10-28T07:34:58.000Z"
+      },
+      {
+        "rank": 2,
+        "id": "xywgx35ocbe6mzl2pnajw8ruu",
+        "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+        "source": {
+          "name": "Anthropic：Newsroom（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+          "original": "https://www.anthropic.com/news/s1-sec",
+          "story": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+        },
+        "sourceCount": 13,
+        "signalCount": 60,
+        "participantCount": 73,
+        "sourceNames": [
+          "X：Saito 硬地骇客 (@SaitoWu)",
+          "IT之家·人工智能",
+          "X：Rohan Paul (@rohanpaul_ai)",
+          "TechCrunch：AI（RSS）",
+          "Ars Technica：AI（RSS）",
+          "Azeem Azhar：Exponential View（RSS）",
+          "The Verge：AI（RSS）",
+          "The Decoder：AI News（RSS）"
+        ],
+        "latestAt": "2026-10-28T09:32:56.000Z"
+      },
+      {
+        "rank": 3,
+        "id": "xmpu9lo3lbzld3tqsyrcy5e2v",
+        "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
+        "source": {
+          "name": "X：Tibo (@thsottiaux)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
+          "original": "https://x.com/thsottiaux/status/2114800277677092936",
+          "story": "https://aihot.virxact.com/story/30e9a1ca-aae1-410a-b1c6-53893df398db"
+        },
+        "sourceCount": 12,
+        "signalCount": 76,
+        "participantCount": 88,
+        "sourceNames": [
+          "IT之家·人工智能",
+          "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+          "X：Arena (@arena)",
+          "X：卡兹克 (@Khazix0918)",
+          "MarkTechPost（RSS）",
+          "Simon Willison 博客",
+          "X：OpenClaw (@openclaw)",
+          "X：Sam Altman (@sama)"
+        ],
+        "latestAt": "2026-10-28T02:01:04.710Z"
+      },
+      {
+        "rank": 4,
+        "id": "jxpzj0z4beg1r0cktwzc0tmwe",
+        "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
+        "source": {
+          "name": "IT之家·人工智能"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
+          "original": "https://www.ithome.com/1/018/203.htm",
+          "story": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438"
+        },
+        "sourceCount": 8,
+        "signalCount": 34,
+        "participantCount": 42,
+        "sourceNames": [
+          "The Verge：AI（RSS）",
+          "TechCrunch：AI（RSS）",
+          "X：Rohan Paul (@rohanpaul_ai)",
+          "The Decoder：AI News（RSS）",
+          "X：Yuchen Jin (@Yuchenj_UW)",
+          "X：Ethan Mollick (@emollick)",
+          "IT之家·人工智能",
+          "X：Greg Brockman (@gdb)"
+        ],
+        "latestAt": "2026-10-27T20:48:58.000Z"
+      },
+      {
+        "rank": 5,
+        "id": "s06bmy25gmrtj73ordbvi4q9e",
+        "title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
+        "source": {
+          "name": "X：Anthropic (@AnthropicAI)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/s06bmy25gmrtj73ordbvi4q9e",
+          "original": "https://x.com/AnthropicAI/status/2115178675050307942",
+          "story": "https://aihot.virxact.com/story/37c4f934-a969-4d47-b4ab-d8394ef134ba"
+        },
+        "sourceCount": 4,
+        "signalCount": 17,
+        "participantCount": 21,
+        "sourceNames": [
+          "X：Oran Ge (@oran_ge)",
+          "X：Rohan Paul (@rohanpaul_ai)",
+          "X：Yuchen Jin (@Yuchenj_UW)",
+          "X：Anthropic (@AnthropicAI)"
+        ],
+        "latestAt": "2026-10-27T23:24:34.000Z"
+      },
+      {
+        "rank": 6,
+        "id": "m4l5hb0qhkn1zzgbqzxe6o510",
+        "title": "微软向约六万员工发出自愿离职邀约",
+        "source": {
+          "name": "X：Oran Ge (@oran_ge)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/m4l5hb0qhkn1zzgbqzxe6o510",
+          "original": "https://x.com/oran_ge/status/2114876309650497853",
+          "story": "https://aihot.virxact.com/story/1aa4aaac-b209-467a-98f0-a36afb168840"
+        },
+        "sourceCount": 1,
+        "signalCount": 34,
+        "participantCount": 35,
+        "sourceNames": [
+          "X：Oran Ge (@oran_ge)"
+        ],
+        "latestAt": "2026-10-27T00:43:54.000Z"
+      },
+      {
+        "rank": 7,
+        "id": "jxc0l26zdfca6g34z6h20tfde",
+        "title": "OpenAI 拟采购谷歌 TPU 并招募工程师适配",
+        "source": {
+          "name": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/jxc0l26zdfca6g34z6h20tfde",
+          "original": "https://x.com/rohanpaul_ai/status/2115261691906978233",
+          "story": "https://aihot.virxact.com/story/ff626510-f5f9-422e-afef-6eb6511db434"
+        },
+        "sourceCount": 2,
+        "signalCount": 12,
+        "participantCount": 14,
+        "sourceNames": [
+          "IT之家·人工智能",
+          "X：Rohan Paul (@rohanpaul_ai)"
+        ],
+        "latestAt": "2026-10-28T01:59:45.637Z"
+      },
+      {
+        "rank": 8,
+        "id": "dmseupm220mt9blyjyszid4em",
+        "title": "Artificial Analysis 发布 v5 指数，开源模型差距扩大",
+        "source": {
+          "name": "Artificial Analysis 完整文章（网页）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/dmseupm220mt9blyjyszid4em",
+          "original": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "story": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb"
+        },
+        "sourceCount": 7,
+        "signalCount": 6,
+        "participantCount": 13,
+        "sourceNames": [
+          "The Decoder：AI News（RSS）",
+          "X：Nathan Lambert (@natolambert)",
+          "Nathan Lambert：Interconnects（RSS）",
+          "X：Testing Catalog (@testingcatalog)",
+          "X：Ethan Mollick (@emollick)",
+          "X：Artificial Analysis (@ArtificialAnlys)",
+          "Artificial Analysis 完整文章（网页）"
+        ],
+        "latestAt": "2026-10-28T15:04:43.000Z"
+      },
+      {
+        "rank": 9,
+        "id": "t75a9cjsxenae5ubp1blnv92v",
+        "title": "蚂蚁发布灵光2.0，AI助理可跨会话持续办事",
+        "source": {
+          "name": "X：卡尔的 AI 沃茨 (@aiwarts)"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/t75a9cjsxenae5ubp1blnv92v",
+          "original": "https://x.com/aiwarts/status/2115071443553931462",
+          "story": "https://aihot.virxact.com/story/8bcf43d2-9952-471e-a73f-aba4f4e855ee"
+        },
+        "sourceCount": 3,
+        "signalCount": 16,
+        "participantCount": 19,
+        "sourceNames": [
+          "X：卡尔的 AI 沃茨 (@aiwarts)",
+          "公众号：卡尔的AI沃茨",
+          "IT之家·人工智能"
+        ],
+        "latestAt": "2026-10-27T13:22:20.000Z"
+      },
+      {
+        "rank": 10,
+        "id": "hlzo912kzi3ltfvxlkandttt3",
+        "title": "Anthropic 一团队取消编程面试，改看原型",
+        "source": {
+          "name": "The Decoder：AI News（RSS）"
+        },
+        "links": {
+          "aihot": "https://aihot.news/items/hlzo912kzi3ltfvxlkandttt3",
+          "original": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
+          "story": "https://aihot.virxact.com/story/9b5967e4-e1bd-4efa-b770-4fe16ba97740"
+        },
+        "sourceCount": 4,
+        "signalCount": 9,
+        "participantCount": 13,
+        "sourceNames": [
+          "The Decoder：AI News（RSS）",
+          "X：邵猛 (@shao__meng)",
+          "IT之家·人工智能",
+          "X：Yuchen Jin (@Yuchenj_UW)"
+        ],
+        "latestAt": "2026-10-28T11:15:00.000Z"
+      }
+    ]
+  }
+}
