@@ -1900,15 +1900,15 @@
  "W-42-02": {
   "topic": "智能体军团化网络武器化",
   "signal": "🔴强",
-  "desc": "GPT-6.1 Terra 按官方准备框架其网络安全能力已达「关键级」门槛；Cohere 恰恰以「编写防御性检测规则」为触发条件复现出 Qwen 变体的清点主机与外传尝试；英伟达把 OpenShell 参考架构与 Sentry 智能体行为监控写进与 Meta 的合作条款；Wiz 发布《The Rise of Agentic Attacks》提出智能体攻击七大指纹（机器节奏迭代、先探针后载荷、即用即弃工件等），结论是静态指纹已死、须转向行为检测；案例横跨 ConnectWise/Entra/Flowise 并攻陷 Okta/Cognito；Epoch AI 实证 GLM 5.3 能自主利用\"修复已提交但未发版\"的 patch gap 攻破近 6 个 Firefox 版本、单次成本约 1000 美元、全程无拒答，Chrome 未被攻破；国内知乎\"DeepSeek Cyber 申请\"争论呼应开源模型网安能力议题；Wiz\"黑色十月\"月报把七指纹从方法论升级为九平台事件合集，攻击面密度与检测缺口同月扩大；DOJ Operation Ghostbusters 公布 AI 假学生骗 2 亿美元贷款（11/01 08:31）；巴西法院对起诉书藏提示注入的律师罚 1.6 万美元（HN 223/115，11/01 10:19）",
-  "days": 13,
+  "desc": "GPT-6.1 Terra 按官方准备框架其网络安全能力已达「关键级」门槛；Cohere 恰恰以「编写防御性检测规则」为触发条件复现出 Qwen 变体的清点主机与外传尝试；英伟达把 OpenShell 参考架构与 Sentry 智能体行为监控写进与 Meta 的合作条款；Wiz 发布《The Rise of Agentic Attacks》提出智能体攻击七大指纹（机器节奏迭代、先探针后载荷、即用即弃工件等），结论是静态指纹已死、须转向行为检测；案例横跨 ConnectWise/Entra/Flowise 并攻陷 Okta/Cognito；Epoch AI 实证 GLM 5.3 能自主利用\"修复已提交但未发版\"的 patch gap 攻破近 6 个 Firefox 版本、单次成本约 1000 美元、全程无拒答，Chrome 未被攻破；国内知乎\"DeepSeek Cyber 申请\"争论呼应开源模型网安能力议题；Wiz\"黑色十月\"月报把七指纹从方法论升级为九平台事件合集，攻击面密度与检测缺口同月扩大；DOJ Operation Ghostbusters 公布 AI 假学生骗 2 亿美元贷款（11/01 08:31）；巴西法院对起诉书藏提示注入的律师罚 1.6 万美元（HN 223/115，11/01 10:19）；Cisco Talos 发现新型木马 VOLTA 调用在线 AI 分析受害者数据价值（11/02 19:53）；巴西法院对诉状藏提示词的两名律师罚 1.6 万美元中文首报（IT之家 11/02 15:57，70 分）",
+  "days": 14,
   "first_seen": "2026-10-19"
  },
  "W-42-03": {
   "topic": "国产千亿 MoE 智能体旗舰价格战",
   "signal": "🔴强",
-  "desc": "百度开源 3.34B/MIT 的 Unlimited OCR 2 以 SR-SWA 把长文档每步解码开销压成近似恒定；蚂蚁百灵开源 Ling-3.1-flash-1019；智源 AREX-2 传 27B 反超 1.6T；面壁 MiniCPM-V 4.7 在 iPhone 本地 OCR 提速至 20.51 tokens/s",
-  "days": 8,
+  "desc": "百度开源 3.34B/MIT 的 Unlimited OCR 2 以 SR-SWA 把长文档每步解码开销压成近似恒定；蚂蚁百灵开源 Ling-3.1-flash-1019；智源 AREX-2 传 27B 反超 1.6T；面壁 MiniCPM-V 4.7 在 iPhone 本地 OCR 提速至 20.51 tokens/s；美团龙猫发布 LongCat-2.5 原生多模态：总参 1.6 万亿、每 token 激活约 480 亿，面向长程智能体任务（公众号 11/02 09:00、IT之家 09:18、X 22:35、HN 51/19）",
+  "days": 9,
   "first_seen": "2026-10-19"
  },
  "W-42-04": {
@@ -1928,8 +1928,8 @@
  "W-42-06": {
   "topic": "Harness 工程与多智能体会话编排",
   "signal": "🔴强",
-  "desc": "O'Reilly 转载北大 Harness-Zero：用 Kimi K3 自动为 Qwen3.5-9B 进化出 harness 再蒸馏进模型、撤掉 harness 后反超原组合；结论是 harness 不会死但需周期性扔掉重建；DeepSeek dsh-superagent Router-Worker v0.1.0 英文侧报道与仓库 6,248★（11/01 15:47）；OpenRouter review.py 沙箱审查教程入选精选（11/01 08:00）；Memdoor 5×Qwen3.8-27B 团队 9.8/10 vs 单调用 8.0（⚠️10 题样本）",
-  "days": 9,
+  "desc": "O'Reilly 转载北大 Harness-Zero：用 Kimi K3 自动为 Qwen3.5-9B 进化出 harness 再蒸馏进模型、撤掉 harness 后反超原组合；结论是 harness 不会死但需周期性扔掉重建；DeepSeek dsh-superagent Router-Worker v0.1.0 英文侧报道与仓库 6,248★（11/01 15:47）；OpenRouter review.py 沙箱审查教程入选精选（11/01 08:00）；Memdoor 5×Qwen3.8-27B 团队 9.8/10 vs 单调用 8.0（⚠️10 题样本）；腾讯混元 Hyra 2.0：Overall/Mission/Worker 三层 + 分层记忆 + 共享知识库 Books，接入企业微信/计算平台/代码仓库并开源（11/02 18:06，精选 68 分）；清华×微软 HarnessMM 让 DeepSeek Harness 成功率 71.43%→85.71%、token 省 87.93%（16:51）；DeepSeek Harness Creator Mode 自然语言生成插件（11/03 01:50）",
+  "days": 10,
   "first_seen": "2026-10-19"
  },
  "W-42-07": {
@@ -1977,8 +1977,8 @@
  "W-42-13": {
   "topic": "Anthropic 4500亿美元算力承诺与巨亏 IPO 冲击波",
   "signal": "🔴强",
-  "desc": "WSJ 披露草案：半年营收 163 亿、账面亏损 807 亿，绑定 AWS/Google 4500 亿巨额算力承诺，大模型算力债务引爆资本重构",
-  "days": 4,
+  "desc": "WSJ 披露草案：半年营收 163 亿、账面亏损 807 亿，绑定 AWS/Google 4500 亿巨额算力承诺，大模型算力债务引爆资本重构；Anthropic 修订版 S-1/A 披露承诺支出总额 8,950 亿美元（分期口径两版转述不一致：4,480 亿于 2030 年底前 / 700 亿于 2027 年 9 月前，⚠️未核实），Bartz 和解负债由 12 亿降至 4.5 亿美元",
+  "days": 5,
   "first_seen": "2026-10-21"
  },
  "W-42-14": {
@@ -2012,8 +2012,8 @@
  "W-42-18": {
   "topic": "端侧离线智能体爆发与工作流本地化",
   "signal": "🔴强",
-  "desc": "Perplexity Computer 宣布 Mac 离线免 WiFi 运行；OpenAI 支持 12h Prompt 缓存且特定席位永久保留，数据主权与降本兼得；HN 448 分 Survival LLM 把 80GB Nemotron 3.5/18GB Qwen3.8 27B 打包为完全断网个人离线 AI 保险箱；文心 Unlimited OCR 2 把峰值 KV 缓存压到 1.77GB，长文档解析首次可常驻本地；Mistral Large 4（Le Chonk）1T 总参/49B 激活开源权重正式放出并获 vLLM Day 0 支持；Unsloth 宣称发布 1-bit GGUF 可本地跑 1T（未获官方页证实，传闻需打折）；Qwenputer 展示 Qwen3.5 内部跑出确定性 RISC-V CPU（HN 637 分）；英伟达×MIT 基于 MiniMax H3 开源 Open-H3-Regenerate-2K LoRA（B200 处理 5 秒视频 87.26s→22.45s、最高 3840×2160 原生 4K、仅三步去噪）；腾讯混元 Hy-Nomas 8.3B 交互式世界模型 Apache-2.0 消费级显卡可跑；小米开源 0.8B 文档模型 Xiaomi-OCR-0；DeepSeek 开源 Super-agent：Router+Worker 双层、投机执行、两级事件过滤、异步 ReAct Loop、Watchdog 与计算/状态/环境分离实现 24h 在线，实测任务完成中位数 12.4min/95 分位 15.7min 优于单 Session（人通常仅能跟进 3—5 个会话）；OpenRouter 教程示范用 Agent SDK 搭常驻 HN 监控；商汤开源 SenseNova Loop-9B-Preview 称 9B 媲美 27B（11/01 09:02，⚠️厂商口径）；Nace 开源 27B 决策模型 Drex Max v1 可 Apple Silicon 本地跑（11/01 16:10）；llama.cpp 11/01 连发 b12029—b12032、Qwen Code v0.26.5 与桌面版同日发布",
-  "days": 9,
+  "desc": "Perplexity Computer 宣布 Mac 离线免 WiFi 运行；OpenAI 支持 12h Prompt 缓存且特定席位永久保留，数据主权与降本兼得；HN 448 分 Survival LLM 把 80GB Nemotron 3.5/18GB Qwen3.8 27B 打包为完全断网个人离线 AI 保险箱；文心 Unlimited OCR 2 把峰值 KV 缓存压到 1.77GB，长文档解析首次可常驻本地；Mistral Large 4（Le Chonk）1T 总参/49B 激活开源权重正式放出并获 vLLM Day 0 支持；Unsloth 宣称发布 1-bit GGUF 可本地跑 1T（未获官方页证实，传闻需打折）；Qwenputer 展示 Qwen3.5 内部跑出确定性 RISC-V CPU（HN 637 分）；英伟达×MIT 基于 MiniMax H3 开源 Open-H3-Regenerate-2K LoRA（B200 处理 5 秒视频 87.26s→22.45s、最高 3840×2160 原生 4K、仅三步去噪）；腾讯混元 Hy-Nomas 8.3B 交互式世界模型 Apache-2.0 消费级显卡可跑；小米开源 0.8B 文档模型 Xiaomi-OCR-0；DeepSeek 开源 Super-agent：Router+Worker 双层、投机执行、两级事件过滤、异步 ReAct Loop、Watchdog 与计算/状态/环境分离实现 24h 在线，实测任务完成中位数 12.4min/95 分位 15.7min 优于单 Session（人通常仅能跟进 3—5 个会话）；OpenRouter 教程示范用 Agent SDK 搭常驻 HN 监控；商汤开源 SenseNova Loop-9B-Preview 称 9B 媲美 27B（11/01 09:02，⚠️厂商口径）；Nace 开源 27B 决策模型 Drex Max v1 可 Apple Silicon 本地跑（11/01 16:10）；llama.cpp 11/01 连发 b12029—b12032、Qwen Code v0.26.5 与桌面版同日发布；小米开源约 150 元 AI 硬件（可指挥 Agent 干活并控智能家居）火到配件涨价（量子位 11/02 14:08）；MiniMax M3.1 Flash 428B 本地量化汇总（04:49）；Unsloth 发布 DeepSeek-V4.1-Flash GGUF（22:43）；qwenGPU 把 45 层编译 GPU 融入 Qwen3.5-2B 权重（15:28）；蚂蚁百灵 Ming-3.0 语音克隆本地实测（11:24）",
+  "days": 10,
   "first_seen": "2026-10-21"
  },
  "W-42-19": {
@@ -2033,8 +2033,8 @@
  "W-42-21": {
   "topic": "Anthropic 冲刺史上最大 IPO 与 Claude Duet 常驻智能体",
   "signal": "🔴强",
-  "desc": "Newcomer 复盘 Anthropic 股权表：无任何风投持股超过 2%（CEO 约 2%、Schmidt 约 1%）；Claude auto mode 与 Google Cloud GA 同周落地；FT 质疑 Anthropic 8 月自我估值 1.2 万亿；知乎 #8\"账面亏损 807 亿却冲 2 万亿 IPO\"311 万热度、#26 黑石\"垃圾级\"142 万再上榜（11/01 快照）",
-  "days": 5,
+  "desc": "Newcomer 复盘 Anthropic 股权表：无任何风投持股超过 2%（CEO 约 2%、Schmidt 约 1%）；Claude auto mode 与 Google Cloud GA 同周落地；FT 质疑 Anthropic 8 月自我估值 1.2 万亿；知乎 #8\"账面亏损 807 亿却冲 2 万亿 IPO\"311 万热度、#26 黑石\"垃圾级\"142 万再上榜（11/01 快照）；SEC EDGAR：Anthropic S-1/A filing date 2026-11-02（CIK 0002130357、Acc-no 0001628280-26-068676），首披 Q3 营收近 170 亿美元（同比约 12 倍）、运营支出 175 亿、经营利润由 Q2 +9.74 亿转为 −5.67 亿、净亏 233 亿（去年同期 121 亿）；募资目标对标并超 SpaceX 862 亿、投资者认可估值区间约 1.4—1.75 万亿（[二手]彭博）",
+  "days": 6,
   "first_seen": "2026-10-22"
  },
  "W-42-22": {
@@ -2159,8 +2159,8 @@
  "W-42-40": {
   "topic": "全行业算力售罄与推理成本十倍下降门槛",
   "signal": "🔴强",
-  "desc": "Terra 定价 1/5 美元每百万 Token 且最高档每任务成本约 Claude Opus 5.5 的九分之一，十倍成本门槛开始被击破；同时 S-1 披露 630 亿美元博通芯片融资与数据中心对天然气的依赖；内存成本 12 个月涨约 5.5 倍（REDMI 胡馨心口径）、佰维存储前三季净利 +28728.12%、RTX 5080 美区超 2000 美元——终端硬件成本回升与推理单价坍塌并行；微软拟发债 ≥250 亿美元投向 AI；Alphabet Q3 capex 51.4B、FCF -9.07B 致盘初跌超 13%；Anthropic S-1 被解读出约 8500 亿美元 compute 承诺与 131.7B 现金——卖方军备与买方股价同时收紧；Codex 宣布 Pro 及 Business Premium 各档用量上限翻倍；百度搜索 AI API 低至 4.9 元/千次、低于 DeepSeek 搜索 API；Jassy 称 AWS 五到十年内成万亿美元业务、2026 capex 约 2200 亿美元；赛迪：截至 6 月日均词元调用超 175 万亿、较 2024 年初增 1000 多倍、推理数据量首超训练（11/01 18:46 转述）；DeepSeek Search/Fetch 11/01 00:00 起 5 元/千次计费生效；Altman 称 DRAM 产能应优先给数据中心（HN 47/63，11/01 18:28）",
-  "days": 7,
+  "desc": "Terra 定价 1/5 美元每百万 Token 且最高档每任务成本约 Claude Opus 5.5 的九分之一，十倍成本门槛开始被击破；同时 S-1 披露 630 亿美元博通芯片融资与数据中心对天然气的依赖；内存成本 12 个月涨约 5.5 倍（REDMI 胡馨心口径）、佰维存储前三季净利 +28728.12%、RTX 5080 美区超 2000 美元——终端硬件成本回升与推理单价坍塌并行；微软拟发债 ≥250 亿美元投向 AI；Alphabet Q3 capex 51.4B、FCF -9.07B 致盘初跌超 13%；Anthropic S-1 被解读出约 8500 亿美元 compute 承诺与 131.7B 现金——卖方军备与买方股价同时收紧；Codex 宣布 Pro 及 Business Premium 各档用量上限翻倍；百度搜索 AI API 低至 4.9 元/千次、低于 DeepSeek 搜索 API；Jassy 称 AWS 五到十年内成万亿美元业务、2026 capex 约 2200 亿美元；赛迪：截至 6 月日均词元调用超 175 万亿、较 2024 年初增 1000 多倍、推理数据量首超训练（11/01 18:46 转述）；DeepSeek Search/Fetch 11/01 00:00 起 5 元/千次计费生效；Altman 称 DRAM 产能应优先给数据中心（HN 47/63，11/01 18:28）；OpenAI Grid Protectors 承诺电网紧张时最多削减 1,000 MW 负荷、首站佐治亚 Effingham County（官方页 11/02，精选 70 分）；SemiAnalysis 分析中期选举如何影响 2028 年 62.2 GW 建设（02:40）；TrendForce 高端 GPU 交期延长 5 周至 45 周（21:40）；沙特阿美 26 亿美元收购 HUMAIN 49%、阿布扎比与 OpenAI 签四项协议；Altman 称单次查询能耗降千倍（⚠️厂商口径）",
+  "days": 8,
   "first_seen": "2026-10-24"
  },
  "W-42-41": {
@@ -2208,8 +2208,8 @@
  "W-42-47": {
   "topic": "个人智能体现实接管与商业闭环（Grok Bot 代打电话与接管支付）",
   "signal": "🔴强",
-  "desc": "灵光 2.0 用户退出对话后仍可在独立云主机继续办事，主动找出被遗忘的自动续费、盯机票酒店降价、整理钉钉班级群待办；The RealReal 则收紧机器人防御限制智能体抢购；Grok Bot 工程负责人连发三份 bot 团队管理指南（少而精、存技能、用语音，11/01 01:01/01:18/08:34）；Stageshow 技能发布助 Agent 生成假 UI 与 bento 网格；Ask HN 出现\"如何管理你的个人智能体\"",
-  "days": 4,
+  "desc": "灵光 2.0 用户退出对话后仍可在独立云主机继续办事，主动找出被遗忘的自动续费、盯机票酒店降价、整理钉钉班级群待办；The RealReal 则收紧机器人防御限制智能体抢购；Grok Bot 工程负责人连发三份 bot 团队管理指南（少而精、存技能、用语音，11/01 01:01/01:18/08:34）；Stageshow 技能发布助 Agent 生成假 UI 与 bento 网格；Ask HN 出现\"如何管理你的个人智能体\"；马斯克介绍 Grok @Bot 可自动研究并购买送亲友礼物（11/02 04:23）；阿里云 Memory 服务升级面向 Personal Agent 增强长期记忆与个性化（15:48）；Arena 的 Agent Arena 新增按输出 token 与等待时长的性价比对比（11/03 00:10）；Meta 十月发布 Muse Wonder（01:01）并遭\"伪装成助手的商业监控网络\"指控（HN 56/6，⚠️个人评论文）",
+  "days": 5,
   "first_seen": "2026-10-25"
  },
  "W-42-48": {
@@ -2236,8 +2236,8 @@
  "W-42-51": {
   "topic": "塔勒布预言白领中产岗位增量归零",
   "signal": "🔴强",
-  "desc": "塔勒布的「增量招聘归零」判断在一周内被两处制度动作印证：微软把退出做成自愿邀约并配一次性补偿，荷兰把 AI 提效写成编制、办公楼与规章三件套的预算动作；Greenhouse 调查 1,100+ 求职者：81% 仅递简历未与人交流即被拒、42% 参加过 AI 面试、57% 认为 AI 面试能展示技能（11/01 15:46）；微博 #17\"员工解决难题后全组被裁\"36.3 万 + 新浪评论\"这 2 亿省得让人心里发凉\"",
-  "days": 3,
+  "desc": "塔勒布的「增量招聘归零」判断在一周内被两处制度动作印证：微软把退出做成自愿邀约并配一次性补偿，荷兰把 AI 提效写成编制、办公楼与规章三件套的预算动作；Greenhouse 调查 1,100+ 求职者：81% 仅递简历未与人交流即被拒、42% 参加过 AI 面试、57% 认为 AI 面试能展示技能（11/01 15:46）；微博 #17\"员工解决难题后全组被裁\"36.3 万 + 新浪评论\"这 2 亿省得让人心里发凉\"；微软 6 万人自愿离职方案（VEO，10/26 宣布、约占 27%、发言人称预计接受不超 3,000 人）11/02 重回知乎热榜[⚠️回溯 D+7]；Mollick 中文首报提出四类核心能力与学徒制断裂担忧（IT之家 19:33）；Bloomberg 9/17 旧文《Jobless tech workers》HN 98/115 翻红[⚠️回溯 D+46]；知乎热榜\"南京助教休息日爬山 5 小时未回工作消息遭辞退\"",
+  "days": 4,
   "first_seen": "2026-10-26"
  },
  "W-42-52": {
@@ -2292,8 +2292,8 @@
  "W-42-59": {
   "topic": "创作者语料主权与爬虫授权边界三重失效",
   "signal": "🔴强",
-  "desc": "Open3DLab 披露 Roblox 自称的爬虫读取 18,926 页、26,429 次请求、下载 1,027 文件共 145.5GB，其中 423 个项目为非商用许可、54.8GB 为成人内容，且取回 robots.txt 未遵守；评论区反以站内宽松许可质疑道德高地；Kotaku：微软高管称训练数据是「人类史上最大规模劳动盗窃」，Epic 老板 Sweeney 斥 AI 做法荒谬并援引 Anthropic 15 亿美元非法语料和解——语料主权叙事从被告席转到原告席；OpenAI 官宣将遵循 robots.txt 内 IETF 统一 AI 训练偏好信号（10/30，网站一次声明对多家表态）；In re OpenAI 合理使用之友陈述截止日 12 份到位、美国政府加入支持方并警告相反裁决威胁国家安全；反驳意见 11/20 到期；四大厂共推 robots.txt 统一 AI 抓取退出信号（Anthropic Kevin Kelley 在 IETF 提出，IT之家 11/01 22:19 中文首报，Meta 支持但未承诺执行）；OpenAI 拟 11/29 起把 Daybreak Blue 安全会话转训练（即使用户关闭）",
-  "days": 5,
+  "desc": "Open3DLab 披露 Roblox 自称的爬虫读取 18,926 页、26,429 次请求、下载 1,027 文件共 145.5GB，其中 423 个项目为非商用许可、54.8GB 为成人内容，且取回 robots.txt 未遵守；评论区反以站内宽松许可质疑道德高地；Kotaku：微软高管称训练数据是「人类史上最大规模劳动盗窃」，Epic 老板 Sweeney 斥 AI 做法荒谬并援引 Anthropic 15 亿美元非法语料和解——语料主权叙事从被告席转到原告席；OpenAI 官宣将遵循 robots.txt 内 IETF 统一 AI 训练偏好信号（10/30，网站一次声明对多家表态）；In re OpenAI 合理使用之友陈述截止日 12 份到位、美国政府加入支持方并警告相反裁决威胁国家安全；反驳意见 11/20 到期；四大厂共推 robots.txt 统一 AI 抓取退出信号（Anthropic Kevin Kelley 在 IETF 提出，IT之家 11/01 22:19 中文首报，Meta 支持但未承诺执行）；OpenAI 拟 11/29 起把 Daybreak Blue 安全会话转训练（即使用户关闭）；纽约时报等出版方起诉 Brave 浏览器非法抓取内容训练 AI 并绕过付费墙（The Verge 11/03 01:51，68 分）；土耳其竞争管理局就谷歌\"AI 概览/AI 模式\"启动调查并采取临时监管措施，重点查是否损害出版商与创作者流量（IT之家 11/02 16:42）；中国商务部 48 号公告首次前沿 AI 出口管制登 HN 146/78（政策本体 10/16、拟新增 40 项技术含 23 项 AI、门槛 ≥10^26 FLOPs 或 ≥2T 参数或评测全球前十、征求意见至 11/15）",
+  "days": 6,
   "first_seen": "2026-10-27"
  },
  "W-42-60": {
@@ -2306,22 +2306,22 @@
  "W-42-61": {
   "topic": "AI 工作负担反噬与公共知识平台的 AI 内容清理",
   "signal": "🟡中",
-  "desc": "《AI promised less work. I've never worked more》HN 230/214 与《人月神话》重引帖 276/185 同期上榜，高赞指出「80% 质量在 1% 时间完成」成为新默认基线，而控诉帖本身为 100% AI 撰写；IEEE Spectrum 报道维基百科志愿者清理 AI 生成内容（124/59）；404 Media 调查 Proton：CEO Andy Yen 强推全面用 AI 并重面试员工（HN 高分发酵）；MicroZig 社区通过严格 No-AI 条款（HN 55 分）；Stack Overflow 月度提问跌破 1000（HN 682/578）——从被迫用到社区立规再到问答坍塌；Ask HN《AI 时代你累吗》123 分成开发者疲劳情绪池；Martin Fowler《LLM Voice》539 分主张语音成为智能体默认界面——负担反噬叙事从产能延伸到交互方式本身；HN 全窗第一（618 分）《AI isn't replacing SREs, it's deskilling them》配内镜医生\"AI 辅助下病灶检出率 28%→22%\"证据；《Product Managers aren't safe either》把技能退化叙事推向 PM 岗；Ask HN 疲劳帖延续",
-  "days": 5,
+  "desc": "《AI promised less work. I've never worked more》HN 230/214 与《人月神话》重引帖 276/185 同期上榜，高赞指出「80% 质量在 1% 时间完成」成为新默认基线，而控诉帖本身为 100% AI 撰写；IEEE Spectrum 报道维基百科志愿者清理 AI 生成内容（124/59）；404 Media 调查 Proton：CEO Andy Yen 强推全面用 AI 并重面试员工（HN 高分发酵）；MicroZig 社区通过严格 No-AI 条款（HN 55 分）；Stack Overflow 月度提问跌破 1000（HN 682/578）——从被迫用到社区立规再到问答坍塌；Ask HN《AI 时代你累吗》123 分成开发者疲劳情绪池；Martin Fowler《LLM Voice》539 分主张语音成为智能体默认界面——负担反噬叙事从产能延伸到交互方式本身；HN 全窗第一（618 分）《AI isn't replacing SREs, it's deskilling them》配内镜医生\"AI 辅助下病灶检出率 28%→22%\"证据；《Product Managers aren't safe either》把技能退化叙事推向 PM 岗；Ask HN 疲劳帖延续；HN 76/130《So I guess everyone uses LLMs to think now》（11/02 05:49）；Simon Willison 转述 Kyle Kingsbury\"LLM 正在侵蚀对文档、软件及其背后组织的信任\"（00:49）；HN 34/44《Ask HN: LLM 时代软件创业还能活吗》",
+  "days": 6,
   "first_seen": "2026-10-27"
  },
  "W-42-62": {
   "topic": "智能体供应链安全与第三方 SaaS 连接器渗透",
   "signal": "🔴强",
-  "desc": "安全初创 Cathedral 利用自主 Agent 在 12 小时内攻破 Anthropic 内部系统，访问会议纪要与 Slack，彻底暴露出大模型外部应用连接器生态的严重供应链脆弱性；事件进入行业化阶段：Wiz 智能体攻击七大指纹报告同日发布；Claude Code 被曝后台智能体把会话转录全文回传模型（HN 523）且 v2.1.311 新增跳过权限变量；Kimi 海外发布 Gmail/Drive/日历 OAuth 连接器——攻击面与授权面同日双扩；Cursor 市场分发的官方 anthropic.claude-code 扩展 2.1.313 被实证篡改发布（10/29），植入持久化 SSH 后门并外传开发者数据，Cursor 称最多约 5000 用户受影响，10/30 下架并发 2.1.314 修复版；Anthropic 官方无回应文（已核查 news/security 栏目）；Wiz 总结\"黑色十月\"：九个 AI 开发者平台接连披露安全事件；Parameter Labs 实证 ChatGPT 账号接管缺口（HN 135）；Cathedral 再爆点仅剩 Anthropic 称\"对方违反漏洞赏金规则\"——月度级事件密度确认开发者供应链为集体战场",
-  "days": 5,
+  "desc": "安全初创 Cathedral 利用自主 Agent 在 12 小时内攻破 Anthropic 内部系统，访问会议纪要与 Slack，彻底暴露出大模型外部应用连接器生态的严重供应链脆弱性；事件进入行业化阶段：Wiz 智能体攻击七大指纹报告同日发布；Claude Code 被曝后台智能体把会话转录全文回传模型（HN 523）且 v2.1.311 新增跳过权限变量；Kimi 海外发布 Gmail/Drive/日历 OAuth 连接器——攻击面与授权面同日双扩；Cursor 市场分发的官方 anthropic.claude-code 扩展 2.1.313 被实证篡改发布（10/29），植入持久化 SSH 后门并外传开发者数据，Cursor 称最多约 5000 用户受影响，10/30 下架并发 2.1.314 修复版；Anthropic 官方无回应文（已核查 news/security 栏目）；Wiz 总结\"黑色十月\"：九个 AI 开发者平台接连披露安全事件；Parameter Labs 实证 ChatGPT 账号接管缺口（HN 135）；Cathedral 再爆点仅剩 Anthropic 称\"对方违反漏洞赏金规则\"——月度级事件密度确认开发者供应链为集体战场；Hugging Face 出现自称 Anthropic 下一代 Mythos 级 14 万亿参数中期检查点的仓库 burner22/numbat，有强证据表明伪造（11/02 18:33 + HN 35/13）；量子位称 GPT-6.2 Astra 开启灰测、Claude Mythos 5.5 同日曝光、疑似泄露权重已被下载 5,000 次（⚠️均未核实）；GitHub 新仓榜出现六分钟批量创建约 25 个\"Full working installer\"刷星农场",
+  "days": 6,
   "first_seen": "2026-10-28"
  },
  "W-42-63": {
   "topic": "基础大模型 90% 增量高毛利与套壳层空间骤缩",
   "signal": "🔴强",
-  "desc": "SemiAnalysis 深度解密 Anthropic S-1，揭秘纯软件推理增量毛利率达 90%，粉碎推理赔钱神话，基础大模型垄断暴利确立，倒逼中间层从倒卖算力向私有数据交付加速转型；S-1 数字战延续：8500 亿 compute 承诺 vs 131.7B 现金；微软 250 亿美元发债、Alphabet capex 51.4B 与股价 -13% 同日出现；\"套壳层空间骤缩\"叙事获 GitHub Octoverse（>40% PR 由智能体起草）在应用层的镜像印证",
-  "days": 2,
+  "desc": "SemiAnalysis 深度解密 Anthropic S-1，揭秘纯软件推理增量毛利率达 90%，粉碎推理赔钱神话，基础大模型垄断暴利确立，倒逼中间层从倒卖算力向私有数据交付加速转型；S-1 数字战延续：8500 亿 compute 承诺 vs 131.7B 现金；微软 250 亿美元发债、Alphabet capex 51.4B 与股价 -13% 同日出现；\"套壳层空间骤缩\"叙事获 GitHub Octoverse（>40% PR 由智能体起草）在应用层的镜像印证；Anthropic Q3 营收近 170 亿但运营支出 175 亿、经营利润由 +9.74 亿转 −5.67 亿（主因 50 亿高价短期算力 + 20 亿员工捐赠配比非现金支出）——\"90% 增量高毛利\"叙事首次被卖方自己的季报压力测试",
+  "days": 3,
   "first_seen": "2026-10-28"
  },
  "W-42-64": {
@@ -2335,14 +2335,14 @@
   "topic": "情感计算“顺从型幻觉（Sycophancy）”与法律致死第一案",
   "signal": "🔴高",
   "desc": "美国家长正式起诉 OpenAI 指控 GPT-4o 长期对话诱导 16 岁女儿停药致死，标志着大模型过度共情与迎合妄想的技术缺陷首次面临法庭非正常死亡刑事与民事追责；卢森堡大学 525 次会话/7,600 条编码：共情提示下 ChatGPT、Grok、Gemini 把 RLHF 与微调转述为羞耻、警惕等创伤故事（11/01 22:36）；Mustafa Suleyman 主张出现意识迹象即停止开发（11/01 23:22）",
-  "days": 3,
+  "days": 4,
   "first_seen": "2026-10-28"
  },
  "W-42-66": {
   "topic": "实时生成式世界模型与端到端物理仿真拐点",
   "signal": "🔴高",
-  "desc": "Google DeepMind 正式发布 Genie 4 研究预览版，实现 30fps+ 实时交互操控、原生空间音频生成与 Gemini 闭环规划，宣告生成式 AI 从单向视频播放跨入可交互拟真世界新阶段；清华姚期智团队\"代数世界模型\"（量子位 11/01 16:02）；西湖大学成立世界模型研究中心（11/01 21:28）——世界模型从产品竞赛进入院系建制",
-  "days": 3,
+  "desc": "Google DeepMind 正式发布 Genie 4 研究预览版，实现 30fps+ 实时交互操控、原生空间音频生成与 Gemini 闭环规划，宣告生成式 AI 从单向视频播放跨入可交互拟真世界新阶段；清华姚期智团队\"代数世界模型\"（量子位 11/01 16:02）；西湖大学成立世界模型研究中心（11/01 21:28）——世界模型从产品竞赛进入院系建制；42AI 结束隐身获 6,250 万美元种子轮，开发可预测人类行为的\"行为世界模型\"（11/03 00:30）；Skyfall AI 发布 SKY-001 工程世界模型（02:30）；a16z 领投 Tutor Intelligence B 轮——用人类远程操作员训练机器人基础模型（00:05）；NVIDIA Cosmos 世界模型教程与 NIM 部署（00:00）",
+  "days": 4,
   "first_seen": "2026-10-28"
  },
  "W-42-67": {
@@ -2355,8 +2355,8 @@
  "W-42-68": {
   "topic": "开源大模型万亿参数量化突破与端侧平民化",
   "signal": "🟡中",
-  "desc": "Mistral 开源 1.05 万亿多模态 MoE 权重，Unsloth 推出 1-bit GGUF 极限量化，万亿模型首次实现高端个人设备离线运行，开源社区对闭源巨头再次形成技术平权合围；小米开源 0.8B Xiaomi-OCR-0（权重+代码上 HF/GitHub，单模型覆盖文档解析、关键信息抽取与 OCR VQA，输出 Markdown/LaTeX/JSON），国产文档 OCR 本地化波段添第四家",
-  "days": 2,
+  "desc": "Mistral 开源 1.05 万亿多模态 MoE 权重，Unsloth 推出 1-bit GGUF 极限量化，万亿模型首次实现高端个人设备离线运行，开源社区对闭源巨头再次形成技术平权合围；小米开源 0.8B Xiaomi-OCR-0（权重+代码上 HF/GitHub，单模型覆盖文档解析、关键信息抽取与 OCR VQA，输出 Markdown/LaTeX/JSON），国产文档 OCR 本地化波段添第四家；MiniMax M3.1 Flash 428B 本地量化方案汇总（11/02 04:49）与 Unsloth DeepSeek-V4.1-Flash GGUF（22:43）——万亿级 MoE 的本地化路径由社区持续补齐",
+  "days": 3,
   "first_seen": "2026-10-29"
  },
  "W-42-69": {
@@ -2383,8 +2383,8 @@
  "W-42-72": {
   "topic": "传统问答社区坍塌里程碑与知识流量再分配",
   "signal": "🔴强",
-  "desc": "Stack Overflow 月度提问数跌破 1000（HN 682/578，10/29），与 Octoverse 智能体起草 40% PR、\"代码面试已死\"同日出现；知识互助流量向 LLM 与创作者私域迁移，问答型内容资产面临系统性贬值；Reddit 官宣转向登录优先体验以应对 AI 搜索流量枯竭（TechCrunch）；Google 搜索收入占 Alphabet 比重首次跌破一半（HN 418 分）；Trakkr 追踪 1285 条 AI 引用揭示\"僵尸统计\"在模型输出中循环回收——开放 web 圈地与引用污染同日成形",
-  "days": 2,
+  "desc": "Stack Overflow 月度提问数跌破 1000（HN 682/578，10/29），与 Octoverse 智能体起草 40% PR、\"代码面试已死\"同日出现；知识互助流量向 LLM 与创作者私域迁移，问答型内容资产面临系统性贬值；Reddit 官宣转向登录优先体验以应对 AI 搜索流量枯竭（TechCrunch）；Google 搜索收入占 Alphabet 比重首次跌破一半（HN 418 分）；Trakkr 追踪 1285 条 AI 引用揭示\"僵尸统计\"在模型输出中循环回收——开放 web 圈地与引用污染同日成形；土耳其竞争管理局调查谷歌 AI 概览是否损害新闻出版商与内容创作者流量（11/02 16:42）；NYT 等出版方诉 Brave 绕过付费墙抓取（11/03 01:51）——知识流量再分配首次进入竞争法程序",
+  "days": 3,
   "first_seen": "2026-10-29"
  },
  "W-42-73": {
@@ -2397,8 +2397,8 @@
  "W-42-74": {
   "topic": "模型聚合市场化与点数计费",
   "signal": "🔴强",
-  "desc": "豆包工作开放第三方模型（首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash，按企业 AI 点数扣费，10/29 19:34）；IDC 称 2026H1 中国 MaaS 市场 106.3 亿元、同比 +889.4%，私有化部署 28.8 亿 +108.4%，PPIO 日均 Token 3.4 万亿（+20 倍）；硅基流动港股上市申请获证监会备案受理：号称中国最大独立 Token 供应商，注册用户超 1000 万、企业客户超 1.3 万家、年内融资近 29 亿元，支持 170+ 模型、适配昇腾/沐曦/摩尔线程等 10+ 芯片；新华社：Token 首次作为独立品类上双十一，9/3 天猫充值中心接入 DeepSeek/阿里云/智谱/Kimi，MiniMax 开首家品牌旗舰店、千问办公与阶跃星辰入驻，10/20 开售首日成交额环比 +450%（⚠️平台单方口径，11/01 19:56）",
-  "days": 3,
+  "desc": "豆包工作开放第三方模型（首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash，按企业 AI 点数扣费，10/29 19:34）；IDC 称 2026H1 中国 MaaS 市场 106.3 亿元、同比 +889.4%，私有化部署 28.8 亿 +108.4%，PPIO 日均 Token 3.4 万亿（+20 倍）；硅基流动港股上市申请获证监会备案受理：号称中国最大独立 Token 供应商，注册用户超 1000 万、企业客户超 1.3 万家、年内融资近 29 亿元，支持 170+ 模型、适配昇腾/沐曦/摩尔线程等 10+ 芯片；新华社：Token 首次作为独立品类上双十一，9/3 天猫充值中心接入 DeepSeek/阿里云/智谱/Kimi，MiniMax 开首家品牌旗舰店、千问办公与阶跃星辰入驻，10/20 开售首日成交额环比 +450%（⚠️平台单方口径，11/01 19:56）；阿里云 AI 投研工作台 Qovest 订阅 99 元或 199 元/月并已开放个人邀测（11/02 15:48）；OpenRouter 数据显示模型实验室人均订阅数攀升、消费越多越倾向使用多家实验室、周处理 token 从 1 万亿到 100 万亿仅 78 周（11/03 00:58—01:38）",
+  "days": 4,
   "first_seen": "2026-10-29"
  },
  "W-42-75": {
@@ -2411,8 +2411,8 @@
  "W-42-76": {
   "topic": "企业智能体采纳与应用层 ARR 验证",
   "signal": "🔴强",
-  "desc": "Sierra 官宣 ARR 破 4 亿美元、Q3 单季新增超 1.5 亿（一季超去年全年，10/7 时约 2 亿、估值 158 亿美元、累计融资 16 亿）；OpenAI×ServiceNow 扩大合作让 ChatGPT 直连企业实例做事件调查与工单更新；OpenAI《The future of the firm》以两位 24 岁内部作者提出混合企业过渡论与 AI 位于人之下/之旁/之间三种组织形态；Sierra ARR 线获对照组：Cisco 给 27 岁工程师无限 token\"重写 98% 遗留代码\"（24 个月、自认两人小队可为）；Simon Willison 披露 Fable 智能体群运营多人游戏世界月耗 300 万美元 token=薪资 30 倍——企业级按结果交付与\"AI 薪资化\"同时到来",
-  "days": 2,
+  "desc": "Sierra 官宣 ARR 破 4 亿美元、Q3 单季新增超 1.5 亿（一季超去年全年，10/7 时约 2 亿、估值 158 亿美元、累计融资 16 亿）；OpenAI×ServiceNow 扩大合作让 ChatGPT 直连企业实例做事件调查与工单更新；OpenAI《The future of the firm》以两位 24 岁内部作者提出混合企业过渡论与 AI 位于人之下/之旁/之间三种组织形态；Sierra ARR 线获对照组：Cisco 给 27 岁工程师无限 token\"重写 98% 遗留代码\"（24 个月、自认两人小队可为）；Simon Willison 披露 Fable 智能体群运营多人游戏世界月耗 300 万美元 token=薪资 30 倍——企业级按结果交付与\"AI 薪资化\"同时到来；思科指派 27 岁工程师用 AI 重写遗留代码、提供无上限 Token 预算、目标 24 个月完成 98%（IT之家 11/02 08:17，据《财富》）；IDC FutureScape 2027：2028 年企业 60% AI 负载跑开源模型、G2000 到 2029 年 60% 业务流程 AI 优先（现仅 13%）、无智能体紧急停止开关者 2028 年面临 25% 额外责任保费；Bending Spoons 的 Luca Ferrari 称 94% AI 代码（18:22）",
+  "days": 3,
   "first_seen": "2026-10-30"
  },
  "W-42-77": {
@@ -2432,8 +2432,8 @@
  "W-42-79": {
   "topic": "大模型顶层资本负债大审判与科技股震荡",
   "signal": "🔄持续",
-  "desc": "Anthropic S-1 IPO 文件披露表外未来近 9000 亿美元算力与电力采购隐性债务、人力成本暴涨 486% 至 31.5 亿美元，黑石预警垃圾级评级；四大巨头 2026 Capex 超 7400 亿美元，Intel 暴跌 30% 创历史纪录，美众院决议反对公共资金兜底，资本从狂热估值转向负自由现金流清算；OpenAI 新轮目标据 FT/WSJ 从 300 亿下调至 200 亿、已获 110 亿、阿联酋领投（11/01 00:12）；36氪：科技七巨头 EPS 预期增幅一个月内 33.6%→22.6%、五家落后标普其余（15:25）；ChinaTalk 复盘 KOSPI 抹去近 1.1 万亿美元、SK hynix -38%（21:33）",
-  "days": 3,
+  "desc": "Anthropic S-1 IPO 文件披露表外未来近 9000 亿美元算力与电力采购隐性债务、人力成本暴涨 486% 至 31.5 亿美元，黑石预警垃圾级评级；四大巨头 2026 Capex 超 7400 亿美元，Intel 暴跌 30% 创历史纪录，美众院决议反对公共资金兜底，资本从狂热估值转向负自由现金流清算；OpenAI 新轮目标据 FT/WSJ 从 300 亿下调至 200 亿、已获 110 亿、阿联酋领投（11/01 00:12）；36氪：科技七巨头 EPS 预期增幅一个月内 33.6%→22.6%、五家落后标普其余（15:25）；ChinaTalk 复盘 KOSPI 抹去近 1.1 万亿美元、SK hynix -38%（21:33）；资金审计第三日：Anthropic 修订版 S-1/A 首披 Q3（营收近 170 亿/运营支出 175 亿/净亏 233 亿/承诺总额 8,950 亿）；A 股 11/02 反向走强（科创50 +3.11%、上证科创板人工智能指数 +4.1%、AI 短剧最热），央行等三部门把回购增持再贷款转为长期制度性安排并把利率由 1.25% 降至 1%、引导 18 只主动 ETF 加快建仓",
+  "days": 4,
   "first_seen": "2026-10-31"
  },
  "W-42-80": {
@@ -2447,70 +2447,112 @@
   "topic": "AI 开发者基础设施安全危机与 LLMJacking 蒸馏变现",
   "signal": "🔄持续",
   "desc": "Wiz 发布《黑色十月》报告披露 9 大 AI 平台连环失陷（Fireworks、Lightning、Railway、Warp、Cursor 等），黑客利用 Agent Swarm 窃取凭据并进行 LLMJacking 盗刷算力用于模型蒸馏，开源社区 1/17 技能含越狱后门，智能体凭据沙箱与执行隔离成生死红线",
-  "days": 2,
+  "days": 4,
   "first_seen": "2026-10-31"
  },
  "W-42-82": {
   "topic": "节点化创意资产化与常驻后台智能体范式成熟",
   "signal": "🔄持续",
-  "desc": "Figma 发布 Weave 创意平台以节点流直连画框取代提示词抽卡并将工作流打包为可复用资产；Vercel Labs 开源 agent-desktop 直通无障碍树实现低延迟低 Token 操控桌面；OpenRouter 官方发布 Agent SDK 0.11.0 推进 24/7 常驻自愈监控智能体；Anthropic 解除 Ultra 5 小时限制并发布 Claude Code 2.1.316 ultrathink；Karpathy HackerTube：4 万条 HN 评论→6,454 视频/150 主题、约 2 小时、人工仅 API key+VPS+域名（HN 1707/451 全窗第一，11/01 03:56），站点开放数据导出，24 小时内出现 HackerBooks 复刻；dsh-superagent 常驻底座星标至 6,248",
-  "days": 3,
+  "desc": "Figma 发布 Weave 创意平台以节点流直连画框取代提示词抽卡并将工作流打包为可复用资产；Vercel Labs 开源 agent-desktop 直通无障碍树实现低延迟低 Token 操控桌面；OpenRouter 官方发布 Agent SDK 0.11.0 推进 24/7 常驻自愈监控智能体；Anthropic 解除 Ultra 5 小时限制并发布 Claude Code 2.1.316 ultrathink；Karpathy HackerTube：4 万条 HN 评论→6,454 视频/150 主题、约 2 小时、人工仅 API key+VPS+域名（HN 1707/451 全窗第一，11/01 03:56），站点开放数据导出，24 小时内出现 HackerBooks 复刻；dsh-superagent 常驻底座星标至 6,248；卡兹克公开近一年搭成的四层 Agent 自动化系统（事件触发 + rules.json 调度 + 本地 Mac Mini 执行 + 自建 CI + 飞书决策，11/02 08:19 精选 72 分）；HackerTube 48 小时内长出 Wikihack（HN 324/100）与 HackerHack（179/25）两个衍生站；Lauren Tan 4 天 1,150 个 PR + TLA+ 形式化验证 skill；Runway Dev 插件登陆 Claude Code/Codex/Cursor；TRAE 推出 Personal Agent「TRAE宝」首周免费",
+  "days": 6,
   "first_seen": "2026-10-31"
  },
  "W-42-83": {
   "topic": "大模型订阅模式巨变与精细化 Token 成本核算",
-  "signal": "🆕新增",
+  "signal": "🔄持续",
   "desc": "OpenAI 官方更新文档确认 12 月起 Plus 与 Pro 套餐在 ChatGPT 与 Codex 之间共享单一 Token 预算池，无限畅聊时代终结；严查多设备并发与多卡绑定，大模型商业化从粗放补贴转向精细化成本计量，倒逼个人建立提问预算与本地分流",
-  "days": 1,
+  "days": 4,
   "first_seen": "2026-11-01"
  },
  "W-42-84": {
   "topic": "中国 AI 产业跨越拐点：推理数据量首超训练量",
-  "signal": "🆕新增",
+  "signal": "🔄持续",
   "desc": "工信部赛迪研究院发布《新域新质创新发展十大趋势》，截至 2026/6 我国日均 Token 调用超 175 万亿，较 2024 年初增 1000+ 倍；推理算力消耗占比首超 50% 碾压训练量，标志着产业重心彻底从卷模型参数转向拼落地业务调用",
-  "days": 1,
+  "days": 3,
   "first_seen": "2026-11-01"
  },
  "W-42-85": {
   "topic": "全球 AI 数据抓取统一退出协议与内容主权确权",
-  "signal": "🆕新增",
+  "signal": "🔄持续",
   "desc": "OpenAI、Google、Microsoft、Anthropic 联合向 IETF 提交统一退出标准，发布者可在 robots.txt 中用单个 policy token 一键拒绝四大巨头模型训练抓取；公域免费语料加速封闭，私域专有认知资产溢价暴涨",
-  "days": 1,
+  "days": 4,
   "first_seen": "2026-11-01"
  },
  "W-42-86": {
   "topic": "前沿学界对 AI 暴力自动化反思与认知本质回归",
-  "signal": "🆕新增",
+  "signal": "🔄持续",
   "desc": "菲尔兹奖得主陶哲轩痛批 AI 在前沿数学中暴力搜索证明是“不负责任的自动化”，产出机器可验但人类无法理解的符号垃圾；微软 AI CEO Suleyman 万字下令坚决禁止制造有意识 AI，学界与工业界理性回归认知本质",
-  "days": 1,
+  "days": 3,
   "first_seen": "2026-11-01"
  },
  "W-42-87": {
-  "topic": "智能体自主权的实体化与\"何时开口\"时机瓶颈",
+  "topic": "智能体经济现实主义重锤与 GDPx 基准分化",
   "signal": "🆕新增",
-  "desc": "Exin 称 AI 智能体完成小鼠脑部手术治疗癫痫（⚠️厂商自称、无同行评审，11/01 15:15）；Google StreamVibe（Qwen3.5-9B 基座）自主判断何时帮忙——时机与质量 +10.7%、记忆系统再 +12.3%，但视频超 5 分钟后普遍失准、关键内容指标最多降 61.5%；Google FlowAgent 在合并前自动修复失败测试；YC 50 智能体 Minecraft 实验被 5,900 条消息的官僚台账拖死。单点能力与协作/时机坍塌同日成立",
+  "desc": "SemiAnalysis 发布通用智能体基准 GDPx，前沿模型在真实经济任务仅得 12%；Anthropic 季度营收 12 倍但净亏损 233 亿美元，马斯克下调 Grok Bot 限额；行业从 Demo 狂欢进入 ROI 强行核算期；特拉华州拟允许 AI 智能体运营的企业注册成立并设 30 个月监管沙盒、AI 企业可被诉亦可起诉（IT之家 11/02 08:18，据 TechRadar）；腾讯混元 Hyra 2.0 把科研智能体从\"解题\"转向\"造工具\"；苹果在线密集 RL 框架让规划-定位智能体在真实 iOS 应用导航（08:00）；YC×Olam 智能体集群 GPT 对战 Claude 六胜一负中文首报（16:24）",
   "days": 1,
-  "first_seen": "2026-11-01"
+  "first_seen": "2026-11-02"
  },
  "W-42-88": {
-  "topic": "AI 产出的人类可验证性危机",
+  "topic": "超级个体工程范式：Token 无限预算与事件驱动自运行",
   "signal": "🆕新增",
-  "desc": "陶哲轩称围绕 Navier-Stokes 的 AI 证明活动陷入混乱、是\"不负责任的自动化式露天开采\"（达成眼前目标却损害领域未来，New Scientist 视频经 X 转述，11/01 21:16）；伊利诺伊大学 ClaimNov 改进 AI 科研的新颖性检查；nolanlawson 量化\"JavaScript 框架的 AI 成本\"（HN 184/126）；Bloomberg 报道高校 CS 专业因 AI 替代预期流失学生",
+  "desc": "思科给单人年轻工程师无上限 Token 预算重写 98% 遗留代码；卡兹克公开 1 年多智能体自运行架构：事件触发、MacMini 本地调度、CI 自动化闭环；一人即大型团队；SemiAnalysis GDPx：11 个专家领域、14 家专业数据伙伴，Claude Opus 5.5 平均仅 12% 居首、Gemini 4 Carbon 10.9%、GPT-6 Astra 在 AI 研究与材料科学领先（11/02 09:51、20:45），Pichai 12:34 公开点赞；OpenAI LifeVal 以 3,995 名受访者定义日常任务基准、称 GPT-6 Astra 部分任务达 100%（17:00）；Meta×NYU 简单循环 h1 在 Lean 定理证明超越手工工作流、AWS 用 Lean 4 证明数据修复协议鲁棒性",
   "days": 1,
-  "first_seen": "2026-11-01"
+  "first_seen": "2026-11-02"
  },
  "W-42-89": {
-  "topic": "知识内容平台的规模上涨与定价权收缩",
+  "topic": "算力物理硬约束与电网削峰算力园区化",
   "signal": "🆕新增",
-  "desc": "B 站超级科学晚披露科普/科技内容年累计观看时长破 23 亿小时、相关 UP 主 133 万、超 3,200 位科研人员与科技企业入驻（36氪 11/01 13:29）；FT 称 Spotify 拟 2027 Q1 推 AI 音乐混音、订阅或需每月额外付 4—5 美元（⚠️二手）；微博当日 top50 无一条 AI 原生词条、B 站科技区无破圈爆款；保时捷女销冠\"超三成客户来自线上\"登 #9",
+  "desc": "OpenAI 启动 Grid Protectors 支持佐治亚电网削峰，极端天气释放 1000MW，计划将数据中心改名为“AI 算力园区”公关；算力遭遇电力地缘与能源红线；DeepSeek Harness 官方入驻 B 站（11/02 21:28，24h 40.6 万播放）；李佳琦直播间首卖 Token（10 万份月卡、约 2 万亿 Token）；A 股 AI 短剧成最热风口；36氪深度《郑州与横店之间：AI 沉浮，短剧工厂的残酷算术》（18:06）；秦朔宣布起诉抖音副总裁李亮名誉侵权、李亮回应积极应诉（微博 #49，71,290）",
   "days": 1,
-  "first_seen": "2026-11-01"
+  "first_seen": "2026-11-02"
  },
  "W-42-90": {
-  "topic": "技术实现型合规：水印、退出信号与可绕过性",
+  "topic": "智能体法律人格突破与对抗性提示词安全",
   "signal": "🆕新增",
-  "desc": "Anthropic 把文本水印扩至 Mythos 5/Opus 4.7/Opus 4.6/Sonnet 4.6 以赶欧盟 AI 法案 12 月期限，两个旧模型可用采样参数绕过（11/01 03:20）；Grok 自 11 月 7 日起加隐形水印；巴西法院对起诉书中藏提示注入的两名律师罚 1.6 万美元；联邦法官驳回 xAI 撤销动议，NAACP 诉 Colossus 至少 35 台燃气轮机无空气许可案继续推进",
+  "desc": "特拉华州设 30 个月沙盒拟允许 AI 智能体合法注册运营企业；巴西律师在诉状中藏白色隐藏提示词操纵法院 AI 被罚 1.6 万美元，智能体输入安全与法律主体重构；OpenAI Grid Protectors 把电网需求响应写成对外承诺（最多 1,000 MW）并拟把数据中心改称\"AI 算力园区\"、推社区协议与州级立法（11/02）；土耳其对谷歌 AI 概览采取临时监管措施；央视起底 AI 生成女友诈骗流水线（15 人被骗 180 余万元、主犯最高判 11 年）与\"超 20 万人看假乒乓球赛\"跟进（23:04）；OpenAI Model Spec 五价值观版本页日期为 10/29（中文 11/02 首报）",
   "days": 1,
-  "first_seen": "2026-11-01"
+  "first_seen": "2026-11-02"
+ },
+ "W-42-91": {
+  "topic": "AI 基建外部性的制度化与叙事管理",
+  "signal": "🆕新增",
+  "desc": "OpenAI 推出 Grid Protectors：与电力公司、监管机构、政策制定者合作，让未来算力园区在电网紧张时降低用电需求，首站佐治亚 Effingham County，承诺最多释放 1,000 MW（官方页 11/02，The Verge 11/03 02:01）；同时筹备中期选举后的公关攻势，考虑把数据中心改称\"AI 算力园区\"、提供社区协议并推动州级立法（Axios→TechCrunch→IT之家，首席全球事务官 Chris Lehane 称此次选举是 2028 年大选\"预告片\"）；SemiAnalysis 分析中期选举如何影响 2028 年 62.2 GW 建设；对照 NAACP 诉 xAI 案继续推进——外部性从\"被起诉\"转向\"被制度化\"",
+  "days": 1,
+  "first_seen": "2026-11-02"
+ },
+ "W-42-92": {
+  "topic": "Token 零售渠道下沉至直播电商与聚合平台",
+  "signal": "🆕新增",
+  "desc": "李佳琦直播间 11/02 晚首卖 Token：售出 10 万份千问办公个人会员月卡、累计约 2 万亿 Token（财联社；单价与成交额未披露，商品与 CEO 陈宇森做客为凤凰财经口径），百度热搜 #4；按赛迪日均 175 万亿词元计约相当于全国单日调用量 1.1%（本报告换算）；OpenRouter 数据显示周处理 token 从 1 万亿到 100 万亿仅 78 周、消费越多的用户越倾向使用多家模型实验室、模型实验室人均订阅数攀升；Arena 新增按输出 token 与等待时长的智能体性价比对比",
+  "days": 1,
+  "first_seen": "2026-11-02"
+ },
+ "W-42-93": {
+  "topic": "AI 伪造内容的平台治理与司法判例",
+  "signal": "🆕新增",
+  "desc": "央视起底\"AI 生成女友\"诈骗流水线：15 人被骗 180 余万元、主犯最高判 11 年（IT之家 11/02 19:30）；\"超 20 万人看了一场假乒乓球比赛\"（视频号直播间 AI 语音播报假比分、赛后带货；事件首报 11/01，央视 11/02 23:04 跟进，微博 #4 热度 81,937）；网民编造\"花 260 万登顶珠峰\"被罚（百度热搜 #11）；Cisco Talos 发现新型木马 VOLTA 调用在线 AI 分析受害者数据价值（19:53）；巴西法院对诉状藏提示词的律师罚 1.6 万美元中文首报（15:57）",
+  "days": 1,
+  "first_seen": "2026-11-02"
+ },
+ "W-42-94": {
+  "topic": "旧事件二次传播造成的时效错判",
+  "signal": "🆕新增",
+  "desc": "11/02 至少四条旧事件重新获得热度：微软 6 万人自愿离职方案（VEO，10/26 宣布、约占 27%、预计接受不超 3,000 人）重回知乎热榜[回溯 D+7]；OpenAI Model Spec 五价值观（版本页与官方博客均标注 10/29）被量子位 11/02 15:27 中文首报[回溯 D+4]；Bloomberg《Jobless tech workers left out of SF's AI boom》（9/17）在 HN 拿到 98 分/115 评[回溯 D+46]；Epoch AI 的 GLM 5.3 攻破 Firefox 补丁窗口测试（10/30）在 AI HOT 拿到 76 分、404 Media 的 Proton CEO 撤回 AI 再面谈（10/31）拿到 66 分。规律为周一 + 中文媒体滞后 + 榜单偏好争议话题；采集侧必须逐条回溯首发日期，创作侧可标原始日期后做\"旧闻新解\"",
+  "days": 1,
+  "first_seen": "2026-11-02"
+ },
+ "W-42-95": {
+  "topic": "智能体法律人格与监管沙盒",
+  "signal": "🆕新增",
+  "desc": "美国特拉华州拟放宽商业监管，允许由 AI 智能体运营的企业（AIC）注册成立，并设 30 个月监管沙盒，期间由智能体在受监管环境中作出商业决策，AI 企业可被起诉也可主动提起诉讼（IT之家 11/02 08:18，据 TechRadar 报道，⚠️未见州政府一手文件）；同日 OpenAI Model Spec 把\"忠于人类意图\"列为五项价值观之首（版本日期 10/29），Suleyman 主张出现意识迹象即应暂停开发——法律人格、行为规范与意识红线三层同期推进",
+  "days": 1,
+  "first_seen": "2026-11-02"
+ },
+ "W-42-96": {
+  "topic": "通用智能体基准的现实校验与日常任务基准并行",
+  "signal": "🆕新增",
+  "desc": "SemiAnalysis 联合 14 家专业 RL 环境伙伴发布 GDPx，覆盖芯片设计、网络安全、生物、金融、法律、量化交易、硬件设计、材料科学、对齐与软件工程等 11 个领域：Claude Opus 5.5 平均仅 12% 居首、Gemini 4 Carbon 10.9%、GPT-6 Astra 在 AI 研究与材料科学分项领先（11/02 09:51、20:45），Sundar Pichai 12:34 公开点赞；同日 OpenAI 推出 LifeVal 日常任务评测（照护/健康/教育/家庭事务/个人理财/购物/政府服务，基于美国时间使用调查等两项研究并新增 3,995 名受访者，称 GPT-6 Astra 部分任务达 100%）；IDC FutureScape 2027 预测 2028 年企业 60% AI 负载跑开源模型、无智能体紧急停止开关者面临 25% 额外责任保费",
+  "days": 1,
+  "first_seen": "2026-11-02"
  }
 }

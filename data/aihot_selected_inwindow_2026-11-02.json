@@ -1,0 +1,140 @@
+[
+ {
+  "id": "owfopy087lszd1cpfp3c82pxv",
+  "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
+  "originalTitle": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+  "summary": "据 Bloomberg 与 The Information，Anthropic 该季度营收近 170 亿美元，为一年前的十二倍，但运营成本达 175 亿美元，季度净亏损 233 亿美元，高于去年同期的 121 亿美元。",
+  "source": {
+   "name": "The Decoder：AI News（RSS）"
+  },
+  "links": {
+   "aihot": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv",
+   "original": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
+  },
+  "publishedAt": "2026-11-02T16:26:03.000Z",
+  "discoveredAt": "2026-11-02T17:00:40.898Z",
+  "category": "industry",
+  "score": 77,
+  "selected": true,
+  "reason": "原文汇总多家媒体信源，把 Anthropic 营收激增与巨额亏损、算力承诺和 IPO 压力放在同一语境下呈现。",
+  "attribution": {
+   "name": "AIHOT",
+   "url": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv"
+  }
+ },
+ {
+  "id": "xvemmg9p83lxqktk7mc47zhcr",
+  "title": "Anthropic 更新 IPO 文件首次披露第三季度财报，从盈利 9.74 亿美元转为亏损 5.67 亿美元",
+  "originalTitle": "Anthropic published an updated IPO filing today with its third-quarter results for the first time.",
+  "summary": "Anthropic 更新 S-1 IPO 文件并首次披露第三季度业绩，经营利润从二季度盈利 9.74 亿美元转为三季度亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。",
+  "source": {
+   "name": "X：Rohan Paul (@rohanpaul_ai)"
+  },
+  "links": {
+   "aihot": "https://aihot.news/items/xvemmg9p83lxqktk7mc47zhcr",
+   "original": "https://x.com/rohanpaul_ai/status/2117285920500273582"
+  },
+  "publishedAt": "2026-11-02T16:01:15.000Z",
+  "discoveredAt": "2026-11-02T16:29:42.898Z",
+  "category": "industry",
+  "score": 83,
+  "selected": true,
+  "reason": "原文汇总了 Anthropic 更新 IPO 文件中的三季度财务细节，读者可以据此了解算力支出对其利润率的具体挤压。",
+  "attribution": {
+   "name": "AIHOT",
+   "url": "https://aihot.news/items/xvemmg9p83lxqktk7mc47zhcr"
+  }
+ },
+ {
+  "id": "sxbs5a90fgybhyucacmzvrc6w",
+  "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
+  "originalTitle": "Introducing the Grid Protectors Program",
+  "summary": "OpenAI 推出 Grid Protectors 计划，与电力公司、监管机构和政策制定者合作，让未来算力校园在电网紧张时降低用电需求，首站为 Effingham County 校园。",
+  "source": {
+   "name": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+  },
+  "links": {
+   "aihot": "https://aihot.news/items/sxbs5a90fgybhyucacmzvrc6w",
+   "original": "https://openai.com/index/grid-protectors-program"
+  },
+  "publishedAt": "2026-11-02T15:00:00.000Z",
+  "discoveredAt": "2026-11-02T15:59:36.885Z",
+  "category": "industry",
+  "score": 70,
+  "selected": true,
+  "reason": "OpenAI 首次系统化说明其校园电力弹性安排，给出 Georgia Power 合同的具体可削减容量与电费影响数据。",
+  "attribution": {
+   "name": "AIHOT",
+   "url": "https://aihot.news/items/sxbs5a90fgybhyucacmzvrc6w"
+  }
+ },
+ {
+  "id": "l37ydaic43icz85huclc2io6c",
+  "title": "腾讯混元发布 Hyra 2.0：让通用 agent 研发可复用的科学工具与模型",
+  "originalTitle": "Hyra 2.0 发布：为模型研发打造可复用工具",
+  "summary": "腾讯混元发布 Hyra 2.0，将自动化科研重点从直接解题转向由 agent 研发和升级科学模型、工作流与软件工具。系统采用 Overall、Mission、Worker 三层分工，接入企业微信、计算平台和代码仓库的实际研发环境，成果已公开在 GitHub 仓库。",
+  "source": {
+   "name": "公众号：腾讯混元"
+  },
+  "links": {
+   "aihot": "https://aihot.news/items/l37ydaic43icz85huclc2io6c",
+   "original": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498763&idx=1&sn=279f8fb4e43a987fdc0aa2af0b0f7958"
+  },
+  "publishedAt": "2026-11-02T10:06:28.000Z",
+  "discoveredAt": "2026-11-02T10:36:05.324Z",
+  "category": "ai-products",
+  "score": 68,
+  "selected": true,
+  "reason": "原文把自动化科研的思路从解题转向造工具，并给出蛋白质设计、量子码、处理器等具体成果和可复用的 Harness 分层设计。",
+  "attribution": {
+   "name": "AIHOT",
+   "url": "https://aihot.news/items/l37ydaic43icz85huclc2io6c"
+  }
+ },
+ {
+  "id": "dzwfvd9xp6v4qaj6olxezpier",
+  "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
+  "originalTitle": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。",
+  "summary": "自媒体作者卡兹克分享自己搭建近一年的Agent自动化系统，核心是把任务起点从人身上移开，由事件触发Agent工作。系统分为自动化中台、Agent执行、CI中台和飞书决策四层：中台用rules.json统一管理事件触发和Agent调度，本地MacMini跑Agent任务，自建CI中台完成审查、检查、合并、发布、核实五步，只在删数据、花钱、改方向等关键决策时通过飞书卡片找作者拍板。",
+  "source": {
+   "name": "公众号：数字生命卡兹克"
+  },
+  "links": {
+   "aihot": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier",
+   "original": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688060&idx=1&sn=e00d7e57b6f0e3670f0e267e677047df"
+  },
+  "publishedAt": "2026-11-02T00:19:00.000Z",
+  "discoveredAt": "2026-11-02T00:21:28.806Z",
+  "category": "tip",
+  "score": 72,
+  "selected": true,
+  "reason": "作者把自己一年搭建的Agent自动化架构拆成事件中台、执行、CI和飞书决策四层，给出可复用的规则与流程细节。",
+  "attribution": {
+   "name": "AIHOT",
+   "url": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier"
+  }
+ },
+ {
+  "id": "mhw3rtr5o13p5777y7el9tczk",
+  "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
+  "originalTitle": "Claude Code tip: if a task turns out harder than you expected, type ultrathink while Claude is working. It raises the effort for the rest...",
+  "summary": "Addy Osmani 分享 Claude Code 技巧：当任务比预期更难时，在 Claude 工作期间输入 ultrathink，可提升该回合剩余部分的推理努力，该功能适用于最新版本的终端。他引用 @dmwlff 的帖子，其中提到 ultrathink 已回归 Claude Code CLI，此前因显得怪异且可能令人困惑曾被关闭。",
+  "source": {
+   "name": "X：Addy Osmani (@addyosmani)"
+  },
+  "links": {
+   "aihot": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk",
+   "original": "https://x.com/addyosmani/status/2116986087390486816"
+  },
+  "publishedAt": "2026-11-01T20:09:49.000Z",
+  "discoveredAt": "2026-11-01T20:13:35.527Z",
+  "category": "tip",
+  "score": 67,
+  "selected": true,
+  "reason": "原文给出了一个 Claude Code 实用技巧，输入 ultrathink 可提升当前回合的推理努力，适合编码工作流直接复用。",
+  "attribution": {
+   "name": "AIHOT",
+   "url": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk"
+  }
+ }
+]
