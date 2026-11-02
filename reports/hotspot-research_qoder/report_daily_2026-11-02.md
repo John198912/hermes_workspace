@@ -328,6 +328,7 @@ OpenAI 的 Grid Protectors 把"电网紧张时削减用电"写成对外承诺（
 4. **SEC 大文件不要全量下载**：94MB 的 S-1/A 用 EDGAR 索引定位 + 三家媒体交叉即可；分期金额这类细节若各源不一致，**并列标注不取其一**（本期已如此处理）。
 5. **GitHub 新仓榜需验真**：批量刷星农场会用"created:>昨日 + sort:stars"霸榜，判别特征是同一时间段批量创建、描述模板化（"Full working installer"）、账号名随机拼词。
 6. **并发写入提示（连续第 12 期）**：本期 11/02 全天**未出现**并行进程写入（02:49 与 03:03 两次检查同目录与 `reports/hotspot/` 均无 11/02 文件，`_week_clues.json` 仍为 11/01 00:20 本进程写入的 368 条），因此本报告按"当日首份"命名为 `report_daily_2026-11-02.md`，未产生 AM/PM 分版。但外部进程在 11/01 的产出中已出现两类可复核错误（Mollick 旧文当日化、赛迪"渗透率 45%"原文未提及），**若后续出现 11/02 的外部版本，读者应以本版标注为准**；调度层二选一或加文件锁的建议第 8 次提出。
+  - **出稿后补记（03:20 复核）**：并行引擎进程于 **03:05:09** 写入了它自己的目录 `reports/hotspot/report_daily_2026-11-02_pm.md` 与 `hotspot_daily_2026-11-02_pm.json`，并生成 `data/aihot_daily_2026-11-02.json`、`data/aihot_daily_2026-11-02_full.json`；**未触碰** `reports/hotspot-research_qoder/` 与 `_week_clues.json`（后者 mtime 仍为本进程 03:12:31）。因此本期确实无同目录双写，本报告仍为 11/02 首份且无 AM/PM 分版；两套产出并存于不同目录，读者若对照阅读请以本版的时效标注为准。
 
 ### 验证器结果（Step 4.5 强制门）
 - 命令：`python3 .qoder/skills/hotspot-research/scripts/verify_report_template.py --report reports/hotspot-research_qoder/report_daily_2026-11-02.md --mode daily --report-dir .`
